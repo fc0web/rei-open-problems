@@ -1,0 +1,60 @@
+{
+  "id": "pl-higher-order-unification-boundary",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Higher-order unification (λ-calculus unification) is undecidable in general (Huet 1973). The exact boundary between decidable subsystems (first-order, pattern unification, second-order monadic) and undecidable ones for practical λ-calculi remains only partially mapped.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "unification",
+  "proposer": "Huet",
+  "year": 1973,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "III_NON_CONSTRUCTIVE",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Meta-boundary between decidable and undecidable",
+    "rationale": "Known patterns (Miller 1991, Nipkow 1993) decidable, general case undecidable",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "Cartography-level question, not a single theorem",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

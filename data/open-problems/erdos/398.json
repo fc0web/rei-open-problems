@@ -46,14 +46,14 @@
   "reiAssessment": {
     "mandalaPredicted": null,
     "approachSuggestion": null,
-    "paperCandidate": true,
-    "priority": "high",
-    "solveProbability": 0.8,
-    "solveRationale": "Familiar=True, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
-    "formalizationComplexity": "easy",
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "METADATA CORRECTED 2026-04-23 (STEP 5/option B): Brocard (1876) has only 3 known solutions n=4,5,7. Related to ABC conjecture; no known ZFC-visible path. Scaffold is single-sorry but the sorry is the 150-year-open problem. Prior: {\"famousHardCap\":null,\"solveProbability\":0.8,\"priority\":\"high\",\"paperCandidate\":true,\"formalizationComplexity\":\"easy\"}",
+    "formalizationComplexity": "hard-open",
     "formalizationNotes": null,
     "reiFamiliarRef": "Paper 121",
-    "famousHardCap": null
+    "famousHardCap": 0.2
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",

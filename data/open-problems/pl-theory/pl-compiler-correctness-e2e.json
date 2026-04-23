@@ -1,0 +1,60 @@
+{
+  "id": "pl-compiler-correctness-e2e",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "End-to-end compiler correctness for industrial-strength languages (C++, Rust, Java): CompCert (Leroy 2009) verified a C subset. A fully mechanically verified compiler for any complete mainstream language remains open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "verified-compilation",
+  "proposer": "Leroy",
+  "year": 2006,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "IV_COMPUTATIONAL",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Engineering + mathematics hybrid",
+    "rationale": "CompCert partial for C; full languages open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Engineering scale question",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

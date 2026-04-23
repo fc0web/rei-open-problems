@@ -1,0 +1,60 @@
+{
+  "id": "myst-apery-zeta-3-irrational-picture",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Apéry (1978) proved ζ(3) = Σ 1/n³ is irrational via rapidly-converging rational approximations. Decades later, the 'big picture' explanation (why this particular construction works) is still incomplete; no closed form for ζ(3) is known.",
+    "ja": null,
+    "latex": "\\zeta(3) = \\sum_{n=1}^{\\infty}\\frac{1}{n^3}",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "analytic-number-theory",
+  "subfield": "irrationality",
+  "proposer": "Apéry",
+  "year": 1978,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Proven irrational, but closed form elusive",
+    "rationale": "Irrationality proved; closed form, transcendence, generalizations open",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ap%C3%A9ry%27s_theorem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.3,
+    "solveRationale": "Irrationality of ζ(5), ζ(7), ... remains open",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.3
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "si-tennenbaum-theorem",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Tennenbaum's theorem (1959): no countable non-standard model of PA has computable + and · operations. Standard ℕ is uniquely computable. Reveals a deep computability boundary in foundational models. Generalizations to ZFC/HoTT partially understood.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "model-theory",
+  "subfield": "computable-models",
+  "proposer": "Tennenbaum",
+  "year": 1959,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-referential computability on ℕ",
+    "rationale": "Classical theorem; generalizations ongoing",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Tennenbaum%27s_theorem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Open higher-order / HoTT versions",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

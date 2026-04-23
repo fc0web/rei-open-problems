@@ -1,0 +1,60 @@
+{
+  "id": "pl-automatic-parallelization-theoretical-limit",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Theoretical limits of automatic parallelization: the fraction of sequential programs that admit correctness-preserving parallelization, and the complexity of detecting this, is unknown beyond special cases (affine loops, polyhedral model).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "parallelization",
+  "proposer": "various",
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "IV_COMPUTATIONAL",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Undecidability of full parallelization detection",
+    "rationale": "Polyhedral model covers affine; general case undecidable",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "Cartography",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

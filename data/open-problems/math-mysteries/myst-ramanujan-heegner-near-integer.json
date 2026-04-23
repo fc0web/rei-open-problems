@@ -1,0 +1,60 @@
+{
+  "id": "myst-ramanujan-heegner-near-integer",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Ramanujan's near-integer: e^(π√163) = 262537412640768743.99999999999925... extremely close to an integer. Explained by Heegner numbers + j-invariant of the elliptic curve over ℚ(√-163), but the phenomenon remains striking.",
+    "ja": null,
+    "latex": "e^{\\pi\\sqrt{163}} \\approx 640320^3 + 744",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "number-theory",
+  "subfield": "j-invariant",
+  "proposer": "Ramanujan/Hermite",
+  "year": 1859,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Near-integer coincidence vs actual irrationality",
+    "rationale": "Explained: 163 is largest Heegner number; j(τ) integrality",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Heegner_number",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Fully explained",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

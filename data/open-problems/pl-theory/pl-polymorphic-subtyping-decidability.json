@@ -1,0 +1,60 @@
+{
+  "id": "pl-polymorphic-subtyping-decidability",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Pierce, TAPL 2002 chapter 26",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Polymorphic subtyping with intersection types: the decidability of type-checking for System F + bounded quantification + intersection types remains open in full generality; known-decidable subsystems vs full undecidable system boundary is not fully mapped.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "type-systems",
+  "proposer": "Pierce, Castagna, Cardelli",
+  "year": 1992,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Decidability boundary is an undecidable meta-question",
+    "rationale": "Known partial results: F<: undecidable (Pierce 1992), F-bounded decidable in restrictions",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.15,
+    "solveRationale": "Rice-flavored meta-obstruction",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.15
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

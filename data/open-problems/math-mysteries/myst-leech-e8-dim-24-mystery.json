@@ -1,0 +1,60 @@
+{
+  "id": "myst-leech-e8-dim-24-mystery",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Viazovska, Ann. Math. 2017 (E8); Cohn-Kumar-Miller-Radchenko-Viazovska 2017 (24-dim)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "The Leech lattice in 24 dimensions provides the densest lattice sphere packing; E8 in 8 dimensions similarly optimal (Viazovska 2016, Fields Medal). Open: deeper explanation for 'why 8 and 24?' beyond modular-form coincidences; connections to string theory and Monster remain active.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "geometry",
+  "subfield": "sphere-packing",
+  "proposer": "Conway, Leech, Viazovska",
+  "year": 1965,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Optimal in specific dim; open why exactly those",
+    "rationale": "Optimality proven (8, 24); explanation bridges several fields",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Leech_lattice",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Deep structure active; dim 2, 8, 24, 25 specific",
+    "formalizationComplexity": "very-hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

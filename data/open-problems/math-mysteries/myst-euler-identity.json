@@ -1,0 +1,60 @@
+{
+  "id": "myst-euler-identity",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Euler's identity: e^(iπ) + 1 = 0. Famously bundles five fundamental constants (0, 1, e, i, π) in a minimal relation. Solved but the 'why does it feel so surprising' question is philosophical.",
+    "ja": null,
+    "latex": "e^{i\\pi} + 1 = 0",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "complex-analysis",
+  "subfield": "transcendental-identities",
+  "proposer": "Euler",
+  "year": 1748,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Fully proven, canonical beauty",
+    "rationale": "Provable from e^(ix) = cos(x) + i sin(x); depth is aesthetic",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Euler%27s_identity",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Proven",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

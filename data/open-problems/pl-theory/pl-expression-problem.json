@@ -1,0 +1,60 @@
+{
+  "id": "pl-expression-problem",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wadler 1998, mailing-list discussion; Oliveira & Cook 2012 for object algebras",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Expression Problem (Wadler 1998): can one design a programming language construct that allows adding both new data variants and new operations to an existing module without modifying the module, while preserving static type safety and without runtime overhead?",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "type-systems",
+  "proposer": "Philip Wadler",
+  "year": 1998,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Data-op duality is structurally dual; current solutions pick one side",
+    "rationale": "Partial solutions (typeclasses, tagless-final, object algebras) exist but tradeoffs remain",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Expression_problem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.35,
+    "solveRationale": "Known partial techniques; ultimate canonical solution open",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.35
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

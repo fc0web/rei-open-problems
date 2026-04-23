@@ -1,0 +1,60 @@
+{
+  "id": "si-paraconsistent-logic",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Paraconsistent logic (da Costa 1963): classical logic's ex falso quodlibet (contradiction implies everything) is replaced by systems tolerating local contradictions. Open: canonical paraconsistent logic for AI reasoning under inconsistent knowledge bases.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "logic",
+  "subfield": "non-classical-logic",
+  "proposer": "da Costa",
+  "year": 1963,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "BOTH state is the paraconsistent native value",
+    "rationale": "Families of paraconsistent logics; canonical choice for AI open",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Paraconsistent_logic",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "AI need driving active research",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "D-FUMT₈ BOTH / NEITHER",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

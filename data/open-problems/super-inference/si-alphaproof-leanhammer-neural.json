@@ -1,0 +1,62 @@
+{
+  "id": "si-alphaproof-leanhammer-neural",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "AlphaProof (DeepMind 2024) + LeanHammer (Song et al 2025): LLM-guided Lean 4 proof search. Solves IMO-level problems via reinforcement learning on proof state. Open: scaling to research-level Lean 4 open problems; reliability guarantees.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "automated-reasoning",
+  "subfield": "neural-proof-search",
+  "proposer": "DeepMind, Song et al",
+  "year": 2024,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "IV_COMPUTATIONAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Neural-symbolic hybrid",
+    "rationale": "Active 2024-2026 frontier",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "https://deepmind.google/discover/blog/ai-achieves-silver-medal-standard-solving-international-mathematical-olympiad-problems/"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.55,
+    "solveRationale": "Rapid industrial progress",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Paper 134",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

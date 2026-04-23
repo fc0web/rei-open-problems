@@ -1,0 +1,60 @@
+{
+  "id": "myst-ramanujan-p-adic-1248",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "2-adic Ramanujan summation: 1+2+4+8+… = -1 converges in the 2-adic metric but diverges in ℝ. The multi-consistency of p-adic summation across different completions of ℚ is a foundational puzzle: different completions give different canonical answers.",
+    "ja": null,
+    "latex": "\\sum_{n=0}^{\\infty} 2^n \\equiv -1 \\pmod{2^\\infty}",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "p-adic-analysis",
+  "subfield": "summation",
+  "proposer": "Ramanujan/Hensel",
+  "year": 1900,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Different completions give different sums (canonical BOTH)",
+    "rationale": "Ostrowski: completions of ℚ are ℝ and ℚ_p for primes p",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/P-adic_number",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Solved via Ostrowski",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

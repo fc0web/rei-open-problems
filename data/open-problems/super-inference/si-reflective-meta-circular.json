@@ -1,0 +1,60 @@
+{
+  "id": "si-reflective-meta-circular",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Reflective / meta-circular reasoning (Brian Smith's 3-Lisp 1984): language whose operations include operating on its own semantics. A reasoning agent that can examine and modify its own inference rules. Open: canonical reflective tower that doesn't collapse or diverge.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "reflection",
+  "proposer": "Brian Cantwell Smith",
+  "year": 1984,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-modifying reasoning is canonically SELF",
+    "rationale": "3-Lisp, Clos MOP partial; convergent tower open",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "Niche but deep",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

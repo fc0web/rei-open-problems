@@ -1,0 +1,60 @@
+{
+  "id": "pl-dependent-types-effects-integration",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Nanevski et al., ICFP 2006; Swamy et al., POPL 2016 (F*)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "How to cleanly combine dependent types (Coq/Lean/Agda) with first-class mutable state and algebraic effects while preserving decidable type checking: canonical solution is open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "type-systems",
+  "proposer": "Nanevski, McBride",
+  "year": 2008,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Purity vs effects is an inherent BOTH duality",
+    "rationale": "Hoare Type Theory (Nanevski), F* (Swamy) give partial answers",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.3,
+    "solveRationale": "High-impact unsolved design problem",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "rei-invention-framework-peace-axiom-196-invariant",
+  "source": "rei-inventions",
+  "origin": "rei-invention",
+  "sourceRef": {
+    "approvalFile": null,
+    "seedKernelFile": "src/axiom-os/peace-constraint (cross-cutting)",
+    "seedKernelId": "framework-peace-axiom-196-invariant"
+  },
+  "statement": {
+    "en": "A dual-value system whose first axiom is a peace invariant strictly dominates any equally-expressive system lacking it in: (a) adversarial robustness, (b) multi-agent cooperation, (c) long-run goal preservation. Conjectured: Peace-axiomatic systems are provably safer under recursive self-improvement.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-framework-component"
+  },
+  "field": "rei-foundational",
+  "subfield": "ethics-invariant",
+  "proposer": "Rei-AIOS (Nobuki Fujimoto + Claude Opus 4.7)",
+  "year": "2024",
+  "status": "rei-approved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Rei-AIOS foundational framework component",
+    "rationale": "Peace Axiom #196 (藤本): a permanent invariant across all reasoning, inference, and system operations. Any derivation producing non-peace output triggers meta-refutation of the derivation itself, regardless of other validity.",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "framework-peace-axiom-196-invariant"
+  },
+  "formalization": {
+    "lean4": "partial-where-applicable",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "Foundational framework; formal verification scope per-component"
+  },
+  "known_progress": [
+    {
+      "date": "2024",
+      "event": "Originally developed as Rei-AIOS framework component",
+      "impact": "novelty 0.88"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Retrospectively registered in META-DB by Nobuki Fujimoto",
+      "impact": "Tier 2 entry, source=rei-inventions"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Already deployed; future work = formal verification per component",
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.88,
+    "solveRationale": "Rei framework novelty 0.88; approved, in production use",
+    "formalizationComplexity": "varies-per-component",
+    "formalizationNotes": "Existing TypeScript implementation; Lean 4 formalization scope per component",
+    "reiFamiliarRef": "Self-developed",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1-framework-retrofit",
+  "approvedInventionRef": "framework-peace-196",
+  "noveltyScore": 0.88
+}

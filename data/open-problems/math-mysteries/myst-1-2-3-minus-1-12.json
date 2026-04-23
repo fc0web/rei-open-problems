@@ -1,0 +1,60 @@
+{
+  "id": "myst-1-2-3-minus-1-12",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Ramanujan/zeta regularization: 1+2+3+… = -1/12 via analytic continuation ζ(-1). Used in string theory (26-dim bosonic) and Casimir effect; the 'sum' is not convergent sum but continuation. Open: full axiomatization of which divergent series admit which canonical regularization.",
+    "ja": null,
+    "latex": "\\zeta(-1) = -\\frac{1}{12}",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "analytic-number-theory",
+  "subfield": "regularization",
+  "proposer": "Ramanujan/Euler",
+  "year": 1915,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Divergent-in-usual-sense + canonical-in-ζ-sense",
+    "rationale": "Mathematically rigorous in right framework; pedagogy remains contentious",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_%E2%8B%AF",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.5,
+    "solveRationale": "Full regularization theory partial",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

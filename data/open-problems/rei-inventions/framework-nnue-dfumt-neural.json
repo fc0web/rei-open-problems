@@ -1,0 +1,73 @@
+{
+  "id": "rei-invention-framework-nnue-dfumt-neural",
+  "source": "rei-inventions",
+  "origin": "rei-invention",
+  "sourceRef": {
+    "approvalFile": null,
+    "seedKernelFile": "src/aios/nnue/ (STEP 199+)",
+    "seedKernelId": "framework-nnue-dfumt-neural"
+  },
+  "statement": {
+    "en": "A neural evaluation function with D-FUMT₈ output encoding generalizes strictly better than scalar-output NNUE on positions with genuine uncertainty or multiple-optimal structure. Conjectured: D-FUMT₈-NNUE is the canonical output representation for AI evaluation functions facing epistemic ambiguity.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-framework-component"
+  },
+  "field": "rei-foundational",
+  "subfield": "neural-learning",
+  "proposer": "Rei-AIOS (Nobuki Fujimoto + Claude Opus 4.7)",
+  "year": "2026",
+  "status": "rei-approved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Rei-AIOS foundational framework component",
+    "rationale": "NNUE D-FUMT: neural network evaluation function with D-FUMT₈ eight-valued encoding in its output layer, allowing evaluation to express BOTH/NEITHER/FLOWING states natively rather than collapsing to scalar. First deployed in Rei-AIOS shogi engine (STEP 199-210+, generations 0→1 loss 5.78→4.01).",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "framework-nnue-dfumt-neural"
+  },
+  "formalization": {
+    "lean4": "partial-where-applicable",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "Foundational framework; formal verification scope per-component"
+  },
+  "known_progress": [
+    {
+      "date": "2026-01",
+      "event": "Originally developed as Rei-AIOS framework component",
+      "impact": "novelty 0.82"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Retrospectively registered in META-DB by Nobuki Fujimoto",
+      "impact": "Tier 2 entry, source=rei-inventions"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Already deployed; future work = formal verification per component",
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.82,
+    "solveRationale": "Rei framework novelty 0.82; approved, in production use",
+    "formalizationComplexity": "varies-per-component",
+    "formalizationNotes": "Existing TypeScript implementation; Lean 4 formalization scope per component",
+    "reiFamiliarRef": "Self-developed",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1-framework-retrofit",
+  "approvedInventionRef": "framework-nnue-dfumt",
+  "noveltyScore": 0.82
+}

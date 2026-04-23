@@ -1,0 +1,60 @@
+{
+  "id": "pl-algebraic-effects-canonical-model",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Algebraic effects and handlers (Plotkin-Power 2003, Plotkin-Pretnar 2013): the canonical denotational model beyond the free monad for arbitrary effect theories remains open; characterizing which effects admit cartesian closed structure is unresolved.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "effect-systems",
+  "proposer": "Plotkin-Power, Plotkin-Pretnar",
+  "year": 2003,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Effects are inherently flow-structured",
+    "rationale": "Free-monad adequate for representation, not canonical for all",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Active research",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

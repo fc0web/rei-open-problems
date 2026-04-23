@@ -1,0 +1,60 @@
+{
+  "id": "myst-ramanujan-tau-multiplicativity",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Ramanujan tau function: τ(n) defined via Δ(q) = q·Π(1-q^n)^24 = Σ τ(n)q^n. Mock-mysteriously multiplicative: τ(mn) = τ(m)τ(n) for (m,n)=1. Proven via Hecke operators; |τ(p)| ≤ 2p^(11/2) (Deligne 1974, Weil conjectures).",
+    "ja": null,
+    "latex": "\\Delta(q) = q\\prod_{n=1}^{\\infty}(1-q^n)^{24} = \\sum_{n=1}^{\\infty} \\tau(n)q^n",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "modular-forms",
+  "subfield": "L-functions",
+  "proposer": "Ramanujan",
+  "year": 1916,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Proven via Hecke + Deligne",
+    "rationale": "Weil conjectures supply the bounds; multiplicativity from Hecke",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Ramanujan_tau_function",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Proven; τ(p) prime-related conjectures remain (Lehmer: τ(n)=0 never?)",
+    "formalizationComplexity": "very-hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

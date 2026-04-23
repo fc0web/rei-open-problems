@@ -1,0 +1,60 @@
+{
+  "id": "myst-bbp-pi-digit-extraction",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "BBP formula (Bailey-Borwein-Plouffe 1995): π = Σ 1/16^k · (4/(8k+1) − 2/(8k+4) − 1/(8k+5) − 1/(8k+6)). Enables computing the n-th hexadecimal digit of π without computing prior digits. Open: does a base-10 BBP-style formula exist?",
+    "ja": null,
+    "latex": "\\pi = \\sum_{k=0}^{\\infty} \\frac{1}{16^k}\\left(\\frac{4}{8k+1} - \\frac{2}{8k+4} - \\frac{1}{8k+5} - \\frac{1}{8k+6}\\right)",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "number-theory",
+  "subfield": "constants",
+  "proposer": "Bailey-Borwein-Plouffe",
+  "year": 1995,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Base-dependent structure",
+    "rationale": "Base-16 known; base-10 BBP-style open (Borwein-Galway 2003)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Decimal case genuinely open",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

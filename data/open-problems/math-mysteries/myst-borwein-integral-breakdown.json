@@ -1,0 +1,60 @@
+{
+  "id": "myst-borwein-integral-breakdown",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Borwein integral: ∫₀^∞ sinc(x)·sinc(x/3)·sinc(x/5)·…·sinc(x/(2k+1)) dx equals exactly π/2 for k=0,1,…,7, but fails at k=8 when the sum 1/3+1/5+…+1/15 first exceeds 1. The 'breaking point' is the point where overlapping supports in Fourier space first cover the origin.",
+    "ja": null,
+    "latex": "\\int_0^\\infty \\prod_{k=0}^{N} \\mathrm{sinc}(x/(2k+1)) dx",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "analysis",
+  "subfield": "integrals",
+  "proposer": "Borwein & Borwein",
+  "year": 2001,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Threshold phenomenon at critical k",
+    "rationale": "Fourier-convolution explanation well understood",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Borwein_integral",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Solved; used as a cautionary example",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

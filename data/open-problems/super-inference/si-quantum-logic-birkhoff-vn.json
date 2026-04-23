@@ -1,0 +1,60 @@
+{
+  "id": "si-quantum-logic-birkhoff-vn",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Quantum logic (Birkhoff-von Neumann 1936): propositions form an orthomodular lattice rather than a Boolean algebra; distributivity fails. P∧(Q∨R) ≠ (P∧Q)∨(P∧R). Reflects noncommuting observables. Open: canonical interpretation bridging back to operational reasoning.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "mathematical-physics",
+  "subfield": "quantum-logic",
+  "proposer": "Birkhoff, von Neumann",
+  "year": 1936,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Observables that do not commute give canonical BOTH",
+    "rationale": "Lattice theory settled; operational interpretation open",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Quantum_logic",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Foundational debate active",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Paper 129 QMP 8-attractor D-FUMT₈ structural bijection",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

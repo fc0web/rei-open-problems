@@ -1,0 +1,73 @@
+{
+  "id": "rei-invention-framework-w48-negative-capability",
+  "source": "rei-inventions",
+  "origin": "rei-invention",
+  "sourceRef": {
+    "approvalFile": null,
+    "seedKernelFile": "src/axiom-os/ai-weakness/w48-*.ts (STEP 45)",
+    "seedKernelId": "framework-w48-negative-capability"
+  },
+  "statement": {
+    "en": "For a reasoning agent facing genuinely underdetermined input, deliberate persistence in NEITHER (unknown) or FLOWING (evolving) is epistemically superior to forced collapse to TRUE/FALSE. Conjectured: any reasoning system without W-48 accumulates false commitments at a rate proportional to its deliberation depth.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-framework-component"
+  },
+  "field": "rei-foundational",
+  "subfield": "cognitive-epistemology",
+  "proposer": "Rei-AIOS (Nobuki Fujimoto + Claude Opus 4.7)",
+  "year": "2025",
+  "status": "rei-approved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Rei-AIOS foundational framework component",
+    "rationale": "W-48 Negative Capability (Keats 1817 → Rei): the ability to remain in uncertainty, doubt, and mystery without irritable reaching after fact and reason, formalized as deliberate persistence in NEITHER/FLOWING states rather than premature collapse to TRUE/FALSE.",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "framework-w48-negative-capability"
+  },
+  "formalization": {
+    "lean4": "partial-where-applicable",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "Foundational framework; formal verification scope per-component"
+  },
+  "known_progress": [
+    {
+      "date": "2025-12",
+      "event": "Originally developed as Rei-AIOS framework component",
+      "impact": "novelty 0.78"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Retrospectively registered in META-DB by Nobuki Fujimoto",
+      "impact": "Tier 2 entry, source=rei-inventions"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Already deployed; future work = formal verification per component",
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.78,
+    "solveRationale": "Rei framework novelty 0.78; approved, in production use",
+    "formalizationComplexity": "varies-per-component",
+    "formalizationNotes": "Existing TypeScript implementation; Lean 4 formalization scope per component",
+    "reiFamiliarRef": "Self-developed",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1-framework-retrofit",
+  "approvedInventionRef": "framework-w48",
+  "noveltyScore": 0.78
+}

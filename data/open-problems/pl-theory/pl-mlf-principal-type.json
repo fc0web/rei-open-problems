@@ -1,0 +1,60 @@
+{
+  "id": "pl-mlf-principal-type",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Le Botlan & Rémy, POPL 2003; Rémy & Yakobowski JFP 2008",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "MLF (Le Botlan & Rémy 2003) principal-type existence for full ML + higher-rank polymorphism: open whether every typable program admits a principal type in the full system.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "type-inference",
+  "proposer": "Le Botlan & Rémy",
+  "year": 2003,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Type inference for higher-rank is flow-sensitive",
+    "rationale": "MLF paper conjectured; full proof never appeared",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Likely solvable with sufficient effort; low community activity",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

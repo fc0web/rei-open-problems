@@ -1,0 +1,60 @@
+{
+  "id": "myst-monstrous-moonshine",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Borcherds Invent. Math. 1992",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Monstrous Moonshine (Conway-Norton 1979, Borcherds 1992): the Fourier coefficients of the modular j-invariant j(τ) equal linear combinations of dimensions of irreducible representations of the Monster sporadic group. First coefficient: 196884 = 196883 + 1. Proven (Fields Medal 1998) but deeper explanation via vertex operator algebras remains active research.",
+    "ja": null,
+    "latex": "j(\\tau) = q^{-1} + 744 + 196884q + 21493760q^2 + \\ldots",
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "algebra",
+  "subfield": "sporadic-groups",
+  "proposer": "Conway & Norton",
+  "year": 1979,
+  "status": "solved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Bridge between finite group and modular form",
+    "rationale": "Borcherds 1992 proof via Monster vertex algebra",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Monstrous_moonshine",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 1,
+    "solveRationale": "Main theorem solved; generalizations (umbral moonshine) active",
+    "formalizationComplexity": "very-hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

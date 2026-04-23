@@ -1,0 +1,60 @@
+{
+  "id": "pl-self-hosting-minimal-axioms",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Minimal axiomatization for a self-compiling / self-hosting language: what is the smallest set of primitives sufficient for a bootstrapping compiler? Rei-PL Forth kernel is 3.9 KB; the theoretical minimum is open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "bootstrapping",
+  "proposer": "Moore (Forth), various",
+  "year": 1970,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Minimality is a flow optimization target",
+    "rationale": "Rei-PL reached 3.9 KB; lower bound unknown",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.45,
+    "solveRationale": "Tractable via combinatory logic bounds",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Rei-PL Forth kernel",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

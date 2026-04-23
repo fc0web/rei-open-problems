@@ -1,0 +1,60 @@
+{
+  "id": "si-linear-logic-coherence",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Linear logic + coherence spaces (Girard 1987): propositions treated as resources consumed on use; A → B becomes A ⊸ B with explicit duplication via !A. Foundational for session types, quantum logic, concurrency. Fully decidable propositional fragment; proof-net canonicity open for higher-order.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "logic",
+  "subfield": "substructural",
+  "proposer": "Girard",
+  "year": 1987,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Resources flow, are consumed",
+    "rationale": "Prop fragment solved; HO proof-nets open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Linear_logic",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Mainstream logic research",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

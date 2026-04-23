@@ -1,0 +1,60 @@
+{
+  "id": "pl-program-equivalence-decidable-subclasses",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Characterization of program-equivalence decidability boundaries: while Rice's theorem shows general undecidability, the exact decidable subclasses (linear programs, sized types, primitive recursive, polynomial-time fragments) form an incomplete classification.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "verification",
+  "proposer": "Rice",
+  "year": 1953,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Meta-undecidability of the boundary",
+    "rationale": "Rice-theorem general; particular classes open",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "Cartography, not single theorem",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "pl-session-types-expressive-power",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Caires & Pfenning CONCUR 2010; Wadler POPL 2012",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "The expressive-power boundary of session types relative to asynchronous π-calculus: open whether every π-calculus process typable in some session-type system has a fully abstract encoding, and the converse.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "concurrency-types",
+  "proposer": "Honda, Yoshida",
+  "year": 1998,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Concurrency is inherently flow-oriented",
+    "rationale": "Linear session types ↔ linear logic known (Caires-Pfenning 2010); generalization open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.35,
+    "solveRationale": "Active research area, incremental progress",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

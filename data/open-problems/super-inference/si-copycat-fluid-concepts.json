@@ -1,0 +1,60 @@
+{
+  "id": "si-copycat-fluid-concepts",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Copycat / Fluid Concepts (Hofstadter & Mitchell 1995): AI architecture for analogy-making, solving A:B::C:? problems via parallel temperature-controlled agents. Demonstrated that analogy is a core reasoning primitive. Open: scaling to general analogy beyond toy domains.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "cognitive-science",
+  "subfield": "analogy",
+  "proposer": "Hofstadter, Mitchell",
+  "year": 1995,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Analogy is inherently flow",
+    "rationale": "Foundational but not scaled",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Copycat_(software)",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.35,
+    "solveRationale": "LLMs now partially doing this; rigorous framework open",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "myst-ramanujan-continued-fractions",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Rogers-Ramanujan continued fractions: e.g., (√(φ√5) − φ) · e^(2π/5) = 1/(1 + e^(-2π)/(1 + e^(-4π)/(…))). Many such identities in Ramanujan's notebooks; several remain with only indirect proofs (via modular forms).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "number-theory",
+  "subfield": "continued-fractions",
+  "proposer": "Ramanujan",
+  "year": 1913,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Unexpected identities with post-hoc modular explanation",
+    "rationale": "Rogers-Ramanujan proved; many notebook CFs still open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Rogers%E2%80%93Ramanujan_continued_fraction",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Specific CFs still open",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

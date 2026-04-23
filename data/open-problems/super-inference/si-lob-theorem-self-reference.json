@@ -1,0 +1,60 @@
+{
+  "id": "si-lob-theorem-self-reference",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Löb's theorem (1955): if PA ⊢ (□P → P), then PA ⊢ P. The 'trust-yourself' pattern forces self-fulfilling deduction. Foundational for self-referential AI reasoning, decision theory (acausal trade), and predictability. Open: clean characterization of Löb-stable reasoning systems.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "modal-logic",
+  "subfield": "provability",
+  "proposer": "Löb",
+  "year": 1955,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-provability is the native SELF type",
+    "rationale": "Classical proved; AI/decision-theoretic implications ongoing",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/L%C3%B6b%27s_theorem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "MIRI research active",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "myst-feynman-path-integral-rigor",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Feynman path integrals: heuristic ∫Dφ e^(iS[φ]) gives correct physics but is rigorously defined only in special cases (Euclidean via Wiener measure, some free/quadratic actions, certain topological QFTs). Canonical construction in general remains open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "mathematical-physics",
+  "subfield": "functional-integration",
+  "proposer": "Feynman",
+  "year": 1948,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Heuristic vs rigor gap",
+    "rationale": "Glimm-Jaffe for partial; general open",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Path_integral_formulation",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.2,
+    "solveRationale": "Deeply tied to QFT rigor",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.2
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

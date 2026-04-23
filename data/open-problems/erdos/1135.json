@@ -46,14 +46,14 @@
   "reiAssessment": {
     "mandalaPredicted": null,
     "approachSuggestion": null,
-    "paperCandidate": true,
-    "priority": "high",
-    "solveProbability": 0.8,
-    "solveRationale": "Familiar=True, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
-    "formalizationComplexity": "easy",
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "METADATA CORRECTED 2026-04-23 (STEP 5/option B): Collatz is a world-famous open problem (1937-). Rei baseline famousHardCap=0.60 (Paper 130). Prior ingestion auto-marked paperCandidate=true based on 1-sorry scaffold, but the single sorry is the open problem itself. Prior: {\"famousHardCap\":null,\"solveProbability\":0.8,\"priority\":\"high\",\"paperCandidate\":true,\"formalizationComplexity\":\"easy\"}",
+    "formalizationComplexity": "hard-open",
     "formalizationNotes": null,
     "reiFamiliarRef": "Papers 55/57/58 + 80 STEPs",
-    "famousHardCap": null
+    "famousHardCap": 0.6
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",

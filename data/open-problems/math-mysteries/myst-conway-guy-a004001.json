@@ -1,0 +1,62 @@
+{
+  "id": "myst-conway-guy-a004001",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Conway-Hofstadter sequence (OEIS A004001): a(1)=a(2)=1, a(n) = a(a(n-1)) + a(n-a(n-1)). Exhibits self-similar fractal growth. The full asymptotic behavior a(n) ~ n/2 + ε(n) with ε showing fractal oscillations is only partially characterized.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "combinatorics",
+  "subfield": "meta-fibonacci-sequences",
+  "proposer": "Conway",
+  "year": 1988,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Self-similar recursion",
+    "rationale": "Meta-Fibonacci; asymptotics partial (Pinn 1999)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "https://oeis.org/A004001"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Asymptotic details open",
+    "formalizationComplexity": "moderate",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "myst-qft-renormalization-rigor",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "QFT renormalization mathematical rigor: the physics procedure (subtract infinities via counterterms) produces correct finite predictions (QED: 12 significant digits), but full axiomatic (Wightman, Osterwalder-Schrader, AQFT) formalization of interacting 4D QFT remains open — part of the Yang-Mills Millennium Prize.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "mathematical-physics",
+  "subfield": "qft",
+  "proposer": "Wightman, Yang-Mills",
+  "year": 1950,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Physics works; mathematics incomplete",
+    "rationale": "Yang-Mills Millennium; constructive QFT partial",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Renormalization",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.25,
+    "solveRationale": "Connected to Yang-Mills Millennium Prize",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.25
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "myst-googology-tree3-rayo",
+  "source": "math-mysteries",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Googology giant numbers: TREE(3) dwarfs Graham's number by inexpressible amounts (Friedman); Rayo(N) = largest number definable in set theory with N symbols; BIG FOOT exceeds Rayo. Study of such finite-but-incomprehensible numbers tests foundational intuitions about 'finite'.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "foundations",
+  "subfield": "large-numbers",
+  "proposer": "Friedman, Rayo",
+  "year": 2000,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Finite but beyond canonical finiteness intuition",
+    "rationale": "TREE(3), Rayo exist but structure is studied only partially",
+    "confidence": "INFINITY"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "https://googology.fandom.com/"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.3,
+    "solveRationale": "Ordinal analysis connects",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

@@ -46,14 +46,14 @@
   "reiAssessment": {
     "mandalaPredicted": null,
     "approachSuggestion": null,
-    "paperCandidate": true,
-    "priority": "high",
-    "solveProbability": 0.8,
-    "solveRationale": "Familiar=True, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
-    "formalizationComplexity": "easy",
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.1,
+    "solveRationale": "METADATA CORRECTED 2026-04-23 (STEP 5/option B): Erdős-Hajnal-Rado style growth conjecture for r-uniform hypergraph Ramsey numbers. Even r=3 case (log log R_3(n) ≍ n) is profoundly open. No nearby breakthrough. Prior: {\"famousHardCap\":null,\"solveProbability\":0.8,\"priority\":\"high\",\"paperCandidate\":true,\"formalizationComplexity\":\"easy\"}",
+    "formalizationComplexity": "hard-open",
     "formalizationNotes": null,
     "reiFamiliarRef": "STEP 971 Paper 127-130 lineage",
-    "famousHardCap": null
+    "famousHardCap": 0.1
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",

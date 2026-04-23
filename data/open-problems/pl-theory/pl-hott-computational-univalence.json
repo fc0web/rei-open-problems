@@ -1,0 +1,60 @@
+{
+  "id": "pl-hott-computational-univalence",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "HoTT Book 2013; Cohen et al. 2015 (cubical)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Computational univalence in Homotopy Type Theory (HoTT): Cubical Type Theory (Cohen-Coquand-Huber-Mörtberg 2015) gives one canonical solution. Open whether a simpler formulation, or a general class of models satisfying computational univalence, exists.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "type-theory",
+  "proposer": "Voevodsky",
+  "year": 2006,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Paths-as-equality is an intentional BOTH fusion",
+    "rationale": "Cubical solves, canonical form open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Homotopy_type_theory",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.35,
+    "solveRationale": "Field-defining open question",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

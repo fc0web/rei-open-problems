@@ -1,0 +1,60 @@
+{
+  "id": "pl-non-turing-computation-comparison",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Comparative power of Turing-equivalent vs proposed non-Turing computational models (quantum, analog, biological, infinite-time Turing machines, hypercomputation): whether any physically realizable model truly exceeds Turing power is open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "computability",
+  "proposer": "Copeland, Deutsch, various",
+  "year": 1985,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Physical realizability vs abstract power",
+    "rationale": "Church-Turing thesis physicalized form open",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Hypercomputation",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.1,
+    "solveRationale": "Philosophy-of-physics entangled",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.1
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

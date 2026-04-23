@@ -1,0 +1,73 @@
+{
+  "id": "rei-invention-framework-dfumt8-eight-valued-logic",
+  "source": "rei-inventions",
+  "origin": "rei-invention",
+  "sourceRef": {
+    "approvalFile": null,
+    "seedKernelFile": "src/axiom-os/seven-logic.ts (STEP 406)",
+    "seedKernelId": "framework-dfumt8-eight-valued-logic"
+  },
+  "statement": {
+    "en": "Every reasoning operation in Rei-AIOS is expressible in D-FUMT₈, and every D-FUMT₈ value has a canonical interpretation applicable across domains (arithmetic, logic, physics, philosophy). Conjectured: D-FUMT₈ is the minimal complete set of truth values for paraconsistent + modal + intuitionistic + quantum + self-referential reasoning combined.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-framework-component"
+  },
+  "field": "rei-foundational",
+  "subfield": "logic-foundation",
+  "proposer": "Rei-AIOS (Nobuki Fujimoto + Claude Opus 4.7)",
+  "year": "2026",
+  "status": "rei-approved",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Rei-AIOS foundational framework component",
+    "rationale": "D-FUMT₈ 八値論理: TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF as a canonical eight-valued extension of classical Boolean logic, unified across all Rei-AIOS modules as a shared reasoning substrate (STEP 406).",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "framework-dfumt8-eight-valued-logic"
+  },
+  "formalization": {
+    "lean4": "partial-where-applicable",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "Foundational framework; formal verification scope per-component"
+  },
+  "known_progress": [
+    {
+      "date": "2026-01",
+      "event": "Originally developed as Rei-AIOS framework component",
+      "impact": "novelty 0.92"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Retrospectively registered in META-DB by Nobuki Fujimoto",
+      "impact": "Tier 2 entry, source=rei-inventions"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Already deployed; future work = formal verification per component",
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.92,
+    "solveRationale": "Rei framework novelty 0.92; approved, in production use",
+    "formalizationComplexity": "varies-per-component",
+    "formalizationNotes": "Existing TypeScript implementation; Lean 4 formalization scope per component",
+    "reiFamiliarRef": "Self-developed",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1-framework-retrofit",
+  "approvedInventionRef": "framework-dfumt8",
+  "noveltyScore": 0.92
+}

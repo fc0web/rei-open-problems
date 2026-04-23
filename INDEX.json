@@ -3,13 +3,13 @@
   "name": "Open Problems META-DB (Rei-AIOS) — Public Snapshot",
   "lastUpdate": "2026-04-23",
   "description": "Public snapshot of Rei-AIOS Open Problems META-DB. Citation via Paper 130 DOI 10.5281/zenodo.19700758.",
-  "totalProblems": 2570,
-  "totalReiInventions": 10,
+  "totalProblems": 2615,
+  "totalReiInventions": 15,
   "totalClaudeDiscoveries": 3,
-  "grandTotalEntries": 2583,
+  "grandTotalEntries": 2633,
   "tierDescription": {
-    "tier1": "World-public open problems (2570 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
-    "tier2": "Rei Invention Engine approved conjectures (10 entries) — CC-BY 4.0 attribution required",
+    "tier1": "World-public open problems (2615 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
+    "tier2": "Rei Invention Engine approved conjectures (15 entries) — CC-BY 4.0 attribution required",
     "tier3": "Claude Code research discoveries (3 entries) — subset of private META-DB. Some discoveries withheld pending Paper 135-136 publication."
   },
   "paperReference": {

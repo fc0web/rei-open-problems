@@ -1,0 +1,60 @@
+{
+  "id": "si-reverse-mathematics",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Reverse mathematics (Friedman-Simpson): for a theorem T, find the weakest subsystem of second-order arithmetic proving T. Creates an ordinal-measured hierarchy (RCA0, WKL0, ACA0, ATR0, Π¹₁-CA0). Reveals which axioms are essential vs decorative. Open: extending to analysis, topology.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "foundations",
+  "subfield": "ordinal-analysis",
+  "proposer": "Friedman, Simpson",
+  "year": 1974,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_AXIOMATIC",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Theorem-to-axiom flow",
+    "rationale": "Big 5 hierarchy established; extension open",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Reverse_mathematics",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Active research, incremental progress",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

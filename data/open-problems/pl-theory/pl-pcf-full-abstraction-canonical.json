@@ -1,0 +1,60 @@
+{
+  "id": "pl-pcf-full-abstraction-canonical",
+  "source": "pl-theory",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Full abstraction for PCF (Plotkin 1977): although game semantics (Abramsky-Jagadeesan-Malacaria 1994, Hyland-Ong 1994) provided a first fully abstract model, the search for a simpler or more canonical denotational model remains open.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "programming-languages",
+  "subfield": "denotational-semantics",
+  "proposer": "Plotkin",
+  "year": 1977,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "III_NON_CONSTRUCTIVE",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Both parallel and sequential models fail in different ways",
+    "rationale": "Game semantics solution is complex; simpler canonical form elusive",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Full_abstraction",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "45 years open with only one class of solutions",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": 0.25
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

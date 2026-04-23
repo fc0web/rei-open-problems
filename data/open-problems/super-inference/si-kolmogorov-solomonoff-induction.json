@@ -1,0 +1,60 @@
+{
+  "id": "si-kolmogorov-solomonoff-induction",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kolmogorov complexity / Solomonoff induction: the 'universal prior' is 2^{-K(x)} where K is Kolmogorov complexity. A perfect (but uncomputable) inductive reasoner. Approximations via LLM compression, MDL. Open: tractable approximations with convergence guarantees.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "algorithmic-information-theory",
+  "subfield": "universal-induction",
+  "proposer": "Solomonoff, Kolmogorov",
+  "year": 1964,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "III_NON_CONSTRUCTIVE",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Universal over infinite program space",
+    "rationale": "Definitional ideal uncomputable; approximations incomplete",
+    "confidence": "INFINITY"
+  },
+  "cross_refs": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Solomonoff%27s_theory_of_inductive_inference",
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.3,
+    "solveRationale": "AI-safety and alignment relevance",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}

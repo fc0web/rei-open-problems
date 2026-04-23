@@ -1,0 +1,60 @@
+{
+  "id": "si-acausal-decision-theory",
+  "source": "super-inference",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Acausal decision theory (Yudkowsky, Christiano): agents who reason about other agents' reasoning, including predicting counterfactual mirror-images of themselves. Formal underpinning: functional decision theory (FDT). Open: complete formal framework avoiding known paradoxes.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-curated-2026-04-24"
+  },
+  "field": "decision-theory",
+  "subfield": "functional-decision-theory",
+  "proposer": "Yudkowsky, Christiano, Soares",
+  "year": 2010,
+  "status": "partial",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": null,
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-modeling in decisions",
+    "rationale": "MIRI research; partial formalization",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.3,
+    "solveRationale": "AI-safety driven",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "pl-math-inference-register-v1"
+}
