@@ -1,0 +1,61 @@
+{
+  "id": "erdos-120",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/120.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 120",
+    "ja": null,
+    "latex": "There exists a set $E \\subseteq \\mathbb{R}$, dependent on set $A \\subseteq \\mathbb{R}$,\nof positive measure which does not contain any set of the shape $a * A + b$\nfor some $a,b \\in \\mathbb{R}$ and $a \\neq 0$?\n-/\ndef Erdos120For (A : Set ℝ) : Prop := ∃ E : Set ℝ,\n  MeasurableSet E ∧ 0 < volume E ∧ ∀ a b : ℝ, a ≠ 0 → ¬ .image (fun x => a * x + b) A ⊆ E\n\n/--\nLet $A \\subseteq \\mathbb{R}$ be an infini",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1763"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos120"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

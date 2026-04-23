@@ -1,0 +1,86 @@
+{
+  "id": "wikipedia-HerzogSchonheimConjecture",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Herzog%E2%80%93Sch%C3%B6nheim_conjecture",
+    "citation": "Wikipedia: List of unsolved problems (group theory)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/274.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/HerzogSchonheimConjecture.lean"
+  },
+  "statement": {
+    "en": "Herzog-Schönheim conjecture: If a group G has an exact covering {g_1 H_1, ..., g_k H_k} (k > 1) by cosets of subgroups H_i, then the indices [G:H_1], ..., [G:H_k] cannot be pairwise distinct.",
+    "ja": "Herzog-Schönheim 予想: 群 G が subgroups H_i の coset による exact covering {g_1 H_1, ..., g_k H_k} (k > 1) を持つなら、指数 [G:H_i] は互いに異なれない",
+    "latex": "\\text{If } G = \\bigsqcup_{i=1}^{k} g_i H_i \\ (k > 1), \\text{ then } [G:H_i] \\text{ cannot all be distinct}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "algebra",
+  "subfield": "group-theory",
+  "proposer": "Herzog, Schönheim",
+  "year": 1974,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "∀ G ∀ covering Π₂ 普遍命題. Abelian case は証明済 (Mirsky-Newman) で分野橋渡し (群論 × 数論)",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (任意群 G の covering), 副=VI_BRIDGING (group × covering × number theory), D-FUMT₈=NEITHER; 形式化=scaffold (実 sorry=4 in 274.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Herzog-Schönheim_conjecture",
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "Herzog-Schönheim 1974 original",
+      "Mirsky-Newman (abelian case proof via covering system of ℤ)",
+      "arXiv:1803.08301 — partial results",
+      "arXiv:1803.03569 — partial results",
+      "arXiv:1804.11103 — partial results",
+      "PMC7247885 (2020) — recent survey"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Erdos274. 実 file は 87 行: Group.ExactCovering 構造体定義 + erdos_274 main (2 sorry: answer+body) + erdos_274.variants.abelian (1 sorry, Mirsky-Newman 系の既知結果) + herzog_schonheim (1 sorry, main conjecture) = 合計 4 sorry"
+  },
+  "known_progress": [
+    {
+      "date": "1974",
+      "event": "Herzog-Schönheim original statement",
+      "impact": "対応する covering system (Erdős の数論 covering 問題) と等価視点の登場"
+    },
+    {
+      "date": "1950s-1960s",
+      "event": "Mirsky-Newman theorem: abelian/cyclic case で指数重複を証明",
+      "impact": "有限 abelian group case 解決済 (→ ErdosProblems/274.lean の abelian variant)"
+    },
+    {
+      "date": "2018",
+      "event": "3 本の arXiv 論文 (1803.08301 / 1803.03569 / 1804.11103) で部分結果",
+      "impact": "solvable group の一部 case で進展"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) Mirsky-Newman abelian case を Lean 4 で再構築 → erdos_274.variants.abelian sorry 閉鎖. (2) 既知 solvable case の部分証明を参照. (3) 一般の non-solvable case は world-open, 藤本さん判断事項",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.60,
+    "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE + VI_BRIDGING, dfumt8=NEITHER, formalization=scaffold (4 sorry). abelian case は Lean 4 移植 tractable",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": "abelian case の Mirsky-Newman 証明は典型的 Mathlib 射程内. 一般 case は 50 年 open",
+    "reiFamiliarRef": null,
+    "famousHardCap": "Herzog-Schönheim 本体は世界的 open, 完全解決は藤本さん判断事項"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/274.lean)",
+  "reviewer": null
+}

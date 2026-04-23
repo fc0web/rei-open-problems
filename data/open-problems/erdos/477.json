@@ -1,0 +1,61 @@
+{
+  "id": "erdos-477",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/477.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 477",
+    "ja": null,
+    "latex": "Is there a polynomial $f:\\mathbb{Z}\\to \\mathbb{Z}$ of degree at least $2$ and a set\n$A\\subset \\mathbb{Z}$ such that for any $z\\in \\mathbb{Z}$ there is exactly one $a\\in A$ and\n$b\\in \\{ f(n) : n\\in\\mathbb{Z}\\}$ such that $z=a+b$?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "field_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1947"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Erdos477"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

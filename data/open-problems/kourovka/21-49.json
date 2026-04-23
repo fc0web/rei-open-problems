@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-21-49",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 21,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 21.49 (Khukhro & Mazurov eds., ed.21)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 21.49",
+    "ja": null,
+    "latex": "An isometric action of a group$G$on a metric space$S$is called if for every$> 0$there exist$R, N > 0$such that for every two points$x, y$with$d(x, y) R$, there are at most$N$elements$g G$satisfying$d(x, gx)$and$d(y, gy)$. A group is said to be if it is not virtually cyclic and admits an acylindrical action on a hyperbolic space with unbounded orbits. Is the automorphism group of a finitely generat...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

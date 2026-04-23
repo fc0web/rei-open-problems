@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-8-2",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 8,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 8.2 (Khukhro & Mazurov eds., ed.8)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 8.2",
+    "ja": null,
+    "latex": "Let$G$be the amalgamated free product of two polycyclic groups, amalgamating a normal subgroup of each. Is$G$isomorphic to a linear group?$G$is residually finite (G.\\,Baumslag, Trans. Amer. Math. Soc., 106, no.\\,2 (1963), 193--209) and the answer is ``yes'' if the amalgamated part is torsion-free, abelian (B.\\,A.\\,F.\\,Wehrfritz, Proc. London Math. Soc., 27, no.\\,3 (1973), 402--424) and nilpotent (...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

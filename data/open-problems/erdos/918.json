@@ -1,0 +1,61 @@
+{
+  "id": "erdos-918",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/918.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 918",
+    "ja": null,
+    "latex": "Is there a graph with $\\aleph_2$ vertices and chromatic number $\\aleph_2$ such that every\nsubgraph on $\\aleph_1$ vertices has chromatic number $\\leq\\aleph_0$? -/\n-- Formalisation note: source material [ErHa68b] uses only induced subgraphs\n@[category research open, AMS 5]\ntheorem erdos_918.parts.i :\n    answer(sorry) ↔ ∃ (V : Type u) (G : SimpleGraph V), #V = ℵ_ 2 ∧ G.chromaticCardinal = ℵ_ 2 ∧\n   ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=hard (sorry=9)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2071"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 9,
+    "notes": "Namespaces: Erdos918"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

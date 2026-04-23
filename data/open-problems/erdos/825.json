@@ -1,0 +1,61 @@
+{
+  "id": "erdos-825",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/825",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/825.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 825",
+    "ja": null,
+    "latex": "Is there an absolute constant $C > 0$ such that every integer $n$ with\n$\\sigma(n) > Cn$ is the distinct sum of proper divisors of $n$?\n\nThis has been solved in the affirmative by Larsen - in fact, for any $\\epsilon>0$ there exists $L$\nsuch that if $n$ has only prime divisors $>L$ and $\\sigma(n)>(2+\\epsilon)n$ then $n$ is the distinct\nsum of proper divisors of $n$.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2034"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos825"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

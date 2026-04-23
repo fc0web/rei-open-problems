@@ -1,0 +1,61 @@
+{
+  "id": "wowii-GraphConjecture1",
+  "source": "wowii",
+  "sourceRef": {
+    "edition": null,
+    "url": "http://cms.dt.uh.edu/faculty/delavinae/research/wowII/",
+    "citation": "WrittenOnTheWall II (graph conjectures)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/WrittenOnTheWallII/GraphConjecture1.lean"
+  },
+  "statement": {
+    "en": "Written on the Wall II - Conjecture 1",
+    "ja": null,
+    "latex": "WOWII [Conjecture 1](http://cms.dt.uh.edu/faculty/delavinae/research/wowII/)\n\nFor a simple connected graph `G` the maximum number of leaves of a spanning\ntree satisfies `Ls(G) ≥ n(G) + 1 - 2·m(G)` where `n(G)` counts vertices and\n`m(G)` is the size of a maximum matching.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2308"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: WrittenOnTheWallII"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.8,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

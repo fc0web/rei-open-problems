@@ -1,0 +1,61 @@
+{
+  "id": "open_quantum-23",
+  "source": "open_quantum",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Open Quantum Problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OpenQuantumProblems/23.lean"
+  },
+  "statement": {
+    "en": "Open Quantum Problem 23: SIC-POVMs",
+    "ja": null,
+    "latex": "A state vector in the $d$-dimensional complex Hilbert space $\\mathbb{C}^d$. -/\nabbrev StateVector (d : ℕ) := EuclideanSpace ℂ (Fin d)\n\n/-- Build a state vector from its coordinates in the computational basis. -/\nabbrev mkStateVector {d : ℕ} (ψ : Fin d → ℂ) : StateVector d := WithLp.toLp 2 ψ\n\n/-- Coercion from a state vector to its coordinate function. -/\ninstance {d : ℕ} : CoeFun (StateVector d) (",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "linear_algebra",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VII_FRAMEWORK_INCOMPLETE",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VII_FRAMEWORK_INCOMPLETE type",
+    "rationale": "型=理論体系不完全, D-FUMT₈=BOTH; 形式化=blocked (sorry=18)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2176"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 18,
+    "notes": "Namespaces: OpenQuantumProblem23"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=VII_FRAMEWORK_INCOMPLETE, dfumt8=BOTH, formalization=blocked",
+    "formalizationComplexity": "blocked",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

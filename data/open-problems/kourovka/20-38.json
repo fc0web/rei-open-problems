@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-20-38",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 20,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 20.38 (Khukhro & Mazurov eds., ed.20)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 20.38",
+    "ja": null,
+    "latex": "Suppose that$H$is an almost simple group of Lie type and$G$is a finite group such that$G$and$H$have the same sets of degrees of irreducible complex characters. Must there exist an abelian normal subgroup$A$of$G$such that$G/A$is isomorphic to~$H$? Comment of 2025: The conjecture was confirmed for projective general linear and unitary groups of dimension 3 (F.\\,Shirjian, A.\\,Iranmanesh, Illinois J. ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-InscribedSquare",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/InscribedSquare.lean"
+  },
+  "statement": {
+    "en": "Inscribed square problem",
+    "ja": null,
+    "latex": "Four points `a b c d` in the plane form a rectangle with `a` opposite to `c` iff the line\nsegments from `a` to `c` and from `b` to `d` have both the same length and the same midpoint, acting\nas the diagonals of the rectangle. We also require the rectangle to be nondegenerate and have a\ngiven aspect ratio `ratio : ℝ`. -/\nstructure IsRectangle (a b c d : ℝ²) (ratio : ℝ) : Prop where\n  diagonal_midpo",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "geometry",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2248"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: "
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.75,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

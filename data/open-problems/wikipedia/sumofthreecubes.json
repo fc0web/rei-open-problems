@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-SumOfThreeCubes",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/SumOfThreeCubes.lean"
+  },
+  "statement": {
+    "en": "Sum of three cubes",
+    "ja": null,
+    "latex": "The predicate that `n : R` is a sum of three cubes. -/\ndef IsSumOfThreeCubes (n : R) : Prop :=\n  ∃ x y z : R, n = x^3 + y^3 + z^3\n\n@[category test, AMS 11]\ntheorem isSumOfThreeCubes_2 : IsSumOfThreeCubes (2 : ℤ) :=\n  ⟨1, 1, 0, by norm_num⟩\n\n@[category test, AMS 11]\ntheorem isSumOfThreeCubes_33 : IsSumOfThreeCubes (33 : ℤ) :=\n  ⟨8866128975287528, -8778405442862239, -2736111468807040, by norm_num⟩\n\n",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2297"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: SumOfThreeCubes"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.85,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

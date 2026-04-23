@@ -1,0 +1,90 @@
+{
+  "id": "wikipedia-HappyEndingProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Happy_ending_problem",
+    "citation": "Wikipedia: List of unsolved problems (geometry)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/107.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/HappyEndingProblem.lean"
+  },
+  "statement": {
+    "en": "Happy ending problem (Erdős-Szekeres): Let f(n) be the minimum N such that any N points in general position in ℝ² contain n points forming a convex n-gon. Prove that f(n) = 2^(n-2) + 1 for all n ≥ 3.",
+    "ja": "Happy ending 問題 (Erdős-Szekeres): f(n) を『一般位置にある任意の N 点が convex n 角形を含むための最小 N』とし、f(n) = 2^(n-2) + 1 (∀ n ≥ 3) を示せ",
+    "latex": "f(n) = 2^{n-2} + 1 \\quad (\\forall n \\geq 3)",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "geometry",
+  "subfield": "combinatorial-geometry",
+  "proposer": "Erdős, Szekeres",
+  "year": 1935,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "∀ n 等式 2^(n-2)+1 決定 = Π₂. 下界は tight, 上界は 2^(n+O(√(n log n))) に改善中 (HMPT20)",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (f(n) 関数族 ∀ n), 副=VI_BRIDGING (点集合幾何 × Ramsey), D-FUMT₈=NEITHER; 形式化=scaffold (実 sorry=7 in 107.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Happy_ending_problem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "Erdős-Szekeres 1935: f(n) ≤ C(2n-4, n-2) + 1 (original 上界)",
+      "Erdős-Szekeres 1960: f(n) ≥ 2^(n-2) + 1 (tight 下界、予想 f(n) = 2^(n-2) + 1)",
+      "Suk 2017 JAMS: f(n) ≤ 2^(n+o(n)) (near-tight, 82 年目の breakthrough)",
+      "Holmsen-Mojarrad-Pach-Tardos 2020 JEMS: f(n) ≤ 2^(n+O(√(n log n)))"
+    ],
+    "seedKernel": null,
+    "typology": "GEO-ES"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 7,
+    "notes": "Namespaces: Erdos107, Erdos107.variants. 実 file は 119 行: cardSet + f 定義 + erdos_107 main (2 sorry: answer+body) + nonempty_cardSet (1) + f_zero_eq (sorry なし, 正規証明) + f_three_eq (1) + variants (ersz_bounds 1 + su_bound 1 + hmpt_bound 1) = 合計 7 sorry"
+  },
+  "known_progress": [
+    {
+      "date": "1935",
+      "event": "Erdős-Szekeres: 初期上界 f(n) ≤ C(2n-4, n-2) + 1",
+      "impact": "Ramsey theory の原型問題、初期構造"
+    },
+    {
+      "date": "1960/61",
+      "event": "Erdős-Szekeres tight 下界 f(n) ≥ 2^(n-2) + 1 + 予想『等式成立』",
+      "impact": "f(n) = 2^(n-2) + 1 予想確立"
+    },
+    {
+      "date": "2017",
+      "event": "Andrew Suk JAMS: f(n) ≤ 2^(n+o(n)) = 2^((1+o(1))n)",
+      "impact": "1935→2017 で指数ギャップを exponent 定数に圧縮"
+    },
+    {
+      "date": "2020",
+      "event": "Holmsen-Mojarrad-Pach-Tardos JEMS: f(n) ≤ 2^(n+O(√(n log n)))",
+      "impact": "Suk をさらに改善、多項式 log √ 補正項"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) f(3)=3 証明 (3 点 convex triangle) は基本幾何 → f_three_eq sorry 閉鎖. (2) Erdős-Szekeres 下界構成 (2^(n-2) 点の配置) は明示的 → ersz_bounds lower half 可. (3) 上界の Suk-HMPT 改良は原論文 Lean 移植が重労働",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE, dfumt8=NEITHER, formalization=scaffold (7 sorry). 小 n は tractable だが一般予想は 90 年未解決",
+    "formalizationComplexity": "medium-hard",
+    "formalizationNotes": "f_zero/f_three/下界 ersz 半分 → 部分攻略可. 上界の最新 HMPT 2020 は Hungarian method の形式化困難",
+    "reiFamiliarRef": null,
+    "famousHardCap": "Erdős の classic; 完全解は世界的 open"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/107.lean)",
+  "reviewer": null
+}

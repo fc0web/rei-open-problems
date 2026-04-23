@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1067",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1067.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1067",
+    "ja": null,
+    "latex": "A graph is infinitely edge-connected if to disconnect the graph requires deleting\ninfinitely many edges. In other words, removing any finite set of edges leaves\nthe graph connected.\n-/\ndef InfinitelyEdgeConnected {V : Type*} (G : SimpleGraph V) : Prop :=\n  ∀ ⦃s : Set (Sym2 V)⦄, s.Finite → (G.deleteEdges s).Connected\n\n/--\nDoes every graph with chromatic number $\\aleph_1$ contain an infinitely conne",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=INFINITY; 形式化=easy (sorry=2)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1723"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos1067"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=INFINITY, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "oeis-357513",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://oeis.org/A357513",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/357513.lean"
+  },
+  "statement": {
+    "en": "OEIS Problem 357513",
+    "ja": null,
+    "latex": "A357513: $a(n) = \\text{numerator of }\n\\sum_{k = 1..n} \\frac{1}{k^3} \\binom{n}{k}^2 \\binom{n+k}{k}^2\n\\text{ for } n \\ge 1 \\text{ with } a(0) = 0$.\n-/\ndef a (n : ℕ) : ℕ :=\n ∑ k ∈ (Finset.Icc 1 n), ((n.choose k : ℚ) ^ 2 * ((n + k).choose k : ℚ) ^ 2) / k ^ 3 |>.num.natAbs\n\n\n@[category test, AMS 11]\ntheorem zero : a 0 = 0 := rfl\n\n@[category test, AMS 11]\ntheorem one : a 1 = 4 := by\n  unfold a\n  norm_nu",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2165"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: OeisA357513"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

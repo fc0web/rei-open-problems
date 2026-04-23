@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-12-38",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 12,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 12.38 (Khukhro & Mazurov eds., ed.12)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 12.38",
+    "ja": null,
+    "latex": "(J.\\,G.\\,Thompson). For a finite group$G$, we denote by$N(G)$the set of all orders of the conjugacy classes of$G$. Is it true that if$G$is a finite non-abelian simple group,$H$a finite group with trivial centre and$N(G)=N(H)$, then$G$and$H$are isomorphic? { A.\\,S.\\,Kondratiev, W.\\,J.\\,Shi} Yes, it is true. The final step of the proof is in the paper (I.\\,B.\\,Gorshkov, Commun. Algebra, { 47}, no.\\,...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

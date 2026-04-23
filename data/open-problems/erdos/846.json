@@ -1,0 +1,61 @@
+{
+  "id": "erdos-846",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/846",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/846.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 846",
+    "ja": null,
+    "latex": "We say a subset `A` of points in the plane is `ε`-non-trilinear if any subset\n`B` of `A`, contains a non-trilinear subset `C` of size at least `ε|B|`. -/\ndef NonTrilinearFor (A : Set ℝ²) (ε : ℝ) : Prop :=\n  ∀ B : Finset ℝ², ↑B ⊆ A → ∃ C ⊆ B,\n    ε * B.card ≤ C.card ∧ NonTrilinear (C : Set ℝ²)\n\n/-- We say a subset `A` of points in the plane is weakly non-trilinear if it is\na finite union of non-tri",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "unknown",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2040"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos846"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

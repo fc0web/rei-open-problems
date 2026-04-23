@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-17-105",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 17,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 17.105 (Khukhro & Mazurov eds., ed.17)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 17.105",
+    "ja": null,
+    "latex": "An equation over a pro-$p$-group$G$is an expression$v(x)=1$, where$v(x)$is an element of the free pro-$p$-product of$G$and a free pro-$p$-group with basis$\\{ x_1, , x_n \\}$; solutions are sought in the affine space$G^n$. Is it true that a free pro-$p$-group is equationally Noetherian, that is, for any$n$every system of equations in$x_1, , x_n$over this group is equivalent to some finite subsystem ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

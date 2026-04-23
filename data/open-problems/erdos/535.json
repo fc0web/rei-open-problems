@@ -1,0 +1,61 @@
+{
+  "id": "erdos-535",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/535.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 535",
+    "ja": null,
+    "latex": "No `r`-subset has constant pairwise GCD with coprime quotients. -/\ndef NoConstantPairwiseGcdCoprimeSubsets (r : ℕ) (A : Finset ℕ) : Prop :=\n  ∀ S ⊆ A, S.card = r →\n    ¬ (∃ d, 0 < d ∧ (S : Set ℕ).Pairwise (fun a b => Nat.gcd a b = d) ∧\n      ∀ a ∈ S, ∃ b, a = d * b ∧ Nat.gcd b d = 1)\n\n/--\nAll elements of `A` are positive and have exactly `k` prime factors,\ncounted with multiplicity.\n\nErdős [Er73] ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=hard (sorry=7)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1969"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 7,
+    "notes": "Namespaces: Erdos535"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

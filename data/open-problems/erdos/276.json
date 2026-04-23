@@ -1,0 +1,61 @@
+{
+  "id": "erdos-276",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/276.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 276",
+    "ja": null,
+    "latex": "We define a Lucas sequence to be a Fibonacci sequence with arbitrary starting points\n`L 0` and `L 1`.\n\nTODO: There seems to be multiple definitions in the literature, some of which also\nallow coefficients in the reccurence relation. For now this simple definition has been\nchosen as it agrees best with the Erdős problem in this same file.\nHowever before moving this into `ForMathlib` one should make",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1842"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos276"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-16-5",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 16,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 16.5 (Khukhro & Mazurov eds., ed.16)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 16.5",
+    "ja": null,
+    "latex": "A group is said to be perfect\\/ if it coincides with its derived subgroup. Does there exist a perfect locally finite$p$-group [r]{a)} all of whose proper subgroups are hypercentral? [r]{b)} all of whose proper subgroups are solvable? { A.\\,O.\\,Asar}",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

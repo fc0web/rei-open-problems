@@ -1,0 +1,58 @@
+{
+  "id": "claude-discovery-collatz-drift-non-cf-closure",
+  "source": "claude-discoveries",
+  "origin": "claude-discovery",
+  "sourceRef": {
+    "discoveredSession": "2026-04-23 (STEP 994)",
+    "documentFile": "scripts/collatz-atlas/ramanujan-collatz-constants.py",
+    "paperFile": "papers/paper-134-rei-aios-meets-2024-2026-ai-math-tooling.md",
+    "stepRange": "STEP 994"
+  },
+  "statement": {
+    "en": "Collatz drift constants log(3/4), log(3/2), log(2) admit NO simple polynomial continued-fraction identity within the search space (α·i+β, γ·i²+δ·i+ε) tested by Rei-AIOS (8,575 patterns, 0 matches within 1e-4). Sanity check: 2/log(3) matched machine-precision Euler identity in same search. Conjecture: Collatz drift constants are outside the CF-closure of simple integer-polynomial generators, suggesting deeper transcendence or algebraic structure.",
+    "ja": "Collatz drift 定数 log(3/4), log(3/2), log(2) は simple polynomial 連分数 identity を持たない (8,575 patterns で 0 matches). Sanity check として 2/log(3) は machine-precision で一致. 予想: Collatz drift 定数は simple integer-polynomial CF closure 外, より深い transcendence 構造",
+    "latex": "\\text{No } (\\alpha i + \\beta, \\gamma i^2 + \\delta i + \\epsilon) \\text{ CF identity for } \\log(3/4), \\log(3/2), \\log(2) \\text{ within 1e-4 tolerance}"
+  },
+  "field": "analytic-number-theory",
+  "subfield": "continued-fraction-expansions",
+  "proposer": "Rei-AIOS Ramanujan Machine-style search (Paper 134, STEP 994)",
+  "year": 2026,
+  "status": "open-observation-negative",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "NEGATIVE_RESULT",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Negative result in restricted search space",
+    "rationale": "Informs where NOT to search for Collatz descent identities",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Collatz_conjecture",
+    "metadbEntry": "wikipedia/collatzconjecture.json",
+    "papers": ["Paper 134 Part B.2", "Paper 134 Part A.3"]
+  },
+  "formalization": {
+    "lean4": "none",
+    "notes": "Empirical result; negative findings hard to formalize without exhaustive characterization of CF-closure"
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-23",
+      "event": "STEP 994 Rei-AIOS ran 8,575 polynomial CF patterns on 8 target constants",
+      "impact": "Positive: 2/log(3) Euler identity rediscovered (err 1.54e-16). Negative: 3 Collatz constants found no match."
+    }
+  ],
+  "reiAssessment": {
+    "paperCandidate": true,
+    "priority": "low",
+    "solveProbability": 0.2,
+    "solveRationale": "Open: extend search space (rational-function coefficients, signed products). STEP 997 candidate.",
+    "formalizationNotes": "Requires search-space exhaustion proof",
+    "famousHardCap": "collatz",
+    "reiFamiliarRef": "STEP 994"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "claude-discovery-v1",
+  "discoveryType": "negative-search-result"
+}

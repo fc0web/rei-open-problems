@@ -1,0 +1,61 @@
+{
+  "id": "erdos-587",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/587",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/587.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 587",
+    "ja": null,
+    "latex": "`MaxNotSqSum N` is the size of the largest subset `A` of\n`{1,...,N}` such that for all non-empty `S ⊆ A`, the sum\n`∑ n ∈ S, n` is not a square.\n-/\ndef MaxNotSqSum (N : ℕ) : ℕ :=\n    (Finset.Icc 1 N |>.powerset.filter fun A => ∀ S ⊆ A, S ≠ ⊥ →\n      ¬ IsSquare (∑ n ∈ S, n)).sup Finset.card\n\n/--\nNguyen and Vu proved that $|A| \\ll N^{1/3} (\\log N)^{O(1)}$.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1978"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos587"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

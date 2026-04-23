@@ -1,0 +1,61 @@
+{
+  "id": "2602.05192-FirstProof6",
+  "source": "2602.05192",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://arxiv.org/abs/2602.05192",
+    "citation": "2602.05192",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/2602.05192/FirstProof6.lean"
+  },
+  "statement": {
+    "en": "Theorem 6",
+    "ja": null,
+    "latex": "For a graph $G = (V, E)$, let $G_S = (V, E(S,S))$ denote the graph with the same vertex set,\nbut only the edges between vertices in $S$.\nLet $L$ be the Laplacian matrix of $G$ and let $L_S$ be the Laplacian of $G_S$.\n\nI say that a set of vertices $S$ is $\\epsilon$-light if the matrix $\\epsilon L - L_S$ is\npositive semidefinite.\n-/\ndef IsEpsilonLight (G : SimpleGraph V) (ε : ℝ) (S : Finset V) : Pro",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2351"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Arxiv"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-11-54",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 11,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 11.54 (Khukhro & Mazurov eds., ed.11)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 11.54",
+    "ja": null,
+    "latex": "Is it true that in the group of coloured braids only the identity braid is a~conjugate to its inverse? (For definition see Archive, 10.24.) { G.\\,S.\\,Makanin} { 11.55.} Is it true that extraction of roots in the group of coloured braids is uniquely determined? { G.\\,S.\\,Makanin} The answers to both 11.54 and 11.55 are affirmative, since the group$K_n$of coloured braids is embeddable into the group...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "erdos-770",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/770.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 770",
+    "ja": null,
+    "latex": "Let $h n$ be the minimal number such that $2 ^ n - 1, \\dots, h(n) ^ n - 1$\nare collectively coprime. -/\nnoncomputable def h (n : ℕ) : ℕ∞ := sInf {m | 2 < m ∧\n  ((Finset.Icc 2 m.toNat).image fun i => (i ^ n - 1)).gcd id = 1}\n\n/-- `n + 1` is prime iff `h n = n + 1`.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=BOTH; 形式化=hard (sorry=6)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2025"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 6,
+    "notes": "Namespaces: Erdos770"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=BOTH, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

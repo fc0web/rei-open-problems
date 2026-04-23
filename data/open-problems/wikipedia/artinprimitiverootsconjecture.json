@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-ArtinPrimitiveRootsConjecture",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean"
+  },
+  "statement": {
+    "en": "Artin's conjecture on primitive roots",
+    "ja": null,
+    "latex": "Let $S(a)$ be the set of primes such that $a$ is a primitive root modulo $p$. -/\nabbrev S (a : ℤ) : Set ℕ :=\n  {p : ℕ | p.Prime ∧ orderOf (a : ZMod p) = (p-1 : ℕ)}\n\n/--\n**Artin's Constant** is defined to be the product\n$$\\prod_{p\\ \\text{prime}} \\left(1 - \\frac{1}{p(p - 1)}\\right)$$.\n-/\nnoncomputable def ArtinConstant : ℝ :=\n  ∏' p : Nat.Primes, (1 - 1 / (p * (p - 1)) : ℝ)\n\n/--\nArtin's conjecture o",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=9)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2207"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 9,
+    "notes": "Namespaces: ArtinPrimitiveRootsConjecture"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.65,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

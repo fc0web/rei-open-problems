@@ -1,0 +1,61 @@
+{
+  "id": "erdos-971",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/971",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/971.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 971",
+    "ja": null,
+    "latex": "`leastCongruentPrime a d` is the least prime congruent to `a` modulo `d`. -/\nnoncomputable def leastCongruentPrime (a d : ℕ) : ℕ :=\n  sInf {p : ℕ | p.Prime ∧ p ≡ a [MOD d]}\n\n/--\nLet `p(a, d)` be the least prime congruent to `a (mod d)`.\nDoes there exist a constant `c > 0` such that for all large `d`,\n`p(a, d) > (1 + c) * φ(d) * log d` for `≫ φ(d)` many values of `a`?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2093"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Erdos971"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

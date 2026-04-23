@@ -1,0 +1,61 @@
+{
+  "id": "oeis-6697",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/6697.lean"
+  },
+  "statement": {
+    "en": "Subword complexity of the morphism a → aab, b → b",
+    "ja": null,
+    "latex": "The morphism σ on {a, b} defined by a ↦ aab, b ↦ b, represented on Bool where\n`false` = a and `true` = b. -/\ndef morphism : Bool → List Bool\n  | false => [false, false, true]  -- a ↦ aab\n  | true => [true]                -- b ↦ b\n\n/-- The n-th iterate of the morphism applied to [a]. -/\ndef finiteWord : ℕ → List Bool\n  | 0 => [false]\n  | n + 1 => (finiteWord n).flatMap morphism\n\n@[simp, category AP",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "unknown",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2170"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: OeisA6697"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

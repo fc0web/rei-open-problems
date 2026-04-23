@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-15-45",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 15,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 15.45 (Khukhro & Mazurov eds., ed.15)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 15.45",
+    "ja": null,
+    "latex": "We define the class of hierarchically decomposable\\/ groups in the following way. First, if${ X}$is any class of groups, then let$H_1{ X}$denote the class of groups which admit an admissible action on a finite-dimensional contractible complex in such a way that every cell stabilizer belongs to${ X}$. Then the ``big'' class$H{ X}$is defined to be the smallest$H_1$-closed class containing${ X}$. [r]...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

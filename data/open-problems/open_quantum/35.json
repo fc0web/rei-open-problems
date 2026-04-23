@@ -1,0 +1,61 @@
+{
+  "id": "open_quantum-35",
+  "source": "open_quantum",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Open Quantum Problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OpenQuantumProblems/35.lean"
+  },
+  "statement": {
+    "en": "Open Quantum Problem 35: existence of absolutely maximally entangled pure states",
+    "ja": null,
+    "latex": "A computational-basis configuration of $n$ parties with local dimension $d$. -/\nabbrev Config (n d : ℕ) := Fin n → Fin d\n\n/-- A state vector in the computational basis, viewed as a finite-dimensional Hilbert space. -/\nabbrev StateVector (n d : ℕ) := EuclideanSpace ℂ (Config n d)\n\n/-- Build a state vector from its computational-basis amplitudes. -/\nabbrev mkStateVector {n d : ℕ} (ψ : Config n d → ℂ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VII_FRAMEWORK_INCOMPLETE",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; VII_FRAMEWORK_INCOMPLETE type",
+    "rationale": "型=理論体系不完全, D-FUMT₈=ZERO; 形式化=blocked (sorry=24)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2177"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 24,
+    "notes": "Namespaces: OpenQuantumProblem35"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.3,
+    "solveRationale": "Familiar=False, type=VII_FRAMEWORK_INCOMPLETE, dfumt8=ZERO, formalization=blocked",
+    "formalizationComplexity": "blocked",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

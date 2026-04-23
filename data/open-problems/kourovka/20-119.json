@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-20-119",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 20,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 20.119 (Khukhro & Mazurov eds., ed.20)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 20.119",
+    "ja": null,
+    "latex": "(G.\\,Wilkes). A pro-$p$group is said to be accessible if there is a number$n = n(G)$such that any finite proper reduced graph of pro-$p$groups with finite edge groups having fundamental group isomorphic to$G$has at most$n$edges (J.~Algebra, { 525} (2019), 1--18). Is every finitely presented pro-$p$group accessible? { P.\\,Zalesskii}",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

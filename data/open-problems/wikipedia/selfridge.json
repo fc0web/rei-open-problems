@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-Selfridge",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/John_Selfridge#Selfridge's_conjecture_about_primality_testing",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/Selfridge.lean"
+  },
+  "statement": {
+    "en": "Selfridge's conjectures",
+    "ja": null,
+    "latex": "A number `p` satisfies the *Selfridge condition* if\n1. `p` is odd,\n2. `p ≡ ± 2 (mod 5)`,\n3. `2^(p-1) ≡ 1 (mod p)`\n4. `(p+1).fib ≡ 0 (mod p)`\n\n\nThis is the condition that is tested in the PSW conjecture.\nNote: this is non-standard terminology. -/\n@[mk_iff]\nstructure IsSelfridge (p : ℕ) where\n  is_odd : Odd p\n  mod_5 : p ≡ 2 [MOD 5] ∨ p ≡ 3 [MOD 5]\n  pow_2 : 2^(p-1) ≡ 1 [MOD p]\n  fib : (p+1).fib ≡ 0",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2291"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Selfridge"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.75,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

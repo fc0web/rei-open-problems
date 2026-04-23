@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-LehmerTotient",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Lehmer%27s_totient_problem",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/LehmerTotient.lean"
+  },
+  "statement": {
+    "en": "Lehmer's totient problem",
+    "ja": null,
+    "latex": "Does there exist a composite number $n > 1$ such that Euler’s totient function\n$\\varphi(n)$ divides $n - 1$?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (Paper 120 Lehmer totient); 型=分野間橋渡し (Rei strength), D-FUMT₈=ZERO; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2261"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: LehmerTotient"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 1.0,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=ZERO, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Paper 120 Lehmer totient",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "paper-PrimeTuples",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/PrimeTuples.lean"
+  },
+  "statement": {
+    "en": "Prime Tuples Conjecture",
+    "ja": null,
+    "latex": "For any `k ≥ 2`, let `a₁,...,aₖ` and `b₁,...,bₖ` be integers with `aᵢ > 0`. Suppose that for\nevery prime `p` there exists an integer `n` such that `p ∤ ∏ i, (aᵢ n + bᵢ)`. Then there exist\ninfinitely many `n` such that `aᵢ n + bᵢ` is prime for all `i`.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=INFINITY; 形式化=easy (sorry=1)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2196"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: PrimeTuplesConjecture"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=INFINITY, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

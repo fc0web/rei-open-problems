@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-9-43",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 9,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 9.43 (Khukhro & Mazurov eds., ed.9)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 9.43",
+    "ja": null,
+    "latex": "b) The group$G$indicated in (N.\\,D.\\,Podufalov, Abstracts of the 9th All--Union Symp. on Group Theory, Moscow, 1984, 113--114 (Russian)) allows us to construct a projective plane of order 3: one can take as lines any class of subgroups of order$2 5 11 17$conjugate under$S$and add four more lines in a natural way. In a similar way, one can construct projective planes of order$p^n$for any prime$p$an...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

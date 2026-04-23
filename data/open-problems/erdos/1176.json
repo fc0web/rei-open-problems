@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1176",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/1176",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1176.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1176",
+    "ja": null,
+    "latex": "Let $G$ be a graph with chromatic number $\\aleph_1$. Is it true that there is a colouring of the\nedges with $\\aleph_1$ many colours such that, in any countable colouring of the vertices, there\nexists a vertex colour containing all edge colours?\n\nA problem of Erdős, Galvin, and Hajnal. The consistency of this was proved by Hajnal and Komjáth.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "logic",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "V_SELF_REFERENTIAL",
+    "secondaryType": null,
+    "dfumt8": "SELF",
+    "dfumt8Reason": "heuristic match on statement; V_SELF_REFERENTIAL type",
+    "rationale": "型=自己参照構造, D-FUMT₈=SELF; 形式化=easy (sorry=1)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1759"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos1176"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=V_SELF_REFERENTIAL, dfumt8=SELF, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

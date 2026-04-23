@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-InverseGalois",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Inverse_Galois_problem",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/InverseGalois.lean"
+  },
+  "statement": {
+    "en": "Inverse Galois problem",
+    "ja": null,
+    "latex": "Say a group `G` is realizable over a field `K` if it\nis isomorphic to the Galois group of a Galois extension\nof `K`\n-/\nclass IsRealizable (K G : Type*) [Field K] [Group G] where\n  exists_realization : Nonempty (GaloisRealization K G)\n\n/--\nThe **Inverse Galois Problem**: every finite group is\nisomorphic to the Galois group of a Galois extension of the\nrationals.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "field_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=6)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2250"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 6,
+    "notes": "Namespaces: InverseGalois"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.65,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "millennium-PvsNP",
+  "source": "millennium",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Clay Millennium Prize",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Millenium/PvsNP.lean"
+  },
+  "statement": {
+    "en": "Conjectures in Complexity Theory",
+    "ja": null,
+    "latex": "The type of decision problems.\n\nWe define these as functions from lists of booleans to booleans,\nimplictly assuming the usual encodings.\n-/\nabbrev DecisionProblem := List Bool → Bool\n\n/--\nThe type of complexity classes. We define these as sets of decision problems.\n-/\nabbrev ComplexityClass := Set DecisionProblem\n\n/--\nA simple definition to abstract the notion of a poly-time Turing machine into a ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "computer_science",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (Wiki 145 + STEP 930 typology); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2152"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: ComplexityTheory"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.3,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium, famous_hard_cap=pvsnp",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Wiki 145 + STEP 930 typology",
+    "famousHardCap": "pvsnp"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-17-125",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 17,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 17.125 (Khukhro & Mazurov eds., ed.17)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 17.125",
+    "ja": null,
+    "latex": "Does every finite group$G$contain a pair of conjugate elements$a,b$such that$(G)= ( a,b )$? This is true for soluble groups. Comment of 2013: it was proved in (A.\\,Lucchini, M.\\,Morigi, P.\\,Shumyatsky, Forum Math., { 24} (2012), 875--887) that every finite group$G$contains a 2-generator subgroup$H$such that$(G)= (H)$. { P.\\,Shumyatsky}",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

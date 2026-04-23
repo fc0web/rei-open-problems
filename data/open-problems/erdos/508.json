@@ -1,0 +1,61 @@
+{
+  "id": "erdos-508",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/508",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/508.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 508",
+    "ja": null,
+    "latex": "The unit-distance graph in the plane, i.e. the graph whose vertices are points in the plane\nand whose edges connect points that are exactly 1 unit apart.\n-/\ndef UnitDistancePlaneGraph : SimpleGraph ℝ² where\n  Adj x y := dist x y = 1\n  symm _ _ := by simp [_root_.dist_comm]\n\nscoped notation \"χ(ℝ²)\" => UnitDistancePlaneGraph.chromaticNumber\n\n/--\nThe Hadwiger–Nelson problem asks: How many colors are ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "convex_geometry",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1959"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Erdos508"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

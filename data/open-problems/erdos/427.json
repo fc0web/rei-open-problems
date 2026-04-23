@@ -1,0 +1,61 @@
+{
+  "id": "erdos-427",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/427",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/427.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 427",
+    "ja": null,
+    "latex": "The predicate that for every $n$ and $d$, there exists $k$ such that\n$$\n  d \\mid p_{n + 1} + \\cdots + p_{n + k},\n$$\nwhere $p_r$ denotes the $r$th prime?\n-/\ndef erdos427 : Prop := ∀ (n d : ℕ),\n    -- Need to allow `n = 0` since we're counting primes from `0` rather than `1`\n    -- `d` needs to be `≠ 0` since the sum is never `0`!\n    d ≠ 0 → ∃ k, k ≠ 0 ∧\n    d ∣ ∑ i ∈ Finset.Ico n (n + k), i.nth Na",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1934"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Erdos427"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

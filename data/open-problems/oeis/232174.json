@@ -1,0 +1,61 @@
+{
+  "id": "oeis-232174",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/232174.lean"
+  },
+  "statement": {
+    "en": "Representations with prime conditions",
+    "ja": null,
+    "latex": "The predicate that `n` can be written as $x + y$ with $x, y > 0$ such that both\n$x + ny$ and $x^2 + ny^2$ are prime. -/\ndef HasPrimeRepresentation (n : ℕ) : Prop :=\n  ∃ x y : ℕ, 0 < x ∧ 0 < y ∧ n = x + y ∧ (x + n * y).Prime ∧ (x ^ 2 + n * y ^ 2).Prime\n\n@[category test, AMS 11]\ntheorem hasPrimeRepresentation_2 : HasPrimeRepresentation 2 :=\n  ⟨1, 1, by norm_num, by norm_num, by norm_num, by norm_num",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2156"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: OeisA232174"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

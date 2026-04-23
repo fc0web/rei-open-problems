@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-2-52",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 2,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 2.52 (Khukhro & Mazurov eds., ed.2)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 2.52",
+    "ja": null,
+    "latex": "(F.\\,Bruhat, N.\\,Iwahori, M.\\,Matsumoto). Let$G$be a semisimple algebraic group over a locally compact, totally disconnected field. Do the maximal compact subgroups of$G$fall into finitely many conjugacy classes? If so, estimate this number. { V.\\,P.\\,Platonov} Yes, they do, and a formula for this number is found (F.\\,Bruhat, J.\\,Tits, Publ. Math. IHES, { 41} (1972), 5--251).",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

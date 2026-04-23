@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-12-22",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 12,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 12.22 (Khukhro & Mazurov eds., ed.12)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 12.22",
+    "ja": null,
+    "latex": "Let$(G)$be the augmentation ideal of the integer group ring of an arbitrary group$G$. Then$D_n(G)=G (1 + ^n(G))$contains the$n$th lower central subgroup$_n(G)$of$G$. [r]{a)} Is it true that$D_n(G)/ _n(G)$is central in$G/ _n(G)$? [r]{b)} Is it true that$D_n(G)/ _n(G)$has exponent dividing 2? { N.\\,D.\\,Gupta,~Yu.\\,V.\\,Kuz'min} a) No, not always; moreover,$D_n(G)/ _n(G)$need not be contained in any t...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

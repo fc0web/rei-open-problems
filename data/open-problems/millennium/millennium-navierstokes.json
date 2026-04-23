@@ -1,0 +1,62 @@
+{
+  "id": "millennium-navierstokes",
+  "source": "millennium",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.claymath.org/millennium-problems/",
+    "citation": "Clay Mathematics Institute Millennium Prize (Lean-Dojo formalization)",
+    "lean4Ref": "Problems/NavierStokes/Definitions.lean"
+  },
+  "statement": {
+    "en": "PDE scaffolding",
+    "ja": null,
+    "latex": null,
+    "preview_source": "lean-millennium"
+  },
+  "field": "millennium",
+  "subfield": "Millennium",
+  "proposer": null,
+  "year": 2000,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (LeanMillennium); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=0)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2320"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "theoremCount": 2,
+    "notes": "Lean-Dojo, 2 theorems: partialDeriv_eq_fderiv,iteratedPartialDeriv_zero"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard, famous_hard_cap=navierstokes",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Clay Millennium level",
+    "reiFamiliarRef": "LeanMillennium",
+    "famousHardCap": "navierstokes"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-lean-millennium-v1",
+  "reviewer": null
+}

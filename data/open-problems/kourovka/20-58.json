@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-20-58",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 20,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 20.58 (Khukhro & Mazurov eds., ed.20)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 20.58",
+    "ja": null,
+    "latex": "Let$(G)$denote the set of element orders of a finite group$G$. A finite group~$G$is said to be recognizable (by spectrum) if every finite group$H$with$(H)= (G)$is isomorphic to$G$. [r]{ a)} Is it true that for every$n$there is a recognizable group that is the$n$-th direct power of a~nonabelian simple group? [r]{b)} Is it true that there is a nonabelian simple group$L$such that for every$n$there is...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

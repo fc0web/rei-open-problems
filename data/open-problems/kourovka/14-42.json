@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-14-42",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 14,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 14.42 (Khukhro & Mazurov eds., ed.14)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 14.42",
+    "ja": null,
+    "latex": "Is a free pro-$p$-group representable by matrices over an associative-com\\-mu\\-ta\\-tive profinite ring with~1? A negative answer is equivalent to the fact that every linear pro-$p$-group satisfies a non-trivial pro-$p$-identity. This is known to be true in dimension$2$for$p 2$(A.\\,N.\\,Zubkov, Siberian Math.~J., 28, no.\\,5 (1987), 742--747). It is also proved that a 2-dimensional linear pro-$2$-gro...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

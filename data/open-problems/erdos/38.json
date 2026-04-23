@@ -1,0 +1,61 @@
+{
+  "id": "erdos-38",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/38.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 38",
+    "ja": null,
+    "latex": "Does there exist $B \\subset \\mathbb{N}$ which is not an additive basis,\nbut is such that for every set $A \\subseteq \\mathbb{N}$ of Schnirelmann density $\\alpha$\nand every $N$ there exists $b \\in B$ such that\n\\[\n  \\lvert (A \\cup (A+b)) \\cap \\{1, \\ldots, N\\} \\rvert \\geq (\\alpha + f(\\alpha)) N\n\\]\nwhere $f(\\alpha) > 0$ for $0 < \\alpha < 1$?\n\nNote: here Erdős seems to use a slightly weaker notion of an",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1902"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos38"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

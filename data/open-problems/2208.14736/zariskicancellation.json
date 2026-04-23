@@ -1,0 +1,61 @@
+{
+  "id": "2208.14736-ZariskiCancellation",
+  "source": "2208.14736",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://arxiv.org/abs/2208.14736",
+    "citation": "2208.14736",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/2208.14736/ZariskiCancellation.lean"
+  },
+  "statement": {
+    "en": "Zariski Cancellation",
+    "ja": null,
+    "latex": "A finitely generated `k`-algebra `A` is cancellative if for all finitely generated `k` algebras `B` such that\n`B[X] ≅ₖ A[X]` we have `B ≅ₖ A`.\n-/\ndef IsCancellative (k A : Type*) [Field k]\n    [CommRing A] [Algebra k A] [Algebra.FiniteType k A] : Prop := ∀ {B : Type*}\n    [CommRing B] [Algebra k B] [Algebra.FiniteType k B], Nonempty (A[X] ≃ₐ[k] B[X]) →\n    Nonempty (A ≃ₐ[k] B)\n\n/--\nThe **Zariski C",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "commutative_algebra",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2347"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Arxiv"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

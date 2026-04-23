@@ -1,0 +1,61 @@
+{
+  "id": "1609.08688-sIncreasingrTuples",
+  "source": "1609.08688",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "1609.08688",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/1609.08688/sIncreasingrTuples.lean"
+  },
+  "statement": {
+    "en": "1609.08688 Problem sIncreasingrTuples",
+    "ja": null,
+    "latex": "Let $a = (a_1, a_2, a_3)$ and $b = (b_1, b_2, b_3)$ be two triples of integers.\nSay that $a$ is $2$-less than $b$, or $a <_2 b$, if $a_i < b_i$ for at least\ntwo co-ordinates $i$.\n-/\ndef lt₂ {α : Type*} [LT α] (a b : Fin 3 → α) : Prop :=\n  ∃ (i j : Fin 3), i ≠ j ∧ a i < b i ∧ a j < b j\n\nlocal infix:50 \" <₂ \" => lt₂\n\n@[simp, category API, AMS 5]\ntheorem not_lt₂ {α : Type*} [LinearOrder α] {a b : Fin",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=hard (sorry=6)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2344"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 6,
+    "notes": "Namespaces: Arxiv"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

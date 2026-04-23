@@ -1,0 +1,90 @@
+{
+  "id": "wikipedia-NoThreeInLineProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/No-three-in-line_problem",
+    "citation": "Ben Green's Open Problems 72 / Wikipedia",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/GreensOpenProblems/72.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/NoThreeInLineProblem.lean"
+  },
+  "statement": {
+    "en": "No-three-in-line problem (Green Open Problem 72): On an N×N integer grid, can one place more than 2N points such that no 3 are collinear? Equivalently, does AllowedSetSize(3, N) = 2N for all N ≥ 3? Verified for N ≤ 60. Grebennikov-Kwan 2025 proved no-k-in-line for k > 10^37.",
+    "ja": "No-three-in-line 問題 (Green 未解決問題 72): N×N 格子に、どの 3 点も同一直線上にないように 2N 点以上 (最大 2N 点) 配置できるか？ N ≤ 60 で計算機検証済. Grebennikov-Kwan 2025 が k > 10^37 の no-k-in-line を証明.",
+    "latex": "\\text{AllowedSetSize}(3, N) = 2N \\quad \\forall\\, N \\geq 3",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "geometry",
+  "subfield": "combinatorial-geometry",
+  "proposer": "Dudeney",
+  "year": 1917,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "∀ N ≥ 3 の AllowedSetSize 等式. 計算機で N ≤ 60 検証済 (決着せず). GK2025 で k=10^37 以上は閉 → k=3 は open",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE, 副=VI_BRIDGING (整数格子 × 実射影幾何 collinearity); 形式化=scaffold (実 sorry=7 in GreensOpenProblems/72.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "No-three-in-line_problem",
+    "oeis": [],
+    "mathlib": "Mathlib.LinearAlgebra.AffineSpace.Independent (Collinear)",
+    "external": [
+      "Dudeney 1917: original problem",
+      "Erdős 1951: asked the problem anew",
+      "Gardner 1976: popularized",
+      "N ≤ 60 computationally verified (pre-2000)",
+      "Grebennikov-Kwan 2025 arXiv:2510.17743: no-k-in-line for k > 10^37 proved"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 7,
+    "notes": "Namespaces: Green72. 実 file 92 行: AllowedSet 構造体 + AllowedSetSize 定義 + allowedSetSize_le (pigeonhole 上界, 1 sorry) + NoKInLineFor + NoKInLine 一般 k (1 sorry) + green_72 (k=3 main, 1 sorry) + variants.eventually (1 sorry) + no_three_in_line_le N≤60 (1 sorry) + no_k_in_line_big k>10^37 GK2025 (1 sorry) + TODO lower bound = 7 sorry"
+  },
+  "known_progress": [
+    {
+      "date": "1917",
+      "event": "Dudeney original puzzle (8×8 board)",
+      "impact": "問題起点"
+    },
+    {
+      "date": "1951",
+      "event": "Erdős reposed the problem, showed ≥ 2N for N ≤ some threshold by pigeonhole",
+      "impact": "理論的下限の確立"
+    },
+    {
+      "date": "pre-2000",
+      "event": "Computational verification for N ≤ 60: AllowedSetSize(3, N) = 2N verified",
+      "impact": "小 N 確定"
+    },
+    {
+      "date": "2025-10",
+      "event": "Grebennikov-Kwan arXiv:2510.17743: no-k-in-line for k > 10^37",
+      "impact": "高 k 領域 settled, k=3 は残 open"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) allowedSetSize_le (pigeonhole ≤ (k−1)N) は Finset.card + counting argument で tractable → Tier-1. (2) 小 N (3 ≤ N ≤ 10) は native_decide + Collinear 判定で閉鎖可. (3) no_three_in_line_le N ≤ 60 は既知計算結果の Lean 移植、大量だが mechanizable → Tier-2. (4) GK2025 は 2025 論文の本格移植 Tier-3. (5) green_72 k=3 全 N は真の open",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.50,
+    "solveRationale": "I_INFINITE_SEARCH_SPACE + VI_BRIDGING, NEITHER, scaffold (7 sorry). 計算的 side は tractable, 真の open (k=3 任意 N) は 108 年",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": "pigeonhole と小 N 計算は Lean tractable. GK2025 全体移植は研究レベル",
+    "reiFamiliarRef": null,
+    "famousHardCap": "Dudeney 1917 以来 108 年 open (k=3 case)"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual GreensOpenProblems/72.lean)",
+  "reviewer": null
+}

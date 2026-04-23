@@ -1,0 +1,61 @@
+{
+  "id": "2107.12475-CollatzLike",
+  "source": "2107.12475",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "2107.12475",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/2107.12475/CollatzLike.lean"
+  },
+  "statement": {
+    "en": "Digit $2$ in base $3$ representation of $2^n$",
+    "ja": null,
+    "latex": "For $n > 8$, $2^n$ is not the the sum of distinct powers of $3$. Expressed here in terms of the base $3$ digits of $n$.\n\nThis conjecture is equivalent to the halting of a $15$-state $2$-symbol Turing Machine.\n\nTODO(lezeau): Formalize the Turing Machine version of this problem.\n\nSource: *Hardness of Busy Beaver Value BB(15)*: https://link.springer.com/chapter/10.1007/978-3-031-72621-7_9\nThis is als",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (Papers 55/57/58 + 80 STEPs); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2346"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Arxiv"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy, famous_hard_cap=collatz",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Papers 55/57/58 + 80 STEPs",
+    "famousHardCap": "collatz"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "millennium-Poincare",
+  "source": "millennium",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Clay Millennium Prize",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Millenium/Poincare.lean"
+  },
+  "statement": {
+    "en": "Millenium Problem Poincare",
+    "ja": null,
+    "latex": "The predicate that the generalized Poincaré conjecture holds in dimension $n$, i.e. that\nany $n$-dimensional manifold that is homotopy equivalent to the sphere is in fact homeomorphic\nto the sphere. -/\ndef ConjectureFor (n : ℕ) : Prop :=\n  ∀ (M : Type) [TopologicalSpace M] [T2Space M] [ChartedSpace (ℝ^n) M], M ≃ₕ 𝕊ⁿ → Nonempty (M ≃ₜ 𝕊ⁿ)\n\n/--\nThe Millenium Problem, solved by Grigori Perelman in 200",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "general_topology",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (LeanMillennium); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=9)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2151"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 9,
+    "notes": "Namespaces: PoincareConjecture"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard, famous_hard_cap=poincare",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "LeanMillennium",
+    "famousHardCap": "poincare"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

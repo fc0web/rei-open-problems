@@ -1,0 +1,62 @@
+{
+  "id": "smale-11",
+  "source": "smale",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+    "citation": "Smale 1998 #11 (Is one-dimensional dynamics generally hyperbolic?)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Is one-dimensional dynamics generally hyperbolic?",
+    "ja": null,
+    "latex": "Density of hyperbolicity in 1D real/complex dynamics.",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "dynamical_systems",
+  "subfield": null,
+  "proposer": "Smale (1998)",
+  "year": 1998,
+  "status": "partial",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=分野間橋渡し, D-FUMT₈=FLOWING",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Manual curation; 分野間橋渡し",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

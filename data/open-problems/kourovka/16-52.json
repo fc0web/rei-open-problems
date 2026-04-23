@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-16-52",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 16,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 16.52 (Khukhro & Mazurov eds., ed.16)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 16.52",
+    "ja": null,
+    "latex": "Is every finitely presented elementary amenable group solvable-by-finite? { P.\\,Linnell, T.\\,Schick} No, not every. I.\\,Belegradek and Y.\\,Cornulier have pointed out that the groups in (C.\\,H.\\,Houghton, Arch. Math. (Basel), { 31}, no.\\,3 (1978/79), 254--258) are finitely presented as shown in (K.\\,S.\\,Brown, J.~Pure Appl. Algebra, { 44}, no.\\,1--3 (1987), 45--75) and elementary amenable, but not ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

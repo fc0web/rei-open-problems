@@ -1,0 +1,61 @@
+{
+  "id": "kourovka-19_25",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://arxiv.org/abs/1401.0300v40",
+    "citation": "Kourovka Notebook (Khukhro & Mazurov eds.)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Kourovka/19_25.lean"
+  },
+  "statement": {
+    "en": "Conjecture 19.25",
+    "ja": null,
+    "latex": "Let $G$ and $H$ be finite groups of the same order with\n$\\sum_{g \\in G} \\phi(|g|) = \\sum_{h \\in H} \\phi(|h|)$,\nwhere $\\phi$ is the Euler totient function. Suppose that $G$ is simple. Is\n$H$ necessarily simple?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2139"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Kourovka"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.8,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-Koethe",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/K%C3%B6the_conjecture",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/Koethe.lean"
+  },
+  "statement": {
+    "en": "Köthe conjecture",
+    "ja": null,
+    "latex": "Say a subset `I` of a ring `R` is nilpotent if all its elements are nilpotent. -/\ndef IsNil {S : Type*} [SetLike S R] (I : S) := ∀ i ∈ I, IsNilpotent i\n\n-- TODO(lezeau): add some basic API and already known results for nil ideals\n\nvariable (R) in\n/-- The *Kothe Radical* of a ring `R` is the sum of all (two-sided) nil ideals of `R`.\nTags: Kothe Radical, upper nilradical-/\ndef KotheRadical : TwoSide",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "associative_rings",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (STEP Tier A+ Köthe); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=6)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2256"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 6,
+    "notes": "Namespaces: Koethe"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.85,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "STEP Tier A+ Köthe",
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-6-62",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 6,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 6.62 (Khukhro & Mazurov eds., ed.6)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 6.62",
+    "ja": null,
+    "latex": "Is a (conjugacy,$p 0.2ex$-conju\\-ga\\-cy) biprimitively finite group finite if it has a finite maximal subgroup ($p 0.2ex$-sub\\-group)? There are affirmative answers for conjugacy biprimitively finite$p 0.2ex$-groups and for 2-conjugacy biprimitively finite groups (V.\\,P.\\,Shunkov, Algebra and Logic, 9, no.\\,4 (1970), 291--297; 11, no.\\,4 (1972), 260--272; 12, no.\\,5 (1973), 347--353), while the st...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

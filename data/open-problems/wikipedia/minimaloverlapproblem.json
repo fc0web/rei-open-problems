@@ -1,0 +1,92 @@
+{
+  "id": "wikipedia-MinimalOverlapProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Minimum_overlap_problem",
+    "citation": "Wikipedia: List of unsolved problems (combinatorics)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/36.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/MinimalOverlapProblem.lean"
+  },
+  "statement": {
+    "en": "Minimum overlap problem (Erdős Problem 36): Let A, B be a partition of {1, ..., 2n} with |A| = |B| = n. Let MaxOverlap(A,B) = max_k |{(a,b): a ∈ A, b ∈ B, a−b = k}|, and M(n) = min over partitions of MaxOverlap. Determine lim_{n→∞} M(n)/n. Current: 0.379005 ≤ lim ≤ 0.3809268534330870.",
+    "ja": "最小重複問題 (Erdős 問題 36): {1,...,2n} を二つの大きさ n の部分集合 A, B に分割するとき、差 k = a−b の重複 MaxOverlap を最小化する M(n) を定め、M(n)/n の極限を求めよ. 現在 0.379005 ≤ 極限 ≤ 0.3809268534330870.",
+    "latex": "\\lim_{n \\to \\infty} M(n)/n = ?\\ \\text{(open, bounded } [0.379005, 0.3809268534330870]\\text{)}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": "additive-combinatorics",
+  "proposer": "Erdős",
+  "year": 1955,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "III_CONVERGENCE_WITNESS",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "極限 lim M(n)/n 決定問題. 下界 0.379005 と上界 0.3809268534330870 が 70 年で漸近接近 (幅 0.00192 = 0.5%). FLOWING 収束中",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (極限値), 副=III_CONVERGENCE_WITNESS (上下界収束). 形式化=scaffold (実 sorry=21 in ErdosProblems/36.lean, 大半が bounds variants)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Minimum_overlap_problem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "Erdős 1955 (Riveon Lematematika): 1/4 lower bound",
+      "Scherk 1955 (pers. comm., reported by Moser 1959): 1 − 1/√2 ≈ 0.2929 lower",
+      "Świerczkowski 1958 Colloq. Math.: (4−√6)/5 ≈ 0.31 lower",
+      "Motzkin-Ralston-Selfridge 1956 Bull AMS: 2/5 upper",
+      "Haugland 1996 J. Number Theory: 0.38200... upper + lower √(4−√15)",
+      "Haugland 2022: 0.3809268534330870 upper (tightest known)",
+      "White 2022 arXiv:2201.05704: 0.379005 lower (tightest known)"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 21,
+    "notes": "Namespaces: Erdos36. 実 file 211 行. 豊富な bounds variants 構造: M(n) 定義 + MinOverlapQuotient + 5 lower bounds (Erdős 1955, Scherk 1955, Świerczkowski 1958, Haugland 1996, White 2022) + 4 upper bounds (Erdős 1955 = 1/2, MRS 1956 = 2/5, Haugland 1996 = 0.382..., Haugland 2022 = 0.380926...) + 5 test M(1)..M(5) + main erdos_36 limit + erdos_36.variants.exists + lower/upper improved goals = 21 sorry 合計"
+  },
+  "known_progress": [
+    {
+      "date": "1955",
+      "event": "Erdős original statement + lower 1/4 + upper 1/2",
+      "impact": "問題定義と初期範囲 [0.25, 0.5]"
+    },
+    {
+      "date": "1955-1959",
+      "event": "Scherk 1955 → Moser 1959 (1 − 1/√2 = 0.2929), Świerczkowski 1958 ((4−√6)/5), Motzkin-Ralston-Selfridge 1956 (upper 2/5 = 0.4)",
+      "impact": "範囲 [0.2929, 0.4] に縮小"
+    },
+    {
+      "date": "1996",
+      "event": "Haugland: lower √(4−√15) ≈ 0.3731 + upper 0.38200...",
+      "impact": "範囲 [0.3731, 0.3820]"
+    },
+    {
+      "date": "2022",
+      "event": "Haugland (upper 0.3809268534330870) + White (arXiv:2201.05704, lower 0.379005)",
+      "impact": "範囲 [0.379005, 0.3809268534330870] = 幅 0.00192 (0.5%)"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "M(1)=1, M(2)=1, M(3)=2, M(4)=2, M(5)=3 の 5 件は native_decide / Finset 全列挙で決定可能 → 5 sorry 閉鎖 Tier-1 target. 下界 Erdős 1/4, Scherk 1−1/√2 は基本 real analysis で可. 上界 Erdős 1/2 も tractable. 高度な Haugland 1996/2022, White 2022 は研究論文の Lean 移植大工事",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.55,
+    "solveRationale": "I_INFINITE_SEARCH_SPACE + III_CONVERGENCE_WITNESS, FLOWING. 21 sorry 多いが M(1)..M(5) + 基本 bounds は段階攻略可能. 極限値確定は 70 年 open",
+    "formalizationComplexity": "medium-hard",
+    "formalizationNotes": "21 sorry は段階的攻略可: 小 n (5) + 基本 bounds (5) = 10 sorry が Tier-1, 残 11 は研究 paper 移植 Tier-3",
+    "reiFamiliarRef": null,
+    "famousHardCap": "極限値の exact value は世界的 open since 1955"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual ErdosProblems/36.lean)",
+  "reviewer": null
+}

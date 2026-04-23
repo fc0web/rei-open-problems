@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-Pell",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/Pell.lean"
+  },
+  "statement": {
+    "en": "Infinitude of Pell number primes",
+    "ja": null,
+    "latex": "The *Pell numbers* $P_n$ are defined by $P_0 = 0$, $P_1 = 1$, $P_{n+2} = 2*P_{n+1} + P_n$ -/\ndef pellNumber : ℕ → ℕ\n  | 0 => 0\n  | 1 => 1\n  | n + 1 + 1 => 2 * pellNumber (n + 1) + pellNumber n\n\n@[category test, AMS 11]\ntheorem pellNumber_zero : pellNumber 0 = 0 := rfl\n\n@[category test, AMS 11]\ntheorem pellNumber_one : pellNumber 1 = 1 := rfl\n\n@[category test, AMS 11]\ntheorem pellNumber_two : pellN",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2278"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: PellNumbers"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.75,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

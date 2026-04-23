@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-CollatzConjecture",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/CollatzConjecture.lean"
+  },
+  "statement": {
+    "en": "Collatz conjecture",
+    "ja": null,
+    "latex": "Consider the following operation on the natural numbers:\nIf the number is even, divide it by two.\nIf the number is odd, triple it and add one.\n-/\ndef collatzStep (n : ℕ) : ℕ :=\n  if Even n then n / 2 else 3 * n + 1\n\n/--\nNow form a sequence beginning with any positive integer, where each subsequent term is obtained\nby applying the operation defined above to the previous term.\nThe **Collatz conjectu",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (Papers 55/57/58 + 80 STEPs); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2220"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: CollatzConjecture"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy, famous_hard_cap=collatz",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "Papers 55/57/58 + 80 STEPs",
+    "famousHardCap": "collatz"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

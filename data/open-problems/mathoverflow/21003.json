@@ -1,0 +1,61 @@
+{
+  "id": "mathoverflow-21003",
+  "source": "mathoverflow",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://mathoverflow.net/questions/21003",
+    "citation": "MathOverflow",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Mathoverflow/21003.lean"
+  },
+  "statement": {
+    "en": "Mathoverflow 21003",
+    "ja": null,
+    "latex": "Is there any polynomial $f(x, y) \\in \\mathbb{Q}[x, y]$ such that\n$f : \\mathbb{Q} \\times \\mathbb{Q} \\rightarrow \\mathbb{Q}$ is a bijection?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "field_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2143"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Mathoverflow21003"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.8,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

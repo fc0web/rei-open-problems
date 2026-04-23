@@ -1,0 +1,61 @@
+{
+  "id": "oeis-306477",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/306477.lean"
+  },
+  "statement": {
+    "en": "The 2-4-6-8 Conjecture",
+    "ja": null,
+    "latex": "The predicate that `n` can be written as $\\binom{w+2}{2} + \\binom{x+3}{4} + \\binom{y+5}{6} + \\binom{z+7}{8}$\nfor nonnegative integers $w, x, y, z$. -/\ndef IsSumOfBinomials (n : ℕ) : Prop :=\n  ∃ w x y z : ℕ, n = (w + 2).choose 2 + (x + 3).choose 4 + (y + 5).choose 6 + (z + 7).choose 8\n\n@[category test, AMS 11]\ntheorem isSumOfBinomials_1 : IsSumOfBinomials 1 :=\n  ⟨0, 0, 0, 0, by decide⟩\n\n@[category ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2162"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: OeisA306477"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

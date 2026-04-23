@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-InvariantSubspaceProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Invariant_subspace_problem",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/InvariantSubspaceProblem.lean"
+  },
+  "statement": {
+    "en": "Invariant Subspace Problem",
+    "ja": null,
+    "latex": "`ClosedInvariantSubspace T` is the type of non-trivial (different from `H` and `{0}`) closed\nsubspaces of a complex vector space `H` that are invariant under the action of linear map `T`. -/\nstructure ClosedInvariantSubspace [Module ℂ H] (T : H →L[ℂ] H) where\n  toSubspace : Submodule ℂ H\n  ne_bot : toSubspace ≠ ⊥\n  ne_top : toSubspace ≠ ⊤\n  is_closed : IsClosed (toSubspace : Set H)\n  is_fixed : to",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "operator_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2249"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: "
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.75,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

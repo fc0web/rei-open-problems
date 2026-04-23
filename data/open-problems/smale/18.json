@@ -1,0 +1,62 @@
+{
+  "id": "smale-18",
+  "source": "smale",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+    "citation": "Smale 1998 #18 (Limits of intelligence)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Limits of intelligence",
+    "ja": null,
+    "latex": "What are the limits of intelligence, both artificial and human?",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "other",
+  "subfield": null,
+  "proposer": "Smale (1998)",
+  "year": 1998,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=定義が曖昧, D-FUMT₈=NEITHER",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "philosophical / interdisciplinary"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.1,
+    "solveRationale": "Manual curation; 定義が曖昧",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

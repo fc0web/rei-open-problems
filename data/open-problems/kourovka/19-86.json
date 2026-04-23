@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-19-86",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 19,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 19.86 (Khukhro & Mazurov eds., ed.19)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 19.86",
+    "ja": null,
+    "latex": "Suppose that a finite group$G$has a$_{i}$-Hall subgroup for every$i I$. Suppose that a subgroup$A G$is such that$A H$is a$_{i}$-Hall subgroup of$A$for every$i I$and every$_{i}$-Hall subgroup$H$of$G$(see 19.84 in Archive). Is it true that then$A$is${ }$-subnormal in$G$? An affirmative answer is known if$=\\{\\{2\\}, \\{3 \\}, \\}$and if$G$is$$-soluble.",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

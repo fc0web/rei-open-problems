@@ -1,0 +1,61 @@
+{
+  "id": "uds-Equidistribution",
+  "source": "uds",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Uniform Distribution of Sequences",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/UniformDistributionOfSequences/Equidistribution.lean"
+  },
+  "statement": {
+    "en": "Equidistributed Sequences",
+    "ja": null,
+    "latex": "A sequence `(s_1, s_2, s_3, ...)` of real numbers is said to be equidistributed on\nan interval `[a, b]` if for every subinterval `[c, d]` of `[a, b]` we have\n`lim_{n→ ∞} |{s_1, ..., s_n} ∩ [c, d]| / n = (d - c)/(b-a)`\n-/\ndef IsEquidistributed (a b : ℝ) (s : ℕ → ℝ) : Prop :=\n  ∀ c d, c ≤ d → Set.Icc c d ⊆ Set.Icc a b →\n  Filter.atTop.Tendsto (fun n => ((Finset.range n).filter\n    fun m => s m ∈ Set",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2338"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Equidistribution"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

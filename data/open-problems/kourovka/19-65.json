@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-19-65",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 19,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 19.65 (Khukhro & Mazurov eds., ed.19)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 19.65",
+    "ja": null,
+    "latex": "It is well known that varieties of groups form a free semigroup$N$(A.\\,L.\\,Shmel'kin, DAN SSSR, { 149} (1963), 543--545 (Russian)); \\ B.\\,H.\\,Neuman, H.\\,Neumann, P.\\,M.\\,Neumann, Math. Z., { 80} (1962), 44--62). Varieties of linear representations over an infinite field of zero characteristic also form a free semi\\-group~$M$, and$N$acts freely on$M$(B.\\,I.\\,Plotkin, Siberian Math. J., { 13}, no.\\...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

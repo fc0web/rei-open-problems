@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-15-95",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 15,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 15.95 (Khukhro & Mazurov eds., ed.15)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 15.95",
+    "ja": null,
+    "latex": "(A.\\,Mann, Ch.\\,Praeger). Suppose that all fixed-point-free elements of a~transitive permutation group$G$have prime order$p$. If$G$is a finite$p$-group, must$G$have exponent$p$? This is true for$p=2,\\,3$; it is also known that the exponent of$G$is bounded in terms of$p$(A.\\,Hassani, M.\\,Khayaty, E.\\,I.\\,Khukhro, C.\\,E.\\,Praeger, J.~Algebra, 214, no.\\,1 (1999), 317--337).",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

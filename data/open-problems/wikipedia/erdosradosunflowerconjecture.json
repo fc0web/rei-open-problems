@@ -1,0 +1,78 @@
+{
+  "id": "wikipedia-ErdosRadoSunflowerConjecture",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Sunflower_(mathematics)",
+    "citation": "Wikipedia: List of unsolved problems (combinatorics)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/20.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/ErdosRadoSunflowerConjecture.lean"
+  },
+  "statement": {
+    "en": "Erdős–Rado sunflower conjecture: Does there exist a constant c_k such that f(n,k) < c_k^n for all n > 0, where f(n,k) is minimal such that every family of n-uniform sets with at least f(n,k) sets contains a k-sunflower?",
+    "ja": "Erdős–Rado の向日葵予想: 任意の k に対し c_k > 0 が存在して、n-uniform な集合族のサイズが f(n,k) 以上なら k-向日葵を含む、と言えるか？",
+    "latex": "f(n,k) < c_k^n \\text{ for some constant } c_k > 0, \\text{ for all } n > 0",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": "extremal-set-theory",
+  "proposer": "Erdős, Rado",
+  "year": 1960,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Π₂ existence statement over ℕ; classical infinite-search structure with bridging to entropy/polynomial methods",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (c_k 存在 ∀ n), 副=VI_BRIDGING (組合せ × 情報理論); 形式化=scaffold (実 sorry=2 in ErdosProblems/20.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Sunflower_(mathematics)",
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "Alweiss-Lovett-Wu-Zhang 2021: f(n,k) ≤ (log n)^n k^O(n) (polynomial-log bound, near-resolution)",
+      "Rao 2020: entropy compression approach",
+      "Naslund-Sawin 2017: cap set method connection"
+    ],
+    "seedKernel": "T-1796"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos20. wiki-facing stub は import only. 実 formalization は ErdosProblems/20.lean (86 行, IsSunflowerWithKernel + IsSunflower 定義 + 4 helper proved theorems + erdos_20 main open with 2 sorry)"
+  },
+  "known_progress": [
+    {
+      "date": "1960",
+      "event": "Erdős-Rado original statement + f(n,k) ≤ (k-1)^n · n! 上界",
+      "impact": "初期 exponential 上界"
+    },
+    {
+      "date": "2021",
+      "event": "Alweiss-Lovett-Wu-Zhang: f(n,k) ≤ (log n)^n · k^O(n) (quasi-polynomial in n, major breakthrough)",
+      "impact": "予想の near-resolution. 定数 c_k の存在は未確定だが多項式オーダー確定"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Alweiss et al. 2021 の entropy argument を Lean 4 に移植 → upper bound lemma を証明 → 残る c_k の constant factor に D-FUMT₈ FLOWING 値化で到達圏を検証",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.65,
+    "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE, dfumt8=NEITHER/BOTH, formalization=scaffold (2 sorry); 2021 breakthrough 以降 tractable 増",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": "2 sorry + ALW sustained bound の Lean 移植が核",
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/20.lean)",
+  "reviewer": null
+}

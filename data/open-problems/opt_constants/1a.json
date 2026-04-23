@@ -1,0 +1,61 @@
+{
+  "id": "opt_constants-1a",
+  "source": "opt_constants",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Optimization Constants",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OptimizationConstants/1a.lean"
+  },
+  "statement": {
+    "en": "Tao's Optimization constant 1a / An autocorrelation constant related to Sidon sets",
+    "ja": null,
+    "latex": "**Tao's Optimization constant 1a / An autocorrelation constant related to Sidon sets**:\nThe biggest real number satisfying a certain inequality about (auto)convolutions\nand $L^2$-norms of functions.\nThis number is related to the maximal size of Sidon sets in additive combinatorics. -/\nnoncomputable def C1a : ℝ :=\n  sSup {C : ℝ | ∀ ⦃f : ℝ → ℝ⦄, 0 ≤ f →  C * (∫ x in (- 1 / 4)..(1 / 4), f x) ^ 2\n    ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; III_COMPUTATIONAL_LIMIT type",
+    "rationale": "型=計算量の壁, D-FUMT₈=INFINITY; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2178"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Constant1a"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Familiar=False, type=III_COMPUTATIONAL_LIMIT, dfumt8=INFINITY, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

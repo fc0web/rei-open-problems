@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-6-63",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 6,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 6.63 (Khukhro & Mazurov eds., ed.6)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 6.63",
+    "ja": null,
+    "latex": "An infinite group$G$is called a monster of the first kind\\/ if it has elements of order$> 2$and for any such an element$a$and for any proper subgroup$H$of$G$, there is an element$g$in$G H$, such that$< a,\\, a^g > =G$. Classify the monsters of the first kind all of whose proper subgroups are finite. { V.\\,P.\\,Shunkov} The centre of such a group coincides with the set of elements of order$2$(V.\\,P.\\...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

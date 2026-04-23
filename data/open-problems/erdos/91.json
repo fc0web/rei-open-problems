@@ -1,0 +1,61 @@
+{
+  "id": "erdos-91",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/91.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 91",
+    "ja": null,
+    "latex": "A set $A$ is 'optimal' if it has $n$ points and achieves the minimum distance count. -/\nnoncomputable def IsOptimal (A : Finset ℝ²) (n : ℕ) : Prop :=\n  A.card = n ∧ distinctDistances A = minimalDistinctDistances n\n\n/-- Two finite sets of points in $\\mathbb{R}^2$ are similar if one can be mapped to the other by a\nDilationEquiv. -/\ndef DilationEquivSimilar (A B : Finset ℝ²) : Prop :=\n  ∃ f : ℝ² ≃ᵈ ℝ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "convex_geometry",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=hard (sorry=8)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2068"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 8,
+    "notes": "Namespaces: Erdos91"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

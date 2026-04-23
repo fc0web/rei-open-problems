@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-21-124",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 21,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 21.124 (Khukhro & Mazurov eds., ed.21)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 21.124",
+    "ja": null,
+    "latex": "A group$G$is said to be if$G$has a finite-index subgroup isomorphic to the fundamental group of a special complex (in the sense of F.\\,Haglund, D.\\,T.\\,Wise, , 17, no.\\,5 (2008), 1551--1620; cf 20.60.) A group$G$is called a if it acts properly discontinuously and cocompactly by isometries on a CAT(0) metric space. [r]{a)} Is every CAT(0) free-by-cyclic group virtually special? [r]{b)} A weaker que...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

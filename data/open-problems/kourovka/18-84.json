@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-18-84",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 18,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 18.84 (Khukhro & Mazurov eds., ed.18)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 18.84",
+    "ja": null,
+    "latex": "Let$$be a set of primes. We say that a finite group is a$BS_$-group if every conjugacy class in this group any two elements of which generate a$$-subgroup itself generates a$$-subgroup. Is every normal subgroup of a$BS_$-group a$BS_$-group? In the case$2$, an affirmative answer follows from (D.\\,O.\\,Revin, Siberian Math. J., 52, no.\\,2 (2011), 340--347). { D.\\,O.\\,Revin}",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

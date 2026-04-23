@@ -1,0 +1,61 @@
+{
+  "id": "hilbert-5",
+  "source": "hilbert",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Hilbert 23 Problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/HilbertProblems/5.lean"
+  },
+  "statement": {
+    "en": "Hilbert's Fifth Problem and the Hilbert–Smith Conjecture",
+    "ja": null,
+    "latex": "A topological group `G` admits a Lie group structure if there exists a finite-dimensional\nsmooth manifold structure on `G` making it a real Lie group. -/\ndef AdmitsLieGroupStructure (G : Type*) [Group G] [TopologicalSpace G] : Prop :=\n  ∃ (k : ℕ) (cs : ChartedSpace (EuclideanSpace ℝ (Fin k)) G),\n    letI := cs\n    LieGroup (𝓡 k) ⊤ G\n\n/-- Every Lie group trivially admits a Lie group structure.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "topological_groups",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2138"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Hilbert5"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.85,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

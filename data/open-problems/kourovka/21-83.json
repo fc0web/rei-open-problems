@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-21-83",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 21,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 21.83 (Khukhro & Mazurov eds., ed.21)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 21.83",
+    "ja": null,
+    "latex": "The function$d_n ( , ) =(1/n) |\\{x \\{1, ,n\\} (x) (x)\\}|$is a distance on the symmetric group~$S_n$. For a finitely generated group$G$, an is a sequence of set-theoretic maps$f_n : G S_n$satisfying$d_n (f_n(g)f_n(h), f_n(gh)) 0$as$n$for all$g, h G$. An almost-homomorphism$\\{f_n\\}$is said to be if there is a sequence of group homomorphisms$_n : G S_n$such that$d_n ( _n(g), f_n(g)) 0$as$n$for all$g G...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

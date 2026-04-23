@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-14-33",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 14,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 14.33 (Khukhro & Mazurov eds., ed.14)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 14.33",
+    "ja": null,
+    "latex": "Does there exist a finitely presented pro-$p$-group ($p$being a prime) which contains an isomorphic copy of every countably based pro-$p$-group? { R.\\,I.\\,Grigorchuk} Yes, there does: the Nottingham group over${ F} _p$for$p>2$, which was shown to be finitely presented in (M.\\,V.\\,Ershov, J. London Math. Soc., 71 (2005), 362--378). (M.\\,Ershov, Letter of 19.10.2009.)",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

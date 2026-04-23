@@ -1,0 +1,61 @@
+{
+  "id": "oeis-63880",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/63880.lean"
+  },
+  "statement": {
+    "en": "Conjectures associated with A063880",
+    "ja": null,
+    "latex": "The set of unitary divisors of $n$: divisors $d$ such that $\\gcd(d, n/d) = 1$. -/\ndef unitaryDivisors (n : ℕ) : Finset ℕ :=\n  {d ∈ n.divisors | d.Coprime (n / d)}\n\n/-- The sum of unitary divisors of $n$, denoted $\\text{usigma}(n)$. -/\ndef usigma (n : ℕ) : ℕ :=\n  ∑ d ∈ unitaryDivisors n, d\n\n/-- A number $n$ is in the sequence A063880 if $\\sigma(n) = 2 \\cdot \\text{usigma}(n)$. -/\ndef a (n : ℕ) : Pro",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2169"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: OeisA63880"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

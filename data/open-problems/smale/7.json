@@ -1,0 +1,62 @@
+{
+  "id": "smale-7",
+  "source": "smale",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+    "citation": "Smale 1998 #7 (Distribution of points on the 2-sphere)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Distribution of points on the 2-sphere",
+    "ja": null,
+    "latex": "Optimal (logarithmic-energy) point distribution on S^2.",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "geometry",
+  "subfield": null,
+  "proposer": "Smale (1998)",
+  "year": 1998,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.45,
+    "solveRationale": "Manual curation; 無限探索空間",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

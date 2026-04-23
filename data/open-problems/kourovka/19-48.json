@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-19-48",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 19,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 19.48 (Khukhro & Mazurov eds., ed.19)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 19.48",
+    "ja": null,
+    "latex": "A system of additive subgroups$_{ij}$,$1 i,j n$, of a field$K$is called a net (or a carpet) of order$n$if$_{ir} _{rj} _{ij}$for all$i, r, j$. A net that does not contain the diagonal is called an elementary net. A net$=( _{ij})$is said to be irreducible if all$_{ij}$are nontrivial. An elementary net$$is said to be closed if the elementary net subgroup$E( )$does not contain additional elementary tr...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

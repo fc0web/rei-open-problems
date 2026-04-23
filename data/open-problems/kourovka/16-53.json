@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-16-53",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 16,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 16.53 (Khukhro & Mazurov eds., ed.16)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 16.53",
+    "ja": null,
+    "latex": "Let$d(G)$denote the smallest cardinality of a generating set of the group~$G$. Suppose that$G= <A,B >$, where$A$and$B$are two$d$-generated finite groups of coprime orders. Is it true that$d(G) d+1$? See Archive~12.71 and (A.\\,Lucchini, J.~Algebra, 245 (2001), 552--561). Comment of 2021: the answer is yes if$A$and$B$have prime power order (E.\\,Detomi, A.\\,Lucchini, , 87, no.\\,3 (2013), 689--706). {...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

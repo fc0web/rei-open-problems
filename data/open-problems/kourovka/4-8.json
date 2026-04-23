@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-4-8",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 4,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 4.8 (Khukhro & Mazurov eds., ed.4)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 4.8",
+    "ja": null,
+    "latex": "Suppose$G$is a finitely generated free-by-cyclic group. Is$G$finitely presented? { G.\\,Baumslag} Yes, it is; moreover, every finitely generated subgroup is finitely presented. For infinite cyclic extensions this is proved in (M.\\,Feighn, M.\\,Handel, Ann. Math., { 149}, no.\\,3 (1999), 1061--1077), while another easier argument applies for finite cyclic extensions.",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

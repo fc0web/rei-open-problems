@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-10-6",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 10,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 10.6 (Khukhro & Mazurov eds., ed.10)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 10.6",
+    "ja": null,
+    "latex": "Is it true that in an abelian group every non-discrete group topology can be strengthened up to a non-discrete group topology such that the group becomes a complete topological group? { V.\\,I.\\,Arnautov} This is true for group topologies satisfying the first axiom of countability (E.\\,I.\\,Marin, in: Modules, Algebras, Topologies$($Mat. Is\\-sle\\-do\\-va\\-niya, { 105}), Ki\\-shi\\-n\\\"ev, 1988, 105--119...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

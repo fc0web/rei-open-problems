@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-10-14",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 10,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 10.14 (Khukhro & Mazurov eds., ed.10)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 10.14",
+    "ja": null,
+    "latex": "a) Does every group satisfying the minimum condition on subgroups satisfy the weak maximum condition on subgroups? Does every group satisfying the maximum condition on subgroups satisfy the weak minimum condition on subgroups? { D.\\,I.\\,Zaitsev} a) No, not always (V.\\,N.\\,Obraztsov, Math. USSR--Sb., { 66}, no.\\,2 (1990), 541--553). b) No, not always (V.\\,N.\\,Obraztsov, Siberian Math.~J., { 32}, no...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "erdos-332",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/332",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/332.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 332",
+    "ja": null,
+    "latex": "The set of numbers $D(A)$ which occur infinitely often as $a_1 - a_2$ with $a_1, a_2 \\in A$.\n-/\nnoncomputable def D_A (A : Set ℕ) : Set ℤ :=\n  { d : ℤ | Set.Infinite { (a, b) : ℕ × ℕ | a ∈ A ∧ b ∈ A ∧ (a : ℤ) - (b : ℤ) = d } }\n\n/--\nA set $S \\subseteq \\mathbb{Z}$ has bounded gaps if it is syndetic, meaning there is a uniform\nbound $M$ such that every interval of length $M$ contains an element of $S",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=INFINITY; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1875"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos332"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=INFINITY, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

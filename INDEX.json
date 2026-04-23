@@ -1,0 +1,34 @@
+{
+  "version": "2.0-public",
+  "name": "Open Problems META-DB (Rei-AIOS) — Public Snapshot",
+  "lastUpdate": "2026-04-23",
+  "description": "Public snapshot of Rei-AIOS Open Problems META-DB. Citation via Paper 130 DOI 10.5281/zenodo.19700758.",
+  "totalProblems": 2570,
+  "totalReiInventions": 10,
+  "totalClaudeDiscoveries": 3,
+  "grandTotalEntries": 2583,
+  "tierDescription": {
+    "tier1": "World-public open problems (2570 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
+    "tier2": "Rei Invention Engine approved conjectures (10 entries) — CC-BY 4.0 attribution required",
+    "tier3": "Claude Code research discoveries (3 entries) — subset of private META-DB. Some discoveries withheld pending Paper 135-136 publication."
+  },
+  "paperReference": {
+    "paper130Published": {
+      "totalProblems": 2572,
+      "doi": "10.5281/zenodo.19700758",
+      "date": "2026-04-23"
+    },
+    "note": "Paper 130 cited totalProblems=2572 (Tier 1 at time of writing). Current public snapshot reflects disk truth + Tier 2/3 additions."
+  },
+  "held_back_info": {
+    "reason": "Tier 3 entries with reiAssessment.publicExcluded=true are withheld pending scheduled paper publication.",
+    "count": 2,
+    "recoveryDate": "Upon publication of Paper 135 / 136 (candidate, 2026-Q2)"
+  },
+  "sourceRepos": {
+    "privateCanonical": "fc0web/rei-aios (private, Nobuki Fujimoto)",
+    "publicSnapshot": "fc0web/rei-open-problems (this repository)"
+  },
+  "license": "CC-BY 4.0",
+  "citationPreferred": "Fujimoto, N. (2026). Open Problems META-DB (Rei-AIOS). Paper 130. Zenodo. https://doi.org/10.5281/zenodo.19700758"
+}

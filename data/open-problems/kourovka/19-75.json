@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-19-75",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 19,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 19.75 (Khukhro & Mazurov eds., ed.19)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 19.75",
+    "ja": null,
+    "latex": "Let$P$be a finite 2-group of exponent$2^e$such that the rank of every abelian subgroup is at most$r$. Is it true that$|P| 2^{r(e+1)}$? This bound would be sharp (for a direct product of quaternion groups). { B.\\,Sambale} No, it is not true, as follows from the examples constructed in (A.\\,Yu.\\,Olshanskii, Math. Notes, { 23} (1978), 183--185). (A.\\,Mann, Letter of 23 April 2018.)",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

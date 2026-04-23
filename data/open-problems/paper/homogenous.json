@@ -1,0 +1,61 @@
+{
+  "id": "paper-Homogenous",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/Homogenous.lean"
+  },
+  "statement": {
+    "en": "Conjectures around homogeneous topological spaces",
+    "ja": null,
+    "latex": "A topological space $X$ is called *homogeneous* if for all $x, y \\in X$ there is homeomorphism\n$f : X \\to X$ with $f(x) = y$.\n-/\nclass HomogeneousSpace (X : Type*) [TopologicalSpace X] : Prop where\n  exists_equiv : ∀ x y : X, ∃ f : X ≃ₜ X, f x = y\n\n/-- Every discrete space is homogeneous. -/\n@[category test, AMS 54]\ninstance DiscreteTopology.toHomogeneousSpace (X : Type*) [TopologicalSpace X] [Dis",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "general_topology",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2191"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Homogeneous"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

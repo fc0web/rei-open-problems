@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-1-66",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 1,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 1.66 (Khukhro & Mazurov eds., ed.1)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 1.66",
+    "ja": null,
+    "latex": "Suppose that$T$is a periodic abelian group, and${ m}$an uncountable cardinal number. Does there always exist an abelian torsion-free group$U(T,{ m})$of cardinality${ m}$with the following property: for any abelian torsion-free group$A$of cardinality${ m}$, the equality${ Ext}\\, (A,T)=0$holds if and only if$A$is embeddable in$U(T,{ m})$? { L.\\,Ya.\\,Kulikov} No, not always. There is a model of ZFC i...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

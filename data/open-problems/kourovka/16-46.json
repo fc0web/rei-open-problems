@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-16-46",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 16,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 16.46 (Khukhro & Mazurov eds., ed.16)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 16.46",
+    "ja": null,
+    "latex": "Among the finitely-presented groups that act arc-transitively on the (infinite) 3-valent tree with finite vertex-stabilizer are the two groups$G_3 = < h,\\,a,\\,P,\\,Q h^3 .$,$a^2$,$P^2$,$Q^2$,$[P,Q]$,$[h,P]$,$(hQ)^2$,$. a^{-1}PaQ >$\\ and \\$G_4 = < h,\\,a,\\,p,\\,q,\\,r h^3 .$,$a^2$,$p^2$,$q^2$,$r^2$,$[p,q]$,$[p,r]$,$p(qr)^2$,$h^{-1}phq$,$h^{-1}qhpq$,$(hr)^2$,$[a,p]$,$. a^{-1}qar >$, each of which contai...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

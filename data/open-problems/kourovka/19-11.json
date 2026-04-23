@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-19-11",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 19,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 19.11 (Khukhro & Mazurov eds., ed.19)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 19.11",
+    "ja": null,
+    "latex": "Does there exist a constant$c$such that the number of conjugacy classes in a finite group$G$is always at least$c _2 |G|$? Editors' comment of 2021: It is proved that every group$G$contains at least$|G|/( |G|)^8$conjugacy classes for some fixed$> 0$(L.\\,Pyber, , 46, no.\\,2 (1992), 239--249). It is also proved that for every$> 0$there exists$> 0$such that every finite group$G$of order at least 3 has...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-12-77",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 12,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 12.77 (Khukhro & Mazurov eds., ed.12)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 12.77",
+    "ja": null,
+    "latex": "(Well-known problem). Does the order (if it is greater than$p^2$) of a finite non-cyclic$p 0.2ex$-group divide the order of its automorphism group? { A.\\,I.\\,Starostin} No, not always (J.\\,Gonz\\'alez-S\\'anchez, A.\\,Jaikin-Zapirain, Forum Math. Sigma, { 3}, Article ID e7, 11 p., electronic only (2015)).",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

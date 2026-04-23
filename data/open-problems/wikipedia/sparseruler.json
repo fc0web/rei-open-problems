@@ -1,0 +1,83 @@
+{
+  "id": "wikipedia-SparseRuler",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Sparse_ruler",
+    "citation": "Wikipedia: List of unsolved problems (combinatorics)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/170.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/SparseRuler.lean"
+  },
+  "statement": {
+    "en": "Sparse ruler / restricted difference basis (Erdős Problem 170): An N-perfect ruler is a subset A ⊆ {0,...,N} such that every 1 ≤ k ≤ N is expressible as a_1 − a_0 with a_i ∈ A. Let F(N) = min |A| over N-perfect rulers. Determine lim_{N→∞} F(N)/√N. Known bounds: √(sup_{θ≠0} 2(1−sin θ/θ)) ≈ 1.559 (Leech 1956) ≤ lim ≤ √3 ≈ 1.732 (Wichmann 1963).",
+    "ja": "疎な定規 / 制限差基底 (Erdős 問題 170): A ⊆ {0,...,N} が N-perfect ruler とは、各 1 ≤ k ≤ N が a_1 − a_0 で表現可能なこと. F(N) = 最小サイズ. lim F(N)/√N の値を求めよ. 既知境界: Leech 1956 下界 ≈ 1.559, Wichmann 1963 上界 √3 ≈ 1.732.",
+    "latex": "\\lim_{N \\to \\infty} \\frac{F(N)}{\\sqrt{N}} \\in [1.559, \\sqrt{3}]\\ \\text{(open exact value)}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": "additive-combinatorics",
+  "proposer": "Erdős, Gál",
+  "year": 1948,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "III_CONVERGENCE_WITNESS",
+    "secondaryType": "I_INFINITE_SEARCH_SPACE",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "極限値の exact 決定問題. 上下界 [1.559, 1.732] が 70 年で幅 0.173 (10%) ゆっくり収束. FLOWING 収束中",
+    "rationale": "型=III_CONVERGENCE_WITNESS (上下界挟み込み), 副=I_INFINITE_SEARCH_SPACE (極限値); 形式化=scaffold (実 sorry=2 in ErdosProblems/170.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Sparse_ruler",
+    "oeis": ["A004137", "A103294"],
+    "mathlib": null,
+    "external": [
+      "Erdős-Gál 1948 [ErGa48]: 極限の存在を証明",
+      "Leech 1956 [Le56]: 下界 √(sup 2(1−sin θ/θ)) ≈ 1.559, Rédei-Rényi argument の改良",
+      "Wichmann 1963 [Wi63]: 上界 √3 via Wichmann's Rulers 構成"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos170. 実 file 73 行: PerfectRuler 定義 + PerfectRulersLengthN + TrivialRuler + trivial_ruler_is_perfect (sanity, proved) + F(N) min cardinality + erdos170 main (lim F(N)/√N, 1 sorry) + lower_bound / upper_bound abbrev + erdos170.existing_bounds (Erdős-Gál 1948 existence in [lower, upper], 1 sorry) = 2 sorry"
+  },
+  "known_progress": [
+    {
+      "date": "1948",
+      "event": "Erdős-Gál: lim F(N)/√N 存在性を証明",
+      "impact": "極限の存在確立 (値は不明)"
+    },
+    {
+      "date": "1956",
+      "event": "Leech: 下界 √(sup_{θ≠0} 2(1−sin θ/θ)) ≈ 1.559 (Rédei-Rényi の改良)",
+      "impact": "下界初取得"
+    },
+    {
+      "date": "1963",
+      "event": "Wichmann: 上界 √3 via Wichmann's Rulers 明示構成",
+      "impact": "上下界 [1.559, 1.732] 幅 0.173"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) trivial_ruler_is_perfect 既に proved の pattern を活用. (2) erdos170.existing_bounds は Leech/Wichmann 原論文 移植. 解析的下界は noncomputable Real analysis の重労働. (3) F(N) 小 N (≤ 50) は Finset 全列挙で native_decide 検証可能 — 独立 lemma として価値あり",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.50,
+    "solveRationale": "III_CONVERGENCE_WITNESS, FLOWING. 2 sorry は tractable だが解析部分 (Leech 下界) 難. 極限 exact 値は 70 年 open",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": "小 N の F(N) は decidable. 上下界の解析は Real.sup + supremum argument で Mathlib 準備済",
+    "reiFamiliarRef": null,
+    "famousHardCap": "極限 exact 値は世界的 open since 1948 Erdős-Gál"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual ErdosProblems/170.lean)",
+  "reviewer": null
+}

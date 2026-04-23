@@ -1,0 +1,61 @@
+{
+  "id": "linters-AnswerLinter",
+  "source": "linters",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Linters",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Linters/AnswerLinter.lean"
+  },
+  "statement": {
+    "en": "Linters Problem AnswerLinter",
+    "ja": null,
+    "latex": "",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "unknown",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; IV_PROBLEM_UNDEFINED type",
+    "rationale": "型=定義が曖昧, D-FUMT₈=NEITHER; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2335"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: AnswerLinter"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.0,
+    "solveRationale": "Familiar=False, type=IV_PROBLEM_UNDEFINED, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

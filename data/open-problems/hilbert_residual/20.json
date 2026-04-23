@@ -1,0 +1,62 @@
+{
+  "id": "hilbert-residual-20",
+  "source": "hilbert_residual",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Hilbert%27s_problems",
+    "citation": "Hilbert 1900 #20 (Boundary value problems (continuous coefficients))",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Boundary value problems (continuous coefficients)",
+    "ja": null,
+    "latex": "Existence of solutions for boundary value problems with arbitrary continuous coefficients.",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "PDE",
+  "subfield": null,
+  "proposer": "Hilbert (1900)",
+  "year": 1900,
+  "status": "partial",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=分野間橋渡し, D-FUMT₈=BOTH",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Manual curation; 分野間橋渡し",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

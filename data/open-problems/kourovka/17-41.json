@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-17-41",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 17,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 17.41 (Khukhro & Mazurov eds., ed.17)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 17.41",
+    "ja": null,
+    "latex": "Let$S$be a solvable subgroup of a finite group$G$that has no nontrivial solvable normal subgroups. [r]{(a)} (L.\\,Babai, A.\\,J.\\,Goodman, L.\\,Pyber). Do there always exist seven conjugates of$S$whose intersection is trivial? [r]{(b)} Do there always exist five conjugates of$S$whose intersection is trivial? Editors' comments: Reduction of part (b) to almost simple group$G$is obtained in (E.\\,P.\\,Vdo...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

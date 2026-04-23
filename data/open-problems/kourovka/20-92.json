@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-20-92",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 20,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 20.92 (Khukhro & Mazurov eds., ed.20)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 20.92",
+    "ja": null,
+    "latex": "This question is about existence of an analogue of the Lazard correspondence for pre-Lie algebras and braces. A { pre-Lie algebra}$A$is a vector space with a bilinear operation$(x, y) xy$satisfying$(xy)z -x(yz) = (yx)z - y(xz)$for every$x,y,z A$. A~pre-Lie algebra$A$is said to be { left nilpotent} if, for some$n N$,$A (A ( A A)))=0$where$A$appears$n$times in the product. Recall that a set$A$with b...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

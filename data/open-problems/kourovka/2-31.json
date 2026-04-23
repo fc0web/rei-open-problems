@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-2-31",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 2,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 2.31 (Khukhro & Mazurov eds., ed.2)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 2.31",
+    "ja": null,
+    "latex": "Can every group admitting an ordering with only finitely many convex subgroups be represented by matrices over a field? { V.\\,M.\\,Kopytov} No, not every. For example, the group$G= < a_n,\\,b_n\\;(n ),\\;c,\\,d [a_n,b_n]=c , .$$. a_n^d=a_{n+1},\\;\\; b_n^d=b_{n+1}, \\;\\; [a_n,a_m]=[b_n,b_m]=[a_n,c]=[b_n,c]=1\\; \\;(n,m ) >$is soluble and orderable with finitely many convex subgroups, but it is not residuall...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "millennium-RiemannHypothesis",
+  "source": "millennium",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Clay Millennium Prize",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Millenium/RiemannHypothesis.lean"
+  },
+  "statement": {
+    "en": "Riemann Hypothesis and its generalizations",
+    "ja": null,
+    "latex": "The **Riemann Hypothesis**: all non-trivial zeros of the Riemann zeta function have real\npart $\\frac{1}{2}$. That is, if $\\zeta(s) = 0$, $s \\neq 1$, and $s$ is not a trivial zero\n$-2(n+1)$ for some $n \\in \\mathbb{N}$, then $\\operatorname{Re}(s) = \\frac{1}{2}$.\n\nThis is the official Millennium Prize Problem as posed by the\n[Clay Mathematics Institute](https://www.claymath.org/wp-content/uploads/202",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "既研究あり (LeanMillennium + Paper 122); 型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2153"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: GRH,ExtendedRiemannHypothesis"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium, famous_hard_cap=riemann",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": "LeanMillennium + Paper 122",
+    "famousHardCap": "riemann"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

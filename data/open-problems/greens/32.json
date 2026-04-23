@@ -1,0 +1,61 @@
+{
+  "id": "greens-32",
+  "source": "greens",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "B. Green, Open Problems in Mathematics",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/GreensOpenProblems/32.lean"
+  },
+  "statement": {
+    "en": "Green's Open Problem 32",
+    "ja": null,
+    "latex": "A set $A$ has a gap of length $L$ if there exists $x$ such that $x, x+1, \\dots, x+L-1$ are all not\nin $A$.\n-/\ndef HasGap {p : ℕ} (A : Finset (ZMod p)) (L : ℕ) : Prop :=\n  ∃ x : ZMod p, ∀ (i : ℕ), i < L → x + (i : ZMod p) ∉ A\n\n/-- Any set has a gap of length 0 (vacuously true).",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=hard (sorry=7)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2120"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 7,
+    "notes": "Namespaces: Green32"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

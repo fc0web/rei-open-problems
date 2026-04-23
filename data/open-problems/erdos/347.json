@@ -1,0 +1,61 @@
+{
+  "id": "erdos-347",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/347",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/347.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 347",
+    "ja": null,
+    "latex": "The set of subset sums of a set `A ⊆ ℕ`.\n-/\nlocal notation \"𝓟\" A => subsetSums A\n\n/--\nIs there a sequence $A=\\{a_1\\leq a_2\\leq \\cdots\\}$ of integers with\n\\[\\lim \\frac{a_{n+1}}{a_n}=2\\]\nsuch that\n\\[P(A')= \\left\\{\\sum_{n\\in B}n : B\\subseteq A'\\textrm{ finite }\\right\\}\\]\nhas density $1$ for every cofinite subsequence $A'$ of $A$?\n\nThis has been solved in the affirmative by ebarschkis in the comments ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "unknown",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=ZERO; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1880"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos347"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=ZERO, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

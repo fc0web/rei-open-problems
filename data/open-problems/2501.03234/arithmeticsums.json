@@ -1,0 +1,61 @@
+{
+  "id": "2501.03234-ArithmeticSumS",
+  "source": "2501.03234",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://arxiv.org/abs/2501.03234",
+    "citation": "2501.03234",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/2501.03234/ArithmeticSumS.lean"
+  },
+  "statement": {
+    "en": "Conjectures 1.1, 4.1, 4.2, 4.3 and 4.4",
+    "ja": null,
+    "latex": "Define the sum\n$$S'(h, k) := \\sum_{j=1}^{k-1}(-1)^{j + 1 + \\lfloor \\frac{hj}{k}\\rfloor}.$$\n-/\n-- Using \"S'\" instead of \"S\", like it is in the paper, to avoid overloading function name.\ndef S' (h k : ℕ) : ℤ := ∑ j ∈ Finset.Ico 1 k, (-1 : ℤ) ^ (j + 1 + ⌊(h * j : ℚ) / k⌋₊)\n\n/--\nDefine the sum\n$$S(k) := \\sum_{h=1}^{k-1}S'(h, k)$$\n-/\ndef S (k : ℕ) : ℤ := ∑ h ∈ Finset.Ico 1 k, S' h k\n\n/--\nNote that in T",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2348"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Arxiv"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

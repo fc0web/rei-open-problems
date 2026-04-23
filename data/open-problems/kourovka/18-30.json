@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-18-30",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 18,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 18.30 (Khukhro & Mazurov eds., ed.18)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 18.30",
+    "ja": null,
+    "latex": "A subgroup$H$of a group$G$is called {$$-subnormal} in$G$if either$H=G$, or there is a chain of subgroups$H_0 H_1 H_{n-1} H_{n} =G$such that$|H_i : H_{i-1}|$is a prime for all$i=1, , n$. Must a finite group be soluble if every Shmidt subgroup of it is$$-subnormal? { A.\\,F.\\,Vasil'ev, T.\\,I.\\,Vasil'eva, V.\\,N.\\,Tyutyanov} Yes, it must (V.\\,N.\\,Tyutyanov, Probl. Fiz. Mat. Tekhn., { 2015}, no.\\,1 (22)...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-2-33",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 2,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 2.33 (Khukhro & Mazurov eds., ed.2)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 2.33",
+    "ja": null,
+    "latex": "Is a direct summand of a direct sum of finitely generated modules over a~Noetherian ring again a direct sum of finitely generated modules? { V.\\,I.\\,Kuz'minov} Not always (P.\\,A.\\,Linnell, Bull. London Math. Soc., { 14} (1982), 124--126). An inverse spectrum$$of abelian groups is said to be acyclic\\/ if${ _{ }} ^{(p)} =0$for$p > 0$. Here${ _{ }}^{(p)}$denotes the right derived functor of the proje...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

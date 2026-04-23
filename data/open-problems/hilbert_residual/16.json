@@ -1,0 +1,62 @@
+{
+  "id": "hilbert-residual-16",
+  "source": "hilbert_residual",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Hilbert%27s_problems",
+    "citation": "Hilbert 1900 #16 (Limit cycles of polynomial vector fields (2nd part))",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Limit cycles of polynomial vector fields (2nd part)",
+    "ja": null,
+    "latex": "Upper bound H(n) for the number of limit cycles of planar polynomial vector fields of degree n.",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "dynamical_systems",
+  "subfield": null,
+  "proposer": "Hilbert (1900)",
+  "year": 1900,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=無限探索空間, D-FUMT₈=INFINITY",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": "smale-13"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Manual curation; 無限探索空間",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

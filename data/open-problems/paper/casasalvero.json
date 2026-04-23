@@ -1,0 +1,61 @@
+{
+  "id": "paper-CasasAlvero",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/CasasAlvero.lean"
+  },
+  "statement": {
+    "en": "Casas-Alvero Conjecture",
+    "ja": null,
+    "latex": "A polynomial `P` satisfies the Casas-Alvero property if it shares a factor with each\nof its Hasse derivatives up to order `d-1`, where `d` is the degree of `P`.\n-/\ndef HasCasasAlveroProp (P : K[X]) : Prop :=\n  ∀ i ∈ Finset.range P.natDegree, ¬ IsCoprime P (P.hasseDeriv i)\n\n/-- A stronger version of the Casas-Alvero property, which requires that the polynomial `P`\nshares a root with each of its Has",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "field_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2183"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: CasasAlvero"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

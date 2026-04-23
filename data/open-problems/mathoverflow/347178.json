@@ -1,0 +1,61 @@
+{
+  "id": "mathoverflow-347178",
+  "source": "mathoverflow",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://mathoverflow.net/questions/347178",
+    "citation": "MathOverflow",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Mathoverflow/347178.lean"
+  },
+  "statement": {
+    "en": "Mathoverflow 347178",
+    "ja": null,
+    "latex": "Let $f : \\mathbb R^n \\to \\mathbb R,  n \\geq 2$ be a $C^1$ function. Is it true that\n$$\\sup_{x \\in \\mathbb R^n}f(x) = \\sup_{x\\in \\mathbb R^n} f(x+\\nabla f(x))$$?",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "real_analysis",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2148"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Mathoverflow347178"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.7,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-12-95",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 12,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 12.95 (Khukhro & Mazurov eds., ed.12)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 12.95",
+    "ja": null,
+    "latex": "Let$G$be a finitely generated pro-$p 0.2ex$-group and let$g_1, ,g_n G$. Let$H$be an open subgroup of$G$, and suppose there exists a non-trivial word$w=w(X_1, ,X_n)$such that$w(a_1, ,a_n)=1$whenever$a_1 g_1H, ,a_n g_nH$(that is,$G$satisfies a coset identity\\/). Does it follow that$G$satisfies some non-trivial identity? A positive answer to this question would imply that an analogue of the Tits Alte...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,85 @@
+{
+  "id": "wikipedia-HilbertFifthProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Hilbert%E2%80%93Smith_conjecture",
+    "citation": "Wikipedia: Hilbert's problems / Hilbert-Smith conjecture",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/HilbertProblems/5.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/HilbertFifthProblem.lean"
+  },
+  "statement": {
+    "en": "Hilbert-Smith conjecture (open generalization of Hilbert's 5th problem): Every locally compact topological group acting continuously and faithfully on a connected finite-dimensional topological manifold is a Lie group. Equivalent: no ℤ_p can act faithfully on such a manifold. Hilbert's original 5th (locally Euclidean topological groups are Lie groups) was solved by Gleason-Montgomery-Zippin 1952.",
+    "ja": "Hilbert-Smith 予想 (Hilbert 第 5 問題の open 一般化): 連結有限次元位相多様体に連続かつ忠実に作用する局所コンパクト位相群は Lie 群である. 等価形式: p 進整数群 ℤ_p がそのような多様体上で忠実作用できない. 本体 Hilbert 5 (Gleason-Montgomery-Zippin 1952) は解決済、一般の Hilbert-Smith は open.",
+    "latex": "\\text{locally compact } G \\curvearrowright \\text{connected } M^n \\text{ continuously, faithfully} \\Rightarrow G \\text{ is a Lie group}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "topology",
+  "subfield": "topological-groups",
+  "proposer": "Hilbert",
+  "year": 1900,
+  "status": "partially_open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "I_INFINITE_SEARCH_SPACE",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "本体 Hilbert 5 は solved, Hilbert-Smith 一般化は open. 低次元 (n=1,2,3) solved, 高次元 open. solved + open の BOTH 構造",
+    "rationale": "型=VI_BRIDGING (群論 × 多様体 × p 進), 副=I_INFINITE_SEARCH_SPACE (∀ G faithful action); 形式化=scaffold (実 sorry=5 in HilbertProblems/5.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Hilbert-Smith_conjecture",
+    "oeis": [],
+    "mathlib": "Mathlib.Geometry.Manifold.IsManifold.Basic / LieGroup",
+    "external": [
+      "Gleason-Montgomery-Zippin 1952: original Hilbert 5 solved (locally Euclidean → Lie group)",
+      "Pardon 2013 arXiv:1112.2324: Hilbert-Smith holds for 3-manifolds",
+      "Tao 2011 blog post (terrytao.wordpress.com/2011/08/13/the-hilbert-smith-conjecture)",
+      "Myers-Steenrod: Riemannian isometry case solved",
+      "arXiv:math/0103145"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Hilbert5. 実 file 116 行: AdmitsLieGroupStructure 定義 + admitsLieGroupStructure_of_lieGroup (proved) + locallyCompact_of_admitsLieGroupStructure (proved) + hilbert_smith_conjecture main (1 sorry) + variants.riemannian (1 sorry) + variants.dimension_three (1 sorry, Pardon 2013) + hilbert_smith_padic_formulation (1 sorry) + hilbert_fifth_problem (1 sorry, GMZ 1952) = 5 sorry"
+  },
+  "known_progress": [
+    {
+      "date": "1900",
+      "event": "Hilbert's 5th problem: is every locally Euclidean topological group a Lie group?",
+      "impact": "1900 Paris ICM list"
+    },
+    {
+      "date": "1952",
+      "event": "Gleason-Montgomery-Zippin: Hilbert's original 5th solved — locally Euclidean ⇒ Lie group",
+      "impact": "本体 Hilbert 5 clossed. 一般化 = Hilbert-Smith"
+    },
+    {
+      "date": "2013",
+      "event": "Pardon (arXiv:1112.2324): Hilbert-Smith for 3-manifolds proved",
+      "impact": "n = 3 case closed; n ≥ 4 general still open"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) hilbert_fifth_problem (GMZ 1952) classical 証明を Lean 4 移植は大工事だが tractable. (2) variants.riemannian は Myers-Steenrod 既に Mathlib にある要素で可能. (3) dimension_three は Pardon 2013 の 3-manifold 解析、高度. (4) 一般 sorry と p 進 formulation は真の open.",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.40,
+    "solveRationale": "VI_BRIDGING + BOTH, scaffold (5 sorry). 本体 Hilbert 5 (GMZ) は Lean 移植可能だが、Hilbert-Smith 一般は open since 1900",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Lie group / ChartedSpace / ManifoldWithCorners API が重厚. Mathlib 準備は整っているが移植は非自明",
+    "reiFamiliarRef": null,
+    "famousHardCap": "Hilbert 一覧 20 問の 5 番目. Hilbert-Smith 一般は世界的 open since 1900"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual HilbertProblems/5.lean)",
+  "reviewer": null
+}

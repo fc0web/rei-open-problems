@@ -1,0 +1,80 @@
+{
+  "id": "wikipedia-WolstenholmePrime",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Wolstenholme_prime",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/WolstenholmePrime.lean"
+  },
+  "statement": {
+    "en": "Wolstenholme Prime",
+    "ja": null,
+    "latex": "Wolstenholme's theorem states that any prime $p > 3$ satisfies $\\binom{2p-1}{p-1} \\equiv 1 (\\pmod{p^3})$.\n\nFormal proof linked here provided by AlphaProof.\n*Reference:* [Wikipedia](https://en.wikipedia.org/wiki/Wolstenholme%27s_theorem)",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=hard (sorry=6)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "arXiv:2604.16507 (Linhares 2026-04-14) — Deep Vision: Formal Proof of Wolstenholme's Theorem in Lean 4, ~800 行 / 9 lemma / zero sorry"
+    ],
+    "seedKernel": "T-2306"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "sorryCountPrevious": 6,
+    "sorryClosedBy": [
+      {
+        "theorem": "wolstenholme_theorem",
+        "statement": "C(2p-1, p-1) ≡ 1 (mod p^3) for prime p > 3",
+        "closedBy": "Linhares 2026-04-14 (arXiv:2604.16507)",
+        "method": "relational analogy engine + human-directed formalization",
+        "lineCount": 800,
+        "lemmaCount": 9
+      }
+    ],
+    "notes": "Namespaces: WolstenholmePrime. 本体定理は Linhares 2026-04-14 で閉鎖. 残 5 sorry: 2 specific primes + Bernoulli/harmonic 等価 + prime_infinite (真の open problem)."
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-14",
+      "event": "Linhares arXiv 2604.16507 — first Lean 4 formal verification of Wolstenholme's theorem (p≥5, C(2p,p)≡2 mod p³)",
+      "impact": "formal-conjectures repo の sorry #1 が閉鎖可能"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.65,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

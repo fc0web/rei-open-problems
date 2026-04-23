@@ -1,0 +1,61 @@
+{
+  "id": "oeis-34693",
+  "source": "oeis",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://oeis.org/A34693",
+    "citation": "OEIS Foundation",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/OEIS/34693.lean"
+  },
+  "statement": {
+    "en": "OEIS Problem 34693",
+    "ja": null,
+    "latex": "Smallest number $k$ such that $kn + 1$ is prime. -/\nnoncomputable def a (n : ℕ) : ℕ := Nat.nth (fun k ↦ (k * n + 1).Prime) 0\n\n@[category test, AMS 11]\ntheorem zero : a 0 = 0 := by\n  simpa [a] using Nat.nth_eq_zero.2 <| .inr ⟨by convert Set.finite_empty; aesop, by aesop⟩\n\n@[category test, AMS 11]\ntheorem one : a 1 = 1 := by\n  conv_rhs => rw [← Nat.nth_count (p := fun k ↦ (k + 1).Prime) (n := 1) (by",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2164"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: OeisA34693"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.35,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

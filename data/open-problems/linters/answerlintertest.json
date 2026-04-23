@@ -1,0 +1,61 @@
+{
+  "id": "linters-AnswerLinterTest",
+  "source": "linters",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Linters",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Linters/AnswerLinterTest.lean"
+  },
+  "statement": {
+    "en": "Tests for the answer linter",
+    "ja": null,
+    "latex": "warning: Move the quantifiers outward:\ninstead of\n`theorem foo (bar : ℕ) (baz : ℕ) : answer(sorry) ↔ ...`\nlikely the intention was\n`theorem foo : answer(sorry) ↔ ∀ᵉ (bar : ℕ) (baz : ℕ), ...`\n\nNote: This linter can be disabled with `set_option linter.style.answer_attribute false`\n-/\n#guard_msgs in\n/-- An exampe of what we want to lint against",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "unknown",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; IV_PROBLEM_UNDEFINED type",
+    "rationale": "型=定義が曖昧, D-FUMT₈=NEITHER; 形式化=medium (sorry=5)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2336"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: AnswerLinter"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.0,
+    "solveRationale": "Familiar=False, type=IV_PROBLEM_UNDEFINED, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

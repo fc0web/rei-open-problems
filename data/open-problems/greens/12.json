@@ -1,0 +1,61 @@
+{
+  "id": "greens-12",
+  "source": "greens",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "B. Green, Open Problems in Mathematics",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/GreensOpenProblems/12.lean"
+  },
+  "statement": {
+    "en": "Green's Open Problem 12",
+    "ja": null,
+    "latex": "Let $G$ be an abelian group of size $N$, and suppose that $A \\subset G$ has density $\\alpha$.\nAre there at least $\\alpha^{15} N^{10}$ tuples $(x_1, \\dots, x_5, y_1, \\dots, y_5) \\in G^{10}$\nsuch that $x_i + y_j \\in A$ whenever $j \\in \\{i, i+1, i+2\\}$?\n\nNote: We interpret indices modulo 5.",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2104"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Green12"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

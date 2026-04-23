@@ -1,0 +1,61 @@
+{
+  "id": "greens-38",
+  "source": "greens",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "B. Green, Open Problems in Mathematics",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/GreensOpenProblems/38.lean"
+  },
+  "statement": {
+    "en": "Green's Open Problem 38",
+    "ja": null,
+    "latex": "The vector space $\\mathbb{F}_7^n$. -/\nabbrev 𝔽₇ (n : ℕ) := Fin n → ZMod 7\n\n/-- $A - A$ intersects $\\{-1, 0, 1\\}^n$ only at $0$. -/\ndef IntersectsOnlyAtZero {n : ℕ} (A : Finset (𝔽₇ n)) : Prop :=\n  ∀ a ∈ A - A, (∀ i, a i ∈ ({-1, 0, 1} : Finset (ZMod 7))) → a = 0\n\n/-- The set of cardinalities of all subsets A where A - A intersects {-1, 0, 1}^n only at 0. -/\ndef ValidCardinalities (n : ℕ) : Set ℕ :=\n",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2124"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Green38"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

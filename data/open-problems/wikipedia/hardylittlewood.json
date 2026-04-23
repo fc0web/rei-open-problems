@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-HardyLittlewood",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/First_Hardy%E2%80%93Littlewood_conjecture",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/HardyLittlewood.lean"
+  },
+  "statement": {
+    "en": "First Hardy–Littlewood conjecture",
+    "ja": null,
+    "latex": "A prime constellation is a tuple $(p, p + m_1, \\dots, p + m_k)$ such that the $m_i$ are\nall positive even integers and every entry is a prime number.\n-/\ndef IsPrimeConstellation {k : ℕ} (m : Fin k.succ → ℕ) (p : ℕ) : Prop :=\n  m 0 = 0 ∧ (∀ i ≠ 0, 0 < m i) ∧ (∀ i, p + 2 * m i |>.Prime)\n\n/--\nA prime constellation is said to be admissible if its elements do not form a complete\nset of residue classes ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2246"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: HardyLittlewood"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.75,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

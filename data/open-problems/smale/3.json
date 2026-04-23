@@ -1,0 +1,62 @@
+{
+  "id": "smale-3",
+  "source": "smale",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Smale%27s_problems",
+    "citation": "Smale 1998 #3 (P vs NP Problem)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "P vs NP Problem",
+    "ja": null,
+    "latex": "Does P = NP?",
+    "preview_source": "manual-curation-2026-04-23"
+  },
+  "field": "computer_science",
+  "subfield": null,
+  "proposer": "Smale (1998)",
+  "year": 1998,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "manual curation from published work",
+    "rationale": "型=計算量の壁, D-FUMT₈=BOTH",
+    "confidence": "TRUE"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "crossref_internal": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.3,
+    "solveRationale": "Manual curation; 計算量の壁 (famous-hard cap: pvsnp)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Famous century-level problem",
+    "famousHardCap": "pvsnp",
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-14-102",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 14,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 14.102 (Khukhro & Mazurov eds., ed.14)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 14.102",
+    "ja": null,
+    "latex": "c) (V.\\,Lin). Let$B_n$be the braid group on$n$strings, and let$n>4$. Does$B_n$have proper non-abelian torsion-free factor-groups? Comment of 2001:\\/ S.\\,P.\\,Humphries, (Int. J. Algebra Comput., 11, no.\\,3 (2001), 363--373) has constructed a representation of$B_n$which is shown to provide torsion-free non-abelian factor groups of$B_n$as well as of$[B_n, B_n]$for$n < 7$. It is likely that the same r...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

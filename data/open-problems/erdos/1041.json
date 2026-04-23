@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1041",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/1041",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1041.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1041",
+    "ja": null,
+    "latex": "The length of a subset $s$ of $\\mathbb{C}$ is defined to be its 1-dimensional\nHausdorff measure $\\mathcal{H}^1(s)$.\n-/\nnoncomputable def length (s : Set ℂ) : ℝ≥0∞ := μH[1] s\n\n/--\n**Erdős–Herzog–Piranian Component Lemma** (Metric Properties of Polynomials, 1958):\nIf $f$ is a monic degree $n$ polynomial with all roots in the unit disk,\nthen some connected component\nof $\\{z \\mid |f(z)| < 1\\}$ contain",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "several_complex_variables",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1708"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos1041"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

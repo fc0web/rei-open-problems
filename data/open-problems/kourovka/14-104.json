@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-14-104",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 14,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 14.104 (Khukhro & Mazurov eds., ed.14)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 14.104",
+    "ja": null,
+    "latex": "An infinite group$G$is called a monster of the first kind\\/ if it has elements of order$> 2$and for any such an element$a$and for any proper subgroup$H$of$G$, there is an element$g$in$G H$, such that$< a,\\, a^g > =G$. A.\\,Yu.\\,Olshanskii showed that there are continuously many monsters of the first kind (see~Archive,~6.63). Does there exist, for any such a monster, a torsion-free group which is a ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

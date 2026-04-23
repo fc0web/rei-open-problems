@@ -1,0 +1,61 @@
+{
+  "id": "wikipedia-LeinsterGroup",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Wikipedia: List of unsolved problems",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/LeinsterGroup.lean"
+  },
+  "statement": {
+    "en": "Leinster Groups",
+    "ja": null,
+    "latex": "A finite group `G` is a **Leinster group** if the sum of the orders of all its normal subgroups\nequals twice the group's order.\n-/\ndef IsLeinster (G : Type*) [Group G] [Fintype G] : Prop :=\n  ∑ H : {H : Subgroup G // H.Normal}, Nat.card H = 2 * Fintype.card G\n\n/--\n**Conjecture:** Are there infinitely many Leinster groups?\n\nThis asks whether there exist infinitely many (non-isomorphic) finite group",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=INFINITY; 形式化=medium (sorry=5)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2262"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: LeinsterGroup"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=INFINITY, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

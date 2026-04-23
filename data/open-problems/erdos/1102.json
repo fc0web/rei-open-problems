@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1102",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/1102",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1102.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1102",
+    "ja": null,
+    "latex": "Property P : A set $A ⊆ ℕ $ has property P, if for all $n ≥ 1$ the set\n$ \\{a ∈ A | n + a\\text{ is squarefree}\\}$ is finite.\n-/\ndef HasPropertyP (A : Set ℕ) : Prop :=\n  ∀ n ≥ 1, {a ∈ A | Squarefree (n + a)}.Finite\n\n/--\nProperty Q : A set $A ⊆ ℕ $ has property Q, if the set\n$\\{n ∈ ℕ  | ∀ a ∈ A, n > a\\text{ implies }n + a\\text{ is squarefree}\\}$ is infinite.\n-/\ndef HasPropertyQ (A : Set ℕ) : Prop :=\n",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1744"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Erdos1102"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

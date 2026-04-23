@@ -1,0 +1,61 @@
+{
+  "id": "other-BeaverMathOlympiad",
+  "source": "other",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Other sources",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Other/BeaverMathOlympiad.lean"
+  },
+  "statement": {
+    "en": "Beaver Math Olympiad (BMO)",
+    "ja": null,
+    "latex": "[BMO#1](https://wiki.bbchallenge.org/wiki/Beaver_Math_Olympiad#1._1RB1RE_1LC0RA_0RD1LB_---1RC_1LF1RE_0LB0LE_(bbch))\n\nLet $(a_n)_{n \\ge 1}$ and $(b_n)_{n \\ge 1}$ be two sequences such that $(a_1, b_1) = (1, 2)$ and\n\n$$(a_{n+1}, b_{n+1}) = \\begin{cases}\n(a_n-b_n, 4b_n+2) & \\text{if }a_n \\ge b_n \\\\\n(2a_n+1, b_n-a_n) & \\text{if }a_n < b_n\n\\end{cases}$$\n\nfor all positive integers $n$. Does there exist ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "combinatorics",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=ZERO; 形式化=hard (sorry=6)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2179"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 6,
+    "notes": "Namespaces: BeaverMathOlympiad"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=ZERO, formalization=hard",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

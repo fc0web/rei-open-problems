@@ -1,0 +1,61 @@
+{
+  "id": "mathoverflow-34145",
+  "source": "mathoverflow",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://mathoverflow.net/q/34145",
+    "citation": "MathOverflow",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Mathoverflow/34145.lean"
+  },
+  "statement": {
+    "en": "Mathoverflow 34145",
+    "ja": null,
+    "latex": "A rectangle is specified by its width, height, starting point, and rotation.\nThe rectangle is assumed to start in the lower left corner. For example, the unit square\n$\\{ (x, y) \\mid 0 \\le x \\le 1, 0 \\le y \\le 1 \\}$ is specified as `⟨1, 1, (0, 0), 0⟩`  -/\nstructure Rectangle : Type where\n  width : ℝ\n  height : ℝ\n  start : ℝ × ℝ\n  rotation : Angle\n\n/-- A combination of a rotation and a translation t",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "geometry",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=medium (sorry=4)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2147"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 4,
+    "notes": "Namespaces: Mathoverflow34145"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.7,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

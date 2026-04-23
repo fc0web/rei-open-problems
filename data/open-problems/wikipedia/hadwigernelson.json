@@ -1,0 +1,84 @@
+{
+  "id": "wikipedia-HadwigerNelson",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem",
+    "citation": "Wikipedia: List of unsolved problems (geometry)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/508.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/HadwigerNelson.lean"
+  },
+  "statement": {
+    "en": "Hadwiger-Nelson problem: What is the chromatic number χ(ℝ²) of the unit-distance graph in the plane, where vertices are points of ℝ² and edges connect points at distance exactly 1?",
+    "ja": "Hadwiger-Nelson 問題: 平面上の単位距離グラフ (頂点=ℝ² 上の点, 辺=距離 1 の点対) の彩色数 χ(ℝ²) は？",
+    "latex": "5 \\leq \\chi(\\mathbb{R}^2) \\leq 7 \\text{ (open: 5, 6, or 7?)}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "geometry",
+  "subfield": "combinatorial-geometry",
+  "proposer": "Hadwiger, Nelson",
+  "year": 1950,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "χ 値の決定問題 (離散 5|6|7) × ℝ² 連続構造のブリッジ. de Grey 2018 で下界 5 確定後、範囲が狭い BOTH 型",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (χ 決定), 副=VI_BRIDGING (離散-連続), D-FUMT₈=BOTH; 形式化=scaffold (実 sorry=5 in 508.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Hadwiger-Nelson_problem",
+    "oeis": [],
+    "mathlib": null,
+    "external": [
+      "de Grey 2018 arXiv:1804.02385 — χ(ℝ²) ≥ 5 (1,581-vertex graph)",
+      "Moser-Spindel graph — classical χ ≥ 4 proof",
+      "Isbell / Soifer — χ ≤ 7 via hexagonal tiling (upper bound)"
+    ],
+    "seedKernel": null,
+    "typology": "GEO-HADWIGER-NELSON"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 5,
+    "notes": "Namespaces: Erdos508. 実 file は 101 行: UnitDistancePlaneGraph 定義 + χ(ℝ²) 記法 + HadwigerNelsonProblem (2 sorry: answer+body) + AtLeastFive (1 sorry, de Grey 2018) + AtLeast4 (1 sorry, Moser-Spindel) + AtMostSeven (1 sorry, Isbell) + AtLeastThree (正規的 Lean 証明, sorry なし). 合計 5 sorry."
+  },
+  "known_progress": [
+    {
+      "date": "1961",
+      "event": "Moser-Spindel graph: χ(ℝ²) ≥ 4",
+      "impact": "下界 4 確定"
+    },
+    {
+      "date": "1950s",
+      "event": "Isbell: χ(ℝ²) ≤ 7 via hexagonal 7-coloring",
+      "impact": "上界 7 確定"
+    },
+    {
+      "date": "2018-04",
+      "event": "Aubrey de Grey arXiv:1804.02385 — χ(ℝ²) ≥ 5 via 1,581-vertex unit-distance graph (polymath16 project で翌月 553 vertex に短縮)",
+      "impact": "55 年ぶり下界更新. χ ∈ {5, 6, 7} に絞られる"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "(1) de Grey 2018 graph の SAT 証明を native_decide で Lean 4 確定 → AtLeastFive の sorry 閉鎖. (2) AtLeast4 (Moser-Spindel) は 7-vertex graph で native_decide 可能. (3) AtMostSeven は hexagonal partition の geometric lemma が重労働",
+    "paperCandidate": true,
+    "priority": "high",
+    "solveProbability": 0.60,
+    "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE + VI_BRIDGING, dfumt8=BOTH, formalization=scaffold (5 sorry). SAT-based 下界は decidable で tractable, 上界は geometric で難",
+    "formalizationComplexity": "medium-hard",
+    "formalizationNotes": "下界 3, 4, 5 は有限グラフで decidable. 上界 7 は平面 tessellation lemma が要. χ 値の厳密決定 (5|6|7) は open",
+    "reiFamiliarRef": null,
+    "famousHardCap": "世界的 open 問題 — 完全解決は藤本さん判断事項"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/508.lean)",
+  "reviewer": null
+}

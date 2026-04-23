@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-9-23",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 9,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 9.23 (Khukhro & Mazurov eds., ed.9)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 9.23",
+    "ja": null,
+    "latex": "Let$G$be a finite group,$B$a block of characters of$G$,$D(B)$its defect group and$k(B)$(respectively,$k_0(B)$) the number of all irreducible complex characters (of height 0) lying in$B$. Conjectures: [r]{a)} (R.\\,Brauer) \\$k(B) |D(B)|$; this has been proved for$p$-soluble groups (D.\\,Gluck, K.\\,Magaard, U.\\,Riese, P.\\,Schmid, J.~Algebra, 279 (2004), 694--719); [r]{b)} (J.\\,B.\\,Olsson) \\$k_0(B) |D(...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

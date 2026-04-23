@@ -1,0 +1,61 @@
+{
+  "id": "greens-28",
+  "source": "greens",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "B. Green, Open Problems in Mathematics",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/GreensOpenProblems/28.lean"
+  },
+  "statement": {
+    "en": "Green's Open Problem 28",
+    "ja": null,
+    "latex": "True if a PMF on $\\mathbb{Z}$ is uniformly distributed on its support. -/\ndef IsUniformOnSupport (X : PMF ℤ) : Prop :=\n  ∃ (s : Finset ℤ) (hs : s.Nonempty), X = PMF.uniformOfFinset s hs\n\n/--\nThe discrete convolution of two PMFs on $\\mathbb{Z}$, representing the distribution of the sum of\ntwo independent random variables.\n-/\nnoncomputable def indepSum (X Y : PMF ℤ) : PMF ℤ := do\n  let x ← X\n  let y",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "probability",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2116"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Green28"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

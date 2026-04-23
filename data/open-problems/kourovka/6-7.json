@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-6-7",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 6,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 6.7 (Khukhro & Mazurov eds., ed.6)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 6.7",
+    "ja": null,
+    "latex": "Suppose that$P$is a finite 2-group. Does there exist a characteristic subgroup$L(P)$of$P$such that$L(P)$is normal in$H$for every finite group$H$that satisfies the following conditions: 1)$P$is a Sylow 2-subgroup of$H$, \\, 2)~$H$is${ S}_4$-free, and 3)~$C_H(O_2(H)) O_2(H)$? { G.\\,Glauberman} Yes, there does (B.\\,Stellmacher, Israel J.~Math., { 94} (1996), 367--379).",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=IV_PROBLEM_UNDEFINED",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory IV_PROBLEM_UNDEFINED; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

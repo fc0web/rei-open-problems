@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-5-40",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 5,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 5.40 (Khukhro & Mazurov eds., ed.5)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 5.40",
+    "ja": null,
+    "latex": "Let$G$be a countable group acting on a set$$. Suppose that$G$is$k$-fold transitive for every finite$k$, and$G$contains no non-trivial permutations of finite support. Is it true that$$can be identified with the rational line$$in such a way that$G$becomes a group of autohomeomorphisms? { P.\\,M.\\,Neumann} Not always (A.\\,H.\\,Mekler, J. London Math. Soc., { 33} (1986), 49--58).",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

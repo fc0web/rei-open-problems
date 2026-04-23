@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-4-45",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 4,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 4.45 (Khukhro & Mazurov eds., ed.4)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 4.45",
+    "ja": null,
+    "latex": "Let$G$be a free product amalgamating proper subgroups$H$and$K$of$A$and~$B$, respectively. Suppose that$H,K$are finite and$|A:H| > 2$, \\$|B:K| 2$. Is$G$\\,${ SQ} 0.1ex$-uni\\-ver\\-sal? Suppose that$A,B,H,K$are free groups of finite ranks. Can$G$be simple? { P.\\,M.\\,Neumann} a) Yes, it is (K.\\,I.\\,Lossov, Siberian Math.~J., { 27}, no.\\,6 (1986), 890--899). b) Yes, it can (M.\\,Burger, S.\\,Mozes, Inst. ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1101",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/1101",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1101.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1101",
+    "ja": null,
+    "latex": "The set of integers not divisible by any u_i. -/\ndef ASet (u : ℕ → ℕ) : Set ℕ :=\n  { a | ∀ i, ¬ u i ∣ a }\n\n/-- The sequence of integers A_u which are not divisible by any u_i\narranged in a monotonic sequence. -/\nnoncomputable def A (u : ℕ → ℕ) (n : ℕ) : ℕ :=\n  Nat.nth (fun a => a ∈ ASet u) n\n\n/-- t_x such that u_0 ... u_{t_x-1} ≤ x < u_0 ... u_{t_x}.\n-/\nnoncomputable def t (u : ℕ → ℕ) (x : ℕ) : ℕ ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1743"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Erdos1101"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

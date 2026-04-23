@@ -1,0 +1,61 @@
+{
+  "id": "erdos-119",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://www.erdosproblems.com/119",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/119.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 119",
+    "ja": null,
+    "latex": "Let $z_i$ be an infinite sequence of complex numbers such that $|z_i| = 1$ for all $i \\geq 1$.\nFor $n \\geq 1$ let $p_n(z) = \\prod_{i \\leq n} (z - z_i)$. -/\nnoncomputable def p (z : ℕ → ℂ) (n : ℕ) : ℂ → ℂ :=\n    fun w => ∏ i ∈ range n, (w - z i)\n\n/-- Let $M_n = \\max_{|z| = 1} |p_n(z)|$. -/\nnoncomputable def M (z : ℕ → ℂ) (n : ℕ) : ℝ :=\n    sSup { (‖p z n w‖) | (w : ℂ) (_ : ‖w‖ = 1) }\n\n/-- Question ",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "complex_analysis",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "solved",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1760"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Erdos119"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.5,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

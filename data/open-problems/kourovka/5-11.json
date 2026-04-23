@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-5-11",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 5,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 5.11 (Khukhro & Mazurov eds., ed.5)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 5.11",
+    "ja": null,
+    "latex": "Let$G$be a finite group and suppose that there exists a non-empty proper subset$$of the set of all primes dividing$|G|$such that the centralizer of every non-trivial$$-ele\\-ment is a$$-sub\\-group. Does it follow that$G$contains a subgroup$U$such that$U^g U=1$or$U$for every$g G$, and the centralizer of every non-trivial element of~$U$is contained in$U$? { K.\\,W.\\,Gruenberg} Yes, it does (mod CFSG) ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

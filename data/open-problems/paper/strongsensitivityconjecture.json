@@ -1,0 +1,61 @@
+{
+  "id": "paper-StrongSensitivityConjecture",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/StrongSensitivityConjecture.lean"
+  },
+  "statement": {
+    "en": "Strong Sensitivity Conjecture (`bs(f) ≤ s(f)^2`)",
+    "ja": null,
+    "latex": "Flip operator,\n`flip x B` returns input `x` with bits in block `B` inverted. -/\ndef flip (x : Fin n → Bool) (B : Finset (Fin n)) : Fin n → Bool :=\n  fun i => if i ∈ B then !(x i) else x i\n\n/-- Local sensitivity s(f,x),\nnumber of indices where flipping one bit changes the value of `f`. -/\ndef sensitivityAt (f : (Fin n → Bool) → Bool) (x : Fin n → Bool) : ℕ :=\n  #{i | f (flip x {i}) ≠ f x}\n\n/-- Glob",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "computer_science",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=1)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2199"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: StrongSensitivityConjecture"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

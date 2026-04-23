@@ -1,0 +1,61 @@
+{
+  "id": "mathoverflow-235893",
+  "source": "mathoverflow",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://mathoverflow.net/questions/235893",
+    "citation": "MathOverflow",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Mathoverflow/235893.lean"
+  },
+  "statement": {
+    "en": "Mathoverflow 235893",
+    "ja": null,
+    "latex": "For topological spaces $X$ and $Y$ we say a function $f : X → Y$ is *connected* is it sends\nconnected sets to connected sets.\n-/\ndef IsConnectedMap {X Y : Type*} [TopologicalSpace X] [TopologicalSpace Y] (f : X → Y) : Prop :=\n  ∀ ⦃s : Set X⦄, IsConnected s → IsConnected (f '' s)\n\n/--\nBy a standard result, every continuous map is connected",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "general_topology",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "heuristic match on statement; VI_BRIDGING type",
+    "rationale": "型=分野間橋渡し (Rei strength), D-FUMT₈=BOTH; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2144"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: Mathoverflow235893"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.8,
+    "solveRationale": "Familiar=False, type=VI_BRIDGING, dfumt8=BOTH, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "paper-HartshorneConjecture",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/HartshorneConjecture.lean"
+  },
+  "statement": {
+    "en": "Paper Problem HartshorneConjecture",
+    "ja": null,
+    "latex": "A vector bundle over a scheme `S` is a locally free $\\mathcal{O}_S$-module of finite rank.\n-/\nstructure VectorBundles where\n  carrier : S.Modules\n  rank : ℕ\n  isLocallyFreeFiniteConstantRank : SheafOfModules.IsVectorBundleWithRank\n    (J := Opens.grothendieckTopology S) carrier rank\n\ninstance (S : Scheme) : Coe S.VectorBundles S.Modules where\n  coe 𝓕 := 𝓕.carrier\n\n/--\nVector bundles form a categor",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "algebraic_geometry",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "unknown",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=easy (sorry=2)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2190"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "Namespaces: HartshorneConjecture,AlgebraicGeometry"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

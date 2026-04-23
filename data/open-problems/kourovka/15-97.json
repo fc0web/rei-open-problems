@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-15-97",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 15,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 15.97 (Khukhro & Mazurov eds., ed.15)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 15.97",
+    "ja": null,
+    "latex": "Let$p$be a prime. A group$G$satisfies the$p$-mini\\-mal condition\\/ if there are no infinite descending chains$G_1>G_2>$of subgroups of$G$such that each difference$G_i G_{i+1}$contains a$p$-ele\\-ment (S.\\,N.\\,Chernikov). Suppose that a locally finite group$G$satisfies the$p$-mini\\-mal condition and has a subnormal series each of whose factors is finite or a$p'$-group. Is it true that all$p$-ele\\-me...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

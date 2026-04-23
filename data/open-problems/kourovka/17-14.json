@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-17-14",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 17,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 17.14 (Khukhro & Mazurov eds., ed.17)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 17.14",
+    "ja": null,
+    "latex": "Can the braid group$B_n$for$n 4$be embedded into the automorphism group$Aut (F_{n-2})$of a free group$F_{n-2}$of rank~$n-2$? Artin's theorem implies that$B_n$can be embedded into$Aut (F_n)$, and an embedding of$B_n$,$n 3$, into$Aut (F_{n-1})$was constructed in (B.\\,Perron, J.\\,P.\\,Vannier, Math. Ann., 306 (1996), 231--245). { V.\\,G.\\,Bardakov} No, it cannot for$n=4$(V.\\,G.\\,Bardakov, P.\\,Bellinger...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

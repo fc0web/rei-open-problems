@@ -1,0 +1,90 @@
+{
+  "id": "wikipedia-BrocardProblem",
+  "source": "wikipedia",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://en.wikipedia.org/wiki/Brocard%27s_problem",
+    "citation": "Wikipedia: List of unsolved problems (number theory)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/398.lean",
+    "lean4Stub": "data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/BrocardProblem.lean"
+  },
+  "statement": {
+    "en": "Brocard's problem (Erdős Problem 398): Does n! + 1 = m² have integer solutions other than (n,m) ∈ {(4,5), (5,11), (7,71)}?",
+    "ja": "Brocard の問題 (Erdős 問題 398): n! + 1 = m² は (n,m) = (4,5), (5,11), (7,71) 以外に整数解を持つか？",
+    "latex": "n! + 1 = m^2 \\implies (n, m) \\in \\{(4, 5), (5, 11), (7, 71)\\}\\ \\text{(open)}",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": "diophantine-equations",
+  "proposer": "Brocard",
+  "year": 1876,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH_SPACE",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "∃ n > 7 Diophantine existence; 計算的には N ≤ 10^15 で 4th 解なし (Berndt-Galway 2000 系列)",
+    "rationale": "型=I_INFINITE_SEARCH_SPACE (追加解の有無), D-FUMT₈=NEITHER; 形式化=scaffold (実 sorry=2 in ErdosProblems/398.lean)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": "Brocard's_problem",
+    "oeis": ["A085692"],
+    "mathlib": null,
+    "external": [
+      "Berndt-Galway 2000: exhaustive search up to N = 10⁹, no 4th solution (later extended to ≥ 10¹⁵)",
+      "Ramanujan 1913 noted the same three pairs independently",
+      "Erdős conjecture: no further solutions"
+    ],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "sorryCountUpstream": 2,
+    "reiAiosCoverage": "n ∈ [1, 20] verified (Rei-AIOS data/lean4-mathlib/CollatzRei/BrocardProblem.lean + Step980BrocardExtended.lean, 18 theorems, 0 sorry)",
+    "notes": "Upstream formal-conjectures/ErdosProblems/398.lean は 2 sorry の terse scaffold. Rei-AIOS は独立に CollatzRei/BrocardProblem.lean (n ≤ 12, brute force) + CollatzRei/Step980BrocardExtended.lean (n = 13..20, Nat.sqrt approach) で拡張実証 (26 理論, 0 sorry)"
+  },
+  "known_progress": [
+    {
+      "date": "1876",
+      "event": "Brocard original statement; known pairs (4,5), (5,11), (7,71)",
+      "impact": "conjecture established"
+    },
+    {
+      "date": "1913",
+      "event": "Ramanujan independently noted the same three pairs",
+      "impact": "historical confirmation"
+    },
+    {
+      "date": "2000",
+      "event": "Berndt-Galway: N ≤ 10⁹ exhaustive search, no 4th solution (later ≥ 10¹⁵)",
+      "impact": "no counterexample at computational scale"
+    },
+    {
+      "date": "2026-04-23",
+      "event": "Rei-AIOS STEP 980 (commit cc1fab3): Lean 4 verification extended to n ∈ [1, 20] via Nat.sqrt-based approach (O(log) vs brute force O(√(n!)))",
+      "impact": "n ≤ 12 (BrocardProblem.lean brute force) + n = 13..20 (Step980BrocardExtended.lean via sqrt_not_square_impl bridge lemma). 18 theorems, 0 sorry, build verified."
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "n ≤ 100 までは Nat.factorial + Nat.sqrt で decidable → 具体検証は tractable. 一般 n の open は 150 年.",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.45,
+    "solveRationale": "I_INFINITE_SEARCH_SPACE, NEITHER, scaffold (2 sorry). 数値検証は可能だが一般解決は古典的に困難",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": "基本 scaffold のみ、数値 case は tractable",
+    "reiFamiliarRef": null,
+    "famousHardCap": "Diophantine 古典 open, 一般解決は世界的 open"
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual ErdosProblems/398.lean)",
+  "reviewer": null
+}

@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-8-3",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 8,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 8.3 (Khukhro & Mazurov eds., ed.8)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 8.3",
+    "ja": null,
+    "latex": "Let$m$and$n$be positive integers and$p$a prime. Let$P_n({ Z}_{p^m})$be the group of all$n n$matrices$(a_{ij})$over the integers modulo$p^m$such that$a_{ii} 1$for all$i$and$a_{ij} 0 \\, ({ mod}\\, p)$for all$i > j$. The group$P_n({ Z}_{p^m})$is a finite$p 0.2ex$-group. For which$m$and$n$is it regular? Editors' comment (2001):\\/ The group$P_{n}({ Z}_{p^m})$is known to be regular if$mn<p$(Yu.\\,I.\\,Merz...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

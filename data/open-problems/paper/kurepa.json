@@ -1,0 +1,61 @@
+{
+  "id": "paper-Kurepa",
+  "source": "paper",
+  "sourceRef": {
+    "edition": null,
+    "url": "https://oeis.org/A3422",
+    "citation": "Individual paper open questions",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/Paper/Kurepa.lean"
+  },
+  "statement": {
+    "en": "Kurepa's conjecture",
+    "ja": null,
+    "latex": "Left factorial of n\n$$!n = 0! + 1! + 2! + \\dots + (n-1)!$$\n-/\ndef left_factorial (n : ℕ) := ∑ m ∈ Finset.range n, m !\n\nlocal notation \"!\" n => left_factorial n\n\n/--\n## Kurepa's conjecture\n\nFor all $n$, $$!n\\not\\equiv 0 \\mod n$$\n\nThis appears as B44 \"Sums of factorials.\"\nin [Unsolved Problems in Number Theory](https://doi.org/10.1007/978-0-387-26677-0)\nby *Richard K. Guy*",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "heuristic match on statement; I_INFINITE_SEARCH type",
+    "rationale": "型=無限探索空間, D-FUMT₈=NEITHER; 形式化=medium (sorry=3)",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-2192"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 3,
+    "notes": "Namespaces: Kurepa"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.45,
+    "solveRationale": "Familiar=False, type=I_INFINITE_SEARCH, dfumt8=NEITHER, formalization=medium",
+    "formalizationComplexity": "medium",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

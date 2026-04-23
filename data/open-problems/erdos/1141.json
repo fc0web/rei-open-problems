@@ -1,0 +1,61 @@
+{
+  "id": "erdos-1141",
+  "source": "erdos",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "erdosproblems.com (T. Bloom)",
+    "lean4Ref": "data/external-oss/formal-conjectures/FormalConjectures/ErdosProblems/1141.lean"
+  },
+  "statement": {
+    "en": "Erdős Problem 1141",
+    "ja": null,
+    "latex": "The property that $n-k^2$ is prime for all $k$ with $(n,k)=1$ and $k^2 < n$.\n-/\ndef Erdos1141Prop (n : ℕ) : Prop :=\n  ∀ k, k ^ 2 < n → Coprime n k → (n - k ^ 2).Prime\n\ninstance (n : ℕ) : Decidable (Erdos1141Prop n) :=\n  decidable_of_iff (∀ k ≤ .sqrt (n - 1), Coprime n k → (n - k ^ 2).Prime) <| by\n    cases n with\n    | zero => simp [Erdos1141Prop]\n    | succ n' =>\n      simp [Erdos1141Prop, le_sqr",
+    "preview_source": "formal-conjectures"
+  },
+  "field": "number_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "heuristic match on statement; III_COMPUTATIONAL_LIMIT type",
+    "rationale": "型=計算量の壁, D-FUMT₈=INFINITY; 形式化=easy (sorry=1)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "T-1754"
+  },
+  "formalization": {
+    "lean4": "scaffold",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "Namespaces: Erdos1141"
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.65,
+    "solveRationale": "Familiar=False, type=III_COMPUTATIONAL_LIMIT, dfumt8=INFINITY, formalization=easy",
+    "formalizationComplexity": "easy",
+    "formalizationNotes": null,
+    "reiFamiliarRef": null,
+    "famousHardCap": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-a-1-formal-conjectures-v1",
+  "reviewer": null
+}

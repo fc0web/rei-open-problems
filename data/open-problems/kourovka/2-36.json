@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-2-36",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 2,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 2.36 (Khukhro & Mazurov eds., ed.2)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 2.36",
+    "ja": null,
+    "latex": "(de Groot). Is the group of all continuous integer-valued functions on a compact space free abelian? { V.\\,I.\\,Kuz'minov} Yes, it is. By (G.\\,N\\\"obeling, Invent. Math., { 6} (1968) 41--55) the additive group of all bounded integer-valued functions on an arbitrary set is free. Hence the group of all continuous integer-valued functions on the Chech compactification of an arbitrary discrete space is ...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=VI_BRIDGING",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.55,
+    "solveRationale": "Group theory VI_BRIDGING; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}

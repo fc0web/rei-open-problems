@@ -1,0 +1,62 @@
+{
+  "id": "kourovka-5-33",
+  "source": "kourovka",
+  "sourceRef": {
+    "edition": 5,
+    "url": "https://arxiv.org/abs/1401.0300",
+    "citation": "Kourovka Notebook, Problem 5.33 (Khukhro & Mazurov eds., ed.5)",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Kourovka Problem 5.33",
+    "ja": null,
+    "latex": "(Y.\\,Ihara). Consider the quaternion algebra$Q$with norm$f=x^2 - y^2 - z^2 + u^2$,$, { Z}$. Assume that$f$is indefinite and of${ Q}$-rank 0, i.~e.$f=0$for$x,y,z,u { Q}$implies$x=y=z=u=0$. Consider$Q$as the algebra of the matrices$$X= (\\!\\! {cc}x+ y& (z+ u) z- u&x- y \\!\\! )$$with$x,y,z,u { Q}$. Let$p$be a prime,$p$. Consider the group$G$of all$X$with$x,y,z,u { Z}^{(p)}$,${ det}\\, X=1$, where${ Z}^{...",
+    "preview_source": "kourovka-ed21-tex-parser",
+    "full_text": null
+  },
+  "field": "group_theory",
+  "subfield": null,
+  "proposer": null,
+  "year": null,
+  "status": "open",
+  "lastUpdate": "2026-04-23",
+  "reiTyping": {
+    "primaryType": "I_INFINITE_SEARCH",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "keyword heuristic + group-theory prior",
+    "rationale": "Kourovka group theory problem; type=I_INFINITE_SEARCH",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.4,
+    "solveRationale": "Group theory I_INFINITE_SEARCH; Rei not specialized in group theory (yet)",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Kourovka problems are typically research-level group theory",
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "ingested": "2026-04-23",
+  "ingestMethod": "phase-b-kourovka-tex-v1",
+  "reviewer": null
+}
