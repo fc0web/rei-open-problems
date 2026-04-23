@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Problems META-DB (Rei-AIOS) — Browse</title>
+<meta name="description" content="Browse 2,583 mathematical unsolved problems + Rei-AIOS research contributions. CC-BY 4.0.">
+<style>
+  :root { --bg:#fafbfc; --fg:#0d1117; --muted:#57606a; --accent:#0969da; --card:#fff; --border:#d0d7de; }
+  * { box-sizing:border-box; }
+  body { font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; background:var(--bg); color:var(--fg); margin:0; padding:0; }
+  header { background:#24292f; color:#fff; padding:20px; }
+  header h1 { margin:0; font-size:22px; }
+  header .sub { opacity:0.8; font-size:13px; margin-top:4px; }
+  header a { color:#79c0ff; text-decoration:none; }
+  main { max-width:1280px; margin:0 auto; padding:20px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:12px; margin:16px 0; }
+  .stat { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:12px; text-align:center; }
+  .stat .v { font-size:26px; font-weight:600; }
+  .stat .l { color:var(--muted); font-size:12px; }
+  .controls { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0; align-items:center; }
+  .controls input, .controls select { padding:6px 10px; border:1px solid var(--border); border-radius:6px; background:#fff; }
+  .controls input { flex:1; min-width:200px; }
+  .controls .count { color:var(--muted); font-size:13px; }
+  .entries { display:grid; gap:8px; margin-top:12px; }
+  .entry { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:10px 14px; cursor:pointer; transition:border-color 0.15s; }
+  .entry:hover { border-color:var(--accent); }
+  .entry .t { font-weight:600; font-size:15px; color:var(--accent); }
+  .entry .m { font-size:12px; color:var(--muted); margin-top:2px; }
+  .entry .s { font-size:13px; margin-top:4px; color:var(--fg); opacity:0.85; }
+  .tags { display:inline-flex; gap:4px; flex-wrap:wrap; margin-top:4px; }
+  .tag { background:#eaeef2; border-radius:3px; padding:1px 6px; font-size:11px; color:var(--muted); }
+  .tag.t1 { background:#ddf4ff; color:#0969da; }
+  .tag.t2 { background:#f5e6ff; color:#8250df; }
+  .tag.t3 { background:#fff8c5; color:#633c01; }
+  .loading { text-align:center; padding:40px; color:var(--muted); }
+  footer { text-align:center; color:var(--muted); padding:20px; font-size:12px; }
+  footer a { color:var(--muted); }
+  dialog { border:1px solid var(--border); border-radius:8px; padding:20px; max-width:800px; width:90%; }
+  dialog::backdrop { background:rgba(0,0,0,0.5); }
+  dialog h2 { margin-top:0; }
+  dialog pre { background:#f6f8fa; padding:12px; border-radius:6px; overflow:auto; font-size:12px; max-height:50vh; }
+  dialog button { background:var(--accent); color:#fff; border:0; padding:6px 14px; border-radius:6px; cursor:pointer; float:right; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Open Problems META-DB (Rei-AIOS) — Browse</h1>
+  <div class="sub">
+    2,583 entries · CC-BY 4.0 ·
+    <a href="https://doi.org/10.5281/zenodo.19700758">Paper 130 DOI</a> ·
+    <a href="https://doi.org/10.5281/zenodo.19709764">Dataset DOI</a> ·
+    <a href="https://github.com/fc0web/rei-open-problems">GitHub</a>
+  </div>
+</header>
+<main>
+  <div class="stats" id="stats"></div>
+  <div class="controls">
+    <input id="q" placeholder="Search title / statement / field..." />
+    <select id="tier">
+      <option value="">All tiers</option>
+      <option value="1">Tier 1 (world-public)</option>
+      <option value="2">Tier 2 (rei-inventions)</option>
+      <option value="3">Tier 3 (claude-discoveries)</option>
+    </select>
+    <select id="source">
+      <option value="">All sources</option>
+    </select>
+    <select id="status">
+      <option value="">All status</option>
+      <option value="open">open</option>
+      <option value="solved">solved</option>
+      <option value="unknown">unknown</option>
+      <option value="rei-approved">rei-approved</option>
+      <option value="open-observation">open-observation</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="entries" id="entries"><div class="loading">Loading 2,583 entries...</div></div>
+</main>
+<footer>
+  Peace Axiom #196 · Fujimoto, Nobuki (藤本 伸樹) × Rei-AIOS (Claude Opus 4.7) · 2026-04-23
+</footer>
+
+<dialog id="detail">
+  <h2 id="detail-title"></h2>
+  <div id="detail-meta"></div>
+  <pre id="detail-json"></pre>
+  <button onclick="document.getElementById('detail').close()">Close</button>
+</dialog>
+
+<script>
+const ENTRIES = [];
+const SOURCES = new Set();
+
+async function fetchIndex() {
+  const r = await fetch('INDEX.json');
+  const idx = await r.json();
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="v">${idx.grandTotalEntries.toLocaleString()}</div><div class="l">Total entries</div></div>
+    <div class="stat"><div class="v">${idx.totalProblems.toLocaleString()}</div><div class="l">Tier 1 (world-public)</div></div>
+    <div class="stat"><div class="v">${idx.totalReiInventions}</div><div class="l">Tier 2 (rei-inventions)</div></div>
+    <div class="stat"><div class="v">${idx.totalClaudeDiscoveries}</div><div class="l">Tier 3 (claude-discoveries)</div></div>
+  `;
+  return idx;
+}
+
+async function loadAllEntries(idx) {
+  const tasks = [];
+  for (const [src, n] of Object.entries({...idx.bySource, ...(idx.bySourceTier2||{}), ...(idx.bySourceTier3||{})})) {
+    if (!n) continue;
+    SOURCES.add(src);
+    tasks.push(loadSource(src));
+  }
+  await Promise.all(tasks);
+  buildSourceOptions();
+  render();
+}
+
+async function loadSource(src) {
+  try {
+    // Try list endpoint (GitHub Pages doesn't index directories; fetch via file-list trick)
+    // We'll use a pre-generated manifest if available
+    const r = await fetch(`manifest.json`);
+    if (r.ok) {
+      const m = await r.json();
+      const files = (m[src] || []);
+      await Promise.all(files.map(f => fetchEntry(src, f)));
+    }
+  } catch (e) { console.warn('load', src, e); }
+}
+
+async function fetchEntry(src, file) {
+  try {
+    const r = await fetch(`data/open-problems/${src}/${file}`);
+    if (r.ok) {
+      const d = await r.json();
+      d._src = src; d._file = file;
+      ENTRIES.push(d);
+    }
+  } catch {}
+}
+
+function tierOf(e) {
+  if (e._src === 'rei-inventions') return 2;
+  if (e._src === 'claude-discoveries') return 3;
+  return 1;
+}
+
+function buildSourceOptions() {
+  const sel = document.getElementById('source');
+  [...SOURCES].sort().forEach(s => {
+    const o = document.createElement('option'); o.value = s; o.textContent = s; sel.appendChild(o);
+  });
+}
+
+function render() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const tier = document.getElementById('tier').value;
+  const src = document.getElementById('source').value;
+  const st = document.getElementById('status').value;
+  const filtered = ENTRIES.filter(e => {
+    if (tier && String(tierOf(e)) !== tier) return false;
+    if (src && e._src !== src) return false;
+    if (st && e.status !== st) return false;
+    if (q) {
+      const hay = ((e.statement?.en||'')+' '+(e.id||'')+' '+(e.field||'')+' '+(e.subfield||'')).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  document.getElementById('count').textContent = `${filtered.length.toLocaleString()} entries`;
+  const host = document.getElementById('entries');
+  const list = filtered.slice(0, 300).map(e => {
+    const t = tierOf(e);
+    const stmt = (e.statement?.en||'').slice(0,180);
+    return `<div class="entry" data-id="${e.id||''}" data-src="${e._src||''}" data-file="${e._file||''}">
+      <div class="t">${e.id||'(no id)'}</div>
+      <div class="m">${e._src} · ${e.field||'?'} · ${e.status||'?'}</div>
+      <div class="s">${stmt}${stmt.length>=180?'...':''}</div>
+      <div class="tags">
+        <span class="tag t${t}">Tier ${t}</span>
+        ${e.reiTyping?.primaryType ? `<span class="tag">${e.reiTyping.primaryType}</span>` : ''}
+        ${e.reiTyping?.dfumt8 ? `<span class="tag">D-FUMT₈ ${e.reiTyping.dfumt8}</span>` : ''}
+        ${e.formalization?.sorryCount !== undefined ? `<span class="tag">sorry: ${e.formalization.sorryCount}</span>` : ''}
+        ${e.reiAssessment?.paperCandidate ? '<span class="tag">paperCandidate</span>' : ''}
+      </div>
+    </div>`;
+  }).join('');
+  host.innerHTML = list + (filtered.length > 300 ? `<div class="loading">... showing 300 of ${filtered.length}. Refine filters to see more.</div>` : '');
+  host.querySelectorAll('.entry').forEach(el => el.addEventListener('click', () => showDetail(el.dataset.src, el.dataset.file)));
+}
+
+async function showDetail(src, file) {
+  const r = await fetch(`data/open-problems/${src}/${file}`);
+  const d = await r.json();
+  document.getElementById('detail-title').textContent = d.id || file;
+  document.getElementById('detail-meta').innerHTML = `<p><a href="data/open-problems/${src}/${file}" target="_blank">raw JSON</a></p>`;
+  document.getElementById('detail-json').textContent = JSON.stringify(d, null, 2);
+  document.getElementById('detail').showModal();
+}
+
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('tier').addEventListener('change', render);
+document.getElementById('source').addEventListener('change', render);
+document.getElementById('status').addEventListener('change', render);
+
+(async () => {
+  const idx = await fetchIndex();
+  await loadAllEntries(idx);
+})();
+</script>
+</body>
+</html>
