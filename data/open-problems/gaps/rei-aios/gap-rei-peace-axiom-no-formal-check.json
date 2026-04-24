@@ -71,6 +71,17 @@
     "quadrant": "Q1",
     "missingKind": "integration",
     "impossibilityEvidence": "uninvestigated-pessimism",
-    "executabilityEffort": "months"
+    "executabilityEffort": "months",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-rei-pl-prover-v0_1"
+      ],
+      "plannedTools": [
+        "rei-tool-peace-axiom-formal-checker"
+      ],
+      "breakthroughNeeded": [
+        "Formalization of peace invariant beyond single-bit TRUE"
+      ]
+    }
   }
 }

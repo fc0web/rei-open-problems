@@ -71,6 +71,18 @@
     "quadrant": "Q1",
     "missingKind": "integration",
     "impossibilityEvidence": "uninvestigated-pessimism",
-    "executabilityEffort": "months"
+    "executabilityEffort": "months",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-invention-engine-v3"
+      ],
+      "plannedTools": [
+        "rei-tool-invention-engine-v4-neural"
+      ],
+      "breakthroughNeeded": [
+        "Formal novelty score (not heuristic)",
+        "Out-of-distribution detection"
+      ]
+    }
   }
 }

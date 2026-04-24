@@ -1,0 +1,86 @@
+{
+  "id": "rei-strategy-positioning-core-value-proposition-2026-04-24",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null, "url": "", "citation": null, "lean4Ref": null
+  },
+  "statement": {
+    "en": "Rei-AIOS is the only operational database that continuously tracks (1) what existing technology lacks, (2) what is thought impossible, and (3) carries the capability to build what transcends both. Unified 5-tier META-DB (2,705 entries) + D-FUMT₈ 8-valued classification + Missing × Executable 2-axis + self-referential structure + Peace Axiom #196 invariant. Positioned as enabling meta-infrastructure for AI safety research, formal methods community, enterprise R&D prioritization, policy decision-support, educational curriculum design, and science philosophy.",
+    "ja": "Rei-AIOS は、既存技術の不足 / 不可能と思われるもの / それを超える制作能力 — この三位一体を単一 DB 内で systematic に扱う、現時点で唯一の運用可能システムです。統合 5-tier META-DB (2,705 entries) + D-FUMT₈ 八値分類 + Missing × Executable 2軸 + 自己参照構造 + 平和公理 #196 invariant.",
+    "latex": null,
+    "preview_source": "rei-strategy-core-identity-2026-04-24"
+  },
+  "field": "rei-strategy",
+  "subfield": "positioning",
+  "proposer": "Fujimoto (identified 2026-04-24 in-session) + Claude Opus 4.7 (articulated)",
+  "year": 2026,
+  "status": "foundational",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-identification of Rei-AIOS positioning — foundational self-reference",
+    "rationale": "Elevator pitch / core identity statement — reused across grant applications / papers / outreach",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null, "oeis": [], "mathlib": null, "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-identity", "coq": "none", "agda": "none", "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Core identity statement; not subject to formal proof"
+  },
+  "known_progress": [
+    { "date": "2026-04-24", "event": "Core value proposition articulated in-session", "impact": "Reusable for grant application opening / paper intro motivation / Zulip post abstract / book tagline / investor pitch" }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Use verbatim in: grant application openings, paper introduction motivation sections, Zulip outreach post abstracts, book taglines, investor pitches, interview key messages",
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 1.0,
+    "solveRationale": "Identity statement, not a problem",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "Articulated 2026-04-24 in conversation between 藤本 伸樹 and Claude Opus 4.7"
+  },
+  "strategyMeta": {
+    "horizon": "immediate",
+    "reusableContexts": [
+      "grant-application-opening",
+      "paper-introduction-motivation",
+      "zulip-outreach-abstract",
+      "book-tagline",
+      "investor-pitch",
+      "interview-key-message",
+      "homepage-hero-text",
+      "twitter-bio"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Identity statement — maximum reach + attribution encouraged"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q3",
+    "missingKind": "integration",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "minutes",
+    "crossRefs": {
+      "addressedByTools": [
+        "rei-tool-open-problems-metadb",
+        "rei-tool-rei-pl-prover-v0_1",
+        "rei-tool-cross-tier-dfumt8-analyzer"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-positioning-af-v1",
+  "tier": 6
+}

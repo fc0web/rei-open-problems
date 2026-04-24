@@ -71,6 +71,18 @@
     "quadrant": "Q2",
     "missingKind": "concept",
     "impossibilityEvidence": "strong-heuristic",
-    "executabilityEffort": "breakthrough-needed"
+    "executabilityEffort": "breakthrough-needed",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-compression-engine-suite"
+      ],
+      "plannedTools": [
+        "rei-tool-proof-compression-engine-v1"
+      ],
+      "breakthroughNeeded": [
+        "Shannon-style bound for proof-space compression",
+        "1-billion theorem → 100 MB demonstration"
+      ]
+    }
   }
 }

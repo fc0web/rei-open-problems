@@ -71,6 +71,18 @@
     "quadrant": "Q1",
     "missingKind": "integration",
     "impossibilityEvidence": "uninvestigated-pessimism",
-    "executabilityEffort": "months"
+    "executabilityEffort": "months",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-rei-pl-prover-v0_1",
+        "rei-tool-cross-tier-dfumt8-analyzer"
+      ],
+      "plannedTools": [
+        "rei-tool-llm-reasoning-verifier"
+      ],
+      "breakthroughNeeded": [
+        "LLM chain-of-thought → Lean 4 translator (faithful, not lossy)"
+      ]
+    }
   }
 }

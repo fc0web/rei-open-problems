@@ -71,6 +71,17 @@
     "quadrant": "Q1",
     "missingKind": "integration",
     "impossibilityEvidence": "uninvestigated-pessimism",
-    "executabilityEffort": "weeks"
+    "executabilityEffort": "weeks",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-cross-tier-dfumt8-analyzer"
+      ],
+      "plannedTools": [
+        "rei-tool-universal-lemma-registry"
+      ],
+      "breakthroughNeeded": [
+        "Semantic equivalence detection across formal systems"
+      ]
+    }
   }
 }

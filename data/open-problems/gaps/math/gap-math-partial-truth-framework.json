@@ -71,6 +71,18 @@
     "quadrant": "Q2",
     "missingKind": "concept",
     "impossibilityEvidence": "strong-heuristic",
-    "executabilityEffort": "breakthrough-needed"
+    "executabilityEffort": "breakthrough-needed",
+    "superCapability": {
+      "builtTools": [
+        "rei-tool-rei-pl-prover-v0_1"
+      ],
+      "plannedTools": [
+        "rei-tool-rei-pl-prover-v1_0"
+      ],
+      "breakthroughNeeded": [
+        "8-valued proof theory soundness + completeness",
+        "Mathlib 2→8 value translator"
+      ]
+    }
   }
 }

@@ -71,6 +71,16 @@
     "quadrant": "Q1",
     "missingKind": "integration",
     "impossibilityEvidence": "uninvestigated-pessimism",
-    "executabilityEffort": "months"
+    "executabilityEffort": "months",
+    "superCapability": {
+      "builtTools": [],
+      "plannedTools": [
+        "rei-tool-memory-consolidation-engine"
+      ],
+      "breakthroughNeeded": [
+        "Forgetting dynamics theory (personal-scale)",
+        "Consolidation-decay tradeoff formal model"
+      ]
+    }
   }
 }

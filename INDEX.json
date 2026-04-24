@@ -8,15 +8,15 @@
   "totalClaudeDiscoveries": 6,
   "totalGaps": 38,
   "totalTools": 7,
-  "totalStrategy": 12,
-  "grandTotalEntries": 2693,
+  "totalStrategy": 13,
+  "grandTotalEntries": 2694,
   "tierDescription": {
     "tier1": "World-public open problems (2615 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
     "tier2": "Rei Invention Engine approved conjectures (15 entries) — CC-BY 4.0 attribution required",
     "tier3": "Claude Code research discoveries (6 entries) — subset of private META-DB. Some discoveries withheld pending Paper 135-136 publication.",
     "tier4": "Gaps META-DB (38 entries) — things missing from world/Rei/Claude research. GAP-A/B/C/M/P/S label system.",
     "tier5": "Rei-AIOS tools (7 entries) — tools Rei-AIOS has built (Rei-PL Prover, Invention Engine, NNUE D-FUMT, etc.)",
-    "tier6": "Strategic concepts (12 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans."
+    "tier6": "Strategic concepts (13 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans."
   },
   "paperReference": {
     "paper130Published": {
