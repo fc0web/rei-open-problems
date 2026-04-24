@@ -1,0 +1,98 @@
+{
+  "id": "rei-strategy-newmath-8-valued-proof-theory",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "D-FUMT₈ 8値 native proof theory の formal foundations 研究. Target paper: Rei-PL Prover の soundness + completeness. Prerequisites: STEP 993-996 skeletal test + Paper 137. Estimated: 50-80 theorem module (Legendre-style effort scale). Research partners 要: 大学 logic group / AGDA / Isabelle community.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "new-math",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Strategy horizon: long-term",
+    "rationale": "Eight-valued proof theory — formal foundations",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "new-math / long-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Strategy horizon long-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "long-term",
+    "addressesGaps": [
+      "gap-math-partial-truth-framework",
+      "gap-rei-dfumt8-no-completeness-proof"
+    ],
+    "dependsOnTools": [
+      "rei-tool-rei-pl-prover-v0_1"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "New mathematics seed — broad community engagement required"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "years",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-partial-truth-framework",
+        "gap-rei-dfumt8-no-completeness-proof"
+      ],
+      "relatedProblems": [
+        "rei-tool-rei-pl-prover-v0_1"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

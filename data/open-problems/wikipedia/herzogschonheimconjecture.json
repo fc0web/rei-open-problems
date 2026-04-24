@@ -72,7 +72,7 @@
     "approachSuggestion": "(1) Mirsky-Newman abelian case を Lean 4 で再構築 → erdos_274.variants.abelian sorry 閉鎖. (2) 既知 solvable case の部分証明を参照. (3) 一般の non-solvable case は world-open, 藤本さん判断事項",
     "paperCandidate": true,
     "priority": "high",
-    "solveProbability": 0.60,
+    "solveProbability": 0.6,
     "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE + VI_BRIDGING, dfumt8=NEITHER, formalization=scaffold (4 sorry). abelian case は Lean 4 移植 tractable",
     "formalizationComplexity": "medium",
     "formalizationNotes": "abelian case の Mirsky-Newman 証明は典型的 Mathlib 射程内. 一般 case は 50 年 open",
@@ -82,5 +82,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/274.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

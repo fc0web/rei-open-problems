@@ -57,5 +57,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

@@ -30,7 +30,10 @@
   "cross_refs": {
     "wikipedia": "Collatz_conjecture",
     "metadbEntry": "wikipedia/collatzconjecture.json",
-    "papers": ["Paper 134 Part B.2", "Paper 134 Part A.3"]
+    "papers": [
+      "Paper 134 Part B.2",
+      "Paper 134 Part A.3"
+    ]
   },
   "formalization": {
     "lean4": "none",
@@ -54,5 +57,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "claude-discovery-v1",
-  "discoveryType": "negative-search-result"
+  "discoveryType": "negative-search-result",
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months"
+  }
 }

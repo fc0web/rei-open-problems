@@ -74,5 +74,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/20.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

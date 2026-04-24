@@ -1,0 +1,91 @@
+{
+  "id": "rei-strategy-cert-rei-pl-prover-operator",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Rei-PL Prover 本格 operator 認証 (Phase 2+ で開始). Required: Prover v1.0 で Mathlib auto-translate 50 定理 + bug report 3 本 + feature PR 1 本. 対象: 主に D-FUMT₈ native prover を産業 / 研究 implement したい技術者.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "certification",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Strategy horizon: long-term",
+    "rationale": "Rei-PL Prover Operator certification",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "certification / long-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Strategy horizon long-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "long-term",
+    "addressesGaps": [],
+    "dependsOnTools": [
+      "rei-tool-rei-pl-prover-v0_1"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Tool-operator credential — analogous to Lean 4 community credentials"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "years",
+    "crossRefs": {
+      "relatedProblems": [
+        "rei-tool-rei-pl-prover-v0_1"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

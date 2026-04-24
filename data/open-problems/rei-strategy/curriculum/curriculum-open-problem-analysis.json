@@ -1,0 +1,98 @@
+{
+  "id": "rei-strategy-curriculum-open-problem-analysis",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "大学院 seminar (semi-weekly, 1 semester). 内容: META-DB 2,676 entries の cross-tier D-FUMT₈ isomorphism 分析手法習得. 学生各自が 1 cluster を選び、Lean 4 skeletal test を構築 + Paper 形式 report 提出 (STEP 993/994/995 pattern).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "curriculum",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Strategy horizon: mid-term",
+    "rationale": "Open problem analysis with cross-tier methods (graduate seminar)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "curriculum / mid-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Strategy horizon mid-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "mid-term",
+    "addressesGaps": [
+      "gap-math-no-auto-concept-generation",
+      "gap-math-cross-problem-lemma-sharing"
+    ],
+    "dependsOnTools": [
+      "rei-tool-cross-tier-dfumt8-analyzer"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Advanced research seminar — suited to university/research institute adoption"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-no-auto-concept-generation",
+        "gap-math-cross-problem-lemma-sharing"
+      ],
+      "relatedProblems": [
+        "rei-tool-cross-tier-dfumt8-analyzer"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

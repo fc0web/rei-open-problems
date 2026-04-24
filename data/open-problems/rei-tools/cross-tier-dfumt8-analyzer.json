@@ -1,0 +1,95 @@
+{
+  "id": "rei-tool-cross-tier-dfumt8-analyzer",
+  "source": "rei-tools",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Paper 135 (self-reference cluster)",
+    "lean4Ref": null,
+    "sourceCode": "scripts/cross-tier-dfumt8-isomorphism.ts"
+  },
+  "statement": {
+    "en": "Scans all META-DB entries to find cross-field cousin clusters via shared (D-FUMT₈, primary type) tagging. Produces Tier 3 claude-discovery candidates. First run 2026-04-24 found 3 genuine clusters (self-reference / dual-axiom / new-concept-via-duality).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier5-rei-tools-v2.2"
+  },
+  "field": "rei-tool",
+  "subfield": "analyzer",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "alpha",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Tier 5 tool: analyzer",
+    "rationale": "Cross-Tier D-FUMT₈ Isomorphism Analyzer",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "alpha",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Rei-AIOS internal tool; see scripts/cross-tier-dfumt8-isomorphism.ts"
+  },
+  "known_progress": [
+    {
+      "date": "STEP 986",
+      "event": "Created",
+      "impact": "Scans all META-DB entries to find cross-field cousin clusters via shared (D-FUMT₈, primary type) tag"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Registered in META-DB Tier 5",
+      "impact": "Tier 5 rei-tools entry, version v1"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Rei-AIOS internal tool, phase=alpha",
+    "formalizationComplexity": "n/a-tool",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "STEP 986"
+  },
+  "toolMeta": {
+    "version": "v1",
+    "phase": "alpha",
+    "sourceCode": "scripts/cross-tier-dfumt8-isomorphism.ts",
+    "paperRef": "Paper 135 (self-reference cluster)",
+    "startStep": "STEP 986",
+    "toolCategory": "analyzer"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "tool",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "days",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-cross-problem-lemma-sharing",
+        "gap-ai-intrinsic-novelty-detection"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier5-rei-tools-register-step-999-v1",
+  "tier": 5
+}

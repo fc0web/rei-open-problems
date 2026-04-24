@@ -1,0 +1,98 @@
+{
+  "id": "rei-strategy-curriculum-missing-executable-calculus-advanced",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "博士後期課程 / ポスドク向け (elective, 8 sessions). 内容: 2軸分類 (Missing × Executable) の圏論化, Q1-Q4 象限の情報理論的性質, 象限間遷移 (Q2→Q1 / Q4→Q3) の実例分析. 論文準備 target: JMLR / LICS / CSL 投稿水準.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "curriculum",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Strategy horizon: mid-term",
+    "rationale": "Advanced seminar: Missing × Executable calculus",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "curriculum / mid-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Strategy horizon mid-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "mid-term",
+    "addressesGaps": [
+      "gap-math-no-proof-compression-theory",
+      "gap-math-no-auto-concept-generation"
+    ],
+    "dependsOnTools": [
+      "rei-tool-open-problems-metadb"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Advanced research material — public domain benefits research community"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-no-proof-compression-theory",
+        "gap-math-no-auto-concept-generation"
+      ],
+      "relatedProblems": [
+        "rei-tool-open-problems-metadb"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

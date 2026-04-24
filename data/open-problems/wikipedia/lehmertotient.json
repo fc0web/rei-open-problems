@@ -48,7 +48,7 @@
     "approachSuggestion": null,
     "paperCandidate": true,
     "priority": "high",
-    "solveProbability": 1.0,
+    "solveProbability": 1,
     "solveRationale": "Familiar=True, type=VI_BRIDGING, dfumt8=ZERO, formalization=easy",
     "formalizationComplexity": "easy",
     "formalizationNotes": null,
@@ -57,5 +57,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

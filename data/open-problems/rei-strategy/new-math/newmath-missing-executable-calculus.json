@@ -1,0 +1,91 @@
+{
+  "id": "rei-strategy-newmath-missing-executable-calculus",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "2 軸分類 (Missing × Executable) の圏論的定式化. Objects = entries, Morphisms = 象限遷移 (Q2→Q1 breakthrough / Q1→Q3 completion 等). 2-cell = Cross-tier isomorphism. Potential: Category-theoretic proof complexity theory.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "new-math",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Strategy horizon: long-term",
+    "rationale": "Missing × Executable calculus — categorical foundations",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "new-math / long-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Strategy horizon long-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "long-term",
+    "addressesGaps": [],
+    "dependsOnTools": [
+      "rei-tool-open-problems-metadb"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Foundational mathematics — public domain for broad impact"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "years",
+    "crossRefs": {
+      "relatedProblems": [
+        "rei-tool-open-problems-metadb"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

@@ -64,5 +64,13 @@
   },
   "ingested": "2026-04-24",
   "ingestMethod": "gaps-metadb-register-step-998-v1",
-  "tier": 4
+  "tier": 4,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "concept",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

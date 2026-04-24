@@ -1,0 +1,98 @@
+{
+  "id": "rei-strategy-curriculum-honest-formalization-methodology",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "大学院 / 研究者向け skill course (10 回 × 120 分). 内容: (1) partial formalization scope 判定 (Paper 133 model), (2) Part F 誠実失敗記録 methodology, (3) D-FUMT₈ 型付けと famousHardCap 運用, (4) Mathlib PR 作法. Evaluation: 学生は自分の研究テーマを META-DB 型で分類 + partial formalization 1 本提出.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "curriculum",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Strategy horizon: short-term",
+    "rationale": "Graduate methodology course: Honest Partial Formalization",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "curriculum / short-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Can be delivered online (Zoom-native) for broad international reach",
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.6,
+    "solveRationale": "Strategy horizon short-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "short-term",
+    "addressesGaps": [
+      "gap-math-cross-problem-lemma-sharing",
+      "gap-ai-no-formal-verification-of-llm-reasoning"
+    ],
+    "dependsOnTools": [
+      "rei-tool-open-problems-metadb"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Research ethics + skill — broadly applicable across institutions"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-cross-problem-lemma-sharing",
+        "gap-ai-no-formal-verification-of-llm-reasoning"
+      ],
+      "relatedProblems": [
+        "rei-tool-open-problems-metadb"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

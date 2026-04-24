@@ -30,7 +30,10 @@
   },
   "cross_refs": {
     "wikipedia": "Sparse_ruler",
-    "oeis": ["A004137", "A103294"],
+    "oeis": [
+      "A004137",
+      "A103294"
+    ],
     "mathlib": null,
     "external": [
       "Erdős-Gál 1948 [ErGa48]: 極限の存在を証明",
@@ -69,7 +72,7 @@
     "approachSuggestion": "(1) trivial_ruler_is_perfect 既に proved の pattern を活用. (2) erdos170.existing_bounds は Leech/Wichmann 原論文 移植. 解析的下界は noncomputable Real analysis の重労働. (3) F(N) 小 N (≤ 50) は Finset 全列挙で native_decide 検証可能 — 独立 lemma として価値あり",
     "paperCandidate": true,
     "priority": "medium",
-    "solveProbability": 0.50,
+    "solveProbability": 0.5,
     "solveRationale": "III_CONVERGENCE_WITNESS, FLOWING. 2 sorry は tractable だが解析部分 (Leech 下界) 難. 極限 exact 値は 70 年 open",
     "formalizationComplexity": "medium",
     "formalizationNotes": "小 N の F(N) は decidable. 上下界の解析は Real.sup + supremum argument で Mathlib 準備済",
@@ -79,5 +82,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual ErdosProblems/170.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

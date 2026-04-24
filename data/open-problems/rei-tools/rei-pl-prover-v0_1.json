@@ -1,0 +1,96 @@
+{
+  "id": "rei-tool-rei-pl-prover-v0_1",
+  "source": "rei-tools",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Paper 137 (pending DOI)",
+    "lean4Ref": null,
+    "sourceCode": "src/rei-pl-prover/"
+  },
+  "statement": {
+    "en": "D-FUMT₈-native proof assistant prototype (160 LOC, 3 toy theorems, one-way Lean 4 export, Peace Axiom #196 structural invariant). STEP 997.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier5-rei-tools-v2.2"
+  },
+  "field": "rei-tool",
+  "subfield": "proof-assistant",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "prototype",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Tier 5 tool: proof-assistant",
+    "rationale": "Rei-PL Prover",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "prototype",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Rei-AIOS internal tool; see src/rei-pl-prover/"
+  },
+  "known_progress": [
+    {
+      "date": "STEP 997",
+      "event": "Created",
+      "impact": "D-FUMT₈-native proof assistant prototype (160 LOC, 3 toy theorems, one-way Lean 4 export, Peace Axio"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Registered in META-DB Tier 5",
+      "impact": "Tier 5 rei-tools entry, version v0.1"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Rei-AIOS internal tool, phase=prototype",
+    "formalizationComplexity": "n/a-tool",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "STEP 997"
+  },
+  "toolMeta": {
+    "version": "v0.1",
+    "phase": "prototype",
+    "sourceCode": "src/rei-pl-prover/",
+    "paperRef": "Paper 137 (pending DOI)",
+    "startStep": "STEP 997",
+    "toolCategory": "proof-assistant"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "tool",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "hours",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-partial-truth-framework",
+        "gap-ai-claude-no-self-introspection",
+        "gap-rei-dfumt8-no-completeness-proof"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier5-rei-tools-register-step-999-v1",
+  "tier": 5
+}

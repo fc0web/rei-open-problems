@@ -67,5 +67,13 @@
   },
   "ingested": "2026-04-24",
   "ingestMethod": "cross-tier-dfumt8-isomorphism-analysis-v1",
-  "discoveryType": "cross-tier-typing-isomorphism"
+  "discoveryType": "cross-tier-typing-isomorphism",
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months"
+  }
 }

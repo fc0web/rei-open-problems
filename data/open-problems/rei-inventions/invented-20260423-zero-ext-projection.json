@@ -69,5 +69,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "rei-invention-engine-v1",
   "approvedInventionRef": "invention-4",
-  "noveltyScore": 0.75
+  "noveltyScore": 0.75,
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "weeks"
+  }
 }

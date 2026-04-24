@@ -1,0 +1,96 @@
+{
+  "id": "rei-tool-invention-engine-v3",
+  "source": "rei-tools",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null,
+    "sourceCode": "src/aios/invention/"
+  },
+  "statement": {
+    "en": "Generates novel conjectures via Ψ (空白検出) × Φ (異分野移植) × Ω (D-FUMT₈ 収束) scoring. v3 adds E1 novelty check + E2 multi-hop transplant + E3 genealogy tracking. Deployed in daily learning cycle Phase 6. STEP 982.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier5-rei-tools-v2.2"
+  },
+  "field": "rei-tool",
+  "subfield": "conjecture-generation",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "alpha",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Tier 5 tool: conjecture-generation",
+    "rationale": "Rei Invention Engine",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "alpha",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Rei-AIOS internal tool; see src/aios/invention/"
+  },
+  "known_progress": [
+    {
+      "date": "STEP 982",
+      "event": "Created",
+      "impact": "Generates novel conjectures via Ψ (空白検出) × Φ (異分野移植) × Ω (D-FUMT₈ 収束) scoring. v3 adds E1 novelty ch"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Registered in META-DB Tier 5",
+      "impact": "Tier 5 rei-tools entry, version v3"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Rei-AIOS internal tool, phase=alpha",
+    "formalizationComplexity": "n/a-tool",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "STEP 982"
+  },
+  "toolMeta": {
+    "version": "v3",
+    "phase": "alpha",
+    "sourceCode": "src/aios/invention/",
+    "paperRef": null,
+    "startStep": "STEP 982",
+    "toolCategory": "conjecture-generation"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "tool",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "days",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-no-auto-concept-generation",
+        "gap-ai-intrinsic-novelty-detection",
+        "gap-rei-novelty-score-heuristic"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier5-rei-tools-register-step-999-v1",
+  "tier": 5
+}

@@ -28,8 +28,13 @@
     "confidence": "FLOWING"
   },
   "cross_refs": {
-    "wikipedia": ["Pisano_period", "Collatz_conjecture"],
-    "oeis": ["A001175"],
+    "wikipedia": [
+      "Pisano_period",
+      "Collatz_conjecture"
+    ],
+    "oeis": [
+      "A001175"
+    ],
     "seedKernel": "Step866 atomic observations"
   },
   "formalization": {
@@ -58,5 +63,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "claude-discovery-v1",
-  "discoveryType": "cross-domain-numerical-coincidence"
+  "discoveryType": "cross-domain-numerical-coincidence",
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months"
+  }
 }

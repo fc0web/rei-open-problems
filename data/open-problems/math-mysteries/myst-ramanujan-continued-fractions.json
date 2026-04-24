@@ -56,5 +56,13 @@
     "famousHardCap": null
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "pl-math-inference-register-v1"
+  "ingestMethod": "pl-math-inference-register-v1",
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

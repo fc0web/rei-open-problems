@@ -58,5 +58,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-lean-millennium-v1",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

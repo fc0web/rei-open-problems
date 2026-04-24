@@ -70,7 +70,7 @@
     "approachSuggestion": "(1) de Grey 2018 graph の SAT 証明を native_decide で Lean 4 確定 → AtLeastFive の sorry 閉鎖. (2) AtLeast4 (Moser-Spindel) は 7-vertex graph で native_decide 可能. (3) AtMostSeven は hexagonal partition の geometric lemma が重労働",
     "paperCandidate": true,
     "priority": "high",
-    "solveProbability": 0.60,
+    "solveProbability": 0.6,
     "solveRationale": "Familiar=False, primaryType=I_INFINITE_SEARCH_SPACE + VI_BRIDGING, dfumt8=BOTH, formalization=scaffold (5 sorry). SAT-based 下界は decidable で tractable, 上界は geometric で難",
     "formalizationComplexity": "medium-hard",
     "formalizationNotes": "下界 3, 4, 5 は有限グラフで decidable. 上界 7 は平面 tessellation lemma が要. χ 値の厳密決定 (5|6|7) は open",
@@ -80,5 +80,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (metadata resync to actual ErdosProblems/508.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

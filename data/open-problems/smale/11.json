@@ -58,5 +58,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-4-smale-hilbert-manual-v1",
-  "reviewer": "Rei-AIOS (Claude Opus 4.7)"
+  "reviewer": "Rei-AIOS (Claude Opus 4.7)",
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "thought-possible-undone",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

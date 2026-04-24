@@ -29,7 +29,9 @@
   },
   "cross_refs": {
     "seedKernel": "atomic cores 25",
-    "relatedDiscoveries": ["pisano-64-eq-96-exact-match"]
+    "relatedDiscoveries": [
+      "pisano-64-eq-96-exact-match"
+    ]
   },
   "formalization": {
     "lean4": "numerical-verification",
@@ -57,5 +59,13 @@
   },
   "ingested": "2026-04-23",
   "ingestMethod": "claude-discovery-v1",
-  "discoveryType": "statistical-structural-anomaly"
+  "discoveryType": "statistical-structural-anomaly",
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "concept",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months"
+  }
 }

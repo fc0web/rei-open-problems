@@ -76,7 +76,7 @@
     "approachSuggestion": "(1) allowedSetSize_le (pigeonhole ≤ (k−1)N) は Finset.card + counting argument で tractable → Tier-1. (2) 小 N (3 ≤ N ≤ 10) は native_decide + Collinear 判定で閉鎖可. (3) no_three_in_line_le N ≤ 60 は既知計算結果の Lean 移植、大量だが mechanizable → Tier-2. (4) GK2025 は 2025 論文の本格移植 Tier-3. (5) green_72 k=3 全 N は真の open",
     "paperCandidate": true,
     "priority": "high",
-    "solveProbability": 0.50,
+    "solveProbability": 0.5,
     "solveRationale": "I_INFINITE_SEARCH_SPACE + VI_BRIDGING, NEITHER, scaffold (7 sorry). 計算的 side は tractable, 真の open (k=3 任意 N) は 108 年",
     "formalizationComplexity": "medium",
     "formalizationNotes": "pigeonhole と小 N 計算は Lean tractable. GK2025 全体移植は研究レベル",
@@ -86,5 +86,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual GreensOpenProblems/72.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

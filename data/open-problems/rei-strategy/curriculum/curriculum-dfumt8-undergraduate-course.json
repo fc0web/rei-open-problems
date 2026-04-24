@@ -1,0 +1,100 @@
+{
+  "id": "rei-strategy-curriculum-dfumt8-undergraduate-course",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "学部半期 (15 回 × 90 分) course: D-FUMT₈ 八値論理 (TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF). Prerequisites: discrete math, basic logic. Target: 数学/CS/哲学 3 年次以降. Includes: Belnap 4価 → Catuṣkoṭi → Heraclitus FLOWING → Gödel SELF derivation, Rei-PL Prover hands-on, case studies of Paper 130-135. Final project: student-chosen META-DB entry formalization.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "curriculum",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Strategy horizon: short-term",
+    "rationale": "Undergraduate course: D-FUMT₈ Eight-Valued Logic",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "curriculum / short-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "First-delivery candidate: 2026-Q4 or 2027-Q1 if partnered university found.",
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.6,
+    "solveRationale": "Strategy horizon short-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "short-term",
+    "addressesGaps": [
+      "gap-math-partial-truth-framework",
+      "gap-learning-understanding-vs-knowledge-undefined"
+    ],
+    "dependsOnTools": [
+      "rei-tool-rei-pl-prover-v0_1",
+      "rei-tool-seed-kernel"
+    ]
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Educational content — widely beneficial, attribution-based reuse encouraged"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-partial-truth-framework",
+        "gap-learning-understanding-vs-knowledge-undefined"
+      ],
+      "relatedProblems": [
+        "rei-tool-rei-pl-prover-v0_1",
+        "rei-tool-seed-kernel"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}

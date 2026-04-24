@@ -1,0 +1,95 @@
+{
+  "id": "rei-tool-nnue-dfumt",
+  "source": "rei-tools",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Papers 199-210 cluster",
+    "lean4Ref": null,
+    "sourceCode": "src/aios/nnue/"
+  },
+  "statement": {
+    "en": "Neural evaluation function with D-FUMT₈ eight-valued output encoding. First deployed in Rei-AIOS shogi engine, generalized to general-purpose evaluator. Gen 0→1 loss 5.78→4.01 (STEP 977 selfplay fix). Papers 199-210+.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier5-rei-tools-v2.2"
+  },
+  "field": "rei-tool",
+  "subfield": "neural-engine",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "alpha",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Tier 5 tool: neural-engine",
+    "rationale": "NNUE D-FUMT neural engine",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "alpha",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Rei-AIOS internal tool; see src/aios/nnue/"
+  },
+  "known_progress": [
+    {
+      "date": "STEP 199",
+      "event": "Created",
+      "impact": "Neural evaluation function with D-FUMT₈ eight-valued output encoding. First deployed in Rei-AIOS sho"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Registered in META-DB Tier 5",
+      "impact": "Tier 5 rei-tools entry, version gen-1"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.6,
+    "solveRationale": "Rei-AIOS internal tool, phase=alpha",
+    "formalizationComplexity": "n/a-tool",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "STEP 199"
+  },
+  "toolMeta": {
+    "version": "gen-1",
+    "phase": "alpha",
+    "sourceCode": "src/aios/nnue/",
+    "paperRef": "Papers 199-210 cluster",
+    "startStep": "STEP 199",
+    "toolCategory": "neural-engine"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "partially-done",
+    "quadrant": "Q4",
+    "missingKind": "tool",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "days",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-ai-no-uncertainty-quantification",
+        "gap-math-partial-truth-framework"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier5-rei-tools-register-step-999-v1",
+  "tier": 5
+}

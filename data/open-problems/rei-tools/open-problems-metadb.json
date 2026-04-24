@@ -1,0 +1,94 @@
+{
+  "id": "rei-tool-open-problems-metadb",
+  "source": "rei-tools",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Paper 130 (DOI 10.5281/zenodo.19700758)",
+    "lean4Ref": null,
+    "sourceCode": "data/open-problems/, scripts/metadb-auto-sync.ts, scripts/publish-metadb.ts"
+  },
+  "statement": {
+    "en": "The META-DB itself as a Rei-AIOS tool. 2,676 entries across Tier 1-5 (world-public + rei-inventions + claude-discoveries + gaps + rei-tools). With 2-axis missingExecutableMeta + D-FUMT₈ + Rei typing. Auto-sync pipeline + public mirror + CF Pages UI.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier5-rei-tools-v2.2"
+  },
+  "field": "rei-tool",
+  "subfield": "metadata-database",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "production",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": "VIII_META_STRUCTURAL",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Tier 5 tool: metadata-database",
+    "rationale": "Open Problems META-DB (self-reference)",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "production",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": "Rei-AIOS internal tool; see data/open-problems/, scripts/metadb-auto-sync.ts, scripts/publish-metadb.ts"
+  },
+  "known_progress": [
+    {
+      "date": "Paper 130 / STEP 975-999",
+      "event": "Created",
+      "impact": "The META-DB itself as a Rei-AIOS tool. 2,676 entries across Tier 1-5 (world-public + rei-inventions "
+    },
+    {
+      "date": "2026-04-24",
+      "event": "Registered in META-DB Tier 5",
+      "impact": "Tier 5 rei-tools entry, version v2.2"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": true,
+    "priority": "low",
+    "solveProbability": 1,
+    "solveRationale": "Rei-AIOS internal tool, phase=production",
+    "formalizationComplexity": "n/a-tool",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": "Paper 130 / STEP 975-999"
+  },
+  "toolMeta": {
+    "version": "v2.2",
+    "phase": "production",
+    "sourceCode": "data/open-problems/, scripts/metadb-auto-sync.ts, scripts/publish-metadb.ts",
+    "paperRef": "Paper 130 (DOI 10.5281/zenodo.19700758)",
+    "startStep": "Paper 130 / STEP 975-999",
+    "toolCategory": "metadata-database"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q3",
+    "missingKind": "tool",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "minutes",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-math-cross-problem-lemma-sharing"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier5-rei-tools-register-step-999-v1",
+  "tier": 5
+}

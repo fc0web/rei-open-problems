@@ -71,7 +71,7 @@
     "approachSuggestion": "(1) hilbert_fifth_problem (GMZ 1952) classical 証明を Lean 4 移植は大工事だが tractable. (2) variants.riemannian は Myers-Steenrod 既に Mathlib にある要素で可能. (3) dimension_three は Pardon 2013 の 3-manifold 解析、高度. (4) 一般 sorry と p 進 formulation は真の open.",
     "paperCandidate": true,
     "priority": "medium",
-    "solveProbability": 0.40,
+    "solveProbability": 0.4,
     "solveRationale": "VI_BRIDGING + BOTH, scaffold (5 sorry). 本体 Hilbert 5 (GMZ) は Lean 移植可能だが、Hilbert-Smith 一般は open since 1900",
     "formalizationComplexity": "hard",
     "formalizationNotes": "Lie group / ChartedSpace / ManifoldWithCorners API が重厚. Mathlib 準備は整っているが移植は非自明",
@@ -81,5 +81,13 @@
   "ingested": "2026-04-23",
   "ingestMethod": "phase-a-1-formal-conjectures-v1",
   "corrected": "2026-04-23 (STEP 979 shim sweep — metadata resync to actual HilbertProblems/5.lean)",
-  "reviewer": null
+  "reviewer": null,
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "theorem",
+    "impossibilityEvidence": "uninvestigated-pessimism",
+    "executabilityEffort": "months"
+  }
 }

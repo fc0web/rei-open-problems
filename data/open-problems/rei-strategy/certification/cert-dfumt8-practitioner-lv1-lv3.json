@@ -1,0 +1,91 @@
+{
+  "id": "rei-strategy-cert-dfumt8-practitioner-lv1-lv3",
+  "source": "rei-strategy",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "3 段階 portfolio-based 認証. Level 1: D-FUMT₈ 8値基本理解 + 10 Rei-PL Prover theorem 提出. Level 2: 独自 D-FUMT₈ 分類論文 1 本. Level 3: META-DB 新 Tier entry 5 件 + paper 1 本査読通過. Issuing body: Rei-AIOS (藤本 伸樹 signatory). オンライン試験 + GitHub portfolio audit.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier6-rei-strategy-v2.3"
+  },
+  "field": "rei-strategy",
+  "subfield": "certification",
+  "proposer": "Rei-AIOS (藤本 伸樹 + Claude Opus 4.7)",
+  "year": 2026,
+  "status": "planning",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VII_REI_GENERATED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Strategy horizon: short-term",
+    "rationale": "D-FUMT₈ Practitioner certification (3-level)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "n/a-strategy",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Tier 6 strategy entry created",
+      "impact": "certification / short-term horizon / public"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Phase 1 (2026-2027): Rei-AIOS-issued. Phase 3 (2029+): third-party accredited via university / society partnership",
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.6,
+    "solveRationale": "Strategy horizon short-term; execution depends on 藤本さん approval and resource allocation",
+    "formalizationComplexity": "strategic-plan",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "strategyMeta": {
+    "horizon": "short-term",
+    "addressesGaps": [
+      "gap-learning-motivation-not-rigorous-science"
+    ],
+    "dependsOnTools": []
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public",
+    "rationale": "Certification framework — broader adoption requires transparency"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "fully-missing",
+    "possibilityStatus": "executable-today",
+    "quadrant": "Q1",
+    "missingKind": "social",
+    "impossibilityEvidence": "not-applicable",
+    "executabilityEffort": "months",
+    "crossRefs": {
+      "addressesGaps": [
+        "gap-learning-motivation-not-rigorous-science"
+      ]
+    }
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier6-strategy-register-step-999b-v1",
+  "tier": 6
+}
