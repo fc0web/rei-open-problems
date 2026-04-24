@@ -1,0 +1,71 @@
+{
+  "id": "claude-discovery-dual-axiom-coexistence",
+  "source": "claude-discoveries",
+  "origin": "claude-discovery",
+  "sourceRef": {
+    "discoveredSession": "2026-04-24 cross-tier D-FUMT₈ isomorphism analysis",
+    "documentFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md",
+      "scripts/cross-tier-dfumt8-isomorphism.ts"
+    ],
+    "relatedMetadbEntries": [
+      "myst-1-2-3-minus-1-12",
+      "si-paraconsistent-logic",
+      "si-quantum-logic-birkhoff-vn"
+    ]
+  },
+  "statement": {
+    "en": "Three phenomena across number theory, logic, and mathematical physics — zeta regularization yielding 1+2+3+… = -1/12, da Costa's paraconsistent logic tolerating A ∧ ¬A, and Birkhoff-von Neumann quantum logic abandoning distributivity — share identical D-FUMT₈ typing (BOTH, V_AXIOMATIC) in the Open Problems META-DB (Rei-AIOS). Each admits two mutually-incompatible 'correct answers' under different axiomatic choices, coexisting without genuine contradiction (BOTH-state). Conjecture: all three instantiate a shared meta-pattern 'axiom-conditional polyvalent truth' formalizable as a functor F : Axiom-choice → Truth-assignment with F(A₁) ≠ F(A₂) both valid. This would unify divergent-series regularization, paraconsistent inference, and quantum observable non-commutativity under one Lean 4 axiomatic-duality framework.",
+    "ja": "数論 (ζ 正則化 1+2+3+…=-1/12) / 論理学 (da Costa paraconsistent) / 数理物理 (Birkhoff-vN 量子論理) の 3 現象が META-DB で同一 D-FUMT₈ 型 (BOTH, V_AXIOMATIC) を持つ。いずれも「異なる公理選択下で複数の正解が共存する」構造。axiom-conditional polyvalent truth の meta-pattern として統一可能との仮説。",
+    "latex": null
+  },
+  "field": "meta-structural",
+  "subfield": "axiom-dependent-polyvalence",
+  "proposer": "Rei-AIOS (Claude Opus 4.7) via cross-tier D-FUMT₈ isomorphism analysis",
+  "year": 2026,
+  "status": "open-observation",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "V_AXIOMATIC",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "BOTH-state (two answers coexist) is the native D-FUMT₈ value for axiom-conditional polyvalence",
+    "rationale": "Cross-field isomorphism observation via D-FUMT₈ classification matrix (2,635 entries scanned, 3 tight cluster)",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "metadbEntry": "myst-1-2-3-minus-1-12",
+    "papers": null,
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "relatedFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md"
+    ],
+    "notes": "Potential unified Lean 4 encoding: functor F : AxiomChoice → Truth where each cluster member picks a specific AxiomChoice category (analytic-continuation-axiom / paraconsistent-axiom / orthomodular-lattice-axiom)."
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Cluster discovered by D-FUMT₈ cross-tier isomorphism analysis (novelty score 3.00, 3 fields × 3 entries, tightest cluster)",
+      "impact": "Motivates unified axiom-dependent polyvalence framework in Lean 4"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Try Lean 4 encoding `structure PolyvalentTruth where axiomCategory : Type; mkAnswer : axiomCategory → Prop` with 3 instantiations",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Typing match is strong but formalization requires handling fundamentally different axiom systems uniformly (hard)",
+    "formalizationComplexity": "very-hard",
+    "formalizationNotes": "Mathlib lacks unified treatment of meta-axiomatic variability; would require custom category-theoretic scaffolding",
+    "famousHardCap": null,
+    "reiFamiliarRef": "Paper 61 ZCSG (zero-centric grammar) — related but distinct: ZCSG is about zero-as-center, this is about axiom-as-selector"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "cross-tier-dfumt8-isomorphism-analysis-v1",
+  "discoveryType": "cross-tier-typing-isomorphism"
+}

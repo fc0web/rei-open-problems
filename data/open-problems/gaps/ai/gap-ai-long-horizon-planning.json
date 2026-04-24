@@ -1,0 +1,68 @@
+{
+  "id": "gap-ai-long-horizon-planning",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Planning over hundreds to thousands of steps (e.g., designing a multi-month research programme) remains weak. Current LLMs plan well at 5-20 step horizons but break down beyond.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-ai",
+  "subfield": "GAP-A",
+  "proposer": "identified by claude",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Unbounded horizon stretches capability",
+    "rationale": "LLMs struggle with long-horizon planning",
+    "confidence": "INFINITY"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Tractability: active-research; severity 7/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-A",
+    "secondaryTypes": [],
+    "gapSource": "claude",
+    "gapSeverity": 7,
+    "tractability": "active-research"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

@@ -1,0 +1,68 @@
+{
+  "id": "gap-rei-memory-append-only",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Current memory system accumulates entries without consolidation / forgetting / hierarchy. Long-term will bloat.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-rei-aios",
+  "subfield": "GAP-S",
+  "proposer": "identified by rei",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Active development area",
+    "rationale": "Rei-AIOS memory is append-only (no consolidation)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Memory consolidation via NNUE D-FUMT may help; Phase 3 of Rei-PL Prover roadmap.",
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Tractability: active-research; severity 6/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-S",
+    "secondaryTypes": [],
+    "gapSource": "rei",
+    "gapSeverity": 6,
+    "tractability": "active-research"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

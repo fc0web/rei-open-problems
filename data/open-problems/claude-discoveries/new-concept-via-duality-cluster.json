@@ -1,0 +1,72 @@
+{
+  "id": "claude-discovery-new-concept-via-duality",
+  "source": "claude-discoveries",
+  "origin": "claude-discovery",
+  "sourceRef": {
+    "discoveredSession": "2026-04-24 cross-tier D-FUMT₈ isomorphism analysis",
+    "documentFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md",
+      "scripts/cross-tier-dfumt8-isomorphism.ts"
+    ],
+    "relatedMetadbEntries": [
+      "myst-leech-e8-dim-24-mystery",
+      "myst-apery-zeta-3-irrational-picture",
+      "si-hott-univalence",
+      "pl-dependent-types-effects-integration"
+    ]
+  },
+  "statement": {
+    "en": "Eight open problems across geometry-topology (Leech lattice + E8 in dim 24), number theory (Apéry's ζ(3) 'picture'), logic-foundations (HoTT computational univalence), and programming-languages (dependent types + algebraic effects integration, and 4 others) share identical D-FUMT₈ typing (BOTH, II_NEW_CONCEPT). Each is blocked not by lack of effort but by the absence of a 'new concept' that canonically bridges two opposing structures (discrete vs continuous / integer vs transcendental / up-to-equivalence vs equality / pure vs effectful). Conjecture: each cluster member's resolution requires a shared type-theoretic primitive — a 'bridge type' B with canonical projections to both sides — and this primitive may be the same for all 8 (or admit a universal form). Finding B would be a major research advance; empirical typing correlation is insufficient evidence but strong enough to merit Lean 4 scaffolding investigation.",
+    "ja": "幾何位相 (Leech/E8 24次元) / 数論 (Apéry ζ(3) picture) / 論理基礎 (HoTT univalence) / PL (dependent types+effects) にまたがる 8 open problems が META-DB で同一 D-FUMT₈ 型 (BOTH, II_NEW_CONCEPT) を持つ。共通構造: 2 つの対立構造を繋ぐ『新概念』が未発見ゆえの未解決。仮説: 共有可能な type-theoretic primitive 'bridge type' B が存在、かつ 8 entries が同一 B か universal form を持つ可能性。",
+    "latex": null
+  },
+  "field": "meta-structural",
+  "subfield": "bridging-concept-conjecture",
+  "proposer": "Rei-AIOS (Claude Opus 4.7) via cross-tier D-FUMT₈ isomorphism analysis",
+  "year": 2026,
+  "status": "open-observation",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "II_NEW_CONCEPT",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "BOTH-state = two opposing structures awaiting a unifying new concept; classical example of bridging primitive needed",
+    "rationale": "Cross-field isomorphism observation via D-FUMT₈ classification matrix (2,635 entries scanned, largest tight cluster)",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "metadbEntry": "myst-leech-e8-dim-24-mystery",
+    "papers": null,
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "relatedFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md"
+    ],
+    "notes": "Lean 4 scaffolding: `structure BridgeConcept (LeftType RightType : Type) where mediator : Type; toLeft : mediator → LeftType; toRight : mediator → RightType` — each cluster member instantiates with specific Left/Right pair"
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Cluster discovered by D-FUMT₈ cross-tier isomorphism analysis (novelty score 4.00, 4 fields × 8 entries, the largest tight cluster found)",
+      "impact": "Opens BridgeConcept Lean 4 framework hypothesis"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Start with the two most accessible members (HoTT univalence + dependent-types+effects) and attempt Lean 4 shared BridgeConcept encoding",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.2,
+    "solveRationale": "8 entries sharing typing is striking but the 'new concept' hurdle is exactly why each is individually hard. Shared bridge type hypothesis may be optimistic; even falsifying it would be research contribution.",
+    "formalizationComplexity": "hard-open",
+    "formalizationNotes": "Each member has deep domain-specific machinery; uniform encoding would require modulo-domain abstractions not yet standard in Mathlib v4.27",
+    "famousHardCap": 0.2,
+    "reiFamiliarRef": "Paper 132 'five Rei candidates' had 4 of these as roadmap targets; connection not noticed at Paper 132 time — D-FUMT₈ classification surfaced it"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "cross-tier-dfumt8-isomorphism-analysis-v1",
+  "discoveryType": "cross-tier-typing-isomorphism"
+}

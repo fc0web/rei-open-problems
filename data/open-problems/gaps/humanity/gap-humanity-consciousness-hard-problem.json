@@ -1,0 +1,70 @@
+{
+  "id": "gap-humanity-consciousness-hard-problem",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "Chalmers 1995",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Chalmers' Hard Problem: why does physical brain activity produce subjective experience? No framework bridges the explanatory gap.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-humanity",
+  "subfield": "GAP-A",
+  "proposer": "identified by world",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Fundamentally unresolved; may require new category",
+    "rationale": "Consciousness Hard Problem",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.05,
+    "solveRationale": "Tractability: blocked; severity 10/10",
+    "formalizationComplexity": "open-indefinite",
+    "formalizationNotes": null,
+    "famousHardCap": 0.15,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-A",
+    "secondaryTypes": [
+      "GAP-P"
+    ],
+    "gapSource": "world",
+    "gapSeverity": 10,
+    "tractability": "blocked"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

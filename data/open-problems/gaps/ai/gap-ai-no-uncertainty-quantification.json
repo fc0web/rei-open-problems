@@ -1,0 +1,68 @@
+{
+  "id": "gap-ai-no-uncertainty-quantification",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": "various calibration literature",
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "LLM output probabilities are miscalibrated; the model cannot natively express \"I am uncertain\" vs \"I am confident but might be wrong\" vs \"I am confident and correct\" in a trustworthy way.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-ai",
+  "subfield": "GAP-A",
+  "proposer": "identified by claude",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Confident-but-wrong and uncertain-but-right both occur; BOTH-state",
+    "rationale": "LLMs have no native uncertainty quantification",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.25,
+    "solveRationale": "Tractability: active-research; severity 8/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-A",
+    "secondaryTypes": [],
+    "gapSource": "claude",
+    "gapSeverity": 8,
+    "tractability": "active-research"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

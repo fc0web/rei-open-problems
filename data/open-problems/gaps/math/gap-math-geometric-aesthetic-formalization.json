@@ -1,0 +1,68 @@
+{
+  "id": "gap-math-geometric-aesthetic-formalization",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Euler identity / Ramanujan identities / Monstrous Moonshine are \"beautiful\" by shared human sense. No formal measure captures this aesthetic.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-math",
+  "subfield": "GAP-P",
+  "proposer": "identified by claude",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Aesthetic reflects human observer",
+    "rationale": "\"Beautiful\" mathematics is not formally captured",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "low",
+    "solveProbability": 0.05,
+    "solveRationale": "Tractability: blocked; severity 4/10",
+    "formalizationComplexity": "open-indefinite",
+    "formalizationNotes": null,
+    "famousHardCap": 0.15,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-P",
+    "secondaryTypes": [],
+    "gapSource": "claude",
+    "gapSeverity": 4,
+    "tractability": "blocked"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

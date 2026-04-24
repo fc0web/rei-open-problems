@@ -1,0 +1,68 @@
+{
+  "id": "gap-rei-invention-dedup-weak",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "STEP 976 fix addressed duplicate inventions. But broader semantic-duplicate detection (similar ideas in different words) remains limited.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-rei-aios",
+  "subfield": "GAP-M",
+  "proposer": "identified by rei",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Some duplicates caught, some missed",
+    "rationale": "Invention Engine duplicate detection was weak (pre-STEP-976)",
+    "confidence": "BOTH"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Tractability: partial-solution; severity 5/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-M",
+    "secondaryTypes": [],
+    "gapSource": "rei",
+    "gapSeverity": 5,
+    "tractability": "partial-solution"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

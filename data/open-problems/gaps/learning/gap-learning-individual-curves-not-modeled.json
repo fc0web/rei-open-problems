@@ -1,0 +1,68 @@
+{
+  "id": "gap-learning-individual-curves-not-modeled",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Spaced repetition / adaptive testing tools use generic Ebbinghaus-style curves. Individual differences in forgetting rates / comprehension speed / domain affinities are not systematically modeled.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-learning",
+  "subfield": "GAP-B",
+  "proposer": "identified by world",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Adaptive learning research active",
+    "rationale": "Individual learning curves are generic, not personalized",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.4,
+    "solveRationale": "Tractability: partial-solution; severity 7/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-B",
+    "secondaryTypes": [],
+    "gapSource": "world",
+    "gapSeverity": 7,
+    "tractability": "partial-solution"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

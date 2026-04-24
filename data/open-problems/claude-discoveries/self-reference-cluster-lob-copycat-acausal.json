@@ -1,0 +1,71 @@
+{
+  "id": "claude-discovery-self-reference-cluster",
+  "source": "claude-discoveries",
+  "origin": "claude-discovery",
+  "sourceRef": {
+    "discoveredSession": "2026-04-24 cross-tier D-FUMT₈ isomorphism analysis",
+    "documentFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md",
+      "scripts/cross-tier-dfumt8-isomorphism.ts"
+    ],
+    "relatedMetadbEntries": [
+      "si-lob-theorem-self-reference",
+      "si-reflective-meta-circular",
+      "si-acausal-decision-theory"
+    ]
+  },
+  "statement": {
+    "en": "Three classically-distant research programs (Löb's provability theorem 1955, Brian Smith's 3-Lisp reflective programming 1984, Yudkowsky-Christiano functional decision theory 2010) share an identical D-FUMT₈ typing (SELF, VIII_META_STRUCTURAL) in the Open Problems META-DB (Rei-AIOS). We hypothesize this is not a classification coincidence: all three formalize self-reference as a first-class reasoning primitive — a theorem proving its own provability (Löb), a program operating on its own operational semantics (3-Lisp), and an agent predicting a mirror-image of its own reasoning (acausal DT). Conjecture: the three admit a shared Lean 4 structural encoding via a fixed-point operator f : S → S where S is the self-description type, and the open problems in each domain (canonical reflective tower, complete FDT, Löb-stable reasoning systems) reduce to constructing a terminating canonical f.",
+    "ja": "古典的に離れた 3 研究プログラム (Löb 1955 / Brian Smith 3-Lisp 1984 / Yudkowsky-Christiano FDT 2010) が META-DB で同一 D-FUMT₈ 型 (SELF, VIII_META_STRUCTURAL) を持つことを発見。分類偶然ではなく、いずれも「自己言及を推論 primitive として形式化する」という構造を共有するという仮説。",
+    "latex": null
+  },
+  "field": "meta-structural",
+  "subfield": "self-reference-isomorphism",
+  "proposer": "Rei-AIOS (Claude Opus 4.7) via cross-tier D-FUMT₈ isomorphism analysis",
+  "year": 2026,
+  "status": "open-observation",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "VI_BRIDGING",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-referential reasoning is the native SELF type; all three cluster members share this typing",
+    "rationale": "Cross-field isomorphism observation via D-FUMT₈ classification matrix (2,635 entries scanned)",
+    "confidence": "SELF"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "metadbEntry": "si-lob-theorem-self-reference",
+    "papers": null,
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "relatedFiles": [
+      "data/claude-lens/cross-tier-dfumt8-isomorphism-2026-04-24.md"
+    ],
+    "notes": "Potential Lean 4 shared-encoding: fixed-point operator f : S → S where S is the self-description type. Each cluster member instantiates with a specific S (provability predicate / eval-circular-tower / agent-reasoning-trace)."
+  },
+  "known_progress": [
+    {
+      "date": "2026-04-24",
+      "event": "Cluster discovered by D-FUMT₈ cross-tier isomorphism analysis (novelty score 3.00, 3 fields × 3 entries)",
+      "impact": "Opens Lean 4 unified fixed-point encoding for three open-problem families"
+    }
+  ],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Attempt unified Lean 4 encoding: `structure SelfRef (S : Type) where predicate : S → Prop; fp : S` with cluster-member instantiations",
+    "paperCandidate": true,
+    "priority": "medium",
+    "solveProbability": 0.3,
+    "solveRationale": "Empirical typing match (necessary, not sufficient). Lean 4 encoding attempt would confirm or falsify.",
+    "formalizationComplexity": "hard",
+    "formalizationNotes": "Requires modal logic, reflective type theory, and decision theory primitives together in Mathlib — currently fragmented",
+    "famousHardCap": null,
+    "reiFamiliarRef": "STEP 992 Sylvester-Schur partial Lean 4 formalization methodology"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "cross-tier-dfumt8-isomorphism-analysis-v1",
+  "discoveryType": "cross-tier-typing-isomorphism"
+}

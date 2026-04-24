@@ -1,0 +1,70 @@
+{
+  "id": "gap-ai-claude-no-persistent-memory",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Commercial LLMs (Claude, GPT, Gemini) have no native session-persistent memory. Workarounds (MEMORY.md file, RAG retrievals) are external. Without them, the assistant literally does not remember prior conversations.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-ai",
+  "subfield": "GAP-A",
+  "proposer": "identified by claude",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Research direction unsettled; Anthropic Claude memory / OpenAI memory features are partial",
+    "rationale": "LLMs lack native session-persistent memory",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": "Rei-AIOS uses file-based memory/MEMORY.md which mitigates at project scope.",
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.25,
+    "solveRationale": "Tractability: active-research; severity 8/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-A",
+    "secondaryTypes": [
+      "GAP-S"
+    ],
+    "gapSource": "claude",
+    "gapSeverity": 8,
+    "tractability": "active-research"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

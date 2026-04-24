@@ -1,0 +1,68 @@
+{
+  "id": "gap-ai-intrinsic-novelty-detection",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "LLMs pattern-match to training distribution; detecting genuinely-novel concepts / problems is unreliable. Rei Invention Engine Ψ×Φ×Ω is heuristic, not formally grounded.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-ai",
+  "subfield": "GAP-M",
+  "proposer": "identified by rei",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Unknown whether principled novelty-detection is possible in-distribution",
+    "rationale": "No intrinsic novelty detection",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.25,
+    "solveRationale": "Tractability: active-research; severity 7/10",
+    "formalizationComplexity": "varies",
+    "formalizationNotes": null,
+    "famousHardCap": null,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-M",
+    "secondaryTypes": [],
+    "gapSource": "rei",
+    "gapSeverity": 7,
+    "tractability": "active-research"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}

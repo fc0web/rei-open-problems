@@ -1,0 +1,68 @@
+{
+  "id": "gap-humanity-political-scale-ceiling",
+  "source": "gaps",
+  "sourceRef": {
+    "edition": null,
+    "url": "",
+    "citation": null,
+    "lean4Ref": null
+  },
+  "statement": {
+    "en": "Democracies degrade at nation-state scale; autocracies lose information-processing capacity; federations fragment. No governance system coherently scales to 10⁹.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-aios-gaps-registration-2026-04-24"
+  },
+  "field": "gaps-humanity",
+  "subfield": "GAP-A",
+  "proposer": "identified by world",
+  "year": 2026,
+  "status": "open-gap",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "VIII_META_STRUCTURAL",
+    "secondaryType": "II_NEW_CONCEPT",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Unresolved and actively causing failures",
+    "rationale": "No political system scales beyond ~10M people coherently",
+    "confidence": "NEITHER"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": ""
+  },
+  "known_progress": [],
+  "reiAssessment": {
+    "mandalaPredicted": null,
+    "approachSuggestion": null,
+    "paperCandidate": false,
+    "priority": "high",
+    "solveProbability": 0.05,
+    "solveRationale": "Tractability: blocked; severity 10/10",
+    "formalizationComplexity": "open-indefinite",
+    "formalizationNotes": null,
+    "famousHardCap": 0.15,
+    "reiFamiliarRef": null
+  },
+  "gapMeta": {
+    "gapType": "GAP-A",
+    "secondaryTypes": [],
+    "gapSource": "world",
+    "gapSeverity": 10,
+    "tractability": "blocked"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "gaps-metadb-register-step-998-v1",
+  "tier": 4
+}
