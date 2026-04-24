@@ -1,0 +1,83 @@
+{
+  "id": "IMPOSS-LOGICAL-GODEL-1ST-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Gödel 1931 (Monatshefte für Mathematik und Physik)",
+    "lean4Ref": "Mathlib.Logic.Godel",
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Gödel's First Incompleteness Theorem",
+    "ja": "ゲーデルの第一不完全性定理",
+    "latex": "\\forall T \\supseteq PA, T \\text{ consistent} \\Rightarrow \\exists \\phi : T \\nvdash \\phi \\land T \\nvdash \\neg \\phi",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "logical",
+  "proposer": "Kurt Gödel",
+  "year": 1931,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_SELF_REFERENTIAL",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Self-reference creates undecidable propositions",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": "Mathlib.Logic.Godel",
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": [
+      "IMPOSS-LOGICAL-GODEL-2ND-001",
+      "IMPOSS-LOGICAL-TARSKI-001"
+    ]
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "logical",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Gödel 1931 (Monatshefte für Mathematik und Physik)",
+      "lean4": "Mathlib.Logic.Godel"
+    },
+    "scopeOfImpossibility": "Recursively enumerable theories containing PA",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Restrict to weaker theories or accept undecidable propositions",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [
+      "IMPOSS-LOGICAL-GODEL-2ND-001",
+      "IMPOSS-LOGICAL-TARSKI-001"
+    ],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "mathlib-complete",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": "Mathlib.Logic.Godel"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Gödel 1931 (Monatshefte für Mathematik und Physik)",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

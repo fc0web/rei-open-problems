@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-AI-2026-04-24-090",
+  "tier": 7,
+  "source": "arxiv:2604.21326",
+  "sourceRef": {
+    "url": "http://arxiv.org/abs/2604.21326v1",
+    "citation": "Juan Li et al. 2026",
+    "pdfUrl": "",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "MiMIC: Mitigating Visual Modality Collapse in Universal Multimodal Retrieval While Avoiding Semantic Misalignment",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ai-pilot-v0.1",
+    "summary": "Universal Multimodal Retrieval (UMR) aims to map different modalities (e.g., visual and textual) into a shared embedding space for multi-modal retrieval. Existing UMR methods can be broadly divided into two categories: early-fusion approaches, such as Marvel, which projects visual features into the language model (LM) space for integrating with text modality, and late-fusion approaches, such as UniVL-DR, which encode visual and textual inputs using separate encoders and obtain fused embeddings through addition. Our pilot study reveals that Marvel exhibits visual modality collapse, which is characterized by the model's tendency to disregard visual features while depending excessively on textual cues. In contrast, although UniVL-DR is less affected by this issue, it is more susceptible to se"
+  },
+  "field": "technology",
+  "subfield": "ai",
+  "proposer": "Juan Li, Chuanghao Ding, Xujie Zhang et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "2604.21326",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "arXiv preprint, not yet peer-reviewed",
+        "reviewedBy": "rule-based-placeholder"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "unknown without deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd-after-haiku-reclassification",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+}

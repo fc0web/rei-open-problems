@@ -1,0 +1,76 @@
+{
+  "id": "IMPOSS-PHYSICAL-LIGHTSPEED-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Einstein 1905 (Annalen der Physik)",
+    "lean4Ref": null,
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Information transmission cannot exceed speed of light (Special Relativity)",
+    "ja": "情報伝達は光速を超えられない (特殊相対性理論)",
+    "latex": "v_{\\text{info}} \\leq c \\approx 3 \\times 10^8 \\text{ m/s}",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "physical",
+  "proposer": "Albert Einstein",
+  "year": 1905,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Causal structure of spacetime",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": []
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "physical",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Einstein 1905 (Annalen der Physik)"
+    },
+    "scopeOfImpossibility": "Within general relativity / Lorentz-invariant theories",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "None known (entanglement gives no info; warp drives speculative)",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": null
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Einstein 1905 (Annalen der Physik)",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

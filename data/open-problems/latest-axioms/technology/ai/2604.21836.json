@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-AI-2026-04-24-015",
+  "tier": 7,
+  "source": "arxiv:2604.21836",
+  "sourceRef": {
+    "url": "http://arxiv.org/abs/2604.21836v1",
+    "citation": "Eghbal A. Hosseini et al. 2026",
+    "pdfUrl": "",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Modulating Cross-Modal Convergence with Single-Stimulus, Intra-Modal Dispersion",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ai-pilot-v0.1",
+    "summary": "Neural networks exhibit a remarkable degree of representational convergence across diverse architectures, training objectives, and even data modalities. This convergence is predictive of alignment with brain representation. A recent hypothesis suggests this arises from learning the underlying structure in the environment in similar ways. However, it is unclear how individual stimuli elicit convergent representations across networks. An image can be perceived in multiple ways and expressed differently using words. Here, we introduce a methodology based on the Generalized Procrustes Algorithm to measure intra-modal representational convergence at the single-stimulus level. We applied this to vision models with distinct training objectives, selecting stimuli based on their degree of alignment"
+  },
+  "field": "technology",
+  "subfield": "ai",
+  "proposer": "Eghbal A. Hosseini, Brian Cheung, Evelina Fedorenko et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "2604.21836",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "arXiv preprint, not yet peer-reviewed",
+        "reviewedBy": "rule-based-placeholder"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "unknown without deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-B",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd-after-haiku-reclassification",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+}

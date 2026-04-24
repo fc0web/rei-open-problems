@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-AI-2026-04-24-082",
+  "tier": 7,
+  "source": "arxiv:2604.21361",
+  "sourceRef": {
+    "url": "http://arxiv.org/abs/2604.21361v1",
+    "citation": "Ankur Sharma et al. 2026",
+    "pdfUrl": "",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Time, Causality, and Observability Failures in Distributed AI Inference Systems",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ai-pilot-v0.1",
+    "summary": "Distributed AI inference pipelines rely heavily on timestamp-based observability to understand system behavior. This work demonstrates that even small clock skew between nodes can cause observability to become causally incorrect while the system itself remains functionally correct and performant. We present controlled experiments on a multi-node AI inference pipeline, where clock skew is introduced at a single stage. Results show that no violations are observed under synchronized conditions and up to 3 ms skew, while clear causality violations emerge by 5 ms. Despite this, system throughput and output correctness remain largely unaffected. We further observe that violation behavior is not strictly static. In longer runs, negative span rates may stabilize or decrease over time, indicating t"
+  },
+  "field": "technology",
+  "subfield": "ai",
+  "proposer": "Ankur Sharma, Deep Shah, David Lariviere et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "2604.21361",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "arXiv preprint, not yet peer-reviewed",
+        "reviewedBy": "rule-based-placeholder"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "unknown without deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd-after-haiku-reclassification",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+}

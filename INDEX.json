@@ -1,22 +1,27 @@
 {
-  "version": "2.3-public",
-  "name": "Open Problems META-DB (Rei-AIOS) — Public Snapshot",
+  "version": "3.0-public",
+  "name": "META-DB (Rei-AIOS) — Public Snapshot",
+  "legacyName": "Open Problems META-DB (Rei-AIOS)",
   "lastUpdate": "2026-04-24",
-  "description": "Public snapshot of Rei-AIOS Open Problems META-DB. Citation via Paper 130 DOI 10.5281/zenodo.19700758.",
+  "description": "Public snapshot of Rei-AIOS META-DB v3.0 (8-tier, all-fields knowledge infrastructure). Citation via Paper 130 DOI 10.5281/zenodo.19700758 (T1) + Paper 138 (in preparation, T7/T8).",
   "totalProblems": 2615,
   "totalReiInventions": 15,
   "totalClaudeDiscoveries": 6,
   "totalGaps": 38,
   "totalTools": 7,
   "totalStrategy": 13,
-  "grandTotalEntries": 2694,
+  "totalLatestAxioms": 100,
+  "totalImpossibilities": 10,
+  "grandTotalEntries": 2804,
   "tierDescription": {
     "tier1": "World-public open problems (2615 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
     "tier2": "Rei Invention Engine approved conjectures (15 entries) — CC-BY 4.0 attribution required",
     "tier3": "Claude Code research discoveries (6 entries) — subset of private META-DB. Some discoveries withheld pending Paper 135-136 publication.",
     "tier4": "Gaps META-DB (38 entries) — things missing from world/Rei/Claude research. GAP-A/B/C/M/P/S label system.",
     "tier5": "Rei-AIOS tools (7 entries) — tools Rei-AIOS has built (Rei-PL Prover, Invention Engine, NNUE D-FUMT, etc.)",
-    "tier6": "Strategic concepts (13 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans."
+    "tier6": "Strategic concepts (13 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans.",
+    "tier7": "★ v3.0 NEW — Latest axioms (100 entries) across all 14 fields. D-FUMT₈ + 4-axis (X/Y/Z/T) = 2,560-dimensional evaluation. Provisional FLOWING → TRUE → SEED_KERNEL lifecycle.",
+    "tier8": "★ v3.0 NEW — Impossibility map (10 entries) across 5 classes (computational/logical/physical/current-limit/dfumt8-zero). Rei-AIOS's honest acknowledgment of unformalizable knowledge."
   },
   "paperReference": {
     "paper130Published": {

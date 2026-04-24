@@ -1,0 +1,80 @@
+{
+  "id": "IMPOSS-COMPUTATIONAL-HILBERT-10TH-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Matiyasevich 1970; building on Davis-Putnam-Robinson",
+    "lean4Ref": null,
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Hilbert's 10th Problem — diophantine equation solvability is undecidable",
+    "ja": "ヒルベルト第 10 問題 — ディオファントス方程式の可解性は決定不能",
+    "latex": "\\nexists T : T(P) \\to \\{ \\exists \\vec{x} \\in \\mathbb{Z}^n : P(\\vec{x}) = 0 \\} \\text{ for all polynomial } P",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "computational",
+  "proposer": "David Hilbert (asked) / Yuri Matiyasevich (proved)",
+  "year": 1970,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "MRDP equivalence with halting problem",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": [
+      "IMPOSS-COMPUTATIONAL-HALTING-001"
+    ]
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Matiyasevich 1970; building on Davis-Putnam-Robinson"
+    },
+    "scopeOfImpossibility": "Diophantine equations over integers",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Restricted classes (linear: decidable; quadratic over Q: decidable; etc.)",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [
+      "IMPOSS-COMPUTATIONAL-HALTING-001"
+    ],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": null
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Matiyasevich 1970; building on Davis-Putnam-Robinson",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

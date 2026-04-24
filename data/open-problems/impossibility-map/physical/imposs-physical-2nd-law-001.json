@@ -1,0 +1,76 @@
+{
+  "id": "IMPOSS-PHYSICAL-2ND-LAW-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Clausius 1850; Boltzmann statistical proof 1872",
+    "lean4Ref": null,
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Second law of thermodynamics — entropy never spontaneously decreases",
+    "ja": "熱力学第二法則 — エントロピーは自発的に減少しない",
+    "latex": "\\Delta S_{\\text{isolated}} \\geq 0",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "physical",
+  "proposer": "Rudolf Clausius / Sadi Carnot",
+  "year": 1850,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Statistical mechanics",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": []
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "physical",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Clausius 1850; Boltzmann statistical proof 1872"
+    },
+    "scopeOfImpossibility": "Closed/isolated systems (statistical limit)",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Open systems with energy input; rare statistical fluctuations (Poincaré recurrence)",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": null
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Clausius 1850; Boltzmann statistical proof 1872",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

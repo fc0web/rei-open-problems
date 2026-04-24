@@ -1,0 +1,80 @@
+{
+  "id": "IMPOSS-CURRENT-LIMIT-PVSNP-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Cook 1971 (STOC); Millennium Prize Problem",
+    "lean4Ref": null,
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "P vs NP — no current proof of P ≠ NP or P = NP",
+    "ja": "P vs NP — P ≠ NP も P = NP も現時点で未証明",
+    "latex": "P \\stackrel{?}{=} NP",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "current-limit",
+  "proposer": "Stephen Cook / Leonid Levin",
+  "year": 1971,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "IV_PROBLEM_UNDEFINED",
+    "secondaryType": null,
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Most experts believe P ≠ NP but no proof",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": [
+      "IMPOSS-COMPUTATIONAL-HALTING-001"
+    ]
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "current-limit",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "paper": "Cook 1971 (STOC); Millennium Prize Problem"
+    },
+    "scopeOfImpossibility": "Computational complexity theory",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Practical: heuristics / approximation algorithms / fixed-parameter tractability",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [
+      "IMPOSS-COMPUTATIONAL-HALTING-001"
+    ],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": null
+  },
+  "visibilityMeta": {
+    "publicVisibility": "semi-public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Cook 1971 (STOC); Millennium Prize Problem",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

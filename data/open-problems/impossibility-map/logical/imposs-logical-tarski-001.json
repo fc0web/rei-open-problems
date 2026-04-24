@@ -1,0 +1,81 @@
+{
+  "id": "IMPOSS-LOGICAL-TARSKI-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Tarski 1933 (Pojęcie prawdy)",
+    "lean4Ref": "Mathlib.Logic.Tarski",
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Tarski's Undefinability Theorem — truth is not arithmetically definable",
+    "ja": "タルスキの真理定義不能定理 — 真理は算術的に定義不能",
+    "latex": "\\nexists T(\\cdot) \\text{ in } L_{\\text{arith}} : T(\\ulcorner \\phi \\urcorner) \\Leftrightarrow \\phi",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "logical",
+  "proposer": "Alfred Tarski",
+  "year": 1933,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_SELF_REFERENTIAL",
+    "secondaryType": null,
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Truth predicate not internally definable",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": "Mathlib.Logic.Tarski",
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": [
+      "IMPOSS-LOGICAL-GODEL-1ST-001"
+    ]
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "logical",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Tarski 1933 (Pojęcie prawdy)",
+      "lean4": "Mathlib.Logic.Tarski"
+    },
+    "scopeOfImpossibility": "Sufficiently strong arithmetic theories",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Truth predicate in stronger meta-language",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [
+      "IMPOSS-LOGICAL-GODEL-1ST-001"
+    ],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "mathlib-complete",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": "Mathlib.Logic.Tarski"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Tarski 1933 (Pojęcie prawdy)",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

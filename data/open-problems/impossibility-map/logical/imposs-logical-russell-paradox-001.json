@@ -1,0 +1,76 @@
+{
+  "id": "IMPOSS-LOGICAL-RUSSELL-PARADOX-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Russell 1903 (Principles of Mathematics)",
+    "lean4Ref": null,
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Russell's Paradox — naive set theory is inconsistent",
+    "ja": "ラッセルのパラドックス — 素朴集合論は無矛盾でない",
+    "latex": "R = \\{ x : x \\notin x \\} \\Rightarrow R \\in R \\Leftrightarrow R \\notin R",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "logical",
+  "proposer": "Bertrand Russell",
+  "year": 1901,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "V_SELF_REFERENTIAL",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Self-membership produces contradiction",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": []
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "logical",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Russell 1903 (Principles of Mathematics)"
+    },
+    "scopeOfImpossibility": "Frege-style unrestricted comprehension",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Type theory (Russell-Whitehead) / ZFC axiom of separation",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": null
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Russell 1903 (Principles of Mathematics)",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}

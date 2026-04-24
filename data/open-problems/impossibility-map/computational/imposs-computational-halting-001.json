@@ -1,0 +1,81 @@
+{
+  "id": "IMPOSS-COMPUTATIONAL-HALTING-001",
+  "tier": 8,
+  "source": "impossibility-map",
+  "sourceRef": {
+    "url": "",
+    "citation": "Turing 1936 (Proc. London Math. Soc.)",
+    "lean4Ref": "Mathlib.Computability.Halting",
+    "mmlRef": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Halting problem is undecidable",
+    "ja": "停止問題は決定不能",
+    "latex": "\\nexists T : T(M, x) \\to \\{ \\text{halt}, \\text{loop} \\} \\text{ for all Turing machines } M, x",
+    "preview_source": "tier8-seed-v0.1"
+  },
+  "field": "impossibility",
+  "subfield": "computational",
+  "proposer": "Alan Turing",
+  "year": 1936,
+  "status": "established-impossibility",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Self-referential diagonalization",
+    "rationale": "Tier 8 seed (Q5 hierarchical: proven + ref → auto public)",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": "Mathlib.Computability.Halting",
+    "external": [],
+    "seedKernel": null,
+    "relatedTier8": [
+      "IMPOSS-COMPUTATIONAL-RICE-001"
+    ]
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "paper": "Turing 1936 (Proc. London Math. Soc.)",
+      "lean4": "Mathlib.Computability.Halting"
+    },
+    "scopeOfImpossibility": "Turing-complete computational models",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Restricted-domain decidability (e.g., primitive recursive functions)",
+      "bypassCost": "depends on bypass approach"
+    },
+    "relatedImpossibilities": [
+      "IMPOSS-COMPUTATIONAL-RICE-001"
+    ],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "mathlib-complete",
+    "coq": "partial",
+    "agda": "unknown",
+    "isabelle": "unknown",
+    "sorryCount": 0,
+    "notes": "Mathlib.Computability.Halting"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed-as-impossibility",
+    "possibilityStatus": "impossible-by-proof",
+    "quadrant": "Q2",
+    "missingKind": "unconditional-impossibility",
+    "impossibilityEvidence": "Turing 1936 (Proc. London Math. Soc.)",
+    "executabilityEffort": "not-applicable"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-seed-v0.1"
+}
