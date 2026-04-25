@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, impossible), classified as cs.AI but concerns cotton-textile cluster development economics. The abstract is incomplete (cuts mid-sentence). As a provisional/preprint work with temporal inconsistency and incomplete presentation, it occupies provisional-under-validation status rather than established fact or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7124456890",

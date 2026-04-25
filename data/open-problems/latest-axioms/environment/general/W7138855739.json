@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a synthetic review of established ecological phenomena (forest degradation, dam impacts, climate effects) with empirical support, but the abstract is incomplete and appears to be a preprint (2026 date, truncated text). The core claims are grounded in observable environmental science but the document itself remains provisionally formatted and unvalidated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7138855739",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dF}{dt} = -\\alpha A - \\beta H + \\gamma B",
+      "interpretation": "森の衰退は農業拡張と水文変化に支配されるが、生物多様性の流れがそれを部分的に抵抗する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='50' rx='40' ry='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 45 35 50 50 Q 55 35 50 15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 30 50 L 70 50' stroke='#ec4899' stroke-width='2.5' opacity='0.7'/><circle cx='20' cy='50' r='3' fill='#f59e0b'/><circle cx='80' cy='50' r='3' fill='#f59e0b'/><polyline points='50,60 45,75 55,75' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.8'/></svg>",
+      "interpretation": "水と森が絡み合い、人間の手（黄色い点）が中央の生命線を押す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

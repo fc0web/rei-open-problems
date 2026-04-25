@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a novel geometric formalism (boundary invariant 𝒳) with claimed analytical reduction to mass-independent identity and observational support from stellar data. However: (1) abstract is incomplete/truncated, preventing full evaluation; (2) formalism appears non-standard (coupling radiative observables to surface gravity via dimensionless invariant lacks peer-reviewed precedent in canonical GR/cosmology literature); (3) empirical claims (stellar photospheres below 𝒳₀ threshold) require independent replication; (4) connection to dark sector and Hubble tensions stated but mechanism not detailed in provided text. Classification as FLOWING reflects preprint status, incomplete presentation, and pending community validation rather than established or refuted standing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.32
   },
   "cross_refs": {
     "arxiv": "W7130594667",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

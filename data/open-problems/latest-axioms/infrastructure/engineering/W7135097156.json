@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes an empirical field trial with stated results, but the abstract is incomplete (cuts off mid-equation). The study design is sound (RCT), but without full results section, methodology details, effect sizes, and peer review status, the truth-value cannot be assigned to established fact (TRUE) or refuted (FALSE). The preprint date (2026-04-25) is future-dated relative to knowledge cutoff, marking it as provisional/under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135097156",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Yield} \\propto \\frac{1}{1 + e^{-\\beta(\\text{Diagnosis} - \\theta)}} + \\text{Firm-Wisdom}",
+      "interpretation": "診断という光が閾値を超えるとき、生産性は飽和曲線に従って目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><circle cx='30' cy='70' r='8' fill='none' stroke='#ec4899' stroke-width='2'/><circle cx='50' cy='50' r='12' fill='none' stroke='url(#g1)' stroke-width='2.5'/><circle cx='70' cy='30' r='10' fill='none' stroke='#00ff88' stroke-width='2'/><path d='M 30 70 L 50 50 L 70 30' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><text x='50' y='90' font-size='10' text-anchor='middle' fill='#7c3aed' font-weight='bold'>↗ Yield</text></svg>",
+      "interpretation": "診断の光が工場の三つの心臓を順に照らすにつれ、産出は螺旋状に上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

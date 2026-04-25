@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a design-research proposal (2026 preprint) presenting a novel engineering concept with qualitative case-study validation. The adaptive vessel design itself is a provisional artifact under development; effectiveness claims rest on 'initial results' not yet peer-validated or field-tested at scale. The work bridges conceptual innovation and practical engineering—neither fully proven nor refuted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7117968571",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "V_{\\text{adaptive}} = \\int_{t} \\frac{Q(t)}{h(t)} \\, dt \\cdot \\sin(\\theta_{\\text{flow}})",
+      "interpretation": "流れの変化に身をゆだねる器が、時間とともに自らを再形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:1'/></defs><path d='M 20 50 Q 35 35 50 50 T 80 50' stroke='url(#flow)' stroke-width='3' fill='none' stroke-linecap='round'/><ellipse cx='50' cy='50' rx='12' ry='8' fill='none' stroke='#7c3aed' stroke-width='2'/><polyline points='40,58 50,70 60,58' fill='none' stroke='#f59e0b' stroke-width='2' stroke-linejoin='round'/><circle cx='50' cy='50' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "柔軟な身体が川の呼吸に応答し、ゆるやかに降りていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

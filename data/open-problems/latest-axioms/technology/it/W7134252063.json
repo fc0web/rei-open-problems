@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The work is a provisional empirical study (preprint dated 2026-04-25, abstract truncated) investigating relationships between depth of processing, language aptitude, and L2 grammar acquisition. The hypotheses are theoretically grounded but results are not yet published or validated. The causal claims (task-induced DoP → acquisition gains; aptitude → learning outcomes) remain contingent on data analysis and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7134252063",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

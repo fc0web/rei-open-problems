@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission cannot be evaluated on truth/falsehood grounds because the abstract is embargoed and unavailable. This is an observation-impossible condition—no propositional content exists for assessment. The thesis title indicates qualitative social research (nursing, stigma, incarceration) which is inherently non-truth-evaluable as empirical claims until full disclosure. Classification as ZERO reflects the epistemic void, not a judgment on the work's merit.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7141134061",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

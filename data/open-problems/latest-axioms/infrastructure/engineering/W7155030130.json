@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is categorized as cs.AI but describes agricultural engineering (micro irrigation systems). The abstract is incomplete (cuts mid-sentence) and dated 2026-04-25 (future date, suggesting preprint/provisional status). Core claims about drip/sprinkler efficiency are empirically established, but the specific study results are unfinished and unvalidated. Classification reflects provisional, under-review state rather than confirmed findings.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7155030130",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\eta = \\frac{W_{saved}}{W_{invested}} \\cdot \\frac{Y_{crop}}{M_{effort}} \\to \\infty",
+      "interpretation": "水を守る労力は、やがて無限の恵みへ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#00ff88'/></defs><circle cx='50' cy='30' r='8' fill='#ffd700' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='38' x2='50' y2='70' stroke='url(#g1)' stroke-width='2'/><circle cx='35' cy='70' r='6' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='50' cy='75' r='6' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='65' cy='70' r='6' fill='none' stroke='#00ff88' stroke-width='1.5'/><polyline points='35,76 50,85 65,76' fill='none' stroke='#7c3aed' stroke-width='1.5'/></svg>",
+      "interpretation": "一つの源から多くの根へ、微かな滴が大地を目覚めさせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy brief on solid waste management in Pakistan dated 2026 (future date, likely typo or preprint). The document presents provisional recommendations and frameworks that are not yet validated through implementation or peer review. Policy claims require empirical grounding and stakeholder validation that cannot be assessed from title/abstract alone.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7118829403",

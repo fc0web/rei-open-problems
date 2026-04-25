@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical research report (2025 fieldwork, 2026 publication) examining organizational embedding of JESIP across emergency response sectors. The findings are provisional pending peer review, replication, and longer-term validation of implementation outcomes. The abstract is incomplete, preventing full evaluation of claimed mechanisms.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119532346",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\frac{B \\cdot T}{1 + (L + H + X)}",
+      "interpretation": "青い光の重みが、言語と階層と排除によって希薄化される埋め込みの力。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='42' y1='50' x2='58' y2='50' stroke='#00d4ff' stroke-width='1.5' opacity='0.4'/><line x1='62' y1='50' x2='78' y2='50' stroke='#ffd700' stroke-width='1.5' opacity='0.3' stroke-dasharray='3,2'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed'>境界</text></svg>",
+      "interpretation": "青い円が他の部門を取り込もうとするが、破線は弱められた接続と欠けた認識を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

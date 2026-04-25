@@ -21,14 +21,14 @@
   "proposer": "Buqiang Xu, Yijun Chen, Jizhan Fang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "StructMem is a provisional technical framework (dated 2026-04-25, future-dated or preprint status) not yet validated through peer review or large-scale deployment. The claim that it 'improves temporal reasoning and multi-hop performance' is empirical assertion on benchmark LoCoMo, not yet independently replicated. The core trade-off resolution (structured memory without graph fragility) is theoretically motivated but implementation-validated only on stated dataset. Insufficient evidence for TRUE; no refutation for FALSE. Status: under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21748",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

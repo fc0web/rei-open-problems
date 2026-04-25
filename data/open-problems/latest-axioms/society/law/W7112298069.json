@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a relational theory of property (Rousseau vs. Locke) that is simultaneously philosophically defensible and internally contestable. The claim that property is 'constituted through articulation' of individual and community is supported by relational ontology scholarship but refuted by strict possessive individualism and by communitarian critiques that deny the stability Inston claims. The position admits no single truth-value without specifying interpretive framework.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7112298069",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

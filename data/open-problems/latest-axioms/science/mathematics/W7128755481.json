@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes a computational methodology (FFT-based variational homogenization) applied to material modeling. The core mathematical framework (FFT, variational calculus) is CLASS-A formalizable, but application to Maxwell viscoelastic composite homogenization requires empirical validation and material-specific calibration not yet established in the abstract. Status: preprint (2026-04-25) without peer validation confirmation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128755481",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{H}[\\boldsymbol{E}] = \\int_0^\\infty \\frac{1}{2\\pi i} \\oint \\frac{\\hat{\\sigma}(s)}{s} e^{st} ds \\, d\\boldsymbol{E}",
+      "interpretation": "時間と周波数が絡み合い、弾性と粘性が一つの呼吸となって振動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' stroke='url(#grad)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='22' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 30 70 50 Q 50 70 30 50' stroke='#ec4899' stroke-width='1.5' fill='none'/><g stroke='#f59e0b' stroke-width='1'><line x1='50' y1='15' x2='50' y2='25'/><line x1='85' y1='50' x2='75' y2='50'/><line x1='50' y1='85' x2='50' y2='75'/><line x1='15' y1='50' x2='25' y2='50'/></g></svg>",
+      "interpretation": "周波数領域と物理空間が同心円で踊り、複合体の内部構造が波となって共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

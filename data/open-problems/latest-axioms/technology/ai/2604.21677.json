@@ -21,14 +21,14 @@
   "proposer": "Eylon E. Krause",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated or recent submission) proposing a novel activation function family. The core mathematical construction (log-logistic CDF gates, C^{2N} smoothness, rational arithmetic) is formally specified and appears internally consistent, but validation status is provisional: empirical benchmarking against ReLU and modern alternatives (GELU, Mish, etc.) across diverse architectures is not yet peer-reviewed or published. The ablation study result (N=1 optimality) is claimed but not fully detailed in abstract. Classification as FLOWING reflects standard preprint epistemic status—rigorous in formalism but pending community validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21677",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

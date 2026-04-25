@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposal introduces a novel geometric boundary condition (ΛR_H² = π³/15) to resolve observational tension in DESI data. This is mathematically self-consistent and generates testable predictions (w₀ ≃ −0.6890, w_a ≃ 0.6428) without free parameters. However, the framework remains provisional: (1) it lacks independent observational validation beyond post-hoc DESI reconciliation, (2) the physical justification for the boundary normalization is geometric rather than derived from fundamental theory, (3) publication date (2026) suggests recent preprint status, (4) no independent replication or cross-validation against other datasets (Planck, SNIa, BAO) is reported in abstract. The work is rigorous within its axiomatic structure but requires longitudinal validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135210223",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

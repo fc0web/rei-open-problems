@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date), methodology section is truncated/incomplete, and abstract describes a meta-analysis in progress. The axiom cannot be evaluated as established fact or refutation until full peer-review validation and data publication occur. Status is provisional and under change.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7152478904",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Water Yield}}{\\text{Salt Burden}} \\propto \\sqrt{\\frac{1}{\\text{Drop Radius}}} \\cdot e^{-\\beta \\cdot \\text{Salinity}}",
+      "interpretation": "微小な水滴が塩分の重みを軽くする、その優雅さは逆二乗則に隠れている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.3'/></defs><rect x='15' y='60' width='70' height='25' fill='url(#g1)' stroke='#f59e0b' stroke-width='1.5'/><circle cx='25' cy='45' r='4' fill='#00ff88' opacity='0.7'/><circle cx='50' cy='40' r='4' fill='#00ff88' opacity='0.7'/><circle cx='75' cy='42' r='4' fill='#00ff88' opacity='0.7'/><path d='M 25 45 L 25 60 M 50 40 L 50 60 M 75 42 L 75 60' stroke='#7c3aed' stroke-width='1.2' opacity='0.6'/><polyline points='10,85 20,75 30,80 40,70 50,75 60,68 70,72 80,65 90,70' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "塩辛い大地を優しく潤す雨のしぶき、根へ降り注ぐ恵みと戦いの共存。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

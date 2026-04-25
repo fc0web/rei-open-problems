@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggests staging/provisional submission) describing empirical ML application to mass cytometry. The claimed 'superior performance' of the ML batch correction method is not yet peer-reviewed or independently validated. The abstract is incomplete (cuts off mid-sentence), indicating draft/unfinalized state. The core claim (ML outperforms CytofRUV) is testable but contingent on experimental design, hyperparameter choices, and dataset characteristics—typical of FLOWING (provisional, under change, awaiting validation).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128501788",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{cells}} e^{-\\lambda \\cdot \\text{batch}} \\cdot P(\\text{marker}|\\text{type}) \\, d\\mu",
+      "interpretation": "細胞という混沌から、機械学習が静かにノイズを溶かし、真の生物学的信号が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00d4ff' stroke-width='1'><line x1='50' y1='20' x2='50' y2='35'/><line x1='65' y1='40' x2='75' y2='35'/><line x1='70' y1='60' x2='80' y2='65'/><line x1='50' y1='65' x2='50' y2='80'/><line x1='30' y1='55' x2='20' y2='60'/></g><circle cx='50' cy='50' r='8' fill='#00ff88' opacity='0.6'/><path d='M 35 50 Q 42 45 50 48 Q 58 50 65 48' stroke='#ec4899' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "白血病細胞の雲のなかで、機械学習が光のビームとなり、隠れた構造を照らし出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

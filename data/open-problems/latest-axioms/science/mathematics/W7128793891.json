@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date from training cutoff), claims a unified field theory via speculative mathematical structures (Leech lattice + phase-space condensation), and lacks peer-review validation. The core claims are neither established fact nor definitively refuted, but exist in provisional/preprint space awaiting empirical or rigorous mathematical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.25
   },
   "cross_refs": {
     "arxiv": "W7128793891",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

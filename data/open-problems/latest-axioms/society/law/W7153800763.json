@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (2026 date, not yet peer-reviewed) presenting empirical survey research on an active socio-legal phenomenon. The axiomatic claims about dark web participation, criminal markets, and law enforcement responses are contingent on evolving data, methodology validation, and institutional context. The 'subaltern perspective' framing introduces epistemological reflexivity that resists univocal truth-assignment. No component is proven false, but validation is incomplete.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153800763",

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "Document is a category/structural label ('Part IV: Outreach and Teaching') with no substantive axiom, theorem, or falsifiable claim presented. The abstract is empty. No propositional content exists to evaluate for truth value. This is a structural metadata element, not a truth-evaluable axiom.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.98
   },
   "cross_refs": {
     "arxiv": "W7134271036",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

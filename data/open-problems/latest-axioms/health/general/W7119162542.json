@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper describes emerging regenerative veterinary orthopaedic techniques (stem cells, bioactive molecules, tissue engineering) that show clinical promise but remain under active research validation. As a 2026 preprint in applied veterinary science, efficacy claims are provisional—not yet established as reproducible standard-of-care across species/contexts. Core biological mechanisms (MSC differentiation, paracrine signaling) are well-characterized (TRUE), but translational outcomes in large animal models and clinical protocols remain under evaluation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119162542",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Healing} \\sim \\frac{\\text{MSC}^{\\text{source}} \\cdot \\text{Scaffold}}{\\text{Time}^{\\text{defect-size}}} + \\text{Paracrine}",
+      "interpretation": "組織の再生は幹細胞の力と足場の構造を時間と欠損サイズの深さで割ったときに、傍分泌効果が足される — という直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='30' cy='50' r='6' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='50' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='38' y1='50' x2='42' y2='50' stroke='#ec4899' stroke-width='1'/><line x1='58' y1='50' x2='62' y2='50' stroke='#ec4899' stroke-width='1'/><path d='M 30 35 Q 50 20 70 35' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 30 65 Q 50 80 70 65' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' fill='#7c3aed' text-anchor='middle'>scaffold</text></svg>",
+      "interpretation": "幹細胞たちが足場の上で信号を交わしながら、時間とともに新しい構造へ編み込まれていく対称性。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom concerns criminal liability determination for defendants with paranoid schizophrenia—a domain where established legal doctrine (FALSE: full culpability) and clinical evidence (TRUE: impaired capacity) coexist in documented tension. Indonesian KUHP provisions create dialectical structures: the law posits responsibility thresholds while psychiatric evidence often contradicts their applicability. This is a genuine BOTH case, not NEITHER, because the conflict is substantive and adjudicated through real case law, not merely epistemically suspended.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7117982701",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

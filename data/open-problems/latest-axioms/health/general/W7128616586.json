@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint/provisional research proposal (dated 2026-04-25, future date suggests metadata anomaly or draft status). The abstract describes ongoing PhD work with incomplete methodology section ('based on...' cuts off). The compound DMGV appears to be either newly proposed or obscure—no established peer-reviewed validation evident in abstract. Claims are investigative rather than proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128616586",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{DMGV}}{\\text{CarboLipid}} \\sim \\sqrt[3]{\\text{MetS}} \\cdot e^{-\\lambda t}",
+      "interpretation": "謎の分子が炭水化物と脂質の比率を支配し、代謝症候群の根源を指し示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 70 50 Q 65 65 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 35 30 50 Q 35 65 50 80' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='6' fill='#ffd700'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>DMGV</text></svg>",
+      "interpretation": "中心の謎の粒子が、左右に分かれた代謝の道を統べる双龍のようにして。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

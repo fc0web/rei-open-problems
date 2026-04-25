@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposition is scientifically supported by peer-reviewed literature (established across 2015-2025), but deployment at scale remains experimental and conditionally dependent on economic viability, regulatory frameworks, and consumer acceptance. The claim is neither fully proven in practice nor refuted; it is provisionally validated in controlled environments but awaiting real-world implementation validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7155105957",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Protein}}{\\text{Land} \\cdot \\text{Water} \\cdot \\text{Energy}} \\propto \\text{Insects}^{\\phi}",
+      "interpretation": "昆虫は自然界の効率の黄金比である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><ellipse cx='50' cy='60' rx='20' ry='25' fill='none' stroke='#7c3aed' stroke-width='1.5'/><line x1='35' y1='45' x2='20' y2='35' stroke='#00d4ff' stroke-width='1'/><line x1='65' y1='45' x2='80' y2='35' stroke='#00d4ff' stroke-width='1'/><line x1='30' y1='70' x2='15' y2='85' stroke='#ec4899' stroke-width='1'/><line x1='70' y1='70' x2='85' y2='85' stroke='#ec4899' stroke-width='1'/><path d='M 50 85 Q 45 92 50 95' fill='none' stroke='#ffd700' stroke-width='1'/></svg>",
+      "interpretation": "小さな体から無限に広がる足跡——食物連鎖の逆説。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

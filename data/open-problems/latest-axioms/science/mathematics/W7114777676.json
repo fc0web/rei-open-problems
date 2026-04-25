@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a 2026-dated thesis (future-stamped or misdated) on empirical cooperative performance factors. The abstract is incomplete (cuts off mid-sentence at 'int'). Core claims about causal relationships between membership size, education, income, management quality and cooperative performance are typical of social science research—empirically testable but not yet validated in this specific context. Classification as FLOWING reflects provisional/preprint status and incomplete documentation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7114777676",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P = \\alpha M^{\\beta_1} E^{\\beta_2} I^{\\beta_3} Q^{\\beta_4} + \\epsilon",
+      "interpretation": "協同組合の績績は、メンバーシップ、教育、所得、管理の重ね合わせに宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00ff88' stroke-width='1'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1'/><circle cx='35' cy='35' r='4' fill='#f59e0b'/><circle cx='65' cy='35' r='4' fill='#f59e0b'/><circle cx='50' cy='65' r='4' fill='#ffd700'/><circle cx='50' cy='35' r='3' fill='#00d4ff'/></svg>",
+      "interpretation": "四つの力が中心に集い、協調の円を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

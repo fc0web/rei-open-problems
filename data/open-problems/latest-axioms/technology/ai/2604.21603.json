@@ -21,14 +21,14 @@
   "proposer": "Meghyn Bienvenu, Camille Bourgaux, Robin Jean et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper describes novel implementation of theoretical semantics (globally-optimal repair, grounded semantics) for inconsistency-tolerant querying. Claims are provisional pending peer review validation; methods are sound but experimental results incomplete in abstract. Status: preprint (2026-04-25), not yet formally published/confirmed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21603",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

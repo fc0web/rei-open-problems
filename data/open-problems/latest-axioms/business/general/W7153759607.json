@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is a preprint (dated 2026-04-25, future-dated or misdated) describing empirical research on industrial policy in Sub-Saharan Africa. Claims are provisionally asserted pending peer review validation. The mixed-methods design involves both verifiable data (evidence) and interpretive analysis (prospects/recommendations), creating a hybrid epistemic status. No single claim is falsified, but none are yet canonically established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153759607",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Local}^{\\text{agency}}}{\\text{Distance}^{\\text{friction}}} \\cdot \\sqrt[3]{\\text{Policy} \\times \\text{Community}} = \\text{Diversification}",
+      "interpretation": "地域の力が摩擦を克服するとき、政策と共同体の立方根が経済多様化を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='30' cy='65' r='6' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='65' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='80' r='7' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 38 L 30 59' stroke='#f59e0b' stroke-width='1' fill='none'/><path d='M 50 38 L 70 59' stroke='#f59e0b' stroke-width='1' fill='none'/><path d='M 30 71 L 50 73' stroke='#ffd700' stroke-width='1' fill='none'/><path d='M 70 71 L 50 73' stroke='#ffd700' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "上層の政策が下層の共同体と結ばれ、底部で多様な経済が芽生える相互依存の木。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a provisional software application (ECTICON) documented as a preprint dated 2026-04-25. The artifact itself is real (existing codebase/publication), but its efficacy claims, validation status, and deployment outcomes remain under empirical testing. Marked FLOWING because: (1) future-dated metadata suggests early-stage or speculative documentation, (2) agricultural AI tools require field validation before truth-claim stabilization, (3) no peer-review confirmation or production-use data provided in abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118482290",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Diptera}}{1 + e^{-\\mu(\\text{visibility}-t)}} \\to \\text{Control}",
+      "interpretation": "農民の知識の曇りを通す時、寄生虫の認識は急速に行動へと変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='20' x2='50' y2='10'/><line x1='50' y1='20' x2='58' y2='15'/><line x1='50' y1='20' x2='42' y2='15'/></g><path d='M 35 50 Q 50 70 65 50' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='2,2'/><rect x='45' y='55' width='10' height='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='62' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "ハエの識別という知識が、農場の健康という地盤に根ざしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

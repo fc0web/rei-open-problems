@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a retraction notice for a life sciences paper (neuromuscular biology), not a truth claim evaluable within the Rei-AIOS framework. A retraction is a meta-statement about publication status, not a substantive axiom or hypothesis. The underlying paper's claims are withdrawn, making direct truth valuation inapplicable.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7147229425",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

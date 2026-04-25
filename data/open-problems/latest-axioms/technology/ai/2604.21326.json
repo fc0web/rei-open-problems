@@ -21,14 +21,14 @@
   "proposer": "Juan Li, Chuanghao Ding, Xujie Zhang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents empirical findings (visual modality collapse in Marvel, comparative analysis of fusion strategies) that are validated experimentally but addresses an open problem in active development. The proposed MiMIC method is presented as a solution framework but the work is dated 2026-04-25 (future date, likely manuscript/preprint stage). Core claims about modality collapse are observable and reproducible but the theoretical foundations and generalization bounds remain under investigation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21326",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

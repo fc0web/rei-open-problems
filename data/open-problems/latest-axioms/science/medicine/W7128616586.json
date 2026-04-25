@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a PhD research project (dated 2026, future-projected or backdated) with incomplete abstract text. Claims regarding DMGV as metabolic syndrome risk factor are provisionally advanced; synthesis methodology is novel but not yet independently replicated; biomarker validation incomplete. Status: preprint-equivalent, under active research, not yet peer-validated in full form.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.34
   },
   "cross_refs": {
     "arxiv": "W7128616586",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document marked 'inPress' (not yet published/validated); proposes interpretive framework ('capillary mondialisation') for Czech literature positioning between globalization and exoticization—theoretical construct requiring peer validation and empirical literary analysis",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7116644941",

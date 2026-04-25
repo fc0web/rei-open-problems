@@ -21,14 +21,14 @@
   "proposer": "Marcos Cramer, Tom Friese",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper is a technical preprint (dated 2026-04-25, future-dated or staging notation) introducing a novel framework (Deductive ASPIC⊖) that claims to resolve known open problems in structured argumentation. The core contribution—satisfying five rationality postulates simultaneously—is presented as a solution but requires peer review validation. The mathematical/logical content is rigorous but the claim of simultaneous postulate satisfaction under credulous semantics remains unvalidated in the academic record.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21515",

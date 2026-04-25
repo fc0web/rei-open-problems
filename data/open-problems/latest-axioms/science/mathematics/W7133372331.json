@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
     "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8Reason": "This is a mathematical research paper presenting proven theoretical results about second-class particle behavior in ASEP with rigorous proofs. The claims are formalized within probability theory and combinatorics, making them truth-evaluable within their formal system. The connection to classical combinatorial identities (Durfee rectangles, Euler's identity, q-Binomial Theorem) strengthens the TRUE classification as these are independently verified results.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.92
   },
   "cross_refs": {
     "arxiv": "W7133372331",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\prod_{i=0}^{d-1}(1-q^{i+1})}{\\prod_{j=1}^{d}(1-q^j)} = \\sum_{k=0}^{\\infty} q^{k(k+d)} \\binom{\\infty}{k}_q",
+      "interpretation": "粒子の「隙間」が組み合わせ的恒等式の深層に幽かに共鳴している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='20' cy='50' r='6' fill='#ec4899'/><circle cx='40' cy='50' r='6' fill='#ec4899'/><circle cx='60' cy='50' r='6' fill='#ec4899'/><circle cx='80' cy='50' r='6' fill='#00ff88'/><polyline points='20,50 40,50 60,50 80,50' stroke='url(#g1)' stroke-width='1.5' fill='none'/><path d='M 20 35 Q 50 10, 80 35' stroke='#f59e0b' stroke-width='2' fill='none' opacity='0.6'/><text x='50' y='80' text-anchor='middle' font-size='10' fill='#7c3aed'>second class</text></svg>",
+      "interpretation": "異なる二つの流れが衝突し、一つの粒子が「異質性」として浮かび上がる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

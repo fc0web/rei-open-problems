@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This submission is a nature photography caption/description with no formal axiom, theorem, or evaluable claim. It contains observational narrative about Costa Rican wildlife and a photograph. The framing as 'Overall Winner' suggests a contest entry rather than a scientific or logical proposition. No truth-value assessment applies to descriptive natural history content.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7153690581",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-D",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Hidden}^{\\text{Visibility}}}{\\text{Scale}_{\\text{human}}} = \\text{Infrastructure}_{\\text{overlooked}}",
+      "interpretation": "人間が見落とす小さな構造が、最も重要な基盤を成す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='1.5' fill='none'/><g stroke='#7c3aed' stroke-width='1'><line x1='50' y1='20' x2='50' y2='80'/><line x1='20' y1='50' x2='80' y2='50'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/><path d='M 35 35 Q 50 40 65 35' stroke='#00d4ff' stroke-width='1.2' fill='none'/><path d='M 35 65 Q 50 60 65 65' stroke='#00d4ff' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "生命系統の交差点——見えない層で支えられた、相互依存の設計。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This thesis presents empirical research on a novel material application (date palm fibre for thermal insulation) in a specific geographic/climatic context. The work appears to be original research at the preprint/thesis stage (dated 2026, suggesting provisional/future publication). Claims about thermal performance and building efficiency are testable but require experimental validation in the stated Jeddah context. The categorization as cs.AI is questionable without seeing full content, suggesting possible miscategorization or AI-assisted research methodology.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128472268",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

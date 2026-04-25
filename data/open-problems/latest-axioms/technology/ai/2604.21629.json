@@ -21,14 +21,14 @@
   "proposer": "Benedikt Bollig, Matthias Függer, Thomas Nowak et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents empirical findings (n-gram vs neural comparison) that are provisionally validated on specific datasets but generalizes across architectures and real-world processes—claims are testable and reproducible but not yet established as canonical in the field. The promotion algorithm is novel and under-specified in abstract (cut off), requiring peer review and broader validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21629",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

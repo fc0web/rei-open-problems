@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a review article (preprint, dated 2026-04-25) presenting a survey of established knowledge in fermentation science. The core claims about fermentation mechanisms, microbial strain effects, and process parameters are well-grounded in validated biochemistry and microbiology, making them TRUE in substance. However, as a comprehensive review still in provisional/preprint status, the overall work is FLOWING—subject to peer review, revision, and integration of emerging findings. The abstract is incomplete (cuts off mid-sentence), suggesting early-stage manuscript.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7116051113",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{Q} = \\int_{\\text{strain}}^{\\text{product}} \\mu(S,T,pH) \\cdot \\Phi(\\text{genetics}) \\, d\\tau",
+      "interpretation": "微生物の遺伝的潜在力と環境条件の共鳴が、時間とともに品質へと変容する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 50 20 Q 60 35 50 50 Q 40 65 50 80' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>ζ</text></svg>",
+      "interpretation": "同心円の微生物的な時間螺旋：基質から製品への変成の迷路を表現する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

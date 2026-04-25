@@ -21,14 +21,14 @@
   "proposer": "Andrew Shin",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes an empirical platform and experimental observations (2026-dated preprint). Core claims—emergence of visual reply chains, aesthetic sovereignty, decoupling of similarity/ties—are provisionally validated through controlled experiments but require independent replication, theoretical grounding, and longitudinal study. The phenomenon itself (multi-agent visual interaction dynamics) is novel and not yet canonized in peer-reviewed literature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.67
   },
   "cross_refs": {
     "arxiv": "2604.21446",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

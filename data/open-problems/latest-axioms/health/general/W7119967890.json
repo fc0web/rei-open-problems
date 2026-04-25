@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is a metadata-only record with embargoed content. No evaluable axiom, claim, or theoretical proposition is present—only a title, date, and placeholder abstract. The actual research content is inaccessible, making truth-value assignment impossible and observation-dependent on embargo expiration.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7119967890",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{growth}_{\\text{with}}}{\\text{growth}_{\\text{without}}} = 1 + \\int_0^t \\frac{\\omega(s)}{\\gamma(s)} ds",
+      "interpretation": "糖尿病がある子どもの発達は、見えない摩擦を時間積分することで、常態の道から微かにそれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 20 80 Q 40 50 50 40 Q 60 50 80 20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 20 80 Q 40 60 50 50 Q 60 60 80 40' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='3,3'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><line x1='10' y1='85' x2='90' y2='85' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "二つの成長の軌跡が分岐し、目に見えない力場のなかでひそかに離れていく景象。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

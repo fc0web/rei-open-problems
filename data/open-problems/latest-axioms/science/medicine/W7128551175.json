@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a pre-publication research proposal (dated 2026, future-dated or preprint) claiming an AI application for hospital decision support. The axiom is not yet validated by peer review or empirical deployment. The claim mixes aspirational framing ('advanced,' 'improving') with specific domain application (clinical laboratory), making it contingent on implementation success, validation rigor, and actual outcomes—all currently unverified.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128551175",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a meta-epistemic claim about knowledge gaps in smart grid research (what we do/don't know). It's not a settled fact but rather a provisional research assessment under active debate and subject to empirical validation as the field evolves. The evidence cited (Sovacool 2014) is real but the generalization remains under scholarly contestation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7154052220",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{transition} = T_{phys} + \\epsilon \\cdot S_{social} + \\mathcal{I}_{unknown}",
+      "interpretation": "物理技術は測定できるが、社会次元は暗黒物質のように見えない。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='3' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5' opacity='0.4'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.4'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><path d='M 50 50 L 70 30' stroke='#00ff88' stroke-width='2' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "見える技術の核の周りに、忘れられた社会圏が暗く回転する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

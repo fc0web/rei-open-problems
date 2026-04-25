@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents empirically supported claims (animal welfare correlates with productivity, health outcomes) that are TRUE in measurable contexts, while simultaneously making normative/prescriptive claims about what 'should' constitute welfare standards that are NEITHER (value-dependent, context-variable across cultures and economic systems). The coexistence of instrumental (economic) and intrinsic (ethical) justifications creates dialectical tension requiring both framings.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.82
   },
   "cross_refs": {
     "arxiv": "W7118727956",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

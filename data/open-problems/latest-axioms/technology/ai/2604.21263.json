@@ -21,14 +21,14 @@
   "proposer": "Michael Bouzinier, Sergey Trifonov, Michael Chumack et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper proposes novel meta-predicate framework (2026 preprint, not yet peer-validated in clinical deployment). The core axiom—that epistemological type systems can enforce appropriate evidence hierarchies in clinical DSLs—is theoretically sound but empirically unvalidated at regulatory scale. Represents provisional contribution under active validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21263",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P}(\\mathcal{P}(x)) \\vdash \\text{Epi}(\\text{purpose}, \\text{domain}, \\text{scale}, \\text{acq})",
+      "interpretation": "述語の述語が、証拠の認識論的系統を保証する階層構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='10' x2='50' y2='90' stroke='#ec4899' stroke-width='1' opacity='0.5'/><line x1='10' y1='50' x2='90' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.5'/><text x='50' y='96' font-size='10' text-anchor='middle' fill='#f59e0b'>trust</text></svg>",
+      "interpretation": "入れ子の円環が信頼の層状検証を示し、中心に真実が凝集する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

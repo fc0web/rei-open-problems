@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a provisional research proposal/methodological framework (dated 2026, future document) for empirical botanical conservation work. The axiom has not undergone peer validation, experimental data collection, or publication in established venues. As a methodological tool under development, it occupies a transitional state between conceptual design and validated application.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7118087707",

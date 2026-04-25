@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents a provisional theoretical framework (Version 4, dated 2026) attempting to derive a fundamental physical constant from first principles via non-standard unified field theory. The work is explicitly iterative ('Version 3→4'), contains speculative mechanisms (torsional slip, funneled-spring recursion) not yet validated by peer review or experimental evidence, and closes a gap (0.47°) through ad-hoc parametrization rather than derivation. No published validation or reproducible experimental confirmation available in record.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.22
   },
   "cross_refs": {
     "arxiv": "W7154569496",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

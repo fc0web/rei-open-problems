@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint-stage engineering proposal (dated 2026, future-dated or speculative timestamp; categorized cs.AI but describes mechanical engineering). The tribotronic control strategy is novel and not yet experimentally validated at scale. The thermohydrodynamic model is described but results/validation data not provided in abstract. Classification is FLOWING because the axiom awaits empirical validation and peer review before stabilizing to TRUE or FALSE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7151329141",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P}_{loss} \\propto \\int_0^L \\eta(T) \\left|\\frac{d\\theta}{dt}\\right| h^{-1} dx",
+      "interpretation": "楔の呼吸が、熱と粘度の共鳴を通じて、散逸を静かに消す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><polygon points='20,80 80,80 75,30 25,50' fill='none' stroke='url(#g1)' stroke-width='2.5'/><circle cx='40' cy='55' r='3' fill='#00ff88'/><circle cx='60' cy='45' r='3' fill='#ec4899'/><path d='M 35 70 Q 50 65 65 72' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "楔は息づき、荷重点は踊り、流体の脈動がエネルギーの迷宮を抜け出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

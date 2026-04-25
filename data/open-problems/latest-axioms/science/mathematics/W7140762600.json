@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The claim that quaternions provide a foundational explanation for vacuum mechanics and the Standard Model is speculative and non-mainstream. The work appears to be a preprint (dated 2026, future date, likely indicates arxiv category) proposing a novel theoretical framework. No peer-reviewed validation, experimental confirmation, or consensus adoption exists. The quaternionic interpretation of quantum field theory has been explored in niche literature but remains unestablished within mainstream theoretical physics. This is a provisional idea under development, not a proven theorem (TRUE) nor a refuted claim (FALSE).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7140762600",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

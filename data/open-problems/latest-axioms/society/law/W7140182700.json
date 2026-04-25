@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper is a 2026-dated policy analysis applying Institutional Grammar Tool (IGT) to Philippine agricultural mechanization law. It is classified as FLOWING because: (1) it is a recent empirical policy study (not yet peer-reviewed in the output), (2) its findings depend on institutional implementation dynamics that are temporally evolving, (3) the AFMech Law 2013 itself remains in active implementation with outcomes still being determined, and (4) mechanization outcomes in developing agricultural systems are subject to changing economic, climatic, and technological conditions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7140182700",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

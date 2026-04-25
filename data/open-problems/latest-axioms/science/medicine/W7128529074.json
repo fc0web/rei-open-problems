@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This appears to be a qualitative research study (likely dissertation/thesis) on family experiences with young-onset dementia. The work is pre-publication/provisional (dated 2026, future date suggests metadata error or draft status). Qualitative findings about lived experience are not truth-evaluable in classical logic but rather evidence-building toward understanding. The axiom itself—that families follow a 'journey' with identifiable pre- and post-diagnostic phases—is an emerging conceptual framework under validation, not yet established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128529074",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

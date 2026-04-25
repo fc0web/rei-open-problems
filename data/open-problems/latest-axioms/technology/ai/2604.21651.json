@@ -21,14 +21,14 @@
   "proposer": "Eli Gildish, Michael Grebshtein, Igor Makienko",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a provisional technical method (R-DCNN) for periodic signal denoising. The paper appears incomplete (abstract cuts off mid-sentence), and the core claims—computational efficiency, single-observation training, generalization via resampling—are empirical assertions requiring validation through experimental results not provided in the excerpt. The approach is technically coherent but status is preprint/under-validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21651",

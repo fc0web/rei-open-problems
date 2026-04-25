@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a research abstract (dated 2026, future-dated or preprint status unclear) describing experimental biology with provisional claims about GBM secretome mechanisms. The work presents mechanistic hypotheses (NF-κB activation, EV-mediated effects) that require empirical validation. No peer-reviewed publication metadata provided. Status is pre-validated research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7131290300",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Secretome}}{\\text{Barrier}} \\times \\text{EV} \\rightarrow \\text{Niche}^{\\text{evasion}}",
+      "interpretation": "がん細胞が放つ物質が防御を突き破り、小胞が避難所を作り出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g id='vesicles'><circle cx='35' cy='35' r='4' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='65' cy='40' r='4' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='4' stroke='#00d4ff' stroke-width='1.5' fill='none'/></g><polyline points='50,25 50,10' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,25 40,15' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,25 60,15' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "放出される小胞が腫瘍の中心から四方へ、微小環境という庇護の網を編む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

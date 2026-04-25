@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes experimental methodology (single-molecule FRET) applied to study Src kinase conformational dynamics. Claims are provisional pending full results, validation, and peer review. The abstract is incomplete (truncates mid-sentence), indicating preprint/draft status. Core claims about conformational equilibrium quantification are not yet established as fact or refuted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "W3165776926",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{k_{open}}{k_{close}} = e^{-\\beta(E_{Y419} + E_{Y530})}",
+      "interpretation": "ふたつのリン酸化位置が、開閉状態の間を揺らぐ確率を支配する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 35 55 45' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><path d='M 45 55 Q 50 65 55 55' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><circle cx='50' cy='50' r='3' fill='#ffd700'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#00ff88'>Y419/Y530</text></svg>",
+      "interpretation": "ふたつの門が金色の点を介して呼吸する — リン酸化が揺れ動く扉を操る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

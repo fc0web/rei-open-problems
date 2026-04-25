@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, anachronistic), categorized as cs.AI but describes microbiology/natural products research. Abstract is incomplete (cuts mid-sentence at '12 isolates'). Claims about novel bioactive compounds and disease screening are provisional/unvalidated. No peer review evidence provided. Status is preprint-like or draft.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7154961567",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{habitat}}^{\\infty} e^{-\\beta \\cdot \\text{(novelty)}} \\cdot \\text{bioactivity} \\, d\\mu",
+      "interpretation": "未知の生態系の奥深さほど、隠された治療の光が宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1' fill='none'><line x1='50' y1='30' x2='50' y2='15'/><line x1='65' y1='40' x2='75' y2='28'/><line x1='65' y1='60' x2='75' y2='72'/><line x1='35' y1='60' x2='25' y2='72'/><line x1='35' y1='40' x2='25' y2='28'/></g><circle cx='50' cy='50' r='4' fill='#ec4899'/></svg>",
+      "interpretation": "多くの隠れた声が、一つの中心へと収束し、沈黙の病へと光を投げかける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

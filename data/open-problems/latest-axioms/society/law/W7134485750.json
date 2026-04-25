@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a comparative policy/procedural proposal (2026 future date, provisional analysis) not yet validated through implementation or peer review. It makes claims about institutional reform benefit that are empirically testable but currently unresolved. The axiom is under-development and change-pending.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7134485750",

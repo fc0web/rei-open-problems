@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The SQG framework is presented as a 2026 preprint claiming computational transition from structural to predictive architecture. It proposes novel unification (spacetime from quantum codes, emergent gauge symmetry, matter from logical substrate) with claimed 'finite, checkable numerical benchmarks,' but these benchmarks are not presented in the abstract itself. The work is dated April 2026 (future from training cutoff) and explicitly frames itself as transitional ('no longer merely proposes'). Status is provisional—requires empirical validation, peer review, and publication of the promised numerical predictions before classification can shift toward TRUE or FALSE. The radical ontological claim (reality from 'recoverable logical structure') lacks consensus validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7154913089",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

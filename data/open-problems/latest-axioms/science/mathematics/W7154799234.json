@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Provisional axiom from preprint dated 2026-04-25 (future date, speculative document). Functional and vectorial data classification is an active research domain with evolving methodologies. Status cannot be confirmed as TRUE until peer-reviewed publication and independent validation. The work appears sound in approach but lacks establishment as proven theorem.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "W7154799234",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

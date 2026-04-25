@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents empirically mixed claims: EV superiority on lifecycle emissions and operating costs is largely established (TRUE component), but regional context-dependency, grid-carbon variability, and depreciation uncertainties create legitimate counter-evidence (FALSE component). No single truth value captures the complete state; dialectical tension is inherent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7137994176",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{TCO}_{EV}}{\\text{TCO}_{ICE}} = \\frac{C_0 + \\int_0^T c_{op}(t)\\,dt}{C_0' + \\int_0^T c'_{op}(t)\\,dt}",
+      "interpretation": "最初の重さは大きいが、時間とともに軽くなる—流れの勝利。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899'/><stop offset='100%' style='stop-color:#00ff88'/></defs><circle cx='25' cy='50' r='18' fill='none' stroke='#ec4899' stroke-width='2'/><text x='25' y='55' font-size='14' text-anchor='middle' fill='#ec4899'>🔥</text><circle cx='75' cy='50' r='18' fill='none' stroke='#00ff88' stroke-width='2'/><text x='75' y='55' font-size='14' text-anchor='middle' fill='#00ff88'>⚡</text><path d='M 43 50 Q 50 40 57 50' fill='none' stroke='url(#g1)' stroke-width='3' stroke-linecap='round'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed'>時間</text></svg>",
+      "interpretation": "炎から稲妻へ—痛みを伴う変容の軌跡。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

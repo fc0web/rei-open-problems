@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date from 2024 perspective) and addresses a specialized technical compression algorithm. The axiom is provisional—dependent on validation of the claimed optimization results and peer review. The compression technique itself (vertex optimization in G-PCC trisoup geometry) is engineering-focused and requires empirical validation rather than pure logical proof.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154923161",

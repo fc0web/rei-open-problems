@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission cannot be evaluated for truth-value because the abstract is embargoed and unavailable. The metadata indicates a thesis title and author but provides no accessible propositional content to assess. Classification is ZERO (observation-impossible due to missing substantive content).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7148816938",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{blood}}^{\\text{lungs}} e^{-d(x)} \\, \\frac{1}{\\sigma(x)} \\, dx \\approx \\sum_{i=1}^{N} \\delta(\\text{cell}_i)",
+      "interpretation": "血から肺へ移動する免疫細胞の個々の署名が、障壁を超えた時に現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='25' cy='50' rx='15' ry='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><ellipse cx='75' cy='50' rx='20' ry='28' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='40' y1='45' x2='60' y2='52' stroke='#ec4899' stroke-width='1'/><circle cx='50' cy='50' r='2' fill='#ffd700'/><g stroke='#00ff88' stroke-width='0.8' opacity='0.6'><circle cx='35' cy='35' r='1.5'/><circle cx='45' cy='60' r='1.5'/><circle cx='65' cy='40' r='1.5'/><circle cx='70' cy='65' r='1.5'/></g></svg>",
+      "interpretation": "左の血液から右の肺へ流れる個々の細胞が、共鳴する境界で明かされる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

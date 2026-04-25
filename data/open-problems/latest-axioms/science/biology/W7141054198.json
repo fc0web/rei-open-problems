@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The document content is embargoed and inaccessible. No truth-evaluable claims are present in the provided metadata. The abstract is explicitly withheld, making substantive axiom evaluation impossible.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7141054198",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{1920}^{2020} \\frac{\\text{Prey}(t)}{\\text{Orca}(t)} \\, dt \\sim \\text{split}(N,S)",
+      "interpretation": "百年の食料流の分岐が、北と南のシャチの運命を二つに割く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M50 10 Q30 40 50 70 Q70 40 50 10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='35 50' r='3' fill='#ec4899'/><circle cx='65 50' r='3' fill='#7c3aed'/><line x1='35 50' y1='50' x2='50 85' stroke='#00ff88' stroke-width='1.5'/><line x1='65 50' y1='50' x2='50 85' stroke='#f59e0b' stroke-width='1.5'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>century</text></svg>",
+      "interpretation": "時の川が二つの系統を異なる食卓へと導き、かつての同じ源から分かれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

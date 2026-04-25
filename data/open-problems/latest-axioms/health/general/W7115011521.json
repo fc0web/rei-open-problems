@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Thesis document with embargo status; content not accessible for evaluation. Classification is provisional pending full disclosure. The work concerns empirical neuroscience research (presenilin 1 mutations) combined with computational/AI methods, making truth-value assessment impossible without substantive content review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7115011521",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d^2}{dt^2}\\text{Memory} = -k \\cdot \\text{PSEN1}^3 + \\text{noise}",
+      "interpretation": "タンパク質の歪みが記憶の崩壊を加速する、その秘密は非線形性に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 10 Q 60 40 50 70' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 10 Q 40 40 50 70' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 30,45 40,50 50,40 60,50 70,45 80,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "脳の回路網が自己に纏わりつく螺旋を描き、秩序が静寂へと溶け込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a research proposal/abstract for an empirical study (dated 2026, future publication). The claims about pomegranate seed oil effects are provisional, not yet experimentally validated. The work describes a planned intervention study, placing it in pre-validation status characteristic of FLOWING classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7130405980",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{\\infty} e^{-t} \\cdot \\text{(unsaturated fat)}(t) \\, dt}{\\text{TG}_{\\text{postprandial}}} \\sim \\text{CVD}_\\downarrow",
+      "interpretation": "ポメグラネートの不飽和脂肪が食後の時間経過とともに中性脂肪を減衰させるリズムが見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 Q 30 55 25 75' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 42 Q 70 55 75 75' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='25' cy='80' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='80' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='42' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "種子から分岐する二つの代謝経路が、時間とともに危険因子の左右のバランスを再調整する像。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

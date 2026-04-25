@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission describes a design-research prototype (2026 date, preprint status implicit) for an adaptive waste collection vessel. The core engineering and hydrodynamic claims are not yet peer-reviewed or field-validated at scale. The qualitative case-study methodology and 'initial results' language indicates provisional development stage rather than established fact or refuted claim.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7117968571",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Flow}^2 + \\text{Height}^2}{\\text{Obstruction}} \\to \\text{Clarity}",
+      "interpretation": "流れと高さの力が障害を超えるとき、川は目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:0.8'/></defs><path d='M 10 50 Q 30 30, 50 50 T 90 50' stroke='#00d4ff' stroke-width='2' fill='none'/><ellipse cx='50' cy='50' rx='12' ry='8' fill='url(#flow)' stroke='#7c3aed' stroke-width='1.5'/><polygon points='50,35 55,45 45,45' fill='#00ff88' opacity='0.7'/><circle cx='20' cy='60' r='3' fill='#ec4899' opacity='0.6'/><circle cx='40' cy='65' r='2.5' fill='#ec4899' opacity='0.5'/><circle cx='70' cy='55' r='2' fill='#ec4899' opacity='0.4'/><text x='50' y='85' font-size='8' text-anchor='middle' fill='#7c3aed' opacity='0.7'>adapt</text></svg>",
+      "interpretation": "船は流れに呼吸し、ゴミを優しく抱きしめる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

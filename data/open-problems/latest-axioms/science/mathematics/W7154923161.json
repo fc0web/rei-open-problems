@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-indexed or speculative venue) proposing a technical optimization method for G-PCC (geometric point cloud compression) geometry. The core claim—that low-complexity vertex optimization improves trisoup compression efficiency—is engineering-viable but requires peer validation, benchmarking against baselines, and reproducibility confirmation. Without published results, ablation studies, or acceptance at established venue, the axiom remains provisional rather than TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154923161",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-B",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

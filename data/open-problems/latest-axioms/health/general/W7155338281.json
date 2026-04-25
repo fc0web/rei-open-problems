@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional quality improvement (QI) implementation study dated 2026-04-25 with stated post-implementation measurement at 3 months. The abstract is incomplete (cuts off mid-methodology) and describes forward-looking targets ('for at least 25%', 'reduce by 20%') rather than established outcomes. No results section is provided. This is characteristic of a preprint or early-stage protocol under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7155338281",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Silence}^3}{\\text{Intervention}} \\cdot \\int_0^{\\infty} e^{-t/\\tau} \\, dt = \\text{Rest}",
+      "interpretation": "沈黙と介入の比が、時間の忘却とともに、真の休息へと収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,10 50,40 30,55 50,65 70,55 50,40' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 20 50 Q 30 45 40 50' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.6'/><path d='M 60 50 Q 70 45 80 50' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "層状の静寂が、中央の呼吸する光のまわりに螺旋を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

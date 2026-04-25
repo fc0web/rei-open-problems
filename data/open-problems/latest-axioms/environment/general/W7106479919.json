@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a technical methodology (digital twin + synthetic data + leakage model) for a practical engineering problem. It is not yet established as a universally validated approach—it is a provisional application framework presented as preprint research (dated 2026, future-projected or speculative). The core claim is testable but requires empirical validation across diverse gas system installations. Classification as FLOWING reflects its status as under-development, context-dependent, and awaiting peer review and real-world deployment evidence.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7106479919",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial \\rho}{\\partial t} + \\nabla \\cdot (\\rho \\mathbf{v}) = -\\lambda \\sum_{i} \\delta(\\mathbf{r} - \\mathbf{r}_i)",
+      "interpretation": "気体の密度は、見えない穴から静かに逃げていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><line x1='50' y1='50' x2='75' y2='50' stroke='#00ff88' stroke-width='2'/><circle cx='82' cy='50' r='4' fill='#ec4899'/><polyline points='82,50 85,45 88,48 85,50 88,52 85,55' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='20' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>digital twin</text></svg>",
+      "interpretation": "現実の漏れが、仮想の鏡に映る時、真実が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

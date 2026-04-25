@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The claim that quaternions explain vacuum mechanics and 'finally make the Standard Model make sense' is a speculative theoretical framework not yet validated by peer review or experimental falsification. The 2026 date and preprint status indicate provisional status. Quaternion-based physics models exist in literature but lack consensus acceptance. The framing ('Finally Made Sense') is rhetorical rather than established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7140299984",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a materials science research paper (electrochemistry of manganese silicide-germanides) submitted to cs.AI category, which represents a categorization mismatch. The work itself describes experimental results from cyclic voltammetry and electron microscopy—established methodologies—but the abstract is incomplete (cuts off mid-sentence at 'продуктов кор'). The axiomatic content cannot be fully evaluated without the complete manuscript. The provisional status reflects both the incomplete submission and the preliminary nature of electrochemical surface oxidation studies.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7125247288",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Mn}}{\\text{Si}+\\text{Ge}} \\cdot \\left(1 + \\int_0^{V} \\frac{dO_x}{dV}\\right) \\sim \\text{irreversible}",
+      "interpretation": "マンガンとケイ素・ゲルマニウムの比が電圧とともに不可逆的に酸化膜へ変換される秘密の比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 22 Q 55 35 50 50 Q 45 65 50 78' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='30,50 70,50' stroke='#00ff88' stroke-width='1.5'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#f59e0b'>oxide film</text></svg>",
+      "interpretation": "マンガン珪化物の表面に螺旋状に成長する酸化膜の層状構造、電界に引かれて無限に深まる過程。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

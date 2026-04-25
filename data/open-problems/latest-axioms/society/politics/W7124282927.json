@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom proposes integration of Ayurveda and biotechnology for healthcare. This is a provisional research direction (preprint status, date 2026 suggests future/speculative framing) without established empirical validation across claimed domains. The claim is neither refuted nor proven; it represents an emerging research program under active investigation. Formalizability barriers exist between traditional medicine epistemology and molecular biology, making definitive truth-value assignment premature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7124282927",

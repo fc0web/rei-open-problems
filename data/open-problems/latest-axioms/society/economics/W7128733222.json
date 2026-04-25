@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom conflates psychological perception (TRUE: money's utility depends on subjective valuation) with ontological claims about money's nature (NEITHER: whether money is 'real' depends on definitional framework—medium-of-exchange vs. store-of-value vs. unit-of-account). The assertion that 'quality of money exists in mind' is philosophically defensible (idealist position) but coexists with institutional/materialist counterarguments (money derives force from state enforcement, network effects, scarce substrates). The linkage to ethical agreements (non-domination, workplace enrichment) is suggestive but underdeveloped.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7128733222",

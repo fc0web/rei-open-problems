@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
     "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8Reason": "The paper presents rigorous mathematical theorems about ASEP second-class particle distributions with explicit proofs and derivations of classical combinatorial identities. The results are formalized within probability theory and combinatorics, establishing verifiable propositions about blocking measures and particle positions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.92
   },
   "cross_refs": {
     "arxiv": "W7133372331",

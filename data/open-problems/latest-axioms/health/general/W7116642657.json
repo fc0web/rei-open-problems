@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study is dated 2026-04-25 (future date), indicating provisional/preprint status. RCT design with reported outcomes but abstract truncated—full results unavailable for validation. Preliminary empirical finding under peer review cycle.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7116642657",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Story}_{\\text{culture}} \\cdot \\text{Time}_{36}}{\\text{Gap}_{\\text{initial}}} \\to \\text{Mind}_{\\text{emerge}}",
+      "interpretation": "物語は時間とともに、初期の欠落を心の開花へ変える — 言葉なき者が言葉を得る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='20' cy='50' r='8' fill='none' stroke='#00d4ff' stroke-width='1.5'/><path d='M 30 50 Q 50 30 70 50' fill='none' stroke='url(#g1)' stroke-width='2.5'/><circle cx='80' cy='50' r='12' fill='none' stroke='#ec4899' stroke-width='2'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed' font-weight='bold'>36w</text></svg>",
+      "interpretation": "小さな芽が物語を通じて大きく開く — 時間のつながりが隠された言葉を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

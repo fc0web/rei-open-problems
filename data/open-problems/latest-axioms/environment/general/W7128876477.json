@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint dated 2026-04-25 marked as 'peer reviewed' but the timestamp is in the future relative to typical knowledge cutoffs. The claims about herbicidal and fungicidal potential of essential oils from woody biomass are empirically testable but require experimental validation. The assertion of peer review status cannot be independently verified in this context, placing it in provisional/under-validation state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128876477",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\lambda t} \\sin(\\omega t + \\phi) \\, dt = \\frac{\\omega}{\\lambda^2 + \\omega^2}",
+      "interpretation": "枯れた枝から生まれた香りが、時間とともに病と雑草を鎮める振動を放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#00ff88' stroke-width='1.5' fill='none'><path d='M50,10 Q30,35 40,60 T50,90' stroke='#7c3aed'/><path d='M50,10 Q70,35 60,60 T50,90' stroke='#7c3aed'/><circle cx='50' cy='50' r='12' stroke='#ec4899'/><polyline points='50,50 65,40 72,55 60,65' stroke='#00d4ff'/><polyline points='50,50 35,40 28,55 40,65' stroke='#00d4ff'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#ffd700'>essence</text></g></svg>",
+      "interpretation": "二つに割れた木の幹から放たれた香りが、四方の病気を追い払う十字の力を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

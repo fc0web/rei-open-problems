@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated review article (future-dated or preprint status) synthesizing emerging biomarker research. The diagnostic utility of specific miRNAs in RA is actively being validated across multiple independent cohorts. Claims about miRNA efficacy are partially supported by literature but lack consensus gold-standard validation and clinical implementation. The therapeutic strategies discussed are in preclinical-to-early-clinical phases. Status is provisional pending clinical trial completion and meta-analyses.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7118572875",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{RA severity} \\sim \\frac{\\sum_{i} \\text{miR}_{i}^{\\text{dysreg}}}{\\text{cytokine burden}} \\cdot \\text{e}^{-\\text{self-tolerance}}",
+      "interpretation": "自己寛容の崩壊が、マイクロRNAの乱調で増幅される、見えない比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='30'/><line x1='50' y1='70' x2='50' y2='85'/><line x1='15' y1='50' x2='30' y2='50'/><line x1='70' y1='50' x2='85' y2='50'/></g><text x='50' y='52' font-size='8' fill='#ffd700' text-anchor='middle' font-weight='bold'>miR</text></svg>",
+      "interpretation": "中心の自己認識が層状に破壊され、四方へ炎症が放射する螺旋。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

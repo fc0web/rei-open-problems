@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "This is an empirical ornithological survey with established methodology (IUCN Red List v3.1, v15.1, v4.0 criteria). The assessment is based on verifiable observation, population data, and standardized classification protocol. The findings are factual documentation of conservation status at a specific temporal-geographic scope (Slovakia, 2013–2023).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.94
   },
   "cross_refs": {
     "arxiv": "W7153584908",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{94}{213} = \\frac{5 + 12 + 24 + 29 + 24}{213} \\approx \\frac{2}{5}",
+      "interpretation": "スロバキアの鳥類の5分の2が、絶滅の崖縁に立つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 5 Q 70 30 75 50 Q 70 70 50 85 Q 30 70 25 50 Q 30 30 50 5' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='5' stroke='#7c3aed' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='8' stroke='#f59e0b' stroke-width='2' fill='#f59e0b' opacity='0.3'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>RE CR EN VU NT</text></svg>",
+      "interpretation": "中心に収束する翼：保全状態の段階的な侵食を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission lacks substantive content for evaluation. No abstract, methodology, claims, or results are provided—only a placeholder indicating embargoed content. Truth-value assessment is impossible when the axiom/thesis itself is observationally absent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7154706886",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathcal{N}}{dt} = \\lambda \\mathcal{N} - \\mu(\\mathcal{N})\\mathcal{N} + \\int_0^t k(t-s)\\mathcal{N}(s)ds",
+      "interpretation": "核の増殖は自己相似の渦巻きのように、過去が現在を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00d4ff' stroke-width='1'><path d='M 50 15 Q 65 32 70 50 Q 65 68 50 85 Q 35 68 30 50 Q 35 32 50 15' fill='none'/><polyline points='50,50 62,50 58,42' stroke-width='1' fill='none'/></g><circle cx='50' cy='50' r='4' fill='#00ff88' opacity='0.8'/></svg>",
+      "interpretation": "白い腐敗菌の核は螺旋状に増殖し、内部に光る秘密を秘める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

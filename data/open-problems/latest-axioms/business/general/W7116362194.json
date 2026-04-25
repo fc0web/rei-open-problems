@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The work is a 2026-dated dissertation (future/preprint status) presenting theoretical models and empirical claims about AI adoption in hospitality. The U-shaped profit curve and strategic interaction claims are provisional—dependent on model assumptions, data validation, and real-world generalizability. Not yet peer-reviewed consensus or refuted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7116362194",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\pi(\\text{AI}) = \\alpha + \\beta_1 \\text{AI} + \\beta_2 \\text{AI}^2 + \\gamma \\cdot \\text{(women)}",
+      "interpretation": "AIの導入は谷を越えて利潤をもたらし、女性の力が全体を持ち上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 10 70 Q 50 30 90 70' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='4' fill='#00d4ff'/><ellipse cx='25' cy='85' rx='8' ry='12' stroke='#ec4899' stroke-width='2' fill='none'/><ellipse cx='75' cy='85' rx='8' ry='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 30 L 50 50' stroke='#00ff88' stroke-width='1.5' opacity='0.7'/></svg>",
+      "interpretation": "谷を登る旅路。女性たちが両側から支え、AIの光が頂上を指す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper describes experimental research (2026 date suggests future/provisional work) on solar cooling systems. Claims are empirically testable but presented as preliminary findings from a development unit. The underlying thermodynamic principles are established (TRUE), but the specific integrated system performance in stated contexts remains under validation—characteristic of preprint/technical report status rather than published validated research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7152506234",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\eta_{cool} = \\frac{\\int_{dawn}^{dusk} Q_{solar}(t) \\, dt}{\\int_{0}^{24h} Q_{demand}(t) \\, dt}",
+      "interpretation": "太陽の恵みが、冷房の渇望を どれほど満たすかを映す比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='80' cy='20' r='15' stroke='#ffd700' stroke-width='2' fill='none'/><rect x='25' y='50' width='50' height='30' stroke='#00d4ff' stroke-width='2' fill='none' rx='3'/><polyline points='35,50 45,30 55,45 65,25 75,50' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='85' x2='50' y2='95' stroke='#7c3aed' stroke-width='2'/><text x='50' y='98' font-size='8' text-anchor='middle' fill='#7c3aed'>𝞺</text></svg>",
+      "interpretation": "太陽の光が、建築の心臓に流れ込み、地中への熱を誘う循環の輪郭。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

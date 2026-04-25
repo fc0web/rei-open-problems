@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes empirical biochemical discovery (soil phage enzyme function) with computational/structural analysis components. The core claim (viral auxiliary gene preservation mechanism) is under peer review validation as of stated date (2026-04-25). Microbiome metagenomic findings are inherently provisional pending independent replication and environmental context validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130408587",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Viral DNA}}{\\text{Host Capacity}} \\cdot \\text{Catechol} \\to \\text{Soil Ecosystem}^{\\infty}",
+      "interpretation": "ウイルスは寄生から触媒の庭師へと変身し、土の永遠の代謝を彫刻する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='14' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='14' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 Q 40 50 30 51' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 42 Q 60 50 70 51' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='79' x2='20' y2='95' stroke='#00d4ff' stroke-width='1.5'/><line x1='70' y1='79' x2='80' y2='95' stroke='#00d4ff' stroke-width='1.5'/><text x='50' y='88' font-size='8' text-anchor='middle' fill='#ffd700' font-weight='bold'>ϕ</text></svg>",
+      "interpretation": "ウイルスの種子が根を下ろし、二つの分解の掌から無限に流れ落ちる触媒の光。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

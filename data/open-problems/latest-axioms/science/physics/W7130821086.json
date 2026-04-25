@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel geometric framework coupling radiative observables to surface gravity, with analytical reduction to mass-independent identity and observational validation against eclipsing binaries. However, the abstract is truncated, the theoretical mechanism linking stellar photospheres to cosmic horizon remains incompletely stated, and independent peer review status is unknown. The claim of exact mass-independent identity under 'standard macroscopic closures' requires verification of closure assumptions. This is preprint-stage provisional work with promising structure but incomplete validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.54
   },
   "cross_refs": {
     "arxiv": "W7130821086",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

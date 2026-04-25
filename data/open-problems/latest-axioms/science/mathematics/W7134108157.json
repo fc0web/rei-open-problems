@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a preprint dated 2026-04-25 (future-dated, likely simulation or speculative), critiquing OPH framework and proposing UEET as resolution. The claims are technically substantive but unvalidated: algebraic discontinuity argument is rigorous in principle, but UEET resolution is incomplete (abstract truncated). Provisional status: under formulation, not yet peer-validated, theoretical contributions plausible but not established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7134108157",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{N\\to\\infty} \\mathcal{M}_{\\text{finite}}(N) \\to \\mathcal{T}_{\\text{III}} \\cdot e^{2\\pi K}",
+      "interpretation": "有限から無限へ、離散的な観測者の世界が連続的な幽霊のような対称性に融解する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='18' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='50' y1='42' x2='50' y2='52' stroke='#ec4899' stroke-width='2'/><path d='M 35 50 Q 50 45 65 50' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 50 55 65 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='87' font-size='8' text-anchor='middle' fill='#7c3aed'>Type I → III</text></svg>",
+      "interpretation": "小さな離散的な球が大きな無限次元の波紋に吸収され、その間で粒子的なエネルギーが反転する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

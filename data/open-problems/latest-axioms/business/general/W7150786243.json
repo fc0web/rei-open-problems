@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a call-for-papers document (solicitation for research contributions), not a substantive axiom or claim. Its truth-value is suspended pending actual submissions and peer review. The document itself proposes a research agenda rather than asserting verifiable facts. Future papers meeting the CFP may be TRUE, FALSE, or BOTH depending on their content.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.85
   },
   "cross_refs": {
     "arxiv": "W7150786243",

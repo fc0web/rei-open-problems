@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint/early-stage research article (dated 2026-04-25, categorized cs.AI but describing wet-lab neuroscience). The abstract is incomplete, suggesting manuscript still in preparation. Findings on biochemical mechanisms in transgenic AD models are empirically grounded but require peer review validation, replication, and mechanistic confirmation before classification as established fact (TRUE). The work is neither refuted nor definitively proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154337349",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial M}{\\partial t} = -k \\cdot \\text{ATP}_\\text{syn} + \\delta \\cdot \\text{Aβ}^2",
+      "interpretation": "記憶の消失は、エネルギー産生の崩壊とアミロイド毒性が競う過程として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 25 Q 65 50 50 75' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 50 25 Q 35 50 50 75' stroke='#00ff88' stroke-width='2' fill='none' opacity='0.6'/><polyline points='50,50 70,35 75,50 70,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "シナプスの内部：光と影が渦を巻き、エネルギーと毒素が絡み合う二重螺旋の喪失。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

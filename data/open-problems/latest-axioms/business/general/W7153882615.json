@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date relative to knowledge cutoff), marked as preprint/policy brief format without peer review completion. Claims empirical findings on crowdfunding effectiveness in African context and regional integration mechanisms—verifiable but not yet validated through publication cycle. Status is provisional pending formal peer review and publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7153882615",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} m_i \\cdot c_i}{\\sqrt[3]{\\text{distance}_{ij}}} \\propto \\text{Integration}",
+      "interpretation": "散らばった資金が距離の立方根で織り直され、統合へ流れ込む",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='30' cy='35' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='35' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='65' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='35' x2='50' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/><line x1='70' y1='35' x2='50' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/><line x1='50' y1='65' x2='50' y2='50' stroke='#ffd700' stroke-width='1' opacity='0.6'/><path d='M 50 50 Q 35 45 30 35' stroke='#00d4ff' stroke-width='0.8' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "周辺の資金が中核へ収束し、ネットワークが呼吸するように脈動する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

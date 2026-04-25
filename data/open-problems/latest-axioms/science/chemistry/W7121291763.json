@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a raw data repository (preprint/dataset, dated 2026-04-25) for a structure-based drug repurposing study. The underlying claims are empirically testable but the dataset itself is provisional—validation pending peer review and independent replication. The dual inhibitor findings are not yet established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7121291763",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{d \\in \\text{FDA}} \\frac{1}{1 + e^{-\\beta(\\text{MAPK} + \\text{PPG})}} \\cdot \\mathbb{1}_{L.\\text{donovani}}",
+      "interpretation": "既知の薬が未知の敵を二重に射抜く確率の総和。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 50 L 58 50' stroke='#00ff88' stroke-width='3'/><path d='M 50 35 Q 30 20 15 15 Q 50 10 85 15' stroke='#7c3aed' stroke-width='2' fill='none'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#ffd700'>repurposed</text></svg>",
+      "interpretation": "古い薬の二つの標的への同時射撃が、寄生虫という敵を包囲する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

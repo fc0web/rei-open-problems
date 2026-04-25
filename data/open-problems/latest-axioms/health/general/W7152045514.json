@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated preprint describing a proof-of-concept medical diagnostic device. The abstract is incomplete (cuts off mid-sentence at 'mee[t]'), indicating draft/provisional status. The work presents novel methodology (microcapillary + smartphone integration) not yet peer-validated or clinically deployed. Fits FLOWING: provisional, under development, validation pending.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7152045514",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Blood's whisper}}{\\text{Phone's eye}} = \\sqrt[3]{\\text{Clot speed} \\cdot \\text{Access}}",
+      "interpretation": "スマートフォンが血液の微細な物語を、場所と時間の制約なく読み取る比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,30 50,50 65,65' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><rect x='70' y='35' width='20' height='28' rx='2' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='78' y1='38' x2='78' y2='60' stroke='#f59e0b' stroke-width='1'/><circle cx='50' cy='50' r='5' fill='#ffd700' opacity='0.6'/></svg>",
+      "interpretation": "血液の時間的な凝結軌跡が、ポケットサイズの目によって即座に捕捉される瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

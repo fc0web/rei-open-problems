@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a policy document and professional guideline recommendation (not a truth-evaluable empirical claim or theorem). It functions as prescriptive guidance for social work practice, environmental justice, and professional ethics—domains where truth-values are suspended in favor of normative assessment. The validity is measured against implementation outcomes, professional standards alignment, and stakeholder impact rather than proof or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.82
   },
   "cross_refs": {
     "arxiv": "W7135034211",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a specific stoichiometric ratio (1:1 Se:Cd) as a universal detoxification mechanism across plant-animal systems. This is provisional and unvalidated: (1) the abstract is incomplete/missing; (2) the claim is extraordinarily broad (cross-kingdom, cross-tissue); (3) categorized as cs.AI but appears to be biochemistry/toxicology, suggesting possible miscategorization or speculative modeling; (4) no empirical data presented here to assess. Requires peer review and experimental validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7128604966",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

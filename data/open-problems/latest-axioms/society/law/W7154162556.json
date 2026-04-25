@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The submission presents a genuine scholarly problem (forced labour and trafficking are documented realities with legal frameworks) but contains categorical inconsistencies that prevent unified truth-evaluation: the title addresses human rights law/sociology, the abstract claims 'field of Medicine' without justification, and the arXiv category is 'cs.AI' (computer science) when content is social science. These contradictions suggest either metadata error or conceptual drift. The underlying phenomena are TRUE (established by ILO, UN, national courts), but the framing as an AI/medical paper is FALSE. Hence BOTH: the substantive issue exists; the disciplinary positioning contradicts it.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154162556",

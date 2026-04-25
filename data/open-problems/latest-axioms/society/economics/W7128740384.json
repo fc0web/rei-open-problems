@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a provisional philosophical claim about money's ontology (value exists in mind, not intrinsically) that remains under development. It is neither empirically refuted nor formally proven. The paper is dated 2026 (future) and classified as preprint-adjacent. The thesis is dialectically interesting but lacks mathematical formalization or consensus validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128740384",

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely metadata error) and explicitly identified as 'working paper' with unvalidated empirical claims about resource curse mediation. The resource curse hypothesis itself is established (TRUE), but the specific causal mechanism (governance as mediator) and Tanzania-specific findings remain provisional pending peer review and replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153739257",

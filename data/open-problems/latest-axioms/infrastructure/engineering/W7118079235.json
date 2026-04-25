@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint/early-stage research proposal (dated 2026, future-dated or speculative) examining empirical communication pathways for cultural heritage products. It makes descriptive claims about current deficiencies (digitalization gaps, resource constraints) that are survey-observable but the prescriptive recommendations appear provisional and not yet validated through implementation or peer review. The work combines empirical observation with forward-looking strategy, placing it in provisional rather than established territory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118079235",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Heritage}_{t} \\cdot \\text{Digital}^{n}}{\\text{Isolation}} \\to \\text{Influence}_{\\infty}",
+      "interpretation": "古い糸が世界の網を織るとき、孤立は消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1'><line x1='50' y1='25' x2='50' y2='10'/><line x1='75' y1='50' x2='90' y2='50'/><line x1='50' y1='75' x2='50' y2='90'/><line x1='25' y1='50' x2='10' y2='50'/></g><polyline points='50,50 65,35 75,50 65,65 50,50' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "糸と光が古い円から放射状に世界へ拡がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

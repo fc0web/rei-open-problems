@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a provisional empirical study (dated 2026, recent) with valid LCA methodology but incomplete abstract presentation (truncated mathematical formula). The core claim—quantifying embodied carbon in a specific infrastructure project—is scientifically sound but context-dependent on data quality, regional factors, and methodological choices not fully visible. Status: preprint-stage validation pending.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134807522",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\sum_{i} M_i \\cdot c_i + \\int_0^d \\frac{\\rho(x)}{v(x)} dx",
+      "interpretation": "物質の重さと距離が、破壊と再生の炭素の指紋を刻む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><rect x='10' y='50' width='80' height='3' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='20' cy='50' r='6' fill='url(#g1)' opacity='0.8'/><circle cx='50' cy='50' r='8' fill='#f59e0b' opacity='0.6'/><circle cx='80' cy='50' r='5' fill='#ec4899' opacity='0.7'/><polyline points='20,50 35,30 50,55 65,25 80,50' stroke='#ffd700' stroke-width='2' fill='none' opacity='0.7'/><path d='M 50 40 Q 55 35 60 40' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "源から終点へ：物質の旅は、埋もれた排出量の軌跡を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

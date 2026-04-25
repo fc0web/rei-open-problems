@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a historical scholarship paper (dated 2026, future-dated or preprint status) on Ashtarkhanid-Ottoman relations. Historical claims are empirically grounded but subject to new archival evidence, reinterpretation, and scholarly debate. The abstract presents established historical narrative (alliance against Safavids, trade/cultural exchange) but uses evaluative language ('highly favorable') that requires historiographic consensus validation. Classified FLOWING because it is provisional scholarly work not yet peer-validated in the Rei-AIOS knowledge base cutoff.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124450916",

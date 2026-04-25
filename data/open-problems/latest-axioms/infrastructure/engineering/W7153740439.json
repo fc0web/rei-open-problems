@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a research agenda paper (2026 preprint, meta-level analytical work) proposing frameworks and identifying gaps rather than establishing empirical facts or proven theorems. The claims about OSS governance in Africa are provisional, dependent on future research validation, and explicitly structured as agenda-setting rather than conclusive findings.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153740439",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Open}}{\\text{Closed}} \\cdot \\text{Sovereignty} = \\int_0^{\\infty} \\text{Resilience}(t) \\, dt",
+      "interpretation": "開放性と自主性の積は、時間を越えた適応力の無限の蓄積に等しい。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><polygon points='50,60 30,80 70,80' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='45' x2='50' y2='60' stroke='#00ff88' stroke-width='2'/><line x1='30' y1='50' x2='70' y2='50' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ec4899'>roots↔cloud</text></svg>",
+      "interpretation": "根をもつ開かれた塔。地域の基礎と世界への流動が同時に立ち上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

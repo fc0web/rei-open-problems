@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a veterinary reproduction protocol (2026, recent preprint-status publication). The empirical findings are provisionally valid pending peer review completion, replication across independent labs, and statistical validation. The methodology is sound but the abstract is truncated, leaving equilibration/vitrification outcomes unreported.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7151808406",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Egg Yolk} + \\text{Coconut Water}}{T^{-1}} \\sim \\text{Sperm Vitality}",
+      "interpretation": "卵黄とココナッツ水の温度への逆相関が、精子の生命力を保つ秘密を握っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><ellipse cx='50' cy='50' rx='35' ry='40' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='35' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='43' x2='50' y2='65' stroke='#00d4ff' stroke-width='2'/><polyline points='45,65 50,75 55,65' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 30 50 28 55' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 65 50 Q 70 50 72 55' stroke='#7c3aed' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "凍結されたタイムカプセルの中で、黄色い栄養と青い流動性が、微小な生命の炎を守っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

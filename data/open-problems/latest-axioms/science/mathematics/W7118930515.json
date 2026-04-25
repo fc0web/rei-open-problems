@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposed Meaningful Change Index (MeCI) is a novel metric under validation. The core concept (distributional separation via crossover point) is mathematically coherent, but the axiom lacks peer-reviewed empirical validation, comparative benchmarking against established indices, and clinical outcome data. The abstract is incomplete (cuts off mid-sentence), suggesting preprint/early-stage status. The theoretical claim of p-value independence is sound but robustness under varied distributional assumptions remains undemonstrated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118930515",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{MeCI} = \\frac{\\min(|\\mu_1 - x^*|, |\\mu_2 - x^*|)}{\\sigma_1 + \\sigma_2}",
+      "interpretation": "平均値から交差点への最短距離が、ばらつきの合いで測られる本質的な分離度。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.6'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.6'/></defs><ellipse cx='35' cy='50' rx='18' ry='28' fill='none' stroke='#7c3aed' stroke-width='2.5'/><ellipse cx='65' cy='50' rx='18' ry='28' fill='none' stroke='#00d4ff' stroke-width='2.5'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='2' stroke-dasharray='3,2'/><line x1='30' y1='50' x2='50' y2='50' stroke='#f59e0b' stroke-width='2.5'/><line x1='50' y1='50' x2='70' y2='50' stroke='#f59e0b' stroke-width='2.5'/><circle cx='50' cy='50' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "二つの分布が交差点で出会い、その隙間の幅が臨床的実質を測る距離となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

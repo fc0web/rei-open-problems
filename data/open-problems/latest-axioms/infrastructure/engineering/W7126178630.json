@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with no accessible abstract or content available for evaluation. The axiom cannot be assessed without substantive technical claims to validate. Classification as ZERO reflects context-dependent observation-impossibility: the truth-value is suspended pending information release.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7126178630",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\phi}{dt} = 2\\pi\\mu t + \\oint_{\\text{chip}} \\mathcal{L}(f) \\, df",
+      "interpretation": "チップ上の時間とともに周波数が螺旋を描き、ループが自らの軌跡を追う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='2'/><path d='M 50 50 Q 65 35 75 50 Q 65 65 50 75' fill='none' stroke='#00ff88' stroke-width='2.5' stroke-linecap='round'/><polyline points='50,15 55,25 50,35' fill='none' stroke='#ec4899' stroke-width='1.5' stroke-linecap='round'/><circle cx='50' cy='50' r='4' fill='#ffd700'/></svg>",
+      "interpretation": "振動は内側の錨を求めながら、段階的に周波数という螺旋を上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

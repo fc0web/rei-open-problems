@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper reports empirical materials science findings on PdO thin film synthesis. The claims are specific and testable (phase composition, texture analysis via oxidation parameters), but categorized as cs.AI with future date (2026-04-25) suggests preprint status. Core physical/chemical assertions are provisionally valid pending peer review and independent replication of XRD/SEM characterization results.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7125345574",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dT}\\left(\\frac{V_{Pd}}{V_{PdO}}\\right) \\sim \\sqrt{T} \\cdot e^{-E_a/k_BT}",
+      "interpretation": "温度が上昇すると、палладий層が酸化されて密度が変わり、結晶の方向性が目覚める",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='70' width='80' height='15' stroke='#7c3aed' stroke-width='1.5' fill='none'/><rect x='20' y='50' width='60' height='20' stroke='#00d4ff' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5' fill='none'><line x1='35' y1='50' x2='35' y2='25'/><line x1='50' y1='50' x2='50' y2='15'/><line x1='65' y1='50' x2='65' y2='30'/></g><circle cx='50' cy='20' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='87' font-size='8' text-anchor='middle' fill='#7c3aed'>SiO₂/Si</text></svg>",
+      "interpretation": "基板から立ち上がる酸化の柱たち、温度で揺らぎながら整列していく光景",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

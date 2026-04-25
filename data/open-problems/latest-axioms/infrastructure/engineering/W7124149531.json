@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is a 2026-dated concept paper describing a 2018 convening and subsequent standardization proposal. Status is provisionally developmental—describes collaborative framework design rather than completed standard or empirically validated system. No refutation evidence present, but claims remain contingent on implementation and industry adoption.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124149531",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} \\text{Terminal}_i \\otimes \\text{Manufacturer}_j}{\\sqrt[4]{\\text{Friction}}} \\rightarrow \\text{StandardsSpace}",
+      "interpretation": "多くの港の融合は、摩擦を四乗根で減らすことで、共通の規格空間へ流れ込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 28 50 L 42 50' stroke='#f59e0b' stroke-width='2'/><path d='M 58 50 L 72 50' stroke='#f59e0b' stroke-width='2'/><polyline points='20,35 50,50 80,65' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#ffd700' font-weight='bold'>PEMA</text></svg>",
+      "interpretation": "左右の力が中核で融合し、斜めの流れが四次産業革命の対角線を示唆する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

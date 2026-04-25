@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is embargoed with no accessible abstract or body text. The axiom (thesis content itself) cannot be evaluated in its current form—it is observation-impossible and context-dependent on embargo expiration.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7134064831",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial V}{\\partial t} = \\lambda \\nabla^2 V + \\int_{\\partial\\Omega} \\sigma(\\mathbf{r}) d\\mathcal{S}",
+      "interpretation": "膜小胞は時間とともに拡散し、表面の抗原密度が免疫応答を駆動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='25'/><line x1='85' y1='50' x2='75' y2='50'/><line x1='50' y1='85' x2='50' y2='75'/><line x1='15' y1='50' x2='25' y2='50'/></g><circle cx='50' cy='50' r='6' fill='#ec4899'/></svg>",
+      "interpretation": "外膜小胞は細菌の防壁から解放される微小な免疫の鍵。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

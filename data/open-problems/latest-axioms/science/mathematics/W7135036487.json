@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical validation study with mixed/partial confirmation. CFA results show adequate fit on some indices (CFI, SRMR) but incomplete reporting (text cuts off at 'R'). The two-factor structure is provisionally supported but not definitively established. Study is dated 2026 (future/preprint status implied) and requires full results for definitive classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135036487",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Math}_{future} \\sim \\lambda_1 \\cdot O_{order}^+ + \\lambda_2 \\cdot O_{order}^- + \\epsilon",
+      "interpretation": "子どもの日常的な順序感覚が、隠れた二つの言語的顔を通じて、未来の数学能力を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='#7c3aed' stroke-width='2' fill='none'><circle cx='30' cy='40' r='12'/><circle cx='70' cy='40' r='12'/><path d='M 42 40 L 58 40' stroke='#00d4ff' stroke-width='2.5'/><polyline points='30,55 35,75 65,75 70,55' stroke='#00ff88' stroke-width='2'/><text x='25' y='90' font-size='10' fill='#7c3aed' font-family='serif'>+</text><text x='73' y='90' font-size='10' fill='#7c3aed' font-family='serif'>−</text></g></svg>",
+      "interpretation": "光と影の言葉が、奥底で数の根源的な秩序を揺さぶる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

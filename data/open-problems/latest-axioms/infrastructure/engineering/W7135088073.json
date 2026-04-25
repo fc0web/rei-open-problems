@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated or recent) reporting empirical trial results. The abstract presents a structured RCT design with causal inference methodology, but the document is incomplete (abstract cuts off mid-equation). As a field trial not yet peer-reviewed or validated in formal publication, it occupies provisional epistemic status. The intervention itself (diagnostic protocol) is implementable and the measurement (yield ratio) is operationalizable, but the causal claims remain unvalidated until results are published and reproduced.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135088073",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Yield}_{\\text{treated}}}{\\text{Yield}_{\\text{control}}} \\approx 1 + \\frac{\\beta_1}{\\mu_j + \\epsilon_{ij}}",
+      "interpretation": "診断という光が暗い工場の不効率を照らし、その露出度合いが利益の増分を決める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='#7c3aed' stroke-width='2' fill='none'><circle cx='30' cy='50' r='18'/><circle cx='70' cy='50' r='18'/><polyline points='48,35 48,65' stroke='#00ff88' stroke-width='3'/><path d='M 30 32 Q 50 15 70 32' stroke='#f59e0b' stroke-width='2.5'/><path d='M 30 68 Q 50 85 70 68' stroke='#ec4899' stroke-width='2.5' stroke-dasharray='3,3'/><text x='30' y='54' font-size='10' fill='#00d4ff' text-anchor='middle'>control</text><text x='70' y='54' font-size='10' fill='#00d4ff' text-anchor='middle'>treat</text></g></svg>",
+      "interpretation": "二つの工場の間に立つ診断という矢印が、上昇する効率と下降する廃棄物の交差を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

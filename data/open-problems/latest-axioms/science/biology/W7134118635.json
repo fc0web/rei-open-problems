@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint/supplementary material submission (dated 2026-04-25, future-dated or pending peer review) presenting empirical biological data. The claims are provisional until peer-reviewed validation. The work describes observational findings (multi-omic profiling) rather than making unfalsifiable claims, but the data interpretation and mechanistic conclusions remain under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134118635",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^t \\left(\\frac{d\\mathbf{P}}{d\\tau} + \\nabla \\cdot \\mathbf{M}\\right) e^{-\\lambda \\mathbf{S}} d\\tau",
+      "interpretation": "胎盤と代謝と構造が時間とともに織り交ざり、小さき囊が大きき囊へと変化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='35' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='60' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='65' cy='60' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M50,47 Q42,54 35,60' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M50,47 Q58,54 65,60' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='35,68 50,80 65,68' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "母なる中核から放たれた小さき使者たちが、二つの道へ分かれて新しき生命の舞台を整える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -21,14 +21,14 @@
   "proposer": "Yuehan Zhu, Jingqi Zhao, Jiawen Zhao et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "HiCrew is a preprint dated 2026-04-25 (future date, likely manuscript submission), presenting a novel architectural contribution not yet peer-reviewed or validated against established benchmarks. The core claims—hierarchical reasoning, question-aware adaptation, temporal coherence preservation—are plausible but unverified. The abstract is incomplete, preventing full technical evaluation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21444",

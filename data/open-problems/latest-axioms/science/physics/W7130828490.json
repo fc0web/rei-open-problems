@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel theoretical framework (boundary invariant 𝒳) with preliminary empirical validation (190 eclipsing binaries), but lacks independent peer review, full mathematical closure proofs, and theoretical justification for why radiative decoupling surfaces should exhibit the claimed mass-independent identity. The analytical reduction under 'standard macroscopic closures' is asserted but not rigorously derived in the abstract. This is characteristic of preprint status: structured hypothesis with observational support, but not yet validated by the community.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7130828490",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

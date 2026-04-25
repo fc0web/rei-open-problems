@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The claim directly contradicts established population genetics (Fisher-Wright, neutral theory, and empirical microbiology literature where larger Ne typically correlates with *increased* genetic diversity via mutation-drift balance). However, the abstract is too sparse to evaluate the actual argument. If novel mathematical conditions are proposed, classification remains provisional pending peer review validation. The paradox framing suggests either: (a) a genuine discovery under specific conditions (rare), (b) a methodological artifact, or (c) a misframing of existing theory. Cannot be TRUE or FALSE without seeing the full argument.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128903546",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{N} \\propto \\text{diversity} \\mid N \\to \\infty",
+      "interpretation": "集団が大きくなるほど、多様性が逆説的に消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 50,50 80,50' stroke='#00d4ff' stroke-width='1' fill='none' stroke-dasharray='2,2'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='serif'>N increases, σ falls</text></svg>",
+      "interpretation": "左から右へ、母集団は膨らむが色は淡くなる — 大きさが均一性を強制する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

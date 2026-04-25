@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is a preprint (dated 2026-04-25, future-dated or misdated) in African Studies economics, not yet peer-reviewed or validated. The abstract lacks substantive claims—it is primarily meta-descriptive of structure rather than asserting empirical findings or theoretical propositions. Truth-value cannot be assigned until the full manuscript is examined and validated through peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153466070",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{T_{\\text{norm}}}{T_{\\text{real}}} \\cdot \\sqrt{\\text{Friction}_{\\text{inst}}} = \\text{Potential}_{\\text{untapped}}",
+      "interpretation": "国際規範と現地現実の乖離が、制度的摩擦を通じて未開発の可能性を照らし出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='70' cy='50' r='15' fill='none' stroke='#7c3aed' stroke-width='2'/><path d='M 45 45 Q 50 35 55 45' fill='none' stroke='#00ff88' stroke-width='2.5' stroke-linecap='round'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><polygon points='50,70 48,80 52,80' fill='#f59e0b'/></svg>",
+      "interpretation": "二つの規範圏が引き張り合い、その間隙に現実の流動が生まれ、下へ沈殿する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

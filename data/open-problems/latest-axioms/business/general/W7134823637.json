@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a provisional methodology applied to a specific 2021–2026 project. LCA frameworks are established, but application to South Sudan's post-conflict context with nascent environmental governance systems represents novel empirical work. The abstract is incomplete (formula truncated at '$E = \\sum{i} (Mi \\ti'), preventing full methodological validation. Status: preprint-like, not yet peer-validated in final form.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134823637",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Healing} = \\frac{\\sum (\\text{concrete} \\cdot \\text{distance})}{\\text{future}} + \\sqrt{\\text{conflict}}",
+      "interpretation": "紛争の傷を癒すため、物質と移動の重みを未来へ分割する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M20,80 L80,80' stroke='#ec4899' stroke-width='3'/><circle cx='20' cy='80' r='4' fill='#ec4899'/><circle cx='80' cy='80' r='4' fill='#ec4899'/><path d='M50,80 Q50,40 50,20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='20' r='3' fill='#7c3aed'/><polyline points='30,70 40,50 50,65 60,45 70,70' stroke='#00d4ff' stroke-width='1.5' fill='none'/><rect x='15' y='85' width='70' height='3' fill='#f59e0b' opacity='0.6'/></svg>",
+      "interpretation": "地の下から立ち上がる回復の道、揺らぐ痕跡を越えて未来へ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

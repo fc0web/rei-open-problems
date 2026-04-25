@@ -21,14 +21,14 @@
   "proposer": "Qiang Gao, Zhenping Li, Anqi Zhuo et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel framework (SemanticAgent) for text-to-SQL synthesis addressing a real gap (semantic vs. executability validation). However, the abstract is incomplete (cuts off mid-sentence at 'perfor[mance]'), no experimental results are fully stated, and the work appears dated as a future-dated 2026 preprint. The core claim—that semantic-aware validation improves synthesis quality—is plausible and addresses a genuine problem, but lacks complete validation evidence in the provided text. Classification as FLOWING reflects provisional status pending full paper review and independent validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21414",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

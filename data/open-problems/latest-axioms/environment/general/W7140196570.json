@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date from training cutoff) and appears to be a preprint or provisional review. The abstract is empty/missing, preventing direct truth evaluation. The paper addresses empirical program outcomes (Jal Jeevan Mission) which requires validation against field data not accessible in this context.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7140196570",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{\\infty} \\text{access}(t) \\, dt}{\\sqrt{\\text{stress}_\\text{hydro}}} \\sim \\text{dignity}",
+      "interpretation": "水の時間的蓄積を地質学的圧力の平方根で割ると、人間の尊厳が現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><circle cx='50' cy='30' r='12' fill='none' stroke='url(#g1)' stroke-width='2'/><path d='M 50 42 L 50 70' stroke='#00ff88' stroke-width='2.5'/><polyline points='30,70 50,85 70,70' fill='none' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='85' x2='50' y2='95' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "雲から地へ、根から大地へ：水が村の毛細管を通じて命を甦らせる映像。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

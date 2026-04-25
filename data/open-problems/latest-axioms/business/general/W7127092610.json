@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Article is dated 2026 (future date from training cutoff) and describes a preprint-stage narrative review on diagnostic gaps in animal health. Status is provisional and under validation. The methodological approach (combining public databases) is sound but the specific findings remain unpublished/unvalidated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127092610",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Data}_{\\text{known}}}{\\text{Data}_{\\text{fragmented}}} \\to \\text{Control}_{\\text{invisible}}",
+      "interpretation": "断片化した知識の海では、統一された視野こそが治療への道を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 37 50 L 63 50' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 35 L 50 65' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='85' text-anchor='middle' font-size='9' fill='#ffd700' font-family='monospace'>synthesis</text></svg>",
+      "interpretation": "孤立した複数の視点が中央の統一視で交わり、全体像が立ち現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a humanities/social science manuscript (linguistics, political discourse analysis) submitted to a computer science archive. The axiomatic claim—that Diri's speeches contain identifiable stylistic/discursive strategies—is provisionally stated but lacks: (1) formal validation against a control corpus, (2) peer review documentation, (3) quantitative linguistic metrics, (4) reproducible annotation datasets. The work is pre-validation and discipline-category-misplaced (CS categorization inappropriate for CDA humanities research). Status: under-development, not yet established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7125916454",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

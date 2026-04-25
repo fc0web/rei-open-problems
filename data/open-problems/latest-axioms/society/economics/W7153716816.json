@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Article is dated 2026-04-25 (future date, likely data artifact or preprint in validation phase). Claims empirical examination of Japan's diplomatic strategy in Africa with focus on Burundi, but categorized under cs.AI despite Political Science subject matter. Status appears provisional pending peer review and temporal clarification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7153716816",

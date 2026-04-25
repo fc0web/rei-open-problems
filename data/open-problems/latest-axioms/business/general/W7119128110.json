@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a prospective empirical study dated 2026 (future publication) analyzing e-governance reforms across Pakistani jurisdictions. It is not yet validated, peer-reviewed, or published. The comparative claims are provisional pending data collection and analysis. Status: preprint/under development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7119128110",

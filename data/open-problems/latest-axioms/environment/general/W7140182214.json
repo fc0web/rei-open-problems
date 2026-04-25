@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a provisional empirical claim (1961-2010 observational data) testing Arctic Oscillation correlation with Libyan winter temperatures. The abstract is incomplete (cuts off mid-sentence: 'The study also reveale'), suggesting preprint/draft status. The finding (negative correlation) is testable but not yet formally published or peer-validated in the visible record. Classification as FLOWING reflects pre-validation, incomplete presentation, and the subject's status as climate science requiring ongoing observational confirmation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7140182214",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "T_{\\text{Libya}} \\sim -\\alpha \\cdot \\text{AO} + \\beta \\cdot e^{-d/d_0}",
+      "interpretation": "北極の振動が遠く南のリビアの冬を冷やす、距離とともに指数関数的に減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='20' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='80' cy='80' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 32 28 Q 50 45 68 72' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='4,2'/><polyline points='20,20 30,25 25,35 35,30' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='80,80 85,70 95,75 90,85' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "北極の冷たい脈動が南方へ波状に伝わり、砂漠の温度リズムを反転させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

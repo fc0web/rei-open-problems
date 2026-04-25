@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a thesis under embargo with abstract withheld. The scientific claims about S. cerevisiae functional genomics and natural variation are empirically testable and likely partially validated (suggesting CLASS-B formalizability), but the full content is not yet publicly accessible for comprehensive evaluation. Status is provisional/in-validation, characteristic of FLOWING classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153104755",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\text{Admixture}(t) \\cdot \\text{Chemical}(x)}{\\text{Evolution}(t)} \\, dt \\sim \\text{Diversity}_{\\text{NA}}",
+      "interpretation": "進化の時間軸上で、混合と化学応答が多様性を編むように見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 20 50 Q 50 20, 80 50 Q 50 80, 20 50' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='35' cy='35' r='4' fill='#00ff88'/><circle cx='50' cy='50' r='4' fill='#ec4899'/><circle cx='65' cy='65' r='4' fill='#f59e0b'/><polyline points='20,50 50,30 80,50' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "異なる血統が時間を通じて絡み合い、化学的環境の中で多くの形態へ枝分かれしていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

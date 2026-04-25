@@ -21,14 +21,14 @@
   "proposer": "Yongcan Yu, Lingxiao He, Jian Liang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggesting preprint/provisional status) proposing DDRL framework for test-time RL in math reasoning. The core claims (spurious signal amplification, medium-consistency ambiguity region, DDRL mitigation) are empirically grounded but require independent validation. The work is technically sound in structure but remains in provisional state pending peer review and reproducibility verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21327",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

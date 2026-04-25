@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is an empirical research thesis (dated 2026, future/provisional) investigating supplier upgrading strategies in global value chains. It presents case study findings that are context-specific and subject to validation, replication, and theoretical refinement. The work is categorized as cs.AI but is fundamentally a social science study combining qualitative and quantitative evidence. Classification as FLOWING reflects its status as contemporary empirical research under ongoing peer review and theoretical development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7140161020",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "U = \\frac{E \\cdot (S + N)}{G} \\cdot \\sqrt[3]{A}",
+      "interpretation": "経済成長は社会と環境の調和を買収者の支配から解放するとき、階層の根から芽吹く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00ff88'/></defs><circle cx='50' cy='80' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='68' x2='50' y2='40' stroke='url(#grad)' stroke-width='2.5'/><rect x='35' y='25' width='30' height='12' stroke='#ec4899' stroke-width='2' fill='none' rx='2'/><polyline points='50,25 30,15 50,8 70,15' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 20 50 Q 35 45 50 55 Q 65 45 80 50' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "根（下からの声）が幹（経済）を育て、枝分かれ（複層的な目標）が光を求めて伸びる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

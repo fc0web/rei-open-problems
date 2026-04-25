@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper dated 2026-04-25 (future date) with combustion physics content categorized under cs.AI suggests either speculative/preprint status or temporal metadata anomaly. Flame propagation in narrow channels is empirically measurable but the specific claims require validation against established combustion theory and experimental data not yet reviewed in this evaluation context.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128664110",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S_L = \\frac{\\delta_L}{\\tau_c}\\left(1 - \\frac{d}{d_c}\\right)^{\\alpha}",
+      "interpretation": "狭い道が炎を窒息させるとき、速度は消える寸前の分数になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 50,50 80,50' stroke='#ff6b6b' stroke-width='3' fill='none'/><polyline points='50,30 50,70' stroke='#ffd700' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#7c3aed' opacity='0.6'/><path d='M 30 50 Q 40 45 50 50 Q 60 55 70 50' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "炎は矢の速度で進むが、壁の圧力で核は収縮し、消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

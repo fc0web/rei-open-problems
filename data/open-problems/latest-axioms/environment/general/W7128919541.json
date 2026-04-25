@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date from current knowledge cutoff), classified as preprint/working paper in arXiv-style metadata. Environmental risk assessment methodology exists and is formalizable, but this specific case study appears provisional, not yet peer-reviewed, and the future date suggests either: (a) metadata error, (b) speculative/planned assessment, or (c) document from outside training data. Cannot assign TRUE/FALSE until validation; not BOTH (no refutation evident); not NEITHER (it makes falsifiable claims about environmental risk); FLOWING best captures provisional status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "W7128919541",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

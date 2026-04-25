@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date from training cutoff), marked peer-reviewed but provisional status uncertain. Core claim—topological error detection via residual patterns in distribution networks—is technically sound in principle (CLASS-B domain) but validation status unknown. Future publication date prevents definitive TRUE classification; methodology appears plausible but requires full peer review confirmation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7133367052",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{E} = \\int_{\\partial \\Omega} \\nabla \\times \\mathbf{r}(\\mathbf{x}) \\, d\\sigma",
+      "interpretation": "ネットワークの境界を越える「ねじれ」が、隠れた誤りの幽霊を映し出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='20' fill='none' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 20 Q 65 35 70 50 Q 65 65 50 80' fill='none' stroke='#ec4899' stroke-width='2'/><polyline points='35,50 40,45 45,50 40,55' fill='#00ff88' stroke='#00ff88' stroke-width='1'/><polyline points='65,50 70,45 75,50 70,55' fill='#00ff88' stroke='#00ff88' stroke-width='1'/></svg>",
+      "interpretation": "ネットワークの正常な流れ（外円）と潜む奇形（内の破線）が、蛇のように巻き付く誤りを暴露する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

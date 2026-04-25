@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a provisional framework for leadership strategy in a complex sociotechnical domain (digital public services). It is not yet validated empirically, contains normative guidance components, and depends on contextual implementation. The document date (2026-04-25) indicates future publication status, supporting FLOWING classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128646703",

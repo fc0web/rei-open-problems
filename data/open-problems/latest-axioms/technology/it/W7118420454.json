@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional thesis (2026 date, embargoed abstract) addressing multi-disciplinary integration (governance, sustainability, AI). The truth-evaluability is suspended pending: (1) full abstract release post-embargo, (2) empirical validation of proposed integrated approach, (3) peer review of AI methodology for corruption detection. Currently cannot assess claim validity without substantive content access.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7118420454",

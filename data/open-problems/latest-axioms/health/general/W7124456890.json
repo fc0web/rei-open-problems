@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is a 2026-dated academic paper (future-dated or fictional) in Uzbek language analyzing cotton-textile industry clusters in developing countries. It presents provisional research findings on investment mechanisms and cluster development strategies. The axiomatic claims about cluster-driven industrial development are empirical propositions undergoing validation, not established theorems. The abstract is incomplete (cuts off mid-sentence), indicating draft/preprint status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124456890",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Investment}_{\\text{cluster}}}{\\text{Output}_{\\text{traditional}}} \\cdot e^{\\text{Innovation}} \\approx \\text{Export}_{\\text{competitive}}",
+      "interpretation": "クラスター投資は伝統的生産を革新の力で増幅し、競争力ある輸出へと変換される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='30' y2='52' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='38' x2='70' y2='52' stroke='#f59e0b' stroke-width='1.5'/><line x1='30' y1='68' x2='50' y2='72' stroke='#ffd700' stroke-width='1.5'/><line x1='70' y1='68' x2='50' y2='72' stroke='#ffd700' stroke-width='1.5'/><path d='M 50 88 Q 40 95 30 95' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 88 Q 60 95 70 95' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "多くの糸が中心で束ねられ、一つの強い流れとなり、輸出の根へ向かう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

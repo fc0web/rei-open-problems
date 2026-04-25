@@ -1,0 +1,150 @@
+{
+  "id": "SESSION-2026-04-25-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-04-25",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-04-25: Layer A: Site stats 自動更新 + Rei-Automator nav リンク追加",
+    "ja": "開発セッション 2026-04-25: Layer A: Site stats 自動更新 + Rei-Automator nav リンク追加",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-04-25. 23 commits, 65 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "2de3ae9",
+      "33b359c",
+      "19d0e48",
+      "c83f35c",
+      "0f77877",
+      "283921d",
+      "05b55b1",
+      "8950c97",
+      "2170809",
+      "458f131",
+      "cee078c",
+      "fd7b160",
+      "4669c24",
+      "7b85c91",
+      "69c021e",
+      "de167b9",
+      "9398d9a",
+      "e569574",
+      "fdaa5c9",
+      "7528a45",
+      "272de19",
+      "fb01cb1",
+      "8705cef"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 23,
+    "newFiles": {
+      "lean": 2,
+      "ts": 30,
+      "json": 1554,
+      "md": 1,
+      "other": 166
+    },
+    "newFilesTotal": 1753,
+    "newTheorems": 65,
+    "newScripts": [
+      "build-site-stats.ts",
+      "intuition-artifacts.ts",
+      "publish-paper-to-philarchive.ts",
+      "build-daily-banner.ts",
+      "dfumt8-haiku-classifier.ts",
+      "ipfs-multi-pin.ts",
+      "fix-tier7-index-totals.ts",
+      "ingest-latest-axioms.ts",
+      "ingest-tier7-13fields-batch.ts",
+      "build-public-metadb-manifest.ts",
+      "ingest-lean4-progress.ts",
+      "log-session-summary.ts",
+      "build-public-metadb-snapshot.ts",
+      "tier7-ai-pilot.ts",
+      "tier8-seed.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Layer A: Site stats 自動更新 + Rei-Automator nav リンク追加 / intuition-artifacts: fallback to title when abstract empty / fix: OGP image regression — restore universe simulator + OGP tags at /"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

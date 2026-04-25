@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated preprint in Uzbek on commercial bank investment project financing optimization. The axiom is provisional because: (1) it presents applied economic policy recommendations not yet peer-validated, (2) the date is future-positioned (suggests preprint/working paper status), (3) empirical claims about credit portfolio quality and cash-flow models require regional validation, (4) no formalized theorem or established institutional adoption is demonstrated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119998141",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^T C(t)\\,dt}{\\sqrt{P_0 \\cdot Q(t)}} = \\lambda \\cdot \\exp\\left(\\frac{\\sigma}{\\rho}\\right)",
+      "interpretation": "資金流の時間積分が、初期資本と信用品質の幾何平均に対する比は、リスク調整係数の指数関数として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 35 58 50' stroke='url(#g1)' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 42 50 Q 50 65 58 50' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><polyline points='30,38 30,20 70,20 70,38' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#ec4899'>CASH-FLOW</text></svg>",
+      "interpretation": "二つの資本ノード（銀行と事業）が上向きの時間流と下向きの信用品質フローで双方向に結合され、構造的革新が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

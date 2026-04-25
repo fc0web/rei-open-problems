@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an explicitly provisional, multi-version model (V3) that self-identifies as hypothesis rather than established theory. The authors explicitly state empirical verification failure should result in rejection. The framework is under active development (referenced V1, V2 iterations), unpublished companion philosophical framework, and positioned as pre-validated preprint requiring falsification testing. This matches FLOWING classification: provisional, undergoing change, not yet validated by peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124667864",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

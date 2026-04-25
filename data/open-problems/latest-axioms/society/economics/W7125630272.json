@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a methodological framework (2021–2026) presented in 2026, still under implementation/validation. The abstract is incomplete (cuts off mid-sentence at 'pati[ent outcomes]'), suggesting pre-publication status. The framework itself is provisionally structured but empirical results and validation remain in progress or unreported.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7125630272",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

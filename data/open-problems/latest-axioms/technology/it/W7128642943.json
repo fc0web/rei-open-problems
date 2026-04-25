@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional academic work (dated 2026, future timestamp suggests preprint/working paper status). The axiom concerns optimization algorithms for archipelago logistics—a domain where theoretical models exist but real-world validation across diverse geographic contexts remains incomplete. Hub location problems are NP-hard; network expansion involves contingent factors (infrastructure, climate, geopolitics). The work likely contains both established optimization theory (TRUE components) and novel heuristics requiring validation (FLOWING components).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128642943",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a dataset descriptor for experimental nanotechnology research (perovskite nanocrystals) with quantum yield measurements. The underlying experimental work is empirically grounded and partially formalizable, but the dataset itself is a provisional research artifact (dated 2026, preprint stage). The axiom's truth-value depends on validation of experimental protocols and reproducibility—not yet settled.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7153974563",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi_{\\text{qy}} \\sim \\frac{\\int_{\\lambda} I_{\\text{em}}(d) \\, dd}{\\sqrt{d^3} \\cdot \\sigma_{\\text{abs}}(\\lambda)}",
+      "interpretation": "量子粒子の輝きは、サイズと吸収の深さの共鳴から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 22 Q 60 35 65 50 Q 60 65 50 78' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 22 Q 40 35 35 50 Q 40 65 50 78' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "光と物質が踊る—核は共振の中心、波は粒子の本質を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

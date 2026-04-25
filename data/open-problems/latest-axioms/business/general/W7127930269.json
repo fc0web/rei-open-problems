@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely metadata error or preprint), appears incomplete (abstract cuts off mid-sentence at 'ke'). Content describes empirical socioeconomic research on donkey welfare in Ethiopia—factual subject matter exists, but validation status cannot be determined from incomplete submission. Classification as FLOWING reflects provisional/preprint state and incomplete presentation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.4
   },
   "cross_refs": {
     "arxiv": "W7127930269",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Donkey}_\\text{absent}}{\\text{Household}_\\text{resilience}} = \\int_0^\\infty \\text{Poverty}(t) \\, dt",
+      "interpretation": "見えない労働力の喪失は、無限に積み重なる貧困の重さとなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='70' stroke='#7c3aed' stroke-width='2'/><line x1='35' y1='55' x2='65' y2='55' stroke='#7c3aed' stroke-width='2'/><polyline points='50,70 40,85 60,85' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 20 50 Q 50 45 80 50' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>未計測の価値</text></svg>",
+      "interpretation": "地に足をつけた労働者が、見えない経済的足取りの上に社会を支えている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

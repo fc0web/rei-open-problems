@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional thesis abstract (2026-04-25, embargoed) describing an empirical educational intervention. The actual evidence base, methodology validity, and outcomes remain inaccessible pending embargo expiration. Classification as FLOWING reflects that truth-value cannot be assigned until full peer review and reproducibility assessment occur post-embargo.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7141512058",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\text{Skill}(\\mathbf{p}) \\, d\\mu(\\mathbf{p}) = \\lim_{n \\to \\infty} \\frac{1}{n}\\sum_{i=1}^{n} \\text{Haptic}(\\mathbf{p}_i)",
+      "interpretation": "患者固有の形態から習得する技能は、身体を通じた無限の反復で初めて統一される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><ellipse cx='50' cy='50' rx='30' ry='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='40' r='8' fill='none' stroke='#00ff88' stroke-width='1'/><circle cx='40' cy='55' r='5' fill='none' stroke='#00d4ff' stroke-width='1'/><circle cx='60' cy='55' r='5' fill='none' stroke='#00d4ff' stroke-width='1'/><path d='M 50 50 L 50 70' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "三次元の患者像が、手の知識と目の確実性を一つの身体へ融かす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

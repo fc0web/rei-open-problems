@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The manuscript presents policy-oriented applied research on green insurance product development in Uzbekistan. It is neither empirically proven nor refuted; it occupies a provisional space of policy recommendation and framework development that awaits validation through implementation and market testing. The claims are forward-looking and context-dependent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124991901",

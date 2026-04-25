@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document describes a medical intervention protocol (VIPROM Med.DocCard©) for domestic violence cases with standardized documentation procedures. This is provisional because: (1) it references a 2026 date (future/speculative), (2) medical protocols require ongoing validation across populations and jurisdictions, (3) the effectiveness of standardized injury documentation in legal contexts depends on implementation fidelity and judicial acceptance which varies regionally, (4) domestic violence response evolves with new evidence and policy",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7147604612",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom concerns a preprint (dated 2026-04 future date, flagged as provisional) describing simultaneous nitrification-anammox-denitrification (SNAD) processes in biofilters. The work integrates hydraulic-biogeochemical mechanisms. As a non-validated preprint, it occupies provisional status pending peer review and experimental replication. The technical claims are falsifiable but not yet established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127758869",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{NO}_3^- + \\text{NH}_4^+ \\to \\text{N}_2}{\\text{H}_2\\text{O}^\\downarrow \\cdot \\text{biofilm}^\\uparrow}",
+      "interpretation": "雨水の流れの中で、三つの窒素の変身が同時に踊る — 水が地を降り、生命が立ち上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.8'/></defs><path d='M 50 10 Q 30 35 50 60 Q 70 35 50 10' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='30' cy='50' r='6' fill='#00ff88' opacity='0.6'/><circle cx='50' cy='65' r='5' fill='#ec4899' opacity='0.7'/><circle cx='70' cy='50' r='6' fill='#f59e0b' opacity='0.6'/><polyline points='50,80 50,95' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='2,2'/><text x='50' y='98' font-size='8' fill='#7c3aed' text-anchor='middle'>N₂</text></svg>",
+      "interpretation": "水が浸み込み、微生物の三角形が同時に呼吸する — 地層の奥で無色のガスが生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

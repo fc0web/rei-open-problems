@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents an empirical climate study (1961-2010 dataset, 11 Libyan stations) with stated findings of negative AO-temperature correlation. However: (1) Abstract is incomplete/truncated ('The study also reveale'), suggesting unvalidated/preprint status; (2) Metadata inconsistency: publication date 2026-04-25 is future-dated relative to any current evaluation; (3) Categorized as cs.AI despite being atmospheric science/climatology, indicating possible miscategorization or meta-study status; (4) Core claim (AO influence on Libyan winter temps) is empirically testable but pending full peer review and complete manuscript validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7140230731",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "T_{\\text{Libya}}(t) = T_0 - \\alpha \\cdot \\text{AO}(t) + \\epsilon(t)",
+      "interpretation": "北極の息吹が遠く砂漠を冷やす—距離を無視した共鳴。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='20' cy='20' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='80' cy='80' r='18' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='32,28 68,72' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='4,4'/><line x1='20' y1='20' x2='80' y2='80' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>inverse tide</text></svg>",
+      "interpretation": "北極圏の渦が遠い砂の地を支配する—見えない糸で結ばれた反対の世界。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

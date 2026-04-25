@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom makes empirically verifiable claims (arbitrary detention occurs in conflict-affected states—TRUE per documented cases) while simultaneously presenting normative policy analysis (what *should* be done—inherently contestable). The paper's truth-value splits between factual assertions (refutable) and prescriptive claims (dialectical by nature). Classification as BOTH reflects coexistence of demonstrated phenomena with debated institutional remedies.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153898140",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a supplementary data release for an empirical biomedical study (2026 preprint). The underlying experimental claims are not yet peer-reviewed validation stage; the axiom itself concerns whether multi-omic EV profiling *reveals* specific biological signatures. Such claims are provisional pending replication, independent validation, and formal statistical peer review. The 'reveals' epistemology is empirical-inductive, not deductive.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134109600",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^t \\mathcal{P}(\\tau) \\cdot \\mathcal{M}(\\tau) \\cdot \\mathcal{S}(\\tau) \\, d\\tau = \\Omega_0 e^{\\lambda \\tau}",
+      "interpretation": "妊娠初期の胎盤・代謝・構造的適応が時間とともに指数関数的に共鳴する",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='22' stroke='#00ff88' stroke-width='1' fill='none'/><circle cx='50' cy='50' r='12' stroke='#00d4ff' stroke-width='1' fill='none'/><polyline points='50,50 70,30 65,50 75,55' stroke='#ec4899' stroke-width='1.2' fill='none'/><polyline points='50,50 35,70 45,55 30,65' stroke='#f59e0b' stroke-width='1.2' fill='none'/><path d='M 50 15 Q 55 35 50 50 Q 45 65 50 85' stroke='#ffd700' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "三層の小胞と大胞が中心から放射状に成長し、相互に信号を交わす生命の樹",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

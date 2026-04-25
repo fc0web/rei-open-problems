@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a novel framework linking governance structures to behavioral regulation through 'legislative process of behavioral law.' This is a preprint-stage contribution (dated 2026, future-projected or recent) that attempts to formalize normative-behavioral coupling. It is not yet established doctrine, contains speculative elements about AI governance mechanisms, and lacks peer validation in the evaluation context. The framework is undergoing theoretical development rather than proven or refuted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7134285721",

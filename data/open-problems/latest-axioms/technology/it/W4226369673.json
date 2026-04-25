@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a dataset paper (2026, preprint category) presenting empirical biological data (gene co-expression networks, qPCR validation). The core claims about hub gene predictive utility for drug response are provisional—awaiting peer review, independent replication, and clinical validation. The datasets themselves are concrete (BOTH true as artifacts AND requiring validation for claimed utility), but the predictive hypothesis remains under-tested in the stated domain.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W4226369673",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

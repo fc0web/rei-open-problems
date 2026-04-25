@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a 2026-dated preprint (future-provisional) proposing integrated computational modeling for algal-bacterial systems in AD wastewater. Claims are theoretically grounded (metabolic flux analysis, CFD, kinetics) but validation status unclear; the abstract indicates research direction rather than established results. Integration of multiple modeling paradigms (CA, CFD, AI) is novel but requires empirical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7136156022",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dX}{dt} = \\mu_{max} \\cdot \\frac{N \\cdot P}{K_N + N} \\cdot \\frac{1}{1 + \\frac{X}{X_{sat}}}",
+      "interpretation": "廃水の栄養が藻の増殖を支配し、密度に抵抗する自然の均衡がある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,50 65,35 78,42 72,55' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='50,50 35,65 42,78 55,72' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='serif'>nutrient flux</text></svg>",
+      "interpretation": "同心円は層をなす微生物世界、矢印は廃水から生命への栄養の流れを示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

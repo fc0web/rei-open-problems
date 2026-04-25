@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a archaeological artifact catalog/descriptive study (2026 preprint, not yet peer-reviewed in major venue). The claims about fibula typology, provenance, and dating are provisional pending expert archaeological consensus and further validation. The artifact itself is real (existing), but typological classification and historical interpretation remain under scholarly refinement.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154991943",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{enamel cells}}{\\text{distance from Rome}} \\propto \\text{child's journey}",
+      "interpretation": "ローマから遠く、琺瑯の三角形の迷宮が、消えた子どもの身体を追跡する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polygon points='50,20 65,45 35,45' fill='#ec4899' opacity='0.7'/><polygon points='50,35 60,50 40,50' fill='#ec4899' opacity='0.5'/><polygon points='50,48 57,60 43,60' fill='#ec4899' opacity='0.3'/><circle cx='50' cy='50' r='3' fill='#00d4ff'/><line x1='50' y1='50' x2='50' y2='15' stroke='#ffd700' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "琺瑯の三角形が深まる道。中心から放出される光は、埋められた誰かの記憶。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

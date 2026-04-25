@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Manuscript dated 2026-04-25 (future date, likely typo for 2024 or 2025) presenting integrative computational modeling of algal-wastewater systems. Claims are provisional and await peer validation. The synthetic integration of MFA, kinetics, cellular automata, CFD, and AI for algal growth prediction represents emerging methodology rather than established fact. Empirical validation status unclear from abstract alone.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7136156022",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^t \\mu(C) \\cdot X \\, dt}{\\nabla^2\\phi + \\sum \\text{flux}} = \\lim_{V \\to \\infty} \\frac{\\text{waste}}{\\text{growth}}",
+      "interpretation": "廃水の渦のなかで、微細藻は無秩序を秩序へ変える——時間、濃度、空間が一つのダンスになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><polyline points='30,50 50,30 70,50 50,70 30,50' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 25 Q 60 40 50 50 Q 40 60 50 75' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1' fill='#ffd700' opacity='0.6'/></svg>",
+      "interpretation": "汚水の黒い渦巻きのなかで、光が螺旋状に生命を編む——無から有へ、廃棄物が栄養に生まれ変わる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

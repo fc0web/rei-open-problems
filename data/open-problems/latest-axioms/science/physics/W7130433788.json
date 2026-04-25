@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper proposes a novel geometric framework (decoupling mechanism as boundary condition) with empirical local validation (eclipsing binaries, solar data) but makes extraordinary extrapolation to cosmic-scale physics (dark energy, Hubble tension). The core local claims are testable and show consistency; the cosmological projection lacks independent observational validation at the vacuum boundary scale. Status is provisional/preprint-not-yet-validated pending peer review and independent replication of boundary relation predictions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7130433788",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

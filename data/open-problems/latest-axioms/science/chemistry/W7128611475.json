@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper dated 2026 is a future publication (currently impossible to verify). Abstract is empty, preventing evaluation of claimed results. The title describes a materials science innovation, but without methodology, data, or peer review status, truth-value cannot be established. Classified as FLOWING pending actual publication and validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7128611475",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a review article (preprint, dated 2026-04-25) synthesizing existing microbial strain knowledge for organic fermentation. The claims about safety, functionality, and quality are evidence-based but the document itself is not yet peer-reviewed or published in final form. Individual strain assessments may be TRUE or BOTH (contested), but the overall synthesis is provisional and subject to validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7116978556",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-st} \\left(\\frac{\\text{Safety}}{\\text{Time}}\\right) \\cdot \\text{Flavor} \\, dt = \\text{Life}",
+      "interpretation": "時間と共に安全性が増し、風味が花開き、命が生まれる——発酵の本質。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#7c3aed' stroke-width='1.5'><path d='M 50 15 Q 35 40 50 65 Q 65 40 50 15'/><path d='M 20 50 Q 40 35 70 50 Q 40 65 20 50'/></g><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><text x='50' y='85' font-size='9' text-anchor='middle' fill='#ec4899' font-weight='bold'>FERMENT</text></svg>",
+      "interpretation": "微生物の踊りが、時間の中で秩序と実りを編む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

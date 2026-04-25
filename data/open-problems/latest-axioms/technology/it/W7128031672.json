@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated dissertation abstract presenting a novel evaluation framework. The work appears methodologically sound in premise but is marked as provisional: (1) the abstract is incomplete (cut mid-sentence at 'methodol'), (2) it describes a framework under development/validation rather than established results, (3) multi-dimensional human evaluation frameworks require extensive empirical validation across diverse corpora and annotator cohorts before achieving TRUE status, (4) the core claims (sentiment/emotion/argumentation preservation metrics) are theoretically motivated but empirical validation status is unknown from this abstract alone.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128031672",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a meta-methodological guide on research publishing practices. It describes established processes (peer review, proofs, dissemination) but is provisional in nature—publishing norms evolve, platforms shift, and best practices are under continuous refinement. The advice is validated through collective academic practice but not formally axiomatized. The 2026 date suggests real-time documentation of evolving praxis.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7153977180",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -21,14 +21,14 @@
   "proposer": "Yining Xing, Zehong Ke, Yiqian Tu et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper dated 2026-04-25 is a future/speculative publication timestamp (beyond current date). The technical claims are scientifically structured and testable, but validation status is indeterminate. The abstract is truncated ('enti[re]...'), preventing complete evaluation of the drifting-loss mechanism—a core novelty claim. Classification as FLOWING (provisional/under-validation) reflects: (1) future dating prevents confirmation of peer review, (2) incomplete abstract limits verification of key theoretical contributions, (3) method is computational/empirical rather than axiomatic.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "2604.21489",

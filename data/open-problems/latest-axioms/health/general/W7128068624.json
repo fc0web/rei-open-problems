@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is a 2026-dated thesis (future publication) with provisional scientific findings. CD7's role in AML pathogenesis is explicitly stated as 'largely unexplored'; the work presents novel characterization (proteomic/transcriptomic analysis) but appears incomplete (abstract truncates mid-sentence at 'Transcriptomic analysis of CD'). Claims are empirically grounded but require peer review validation and functional mechanism studies before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128068624",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{CD7} \\sim \\frac{1}{\\text{remission}} \\times \\text{relapse} \\times \\text{LSC burden}",
+      "interpretation": "CD7の発現は、寛解の逆数と再発と幹細胞負荷が奇妙に共鳴する領域を指す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='35' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 L 35 53' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><path d='M 50 38 L 65 53' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><polyline points='35,77 50,85 65,77' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上の異常細胞が双子の幹細胞へ焦点を合わせ、下へ消えていく通路——支配と衰退の幾何学。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

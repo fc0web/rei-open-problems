@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The thesis presents an empirically grounded critique (2021-2026 case evidence supports the paradox claim) while simultaneously engaging with contested theoretical premises about sovereignty, recognition, and legitimacy. The paradox itself—that recognition persists despite state capacity deficit—is factually observable but its causal interpretation (recognition as insulation from reform pressure) remains debated within IR scholarship. Both the phenomenon and its explanation coexist with legitimate counterarguments.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153200730",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

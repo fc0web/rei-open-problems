@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a historical scholarship submission (dated 2026, future-postdated) examining documented diplomatic and trade relations. The core factual claims about Ashtarkhanid-Ottoman interactions are evaluable against primary sources, but the axiom itself is provisional: the submission is recent, categorized under cs.AI (computationally anomalous for a history paper), and lacks peer validation markers. Historical synthesis claims ('highly favorable and constructive level') require contextual interpretation and source weighing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134967040",

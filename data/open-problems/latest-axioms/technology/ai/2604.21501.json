@@ -21,14 +21,14 @@
   "proposer": "Yitong Zhou, Mingyue Cheng, Jiahao Wang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "GeoMind is a 2026-dated preprint proposing a novel agentic architecture for lithology classification. The work is not yet independently validated in peer review. The core claims (that sequential agentic reasoning outperforms static discriminative mapping; that tool-augmented workflows improve geological coherence) are plausible and well-motivated but lack comparative benchmarks and reproducibility artifacts in the abstract. Classification as FLOWING reflects provisional status—likely technically sound but requiring empirical validation before acceptance as established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21501",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

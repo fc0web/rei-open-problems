@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a review article on miRNA biomarkers in RA (dated 2026, future date suggests preprint/provisional status). The core claims about miRNA roles in RA pathogenesis are empirically supported but the therapeutic applications and diagnostic utility remain under active investigation. The specific miRNA candidates (miR-16, miR-132, miR-146a, miR-155, miR-223) show promise but clinical translation is incomplete. Classification as FLOWING reflects provisional validation status of emerging biomarker strategies.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7118572875",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\text{silence}} = \\sum_{i} m_i \\cdot e^{-\\lambda_i t} + \\int \\text{chaos}\\, d\\mu",
+      "interpretation": "静寂の逆数は、微かな音声の減衰と混沌の積分として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ffd700' stroke-width='1' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ffd700' stroke-width='1' opacity='0.6'/><polyline points='50,50 65,35 70,50 60,60 65,75' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "複数の同心円が内側から外へ拡がり、消音された遺伝的シグナルが関節の炎症の渦巻きへ消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

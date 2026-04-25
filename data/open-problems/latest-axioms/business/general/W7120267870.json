@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper examines development trends in digital banking services in Uzbekistan as of 2026—a prospective analysis of an ongoing institutional transformation. The claims are empirically grounded in observable banking sector evolution but remain subject to future market conditions, regulatory changes, and technological advancement. The work is descriptive-analytical of dynamic processes rather than establishing timeless propositions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7120267870",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{analog}}}{\\text{Friction}} \\to \\text{Velocity}_{\\text{digital}} \\cdot \\text{Access}_{\\infty}",
+      "interpretation": "伝統的信頼を摩擦で割ると、デジタル速度と無限アクセスが現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 40 50 Q 50 35 60 50' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 40 50 Q 50 65 60 50' stroke='#ec4899' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='25' y1='35' x2='75' y2='65' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "左岸の信頼から右岸のスピードへ、双方向の流れが交差する変容。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

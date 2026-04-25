@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a genuine dialectical tension: cyberbullying harm is empirically documented and legally recognized (TRUE pole), yet the proposed regulatory framework necessarily constrains free speech protections that are constitutionally entrenched (FALSE pole). Both claims coexist without resolution in the abstract—the tension is resolved only through specific institutional judgment.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.82
   },
   "cross_refs": {
     "arxiv": "W7130484550",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Harm} = \\text{Intent} \\times \\text{Reach}^{\\text{Permanence}} \\times e^{-\\text{Context}}",
+      "interpretation": "デジタル空間では、意図が増幅され、文脈が失われるほど、傷は指数関数的に深まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.7'/><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.4'/><polyline points='50,50 65,35 72,28 80,20' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,50 35,65 28,72 20,80' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='88' font-size='10' text-anchor='middle' fill='#00ff88'>⟲</text></svg>",
+      "interpretation": "中心の意図から放射状に広がり、反響し、永遠に増幅される言葉の波紋。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents provisional applied research on green insurance product development in Uzbekistan based on ESG principles. It analyzes content, market positioning, and risk management applications with forward-looking recommendations. Classification as FLOWING reflects: (1) empirical/prescriptive nature requiring field validation, (2) policy-dependent conclusions tied to Uzbekistan's regulatory environment, (3) preprint status (dated 2026, future timestamp suggests provisional framework), (4) lack of peer-reviewed publication evidence in abstract metadata.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124841683",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{G} = \\int_{\\text{ESG}} \\frac{\\text{Risk}_{\\text{eco}}}{\\text{Coverage}_{\\text{green}}} \\, d(\\text{Resilience})",
+      "interpretation": "緑色保険が環境リスクを吸収するほど、市場の回復力が増す神秘的な調和。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#00d4ff' opacity='0.7'/><polyline points='30,50 40,45 50,50 60,55 70,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "生命と資本が螺旋を描き、緑色の光が中心で脈動する持続可能な生態。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

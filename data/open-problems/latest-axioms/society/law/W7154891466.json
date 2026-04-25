@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a biographical and historical reconstruction work submitted to cs.AI (computer science) in 2026—a category mismatch suggesting preprint/provisional status. The historical claims about Ivantsov-Platonov's life, influence, and intellectual evolution are not yet validated by peer review in appropriate history/theology journals. Biographical facts become established only through historiographic consensus, which this work is still undergoing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7154891466",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

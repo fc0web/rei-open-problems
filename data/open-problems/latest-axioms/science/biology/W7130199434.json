@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggesting provisional status) presenting empirical methodology for fluorescent imaging in haloarchaea. The claims are neither established fact nor refuted; they represent experimental work in progress pending peer validation and independent replication. The technical challenges cited (salt conditions, S-layer interference, cellular size) are known constraints, but the specific methodological solutions proposed remain unvalidated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130199434",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{\\infty} e^{-\\lambda s} \\sin(2\\pi \\nu t) \\, ds}{\\sqrt{\\sigma_{salt}^2 + \\sigma_{size}^2}}",
+      "interpretation": "塩漬けの宇宙で、微かな光の振動が自分自身を忘れていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><g stroke='#f59e0b' stroke-width='0.8'><line x1='20' y1='50' x2='30' y2='50'/><line x1='70' y1='50' x2='80' y2='50'/><line x1='50' y1='20' x2='50' y2='30'/><line x1='50' y1='70' x2='50' y2='80'/></g></svg>",
+      "interpretation": "濃い塩に包まれた極小の世界が、四方八方から光を求めて脈動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

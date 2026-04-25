@@ -21,14 +21,14 @@
   "proposer": "Mohit Vaishnav, Tanel Tammet",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents empirical findings on a controlled synthetic benchmark (Bongard-LOGO) with ground-truth generative programs. The core claim—that representational bottlenecks rather than reasoning capability explain VLM failures—is well-structured and supported by comparative experiments, but (1) generalization to real-world abstract reasoning remains unvalidated, (2) the diagnostic methodology (symbolic reformulation) is novel and not yet peer-validated, (3) the preprint date (2026-04-25) indicates this is pre-publication, and (4) the findings are contingent on the specific benchmark design and LOGO-style symbolic grammar used.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "2604.21346",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

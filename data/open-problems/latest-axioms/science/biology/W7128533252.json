@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date, likely data entry error or preprint placeholder). The title and metadata suggest empirical vaccine research in poultry immunology, but no abstract content is provided for evaluation. Classification as FLOWING reflects: (1) provisional/preprint status indicated by future timestamp, (2) inability to assess claims without abstract text, (3) typical pre-validation state of vaccine efficacy studies awaiting peer review and replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128533252",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

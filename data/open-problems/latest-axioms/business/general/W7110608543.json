@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical case study (Dangriga, Belize, 2026) presenting field research findings and preliminary recommendations. The thesis makes locally-grounded claims about post-crisis economic recovery barriers, but lacks formal theoretical validation, peer review completion status is unclear, and claims require longitudinal validation. The work is context-dependent and evolving.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7110608543",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Arrivals}_{\\text{national}}}{\\text{Growth}_{\\text{local}}} = \\frac{1}{\\text{Infrastructure} + \\text{Youth} + \\text{Politics}}",
+      "interpretation": "全国の繁栄が地方に届かぬ理由は、分母の三つの欠落にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='20' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='75' r='6' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='50' y1='32' x2='30' y2='52' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/><line x1='50' y1='32' x2='70' y2='52' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/><line x1='30' y1='68' x2='50' y2='69' stroke='#ffd700' stroke-width='1.5' opacity='0.4'/><line x1='70' y1='68' x2='50' y2='69' stroke='#ffd700' stroke-width='1.5' opacity='0.4'/></svg>",
+      "interpretation": "上の豊かさから下の三つの欠けた円へ、細く途切れた光の流れ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical case study in urban design governance (2026, presumably future-dated or speculative). The claims about Saudi Arabian waterfront planning processes are not yet validated through peer review or independent replication. The research methodology (comparative case study) produces context-dependent findings rather than universal theorems. Status: preprint/provisional knowledge under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127920137",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Governance}^2 + \\text{Actors}}{\\text{Process}} \\to \\text{Space Quality}",
+      "interpretation": "統治と行為者の張力が過程を通して空間の品質に変換される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 37 45 Q 50 35 63 45' stroke='#f59e0b' stroke-width='2.5' fill='none'/><path d='M 37 55 Q 50 65 63 55' stroke='#ec4899' stroke-width='2.5' fill='none'/><rect x='45' y='48' width='10' height='4' fill='#00ff88' opacity='0.8'/><text x='50' y='85' font-size='9' text-anchor='middle' fill='#7c3aed' font-weight='bold'>TENSION</text></svg>",
+      "interpretation": "二つの都市が上下の流れで相互作用し、中心に空間の質が沈殿する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

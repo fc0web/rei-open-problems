@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a normative-empirical hybrid. Empirically verifiable claims (BIT structures, SDG alignment mechanisms, Chad case data) exist and are evaluable as TRUE/FALSE. Simultaneously, the prescriptive framework (whether BITs *should* serve SDGs, optimal policy design) contains genuine dialectical tension between investor protection regimes and development sovereignty—both positions have defensible scholarly support.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154123239",

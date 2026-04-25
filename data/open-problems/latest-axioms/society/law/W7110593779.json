@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "National Reconciliation Week 2026 is a provisional future event (scheduled for May 27–June 3, 2026). As of the evaluation date, its actual occurrence, specific outcomes, and real-world impact remain contingent on implementation. The abstract describes an announced intention/plan rather than an accomplished fact. The theme and framing are subject to change prior to execution.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7110593779",

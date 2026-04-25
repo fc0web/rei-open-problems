@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper proposes a novel geometric framework deriving G from Λ through boundary normalization. This is a preprint (2026-04-25) making extraordinary claims (resolving the cosmological constant problem) that require independent peer validation. The mathematical structure appears rigorous but the physical interpretation and empirical testability remain unestablished. Status: provisional conjecture, not yet consensus-validated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.32
   },
   "cross_refs": {
     "arxiv": "W7130733416",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

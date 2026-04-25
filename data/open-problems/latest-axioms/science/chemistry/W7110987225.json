@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Dataset represents empirical experimental observations (2026 date suggests preprint/provisional status). Cooperativity claims are testable but require peer validation. The mechanochemical mechanism underlying Mg²⁺/Ca²⁺ substitution effects is partially established biochemistry, but the specific dataset's novel findings remain unvalidated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7110987225",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{v_{\\text{Mg}^{2+}}}{v_{\\text{Ca}^{2+}}} \\approx \\frac{1 + \\alpha K_m}{1 + \\beta K_m}, \\quad \\alpha \\gg \\beta",
+      "interpretation": "Mg²⁺の協調性は分母の抑制を通じて触媒効率を増幅し、Ca²⁺はこの対称性を破壊する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='42' y1='50' x2='58' y2='50' stroke='#00d4ff' stroke-width='1.5'/><line x1='62' y1='50' x2='78' y2='50' stroke='#ec4899' stroke-width='2' stroke-dasharray='3,2'/><polyline points='30,35 50,20 70,35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed'>Mg²⁺→Ca²⁺</text></svg>",
+      "interpretation": "三つの結合サイトが調和した青緑色の合唱から、破線のピンクの不協和へと崩壊する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

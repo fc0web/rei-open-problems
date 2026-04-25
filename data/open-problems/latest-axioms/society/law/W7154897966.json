@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a historical-theological claim about Hussite confession practices grounded in primary source interpretation. Historical scholarship on this topic exhibits genuine disagreement: some sources support the chiliastic motivation thesis (Kaminsky, Macek), while others emphasize socio-political factors or resist teleological readings. The claim is neither provably true nor false, but rather a contested scholarly interpretation where competing frameworks coexist.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154897966",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

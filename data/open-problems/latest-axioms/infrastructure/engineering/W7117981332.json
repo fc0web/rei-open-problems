@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom addresses a causal/correlational claim (eye-hand coordination → basketball shooting skill) supported by empirical study design, but the abstract is incomplete (text cuts off mid-methodology), lacks results/conclusions, and uses non-standard English phrasing suggesting preprint/early-stage manuscript status. The core hypothesis is plausible and testable but not yet validated through complete peer review or publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7117981332",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{\\theta} \\sin(\\alpha) \\, d\\alpha}{\\sqrt{1 + \\left(\\frac{d\\beta}{dt}\\right)^2}} = \\text{aim}",
+      "interpretation": "眼と手の流れが、軌跡の曲率を通じて目標へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='20' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 28 Q 35 50 50 68' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 28 Q 65 50 50 68' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#f59e0b' stroke-width='1' opacity='0.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "眼（上）から手（下）へ、二つの螺旋的な経路が同期し、中心軸が安定を保つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggests provisional status) presenting empirical results from a large dataset (n=28,481). The claim is testable and partially validated through the dataset, but lacks peer review, independent replication, and published confirmation. The methodology appears sound but requires external validation before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135183153",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} a_i \\cdot \\omega_i}{\\sqrt{\\text{mass} \\cdot \\text{speed}}} \\sim P(\\text{fracture})",
+      "interpretation": "加速度の調和が質量と速度の幾何平均に比例するとき、破壊の影は近づく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 35,45 50,55 65,48 80,52' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='20' cy='50' r='3' fill='#ffd700'/><circle cx='80' cy='52' r='3' fill='#ffd700'/><path d='M 50 20 L 50 80' stroke='#7c3aed' stroke-width='1.5' opacity='0.6' stroke-dasharray='3,3'/><text x='50' y='95' font-size='10' fill='#00d4ff' text-anchor='middle'>微動→断裂</text></svg>",
+      "interpretation": "馬体を巡る振動の波が、見えない臨界点へ収束していく運命。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

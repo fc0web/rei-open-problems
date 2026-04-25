@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with abstract withheld. No evaluable content is available for axiom classification. The work itself may be legitimate, but the provisional axiom—the actual scientific claim—is observation-impossible in current form.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7124468638",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\lambda t} \\sin(\\omega t) \\, dt = \\frac{\\omega}{\\lambda^2 + \\omega^2}",
+      "interpretation": "分子の自己組織化は振動する秩序と減衰の共鳴である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#7c3aed' stroke-width='1.5' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#7c3aed' stroke-width='1.5' opacity='0.6'/><polyline points='50,50 65,35 75,45 70,60' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,50 35,35 25,45 30,60' stroke='#ec4899' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "金の核を取り巻く分子の鎖が秩序ある幾何学的ダンスを踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a literary-historical interpretive claim about a lesser-known saga text. It proposes a causal link (cultural openness → peaceful Christianization) based on thematic analysis of free will and reconciliation motifs. This is provisional scholarship: textual interpretation is subject to hermeneutic revision, the saga's dating/authorship may be contested, and the causal mechanism (openness → religious adoption) is speculative rather than empirically established. The work appears unpublished (future date: 2026-04-25) and requires scholarly validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "W7134254065",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

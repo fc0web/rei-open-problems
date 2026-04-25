@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (arXiv 2026-04-25) presenting novel theoretical results on decentralized learning algorithms for belief-dependent generalized Nash equilibria under partial observability. The work combines game theory (GNE), multi-agent learning, and information-theoretic constraints. As an unvalidated preprint, it occupies provisional status—claims are not yet peer-reviewed, convergence proofs may contain gaps, and empirical validation is limited. The theoretical framework itself is internally consistent but awaits community scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.6
   },
   "cross_refs": {
     "arxiv": "W7131550194",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\mathbb{E}_{\\sigma_i}\\left[\\nabla_i V_i \\mid \\mathcal{F}_i\\right] \\rightharpoonup 0",
+      "interpretation": "各エージェントの信念に基づく勾配流が、部分情報の霧の中で均衡へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='#00d4ff' stroke-width='1.5' fill='none'><circle cx='30' cy='30' r='8'/><circle cx='70' cy='30' r='8'/><circle cx='50' cy='70' r='8'/><path d='M 30 38 Q 50 50 70 38'/><path d='M 30 38 Q 50 60 50 62'/><path d='M 70 38 Q 50 60 50 62'/></g><g stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.6'><circle cx='50' cy='50' r='35'/><circle cx='50' cy='50' r='25'/></g><path d='M 50 25 L 50 75' stroke='#ec4899' stroke-width='1' opacity='0.5'/><path d='M 25 50 L 75 50' stroke='#ec4899' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "三つのエージェントが不完全な視界の層を通して、暗黙の合意へ螺旋を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

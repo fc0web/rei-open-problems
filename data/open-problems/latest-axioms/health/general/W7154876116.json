@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional organizational case study (dated 2026, appears to be near-future or speculative). It reports empirical findings from a culture audit but lacks peer review, statistical rigor, or formal validation. The conclusions are experience-based observations rather than established facts. Marked FLOWING because the work is descriptive, audit-stage, and dependent on ongoing organizational context.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154876116",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Impact} = \\sum_{i=1}^{n} \\frac{1}{\\text{effort}_i} \\cdot \\text{care}_i",
+      "interpretation": "努力の逆数と優しさの積が、予期しない倍率で響き渡る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' fill='#ec4899'/><circle cx='35' cy='40' r='6' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='65' cy='40' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='6' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 58 Q 45 63 40 68' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 58 Q 55 63 60 68' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 58 L 50 76' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "中心の鼓動から三つの存在へ、細い糸が希望の網を織く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

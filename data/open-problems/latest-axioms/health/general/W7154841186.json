@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper proposes improvements to investment mechanisms for ecological innovation projects in green economy transition. This is a policy/framework recommendation under active development (preprint status, 2026 date suggests emerging work). The mechanisms are not yet validated empirically across diverse contexts, and their effectiveness depends on implementation parameters not fully specified in the abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154841186",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^t G(\\tau) \\cdot I(\\tau) \\, d\\tau}{\\sqrt{E(t)}} = \\lim_{n \\to \\infty} \\sum_{i=1}^n w_i \\cdot \\rho_i",
+      "interpretation": "緑の経済への移行は、生態的革新への投資流と環境効果の積分により、多元化された資金源の重み付き収束として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='3'/><circle cx='50' cy='50' r='20' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 50 15 Q 65 35 75 50 Q 65 65 50 85 Q 35 65 25 50 Q 35 35 50 15' fill='none' stroke='#f59e0b' stroke-width='2.5' opacity='0.8'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "投資メカニズムの中心に固定された核があり、その周囲を多層的な資金源と革新エネルギーが螺旋状に循環する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

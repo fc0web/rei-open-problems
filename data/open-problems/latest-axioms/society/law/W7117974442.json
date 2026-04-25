@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom concerns legal doctrine (criminal liability under statutory codes) which has formally established rules, BUT the application to paranoid schizophrenia defendants involves empirical psychiatric classification, judicial discretion, and normative contestation about culpability thresholds. Both codified law (TRUE dimension) and clinical/ethical interpretation (FALSE/NEITHER dimensions) coexist without complete resolution.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7117974442",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

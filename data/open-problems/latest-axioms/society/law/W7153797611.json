@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is a survey/research article in early or preprint stage (dated 2026, future-dated or metadata anomaly). It addresses an empirical policy domain (child protection in humanitarian settings) where evidence is accumulating but no single ground truth exists. The axiom itself—that civil society plays a role in child protection—is widely supported but contextually variable and under continuous refinement based on operational experience.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153797611",

@@ -21,14 +21,14 @@
   "proposer": "Simon Jarvers, Orestis Papakyriakopoulos",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes an empirical action research study (2026-04-25) addressing a real governance implementation gap. The legal-text-to-action pipeline and patterns identified are provisional findings from embedded research, not yet independently validated or peer-reviewed in final form. The 'Last Mile Challenge' framing is emergent scholarship under active development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21554",

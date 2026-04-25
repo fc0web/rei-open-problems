@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper presents novel geometric formalism (boundary invariant 𝒳) with analytical reduction to mass-independent identity and observational validation across stellar systems. However: (1) preprint dated 2026-04-25 indicates future/speculative status; (2) claims of 'exact' identity require independent peer verification; (3) projection to cosmic horizon mentioned but incomplete in abstract; (4) relationship to established holographic principle (AdS/CFT) unclear and potentially conflictual. The work exhibits internal mathematical coherence but lacks consensus validation. Classification FLOWING reflects provisional theoretical status pending community peer review and independent replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7130842115",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

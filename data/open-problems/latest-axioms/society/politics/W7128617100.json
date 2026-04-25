@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is an empirical research study (mixed-methods, n=341 surveys + 20 interviews) examining a contemporary educational transition phenomenon. The work is dated 2026-04-25 (future/preprint status), employs established theoretical frameworks (I-E-O model, activity theory), but findings are not yet validated through peer review or replication. The phenomenon itself (blended learning transitions for Chinese undergraduates at transnational EMI universities) is observable and real, but the specific causal claims and generalizability remain provisional pending publication and external validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128617100",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper exhibits multiple red flags suggesting preprint status without peer validation: (1) claims 'definitive audit' of unreferenced 'ARK5Q-12D protocol' with no prior literature; (2) invokes '12-dimensional Calabi-Yau geometry' alignment as quantum state descriptor without mathematical formalism or physical justification; (3) '100 TeV environments' in lab context implausible (LHC-scale energies); (4) suspiciously round performance metrics (99.95% fidelity); (5) incomplete abstract suggesting draft state; (6) author name 'Brito Commander C.T' atypical for academic publication; (7) no experimental methods, hardware specifications, or reproducibility details provided. Structure mimics legitimate quantum research but lacks falsifiable claims.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.12
   },
   "cross_refs": {
     "arxiv": "W7150936321",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

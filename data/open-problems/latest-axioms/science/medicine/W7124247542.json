@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom represents a provisional research direction (preprint status, 2026 date suggests forward-looking work) that integrates two knowledge systems with asymmetric validation maturity. Biotechnology framework is CLASS-A formalizable; Ayurveda lacks peer-reviewed mechanistic validation at scale. The integration itself is not yet empirically established as a coherent clinical paradigm, making it a working hypothesis under active development rather than a proven or refuted theorem.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7124247542",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

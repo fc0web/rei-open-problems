@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is content-empty: only metadata and embargo notice provided. No thesis body, abstract content, claims, or propositions are accessible for truth-evaluation. Classification is ZERO (observation-impossible/context-dependent) because the actual axiom or hypothesis cannot be assessed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7148787137",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^T \\text{Carbon}(t) \\, dt}{\\prod_{i=1}^{n} \\text{Engine}_i} \\to 0",
+      "interpretation": "エンジンの種類を増やすほど、炭素の累積は消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50' stroke='#00ff88' stroke-width='3' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><line x1='50' y1='15' x2='50' y2='85' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "上昇する緑の道と消える桃色の道が、転換の迷路を交差する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

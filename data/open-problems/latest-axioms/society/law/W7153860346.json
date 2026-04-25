@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a provisionally structured empirical study (ethnographic, dated 2026-04-25, preprint status indicated). It makes contingent claims about whistleblowing legal protections and organizational culture in African (specifically Namibian) corporate contexts. These are not universal theorems but context-dependent institutional findings currently under peer validation. The claims are testable and refutable but not yet established as settled fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153860346",

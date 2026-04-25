@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a structured empirical-analytical framework (trade-sanctions-human rights nexus) that is provisionally sound but requires peer validation. The 2026 dating and 'working paper' status indicate pre-publication state. The core claim—that sanctions conditionality effectiveness varies by regional integration context—is theoretically defensible but empirically contingent on case data not fully specified in the abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153856569",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a novel theoretical framework (v0.5, dated 2026-04-25) combining relativistic MHD with plasma stability criteria. It is a preprint/provisional formulation not yet peer-validated in mainstream physics venues. The claimed invariant threshold Π=8 and its derivation from relativistic causality constraints on Alfvénic propagation are mathematically structured but require empirical validation against Z-pinch experiments and independent theoretical verification. Status: under development, not yet canonical.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7125388705",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

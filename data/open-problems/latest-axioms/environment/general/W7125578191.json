@@ -27,7 +27,7 @@
     "secondaryType": "BOTH",
     "dfumt8": "BOTH",
     "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
+    "rationale": "classifier=rule-based-fallback-haiku-error",
     "confidence": 0.6
   },
   "cross_refs": {
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} (P_{i} \\cdot S_{i})}{T_{UHI}} \\sim e^{-\\lambda d}",
+      "interpretation": "太陽エネルギーの分散が都市熱島を指数関数的に冷ますという直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ffd700;stop-opacity:1'/><stop offset='100%' style='stop-color:#f59e0b;stop-opacity:0.3'/></defs><circle cx='50' cy='30' r='20' fill='url(#g1)' stroke='#ffd700' stroke-width='1.5'/><circle cx='30' cy='65' r='8' fill='none' stroke='#00d4ff' stroke-width='1.5'/><circle cx='50' cy='72' r='8' fill='none' stroke='#00d4ff' stroke-width='1.5'/><circle cx='70' cy='65' r='8' fill='none' stroke='#00d4ff' stroke-width='1.5'/><polyline points='50,50 30,65 50,72 70,65 50,50' fill='none' stroke='#7c3aed' stroke-width='1.2' opacity='0.7'/><path d='M 50 50 Q 35 50 25 75' fill='none' stroke='#00ff88' stroke-width='1' opacity='0.6'/><path d='M 50 50 Q 65 50 75 75' fill='none' stroke='#00ff88' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "中心の太陽から分散化されたノードへ流れるエネルギー、相互接続された冷却ネットワークの像。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

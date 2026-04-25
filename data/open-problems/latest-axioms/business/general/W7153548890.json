@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is a preprint (2026 date, not yet peer-reviewed). Title-abstract mismatch and categorical misclassification (African Studies content filed under cs.AI) suggest provisional/unvalidated submission status. Claims about trade patterns are empirically testable but not yet established in this source.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153548890",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Norms}^{\\text{distance}}}{\\text{Trade}_{\\text{friction}}} \\approx \\sqrt[3]{\\text{Potential}_{\\text{latent}}}",
+      "interpretation": "国際的規範と地域的現実の乖離が、隠れた発展の可能性を露わにする。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 35 55 45' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='35,50 65,50' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='75' font-size='10' fill='#f59e0b' text-anchor='middle'>friction</text></svg>",
+      "interpretation": "二つの経済圏が弾力的な緊張のなかで交わり、新たな道が浮かぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

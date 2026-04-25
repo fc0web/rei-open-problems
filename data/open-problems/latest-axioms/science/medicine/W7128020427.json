@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom concerns a future-dated (2026) research proposal on data augmentation for drug discovery. As a provisional research direction, it is neither established fact nor refuted. The claim is empirically testable but remains unvalidated preprint status. The core proposition—that entity relationships improve augmentation effectiveness—is plausible but requires experimental validation across multiple datasets and drug discovery pipelines. Classified as FLOWING because the work is dated post-submission and describes an active research frontier.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128020427",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

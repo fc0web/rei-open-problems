@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is observation-impossible in its current form. The abstract is embargoed/withheld, making it impossible to evaluate the substantive axiom content. The categorization as 'cs.AI' appears incongruent with the biological/biochemical subject matter (uronylated oligosaccharides, neonatal gut mucin), suggesting possible metadata error or cross-disciplinary miscategorization. Without access to thesis body, no truth-value or formalizability assessment is feasible.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7128034803",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{gut}}^{\\text{milk}} \\frac{\\text{Uronyl}(t) \\cdot \\text{Mucin}(t)}{\\text{barrier}} \\, dt = \\text{Signature}_{\\text{neonatal}}",
+      "interpretation": "母乳の分子が腸壁を越えて、赤ちゃんの体が読む暗号になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><ellipse cx='50' cy='70' rx='18' ry='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 Q 45 55 50 58' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 Q 55 55 50 58' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='88' font-size='8' fill='#ffd700' text-anchor='middle'>flux</text></svg>",
+      "interpretation": "母と子を結ぶ糖の通路、見えない橋が信号を運ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

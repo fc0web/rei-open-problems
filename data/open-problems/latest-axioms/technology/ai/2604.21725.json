@@ -21,14 +21,14 @@
   "proposer": "Wujiang Xu, Jiaojiao Han, Minghao Guo et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "AEL is a provisional framework (preprint, dated 2026-04-25) describing an adaptive agent architecture combining Thompson Sampling with LLM reflection. The approach is theoretically motivated and empirically testable, but lacks final validation, peer review, or demonstrated reproducibility across diverse open-ended environments. The core claim—that two-timescale learning of retrieval policy + causal reflection improves stateful behavior—is neither proven nor refuted in the abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21725",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

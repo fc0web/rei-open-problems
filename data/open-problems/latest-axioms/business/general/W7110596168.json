@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a genuine dialectical tension: empirical evidence supports both prosperity outcomes (foreign exchange, employment, infrastructure) AND precarity outcomes (volatility, monoculture risk, environmental degradation, labor exploitation). No single truth value resolves the question without context specification (which country, which tourism model, which time horizon, which distribution of benefits).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7110596168",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(t) = \\frac{G_0 e^{\\lambda t}}{1 + \\alpha V(t)} - \\beta S(t)",
+      "interpretation": "観光成長は外的動揺と構造的脆弱性の重みで必ず折れ曲がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,42 35,65 50,75 65,65 50,42' stroke='url(#g1)' stroke-width='2.5' fill='none'/><path d='M 35 65 Q 30 75 25 85' stroke='#f59e0b' stroke-width='2' fill='none' stroke-dasharray='3,3'/><path d='M 65 65 Q 70 75 75 85' stroke='#7c3aed' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "一つの光源から分岐する道：一方は確実な衰退へ、他方は不透明な上昇へ向かう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

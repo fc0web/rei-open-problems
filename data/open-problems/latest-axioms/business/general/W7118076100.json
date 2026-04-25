@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional empirical study on ICH product internationalization strategies. The findings are observational and prescriptive rather than formally proven. The abstract describes a case study with expert consultation that is not yet validated through publication or peer review (marked as 2026-04-25, preprint status). The claims about 'shortcomings' and 'advice' are context-dependent and subject to revision as communication channels evolve.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118076100",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Heritage}_{\\text{depth}} \\times \\text{Digital}_{\\text{reach}}}{\\text{Friction}_{\\text{border}}} \\to \\text{Influence}_{\\text{global}}",
+      "interpretation": "糸と数字が絡み合う時、文化は国境を超えて流れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='10' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 Q 35 55 30 60' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 Q 65 55 70 60' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='30,80 50,50 70,80' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "古い糸が、光のネットワークを通じて、世界の手へ届く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

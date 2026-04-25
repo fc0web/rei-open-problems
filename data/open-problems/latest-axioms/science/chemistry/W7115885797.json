@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The manuscript is dated 2026-04-25 (future date, likely data entry error or preprint not yet peer-validated). The abstract is incomplete ('This review provide' truncates mid-sentence). The content itself—enzymatic mechanisms of fruit ripening—represents well-established plant biology, but the specific document's validation status is suspended pending publication and verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7115885797",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Softness} \\propto \\frac{\\prod_{i} E_i}{\\text{Walls}} \\cdot e^{\\text{Ethylene}}",
+      "interpretation": "エチレンが酵素の合奏を解き放ち、壁を食い尽くすほどに柔らかさが生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 25 Q 65 50 50 75 Q 35 50 50 25' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5'><line x1='30' y1='50' x2='20' y2='50'/><line x1='70' y1='50' x2='80' y2='50'/><line x1='50' y1='30' x2='50' y2='20'/><line x1='50' y1='70' x2='50' y2='80'/></g></svg>",
+      "interpretation": "堅い細胞壁の網目が酵素に蝕まれ、内から外へ弱さが波紋のように広がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

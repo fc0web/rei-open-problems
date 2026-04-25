@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a novel theoretical derivation framework (2026 date, preprint status) claiming to resolve the cosmological constant problem through geometric boundary methods. The core claim—deriving G from Λ via dimensionless π³/15 relation—is mathematically structured but lacks peer validation, experimental confirmation, or independent reproducibility verification. The abstract is incomplete (cuts mid-sentence), suggesting early-stage manuscript. Classification as FLOWING reflects: (1) provisional status pending review, (2) mathematically coherent but physically untested claims, (3) incompleteness preventing full evaluation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130724122",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15\\Lambda R_H^2 N}",
+      "interpretation": "重力は境界の離散情報と宇宙定数の幾何学的共鳴から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ffd700' stroke-width='1.5' fill='none'/><polyline points='50,50 50,5' stroke='#ec4899' stroke-width='1' fill='none' stroke-dasharray='2,2'/><polyline points='50,50 95,50' stroke='#ec4899' stroke-width='1' fill='none' stroke-dasharray='2,2'/><text x='48' y='52' font-size='10' fill='#00ff88' font-weight='bold'>π³/15</text></svg>",
+      "interpretation": "同心円の離散的な幾何学が、内側の力を外側の宇宙と結ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a provisional research framework (diagnostic gap analysis methodology) that is empirically grounded but not yet established as universal truth. The work combines existing public databases and institutional initiatives (DISCONTOOLS, STAR IDAZ IRC) into a novel analytical framework. Classification as FLOWING reflects: (1) preprint/early-stage status (2026 date suggests recent submission), (2) narrative review structure (not yet validated through peer review outcomes), (3) gap-identification methodology that is inherently iterative and subject to refinement as new data emerges.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7127081200",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Gap} = \\int_{\\text{known}}^{\\text{unknown}} \\frac{1}{\\text{data density}} \\, d\\sigma",
+      "interpretation": "データの密度が低いほど、診断と現実のあいだの溝が深くなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 37 50 L 63 50' stroke='#ec4899' stroke-width='3' stroke-dasharray='4,3'/><g><text x='20' y='75' font-size='10' fill='#00d4ff' font-weight='bold'>Known</text><text x='65' y='75' font-size='10' fill='#7c3aed' font-weight='bold'>Unknown</text><text x='42' y='40' font-size='9' fill='#ec4899' font-style='italic'>Gap</text></g></svg>",
+      "interpretation": "既知と未知のあいだの断絶が、動物衛生の診断的風景を分断する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

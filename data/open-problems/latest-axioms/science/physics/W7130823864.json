@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper proposes a novel derivation of gravitational constant G from cosmological parameters via holographic principles. It is not yet peer-reviewed (arxiv preprint status, 2026 future date suggests speculative metadata), contains specific mathematical claims (π³/15 identity, ΛR_H² relation) that require independent validation. The work presents internal logical structure but lacks external corroboration. Classification as FLOWING reflects provisional status pending community review and empirical/theoretical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130823864",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Preprint-stage theoretical physics claiming novel derivation of fundamental constant G from Λ. No peer review timestamp provided; abstract cuts off mid-sentence indicating incomplete manuscript. The π³/15 identity and holographic boundary framework are mathematically stated but require independent verification of: (1) derivation rigor, (2) physical consistency with GR/QFT, (3) resolution mechanism for cosmological constant problem. Provisional status justified—potentially innovative but unvalidated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130754423",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a provisional phenomenological claim about money's ontological status (mind-dependent value perception) combined with normative assertions about consciousness and social agreements. It is neither established fact nor refuted, but rather a preprint-stage philosophical hypothesis undergoing formulation. The claim that 'monetary quality exists in the mind' is under-validated empirically and theoretically.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7128707197",

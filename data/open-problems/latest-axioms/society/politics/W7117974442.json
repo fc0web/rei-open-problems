@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The proposition contains both established legal doctrine (criminal liability frameworks exist and are codified) AND genuine unresolved normative debate (whether paranoid schizophrenia should reduce/eliminate liability remains contested across jurisdictions and ethical theories). The comparative analysis between old and new Indonesian Criminal Code is factually evaluable, but the underlying question of *appropriate* liability allocation for severe mental disorder defendants is dialectical.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7117974442",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

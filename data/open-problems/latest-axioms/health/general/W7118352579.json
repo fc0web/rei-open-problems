@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom represents a preprint (dated 2026-04-25) in an emerging interdisciplinary field (veterinary regenerative medicine). The manuscript is not yet peer-reviewed or validated. Core claims about MSC efficacy and BTE are supported by experimental literature but clinical translation remains incomplete and outcomes are provisional. The field itself is under active theoretical and empirical development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118352579",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Healing} = \\lim_{t \\to \\infty} \\left(\\text{MSC} \\cdot \\text{Scaffold}\\right)^{\\text{Paracrine}} + \\text{Defect}",
+      "interpretation": "欠損は足し算ではなく、生きた因子の共鳴によって消える",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><g id='nodes'><circle cx='35' cy='35' r='3' fill='#ec4899'/><circle cx='65' cy='35' r='3' fill='#ec4899'/><circle cx='50' cy='65' r='3' fill='#ec4899'/><circle cx='50' cy='35' r='2' fill='#00ff88'/></g><polyline points='35,35 50,35 65,35 50,65' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 50 Q 45 40 40 35' stroke='#ffd700' stroke-width='1' fill='none' stroke-dasharray='2,1'/></svg>",
+      "interpretation": "折れた骨の中心から、四方八方に根が張ったように再生が広がる",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

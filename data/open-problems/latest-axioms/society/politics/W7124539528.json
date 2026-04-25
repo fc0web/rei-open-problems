@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a provisional research synthesis (literature review/meta-analysis) dated 2026 with incomplete abstract. It identifies five success factors (People, Technology, Pedagogy, Financial Cost, Organization) for ICT-in-education initiatives in LMICs. This is not an established empirical finding nor a refuted claim, but rather a structured framework under active scholarly debate. The incomplete conclusion and future-dated publication suggest ongoing validation. Claims about ICT 'potential' are context-dependent and empirically evolving across heterogeneous LMIC settings.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124539528",

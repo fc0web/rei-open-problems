@@ -21,14 +21,14 @@
   "proposer": "Jun Wang, Ziyin Zhang, Rui Wang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "TingIS is a 2026-dated system paper describing an operational architecture for incident discovery. The work is empirically grounded (enterprise deployment context) but the abstract is incomplete and key validation claims are cut off. The system itself exists/functions (can-be-made status), but scientific claims about effectiveness, generalization, and theoretical contributions remain unvalidated in the provided fragment. This is characteristic of preprint/provisional research awaiting full peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21889",

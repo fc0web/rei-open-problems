@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is presented as a foundational principle for a novel theoretical framework (Q-Field Geometry, 2026). It combines established concepts (quantum fields, information theory, topology) in a new configuration but lacks peer review, empirical validation, or formal mathematical derivation. The Bulgarian-language preprint status and absence of cited supporting theorems place it in provisional/pre-validation territory characteristic of FLOWING classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7123327528",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\int_{\\text{relations}} \\sqrt{\\det(g_{ij})} \\, d\\mu \\, e^{i\\hbar^{-1}\\mathcal{L}_{\\text{coherence}}}",
+      "interpretation": "空間は関係の織物であり、その幾何学的コヒーレンスが物質を召喚する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='45' fill='url(#g1)' stroke='#00d4ff' stroke-width='1.5'/><g stroke='#7c3aed' stroke-width='0.8' opacity='0.6'><line x1='20' y1='50' x2='80' y2='50'/><line x1='50' y1='20' x2='50' y2='80'/><path d='M 35 35 Q 50 30 65 35' fill='none'/><path d='M 35 65 Q 50 70 65 65' fill='none'/></g><circle cx='50' cy='50' r='8' fill='#00ff88' opacity='0.7'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "幾何学は内側から呼吸し、関係の網が波動する中心から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a meta-analytical legal/institutional survey. It presents empirical examination of court jurisdiction and compliance patterns rather than a falsifiable proposition. Truth-value suspension is appropriate for framework papers that organize existing scholarship rather than advance a single testable claim.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153764567",

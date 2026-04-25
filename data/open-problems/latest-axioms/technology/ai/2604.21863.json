@@ -21,14 +21,14 @@
   "proposer": "Akash Kundu, Sebastian Feld",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a preprint (dated 2026-04-25, future-dated, likely preprocessing artifact or submission deadline) proposing ReaPER+, a hybrid replay-buffer strategy for quantum circuit optimization. The core claims are empirical (4-32× sample efficiency gains) and contingent on: (1) successful validation across multiple quantum hardware backends, (2) generalization beyond the tested circuit classes, and (3) reproducibility of reported benchmarks. The abstract truncates mid-sentence, preventing full assessment. The method combines established RL techniques (PER, annealing schedules) with quantum-specific noise modeling—theoretically sound but experimentally unvalidated in this snapshot. Classification as FLOWING reflects: preprint status, incomplete abstract, and dependence on experimental replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21863",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

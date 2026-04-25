@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, logically impossible in submission context), marked as preprint/publication-ready but not yet peer-validated. Claims qualitative analysis of fintech trends but provides only abstract without empirical data, methodology detail, or results. Axiom status is provisional and temporally incoherent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153727041",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Innovation}_{\\text{local}}}{\\text{Capital}_{\\text{distance}}} \\cdot \\text{Policy}_{\\text{unlock}} = \\text{Inclusion}_{\\text{exponential}}",
+      "interpretation": "遠い資本が地域の革新を制約するが、制度が触媒となれば包括は指数関数的に開花する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='10' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 L 30 60' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 42 L 70 60' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='80' x2='70' y2='80' stroke='#f59e0b' stroke-width='2'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#ffd700'>AFRICA</text></svg>",
+      "interpretation": "上の革新と下の多元的資本が制度の土台で一つになり、大陸全体を支える構図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

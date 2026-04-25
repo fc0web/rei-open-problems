@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is a 2026-dated review of radiation-resistant fungi (likely Cladosporium, Cryptococcus neoformans variants, or Deinococcus radiodurans). Core claims (radiotropism, radiolytic metabolism) are empirically validated in peer literature post-2015, but the specific application proposals (Chernobyl remediation efficacy, medical uses) remain in early-stage research and preprint validation phases. The abstract is incomplete (cuts mid-word), suggesting this is a provisional or draft submission.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119914786",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\gamma(r) \\cdot e^{-\\lambda r} \\, dr = \\frac{1}{\\sqrt{r_0}(1+\\alpha)}",
+      "interpretation": "放射能に向かう菌の未来は、壊れ去る粒子の中から花開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' fill='#ec4899'/><path d='M 50 50 L 50 20' stroke='#00d4ff' stroke-width='2'/><path d='M 50 50 L 70 40' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 L 40 75' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='20' r='4' fill='#ffd700'/><circle cx='70' cy='40' r='4' fill='#ffd700'/><circle cx='40' cy='75' r='4' fill='#ffd700'/><g opacity='0.5'><circle cx='50' cy='50' r='25' fill='none' stroke='#f59e0b' stroke-width='1' stroke-dasharray='2,2'/></g></svg>",
+      "interpretation": "核の炎の中心から、生命が三つの方向へ根を張る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

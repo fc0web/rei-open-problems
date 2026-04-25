@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The axiom cannot be evaluated because the content is embargoed and unavailable. Without access to the actual thesis body, abstract, methodology, or claims, no truth-value assessment is possible. The document exists as a metadata stub only.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7135237078",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Wound}}{\\text{Access}} \\cdot \\text{Time}^{-1} = \\text{Scar}_{\\text{witnessed}}",
+      "interpretation": "傷と医療アクセスの比が時間に逆行するとき、目撃された傷跡が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 60 50 50 80' stroke='#ffd700' stroke-width='3' fill='none' stroke-linecap='round'/><g opacity='0.6'><line x1='30' y1='50' x2='20' y2='50' stroke='#00d4ff' stroke-width='1.5'/><line x1='70' y1='50' x2='80' y2='50' stroke='#00d4ff' stroke-width='1.5'/></g><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='serif'>witness</text></svg>",
+      "interpretation": "中心の炎と外側の遠ざかる光線——目撃者の位置から見える不可視の距離。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

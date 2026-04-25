@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The manuscript appears to present a novel technical result (infinite splitting in quaternionic syzygies) that has not yet undergone peer review. The claim concerns established algebraic structures (group rings, resolutions, syzygies) but the specific theorem about R[Q8p]₃ infiniteness is dated 2026-04-25 and categorized as cs.AI rather than math.AT or math.GR, suggesting preprint status or potential miscategorization. The result is mathematically well-formed but validation pending.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125764054",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{p \\text{ prime}}^{\\infty} |\\text{Iso}(\\Omega_3^{\\mathbb{Z}[C_\\infty]}(Q_{8p}))| = \\infty",
+      "interpretation": "素数をパラメータとする三次のシジジーが無限に分裂し、同型類が果てしなく増殖する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00ff88'/></defs><circle cx='50' cy='20' r='4' fill='#ec4899'/><line x1='50' y1='24' x2='50' y2='40' stroke='#7c3aed' stroke-width='1.5'/><circle cx='30' cy='50' r='3' fill='#00d4ff'/><circle cx='50' cy='50' r='3' fill='#00d4ff'/><circle cx='70' cy='50' r='3' fill='#00d4ff'/><line x1='50' y1='40' x2='30' y2='47' stroke='#7c3aed' stroke-width='1'/><line x1='50' y1='40' x2='50' y2='47' stroke='#7c3aed' stroke-width='1'/><line x1='50' y1='40' x2='70' y2='47' stroke='#7c3aed' stroke-width='1'/><polyline points='15,70 25,60 35,68 45,62 55,71 65,65 75,72 85,68' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='15,75 25,80 35,77 45,82 55,78 65,83 75,79 85,84' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.7'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>∞-tree</text></svg>",
+      "interpretation": "根から下方へ無限に枝分かれする樹構造が、同型類の海へと溶けていく図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

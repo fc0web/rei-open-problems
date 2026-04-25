@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Provisional research article (future-dated 2026, peer-reviewed status claimed but not yet independently verified in this evaluation context). The methodology appears sound but requires independent replication and validation. Tissue-specific smoothing in qMRI is an active research area with evolving best practices.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7115822417",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_\\Omega \\nabla^2 u \\, w(\\mathbf{x}) \\, d\\Omega \\sim \\frac{1}{\\sigma^2(\\mathbf{x})} \\sum_i (y_i - \\hat{y}_i)^2",
+      "interpretation": "組織の滑らかさが、ノイズの局所的な構造を明かす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#grad)' stroke-width='2'/><path d='M 30 50 Q 50 35 70 50' fill='none' stroke='#00ff88' stroke-width='2.5' stroke-linecap='round'/><path d='M 30 50 Q 50 65 70 50' fill='none' stroke='#ec4899' stroke-width='2.5' stroke-linecap='round'/><circle cx='50' cy='50' r='4' fill='#ffd700'/></svg>",
+      "interpretation": "滑らかな波紋が、組織の内部構造の隠れた対称性を浮かび上がらせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

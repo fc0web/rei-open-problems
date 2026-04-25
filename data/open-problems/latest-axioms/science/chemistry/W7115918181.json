@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper is dated 2026-04-25 (future date, likely placeholder or data error) and marked as incomplete ('This review provide...'). Content describes established biological mechanisms (cell wall enzymes, fruit ripening) but the document itself is in provisional/unvalidated state. The science is CLASS-B proven, but the artifact is not yet finalized.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7115918181",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Softness} \\sim \\int_0^t \\left(\\sum_{i} E_i(\\tau)\\right) d\\tau \\cdot e^{-\\text{Adhesion}}",
+      "interpretation": "時間とともに酵素が壁を食い崩し、接着力が消えるほど、果実は柔らかくなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='3' fill='none'/><circle cx='50' cy='50' r='30' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,20 45,35 55,40 48,55 58,60' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,80 45,65 55,60 48,45 58,40' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='50' text-anchor='middle' dominant-baseline='middle' font-size='8' fill='#ffd700'>ε</text></svg>",
+      "interpretation": "層状の壁が、内側から酵素が蝕んで、やがて崩壊していく螺旋。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

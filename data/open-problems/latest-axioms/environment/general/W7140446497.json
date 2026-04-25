@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a legitimate meta-analytical research protocol for synthesizing forest biomass data across Cambodia's ecosystems. It is not yet published/validated (preprint status, dated 2026-04-25), methodologically sound in design, but empirical results and final conclusions are pending peer review and validation. The stated aims (synthesis, uncertainty quantification, workflow development) are scientifically constructive but require completion and external verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7140446497",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{AGB} + \\text{BGB}}{\\sqrt[5]{\\text{Forest Type}}} \\approx \\text{Carbon Memory}",
+      "interpretation": "森の炭素は地上と地下で鏡像を成し、その比率が森の正体を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='20' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='50' stroke='#ec4899' stroke-width='3'/><polyline points='30,50 50,50 70,50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 50 50 Q 40 65 35 75' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 60 65 65 75' stroke='#00d4ff' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "光と根が鏡のように対になり、中央の謎めいた線で繋がる——それが森の二重生活。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

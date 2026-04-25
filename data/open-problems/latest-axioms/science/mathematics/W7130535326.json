@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, likely placeholder or preprint). Abstract is incomplete (cuts mid-sentence at 'traf'). Claims are stated without mathematical proofs, derivations, or formal validation. The work appears to be in pre-publication or draft stage. Asymptotic analysis results are asserted but not demonstrated. Status is provisional pending full peer review and completion.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130535326",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{t \\to \\infty} \\frac{\\rho(t)}{\\sqrt{\\log t}} = \\mathcal{C}_{\\text{Dar}} \\cdot e^{-\\lambda t}",
+      "interpretation": "時間とともに交通流の密度は対数的な揺らぎの中で指数的に安定化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 38 Q 35 55 20 75' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 38 Q 65 55 80 75' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='20' cy='75' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='80' cy='75' r='6' stroke='#f59e0b' stroke-width='2' fill='none'/><polyline points='50,50 45,60 50,65 55,60' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心から放たれた流れが制約と革新という二つの道に分かれ、やがて収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

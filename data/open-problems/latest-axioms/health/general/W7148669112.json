@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a thesis (presumably doctoral) with embargoed abstract content. The work describes experimental stem cell biology and organoid engineering—empirical research under active development. Classification cannot be definitive until: (1) embargo lifts and full abstract/methods are available, (2) peer review occurs, (3) reproducibility is established. Current state is provisional/in-progress.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7148669112",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\frac{\\sqrt{t(1-t)}}{1+t} dt \\approx \\frac{\\pi}{2\\sqrt{2}}",
+      "interpretation": "幹細胞から流動と構造が同時に立ち上がる奇妙な比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M30,50 Q50,30 70,50 Q50,70 30,50' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "血管網と淋巴の対称性——内側と外側が相互に編み直される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

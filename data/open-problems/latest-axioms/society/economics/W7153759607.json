@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, likely metadata error or preprint system artifact). Content describes empirical mixed-methods research on industrial policy in Sub-Saharan Africa with community perspectives. Status is provisional: abstract alone cannot validate methodological rigor, data quality, or analytical claims. Requires peer review and full-text evaluation. Categorized as FLOWING (under validation) rather than TRUE (no evidence of publication/acceptance confirmation) or FALSE (no grounds for refutation).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153759607",

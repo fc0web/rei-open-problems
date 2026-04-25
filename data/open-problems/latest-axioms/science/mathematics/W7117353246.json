@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future or pre-publication) presenting a novel control technique (tunable explicit MPC with reference-dependent scaling) applied to a real system. The core method is theoretically sound but validation is incomplete (abstract cuts off mid-sentence). The claim is provisionally credible pending full peer review and reproducibility verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7117353246",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "u^*(t) = \\lambda(r) \\cdot u_1^* + (1-\\lambda(r)) \\cdot u_2^*",
+      "interpretation": "参照値が支配する重み付けで、二つの予見的な魂が流体のように混ざり合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><circle cx='20' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='28' y1='50' x2='72' y2='50' stroke='url(#grad)' stroke-width='3'/><circle cx='50' cy='50' r='5' fill='#f59e0b'/><path d='M 50 60 Q 50 75 50 85' stroke='#ec4899' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "二つの固定された支配から、参照値が引く線で滑るスイッチ点が、熱の流れを再調整する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

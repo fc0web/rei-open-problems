@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely mock/test data). Abstract describes data archival methodology rather than presenting novel empirical claims about soil phage catalytic functions. The axiom itself (that viruses preserve/disseminate auxiliary catalytic functions) is stated but not defended in the provided abstract. Classification as FLOWING reflects provisional status pending peer review and validation of the claimed discovery.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130356391",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Virus} \\rightarrow \\boxed{\\text{Enzyme}} \\rightarrow \\text{Soil} \\rightarrow \\text{Life}",
+      "interpretation": "ウイルスは単なる病原体ではなく、土壌微生物圏全体の触媒機能の保管庫として働く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='8' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 50 38 L 50 42 M 62 50 L 58 50 M 50 62 L 50 58 M 38 50 L 42 50' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "ウイルス粒子が土壌の微生物ネットワーク全体に酵素機能を配信する、普遍的な伝達体として。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

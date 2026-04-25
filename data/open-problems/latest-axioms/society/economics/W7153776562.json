@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a real empirical domain (post-conflict reconstruction financing) with established scholarship, but the specific multi-level governance framework, prioritization methodology, and African-context applicability appear to be under active research development (publication date 2026-04-25 indicates very recent work). The work synthesizes verified scholarship but applies it to an evolving policy landscape where optimal resource allocation models are still being contested and refined.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153776562",

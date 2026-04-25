@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a provisional empirical application (2026 date, preprint status implied by abstract structure). The 15% efficiency gain claim is measurable but contingent on regional validation and scaling assumptions not yet tested. Core technical approach (time-series + robust errors) is established, but generalizability remains under investigation. Aligns with FLOWING: provisional, empirically grounded but not yet widely validated across deployment contexts.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130685351",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial Q}{\\partial t} = \\alpha Q + \\beta \\sin(2\\pi t/T) + \\gamma \\sqrt{\\text{error}}",
+      "interpretation": "時間とともに水の流れが季節の歌に応じ、不確実性の根から逃れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><polyline points='10,80 25,65 40,72 55,55 70,62 85,40' stroke='url(#g1)' stroke-width='2.5' fill='none' stroke-linecap='round'/><circle cx='25' cy='65' r='2' fill='#00ff88'/><circle cx='55' cy='55' r='2' fill='#ec4899'/><circle cx='85' cy='40' r='2' fill='#ffd700'/><polyline points='10,85 85,85' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2' opacity='0.6'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>−15%</text></svg>",
+      "interpretation": "予測の軌跡が現実の地面に近づき、三つの希望の点が精度の改善を標す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is embargoed with abstract withheld. No substantive claims are evaluable in their current form. The work appears to be a 2026-dated preprint in plant molecular biology (salicylic acid pathway in N. benthamiana), but without access to the full text, only provisional classification is warranted. Classification will stabilize upon embargo expiration and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7154694259",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\sin(\\omega t)}{1 + e^{-\\lambda(t-\\tau)}} dt = \\frac{\\pi}{2\\omega}",
+      "interpretation": "植物の防衛信号は眠りから目覚める門のように、双曲的な時間を通じて振動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 Q 40 60 50 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 42 Q 60 60 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='35' cy='70' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='65' cy='70' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,30 35,70 50,80 65,70' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "隠された遺伝子は根の中で光を分岐させ、防衛の樹冠へと分かれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

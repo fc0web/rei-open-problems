@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a public health epidemiological claim (adolescents at elevated STI risk due to neurodevelopmental immaturity) that is empirically supported by existing literature, but the framing as a 'problem to be solved' in cs.AI context suggests provisional application of computational/AI methods to a partially-understood biomedical-behavioral domain. The causal mechanism (brain immaturity → STI risk) is established but the intervention efficacy remains under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119115275",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\text{Risk} \\propto \\frac{1}{\\text{Maturity}(t)} \\cdot \\text{Exposure}",
+      "interpretation": "脳の成熟が遅れるほど、リスクは露出に反比例して加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 45 Q 35 65 30 85' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 45 Q 65 65 70 85' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='20' cy='70' r='4' stroke='#00d4ff' stroke-width='1.5' fill='#00d4ff'/><circle cx='80' cy='70' r='4' stroke='#00d4ff' stroke-width='1.5' fill='#00d4ff'/><polyline points='30,50 50,55 70,50' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "未熟な中核から放射状に広がる複数の接触経路——成長途上の脆弱性。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

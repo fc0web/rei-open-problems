@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated thesis proposal under active development, addressing policy reform recommendations contingent on empirical findings not yet complete. The reform proposals are provisional until comparative analysis and interview data are integrated and validated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128617111",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Vision}_{2030} \\cdot \\sqrt{\\text{Density}}}{\\text{Legal Friction}} = \\text{Ownership}_{realized}",
+      "interpretation": "ビジョンと人口密度の積が、法的摩擦を超えるとき、所有権は現実化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='80' height='60' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='50' y2='50' stroke='#ec4899' stroke-width='1.5'/><line x1='50' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1.5'/><path d='M 20 85 Q 50 75 80 85' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "共有の壁の中で、個々の所有権が法的橋を通じて相互に響き合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

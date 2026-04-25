@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date relative to knowledge cutoff), marked as preprint/provisional, and contains characteristic markers of unvalidated work: abstract-only presentation, vague methodological description ('mixed methods study'), absence of concrete empirical results, findings, or data tables. The central claims about industrial policy efficacy in Sub-Saharan Africa remain empirically unverified in this submission. Categorization as FLOWING (provisional/under change/not yet validated) is appropriate pending peer review and publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153754287",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a 2026-dated policy recommendation (future date relative to knowledge cutoff) on environmental justice and social work professional standards. It combines empirical social work practice guidance with normative policy advocacy. The truth-value is provisional—recommendations are not established facts but forward-looking proposals requiring validation through implementation and professional consensus.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135034211",

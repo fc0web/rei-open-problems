@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, internal inconsistency); describes empirical research (2022-2024) with stated findings but abstract is incomplete ('The findings demonstrate that frag...'). Content is provisional, not yet peer-validated, and temporal metadata is anomalous. Claims about systemic fragmentation are empirically grounded but conclusions cannot be fully evaluated from truncated abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125631032",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C = \\int_0^1 \\frac{1}{F(x)} dx - \\sum_{i=1}^{n} \\frac{S_i}{P_i} \\cdot I_i",
+      "interpretation": "継続性は全体の流れから部分の分断を引くことで初めて見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='75' cy='50' r='12' fill='none' stroke='#ec4899' stroke-width='2'/><line x1='37' y1='50' x2='63' y2='50' stroke='#00d4ff' stroke-width='1' stroke-dasharray='3,2'/><polyline points='25,35 50,25 75,35' fill='none' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed' opacity='0.7'>FRAG∞UOUS</text></svg>",
+      "interpretation": "二つの世界が断線で結ばれ、上部に浮かぶ希望の弧が揺らいでいる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

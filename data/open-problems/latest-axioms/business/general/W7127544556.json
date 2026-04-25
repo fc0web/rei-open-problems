@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This appears to be a preprint/provisional legal-technical article dated 2026 (future date, likely typographical or speculative). The topic concerns Video Privacy Protection Act (VPPA) interpretation in modern AI/data contexts. The axiom is not yet validated through peer review, law review publication, or court precedent. The analysis would depend on evolving statutory interpretation and emerging case law.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.45
   },
   "cross_refs": {
     "arxiv": "W7127544556",

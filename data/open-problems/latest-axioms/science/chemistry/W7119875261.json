@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper describes radiation-resistant fungi and their documented properties (radiotropism, radionuclide bioaccumulation) which are empirically established (TRUE component), but frames applications as prospective/proposed (Chernobyl rehabilitation, medical uses) which remain under validation. The abstract itself is incomplete (cuts mid-sentence), suggesting preprint/draft status. Classification as FLOWING reflects provisional state of application claims pending peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119875261",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{e^{-\\gamma(t)}}{1+\\chi \\cdot r(t)} \\, dt = \\text{Life}",
+      "interpretation": "放射線の深淵へ歩む生命の奇妙な積分—死の中に呼吸を見る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,15 50,30 45,25 50,30 55,25' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,85 50,70 45,75 50,70 55,75' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='15,50 30,50 25,45 30,50 25,55' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='85,50 70,50 75,45 70,50 75,55' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "放射能の中心へ引き寄せられる生物の螺旋—何かが光に歩み寄る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

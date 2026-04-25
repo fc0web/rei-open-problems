@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date) and categorized as cs.AI despite describing microbiology/virology research. The abstract describes data archival practices rather than scientific findings. Status appears provisional,未validation-pending, or potentially fabricated metadata. Cannot assign TRUE/FALSE without access to actual peer-reviewed publication or validated dataset.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130408587",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Virus}}{\\text{Host}} \\cdot \\text{Catechol} \\xrightarrow{\\text{soil}} \\text{Metabolic Infinity}",
+      "interpretation": "ウイルスが宿主を超えて、土壌という無限の庭で触媒の魔法を永遠に増殖させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><polyline points='50,50 70,35 80,50 70,65' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 20,50 Q 35,30 50,20' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 80,50 Q 65,70 50,80' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "ウイルスの核心が土壌の層を通じて、分岐する酵素の道を描き出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

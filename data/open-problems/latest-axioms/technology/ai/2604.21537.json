@@ -21,14 +21,14 @@
   "proposer": "Sebastiano A. Piccolo, Andrea Tagarelli",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "INFINITY",
     "dfumt8": "INFINITY",
-    "dfumt8Reason": "Computational limit / intractability",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.65
+    "dfumt8Reason": "The axiom proposes a formally defined NP-hard combinatorial optimization problem (CriticalSet) with proven computational hardness. NP-hardness is a theoretical limit classification—the problem is decidable but computationally intractable for general instances. The use of supermodular set functions and game-theoretic (Shapley value) approximations situates this in the INFINITY category: well-defined, mathematically sound, but subject to inherent computational bounds.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.92
   },
   "cross_refs": {
     "arxiv": "2604.21537",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-B",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

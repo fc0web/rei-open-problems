@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a linguistic research paper (dated 2026, future-projected or preprint status) describing intonational phenomena in Iwaidja, an endangered Australian Aboriginal language. The claim about 'linear lengthening intonation' applying 'across space and time' is linguistically provisional—awaiting peer validation, corpus confirmation, and replication across speaker populations. The abstract is incomplete, preventing full evaluation of empirical claims.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135815411",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

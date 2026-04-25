@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated environmental/agrochemical study on chlordecone transfer mechanisms. The date is future-relative to training data cutoff (April 2024), making it a provisional/preprint-stage document. The research addresses empirical soil transport phenomena (measurable but context-dependent). The abstract is incomplete, preventing full technical evaluation. Classification as FLOWING reflects: (1) future publication date suggesting pre-validation status, (2) ongoing field research typical of environmental science, (3) incomplete information provided.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7140002007",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d[C]}{dt} = -k\\sqrt{h} \\cdot \\frac{\\partial z}{\\partial x} + \\mu[C]_{soil}",
+      "interpretation": "土壌の毒性は勾配と流れの速さの幾何平均で逃げていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899'/><stop offset='100%' style='stop-color:#00ff88'/></defs><path d='M 20 80 L 50 40 L 80 20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='40' r='4' fill='#ec4899'/><polyline points='30,70 35,65 40,68 45,63 50,66' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='60,45 65,40 70,43 75,38 80,41' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 15 85 Q 50 75 85 70' stroke='#f59e0b' stroke-width='2' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "毒物は斜面を下り、粒子に吸着し、水の流れとともに隣の畑へ染み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

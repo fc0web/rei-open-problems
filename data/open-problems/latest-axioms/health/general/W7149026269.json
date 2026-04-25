@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a pre-publication thesis (embargo status) reporting provisional clinical trial results. The work describes a phase II RCT with specific dietary interventions, but: (1) full abstract is unavailable, (2) embargo indicates unpublished/unvalidated state, (3) phase II trials are exploratory and not confirmatory, (4) dietary intervention efficacy claims require peer review and phase III validation. Classification as FLOWING reflects active-research status pending publication and external validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7149026269",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^\\infty e^{-\\beta t} \\sin(\\omega t) \\, dt}{1 + \\lambda \\cdot \\text{ketosis}} = \\text{tremor decay}",
+      "interpretation": "揺らぎが消えるのは、脂肪の炎と地中海の根が時間を織り直すから。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 70 50 Q 65 65 50 80' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 50 20 Q 35 35 30 50 Q 35 65 50 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='50' y1='50' x2='50' y2='15' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "二つの道が一つの根から生え、中心で静寂と出会う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

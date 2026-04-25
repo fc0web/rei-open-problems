@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated academic paper on green banking risk management in Uzbek. The work appears to present empirical/theoretical analysis of financial risk categories (credit, market, liquidity, ESG, reputational) in commercial banking. Classification as FLOWING because: (1) the date is future-projected (April 2026), suggesting preprint/provisional status; (2) green finance risk frameworks are under active development globally with evolving methodologies; (3) the paper claims to offer 'risk matrices' and 'practical-scientific recommendations' which require empirical validation; (4) ESG risk taxonomy itself remains contested in finance literature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119987614",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "R_{\\text{green}} = \\sqrt{\\sum_{i=1}^{5} w_i \\cdot (r_i - \\bar{r})^2} + \\alpha \\cdot E_{ESG}",
+      "interpretation": "緑色の金融リスクは、個々の脅威の重みつき分散にESG信念の補正を加えたものである。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 10 Q 70 30 70 50 Q 70 70 50 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 10 Q 30 30 30 50 Q 30 70 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><polyline points='50,50 60,40 55,35 65,30' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#ec4899'>risk↔trust</text></svg>",
+      "interpretation": "二つの流れが融合する中で、資本は緑色への信仰と具体的なリスク現実の間で揺らぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

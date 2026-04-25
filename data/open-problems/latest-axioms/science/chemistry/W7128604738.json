@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25) investigating molecular mechanisms of Shank3 protein function in neurons. The work presents empirical hypotheses about liquid-liquid phase separation and autism-related mutations that require validation through peer review and experimental replication. The abstract is incomplete, suggesting early-stage work. Status is provisional pending publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128604738",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{multivalent}}{\\text{scaffold}} \\sim \\int_{\\text{liquid}}^{\\text{solid}} \\rho(\\phi) \\, d\\phi",
+      "interpretation": "多価結合が液液相分離を通じてスカフォールド機能を組織化する魔法の比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='40' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='35' r='6' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='45' r='7' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='40' x2='50' y2='35' stroke='#7c3aed' stroke-width='1'/><line x1='50' y1='35' x2='70' y2='45' stroke='#00d4ff' stroke-width='1'/><line x1='30' y1='40' x2='70' y2='45' stroke='#ec4899' stroke-width='1' stroke-dasharray='2,2'/><path d='M 35 60 Q 50 75 65 60' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#7c3aed'>LLPS scaffold</text></svg>",
+      "interpretation": "液液相分離が神経細胞膜上に多価な相互作用の幻の建築物を編む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

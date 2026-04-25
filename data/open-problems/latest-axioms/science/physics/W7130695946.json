@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a novel geometric framework with specific numerical claims (π³/15 convergence, ΛR_H² master constraint, G derivation from Λ) that are internally coherent but lack independent peer validation, published cross-category (cs.AI filed but physics content), with incomplete abstract. The approach is mathematically structured but extraordinary claims (resolving 10^120 discrepancy) require external confirmation. Status: preprint-stage provisional.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130695946",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

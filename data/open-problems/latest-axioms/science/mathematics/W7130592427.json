@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date), marked as preprint-stage work. The abstract appears incomplete (truncated mid-sentence). Core claims about asymptotic analysis and identifiability are stated but lack presented results, theorem statements, or formal validation. The work is provisionally formulated pending peer review and completion.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130592427",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{t \\to \\infty} \\frac{\\rho(t)}{1 + \\alpha \\sqrt{\\log t}} = \\beta \\cdot \\mathcal{L}(\\tau)",
+      "interpretation": "時間の奥底で、交通密度は局所知識の対数的影響に支配される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><polyline points='30,50 50,35 70,50 50,65' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 60 30 50 50 Q 40 65 50 85' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.7'/><text x='50' y='52' font-size='8' text-anchor='middle' fill='#f59e0b'>τ</text></svg>",
+      "interpretation": "構造と流動が螺旋を描き、中心に局所の知恵が脈動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

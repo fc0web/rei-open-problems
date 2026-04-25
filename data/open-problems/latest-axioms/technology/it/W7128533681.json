@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date, likely data artifact or test case) and proposes a broad integrative framework across epidemiology, evolution, and social dynamics. Without access to the full paper content, the axiomatic status cannot be established as TRUE or FALSE. The title indicates an ambitious modeling synthesis that would require validation of specific claims. FLOWING classification reflects provisional/preprint status and temporal anomaly.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128533681",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

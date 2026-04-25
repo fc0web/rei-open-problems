@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a provisional empirical-policy analysis of South Sudan's exchange rate management (2020s context). It is not yet validated through peer review (future-dated 2026), contains no closed mathematical theorems, and describes an actively evolving policy landscape. Classification as FLOWING reflects its preprint/working-paper status and dependence on real-world conditions subject to change.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154157927",

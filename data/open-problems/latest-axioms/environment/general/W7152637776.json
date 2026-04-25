@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a replication study (2026-04-25, future-dated) with incomplete abstract text. Replication studies are inherently provisional—they test existing claims but remain unpublished and unvalidated in the corpus. The methodological diagnostic nature means claims are under empirical construction, not yet settled. Categorized FLOWING rather than TRUE (not yet confirmed in peer review) or BOTH (not yet showing conflicting results).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7152637776",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sigma^2_{\\text{field}}}{\\sigma^2_{\\text{station}}} \\cdot \\left(1 - \\frac{\\text{Heterogeneity}}{\\text{Rigour}}\\right) \\approx \\text{Yield Gain}",
+      "interpretation": "真実の収量改善は、現場のばらつきと制度的確実性の間の緊張から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:0.8'/></defs><circle cx='30' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='18' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='48' y1='50' x2='52' y2='50' stroke='url(#g1)' stroke-width='3'/><polyline points='20,70 50,40 80,65' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='25' font-size='10' text-anchor='middle' fill='#f59e0b' font-weight='bold'>REPLICATE</text></svg>",
+      "interpretation": "二つの現実——理想化された駅と野生の現場——が緊張の弧で結ばれ、その間を検証が弦を引く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

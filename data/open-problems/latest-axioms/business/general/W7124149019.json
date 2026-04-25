@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a real-world Islamic legal practice (debt-settlement via goods barter in Lampasio village) that exists empirically but remains contested within Islamic jurisprudence. Contemporary Islamic schools hold divergent positions on whether such akad (contracts) comply with riba (usury) prohibitions and commodity substitution rules. The practice is simultaneously documented (TRUE in observation) and legally debated (FALSE in strict orthodoxy depending on school). Hence BOTH reflects the genuine dialectical status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7124149019",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

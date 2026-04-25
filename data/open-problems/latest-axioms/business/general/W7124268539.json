@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The manuscript appears to be a preprint (dated 2026, future-dated; likely data entry error or provisional submission). The claims about human-tiger conflict causes are empirically grounded but mitigation effectiveness claims require field validation. The work is under development (abstract incomplete), making truth-status provisional rather than established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124268539",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Territory}}{\\text{Pressure}} \\cdot \\text{Trust} = \\text{Coexistence}",
+      "interpretation": "領土が圧力で縮むとき、信頼だけが共存の道を開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='35' cy='50' r='18' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='18' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 53 50 L 47 50' stroke='#00ff88' stroke-width='3'/><ellipse cx='50' cy='30' rx='25' ry='12' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#7c3aed' font-weight='bold'>Bridge</text></svg>",
+      "interpretation": "二つの世界が触れる細い線——壊れやすく、必須。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

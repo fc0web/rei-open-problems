@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Provisional research artifact (preprint dated 2026-04-25, future-dated). Code and dataset represent empirical validation in progress—not yet peer-reviewed publication. Heteroscedastic NN parameterization is methodologically sound but application-specific; generalizability to other ocean regions/climates remains under investigation. Status: 'not yet validated' per standard preprint classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7111319399",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{Q}(\\mathbf{x}) = \\mathbb{E}[q|\\mathbf{x}] \\pm \\sqrt{\\text{Var}[q|\\mathbf{x}]}",
+      "interpretation": "乱流の不確実性を捉えた熱流束は、期待値と局所的な揺らぎの平方根の対話として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 50 15 Q 60 35 50 50 Q 40 65 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='30,50 35,45 40,55 45,48 50,58 55,48 60,55 65,45 70,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "ニューラルネットワークが海洋の乱流を「聴く」—中心の確定性と周辺の不確定性が共存する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

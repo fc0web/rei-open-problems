@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper is dated 2026-04-25 (future-dated, likely metadata error or preprint). Its claims about South Sudan's monetary policy constraints are empirically testable but lack peer validation markers. The comparative institutional analysis contains both established economic theory (exchange rate mechanics) and provisional policy recommendations. Status is provisional pending peer review and temporal clarification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7154105743",

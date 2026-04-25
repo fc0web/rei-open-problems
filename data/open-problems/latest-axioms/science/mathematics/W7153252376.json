@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "SELF",
-    "dfumt8": "SELF",
-    "dfumt8Reason": "Self-referential or recursive structure",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission describes a computational method for detecting sequence features in recursive splicing—a phenomenon in molecular biology. The axiom is provisional because: (1) it represents recent empirical work (2026) in active research; (2) recursive splicing itself is increasingly recognized but not universally characterized; (3) the approach relies on machine learning/computational heuristics whose validation depends on held-out test performance and replication; (4) no explicit peer review status is indicated. This is typical preprint or early-stage validated work, not yet established canonical fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7153252376",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

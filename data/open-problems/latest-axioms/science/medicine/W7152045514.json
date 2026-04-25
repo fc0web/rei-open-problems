@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a provisional research manuscript (dated 2026, preprint status indicated by incomplete abstract). The claimed novel assay represents an innovation under development validation, not yet established as proven or refuted. The proof-of-concept stage indicates active empirical testing with outcomes pending peer review and clinical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7152045514",

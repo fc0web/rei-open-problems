@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document lacks peer review, formalized methodology, and empirical validation. Title promises structured analysis but abstract reveals preprint/early-stage status with minimal methodological rigor. Classification as FLOWING (provisional/under validation) rather than FALSE (refutability would require content evaluation).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7134109386",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{local}}}{\\text{Velocity}_{\\text{supply}}} \\cdot \\sqrt[3]{\\text{Tiers}} = \\text{Resilience}",
+      "interpretation": "地域の信頼と流通速度の調和が、三層構造を通じて回復力を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='20' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='32' x2='50' y2='38' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='62' x2='50' y2='68' stroke='#f59e0b' stroke-width='1.5'/><path d='M 35 50 Q 20 50 20 50 M 65 50 Q 80 50 80 50' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='9' text-anchor='middle' fill='#7c3aed'>AMUL</text></svg>",
+      "interpretation": "三つの層が垂直に連なり、横方向の信頼の流れが全体を支える協同組合の構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

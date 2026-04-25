@@ -21,14 +21,14 @@
   "proposer": "Umar Masud, Abhijith Punnappurath, Luxi Zhao et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The paper establishes that camera-native GenAI integration creates a genuine technical threat (TRUE aspect: hallucination occurs in ISP pipelines), but simultaneously challenges the intuition that camera-output images are inherently authentic (FALSE aspect: traditional assumption breaks down). The axiom itself is dialectical—it refutes prior belief while confirming new risk.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.87
   },
   "cross_refs": {
     "arxiv": "2604.21879",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

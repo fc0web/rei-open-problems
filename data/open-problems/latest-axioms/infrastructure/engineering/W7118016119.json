@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is a preprint (dated 2026-04-25, future date suggesting provisional status) presenting empirical research on eye-hand coordination and basketball shooting. The abstract is incomplete (cuts off mid-sentence at 'measured'), preventing full evaluation. The claim itself (eye-hand coordination influences shooting skills) is plausible and grounded in motor control theory, but lacks presented evidence, complete methodology, and validation. Status: provisional/under-review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7118016119",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Eye}_{\\text{focus}}}{\\text{Hand}_{\\text{release}}} = \\int_0^t \\text{Aim}(\\tau) \\, d\\tau + C",
+      "interpretation": "視線と手の放出のズレが、時間を通じた照準の積分によって調和する、謎めいた均衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='40' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='35' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 35 42 Q 50 38 65 36' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='70,35 75,28 78,20' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='80' cy='15' r='4' stroke='#ffd700' stroke-width='2' fill='#ffd700'/><line x1='30' y1='48' x2='30' y2='85' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "眼球と手が一条の弧で結ばれ、ボールは光点として解放される——精密な同期の瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

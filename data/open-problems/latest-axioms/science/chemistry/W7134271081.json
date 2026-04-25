@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a supplementary materials descriptor for an unpublished/preprint biological manuscript (dated 2026, future date suggests preprint or provisional status). The axiom itself is not a truth claim but a meta-reference to empirical data tables/figures. The underlying experimental claims are provisionally validated pending peer review and independent replication. The multi-omic findings are empirical observations not yet canonically established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134271081",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{pregnancy}} \\left( \\frac{\\text{small-EV}}{\\text{large-EV}} \\right)^{\\text{omics}} \\, d(\\text{placenta}) = \\Sigma(\\text{adaptation})",
+      "interpretation": "妊娠の時間軸に沿って、小さな小胞と大きな小胞のオミクス比が胎盤の変化を積分すると、生体の適応が現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='35' cy='40' r='6' fill='#ec4899' opacity='0.7'/><circle cx='65' cy='40' r='6' fill='#ec4899' opacity='0.7'/><circle cx='50' cy='65' r='8' fill='#00ff88' opacity='0.6'/><polyline points='50,30 50,50 65,55' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "外側の大きな境界から内側の小さな核へ、多重の声が放射状に流れ込み、中心で新しい生命の適応が起きる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

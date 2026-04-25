@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission contains no intelligible content. Title, authors, abstract, and metadata are random character sequences with no semantic meaning. This is either corrupted data, a test case, or non-scientific noise. Truth-value assignment is impossible because there is no propositional content to evaluate.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.99
   },
   "cross_refs": {
     "arxiv": "W4386943057",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} \\prod_{k=1}^{n} \\frac{1}{1+k\\phi}",
+      "interpretation": "意味不明な断片から、黄金比の奥底に隠れた調和の波動を感じる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,20 70,50 50,80 30,50 50,20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 60 40 65 50 Q 60 60 50 50' stroke='#00ff88' stroke-width='1' fill='none'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#ec4899'>?</text></svg>",
+      "interpretation": "秩序と混沌が五角形の奥で踊り、真実は中心の問いに溶ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

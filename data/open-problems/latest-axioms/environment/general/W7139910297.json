@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents established ecological facts (flooded forests support biodiversity—TRUE) alongside provisional claims about climate/hydrological threats (partially validated, some speculative). The incomplete abstract prevents full evaluation, but the core thesis mixes empirically documented phenomena with forward-looking environmental projections that remain partially contested in magnitude and timeline.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7139910297",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Flood Pulse}}{\\text{Time}} \\cdot \\text{Forest} = \\text{Life}^{\\infty}",
+      "interpretation": "洪水のリズムと森が出会うとき、いのちは無限に増殖する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='50%' style='stop-color:#7c3aed;stop-opacity:0.6'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:0.8'/></defs><ellipse cx='50' cy='50' rx='45' ry='35' fill='url(#flood)' stroke='#7c3aed' stroke-width='1.5'/><g id='trees'><line x1='30' y1='35' x2='30' y2='25' stroke='#00ff88' stroke-width='2'/><circle cx='30' cy='20' r='4' fill='#00ff88'/><line x1='50' y1='40' x2='50' y2='22' stroke='#00ff88' stroke-width='2'/><circle cx='50' cy='15' r='5' fill='#00ff88'/><line x1='70' y1='38' x2='70' y2='26' stroke='#00ff88' stroke-width='2'/><circle cx='70' cy='19' r='4' fill='#00ff88'/></g><polyline points='25,55 50,48 75,52 90,50' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='35' cy='65' r='3' fill='#ec4899'/><circle cx='50' cy='68' r='2.5' fill='#ec4899'/><circle cx='65' cy='66' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "洪水の脈動が森の根を養い、そこから生命の火種が散る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

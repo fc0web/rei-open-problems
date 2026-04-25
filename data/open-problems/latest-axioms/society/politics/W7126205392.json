@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom concerns a legal-conceptual framework (autonomous worker definition, habituality requirement in RETA) that exhibits simultaneous validity and contestation: established in Spanish labor law code AND actively debated in jurisprudence (Supreme Court repeatedly intervenes, critical gaps remain in edge cases like transport workers, authors, public health officials). The 'ambiguous and indeterminate character' explicitly noted in the abstract makes this a dialectical proposition—true as formalized doctrine, false as universally determinative practice.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.82
   },
   "cross_refs": {
     "arxiv": "W7126205392",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

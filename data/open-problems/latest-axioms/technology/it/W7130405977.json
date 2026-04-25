@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a preprint (2026 date, arXiv format) presenting an original philosophical framework still under iterative refinement. The core claims are provisional and not yet peer-validated. The abstract itself is incomplete (cuts off mid-sentence), indicating pre-publication status. Philosophical frameworks addressing the hard problem of consciousness exist in active debate rather than established truth or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130405977",

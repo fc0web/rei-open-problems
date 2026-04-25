@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The abstract describes ongoing experimental dissection of α-carboxysome biogenesis mechanisms (2026 date, incomplete abstract, systematic investigation in progress). Claims are empirically testable but not yet presented as complete validated findings. The work probes 'poorly understood' mechanisms, indicating provisional knowledge state rather than established fact or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128645309",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{RuBisCO} \\cdot \\text{CA}}{\\text{Shell}} \\propto \\exp\\left(-\\frac{E_{\\text{diffusion}}}{k_B T}\\right)",
+      "interpretation": "タンパク質の殻に閉じ込められた酵素の効率は、拡散障壁を指数関数的に減らす魔法の比率である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1'><line x1='50' y1='30' x2='50' y2='70'/><line x1='30' y1='50' x2='70' y2='50'/><line x1='35' y1='35' x2='65' y2='65'/><line x1='65' y1='35' x2='35' y2='65'/></g><circle cx='50' cy='50' r='5' fill='#ec4899'/></svg>",
+      "interpretation": "中心の触媒は球殻に守られ、外界との精密な対話を保ちながら、内部で秩序を刻み続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

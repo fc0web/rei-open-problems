@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a review/meta-analysis paper (2026, preprint status indicated by 'Building on o' cut-off). The construct of 'institutional distance' itself is empirically grounded but theoretically contested across three institutional frameworks. The paper synthesizes rather than establishes novel truth-claims. Meta-analyses are provisional syntheses subject to replication, new findings, and methodological critique. The construct validity remains debated across institutional economics, organizational institutionalism, and comparative institutionalism—hence FLOWING (under-validated, provisional consensus).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W3015352082",

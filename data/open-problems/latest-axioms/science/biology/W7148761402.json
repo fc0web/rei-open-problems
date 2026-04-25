@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The thesis title presents a conceptual claim about biological age ontology (concept vs. construct distinction) that remains under embargo. The claim is substantive and contestable—whether biological age is a 'natural concept' (mind-independent category) vs. a 'construct' (observer-dependent framework) is actively debated in gerontology and philosophy of science. Without access to the full argument and evidence, the truth-value is provisional and subject to revision upon publication. The date (2026) indicates this is a preprint/dissertation in validation phase.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7148761402",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Age} = \\int_0^t \\frac{d\\Omega}{d\\tau}(\\text{epi}, \\text{phys}, \\text{func}) \\, d\\tau",
+      "interpretation": "時間は数字ではなく、細胞が刻む多次元の足跡である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='30,50 50,35 70,55' stroke='#00d4ff' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 50 85 Q 35 65 50 50 Q 65 65 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "時の層が重なり、外と内と動きが一つのリズムを奏でる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a novel legal classification ('quasi-constitutional' status for indigenous treaties) that is normative, forward-looking, and contextually dependent on judicial adoption and legislative interpretation. It is neither established doctrine nor refuted, but rather a provisional scholarly argument awaiting validation through case law and institutional practice. The claim itself is structured and defensible but not yet settled in Australian jurisprudence.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7112024055",

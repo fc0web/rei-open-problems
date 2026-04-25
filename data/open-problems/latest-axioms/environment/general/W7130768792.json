@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint dated 2026-04-25 (future date, likely submitted work) describing a quantitative regulatory framework integrating temporal probability into landslide hazard zoning. The core proposition—that temporal probability can be systematically integrated into regulatory zoning—is empirically testable but not yet peer-reviewed or validated. The framework itself appears sound in principle but requires field validation, regulatory adoption testing, and temporal verification. Status: provisional pending publication and implementation feedback.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7130768792",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(t) = 1 - \\exp\\left(-\\int_0^t \\lambda(s) \\, ds\\right) \\cdot \\sqrt{\\frac{1}{1+\\tau}}",
+      "interpretation": "時間とともに山肌の記憶が薄れ、次なる崩壊の影が近づく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 10 90 L 30 50 L 50 70 L 70 20 L 90 40' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='3' fill='#00ff88'/><circle cx='70' cy='20' r='3' fill='#f59e0b'/><polyline points='15,85 25,75 35,65 45,55' stroke='#7c3aed' stroke-width='1' fill='none' stroke-dasharray='2,2' opacity='0.6'/><text x='50' y='95' font-size='8' fill='#00d4ff' text-anchor='middle'>τ</text></svg>",
+      "interpretation": "時の矢が刻む傾斜の中で、静寂と破局が交互に踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

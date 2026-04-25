@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated legal advocacy paper (preprint/provisional status evident from abstract incompleteness). It proposes a reformulated litigation strategy for probation violation hearings rather than asserting established fact. The central claim—that lawyers underperform in probation hearings due to fixed mindset—is empirical/sociological observation requiring validation through practice outcomes, not settled law.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7140959759",

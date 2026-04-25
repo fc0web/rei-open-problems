@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint/provisional research study (dated 2026-04-25, future date suggesting working draft) on cultural heritage communication strategy. It presents empirical observations and expert consultation findings rather than proven theorems. The claims about Jingzhou folk embroidery's international communication gaps are provisional, context-dependent, and subject to validation through implementation and longitudinal study. The manuscript appears incomplete ('modern' trailing without completion), indicating pre-publication stage.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118076100",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Heritage}_{\\text{古}} \\times \\text{Digital}_{\\text{新}}}{\\text{Barriers}_{\\text{旧}}} \\to \\text{Influence}_{\\text{global}}",
+      "interpretation": "古き工芸と新しい技術の積は、古い障壁で割られるとき、世界への影響力となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='10' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 L 30 60' stroke='#ec4899' stroke-width='2'/><path d='M 50 42 L 70 60' stroke='#00d4ff' stroke-width='2'/><polyline points='30,80 50,90 70,80' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "伝統の結び目から、デジタルと人資源の二つの流れが出て、地球へと束ねられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

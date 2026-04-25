@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date relative to training cutoff), classified as preprint/research in progress. Claims about 'optimal three-phase boundary lines' in random media require peer validation. The mathematical framework appears sound but hasn't undergone formal publication review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7131338593",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{\\phi=0}^{3} \\int_{\\Gamma} \\frac{d\\ell}{\\sqrt{\\sigma_\\phi(x)}} \\sim \\inf_{\\text{curves}} \\max_\\phi \\text{contact}",
+      "interpretation": "三つの相の境界は、最小の接触抵抗を求めて自ら最適形状に収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='33' cy='35' r='25' fill='#00d4ff' opacity='0.3' stroke='#00d4ff' stroke-width='1.5'/><circle cx='67' cy='35' r='25' fill='#7c3aed' opacity='0.3' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='65' r='25' fill='#00ff88' opacity='0.3' stroke='#00ff88' stroke-width='1.5'/><path d='M 50 40 L 45 60 L 55 60 Z' stroke='#ec4899' stroke-width='2' fill='none' stroke-linecap='round'/></svg>",
+      "interpretation": "三つの液滴が互いに触れる点で、エネルギーが最小の幾何学的調和を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

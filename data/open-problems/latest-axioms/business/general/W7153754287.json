@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is dated 2026-04-25 (future date, chronologically impossible in April 2024 context) and presents as a preprint abstract without visible peer review, empirical data tables, or validated findings. The claim of 'strongest verified scholarship' is asserted but not demonstrated in the abstract. The work appears provisional, methodologically framed but not yet validated through academic publication cycles.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7153754287",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Policy}_{\\text{center}} \\cdot \\text{Community}_{\\text{edge}}}{\\text{Inertia}^{2}} = \\text{Diversification}_{\\text{emergent}}",
+      "interpretation": "中心の政策と辺縁の共同体の積が、慣性の二乗で割られるとき、多様化が涌き出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><polyline points='50,50 75,30 80,45 70,70' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='30' y1='50' x2='20' y2='50' stroke='#ec4899' stroke-width='2'/><line x1='70' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='2'/><text x='50' y='95' text-anchor='middle' font-size='8' fill='#7c3aed'>roots→branches</text></svg>",
+      "interpretation": "中心の根から放たれた枝が、周縁のコミュニティの中で絡み合い、新しい経済の幾何学を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

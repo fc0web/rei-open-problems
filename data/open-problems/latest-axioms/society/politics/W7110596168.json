@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a genuine dialectical tension: empirical evidence supports tourism as economically beneficial (foreign currency, employment, GDP contribution) AND demonstrates real precarity risks (volatile demand, seasonal unemployment, resource depletion, cultural erosion, geopolitical exposure). Neither pole dominates universally—outcomes are context-dependent on governance, diversification, and market conditions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.87
   },
   "cross_refs": {
     "arxiv": "W7110596168",

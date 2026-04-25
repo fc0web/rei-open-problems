@@ -21,14 +21,14 @@
   "proposer": "Chee Wei Tan, Yuchen Wang, Shangxin Guo",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper describes a novel 2026-dated system (Nemobot) integrating LLMs with game-theoretic frameworks. The work is provisional/preprint status: claims are empirically testable but validation incomplete. The paradigm itself (extending Shannon's taxonomy via LLM agents) is innovative but not yet widely peer-validated. Core technical claims about state compression, strategy generation, and human-readability are contingent on implementation details not fully specified in abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21896",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

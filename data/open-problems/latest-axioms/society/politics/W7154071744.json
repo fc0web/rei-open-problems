@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely metadata error) and explicitly framed as 'perspective piece' and 'preprint not yet validated'. Claims about economic vulnerability and institutional capacity in conflict zones are empirically contingent and subject to revision as conditions change. The work combines established sociology with provisional policy analysis.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154071744",

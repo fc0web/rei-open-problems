@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The thesis presents empirical field research with contextual findings (Dangriga case study, 2024-2026 data) that are not yet peer-reviewed or published in final form. The claims about barriers, stakeholder needs, and business strategy recommendations are provisional—supported by fieldwork but under validation. The abstract is truncated, suggesting the work remains in draft/preprint status. Classification as FLOWING reflects its transitional epistemic status: more rigorous than speculation, not yet settled fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7110608543",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

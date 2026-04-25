@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional analytical chemistry method paper (dated 2026, future-published preprint status). The experimental claims (linearity, R² values, ICH compliance) are empirically testable but the manuscript appears incomplete (abstract cuts off mid-sentence at 'showed recoveries'). The method itself is reproducible in principle but validation status is not yet peer-reviewed/finalized.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153019734",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "A(\\lambda) = \\varepsilon_1 c_1 + \\varepsilon_2 c_2 \\approx R^2_{0.999}",
+      "interpretation": "二つの分子が光を吸収する強さの和が、ほぼ完璧な調和を示している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='42' y1='50' x2='58' y2='50' stroke='url(#g1)' stroke-width='3'/><path d='M 50 20 Q 45 35 50 50 Q 55 35 50 20' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 50 80 Q 45 65 50 50 Q 55 65 50 80' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "二つの分子が光の橋で繋がり、同時に波動として存在している不思議な共存。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper addresses applied policy development for green insurance products in Uzbekistan based on ESG principles. It is empirically grounded (international experience + national conditions) but represents provisional policy guidance rather than established scientific fact. The recommendations are forward-looking and context-dependent, not yet validated against implemented outcomes. Categorized as FLOWING because it presents actionable frameworks under development rather than proven theorems.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124991901",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-\\lambda t} \\cdot R(t, \\theta) \\, dt = \\frac{1}{\\lambda + \\alpha \\cdot C(t)}",
+      "interpretation": "生命が経過するにつれて、リスクは指数的に減衰し、緑の約束によって安定化される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 50 20 Q 70 50 50 80' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 30 50 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#00d4ff'>ESG循環</text></svg>",
+      "interpretation": "緑の保険は中心の地球を守りながら、相互に織り交ざった約束の流れとして機能する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

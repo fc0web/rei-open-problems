@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom (universal jurisdiction as empirically viable mechanism for prosecuting international crimes in third states) contains coexisting validated and contested claims: Senegal's Habré prosecution exemplifies successful application (TRUE component); however, systematic empirical barriers—sovereignty conflicts, enforcement gaps, political will variations across African states—create persistent refutation conditions (FALSE component). The claim is dialectically structured rather than monolithically true or false.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153797066",

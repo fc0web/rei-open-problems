@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes a software application (ECTICON) currently under development/validation as of 2026-04-25. The artifact itself exists as a provisional tool, not yet peer-validated in published form. The underlying biological claims (parasitic fly identification, vector competence) are CLASS-B established, but the AI application's efficacy, accuracy rates, and field deployment readiness remain unverified—characteristic of FLOWING status pending validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7118838303",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Farm Health} = \\frac{1}{1 + e^{-k(\\text{Fly ID} - \\text{Delay})}}",
+      "interpretation": "農家の判断速度がシグモイド曲線に沿って牛の健康を決める — 同定が遅れるほど、生産性は指数関数的に崩壊する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='5' fill='#00d4ff'/><circle cx='70' cy='40' r='5' fill='#00d4ff'/><path d='M 35 60 Q 50 75 65 60' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#7c3aed' stroke-width='1' stroke-dasharray='3,3' opacity='0.6'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>⚡ID⚡</text></svg>",
+      "interpretation": "ハエの目が光り、農家の判断を求める — 中央を貫く時間軸が、診断の遅延というリスクを象徴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

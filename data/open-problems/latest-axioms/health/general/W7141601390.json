@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional thesis document (embargo status indicates unpublished/unvalidated work). The axiom proposes a caregiver-centered educational intervention for oral health promotion. Without access to the full abstract, methodology, or results, the claim cannot be evaluated against established evidence. It is in active research state, not yet peer-reviewed or validated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7141601390",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Knowledge}_{\\text{caregiver}}}{\\text{Time}_{\\text{early}}} \\cdot \\text{Children}_{\\text{reached}} \\to \\infty",
+      "interpretation": "保護者の知識が早期に投下されるほど、その影響は無限に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='10' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='10' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='55' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='55' stroke='#00ff88' stroke-width='1.5'/><path d='M 30 75 Q 30 85 40 88' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 70 75 Q 70 85 60 88' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "知識の根が保護者から子どもたちへ、見えない深さで浸透していく様子。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

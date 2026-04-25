@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "The axiom presents established veterinary reproductive physiology. Canine estrous cycle parameters, LH surge timing, oocyte maturation kinetics (48-72 hours), and progesterone monitoring protocols are empirically validated through decades of reproductive veterinary practice and peer-reviewed literature. These are not theoretical claims but documented biological facts.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.96
   },
   "cross_refs": {
     "arxiv": "W7130830249",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Fertility} = \\int_{t_{LH}}^{t_{LH}+6} P(t) \\cdot M(t-48) \\, dt",
+      "interpretation": "ホルモン波と卵の成熟が時間ずれで踊る、その交差点が命を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 35 62 50' stroke='#ec4899' stroke-width='2.5' fill='none' stroke-dasharray='3,2'/><path d='M 38 50 Q 50 65 62 50' stroke='#00d4ff' stroke-width='2.5' fill='none'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed'>LH→Ovum</text></svg>",
+      "interpretation": "紫のホルモン波が卵を引き寄せ、間隙を超えるとき、生命の門が開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

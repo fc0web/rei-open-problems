@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom represents a provisional integration framework (Ayurveda + biotechnology) that is currently under empirical validation. The paper appears preprint-stage (2026 date, incomplete abstract, unfamiliar venue classification as cs.AI for healthcare). Core claims about Prakriti-phenotyping, herbal standardization, and bioavailability enhancement are being actively researched but lack consensus validation across mainstream medical literature. This is characteristic of FLOWING status: not yet established as TRUE, not refuted as FALSE, but actively in development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7124247542",

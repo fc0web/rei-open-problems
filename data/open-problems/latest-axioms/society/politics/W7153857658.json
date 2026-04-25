@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a qualitative, exploratory framework examining resource curse mediation through governance institutions in Somalia. It is empirically grounded but not yet formally validated (preprint status, dated 2026, suggests preliminary circulation). The relationship between natural resources, institutional quality, and conflict reduction remains contested in the literature with multiple competing causal mechanisms.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153857658",

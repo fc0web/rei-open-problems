@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom (local revenue mobilisation via property taxes/fees → accountability in post-conflict governance) is empirically testable but remains provisional: (1) dated 2026-04-25 (future date—document status unclear), (2) action research design generates context-bound findings not yet peer-validated, (3) mixed-methods inquiry produces triangulated but non-deterministic conclusions, (4) African institutional heterogeneity makes generalization premature. The claim is neither refutable nor established; it is under construction and subject to field validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154098346",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

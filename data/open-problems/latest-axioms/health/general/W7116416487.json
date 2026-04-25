@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is embargoed thesis (embargo expiration pending); abstract unavailable; full content evaluation impossible until publication. Status is provisional/under-embargo, matching FLOWING classification for pre-validated work.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7116416487",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Crisis}}{\\text{Drug}} = \\sum_{i=1}^{n} \\left(\\text{Breath}_i + \\text{Touch}_i + \\text{Story}_i\\right)",
+      "interpretation": "薬なき痛みの場所に、呼吸と触覚と物語が流れ込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='30,50 50,35 70,50 50,65 30,50' stroke='#00d4ff' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='20' x2='50' y2='10'/><line x1='80' y1='50' x2='90' y2='50'/><line x1='50' y1='80' x2='50' y2='90'/><line x1='20' y1='50' x2='10' y2='50'/></g></svg>",
+      "interpretation": "中心の痛みを取り囲む四方の光——呼吸、触覚、言葉、存在。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

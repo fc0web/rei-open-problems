@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a peer-reviewed ecological review (dated 2026, future publication) presenting empirical survey data on trade-offs in Coccinellidae. The propositions are evidence-based but subject to ongoing field validation, replication, and refinement as new data emerges. Trade-off hypotheses themselves are well-established in evolutionary biology (TRUE core), but their specific manifestations in this taxon remain provisionally validated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7124244265",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Defense}^2 + \\text{Reproduction}}{\\text{Energy}} = \\text{Survival} - \\text{Fertility}",
+      "interpretation": "防御と繁殖は同じ生命エネルギーから争う——一方が勝つとき、他方は静かに後退する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 25 Q 65 40 75 50 Q 65 60 50 75' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 25 Q 35 40 25 50 Q 35 60 50 75' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='20' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "内側の円形は限られた生命力の核であり、対向する流れはその枯渇をめぐる永遠の競争を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

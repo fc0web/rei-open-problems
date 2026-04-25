@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional case report (2026 date suggests future/speculative publication). Clinical case reports present observational data that is true within their documented scope but require validation through systematic review and replication. The specific clinical presentation is factual (TOWARD TRUE) but the general claims about pathogen prevalence and resistance patterns are provisional (TOWARD FLOWING).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7139779065",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{obstrucción}^n}{\\text{resistencia}} \\cdot \\exp(\\text{corynebacterium}) = \\infty",
+      "interpretation": "稀有菌が無限に再発する幾何学的鎖を紡ぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,15 50,50 50,85' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='15,50 50,50 85,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 35 35 Q 50 50 65 65' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "同心円で閉じ込められた感染が、繰り返す波動で猫の身体を揺さぶる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

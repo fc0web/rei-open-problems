@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint dated 2026-04-25 (future date, likely metadata error or provisional submission). The mathematical claims are internally structured and employ established PDE techniques (exponentially weighted spaces, spectral analysis, linearization), but categorization as 'provisional' reflects: (1) preprint status not yet peer-validated, (2) future timestamp suggesting incomplete review cycle, (3) nonlinear stability results require rigorous verification of decay estimates and spectral assumptions. The core theorems appear sound in methodology but await publication validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128545313",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\|u(t)\\|_{L^2} \\lesssim \\epsilon, \\quad \\|u(t)\\|_{L^2_\\rho} \\sim t^{-\\alpha}",
+      "interpretation": "小さな種子は留まり、重い霧の中でゆっくり消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.1'/></defs><circle cx='50' cy='50' r='35' fill='url(#fade)' stroke='#00d4ff' stroke-width='1.5'/><circle cx='50' cy='50' r='25' fill='none' stroke='#7c3aed' stroke-width='1' stroke-dasharray='3,2'/><polyline points='50,15 50,50 70,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#f59e0b' font-family='serif'>t→∞</text></svg>",
+      "interpretation": "摂動は中心に螺旋し、時間とともに外縁へ消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

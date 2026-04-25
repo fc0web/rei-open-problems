@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional applied research framework (preprint/thesis, dated 2026-04-25, validation status unknown). The technical components (LPG-solar hybrid microgrid design) are CLASS-B formalizable; community engagement framework elements are CLASS-C. No contradictory claims detected, but sustainability outcomes and community adoption rates remain empirically unvalidated at publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154459709",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{\\text{community}} = \\frac{\\text{LPG} \\odot \\text{Solar}}{1 - \\text{Apathy}} + \\int_{\\text{trust}}^{\\text{ownership}} dS",
+      "interpretation": "コミュニティの光は、技術と信頼の積分によってのみ暗闇を破る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#ffd700' stroke-width='2' fill='none'/><rect x='25' y='55' width='50' height='25' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='35,70 50,50 65,70' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='72' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='92' font-size='8' text-anchor='middle' fill='#7c3aed' font-weight='bold'>WEAVE</text></svg>",
+      "interpretation": "太陽と炎が地域という織物の中で、人の手を通じて絡み合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

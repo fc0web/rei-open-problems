@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a peer-reviewed LCA study with empirical data collection (primary bills of quantities, logistics records) and transparent methodology. However, the submission date (2026-04-25) is future-dated relative to knowledge cutoff, and the abstract is incomplete (truncated equation). The work appears methodologically sound but requires post-publication validation and peer review completion. Classification as FLOWING reflects provisional acceptance pending full validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7134807522",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Scar}(t) = \\sum_{i=1}^{n} M_i \\cdot \\left(\\frac{1}{d_i} + \\gamma_i\\right) \\cdot e^{-\\lambda t}",
+      "interpretation": "紛争後の土地では、物質の負債が距離と損傷係数で増幅され、時間とともに癒える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.2'/></defs><rect x='10' y='50' width='80' height='3' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='20' cy='50' r='6' fill='#ec4899' opacity='0.7'/><circle cx='40' cy='48' r='5' fill='#f59e0b' opacity='0.6'/><circle cx='60' cy='52' r='4' fill='#00ff88' opacity='0.5'/><circle cx='80' cy='50' r='3' fill='#7c3aed' opacity='0.4'/><polyline points='10,45 25,35 40,48 60,38 80,55' stroke='#ffd700' stroke-width='1.2' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "紛争の瓦礫から立ち上がる道は、重い過去を運びながら、未来へ向かう軌跡を刻む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

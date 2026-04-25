@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "SELF",
-    "dfumt8": "SELF",
-    "dfumt8Reason": "Self-referential or recursive structure",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a preprint dated 2026-04-25 (future-dated, indicating provisional/speculative work). It proposes unsupervised deep-learning methods for LDCT reconstruction—a technically sound research direction with established foundational validity in both supervised CT reconstruction and unsupervised learning, but the specific contribution remains unvalidated pending peer review and empirical benchmarking. The abstract is incomplete, further indicating provisional status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128491580",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposition 'AI should be used to expedite scientific journal evaluations' is currently provisional and under institutional/regulatory change. The paper itself documents this in-process status: normative inconsistencies exist, grey zones remain unresolved, and future controlled AI use is posed as exploratory rather than established practice. This is not FALSE (refutation exists) nor TRUE (consensus proven), but actively evolving across academia.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153998031",

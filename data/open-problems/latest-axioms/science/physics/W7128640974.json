@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes an active research program (dissertation, 2026) investigating skyrmion dynamics for spintronic applications. The core physics (skyrmion topological properties, LLG equation dynamics) rests on established theory, but the specific engineering claims about 'low-power' storage and 'multilevel data encoding' remain under experimental validation. The abstract truncates mid-sentence, indicating provisional/incomplete documentation. This is actively-developing applied physics research, not yet consolidated into definitive engineering specifications.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128640974",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

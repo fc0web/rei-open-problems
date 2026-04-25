@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with no accessible abstract or content. Truth-value evaluation is impossible due to complete absence of evaluable propositions. The cited content (ZDHHC9 protein function in oligodendrocyte biology) is plausibly legitimate neuroscience, but cannot be assessed in this form.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0
   },
   "cross_refs": {
     "arxiv": "W7139941147",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{progenitor}}^{\\text{myelin}} \\text{ZDHHC9} \\cdot \\frac{d(\\text{lipid palmitoylation})}{dt} \\, ds",
+      "interpretation": "細胞の道のりを脂質の鎖で包むことで、静寂の螺旋が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 Q 40 50 35 70' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 38 Q 60 50 65 70' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='35' cy='70' r='6' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='65' cy='70' r='6' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='35' y1='76' x2='35' y2='90' stroke='#ffd700' stroke-width='1.5'/><line x1='65' y1='76' x2='65' y2='90' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "種子から枝へ、脂肪の絲が生命のネットワークを織り上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

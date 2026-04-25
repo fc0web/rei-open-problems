@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents proof-of-concept applications of neural networks to virtual stone tool knapping and refitting—a novel methodological combination in archaeology/CS intersection. Claims are exploratory and technique-demonstrative rather than establishing settled fact. The work appears not yet peer-reviewed (preprint status, future date contextually indicates speculative evaluation). Virtual knapping itself is implementable (TRUE in CLASS-A), but generalization claims and archaeological validity remain under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128502054",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

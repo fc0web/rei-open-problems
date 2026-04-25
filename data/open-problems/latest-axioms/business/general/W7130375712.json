@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents provisional claims about technology's role in education that are empirically testable but currently undergoing validation. The abstract makes general assertions (technology reshapes sectors, enhances productivity) that are partially evidenced but not universally proven—different contexts show variable outcomes. The 2026 publication date suggests this is contemporary discourse under active scholarly refinement rather than established theorem.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130375712",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d(\\text{Nation})}{dt} \\propto \\int_0^t \\text{Tech}(\\tau) \\cdot \\text{Adoption}(\\tau) \\, d\\tau",
+      "interpretation": "国家の発展速度は、技術と導入意思の畳み込み積分に比例する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='8' fill='url(#g1)'/><polyline points='50,50 20,20 50,10 80,20 50,50 40,80 50,90 60,80' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.6'/><path d='M 30 50 Q 50 30 70 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の火花から放射する知識の流れが、重層的な適応圏を広げていく様。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

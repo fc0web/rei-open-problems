@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a research proposal/abstract dated 2026 (future date, likely typo for 2024 or earlier submission). It describes an empirical study framework examining human-tiger conflict causes and mitigation strategies. The claims are provisionally structured but not yet validated through peer review or publication completion (abstract appears truncated). Status is pre-validation/under-development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124302365",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{H \\cdot T}{1 - e^{-\\lambda(L+S)}} = C",
+      "interpretation": "人間と虎の衝突は、生活圧力と生態系の衰退の指数関数的な関係である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 40 50 L 60 50' stroke='#f59e0b' stroke-width='3'/><polyline points='30,20 50,10 70,20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='10' x2='50' y2='90' stroke='#00ff88' stroke-width='1' stroke-dasharray='3,3' opacity='0.6'/></svg>",
+      "interpretation": "二つの生命世界が狭まる谷で衝突し、その分裂は時間とともに深くなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

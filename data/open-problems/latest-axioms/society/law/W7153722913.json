@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a genuine dialectical tension: empirical governance failures and documented human rights violations (refuting ideal accountability frameworks) coexist with institutional mechanisms and legal remedies that theoretically support civil liberties protections. Neither pole dominates—the paper necessarily engages both refutation and validation of counter-terrorism governance legitimacy.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153722913",

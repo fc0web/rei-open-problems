@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a methodologically sound LCA framework applied to a specific, bounded real-world case (South Sudan roads, 2021-2026). However, the classification as 'FLOWING' rather than 'TRUE' reflects: (1) the study appears to report empirical results from a specific project with primary data collection, but the abstract is truncated before presenting actual findings; (2) LCA studies are inherently provisional—results are valid only within defined system boundaries and may shift with updated emission factors, regional data, or methodological refinements; (3) the work addresses a legitimate knowledge gap (embodied carbon in post-conflict infrastructure) but generalizability beyond this context is limited; (4) peer-review status and full dataset validation are not confirmed from the abstract alone.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7134823637",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\sum_{i} M_i \\cdot c_i \\cdot e^{-\\lambda d_i}",
+      "interpretation": "遠い砂漠の道は、距素材の重さと距離の呼吸によって、炭素の幽霊を放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1' /><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1' /></defs><line x1='10' y1='50' x2='90' y2='50' stroke='#00d4ff' stroke-width='2'/><circle cx='20' cy='50' r='6' fill='#f59e0b'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><circle cx='80' cy='50' r='5' fill='#7c3aed'/><polyline points='20,50 35,30 50,50 65,25 80,50' stroke='url(#grad1)' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#00ff88'>CARBON TRAIL</text></svg>",
+      "interpretation": "紛争後の大地が、採掘・運搬・舗装の三つの幽霊を吸収し、道は歴史と炭素の記憶を負う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

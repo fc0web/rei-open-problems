@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presented is a provisional legal-technical analysis (2026 preprint) examining cyberbullying definition and harm mechanics under specific jurisdiction. It describes observable phenomena (amplification, permanence, lack of nonverbal cues) but frames them within evolving legal interpretation. The core claims about cyberbullying characteristics are empirically grounded but the normative conclusions about Free Speech vs. Anti-Bullying balance remain contested and jurisdiction-dependent, placing it in provisional/under-validation territory rather than established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7130484550",

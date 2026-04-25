@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional legal-Islamic analysis of debt-commodity settlement practices in a specific Indonesian village. The work is categorized as cs.AI but concerns Islamic jurisprudence (fiqh) applied to local economic custom ('adat). It is not yet validated peer-review published (future date 2026-04-25 suggests preprint status). Islamic legal interpretations of contract validity (akad) are subject to ongoing scholarly debate across different madhabs and jurisdictions, making the conclusions provisional rather than established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124149019",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, temporally impossible for current evaluation). Abstract describes empirical ecological research with quantified forest loss (9.01% 2000-2024) and specific wildlife corridors, suggesting evidence-based claims, but the future dating and preprint status make validation impossible. Classification as provisional/under change pending actual publication and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7118460757",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C(t) = C_0 e^{-\\lambda t} \\cdot \\frac{1}{1 + \\alpha A(t)}, \\quad \\lambda \\approx 0.004",
+      "interpretation": "通路の生命は農地の侵食と都市化の指数に逆比例する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><ellipse cx='50' cy='35' rx='18' ry='25' fill='none' stroke='#00ff88' stroke-width='2'/><ellipse cx='50' cy='65' rx='18' ry='25' fill='none' stroke='#7c3aed' stroke-width='2'/><path d='M 35 50 Q 50 50 65 50' stroke='url(#g1)' stroke-width='3' fill='none' opacity='0.6'/><line x1='20' y1='50' x2='32' y2='50' stroke='#ec4899' stroke-width='2' stroke-dasharray='4,4'/><line x1='68' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='2' stroke-dasharray='4,4'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "二つの保護域を結ぶ通路は、分断の圧力で細く、断片化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

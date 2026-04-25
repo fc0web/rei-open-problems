@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom concerns AI applicability in law—a rapidly evolving domain (2026 date) where empirical evidence, regulatory frameworks, and technical capabilities are under active development. The white paper itself is provisional (preprint status indicated), addressing emergent phenomena (LLMs in legal practice, hybrid ecosystems) not yet fully stabilized or validated across jurisdictions. Claims about opportunities coexist with documented limitations (hallucinations, bias, explainability gaps), creating a dialectical landscape that resists fixed truth-assignment until regulatory consensus and longitudinal impact studies mature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118892426",

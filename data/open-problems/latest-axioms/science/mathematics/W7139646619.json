@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "INFINITY",
-    "dfumt8": "INFINITY",
-    "dfumt8Reason": "Computational limit / intractability",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.65
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated suggesting provisional/preprint status) presenting a technical control theory result. The mathematical claim (exponential stabilization via feedback control of coupled KdV equations) is formally structured but requires peer review validation. Marked as 'cs.AI' (unusual for pure control theory, suggesting interdisciplinary framing or categorization error), indicating provisional/under-review status in knowledge architecture.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7139646619",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a prospective partnership model (dated April 2026, future-relative to knowledge cutoff) with empirical elements that are partially validated but not yet fully established as universal principle. Partnership frameworks between industry and academia show mixed outcomes depending on context, funding structure, and implementation—making it a provisional claim under ongoing validation rather than a settled fact or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7131882278",

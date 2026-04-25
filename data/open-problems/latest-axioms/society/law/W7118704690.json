@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, likely fictional/provisional). Title indicates interdisciplinary integration of political science, law, criminology, and AI applied to counter-terrorism—domains with contested methodologies and evolving frameworks. No abstract provided; axiom status remains indeterminate pending content review. Classification as FLOWING reflects preprint/provisional status and inherent tensions between regulatory, empirical, and computational frameworks.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7118704690",

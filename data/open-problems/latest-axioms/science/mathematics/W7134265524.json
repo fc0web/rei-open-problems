@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a provisional formalization of architectural principles in protocol-governed systems. It references a concurrent paper (Paper 6, dated 2026-04-25) and establishes semantic boundaries that require validation against implemented systems. The framework is internally coherent but lacks empirical validation, peer review acceptance, or demonstrated computational precedent in published literature. Status: preprint/under-validation paradigm.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134265524",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathrm{CT} \\perp \\mathrm{CS} \\mid \\pi \\quad \\Rightarrow \\quad \\Phi(\\sigma) = \\int_{\\Sigma} \\delta(\\mathrm{mut}) \\, d\\mathcal{P}",
+      "interpretation": "プロトコル πの下で、純粋な変換と統治された突然変異は直交し、システムの相位はただ測定可能な変異の積分として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.pure{stroke:#00d4ff;stroke-width:2;fill:none} .mut{stroke:#ec4899;stroke-width:2;fill:none} .bridge{stroke:#7c3aed;stroke-width:1.5;stroke-dasharray:3,2}</defs><circle class='pure' cx='25' cy='50' r='15'/><circle class='mut' cx='75' cy='50' r='15'/><path class='bridge' d='M 40 50 L 60 50'/><rect class='bridge' x='35' y='40' width='30' height='20' fill='none' stroke='#7c3aed' stroke-width='1' opacity='0.4'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='mono'>π</text></svg>",
+      "interpretation": "左の青い純粋な計算領域と右のピンク色の統治された変異が、プロトコルの紫の橋で分離され、仲介される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

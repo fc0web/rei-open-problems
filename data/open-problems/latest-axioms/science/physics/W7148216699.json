@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes a novel hybrid LES-FDF computational framework (2026 date, indicates preprint/early validation stage). The filtered Rankine-Hugoniot energy closure is recently proposed and the three-dimensional shock-turbulence-flame coupling appears validated only against DNS, not yet against experimental data or cross-validated in peer review. Status: provisional implementation under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7148216699",

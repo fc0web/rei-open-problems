@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated empirical thesis proposal examining causal relationships in green-tech FDI flows. The axiom is not yet a proven theorem (TRUE), refuted claim (FALSE), or settled debate (BOTH). It represents provisional research under active investigation with empirical validation pending. The three-study design suggests iterative hypothesis testing characteristic of FLOWING status—structured inquiry not yet yielding canonical results.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128392690",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{GreenFDI} \\propto \\frac{\\text{EMID} \\cdot \\text{EnvPressure}}{\\text{RegionalInertia}} + \\text{Innovation}^{\\uparrow}",
+      "interpretation": "環境圧力と情報開示が地域の慣性を打ち破るとき、緑色投資は自己触媒的に革新を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 50 L 70 30' stroke='#00d4ff' stroke-width='2'/><path d='M 50 50 L 30 70' stroke='#ec4899' stroke-width='2'/><ellipse cx='50' cy='50' rx='35' ry='25' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><polyline points='20,50 50,50 80,50' stroke='#ffd700' stroke-width='1' opacity='0.5'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#00d4ff'>flow→growth</text></svg>",
+      "interpretation": "外部資本が地域核を貫き、多方向の革新生態系へと幾何学的に展開する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

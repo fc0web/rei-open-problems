@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated or post-hoc labeled) describing an incomplete PhD project. Chapter 2 results are partially presented ('Furthermore, a quantitative method based on' cuts off mid-sentence). The abstract lacks empirical validation data, mechanistic findings, or biomarker qualification results. The project scope is declared but outcomes remain unconfirmed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7128616586",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-t} \\left(1 + \\frac{t}{n}\\right)^n dt \\approx \\frac{\\text{MetS}}{\\text{DMGV}_{\\text{iso}}}",
+      "interpretation": "代謝の枝分かれの中で、隠れた物質が全体の平衡を秘かに支配する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='#ec4899'/><polyline points='50,50 70,35 75,50 70,65' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,50 30,35 25,50 30,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 42 Q 35 40 28 50' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "奥深い中核が、対称的な経路を通じて上下の代謝の世界を無言のうちに繋ぎとめている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

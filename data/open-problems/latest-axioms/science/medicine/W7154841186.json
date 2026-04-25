@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a preprint (dated 2026-04-25, future date anomaly noted) proposing policy frameworks for green economy financing mechanisms. It presents provisional analytical recommendations rather than proven theorems or empirically validated universal claims. The work surveys existing practices and proposes improvements, placing it in the 'under validation' category pending peer review and implementation outcomes.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154841186",

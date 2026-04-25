@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated thesis (future/provisional document) presenting novel methodological frameworks for parasite-based host reconstruction. The core claims are empirically testable but the work appears to be in validation phase—stable isotope methodology is established, but its application to ectoparasite biochemistry for host life history reconstruction is emerging. The thesis combines proven techniques (isotope analysis, molecular DNA recovery) with novel integrative application, making it provisional rather than established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7140218108",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^T \\text{Host}(t) \\, dt}{\\text{Parasite}} = \\text{Biography}",
+      "interpretation": "寄生虫の中に宿主の時間が凝結している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 30 50 Q 35 45 40 50 Q 35 55 30 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 70 50 Q 65 45 60 50 Q 65 55 70 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 30 Q 45 35 50 40 Q 55 35 50 30' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 70 Q 45 65 50 60 Q 55 65 50 70' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='#ffd700'/></svg>",
+      "interpretation": "微小な寄生虫が宿主という大円の中心に、その食べた歴史を螺旋状に映している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

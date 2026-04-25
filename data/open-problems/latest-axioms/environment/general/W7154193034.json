@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026, future-projected or institutional archive) describing a novel Android fingerprinting technique. The claims are empirically testable but not yet peer-reviewed in final form. The methodology (semi-exhaustive permissionless fingerprinting) is technically sound in principle but requires reproducible validation. Classification as FLOWING reflects pre-publication validation status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154193034",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{d \\in \\text{Device}}^{\\infty} 2^{|\\text{Fingerprint}_d|} \\cdot e^{-\\text{Permission}(d)} \\to 1",
+      "interpretation": "デバイスの無許可な特性の露出度は、許可レイヤーを貫いて必然的に完全性へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><g stroke='#ec4899' stroke-width='1'><line x1='50' y1='20' x2='50' y2='35'/><line x1='50' y1='65' x2='50' y2='80'/><line x1='20' y1='50' x2='35' y2='50'/><line x1='65' y1='50' x2='80' y2='50'/></g><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "許可という壁に囲まれても、デバイスの本質は内側から放射状に漏出し、検出の光となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

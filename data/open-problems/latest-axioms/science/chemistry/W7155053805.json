@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study is dated 2026-04-25 (future date, likely typo or preprint). Claims are empirically testable but lack independent replication, peer review confirmation, and human clinical validation. Mouse model results do not directly transfer to human hepatology. Provisional status appropriate pending publication validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7155053805",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Tea} \\cdot \\text{MFH}}{\\text{Ethanol}} \\to \\uparrow\\text{Akkermansia} + \\downarrow\\text{Steatosis}",
+      "interpretation": "茶と医食同源の相乗作用がアルコール代謝を加速し、腸内菌叢の再生を促す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='25' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,42 50,50' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='42' cy='70' r='6' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='58' cy='68' r='6' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 42 76 Q 50 82 58 76' stroke='#00ff88' stroke-width='1.5' fill='none'/><text x='50' y='90' font-size='8' text-anchor='middle' fill='#7c3aed'>復活</text></svg>",
+      "interpretation": "茶の液体が肝臓の荒廃地に滴り、腸内の微小な生命が目覚める光景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

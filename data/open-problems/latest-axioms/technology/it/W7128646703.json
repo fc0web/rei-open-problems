@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026, future-dated or fictional timestamp) in an emerging domain (digital public services leadership). The axiom presents provisional frameworks for navigating paradoxes rather than established theorems. Leadership strategy literature in digital contexts remains under active development and validation. No refutation present, but empirical validation incomplete.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128646703",

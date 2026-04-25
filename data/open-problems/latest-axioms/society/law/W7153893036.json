@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a meta-level institutional and legal analysis paper, not a direct empirical claim or theorem. Its truth-value depends on: (1) the quality of cited scholarship (which we cannot verify from abstract alone), (2) interpretive frameworks applied to jurisdiction/compliance data, and (3) normative conclusions about 'effectiveness' (which are inherently value-laden). The abstract describes a survey/analytical structure rather than a falsifiable proposition. Truth-evaluation is suspended pending full text review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.4
   },
   "cross_refs": {
     "arxiv": "W7153893036",

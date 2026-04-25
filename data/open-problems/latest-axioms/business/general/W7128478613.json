@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper dated 2026-04-25 (future date / preprint status). Supply chain resilience is an active research domain with evolving frameworks. The abstract is absent, preventing evaluation of specific claims. Classification as FLOWING reflects provisional/under-validation status typical of emerging work not yet peer-reviewed or established in literature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128478613",

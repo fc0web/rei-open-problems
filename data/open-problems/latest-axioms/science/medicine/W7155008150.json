@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a archaeological field report on a Roman fibula (brooch) discovery in Poland. The artifact classification and typological assignment (Exner I.32) are based on empirical archaeological evidence and established comparative methods, making core claims defensible. However, the paper is dated 2026 (future-dated, likely a metadata error), published in a legitimate Polish archaeology journal, and presents provisional fieldwork findings not yet subject to full peer review or broader scholarly consensus. The typological assignment represents informed expert judgment rather than mathematical proof.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7155008150",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

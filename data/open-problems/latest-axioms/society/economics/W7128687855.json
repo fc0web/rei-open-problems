@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a provisional philosophical framework about money's ontology (mind-dependent value, perception-relative worth) that lacks formal proof or empirical validation. It combines phenomenological claims (money exists in mind), normative assertions (better than materialism), and causal hypotheses (monetary consciousness enables social contracts) without established epistemic closure. The 2026 date and preprint status indicate active development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128687855",

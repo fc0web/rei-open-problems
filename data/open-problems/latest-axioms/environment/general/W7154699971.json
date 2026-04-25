@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes an applied thermochemical process (pyrolysis of plastics) with established scientific foundations but presents results dated 2026 (future relative to training cutoff). The core chemistry is theoretically sound, but practical scalability, economic viability, and environmental net-benefit claims remain under empirical validation. Classified as FLOWING: provisional knowledge awaiting real-world deployment data and peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154699971",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Plastic}_{\\text{waste}}}{T \\uparrow} \\to \\text{Fuel} + \\text{H}_2 + \\text{Redemption}",
+      "interpretation": "プラスチックの死が熱のもとで、生命あるエネルギーに生まれ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:1'/></defs><rect x='20' y='70' width='60' height='20' fill='none' stroke='#ec4899' stroke-width='2'/><text x='50' y='82' font-size='10' text-anchor='middle' fill='#ec4899'>Waste</text><path d='M 50 70 Q 40 50 30 30' fill='none' stroke='url(#g1)' stroke-width='3'/><path d='M 50 70 Q 60 50 70 30' fill='none' stroke='url(#g1)' stroke-width='3'/><circle cx='30' cy='25' r='4' fill='#00ff88' stroke='#00ff88' stroke-width='1'/><circle cx='70' cy='25' r='4' fill='#ffd700' stroke='#ffd700' stroke-width='1'/><text x='25' y='18' font-size='9' fill='#00ff88'>H₂</text><text x='68' y='18' font-size='9' fill='#ffd700'>Fuel</text></svg>",
+      "interpretation": "焼き尽くされた物質が、熱という錬金術師の手で、二つの希望へと分かれゆく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

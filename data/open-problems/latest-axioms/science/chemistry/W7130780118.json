@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggests provisional/unreleased status) describing an experimental methodology for particle image velocimetry (PIV) in porous media turbulence measurement. The axiom presents a technical validation framework rather than a proven theorem or refuted claim. The methodology appears sound but requires peer review and empirical validation in multiple contexts before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130780118",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial \\mathbf{v}}{\\partial t} \\approx \\sqrt[3]{\\frac{\\text{pore}}{\\text{chaos}}} \\cdot \\nabla^2 \\mathbf{v}",
+      "interpretation": "孔隙の迷路が速度場の揺らぎを三乗根の深さで統治する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#7c3aed' stroke-width='1'><path d='M 30 50 Q 40 35 50 50 T 70 50' fill='none'/><path d='M 35 40 Q 50 30 65 45' fill='none'/><path d='M 40 60 Q 50 70 60 55' fill='none'/></g><circle cx='50' cy='50' r='4' fill='#00ff88'/><polyline points='20,50 30,48 40,52 50,50 60,48 70,52 80,50' stroke='#ec4899' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "粒子の軌跡が孔隙の壁に反射し、乱流の隠された対称性を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

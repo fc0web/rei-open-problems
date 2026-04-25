@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is empirical field research (internship-based survey data) on agricultural challenges in a specific region. It presents observational findings rather than claims subject to truth/falsity evaluation. The work is dated 2026-04-25 (future/provisional), categorized under cs.AI (likely archived/indexed), and appears incomplete (abstract cuts off). As primary data documentation, it is validation-dependent and subject to peer review—characteristic of FLOWING status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7110470239",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Labor} + \\text{Capital}}{\\text{Pests} \\cdot \\text{Climate}} \\to \\text{Yield}",
+      "interpretation": "農業の実存は、資本と労働の和を自然の圧力で割った余韻に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 35 40 50 65 Q 65 40 50 15' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='4,2'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#7c3aed' font-weight='bold'>STANN</text></svg>",
+      "interpretation": "中心の黄金は希望の光、渦巻く根と破線の圧力が農民の綱引きを映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

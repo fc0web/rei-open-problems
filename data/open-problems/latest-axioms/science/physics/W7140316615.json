@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposal is a speculative cosmological model presented as preprint (2026 date, cs.AI category suggests non-peer-reviewed venue). It makes bold unifying claims but lacks consensus validation. The empirical claim about SPARC galaxy fits (χ² = 0.57) is testable but requires independent replication. The core thesis—continuous Big Bang as QGP substrate—is theoretically unorthodox and contradicts established Big Bang Nucleosynthesis (BBN) constraints. Status: provisional, under-validated, subject to change pending peer review and observational scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7140316615",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

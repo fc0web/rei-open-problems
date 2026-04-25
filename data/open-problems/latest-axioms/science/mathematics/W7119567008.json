@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Rational complex Bézier curves are a mathematically well-defined extension of established CAD theory. The framework builds on proven concepts (rational Bézier curves, complex projective geometry, control polygons) through rigorous algebraic formalism. The claims about projective transformation groups and degree reduction via polynomial resultants are verifiable within pure mathematics. This is a theoretical contribution with sound mathematical foundations.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.92
   },
   "cross_refs": {
     "arxiv": "W7119567008",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=0}^{n} w_i z_i \\binom{n}{i}(1-t)^{n-i}t^i}{\\sum_{i=0}^{n} w_i \\binom{n}{i}(1-t)^{n-i}t^i}",
+      "interpretation": "重みを持つ複素数の支配は、実と虚の二つの世界を同時に統治する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2'/><path d='M 20 50 Q 35 30 50 20 Q 65 30 80 50' fill='none' stroke='#00d4ff' stroke-width='2.5'/><polyline points='20,50 35,35 50,25 65,35 80,50' fill='none' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/><circle cx='20' cy='50' r='3' fill='#00ff88'/><circle cx='50' cy='25' r='3' fill='#00ff88'/><circle cx='80' cy='50' r='3' fill='#00ff88'/></svg>",
+      "interpretation": "制御点は複素空間に浮かぶ磁石であり、曲線はその交差する力線の軌跡である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

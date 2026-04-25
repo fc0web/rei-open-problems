@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom represents an empirical mixed-methods inquiry into local revenue systems in post-conflict contexts. It is neither established theorem nor refuted claim, but rather a provisional research contribution awaiting peer validation, replication across contexts, and longitudinal confirmation. The 2026 date and 'publication-ready' status indicate pre-validation state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154108877",

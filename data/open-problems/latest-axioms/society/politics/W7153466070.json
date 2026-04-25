@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is a preprint (dated 2026-04-25, future-dated or misdated) in early validation stage. The abstract describes empirical trade pattern analysis, but lacks concrete findings, data specifications, or validated claims. Content has not undergone peer review. Classification as FLOWING reflects provisional, unvalidated status pending journal acceptance and replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153466070",

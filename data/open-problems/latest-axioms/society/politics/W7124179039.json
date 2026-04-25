@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The work is a legal-theological analysis of Islamic contract law (akad) applied to a specific debt-settlement practice in rural Indonesia. It combines jurisprudential interpretation (fiqh) with empirical observation of local practice. The truth-value is provisional: it depends on (1) acceptance within Islamic legal scholarship communities, (2) validation of fieldwork methodology, and (3) contextual applicability. No single determinate answer exists until peer review and scholarly consensus form. The document appears to be dated 2026 (future), suggesting preprint/provisional status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124179039",

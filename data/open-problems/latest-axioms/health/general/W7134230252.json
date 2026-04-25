@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a prospective clinical research paper (dated 2026, future-projected or in-progress). The empirical claims about thromboembolic incidence are not yet established in literature consensus. The work presents provisional findings requiring validation through peer review and replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134230252",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Pituitary}_{\\text{removed}}}{\\text{Hemostasis}_{\\text{intact}}} \\sim \\text{Clot}_{\\text{shadow}}",
+      "interpretation": "脳下垂体を失った身体は、血液の流れを支配する秩序を忘れてしまう。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 L 50 70' stroke='#ec4899' stroke-width='2'/><circle cx='35' cy='75' r='6' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='75' r='6' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='65' cy='75' r='6' stroke='#ffd700' stroke-width='2' fill='none'/><polyline points='35,69 35,81 65,81 65,69' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "脳下垂体という統治者が去ると、下流の細胞たちが血の固まりで秘密の反乱を始める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

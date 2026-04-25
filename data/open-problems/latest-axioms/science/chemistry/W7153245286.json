@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Analytical chemistry method paper (2026, preprint/provisional status indicated by future date). Claims are empirical and require independent peer validation and laboratory replication. Method validation follows ICH standards but awaits publication and reproducibility confirmation. The abstract is incomplete (cuts off mid-sentence at recovery studies), preventing full assessment of claimed validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153245286",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\lambda_1}^{\\lambda_2} A(\\lambda) \\, d\\lambda = c_1 L_1 + c_2 L_2 + \\epsilon",
+      "interpretation": "光が二つの物質の声を同時に捉える——分離されぬ調和の中に両者がまぎれもなく存在する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='50%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><circle cx='35' cy='50' r='12' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='12' stroke='url(#g1)' stroke-width='2' fill='none'/><line x1='47' y1='50' x2='53' y2='50' stroke='#ffd700' stroke-width='1.5'/><polyline points='30,30 40,20 50,25 60,15 70,25 80,30' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "二つの円が光線で繋がる——波長という細い糸が、混合物の秘密を一度に読み解く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

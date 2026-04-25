@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a novel unifying framework (boundary geometry coupling cosmic expansion and quantum collapse) that is mathematically speculative, lacks empirical validation, and remains in preprint status (2026 timestamp indicates provisional work). The core claims are neither established theorems nor refuted, but represent a working hypothesis under development. Classification as FLOWING reflects the provisional, non-validated character of the theoretical construction.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7135207927",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

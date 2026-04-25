@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis abstract with no accessible content. Truth-evaluability requires substantive claims. Without the thesis body, no axiom evaluation is possible—the object of evaluation is observationally absent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7148635197",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Poly-P degradation}}{\\text{Adaptor complexity}} \\sim \\text{Virulence}^{-1}",
+      "interpretation": "リン酸鎖が短くなるほど、感染体は宿主防御から逃れる力が弱まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 35,35 50,50 65,35 80,50' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><path d='M 50 42 Q 35 30 25 25' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><path d='M 50 58 Q 65 70 75 75' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "クリプトコッカスの防御装置が削がれるとき、内なるリン酸の構造から秩序が消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

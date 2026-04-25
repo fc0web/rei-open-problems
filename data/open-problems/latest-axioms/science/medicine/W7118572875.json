@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated review article on miRNA biomarkers in rheumatoid arthritis. The manuscript presents evidence-synthesis on emerging diagnostic and therapeutic applications, but the field is actively evolving. Key claims (miR-16, miR-132, miR-146a, miR-155, miR-223 as RA biomarkers) are supported by published literature but lack consensus validation across independent cohorts. Clinical translation remains provisional—biomarkers show promise but are not yet standard-of-care. The therapeutic strategies discussed are experimental/preclinical. As a recent review of a rapidly advancing domain, it warrants FLOWING classification: substantive but not yet stabilized into canonical medical practice.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7118572875",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

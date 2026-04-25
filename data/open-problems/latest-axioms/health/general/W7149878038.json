@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional quality improvement study (n=11, convenience sample, pre-post design without control group) with promising but not yet validated results. The methodology is sound for QI but lacks the rigor of RCT validation. Published date is future (2026-04-25), suggesting preprint/early-stage status. Effectiveness claims are directional but not definitively proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7149878038",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Burnout} = \\frac{1}{1 + \\int_0^{12} \\text{Mindfulness}(t) \\, dt}",
+      "interpretation": "心の疲れは、積み重ねた静寂の逆数のように減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 65 50 Q 65 65 50 75 Q 35 65 35 50 Q 35 35 50 20' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/><line x1='50' y1='18' x2='50' y2='28' stroke='#00d4ff' stroke-width='1.5'/></svg>",
+      "interpretation": "外側の圧力に囲まれた心が、内なる光と呼吸で徐々に開かれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

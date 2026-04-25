@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is a thesis metadata record with embargo status. The abstract is explicitly unavailable (observation-impossible during embargo period). Truth evaluation of the research claims cannot proceed without access to the actual content. This is a context-dependent null state, not a truth claim.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7141134061",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{1 + e^{-\\sigma}} \\cdot \\int_0^1 P(x) \\, dx = \\text{dignity}",
+      "interpretation": "羞恥と力の逆転が、看護の優しさによって尊厳へ変わる比率を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 42 45 Q 50 35 58 45' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='30' y1='62' x2='70' y2='62' stroke='#7c3aed' stroke-width='1.5' opacity='0.6'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#ffd700' font-family='serif'>∋</text></svg>",
+      "interpretation": "隔離された二つの存在が、上方の架橋を通じて相互に承認される景象。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

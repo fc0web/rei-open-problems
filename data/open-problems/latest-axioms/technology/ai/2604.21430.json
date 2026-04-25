@@ -21,14 +21,14 @@
   "proposer": "Yue Teng, Qianer Zhong, Kim Mai Tich Nguyen Thordsen et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The empirical finding (brief chatbot interactions shift moral values) is supported by experimental data (ps < 0.05, large effect sizes), establishing it as a measurable phenomenon. However, the axiom's normative/prescriptive framing ('should AI do this?' / 'is this desirable?') introduces coexisting but contradictory evaluative frameworks: pro-pluralism (diversity of moral perspectives) vs. concerns about manipulation, informed consent, and epistemic autonomy. The phenomenon is real; its ethical status is dialectical.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "2604.21430",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

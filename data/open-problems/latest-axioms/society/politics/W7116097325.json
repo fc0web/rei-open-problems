@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a future-dated (2026-04-25) technical system combining LLM, dialogue optimization, and embodied conversational agents. It is provisional pending peer validation, empirical benchmarking, and real-world deployment. The work proposes engineering constraints (latency optimization) applied to an emerging architecture (multimodal ECA + LLM). Truth-value depends on: (1) reproducibility of latency claims, (2) engagement metrics validation, (3) generalization across modalities. Classification as FLOWING reflects pre-validation status and iterative refinement typical of supplemental materials.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7116097325",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

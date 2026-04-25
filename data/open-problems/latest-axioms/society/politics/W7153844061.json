@@ -25,9 +25,9 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a qualitative empirical claim about governance mediation of resource curse effects in Somalia. It is not yet validated (preprint status, future date 2026-04-25 suggests provisional/unreleased work). The relationship between institutional quality, natural resources, and conflict outcomes remains contested in peer review literature, with multiple causal mechanisms proposed but not definitively proven. Status is therefore provisionally under validation rather than established or refuted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
     "confidence": 0.55
   },
   "cross_refs": {

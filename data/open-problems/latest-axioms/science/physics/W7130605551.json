@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel geometric framework (decoupling surface as boundary condition) with claimed analytical reduction to mass-independent identity and preliminary observational support (190 binaries, solar data). However: (1) preprint date is 2026-04-25 (future-dated or speculative), (2) abstract is truncated/incomplete, (3) claims require independent peer validation, (4) the leap from 2D photospheric observations to dark sector/Hubble tension resolution is extraordinary and needs full derivation, (5) no reference to existing literature on radiative decoupling formalism or competing explanations. Status: provisional framework under empirical testing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130605551",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

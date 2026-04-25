@@ -21,14 +21,14 @@
   "proposer": "Yixian Xu, Yusong Wang, Shengjie Luo et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents a novel theoretical framework (quotient-space diffusion models) with mathematical formalization and molecular generation application. Status is preprint (2026-04-25), not yet peer-reviewed or validated in independent implementations. The core claim—that diffusion modeling on quotient spaces reduces learning complexity for SE(3)-symmetric tasks—is mathematically structured but requires empirical validation and community consensus.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21809",

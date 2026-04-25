@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The thesis presents a provisional distinction between biological age as 'concept' vs 'construct' with three measurement modalities (epigenetic, physiological, functional). This is preprint/unpublished work (embargo status) with empirical claims not yet peer-validated. The core proposition—that biological age has ontological primacy over social construction—is actively debated in gerontology and requires validation against competing frameworks.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7148761402",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Age} = \\int_0^t \\frac{d\\Omega}{d\\tau} \\, d\\tau \\neq t",
+      "interpretation": "時間の経過は、身体の変化の累積に等しくない。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='52' font-size='10' fill='#ffd700' text-anchor='middle' font-weight='bold'>Ω</text></svg>",
+      "interpretation": "同心円の層と、その中を流れる非線形の時間——見かけの年齢と真の老化の不可解な乖離。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

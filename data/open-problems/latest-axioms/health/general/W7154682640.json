@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission contains only a title, author, date, and embargo notice with no accessible abstract or content. The axiom cannot be evaluated without substantive claims to assess. The embargo status renders the actual scientific content observation-impossible in the present moment.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7154682640",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H(x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^n \\cdot CAG^n}{n! \\cdot \\sqrt[3]{n}}",
+      "interpretation": "変異が積み重なるほど、神経発達の樹は逆向きに成長する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M50 10 Q30 40 50 70 Q70 40 50 10' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><polyline points='35,55 50,50 65,55' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中核の変異が枝分かれを歪め、発達の共鳴が失われていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

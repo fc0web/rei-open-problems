@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a refinement to low-risk anomaly explanation via profitability-adjusted volatility. Empirical results are presented (2003-2022 Indian market data) showing the metric 'works' but does not fully resolve the anomaly. This is a provisional finding: reproducibility across other markets/periods unconfirmed, theoretical mechanism incomplete, and the result is not yet validated in peer-reviewed publication (dated 2026-04-25, appears to be preprint/future-dated). The claim is not refuted but remains under empirical and theoretical development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119125916",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sigma}{1 + \\pi} \\sim \\mathbb{E}[R] \\uparrow \\text{ as anomaly persists}",
+      "interpretation": "利益で正規化された揺らぎが、市場の逆説的な真実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><ellipse cx='50' cy='50' rx='35' ry='20' stroke='url(#g1)' stroke-width='2' fill='none'/><polyline points='20,50 35,35 50,55 65,30 80,50' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linejoin='round'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 30 70 Q 50 75 70 70' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "揺らぎの殻を貫く利益の道筋。低リスク異常は消えず、ただ変形する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

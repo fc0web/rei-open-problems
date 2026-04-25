@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional business/agroeconomic strategy document (dated 2026, future-dated or speculative). It presents a plan under development rather than an established fact or refuted claim. The abstract is incomplete (cuts off mid-sentence at 'estab[lish]'), suggesting it is a draft. Strategic proposals are inherently predictive and contingent on implementation, making them epistemically provisional until validated through real-world execution or peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7139382998",

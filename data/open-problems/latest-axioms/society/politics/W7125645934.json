@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The document is a 2026-dated conference paper presenting empirical research on a real health system problem. Its claims are grounded in qualitative fieldwork (2022-2024), but the abstract is incomplete ('The findings demonstrate that frag[mentation]...'). The paper's core thesis—that systemic fragmentation damages care continuity—is defensible and partially validated through triangulated methods, but lacks peer-review confirmation, full evidence presentation, and publication status verification. Classification as FLOWING reflects: (a) research-in-motion with provisional validity; (b) incomplete submission state; (c) empirical grounding without yet-established canonical status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125645934",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

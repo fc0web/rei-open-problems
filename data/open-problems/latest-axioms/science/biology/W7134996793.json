@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a descriptive meta-document about a botanical website resource. It is not a proposition making empirical claims, theoretical arguments, or falsifiable assertions. It is a category/scope statement that is survey-like and judgment-suspended with respect to truth-value. The content describes a tool's purpose and structure rather than asserting facts to be evaluated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.92
   },
   "cross_refs": {
     "arxiv": "W7134996793",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{F} \\int_{\\text{wild}} \\text{Form}(P) \\cdot \\text{Native}(P) \\, dP = \\text{Landscape}_{\\text{restored}}",
+      "interpretation": "野生植物の形態と原生性の積分が、復元された風景へと収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 10 Q 70 35 60 60' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 10 Q 30 35 40 60' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 60 L 50 90' stroke='#f59e0b' stroke-width='2'/><polygon points='50,90 45,80 55,80' stroke='#ec4899' stroke-width='1' fill='#ec4899'/><text x='50' y='50' font-size='8' fill='#ffd700' text-anchor='middle' dominant-baseline='middle'>Σ</text></svg>",
+      "interpretation": "分類の樹が大地に根ざし、野生から栽培へと枝分かれする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

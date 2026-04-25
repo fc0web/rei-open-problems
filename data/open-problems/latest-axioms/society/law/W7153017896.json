@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
     "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8Reason": "The axiom presents empirically grounded institutional analysis (UNSC-sanctions committee principal-agent dynamics) that is theoretically sound and partially validated by documentary evidence (2015-2024 Panel reports), but the causal chain from information asymmetry reduction → multilateral accountability → peacebuilding effectiveness remains contested in policy literature. The framework is neither purely established nor refuted—competing interpretations coexist regarding whether expert panels substantively reduce accountability gaps or primarily serve legitimation functions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153017896",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

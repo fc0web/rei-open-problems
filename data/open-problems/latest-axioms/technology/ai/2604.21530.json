@@ -21,14 +21,14 @@
   "proposer": "Laura Valeria Perez-Herrera, M. J. Garcia-Gonzalez, Karen Lopez-Linares",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint dated 2026-04-25 describing a novel computational method (ABMIL + foundation models for histopathology). The abstract is incomplete (cuts off at 'Prov-GigaPat'), preventing full evaluation of empirical validation status. The methodology is sound in principle but requires peer review confirmation of claims regarding performance improvements and generalization. As a 2026-dated preprint, validation status is provisional.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21530",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

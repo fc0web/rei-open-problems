@@ -21,14 +21,14 @@
   "proposer": "Adam Skurla, Dominik Macko, Jakub Simko",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a SemEval-2026 shared task paper (future-dated, preprint status). The axiom concerns a specific engineering contribution (finetuned LLM for code detection) that is empirically validated within a bounded competition framework but not yet peer-reviewed in archival form. Its truth-status is provisional pending publication and independent replication. The abstract is incomplete (cuts off mid-sentence), suggesting preprint stage.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21365",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presented is a provisional review (2026 date, preprint status indicated by 'Authors: Amresh Kumar' single attribution, incomplete abstract ending mid-sentence). It synthesizes established miRNA biology (CLASS-A formalizable) with emerging RA biomarker claims (CLASS-B, requiring clinical validation). The diagnostic efficacy assertions are plausible but not yet peer-validated in the formal literature corpus. Status: under-review, not yet canonical.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7119188688",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i} m_i \\cdot e^{-\\lambda_i t} = \\text{inflammation}(t)",
+      "interpretation": "マイクロRNA群の時間減衰が、関節炎の隠れた周期性を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='12' stroke='#00d4ff' stroke-width='1' fill='none'/><g stroke='#f59e0b' stroke-width='1' opacity='0.6'><line x1='50' y1='10' x2='50' y2='30'/><line x1='50' y1='70' x2='50' y2='90'/><line x1='10' y1='50' x2='30' y2='50'/><line x1='70' y1='50' x2='90' y2='50'/></g><text x='50' y='52' font-size='10' fill='#00ff88' text-anchor='middle' dominant-baseline='middle'>miR</text></svg>",
+      "interpretation": "同心円のリズム：miRNA群が関節の炎症という中心に螺旋を描きながら収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

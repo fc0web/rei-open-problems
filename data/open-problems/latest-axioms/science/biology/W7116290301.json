@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, likely placeholder or speculative). Abstract is incomplete (cuts off mid-sentence at 'lacks'). Content describes ongoing experimental/observational work on sieve element proteins—descriptive biological research rather than axiomatic claim. Status is provisional pending full manuscript validation and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7116290301",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Loss of Nucleus}}{\\text{Gain of Flow}} = \\int_{\\text{SE}} (\\text{Mitochondria} + \\text{ER} + \\text{Plastids})\\, d\\Phi",
+      "interpretation": "細胞の空洞化が流れの純潔性を生み出し、残存する器官が無言で運命を支える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='2'/><circle cx='35' cy='50' r='4' fill='#ec4899'/><circle cx='65' cy='50' r='4' fill='#f59e0b'/><path d='M 50 30 Q 55 40 50 50' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='2,1'/></svg>",
+      "interpretation": "核の喪失が、流れの通路を透き通らせ、残る粒が暗黙の指揮棒となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

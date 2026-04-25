@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Submission is embargoed with abstract withheld. Empirical claims about gene discovery are potentially verifiable (would trend toward TRUE if validated), but current evidence is inaccessible. Status is provisional pending full publication and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7154694259",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{darkness}}^{\\text{leaf}} \\frac{d(\\text{SA})}{dt} \\cdot e^{-E_a/RT} = \\text{whisper}",
+      "interpretation": "暗闇から葉へ、活性化エネルギーを越えて、分子の耳打ちが流れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 30 40 50 60 Q 70 40 50 20' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='85' r='3' fill='#ec4899'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>SA</text></svg>",
+      "interpretation": "隠れた遺伝子が、闇から光へ分子を螺旋状に導き、地へ根をおろす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The proposition contains simultaneously defensible and contestable claims: (1) heightened nexus requirements ARE legally argued in some jurisdictions (established advocacy), (2) whether courts SHOULD adopt this standard remains dialectically unresolved across circuits and constitutional theory schools (originalist vs. living constitutionalist vs. regulatory pragmatist frameworks)",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125880845",

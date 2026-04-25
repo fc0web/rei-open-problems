@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents empirical findings from a single-country ARDL study (Nigeria, 1990-2022) on military spending → energy consumption causality. The claim is provisionally supported by specified methodology but lacks: (1) peer review status confirmation, (2) robustness checks across alternative specifications, (3) causal identification justification (ARDL assumes cointegration; military spending direction unclear), (4) generalizability bounds. The abstract appears incomplete ('statistical significanc'). This is preprint-stage empirical work requiring validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7118790824",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E(t) = E_0 + 0.18\\Delta M(t) + 0.19\\int_0^t \\Delta M(\\tau)d\\tau",
+      "interpretation": "軍事費の増加は、現在のエネルギー渇望と過去の力の蓄積の両方を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><rect x='45' y='45' width='10' height='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,70 50,50 80,70' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 35 55 Q 50 45 65 55' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "兵器（上）からエネルギー（下）への直進的な流れが、曲がった欲望の渦に交差する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

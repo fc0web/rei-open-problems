@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional 2026-dated thesis with embargoed abstract content. The axiom cannot be evaluated against established facts or refuted claims because the substantive claims remain inaccessible. Status is inherently under change pending embargo expiration and peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.25
   },
   "cross_refs": {
     "arxiv": "W7118420454",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{1 + e^{-\\alpha(\\text{AI} + \\text{ESG} - \\text{Corruption})}} = \\text{Trust}",
+      "interpretation": "腐敗を抑圧する力は、AI と企業責任の重ねた光によってのみ生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='1.5'/><path d='M 35 50 Q 50 35 65 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 35 50 Q 50 65 65 50' stroke='#ec4899' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "同心円の光が渦巻く—中心の緑の誠実さを守るため、外殻で AI が監視と倫理の盾となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "INFINITY",
-    "dfumt8": "INFINITY",
-    "dfumt8Reason": "Computational limit / intractability",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.65
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated or recent) in control theory for coupled KdV systems. The core mathematical claims (exponential stabilization via boundary control) are formally sound in principle, but peer review status is unknown. The work is a constructive theorem in partial differential equations with control-theoretic applications—inherently TRUE in its mathematical domain if proofs are correct, but FLOWING pending publication validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7139646619",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

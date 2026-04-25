@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a future-dated (2026-04-25) archival/methodological statement about data curation and code availability, not a substantive scientific claim. It describes provisional data-sharing infrastructure rather than a testable proposition. The actual biological claims (about soil phage catechol dioxygenase and viral auxiliary gene dissemination) are absent from the provided abstract, making direct truth-evaluation impossible pending full manuscript review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.65
   },
   "cross_refs": {
     "arxiv": "W7130408587",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Virus}}{\\text{Host}} \\to \\int_{\\text{soil}} \\text{Enzyme}^{*} \\, d\\mu",
+      "interpretation": "ウイルスは宿主を超えて、土壌全体に酵素の記憶を積分する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='70' cy='65' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 38 Q 40 50 30 59' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 38 Q 60 50 70 59' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='30,71 50,85 70,71' stroke='#00d4ff' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "ウイルスの粒子が触手のように二股に分かれ、土壌の網目へ酵素知識を落とす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

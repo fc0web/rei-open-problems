@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This appears to be a preprint or proposed study (dated 2026, future date) investigating metabolic phenotypes and genetic determinants in S. enteritidis from African populations. The work is not yet validated empirically. The categorization as 'cs.AI' (Computer Science - Artificial Intelligence) is incongruous with the microbiology/genomics subject matter, suggesting either metadata error or a computational modeling approach not clarified in the abstract provided. Status remains provisional pending peer review and data availability.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128536557",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

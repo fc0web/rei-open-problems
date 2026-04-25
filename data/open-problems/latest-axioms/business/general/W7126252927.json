@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a provisional framework (novel conceptual model) under active development, not yet peer-reviewed or validated. Future date (2026-04-25) indicates preprint/early-stage thesis. The blended value proposition and SSE ecosystem framework are empirically testable in principle but remain in exploratory phase. Classification as FLOWING reflects: (1) stated novelty of framework, (2) multi-theoretical integration still requiring validation, (3) civic entrepreneur role identification pending longitudinal/case study evidence.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7126252927",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "V = \\int_{\\text{civic}} \\left( \\text{Social} \\otimes \\text{Economic} \\right) d\\mu_{\\text{embed}}",
+      "interpretation": "社会と経済の織り交ぜが、市民の触媒作用によって地域の価値へと積分される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='35' cy='50' r='15' fill='none' stroke='#00d4ff' stroke-width='1.5'/><circle cx='65' cy='50' r='15' fill='none' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1.5'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5'/><path d='M 50 30 Q 60 50 50 70' fill='none' stroke='#f59e0b' stroke-width='1'/><path d='M 50 30 Q 40 50 50 70' fill='none' stroke='#f59e0b' stroke-width='1'/></svg>",
+      "interpretation": "二つの領域が対称的に交わり、中心の十字が複数の利害関係者の協働構造を支える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

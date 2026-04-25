@@ -21,14 +21,14 @@
   "proposer": "Robin Dey, Panyanon Viradecha",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a provisional empirical claim about MemPalace architecture (2026 system, preprint stage). The core assertion—that performance gains derive from verbatim storage + embedding choice rather than spatial metaphor—is testable but not yet settled in peer review. Benchmark replication is underway but incomplete in the provided excerpt. This is characteristic of active research under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21284",

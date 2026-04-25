@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a provisional conference paper (dated 2026, future/preprint status) presenting empirical qualitative research on a real health system problem. The claims are grounded in fieldwork (2022-2024) but the paper appears incomplete (abstract cuts off mid-sentence). The core proposition—that fragmentation in Ghana's mixed health system impairs multi-morbid NCD care continuity—is plausible and evidence-supported by the stated methodology, but requires full peer review and publication validation before classification as TRUE. The systems-level claims are not yet fully formalized or independently replicated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125631032",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

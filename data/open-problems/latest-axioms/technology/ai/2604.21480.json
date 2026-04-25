@@ -21,14 +21,14 @@
   "proposer": "Itay Nakash, George Kour, Ateret Anaby-Tavor",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel evaluation methodology (DIVERT) for LLM-based agents that is computationally validated but not yet peer-reviewed (preprint status, dated 2026-04-25). The core claim—that diversity-guided branching improves evaluation efficiency over linear Monte Carlo—is empirically testable and likely sound, but lacks independent verification. Classification as FLOWING reflects provisional scientific status rather than established theorem (TRUE) or refutation (FALSE).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21480",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a single clinical case report (n=1) from 2026 describing neonatal wound management. Case reports are provisional evidence—they document observation but lack comparative validation, control groups, or reproducibility metrics. The abstract is incomplete (cuts mid-sentence at 'segunda int[ención]'), preventing full evaluation. Clinical protocols described (TIME concept, PIPP-R scoring, advanced dressings) are themselves established, but their application to this specific ultra-premature patient (24+3 weeks, 640g) with iatrogenic chlorhexidine injury represents a singular documented instance, not yet peer-validated or systematized into guideline strength.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125415891",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dH}{dt} = -\\alpha C + \\beta M - \\gamma N",
+      "interpretation": "湿度と化学薬剤と壊死が、極未熟児の皮膚修復を支配する隠れた力学である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 45 35 50 50 Q 55 65 50 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88' opacity='0.6'/><line x1='30' y1='50' x2='70' y2='50' stroke='#00d4ff' stroke-width='1.5' opacity='0.5'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ffd700'>TIME</text></svg>",
+      "interpretation": "極限の小さき生命の中で、傷は螺旋状に癒え、中心に光が集まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

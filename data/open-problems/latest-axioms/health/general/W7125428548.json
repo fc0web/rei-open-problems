@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a single clinical case report (n=1) from 2026 comparing two autologous skin graft techniques for calciphylaxis ulcers. The provisional classification reflects: (1) real clinical observation but limited to one patient, (2) comparative outcome data that suggests HT-MG superiority but lacks statistical power, (3) incomplete abstract preventing full evidence assessment, (4) preprint/early publication status typical of cutting-edge medical techniques. Requires validation through RCTs or larger case series before ontological elevation to TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125428548",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{sello}}{6\\text{ meses}} \\ll \\frac{\\text{microinjerto}}{t^*} \\cdot e^{-\\text{tendon}}",
+      "interpretation": "傷は時間と微小さの共鳴で、露出した腱が癒しを加速させる謎。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='18' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='18' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='25,32 75,68' stroke='#f59e0b' stroke-width='2'/><polyline points='25,68 75,32' stroke='#f59e0b' stroke-width='2'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>sello → micro</text></svg>",
+      "interpretation": "二つの傷跡の交差は、同じ体が異なる言語で応答する対話。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

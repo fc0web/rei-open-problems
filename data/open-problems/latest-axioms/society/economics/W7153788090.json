@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a working paper (pre-validated scholarship) examining empirical relationships between trade policy, human rights enforcement, and regional integration outcomes. It is not yet peer-reviewed, contains no proven theorems, but presents structured analytical claims subject to falsification. Classification as FLOWING reflects provisional scholarly status with iterative validation pending.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153788090",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint dated 2026 (future/hypothetical date suggesting working paper status). The axiom concerns digital currency design and its interaction with information economics and monetary policy—a domain where theoretical frameworks exist but real-world digital currency systems are still under active development and policy debate. The claims are not yet validated through peer review or empirical implementation at scale.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7128510716",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

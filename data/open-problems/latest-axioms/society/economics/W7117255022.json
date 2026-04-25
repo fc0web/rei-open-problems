@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes an empirical socio-technical system (green energy transitions, trust dynamics, adoption behavior) currently under active research and policy evolution. Findings are provisional—dependent on temporal context (PSPS events, CSR strategy changes, cooperative governance models), geographic scope (California-specific), and measurement assumptions. The causal claims (distrust → solar interest, CSR alignment → trust recovery) are supported by data but remain subject to validation, replication, and boundary condition testing. This is preprint-stage research with legitimate but non-final epistemic status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7117255022",

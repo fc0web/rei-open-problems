@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Report describes empirical research (2026 date suggests preprint/provisional). Solar-assisted cooling integration is established technology, but optimization results and specific performance metrics require validation. Status intermediate between experimental data (not yet peer-reviewed) and confirmed engineering practice.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7152477679",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\eta_{cool} = \\frac{\\int_0^T \\Phi_{solar}(t) \\, dt}{\\int_0^T Q_{demand}(t) \\, dt} \\cdot \\cos(\\theta_{season})",
+      "interpretation": "太陽の恵みが、季節の角度を通して冷却の飢えを癒す不思議な比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='85' cy='20' r='12' stroke='#ffd700' stroke-width='2' fill='none'/><rect x='20' y='45' width='60' height='35' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='30,60 50,50 70,60' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 70 Q 40 75 50 80 Q 60 75 50 70' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='85' y1='32' x2='50' y2='55' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "天から降る光が、建物の内部で冷たい渦を踊らせ、季節の輪と一体になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

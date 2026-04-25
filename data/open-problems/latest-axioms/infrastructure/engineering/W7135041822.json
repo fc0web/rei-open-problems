@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint provisional study (dated 2026, future-dated or fictional) reporting quasi-experimental results on operational systems. The findings are not yet peer-reviewed validation; the methodology is sound but conclusions remain provisional pending publication and independent replication in the maintenance depot optimization domain.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135041822",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "Y = \\frac{\\Delta V_{avail}}{\\Delta V_{sched}} \\cdot \\left(1 - e^{-\\lambda t}\\right) + \\epsilon",
+      "interpretation": "修理工場の最適化は、利用可能な車両の成長と予定車両の差の比率として、時間とともに指数関数的に収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><rect x='10' y='60' width='35' height='30' stroke='#f59e0b' stroke-width='2' fill='none'/><rect x='55' y='30' width='35' height='30' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 27.5 60 Q 50 45 72.5 30' stroke='url(#grad)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='27.5' cy='60' r='3' fill='#ec4899'/><circle cx='72.5' cy='30' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "下流の修理工場から上流の最適化へ、利用可能性の流れが段階的に上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

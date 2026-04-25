@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a methodological approach (Bayesian pool testing with viral load integration) that is mathematically sound in principle but presented as a preprint (2026-04-25 timestamp, incomplete abstract suggesting draft status). The core claim about identifiability problems is established theory; the proposed solution's validity remains provisional pending peer review and empirical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128618345",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "impossible",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(\\pi | \\text{pools}) \\propto \\frac{\\mathcal{L}(\\text{data} | \\pi, \\rho, \\tau)}{\\text{Volume}(\\pi, \\rho, \\tau)}",
+      "interpretation": "尤度の谷を視ることで、同じ観測から複数の真実が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><ellipse cx='50' cy='40' rx='25' ry='15' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='30' cy='65' r='8' fill='none' stroke='#ec4899' stroke-width='1.5'/><circle cx='50' cy='70' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='70' cy='65' r='8' fill='none' stroke='#f59e0b' stroke-width='1.5'/><polyline points='50,40 30,65' stroke='#7c3aed' stroke-width='1' stroke-dasharray='2,2'/><polyline points='50,40 50,70' stroke='#7c3aed' stroke-width='1' stroke-dasharray='2,2'/><polyline points='50,40 70,65' stroke='#7c3aed' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "一つの池の観測から、三つの異なる真実へ分岐する—識別不可能性の幽霊。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

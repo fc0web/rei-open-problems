@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document marked 'inPress' (2026 future date) with speculative framing ('capillary mondialisation'). The axiom presents a provisional thesis about Czech contemporary literature's global circulation patterns. Core claim is not yet validated in peer review; theoretical framework ('capillary' as distributed/networked diffusion) requires empirical substantiation. Status is pre-validated scholarship.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7116644941",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Local Capillary}}{\\text{Global Diffusion}} = \\int_0^1 e^{-\\lambda x} \\sin(\\omega x) \\, dx",
+      "interpretation": "局所の毛細管現象と世界規模の拡散のあいだで、減衰する振動が真実を運ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='20,50 50,50 80,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 70 Q 30 60 50 50 Q 70 40 50 30' stroke='#00ff88' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ffd700'>capillaire</text></svg>",
+      "interpretation": "中心から外へ細い血管のように広がり、世界と地元が螺旋を描いて踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

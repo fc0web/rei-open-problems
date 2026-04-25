@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper dated 2026-04-25 (future date, likely data error or preprint staging). Categorized as cs.AI but title concerns combustion physics (hydrogen-air flames, Hele-Shaw burners). Mismatch suggests provisional/uncategorized status. Core claim about cell size distributions in flame propagation is empirically testable but metadata inconsistencies prevent definitive classification until validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7130255003",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\ell}{dt} \\sim \\sqrt{\\frac{\\mathcal{D}}{\\beta}} \\exp\\left(\\frac{E_a}{RT}\\right)",
+      "interpretation": "炎が進む時、細胞のサイズは拡散と反応の競争から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#ec4899' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1.2'><path d='M 30 50 Q 35 40 40 50 Q 45 60 50 50 Q 55 40 60 50 Q 65 60 70 50'/><path d='M 35 35 Q 40 30 45 35 Q 50 40 55 35 Q 60 30 65 35'/><path d='M 25 65 Q 32 60 40 65 Q 48 70 55 65 Q 62 60 70 65'/></g><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "熱と拡散の波が進むにつれ、炎の細胞は自然と蜂の巣のように分割される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

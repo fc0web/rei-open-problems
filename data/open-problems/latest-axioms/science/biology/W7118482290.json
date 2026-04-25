@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "ECTICON is a provisional software artifact (dated 2026, future publication). The application's efficacy, validation status, and real-world deployment remain unestablished. The underlying entomological taxonomy (Musca, Stomoxys, etc.) is CLASS-A formalized, but the AI identification module requires field validation. Status: preprint/under-review artifact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118482290",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Musca} + \\text{Stomoxys} + \\text{Haematobia}}{\\text{Recognition}} \\to \\text{Control}",
+      "interpretation": "認識の欠如が、制御不能な害虫の増殖を招く逆説。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 45 35 50 50 Q 55 35 50 20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 50 Q 35 55 20 50' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 65 55 80 50' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 50 L 50 80' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#00ff88'>?→✓</text></svg>",
+      "interpretation": "翼をもつ害虫が認識の空白を飛び回り、知識が光で問いを照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a pedagogical efficacy study (2026, provisional research). The axiom concerns students' perceived capabilities post-intervention, which is: (1) empirically measurable but not yet published/peer-reviewed in this timestamp context; (2) capability self-assessment is subject to Dunning-Kruger effects and social desirability bias; (3) the underlying claim that 'OT education improves cultural safety practice' is partially validated in health literature but remains context-dependent and requires longitudinal outcome validation (does perceived capability → actual culturally safe practice?). Status: under change pending full validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134895793",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{1+e^{-k(r-t_0)}} \\cdot \\sqrt{\\frac{m}{1+d}}",
+      "interpretation": "文化的安全能力は、反省的実践による段階的な内在化を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 30 Q 65 50 50 70 Q 35 50 50 30' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "教育と反映的実践の交差点で、文化的安全が螺旋状に内面化される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

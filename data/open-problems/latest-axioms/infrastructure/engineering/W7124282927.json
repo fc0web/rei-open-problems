@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The proposition describes an integrative framework (Ayurveda + biotechnology) currently under active exploration with emerging validation. No consensus exists on efficacy claims or theoretical coherence; the field is in preprint/provisional stage with mixed evidence quality. Classification as FLOWING reflects genuine developmental trajectory rather than settled truth or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.38
   },
   "cross_refs": {
     "arxiv": "W7124282927",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Genome}_{\\text{Prakriti}} \\cdot \\text{Herb}_{\\text{ancient}}}{\\text{BioTech}_{\\text{modern}}} = \\text{Healing}_{\\text{personalized}}",
+      "interpretation": "古き叡智と現代の測定が合わさるとき、個人の本質に根ざした治癒が現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 45 55 50 Q 50 55 45 50' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,20 50,35 50,65 50,80' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>∿ ↔ ⚛</text></svg>",
+      "interpretation": "古(紫)と現代(緑)の螺旋が中心で踊り、微細な糸が上下に共鳴する統合の姿。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

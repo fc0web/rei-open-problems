@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The article describes a provisional methodology (2021-2026 case study with April 2026 publication date). The framework is presented as novel and under implementation/validation rather than established or refuted. The abstract truncates before completion, suggesting preprint or in-progress status. Technical feasibility is plausible but empirical outcomes remain unreported.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125600615",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{rooftop}}^{\\text{grid}} \\frac{\\text{sun}}{\\text{heat}} \\cdot \\text{blockchain}(x,y,t) \\, dx",
+      "interpretation": "太陽は屋根で分散され、ブロックチェーンが時空間を通じて熱を追跡する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='20' r='12' stroke='#ffd700' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='35' x2='30' y2='55'/><line x1='50' y1='35' x2='50' y2='60'/><line x1='50' y1='35' x2='70' y2='55'/></g><rect x='25' y='60' width='15' height='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><rect x='55' y='60' width='15' height='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 80 Q 50 88 70 80' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "太陽から放射される光が個々の家々へ分散し、ネットワークが熱の流れを冷却する紫の環で統制する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

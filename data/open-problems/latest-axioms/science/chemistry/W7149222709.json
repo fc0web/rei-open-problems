@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical mycology study (2026, preprint status indicated by abstract truncation and recent date). The findings are experimental observations not yet peer-validated in final form. The core claims about schizophyllan function are provisionally supported by controlled experiments but require independent replication and peer review before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7149222709",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{buffer}}{\\text{schizophyllan}} \\sim \\frac{1}{\\text{strength}} \\cdot \\text{elasticity}^{2.5}",
+      "interpretation": "緩衝液が増えるほど、強度を失い、柔軟性が増すという共生関係。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "堅い殻（紫）が揺らぐ螺旋（緑）へ—リン酸塩による柔軟化の舞。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

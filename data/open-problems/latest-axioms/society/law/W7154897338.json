@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a scholarly survey and interpretive analysis of theological thought, not a testable empirical claim or formal proposition. The value of Sofroniy's theological legacy is hermeneutical and contextual rather than truth-evaluable in classical logic. The work functions as meta-commentary on spiritual tradition.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.85
   },
   "cross_refs": {
     "arxiv": "W7154897338",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

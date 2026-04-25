@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Proposition is a design-research recommendation based on qualitative case study with initial results only. Validation requires field deployment, measurable impact assessment, and peer review. Status: preprint/provisional engineering design, not yet operationally or theoretically proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7117992170",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Waste}}{\\text{Flow}^2} \\cdot \\sqrt{\\frac{h(t)}{h_0}} = \\text{Harmony}",
+      "interpretation": "流れに抵抗せず、水位の呼吸に合わせるとき、汚れは消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#00ff88'/></defs><path d='M 20 50 Q 50 30 80 50 Q 50 70 20 50' fill='none' stroke='url(#flow)' stroke-width='3'/><circle cx='50' cy='50' r='8' fill='#7c3aed' opacity='0.6'/><polyline points='30,45 35,55 45,50 55,55 65,48' fill='none' stroke='#ec4899' stroke-width='1.5' stroke-linecap='round'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#ffd700' font-family='monospace'>adapt</text></svg>",
+      "interpretation": "河の脈動に身を寄せ、ゴミを優しく吸い上げる呼吸する舟。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

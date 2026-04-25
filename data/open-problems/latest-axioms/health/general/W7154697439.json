@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional thesis document (embargoed, future date 2026) with abstract withheld. The work concerns beta-cell biomarkers and immune therapies in type 1 diabetes—an empirical medical research domain. Classification as FLOWING is appropriate because: (1) the full content is inaccessible (embargo), (2) validation status unknown pending publication, (3) the thesis has not yet undergone peer review or defense completion, and (4) biomedical claims require experimental verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7154697439",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\beta}{dt} = -\\lambda \\cdot \\mathcal{I}(t) + \\Theta(\\text{marker})\\cdot\\mathcal{R}",
+      "interpretation": "膵β細胞の消滅と免疫療法による救済の拮抗を、検出信号が調停する様相。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 35 50 L 65 50 M 50 35 L 50 65' stroke='#f59e0b' stroke-width='1.5'/><polyline points='30,70 50,60 70,70' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "中核（β細胞）を囲む免疫の円環、治療の光線が交差し、希望の矢が下降を逆転させんと試みる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

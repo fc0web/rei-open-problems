@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a book review of empirical research on e-susu adoption among taxi drivers in Abidjan. The axiom is provisional because: (1) it reports on field observations from 2026 (future-dated, preprint status implied), (2) mixed-methods social science research requires iterative validation across populations and time periods, (3) findings on informal financial behavior are context-dependent and subject to economic/policy shifts, (4) the abstract is incomplete ('observati[on]' truncated), preventing full evaluation of methodological rigor.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7134887575",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

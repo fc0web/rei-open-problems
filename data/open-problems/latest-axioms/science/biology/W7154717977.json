@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with abstract content withheld. No substantive axiom or claim is evaluable—the document exists as a metadata shell only. Truth-value assignment requires accessible propositional content.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7154717977",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\lambda t} \\left(1 + \\frac{dP}{dt}\\right) dt = \\sum_{n=1}^{N} S_n",
+      "interpretation": "野生酵母の時間的進化が、表現型の総和へ積分される直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 65 35 70 50 Q 65 65 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 35 35 30 50 Q 35 65 50 85' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#ec4899'>ferment</text></svg>",
+      "interpretation": "二つの系統が円環的な発酵空間で共鳴し、中心で遺伝的本質と出会う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

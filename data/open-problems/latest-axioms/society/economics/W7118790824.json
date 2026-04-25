@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents empirical findings from econometric analysis (ARDL method) on a specific national case (Nigeria 1990-2022). The claim is provisionally supported by stated statistical analysis but lacks peer-review validation marker, complete methodology transparency, and replication across contexts. The abstract is truncated, suggesting preprint/working paper status. The causal mechanism (military spending → energy consumption) is plausible but requires validation against confounders, alternative specifications, and theoretical grounding.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118790824",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a provisional empirical claim about technology's role in education (2026 preprint). It makes causal assertions ('technology transforms processes') that are partially validated but remain context-dependent and subject to ongoing empirical refinement. No formal proof or complete refutation exists; the claim oscillates between demonstrable benefits in specific domains and contested outcomes in others (equity gaps, pedagogical effectiveness variation).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130412743",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d(\\text{Competence})}{dt} = k \\cdot \\text{Tech}(t) - \\text{Lag}(t)",
+      "interpretation": "技術の採用速度が国家の競争力の微分を決定する—遅れは衰退。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='8' fill='url(#g1)'/><path d='M 50 50 L 80 30' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 L 70 75' stroke='#ec4899' stroke-width='2'/><path d='M 50 50 L 25 35' stroke='#f59e0b' stroke-width='2'/><path d='M 50 50 L 30 70' stroke='#ffd700' stroke-width='2'/><circle cx='50' cy='50' r='25' fill='none' stroke='#00d4ff' stroke-width='1' opacity='0.5'/><circle cx='50' cy='50' r='40' fill='none' stroke='#7c3aed' stroke-width='1' opacity='0.3'/></svg>",
+      "interpretation": "中心から放射する複数の道筋—技術が一点から社会全体へ波及する様。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

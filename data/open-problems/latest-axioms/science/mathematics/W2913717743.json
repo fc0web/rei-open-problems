@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a clinical trial protocol/prospective study dated 2026 (future date, likely typographical error for 2024 or under-review manuscript). The axiom proposes a specific surgical intervention (percutaneous joystick reduction) for pediatric radial neck fractures. Classification as FLOWING because: (1) the study appears to be prospective/ongoing rather than completed peer-reviewed research; (2) functional outcomes of surgical interventions require empirical validation across patient cohorts; (3) the categorical assignment (cs.AI) is incongruent with medical/orthopedic content, suggesting metadata error or preprint status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W2913717743",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{30°} \\frac{\\text{angulation}}{\\text{remodeling}} \\, d(\\text{growth}) = \\text{function}",
+      "interpretation": "子どもの骨は時間という積分の中で、角度と再形成のバランスを自ら解く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='1.5'/><path d='M 50 50 L 70 35' stroke='#ec4899' stroke-width='2' fill='none' stroke-linecap='round'/><path d='M 50 50 L 65 40' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round' stroke-dasharray='3,2'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>joystick</text></svg>",
+      "interpretation": "医者の指が骨の迷路を優しく導き、成長という見えない力が後から答え合わせをする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

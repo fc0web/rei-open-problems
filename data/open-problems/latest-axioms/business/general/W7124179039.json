@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional legal-theological analysis of Islamic contract law (akad) applied to a specific debt-settlement practice in an Indonesian village. The axiom combines: (1) established Islamic jurisprudence (riba prohibition, contract validity rules—TRUE component), (2) empirical observation of local practice requiring validation (FLOWING component), and (3) normative legal judgment that remains context-dependent and subject to scholarly debate (BOTH component). The work is dated 2026 (future), suggesting preprint/provisional status. No refutation is evident, but validation requires community expert review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124179039",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

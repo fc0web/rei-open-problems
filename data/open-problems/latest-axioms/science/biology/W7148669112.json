@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with abstract withheld. No evaluable content is accessible. Truth-value assignment requires substantive claims; an empty or inaccessible abstract permits no epistemic judgment on the axiom's validity.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7148669112",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial V}{\\partial t} = \\nabla^2 V + \\lambda \\cdot S(t) - \\mu V",
+      "interpretation": "血管網の成長は拡散と自己組織化の競争——細胞の夢が幾何学を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1' fill='none'/><path d='M 50 20 Q 40 35 50 50 T 50 80' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 60 35 50 50 T 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='5' fill='#ec4899'/><polyline points='30,50 50,50 70,50' stroke='#f59e0b' stroke-width='1' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "中心から枝分かれする脈管——一つの芽から万の経路が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

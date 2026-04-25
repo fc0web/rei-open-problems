@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is a 2026-dated thesis/research paper (future-dated or preprint status unclear). Core claims about donkey disease burden, economic contribution, and policy impact are empirically grounded but appear to be primary research findings not yet published in peer-reviewed venues or validated against independent datasets. The abstract is incomplete, preventing full evaluation of methodology rigor.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127930269",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Burden}}{\\text{Visibility}} = \\frac{1}{\\epsilon} \\cdot \\left(1 - e^{-\\lambda \\cdot \\text{Evidence}}\\right)",
+      "interpretation": "見えぬものの負荷は、証拠の欠如によって無限に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='3' fill='#ffd700'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>ignored</text></svg>",
+      "interpretation": "中心に輝く価値が、見えない殻に閉じ込められている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

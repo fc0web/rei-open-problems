@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a novel geometric derivation linking fundamental constants (G, Λ) through boundary normalization. The claimed exact relation (ΛR_H² = π³/15) and resolution of the cosmological constant problem are mathematically stated but lack peer-reviewed validation, experimental confirmation, or independent verification. The work is dated 2026-04-25 (future date, likely placeholder) and categorized under cs.AI rather than physics, suggesting pre-publication status. The framework is internally coherent but represents a provisional theoretical claim requiring community scrutiny before reclassification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130854363",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

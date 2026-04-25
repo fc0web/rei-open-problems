@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical ornithological observation report (2023-2024 field data) describing atypical breeding locations for G. passerinum. The findings challenge established distribution models but are based on limited sample size (n=2 nests). Classification is FLOWING because: (1) the data are recent and not yet peer-reviewed in traditional venue, (2) pattern confirmation requires multi-year replication, (3) mechanistic explanation for lowland tolerance remains provisional, (4) the arxiv cs.AI categorization is likely miscategorization—this is biology/ecology, not computer science.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153432069",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(\\text{owl}) \\sim \\frac{\\text{cavities} \\cdot \\text{biodiversity}}{\\text{altitude} + \\epsilon}",
+      "interpretation": "高度が低いほど、空洞と生物多様性がフクロウの出現確率を高める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1' fill='none' stroke-dasharray='3,2'/><ellipse cx='50' cy='35' rx='6' ry='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><ellipse cx='50' cy='65' rx='6' ry='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#f59e0b' stroke-width='0.8' opacity='0.6'/><path d='M 30 50 Q 50 45 70 50' stroke='#00d4ff' stroke-width='1' fill='none'/><text x='50' y='88' font-size='8' text-anchor='middle' fill='#7c3aed'>altitude</text></svg>",
+      "interpretation": "フクロウは降下する――中心の空洞から枝分かれする生命が呼び寄せる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

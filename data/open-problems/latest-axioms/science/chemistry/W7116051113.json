@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint review article (dated 2026-04-25, future-dated or speculative) in a comprehensive but empirically-grounded domain. The axiom presents established biochemical principles (fermentation fundamentals are CLASS-A proven) but frames them within a synthesis requiring ongoing validation. The abstract is incomplete (truncated at 'efficie'), suggesting provisional/draft status. Review articles occupy FLOWING state until peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7116051113",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\eta = \\frac{\\int_0^T \\mu(t) \\cdot S(t) \\, dt}{K_{cat} \\cdot \\sigma(M, P, T)}",
+      "interpretation": "発酵効率は菌の成長速度と基質の調和が時間を通じて織り交ざり、物質パラメータの乱流によって織られる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 40 50 65 Q 30 40 50 15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><g stroke='#00ff88' stroke-width='1.5' opacity='0.7'><line x1='50' y1='50' x2='20' y2='35'/><line x1='50' y1='50' x2='80' y2='65'/><line x1='50' y1='50' x2='35' y2='80'/></g><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ffd700'>flux</text></svg>",
+      "interpretation": "微生物の中心から基質へ向かう流線が絡み合い、目に見えぬ代謝の舞踏を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

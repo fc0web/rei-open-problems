@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (arXiv 2026-04-25) describing computational methods for transcendental function rounding in floating-point arithmetic. The core claims are technically sound but validation status is pending peer review. The work extends established results (Lefèvre-Zimmermann prior work on hard-to-round cases) into a domain (double precision sin/cos/tan) where exhaustive verification is computationally intensive but theoretically well-founded.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.82
   },
   "cross_refs": {
     "arxiv": "W7154928097",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

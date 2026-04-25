@@ -21,14 +21,14 @@
   "proposer": "Zhen Zhang, Jielei Chu, Tian Zhang et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper proposes a novel paradigm (causal disentanglement for FR-IQA) that is theoretically motivated but requires empirical validation. As a 2026-04-25 preprint, it presents provisional methodology combining causal inference with representation learning. The core claims (degradation as causal process, content-degradation decoupling) are plausible but not yet peer-reviewed or independently validated. The approach is sufficiently formalized to be implementable but remains in active development phase.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21654",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

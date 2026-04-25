@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Application described is in development/preprint stage (dated 2026, future date suggests prototype or pre-validation submission). Core claim (AI-based fly identification for livestock) is theoretically sound but empirical validation status unknown. Classification feasifiability is established in general ML domain; specific implementation performance unverified.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118838303",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Musca} + \\text{Stomoxys} + \\text{Haematobia}}{\\sqrt{\\text{delay}^2 + \\text{misidentification}^2}} \\to \\text{farm health}",
+      "interpretation": "病気を運ぶハエの正体を瞬時に見抜くことで、農場全体の健康が根本から変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#ec4899'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='30' r='6' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='40' cy='50' r='5' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='60' cy='50' r='5' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='8' stroke='url(#g1)' stroke-width='2' fill='none'/><line x1='50' y1='36' x2='50' y2='62' stroke='#f59e0b' stroke-width='1'/><line x1='40' y1='55' x2='50' y2='62' stroke='#00ff88' stroke-width='1'/><line x1='60' y1='55' x2='50' y2='62' stroke='#00ff88' stroke-width='1'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>識別→制御</text></svg>",
+      "interpretation": "複数の寄生虫の種を同時に認識し、一つの対策へと収束させるネットワーク。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

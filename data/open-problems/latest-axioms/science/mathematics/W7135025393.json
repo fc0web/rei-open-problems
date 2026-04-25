@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study reports mixed model fit results (CFI/SRMR adequate, but R-squared metrics incomplete in abstract). Confirmatory validation is provisional—awaiting full results, peer review, and replication. The abstract is truncated, preventing complete assessment of empirical claims.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135025393",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Order}}{\\text{Chaos}} \\approx \\sqrt[3]{\\text{Math}} \\cdot \\left(1 - \\frac{1}{\\text{Voice}}\\right)",
+      "interpretation": "秩序と混沌の比が、数学の三乗根に、抑制された声の力を掛けたもので表される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 45 50 L 55 50' stroke='#7c3aed' stroke-width='2.5'/><polyline points='30,35 40,45 30,55' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='70,35 60,45 70,55' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ffd700' stroke-width='1' opacity='0.4' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "二つの声が秩序の柱を挟んで振動し、その間に数学的な橋が架かっている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

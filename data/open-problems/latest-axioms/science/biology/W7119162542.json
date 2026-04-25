@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a regenerative veterinary orthopaedic approach combining stem cells and bioactive molecules for bone tissue engineering. This is a preprint (date 2026-04-25, future-dated or recent submission) in an emerging field. The core claims about MSC efficacy and BTE mechanisms are partially validated in literature but clinical translation in veterinary medicine remains under active investigation. The abstract is incomplete, preventing full evaluation. Classification as FLOWING reflects provisional scientific status—not yet settled consensus, empirical validation ongoing, clinical protocols still being refined.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119162542",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Regeneration} = \\lim_{t\\to\\infty} \\frac{\\text{MSC} \\cdot \\text{Scaffold} \\cdot \\text{Molecules}}{\\text{Inflammation}^2}",
+      "interpretation": "幹細胞と足場と生物活性分子の調和が、炎症という抵抗を超えるとき、生命は自らを再生する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='42' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.6'/><polyline points='50,8 50,25 35,35 50,50 65,35 50,25' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ffd700' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "中心の幹細胞から放射状に広がる再生の波が、層状の足場を通じて損傷した組織を包囲し、蘇らせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

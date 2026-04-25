@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission provides only a title and embargo notice with no accessible content. Truth-value cannot be assigned to an unpublished, embargoed work lacking evaluable claims, methods, or results. The axiom itself is observation-impossible in current state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7154712957",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\lambda t} \\sin(\\omega t) \\, dt = \\frac{\\omega}{\\lambda^2 + \\omega^2}",
+      "interpretation": "光と電子の共鳴が、時間の減衰を通じて永遠に調和する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' fill='#00d4ff'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' fill='none' stroke-width='1.5'/><circle cx='50' cy='50' r='40' stroke='#7c3aed' fill='none' stroke-width='1.5' stroke-dasharray='3,3'/><g stroke='#00ff88' stroke-width='1.2' fill='none'><path d='M 30 50 Q 40 35 50 50 T 70 50'/><path d='M 35 50 Q 45 60 55 50 T 75 50'/></g><circle cx='30' cy='35' r='2.5' fill='#ec4899'/><circle cx='70' cy='65' r='2.5' fill='#ec4899'/></svg>",
+      "interpretation": "光子と電子が同心円上で踊り、微細な回路の中で測定と計算が融合する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

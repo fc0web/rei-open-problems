@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a historically documented phenomenon (SS career progression, T4→Reinhard personnel overlap) that is factually verifiable, BUT its interpretive claim (vindicatory careerism as primary motivational mechanism) remains contested within Holocaust historiography. The work synthesizes existing evidence into a novel causal framework that coexists with competing explanations (ideological commitment, obedience, institutional pressure, compartmentalization). Both the empirical substrate and theoretical interpretation are simultaneously defensible and debatable.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7148191575",

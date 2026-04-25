@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is context-impossible to evaluate. It presents only a title, author, date, and embargo notice with no accessible abstract or thesis content. No claims, data, methods, or results are available for truth-value assessment. The categorization as 'cs.AI' appears misaligned with the biological title. The embargo status renders the axiom non-evaluable in the present state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7116404727",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Mito}_{\\text{genesis}}}{\\text{Lymph}_{\\text{quiescent}}} \\sim \\int_{\\text{FL}}^{\\text{DLBCL}} \\frac{dE}{dt}",
+      "interpretation": "ミトコンドリアの爆発が、腫瘍の静寂から暴動への移行を駆動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g id='mito'><ellipse cx='35' cy='40' rx='8' ry='12' stroke='#00ff88' stroke-width='1.5' fill='none'/><ellipse cx='50' cy='50' rx='8' ry='12' stroke='#00ff88' stroke-width='1.5' fill='none'/><ellipse cx='65' cy='45' rx='8' ry='12' stroke='#00ff88' stroke-width='1.5' fill='none'/></g><polyline points='25,50 50,35 75,55' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 65 Q 40 80 30 85' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "静かな球体内で、緑色の小器官たちが目覚め、ピンク色のエネルギー波が上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

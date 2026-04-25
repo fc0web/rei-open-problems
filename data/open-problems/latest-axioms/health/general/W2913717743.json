@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a clinical research protocol (prospective study design) submitted as preprint (2026 future date anomaly suggests provisional/staged submission). The axiom presents an empirical hypothesis about surgical outcomes, not yet validated through peer review or publication. Medical interventions require prospective validation before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W2913717743",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{30°} \\frac{\\text{remodeling}}{\\text{angle}} \\, d\\theta = \\text{childhood elasticity}",
+      "interpretation": "子どもの骨は角度を許容し、時間とともに自ら正される神秘的な力を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='25' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 50 25 Q 60 40 50 50' fill='none' stroke='#7c3aed' stroke-width='2.5' stroke-linecap='round'/><path d='M 50 25 Q 40 40 50 50' fill='none' stroke='#ec4899' stroke-width='2.5' stroke-linecap='round'/><line x1='50' y1='50' x2='50' y2='75' stroke='#00ff88' stroke-width='2'/><text x='50' y='90' font-size='10' text-anchor='middle' fill='#7c3aed'>joystick</text></svg>",
+      "interpretation": "二つの道が一点に収束し、中心軸が下へと伸びる—微細な操作で大きな矯正を成し遂げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

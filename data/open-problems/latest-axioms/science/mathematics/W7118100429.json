@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "This is a mathematical theorem in functional analysis with classical precedent (Mann iteration, quasi-nonexpansive mappings, demiclosedness principle). The claimed weak convergence result under stated conditions is a natural extension of established theory (Mann 1953, Browder-Petryshyn). The proof structure (demiclosedness → weak convergence) follows standard methodology in Banach space theory. While the specific combination may be novel, the axiom is formalizable, provable-in-principle, and consistent with known fixed-point theory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.87
   },
   "cross_refs": {
     "arxiv": "W7118100429",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\rho_{n+1} = \\alpha_n \\rho_n + (1-\\alpha_n)T\\rho_n \\rightharpoonup \\text{fix}(T)",
+      "interpretation": "反復は重み付き平均として、空間の幾何学に導かれ、固定点へ柔らかく収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.fade{opacity:0.6}</defs><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><polyline points='20,50 35,45 48,52 62,48 78,54' stroke='#00d4ff' stroke-width='2' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='4' fill='#ec4899'/><path d='M 35 45 Q 42 48 48 52' stroke='#00ff88' stroke-width='1' fill='none' class='fade'/><path d='M 48 52 Q 55 50 62 48' stroke='#00ff88' stroke-width='1' fill='none' class='fade'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed'>demiclosed</text></svg>",
+      "interpretation": "収束する螺旋は凸空間の内部で踊り、弱い位相のもとで目に見えない固定点を目指す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

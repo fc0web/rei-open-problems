@@ -21,14 +21,14 @@
   "proposer": "Rishona Daniels, Duna Wattad, Ronny Ronen et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated preprint on memristor-based reservoir computing. The work presents empirical analysis and architectural design choices for a specific RC variant (PDFN with volatile memristors). The claims are provisionally stated (focus on 'analyze and explain'), device-level requirements are incompletely characterized ('comprehensive evaluation remains limited'), and the abstract cuts off mid-sentence, indicating work-in-progress status. The core technical contributions (preprocessing effects, device parameter sensitivity) are falsifiable once complete, but current form is not yet validated peer-reviewed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21602",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

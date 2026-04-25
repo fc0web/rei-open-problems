@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is classified as embargoed with no accessible abstract content. The stated categories (cs.AI) are incongruent with the title's biological/oncological domain (mitochondrial biogenesis, lymphoma). This creates observation-impossibility: cannot evaluate truth-content, methodology, or claims without substantive data. The document is meta-level (embargo notice) rather than a substantive axiom or proposition.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.05
   },
   "cross_refs": {
     "arxiv": "W7116404727",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\left(\\sum_{i} m_i \\cdot e^{\\lambda_i t}\\right) = \\alpha \\cdot \\mathcal{E}_{\\text{crit}}",
+      "interpretation": "細胞の次元転移は、ミトコンドリアのエネルギー閾値を超えた時に起こる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><polyline points='35,45 55,35 65,55'/><polyline points='35,55 55,65 65,45'/></g><path d='M 45 50 Q 55 40 65 50' stroke='#f59e0b' stroke-width='2' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "穏やかな球が激しい変換へと呼び起こされ、内部のリズムが混沌へと目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

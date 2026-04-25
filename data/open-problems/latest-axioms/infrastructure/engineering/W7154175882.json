@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely metadata error or preprint status), explicitly framed as 'action research study' with provisional structure ('publication-ready format' suggests not yet peer-reviewed). Policy prescriptions in governance domain are inherently subject to empirical validation and stakeholder contestation. Status is pre-validation institutional analysis rather than established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7154175882",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Power}_{\\text{platform}}}{\\text{Friction}_{\\text{local}}} \\sim \\int_0^{\\infty} \\text{Governance}(t) \\, dt",
+      "interpretation": "プラットフォームの支配力は、地域の抵抗がなければ無限に増殖する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='35' y='55' width='30' height='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,48 50,55' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='20' y1='75' x2='80' y2='75' stroke='#f59e0b' stroke-width='2'/><path d='M 30 75 Q 35 65 40 75 Q 45 65 50 75 Q 55 65 60 75 Q 65 65 70 75' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "上の円（プラットフォーム力）が下の地面（ローカル統治）に押しつけられ、波紋が抵抗として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

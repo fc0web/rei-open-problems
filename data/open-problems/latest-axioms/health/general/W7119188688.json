@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a 2026-dated review article on miRNA biomarkers in RA—a scientifically active, literature-synthesizing work presenting provisional diagnostic and therapeutic claims not yet subject to full systematic validation across independent cohorts. The field of miRNA therapeutics remains under rapid development with competing evidence; classification as FLOWING reflects pre-consensus status typical of contemporary biomedical reviews.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119188688",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{miR-dysregulation}}{\\text{cytokine cacophony}} \\sim \\text{synovial truth}",
+      "interpretation": "沈黙の分子言語が、医学の雑音を貫く真実を暴く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='45' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='65' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='30,40 50,50 70,45' stroke='#f59e0b' stroke-width='1' fill='none' stroke-dasharray='2,2'/><polyline points='50,50 50,65' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='25' font-size='10' fill='#7c3aed' text-anchor='middle' font-family='monospace'>miR-code</text></svg>",
+      "interpretation": "小さな非翻訳RNA分子が、関節炎という混沌の中心を黙って統御する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

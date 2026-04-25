@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a archaeological artifact cataloging article in Polish describing a Roman fibula (brooch) from the Kazimierz Wielka region. The classification is FLOWING because: (1) it reports on a recent discovery under field analysis, (2) the artifact itself exists and is observable (TRUE ontologically), but (3) the scholarly interpretation, typological assignment (Exner type I.32), and contextual claims are provisional pending peer review and further validation. The article appears to be from a 2025/2026 archaeological journal, suggesting current research in progress.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7155008150",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Enamel}_{\\triangle}}{\\text{Distance}} \\propto \\text{Child}^{2} + \\text{Empire}_{\\text{edge}}",
+      "interpretation": "遠き帝国の辺縁で、子どもたちの身につけた色彩が、時間を越えて輝き続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polygon points='50,30 65,60 35,60' stroke='#00ff88' stroke-width='2' fill='#00ff88' opacity='0.3'/><path d='M 35 60 Q 50 75 65 60' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#00d4ff'>fibula temporis</text></svg>",
+      "interpretation": "帝国の果てで、見守られた子どもの記憶が、三角形の光に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

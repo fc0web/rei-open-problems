@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional technical report (dated 2026, future-dated or preprint status) describing empirical research on solar cooling systems. The claims are neither established fact nor refuted; they represent ongoing experimental validation and engineering development. The work is not yet peer-reviewed in the output metadata, placing it in provisional/under-validation status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7152506234",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int Q_{\\odot} \\, dt}{\\sqrt{T_{in}^2 + T_{out}^2}} \\sim \\eta_{cool}",
+      "interpretation": "太陽の熱量が温度差の幾何平均を通して冷却効率へと流れ込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#f59e0b'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='25' cy='25' r='15' fill='url(#g1)' opacity='0.8'/><rect x='45' y='40' width='30' height='25' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 25 40 Q 40 35 45 40' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='75,50 80,45 85,50' stroke='#00d4ff' stroke-width='2' fill='none'/><text x='50' y='85' font-size='10' fill='#ec4899' text-anchor='middle'>ΔT↔η</text></svg>",
+      "interpretation": "上からの太陽の熱が、中央の冷却システムへと導かれ、下方へ秩序正しく分散する流れ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

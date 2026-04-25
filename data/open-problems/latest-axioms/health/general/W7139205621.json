@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional veterinary case report (n=4) from 2026 describing an acupuncture-pharmacology hybrid protocol. The work presents empirical observations but lacks: (1) control group, (2) statistical power analysis, (3) peer review validation status, (4) replication across independent sites. The abstract is incomplete (cuts off mid-sentence). The combination of traditional acupuncture point administration with modern dexmedetomidine is clinically novel but requires further validation before asserting truth-value. Classified as FLOWING (provisional/under validation) rather than TRUE pending full publication and independent reproduction.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7139205621",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{0}^{20} \\alpha_2(t) \\cdot \\text{GV}_{20} \\, dt \\approx \\text{Sed}_{\\max}",
+      "interpretation": "経穴GV20への局所投与は、時間を通じた交感神経抑制の積分として、深い鎮静を呼び覚ます。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='20' r='6' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 26 Q 45 45 40 65' stroke='#7c3aed' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 50 26 Q 55 45 60 65' stroke='#7c3aed' stroke-width='2.5' fill='none' stroke-linecap='round'/><circle cx='40' cy='75' r='4' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='60' cy='75' r='4' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,20 50,50' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2' opacity='0.6'/></svg>",
+      "interpretation": "頭頂GV20より下降する鎮静の流れが、四肢の末梢へと拡がり、全身の平静を織り成す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

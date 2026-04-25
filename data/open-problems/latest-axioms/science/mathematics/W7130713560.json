@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The work presents a novel geometric framework with concrete mathematical claims (π³/15 boundary relation, ΛR_H² constraint, G derivation from Λ), but lacks peer review validation, experimental verification, or consensus vetting. The abstract is incomplete and the central claims—deriving G from Λ via boundary normalization and resolving the cosmological constant problem—are extraordinary and require independent confirmation. Marked as FLOWING pending publication and community scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.32
   },
   "cross_refs": {
     "arxiv": "W7130713560",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15 \\Lambda R_H^2 N}",
+      "interpretation": "重力定数は宇宙の情報と幾何の交差点に潜んでいる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><path d='M 50 50 L 85 50' stroke='#ec4899' stroke-width='1'/><path d='M 50 42 L 50 58' stroke='#00ff88' stroke-width='1'/><text x='50' y='85' font-size='8' text-anchor='middle' fill='#7c3aed' opacity='0.7'>π³/15</text></svg>",
+      "interpretation": "同心円の境界が情報と幾何をしばしの光で結び、中心の点が時空の種子となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

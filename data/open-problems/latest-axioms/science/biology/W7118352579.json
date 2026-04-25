@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated or post-hoc preprint) surveying regenerative veterinary orthopaedics. The field is actively evolving with clinical trials ongoing. Claims about MSC efficacy, scaffold integration, and cartilage regeneration remain partially validated; some mechanisms are established (MSC immunomodulation), others contested (long-term structural integration rates). Status: provisional scientific consensus, not yet settled theorem.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118352579",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Regen} = \\int_{0}^{t} \\left( \\text{MSC} \\cdot \\text{Scaffold} + \\sum_{i} \\text{Molecule}_i \\right) e^{-\\text{Inflammation}} \\, dt",
+      "interpretation": "組織は時間とともに、細胞と分子と足場の共鳴が炎症を制す時に生まれ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00d4ff' stroke-width='1' fill='none'/><polyline points='50,50 65,35 70,55 60,65 75,70' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='92' font-size='10' fill='#ffd700' text-anchor='middle'>growth</text></svg>",
+      "interpretation": "中心から外へ波紋のように広がる再生の力が、折れた組織の奥底を癒す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

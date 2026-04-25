@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a literature review/meta-analysis on institutional distance across three theoretical frameworks (organizational institutionalism, institutional economics, comparative institutionalism). The construct itself is empirically established and widely used, but the paper appears to be a 2026 provisional synthesis reassessing a 20-year research trajectory. As a meta-analytical review still in publication stage (abstract cuts off mid-sentence), it represents validated findings being reorganized under new integrative lenses—characteristic of FLOWING status: established phenomenon, evolving interpretation framework.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W3015352082",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

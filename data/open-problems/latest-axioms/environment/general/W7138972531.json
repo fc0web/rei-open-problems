@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a descriptive review of empirical environmental degradation (Tonlé Sap flooded forests). It synthesizes observed phenomena (forest loss, hydrological change, ecological impacts) that are individually verifiable but whose causal attribution, future trajectory, and management effectiveness remain under active scientific investigation and policy revision. The 2026 date and 'review' framing indicate provisional synthesis rather than closed-form truth.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7138972531",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dF}{dt} = -\\alpha E - \\beta H - \\gamma C + \\delta N",
+      "interpretation": "洪水林の衰退は、膨張（E）、水文変化（H）、気候（C）に蝕まれ、栄養循環（N）のみが抗う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><ellipse cx='50' cy='50' rx='45' ry='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 20 50 Q 35 35, 50 40 T 80 50' stroke='#7c3aed' stroke-width='2.5' fill='none'/><polyline points='30,70 45,60 55,75 70,65 80,80' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='15' x2='50' y2='35' stroke='#f59e0b' stroke-width='2' opacity='0.7'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中央の湖を囲む波状の森林は、上からの圧力（ダム・気候）と下からの根張り（栄養）の葛藤を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

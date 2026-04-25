@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint dataset (2026-04-25 timestamp, appears prospective or recent) describing empirical research on legitimacy perception. The core claims are provisional: (1) causal effects of responsiveness on legitimacy assessments depend on validation of experimental design, statistical analysis, and replication; (2) vignette-based experiments generate ecologically bounded findings; (3) the dataset itself is a research artifact, not a proposition amenable to true/false classification. Status is 'under change' pending peer review, replication studies, and integration with legitimacy theory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W3194895376",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

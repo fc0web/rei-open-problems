@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom concerns communicative practice and ethical competence in a real-world healthcare domain. It is not a mathematical theorem (not TRUE/FALSE provable), not yet empirically settled (provisional status from 2026 date suggests pre-validation), contains normative and descriptive elements (BOTH poles present), and involves human judgment calibration rather than pure logical evaluation. Classified as FLOWING because the field of medical communication competency remains under active research and clinical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128644483",

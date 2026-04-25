@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents an empirical regional case study (Khorezm Oblast) examining digital transformation's role in human capital development. The claim is provisional (2026 date suggests preprint/emerging work), supported by secondary sources (World Bank, OECD, UNDP) but lacks primary validation. The correlation assertions between digital technology and human capital remain under academic validation and policy testing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119772169",

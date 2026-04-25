@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (2026-04-25, appears future-dated or recent) submitted to arXiv in a social science domain (Political Science) disguised under cs.AI category. The abstract describes a survey article rather than a novel empirical finding or theorem. Survey articles are inherently provisional until peer review validates their analytical framework and evidence synthesis. The subaltern perspective framework adds interpretive dimensionality that requires scholarly consensus-building rather than direct verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153714944",

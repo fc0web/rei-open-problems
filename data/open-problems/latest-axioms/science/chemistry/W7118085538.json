@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with abstract unavailable for evaluation. No substantive content exists in the public record to assess truth-value, factual claims, or theoretical propositions. Classification as ZERO (observation-impossible / context-dependent) is appropriate because the evaluable content is intentionally withheld.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7118085538",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-r^2} \\cdot m(r) \\cdot \\psi(r,t) \\, dr",
+      "interpretation": "メッセージを包むナノスケールの幾何学が、細胞との対話を通じて時間とともに明かされていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,50 65,35 72,28 78,15' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/><polyline points='50,50 35,65 28,72 15,78' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "脂質の殻から遺伝子の光が放つ放射状の探索——分子の静寂と細胞の応答の邂逅。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The abstract is embargoed and unavailable. No evaluable content exists in the accessible record. The thesis title indicates an empirical study on pandemic effects, but without access to methodology, findings, or evidence, no truth-value can be assigned to the substantive claims.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7135178899",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{C(t) \\cdot M(t)}{1 + P(t)} = Q_{\\text{lost}}",
+      "interpretation": "ケアの連続性と医学的アクセスがパンデミックの圧力で断裂する、その喪失を感じる式。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,45 50,70' stroke='#ec4899' stroke-width='2'/><circle cx='30' cy='70' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='70' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='50' y1='45' x2='30' y2='62' stroke='#f59e0b' stroke-width='1' opacity='0.5' stroke-dasharray='2,2'/><line x1='50' y1='45' x2='70' y2='62' stroke='#f59e0b' stroke-width='1' opacity='0.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "一つの頭部ケアが三つの身体的・社会的ニーズへ到達しようとするも、破線で示された弱い経路が障害の現実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

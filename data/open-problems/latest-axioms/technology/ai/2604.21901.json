@@ -21,14 +21,14 @@
   "proposer": "Neeraj Gangwar, Rishabh Deshmukh, Michael Shavlovsky et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a novel empirical method (GiVA) with preliminary experimental validation across multiple domains. The claims are technically sound in structure but marked as a 2026 preprint, indicating it has not undergone peer review or community validation. The core contribution (gradient-informed initialization for vector adaptation) is methodologically coherent but requires independent replication and benchmarking before classification as established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "2604.21901",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

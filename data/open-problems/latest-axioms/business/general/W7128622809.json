@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is an empirical qualitative research thesis (2026, not yet published/validated) examining lived experience and discourse interpretation. It presents findings under construction, not established fact. The phenomena studied (employer brand perception gaps, employee sense-making) are observable but interpretation is provisional and context-dependent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128622809",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Brand}_{\\text{promised}}}{\\text{Brand}_{\\text{lived}}} \\to \\text{Enchantment}^{-1}",
+      "interpretation": "約束されたブランド像と実際の労働体験の乖離が、幻想の解除へと変換される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 40 Q 45 50 50 60' stroke='#7c3aed' stroke-width='2' fill='none'/><text x='30' y='55' font-size='10' fill='#ec4899' text-anchor='middle'>Promised</text><text x='70' y='55' font-size='10' fill='#00d4ff' text-anchor='middle'>Lived</text></svg>",
+      "interpretation": "二つの円が背を向け、その間に振動する矢印—語られたものと経験されたものの不和の共鳴。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

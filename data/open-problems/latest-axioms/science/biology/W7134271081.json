@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a supplementary data/methods document for an empirical biological study (2026, recent preprint). The core claims are not yet peer-reviewed or validated in independent cohorts. Multi-omic biomarker discovery studies require replication; provisional status is appropriate.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134271081",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^t \\left( \\vec{P} + \\vec{M} + \\vec{S} \\right) e^{-\\lambda(t-\\tau)} d\\tau = \\Omega_{\\text{gestation}}",
+      "interpretation": "妊娠の秘密は、胎盤・代謝・構造の三つの力が時間とともに共鳴する場に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='35' cy='40' r='8' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='50' cy='35' r='6' stroke='#7c3aed' stroke-width='1' fill='none'/><circle cx='65' cy='42' r='7' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 35 40 L 50 50 M 50 35 L 50 50 M 65 42 L 50 50' stroke='#f59e0b' stroke-width='0.8' opacity='0.7'/><polyline points='50,50 45,65 50,72 55,65' stroke='#ffd700' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "三つの世界が中心へ集まり、新しい生命の核へと情報が流れ込む瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

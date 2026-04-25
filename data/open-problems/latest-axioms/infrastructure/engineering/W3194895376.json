@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents empirical research design (N=438, randomized assignment, vignette experiments) that is sound in method but the dataset itself remains unpublished/preliminary (dated 2026-04-25, preprint status implied). The legitimacy-responsiveness relationship is theoretically meaningful but empirically contingent on results not yet validated through peer review. Classification as FLOWING reflects provisional status pending publication and replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W3194895376",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L} = \\int_0^1 \\frac{R(t) \\cdot \\tau(t)}{1 + \\delta \\cdot d(t)} \\, dt",
+      "interpretation": "応答性と時間遅延が正当性の知覚を織り成す積分構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><line x1='50' y1='20' x2='50' y2='30'/><line x1='50' y1='70' x2='50' y2='80'/><line x1='20' y1='50' x2='30' y2='50'/><line x1='70' y1='50' x2='80' y2='50'/></g><polyline points='30,50 40,45 50,55 60,48 70,50' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の応答性が外部の期待と振動する、フィードバック回路の息動感。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

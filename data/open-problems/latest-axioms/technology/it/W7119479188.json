@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is a preprint (arXiv-style metadata, date 2026-04-25) describing a novel algorithm for autonomous vehicle path planning. It presents provisional research not yet peer-reviewed or validated. The abstract is incomplete ('Dynamic eXplorative Multi' cuts off), preventing full evaluation of claims. The core technical contribution (the algorithm itself) is asserted but not yet established as proven or refuted in the academic record.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119479188",

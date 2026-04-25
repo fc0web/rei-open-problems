@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a provisional 2026-dated research deployment with incomplete abstract. Claims of 'novel' low-cost IoT design and field validation are standard research assertions not yet independently replicated or peer-reviewed in the visible record. The system's reliability and accuracy validation is ongoing field work, making truth-status temporally suspended pending results publication and independent verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7134912566",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Cost}^{-1} \\cdot \\text{Latency}^{-1}}{\\text{Blindness}} = \\text{Foresight}",
+      "interpretation": "低価格と即時性が盲目性を破り、未来への眼差しを生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><polyline points='50,50 85,50 85,70 15,70 15,30 50,30' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#ffd700'>≈ Real</text></svg>",
+      "interpretation": "センサーの入れ子は大地の奥底を見つめ、近似と現実の間で鉱物の声を聴く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

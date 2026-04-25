@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a 2026-dated policy recommendation (future date relative to knowledge cutoff) in applied social work and environmental justice. It presents normative guidance rather than empirical claims or formal theorems. Status is provisional—professional recommendations undergo iterative validation through practice and peer review rather than definitive proof.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135097380",

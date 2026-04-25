@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date), marked as preprint/provisional research on cotton-textile cluster development in emerging economies. The economic policy prescriptions and investment mechanisms proposed are not yet validated through implementation or peer review. The claims about cluster-driven modernization and export competitiveness are empirically testable but currently in development/proposal stage.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7124460435",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{I \\cdot T \\cdot C}{\\sigma + P} = E_{\\text{cluster}}",
+      "interpretation": "投資と技術と協力が、抵抗と混乱を超えて、クラスタの効率を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='35' r='8' fill='#00d4ff'/><circle cx='65' cy='35' r='8' fill='#00ff88'/><circle cx='50' cy='65' r='8' fill='#ec4899'/><polyline points='35,35 50,50 65,35' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='35,35 50,50 50,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='65,35 50,50 50,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "三つの節点が中心に集約し、繊維のように網を織る産業構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

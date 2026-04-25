@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is an embargoed thesis with abstract withheld. No evaluable content is publicly available for truth assessment. The axiom (claim structure) cannot be examined, rendering direct truth-value assignment impossible. This is an observation-impossibility case, not a truth-value case.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7134064831",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial V}{\\partial t} = \\nabla \\cdot (D \\nabla V) + \\lambda \\int_{\\partial \\Omega} e^{-kV} \\, dS",
+      "interpretation": "膜小胞は拡散と境界での免疫活性化のバランスで、時間とともに効力を失う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1'><line x1='50' y1='15' x2='50' y2='85'/><line x1='15' y1='50' x2='85' y2='50'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/><polyline points='50,50 65,35 72,48 58,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "外膜小胞は中心核から放射状に免疫信号を展開し、多層の防御構造を構成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

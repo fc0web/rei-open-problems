@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional clinical/legal documentation tool (Med.DocCard©) dated 2026 describing medical intervention protocols for domestic violence cases. It is not a truth claim but a procedural instrument under active implementation and refinement. Classification as FLOWING reflects its status as a validated but evolving practical standard, likely subject to jurisdictional updates and clinical consensus evolution.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7147477417",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{wound}} \\frac{d(\\text{evidence})}{d(\\text{time})} = \\text{Justice}(\\text{documentation})",
+      "interpretation": "傷痕の証拠を時間に対して積分することで、正義への道が見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='35' r='4' fill='#00d4ff'/><circle cx='50' cy='35' r='4' fill='#00d4ff'/><circle cx='70' cy='35' r='4' fill='#00d4ff'/><polyline points='30,45 50,60 70,50' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='70' x2='50' y2='85' stroke='#00ff88' stroke-width='2'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#f59e0b'>SCALE</text></svg>",
+      "interpretation": "証拠の点が秩序立てられ、スケールによって測定可能な傷痕へと変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

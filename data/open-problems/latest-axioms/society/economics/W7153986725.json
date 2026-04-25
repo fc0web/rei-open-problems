@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a socio-political thesis (aid conditionality effects on African sovereignty) that is empirically investigable but not yet peer-reviewed (preprint status, dated 2026-04-25, categorized under cs.AI despite political science scope). The claim set is complex and context-dependent; validation requires longitudinal policy analysis and comparative institutional study. Not refutable as FALSE outright, not established as TRUE without peer review. Status is provisional/in-formation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153986725",

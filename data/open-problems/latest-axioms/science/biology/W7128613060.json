@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is dated April 25, 2026 (future date relative to knowledge cutoff), classified under cs.AI but titles a microbiology/molecular biology study (GBS TCS regulation). This indicates either: (1) a preprint with unvalidated claims, (2) a metadata error, or (3) an AI-generated or speculative document. The abstract is empty, preventing substantive evaluation. Classification as FLOWING reflects provisional status pending peer review and validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128613060",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Thesis appears incomplete (abstract cuts mid-sentence at 'Transcriptomic analysis of CD'). Claims regarding CD7 role in AML are empirically grounded in patient datasets and proteomic analysis, but functional mechanism remains unexplored per authors' own statement. Results are provisional/under-validation pending full thesis publication and independent replication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128068624",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{CD7} \\sim \\frac{\\text{LSC}_{34,123}}{\\text{remission}} \\cdot e^{-\\text{survival}}",
+      "interpretation": "CD7の発現は幹細胞性と生存能力の逆相関を暗示する不思議な比例関係。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='15' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='70' x2='50' y2='85' stroke='#f59e0b' stroke-width='2.5'/><path d='M 35 50 Q 50 35 65 50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 50 65 65 50' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の異常な細胞が成熟の道を阻み、死へと引き込む二重の引力場。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

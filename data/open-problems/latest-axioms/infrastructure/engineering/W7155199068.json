@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a methodological framework (LCA + social practice theory + graph theory) applied to a specific case study. The work is dated 2026-04-25 (future date, suggests preprint/provisional status). The core claim—that incorporating consumption patterns via social practice theory improves LCA decision-making—is empirically testable but remains under validation. The abstract is incomplete ('findings highlight' [truncated]), indicating pre-publication status. The framework itself is constructive rather than falsifiable in classical sense.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7155199068",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{use}} \\frac{dE}{dc} \\cdot S(t) \\, dt = \\min_{\\text{design}}\\left(L + C\\right)",
+      "interpretation": "使用という時間軸が、ライフサイクル全体の環境負荷を再定義する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='25' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,42 50,50' stroke='#ec4899' stroke-width='2'/><path d='M 30,65 Q 50,75 70,65' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='88' font-size='10' text-anchor='middle' fill='#f59e0b' font-family='monospace'>consumption</text></svg>",
+      "interpretation": "一つの決定が、上流から下流へと連鎖反応を起こし、全体を変形させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

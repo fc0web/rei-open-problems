@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a hypothesis about huitlacoche's antioxidant potential in athletic performance. The abstract is incomplete, but the core claim (U. maydis has antioxidant compounds that could benefit athletes) is provisionally supported by preliminary evidence on edible medicinal fungi generally, yet lacks direct empirical validation in high-performance athlete populations. This is characteristic of pre-validated or emerging research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7155356965",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Phenols} + \\text{Polysaccharides}}{\\text{ROS}} \\cdot \\text{Recovery} = \\text{Performance}^{1+\\epsilon}",
+      "interpretation": "キノコの生化学的調和が酸化ストレスを抑え、わずかな超過性能をもたらす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,30 65,50 50,70 35,50 50,30' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/><line x1='50' y1='15' x2='50' y2='5' stroke='#00d4ff' stroke-width='1.5'/><line x1='50' y1='85' x2='50' y2='95' stroke='#00d4ff' stroke-width='1.5'/><line x1='15' y1='50' x2='5' y2='50' stroke='#00d4ff' stroke-width='1.5'/><line x1='85' y1='50' x2='95' y2='50' stroke='#00d4ff' stroke-width='1.5'/></svg>",
+      "interpretation": "古い真菌が中心で輝き、酸化ストレスの環を静かに消す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

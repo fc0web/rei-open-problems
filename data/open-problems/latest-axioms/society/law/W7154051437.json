@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a research agenda framework (meta-level survey) with provisional institutional/policy analysis. It presents comparative law scholarship under development, not yet validated peer review. The substantive claims about East African data protection law are empirically testable but remain in preprint status (dated 2026-04-25, future date suggests draft/provisional). The framework itself is structurally sound but not yet settled canonical law.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154051437",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes empirical social science research on energy transition participation. It is provisionally validated through stated findings but remains preprint/unvalidated in peer review at claimed 2026 date (future). The causal claims (PSPS → distrust → solar interest; CSR alignment → trust rebuilding) are testable but not yet established as universal theorems. The abstract is incomplete (cuts mid-sentence), suggesting work-in-progress status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7117255022",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Trust}^{-1} \\cdot \\text{Autonomy} = \\int_0^{\\infty} \\text{CSR}(t) \\, e^{-\\text{Distrust} \\cdot t} \\, dt",
+      "interpretation": "不信が深いほど、自律への欲求は強まり、信頼再構築には企業責任の継続的な行為が必須である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='35' stroke='#00ff88' stroke-width='2'/><polyline points='50,65 65,80 80,70' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 35 50 Q 50 35 65 50' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "内側の制度的信頼が揺らぐとき、外側へ向かう自立のエネルギーが渦状に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

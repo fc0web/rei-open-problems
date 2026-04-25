@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission presents a novel geometric framework with a specific algebraic derivation (π³/15 as dimensionless boundary relation). However, the work is dated 2026-04-25 (future date, likely error or preprint marker), lacks peer-review validation, contains an incomplete abstract (cuts off mid-sentence at 'dimensional scal'), and makes extraordinary claims (deriving G from Λ, resolving 10^120 discrepancy) without apparent experimental verification or published peer-review consensus. The mathematical structure is provisionally interesting but unvalidated. FLOWING classification reflects preprint/provisional status requiring validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130733416",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15} \\cdot \\frac{1}{\\Lambda R_H^2 N}",
+      "interpretation": "重力定数は宇宙の情報織物の中に隠された幾何学的な歌である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 50 50 L 85 50' stroke='#ec4899' stroke-width='1.5'/><text x='88' y='54' font-size='10' fill='#ec4899' font-family='serif'>Λ</text><g opacity='0.6'><line x1='35' y1='35' x2='65' y2='65' stroke='#ffd700' stroke-width='0.8'/><line x1='65' y1='35' x2='35' y2='65' stroke='#ffd700' stroke-width='0.8'/></g></svg>",
+      "interpretation": "同心の情報の殻が、最奥の引力の種へと折りたたまれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

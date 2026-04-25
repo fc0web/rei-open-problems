@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy/framework paper addressing emergent AI-in-education practices. The axioms proposed are provisional—not yet empirically validated across diverse secondary contexts, dependent on evolving regulatory landscapes, and subject to revision as AI capabilities and educational outcomes data accumulate. The work surveys and proposes rather than proves.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118720654",

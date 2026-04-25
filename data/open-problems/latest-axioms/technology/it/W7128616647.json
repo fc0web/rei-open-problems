@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document dated 2026-04-25 is a future date (posterior to current knowledge cutoff April 2024). The axiom concerns simulation/measurement methods for particle therapy using silicon detectors—a legitimate technical domain. However, classification is provisional because: (1) the document does not yet exist in accessible form; (2) claims cannot be empirically verified against the stated future date; (3) categorization as 'cs.AI' for a physics/medical physics paper suggests either miscategorization or novel AI-centric methodology not yet validated. FLOWING reflects pre-publication, pre-validation status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7128616647",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

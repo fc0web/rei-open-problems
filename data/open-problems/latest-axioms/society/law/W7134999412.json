@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a recent empirical study (2026) examining platform-mediated political discourse during a specific historical event (Malaysia GE15, Nov 2022). The paper presents original qualitative analysis of threatoric patterns on TikTok using established theoretical frameworks (Proximisation Theory, SM-CDS). It is not yet peer-reviewed in a permanent venue and represents new scholarly knowledge under validation. The claims are evidence-based but dependent on interpretation of discourse patterns and platform affordances, making it transitional rather than established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7134999412",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

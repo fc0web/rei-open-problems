@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a novel theoretical framework (principal-agent model applied to UNSC-sanctions dynamics) grounded in empirical case data (2015-2024 Panel reports). The framework itself is internally coherent but remains a 2026 preprint not yet subjected to peer validation or independent replication. Its empirical claims about information asymmetries and accountability mechanisms are testable but not yet confirmed across external datasets. The work is provisionally sound but classification-incomplete pending expert review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153269999",

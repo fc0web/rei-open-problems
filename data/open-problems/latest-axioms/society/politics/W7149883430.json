@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a meta-journalistic/opinion assertion about epistemic authority regarding Bolsonaro's criticism of INPE (Brazil's National Institute for Space Research). The proposition is evaluative rather than truth-testable: it conflates ad hominem reasoning ('doesn't understand the subject') with substantive refutation. The actual validity of Bolsonaro's specific criticisms requires domain expertise in Earth observation/climate science, while the meta-claim about his knowledge is a judgment-suspended epistemic assessment.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.4
   },
   "cross_refs": {
     "arxiv": "W7149883430",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

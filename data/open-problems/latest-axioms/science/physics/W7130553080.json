@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom proposes a novel geometric formalism (boundary invariant 𝒳) connecting radiative decoupling surfaces to observables. The theoretical framework is mathematically coherent but empirical validation chain (stellar photospheres vs. π³/15) requires independent replication. The claimed resolution of both dark sector AND Hubble tensions simultaneously via single mechanism triggers parsimony concern. Preprint status (2026-04-25, dated future) and truncated abstract suggest incomplete peer review cycle.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7130553080",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a policy brief examining women's organisations, internal democracy, and external advocacy in Senegal—a socio-institutional empirical study. It contains verifiable claims (scholarship review, institutional dynamics) but presents provisional analysis not yet peer-validated (preprint status, 2026 date indicates future/emerging work). The normative dimension (governance recommendations) and context-dependent applicability prevent definitive TRUE/FALSE classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153897223",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated thesis with embargoed abstract content. The provisional status reflects: (1) future publication date beyond evaluation moment, (2) incomplete information access (abstract unavailable), (3) claims about 'advances' are unverifiable without full text, (4) soft sensors and pressure injury prevention are active research domains undergoing validation. Classification as FLOWING rather than NEITHER because the work has clear institutional provenance and stated research direction, but truth-value is temporally suspended pending embargo lift and peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7154738525",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

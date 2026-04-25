@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a provisional academic thesis (2026 date, embargo active) containing empirical mixed-methods research on equity/diversity/inclusion in arthritis research. The abstract is withheld pending embargo expiration, making direct evaluation of claims impossible. The work is under validation and not yet in final form.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7116286904",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^1 \\sqrt{1-x^2} \\, dx}{\\sum_{i=1}^{n} \\frac{1}{v_i}} = \\text{voice}",
+      "interpretation": "多様な声の調和が、排除された経験の弧を埋める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 40 70 50 Q 50 60 30 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ffd700' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "四つの声が中心の光点に収束し、誰も周辺に置き去りにされない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

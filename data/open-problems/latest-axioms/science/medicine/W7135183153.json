@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents an empirical claim (predictive algorithm for fatal injury risk in racehorses) based on a large dataset (28,481 starts). However, the document is dated 2026-04-25 (future date relative to training cutoff) and marked as preprint. The methodology appears sound but requires peer validation, independent replication, and clinical implementation outcomes. The claim is not yet established as proven fact (TRUE) nor refuted (FALSE), and exists in provisional research state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7135183153",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

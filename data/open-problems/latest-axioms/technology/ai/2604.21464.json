@@ -21,14 +21,14 @@
   "proposer": "Sukesh Subaharan",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposal is a provisional framework (preprint dated 2026-04-25) presenting a novel training objective not yet validated through peer review or large-scale empirical confirmation. The core claim—that auxiliary losses derived from dynamical priors improve temporal coherence—is theoretically motivated but empirically demonstrated only on 'three minimal environments,' leaving generalization unestablished. The work exhibits sound conceptual structure but remains in pre-validation state.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21464",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

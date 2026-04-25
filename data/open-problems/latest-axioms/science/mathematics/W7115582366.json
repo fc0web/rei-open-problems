@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date relative to training cutoff), marked 'artifact' with minimal abstract content. Status appears provisional, under-validated, or speculative. Insufficient empirical/theoretical grounding for TRUE/FALSE classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7115582366",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Precision} \\approx \\frac{1}{1 + e^{-\\alpha(\\text{Alias Sets} - \\beta)}}",
+      "interpretation": "エイリアスの精度は集合のサイズの曲線を描く、境界を越えると急速に飽和する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='40' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='50' y1='10' x2='50' y2='90' stroke='#ec4899' stroke-width='1' opacity='0.6'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.8'/></svg>",
+      "interpretation": "メモリ空間の地平線上に立つ観測者が、精度の曲線を見つめている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

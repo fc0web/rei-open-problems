@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom proposes a novel integration framework (human capital as financial asset) that is theoretically motivated but lacks empirical validation across heterogeneous IT contexts. The paper appears to be a preprint (2026-04-25) presenting a provisional model under development. Human capital valuation remains contested in accounting theory—some frameworks support it (e.g., Lev's IC framework), others resist it on measurement grounds. The proposition is not yet refuted but contingent on standardization adoption and empirical testing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118123450",

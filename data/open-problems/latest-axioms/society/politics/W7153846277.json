@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom represents a provisional framework (community-led counter-extremism with social capital mechanisms) that is empirically under-validated at publication date (2026-04-25). The theoretical model exists and is testable, but lacks sufficient longitudinal or comparative validation across diverse African contexts to claim TRUE status. It is neither FALSE (the mechanisms are plausible and some evidence supports community engagement) nor BOTH (no major refutation exists yet). FLOWING reflects pre-validation survey status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153846277",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The article is a 2026-dated survey on institutional design of a hybrid court system. As a preprint-stage analysis of evolving political/legal structures in South Sudan (post-CPA context), it documents contingent institutional arrangements subject to political change, diplomatic negotiation, and implementation dynamics. The axioms about jurisdiction and design are provisionally structured but not yet stabilized by international legal validation or court operationalization outcomes.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154183930",

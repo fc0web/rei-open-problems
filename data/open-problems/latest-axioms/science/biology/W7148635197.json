@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission is cataloged under cs.AI but concerns cryptococcal disease (mycology/medical microbiology). The abstract is embargoed and unavailable for evaluation. Without access to the actual research claims, axiom truth-value cannot be assigned. The document exists as a metadata stub only—content is observation-impossible in the present context.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.05
   },
   "cross_refs": {
     "arxiv": "W7148635197",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Poly}P \\cdot \\text{Adaptor}}{\\text{Host}^{\\phi}} \\sim \\text{Pathogenesis}",
+      "interpretation": "多リン酸塩と適応タンパク複合体が宿主の防御を巧妙に破壊する比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='40' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='65' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='30' y1='40' x2='50' y2='65' stroke='#ec4899' stroke-width='1.5'/><line x1='70' y1='40' x2='50' y2='65' stroke='#ec4899' stroke-width='1.5'/><path d='M 50 15 L 55 25 L 50 28 L 45 25 Z' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "隠蔽された中核（緑）に向かう適応タンパク質の二重の架橋が、病原性の光を放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

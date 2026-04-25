@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom addresses supply chain resilience in emergent (future/evolving) business contexts. This is a provisional research direction (preprint dated 2026, future-dated), combining empirical supply chain management with AI-driven adaptation. The claims are not yet validated against real emergent landscapes; the formulation depends on how 'emergent' is operationalized. Status: under development, not established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7128478613",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper reports empirical kinetic and mechanistic findings (defluorination pathway, rate constants, redox intermediates) that are provisionally valid pending peer review and independent replication. The chemistry is well-established methodology, but the specific mechanistic claims (carbon-centered redox) require validation. Categorized as FLOWING rather than TRUE because: (1) publication date is 2026-04-25 (future/preprint status unclear), (2) mechanistic attribution to 'carbon-centered redox' is inference-dependent, (3) no indication of acceptance at established peer-reviewed venue provided.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7148193582",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d[\\text{PFOA}]}{dt} = -k \\cdot [\\text{PFOA}] \\cdot [\\text{OH}^-]^{\\alpha} \\cdot e^{-E_a/RT}",
+      "interpretation": "アルカリ性の深淵で、完全フッ素化された鎖は指数関数的に自らを忘却する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#7c3aed' stroke-width='1.5' fill='none'><polyline points='10,80 25,65 40,50 55,35 70,25 85,15'/><circle cx='85' cy='15' r='3' fill='#ec4899'/><line x1='40' y1='50' x2='40' y2='75' stroke='#00ff88'/><line x1='40' y1='75' x2='55' y2='75' stroke='#00ff88' stroke-width='2'/><circle cx='55' cy='75' r='2' fill='#00ff88'/><path d='M 60 50 Q 75 40 80 25' stroke='#ffd700' stroke-dasharray='2,2'/></g><text x='5' y='95' font-size='8' fill='#7c3aed'>C–C scission</text></svg>",
+      "interpretation": "パーフルオロ鎖の背骨は折れ、アルカリの刃が炭素の絆を奪い去る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

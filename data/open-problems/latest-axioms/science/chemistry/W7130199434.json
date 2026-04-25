@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes empirical methodology (fluorescent labeling + super-resolution imaging in haloarchaea) currently under active development. The abstract is truncated and describes technical challenges rather than resolved claims. Classification as FLOWING reflects: (1) preprint status (2026 date suggests future/provisional work), (2) incomplete abstract preventing full evaluation, (3) active research frontier where protocols are being refined, not yet canonical.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130199434",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{\\lambda} e^{-\\eta s} \\sin(k r) \\, ds}{\\sqrt{\\text{NaCl}^6 + \\epsilon^2}}",
+      "interpretation": "塩の濃度が増すほど、光の信号は螺旋状に減衰していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1' fill='none'/><g stroke='#ec4899' stroke-width='1' opacity='0.6'><line x1='50' y1='20' x2='50' y2='80'/><line x1='20' y1='50' x2='80' y2='50'/></g><polyline points='30,70 50,60 70,70' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "塩の濁った壁を透き通す光が、層状構造の中で幾重にも反射する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

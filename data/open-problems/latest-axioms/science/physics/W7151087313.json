@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper exhibits multiple characteristics of provisional/unvalidated work: (1) future dateline (2026-04-25) indicates preprint or speculative design; (2) claims require independent peer review and experimental replication; (3) theoretical substrate (Calabi-Yau coupling to NISQ) lacks established empirical validation pathway; (4) 'definitive audit' language suggests confidence not yet warranted by publication history; (5) Monte Carlo simulation results, while computationally sound, do not constitute physical hardware validation in claimed 100 TeV regime.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7151087313",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a regional applied policy analysis (Khorazm Oblast, Uzbekistan) on digital transformation's role in human capital development. The work synthesizes international statistics (World Bank, OECD, UNDP) with local case study data. It is empirically grounded but lacks formal proof or theoretical closure—typical of policy research pre-validation. The causal claims between digital technology adoption and human capital outcomes remain correlational and context-dependent rather than universally proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7120046317",

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "This is a meta-commentary/opinion piece evaluating Bolsonaro's criticism of INPE (Brazilian National Institute for Space Research). The truth-value depends on: (1) factual claims about INPE's actual work (verifiable), (2) epistemological assessment of Bolsonaro's knowledge (subjective judgment), and (3) the unstated technical details being critiqued. The article itself functions as a judgment-suspension mechanism rather than a directly truth-evaluable proposition. Without the full text, the claim cannot be assigned definitive truth value.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.4
   },
   "cross_refs": {
     "arxiv": "W7149883430",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

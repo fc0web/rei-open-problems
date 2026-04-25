@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom proposes a novel framework for human capital valuation that integrates intangible metrics into financial reporting. This is a provisional/developmental framework (preprint, 2026 date suggests forward-looking research) not yet validated against standardized accounting bodies (IFRS, GAAP) or empirically tested at scale. The underlying claim—that human capital is measurable and should be recognized as a financial asset—is actively debated in accounting theory and practice, with coexisting support (intellectual capital literature) and resistance (balance-sheet traditionalism, measurement opacity). Status: advancing but not yet institutionalized.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118123286",

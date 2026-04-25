@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future date suggests provisional submission) proposing institutional frameworks for urban design control. The claim is empirically testable but requires longitudinal validation in Shanghai's implementation context. The axiom mixes normative design principles (not directly truth-evaluable) with measurable outcomes (built environment quality metrics), making it partially provisional pending real-world verification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128639918",

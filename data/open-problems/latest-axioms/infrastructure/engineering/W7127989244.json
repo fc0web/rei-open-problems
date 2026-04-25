@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This appears to be a preprint from 2026 (future-dated or speculative metadata) on an interdisciplinary topic combining computational materials discovery with supramolecular chemistry. The axiom itself—that process-structure-function relationships can be systematically mapped—is provisionally true in established domains (materials science, protein folding) but remains under active validation for general supramolecular systems. Classified FLOWING pending peer review and empirical validation of claimed discovery methods.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127989244",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

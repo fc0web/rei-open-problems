@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes empirical research (2026 date suggests future/provisional work) on solar cooling systems. It is neither established fact nor refuted; it represents ongoing experimental validation. The claims are testable but contingent on implementation context, data quality, and replication. Categorized as FLOWING because it is preprint/technical report status, subject to peer review and field validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7152477679",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{T} Q_{\\odot}(t)\\,dt}{\\Phi_{\\text{waste}}(t)} \\sim \\sqrt{\\text{latitude}^{-1}}",
+      "interpretation": "太陽の恵みを熱の浪費で割ると、地中海の秘密が露わになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='80' cy='20' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><path d='M 80 28 Q 70 45 50 55' stroke='#00ff88' stroke-width='2.5' fill='none'/><rect x='30' y='60' width='40' height='25' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='35,60 35,50 40,45 45,50 45,60' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='60' x2='50' y2='40' stroke='#7c3aed' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "太陽から家へ流れ落ちる冷却の水脈、それは見えない知性である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

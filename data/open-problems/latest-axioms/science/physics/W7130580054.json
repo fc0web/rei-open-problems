@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a novel dimensional/geometric framework (radiative decoupling boundary invariant) derived from stellar observations and projected to cosmological scales. The core claims are: (1) empirical—stellar sample clustering is measurable; (2) theoretical—the projection to cosmic horizon is speculative and not yet independently validated; (3) the 'parameter-free' cosmological prediction requires external confirmation. Status: preprint (2026-04-25), not yet peer-validated. The framework is internally consistent but remains provisional pending independent replication and theoretical justification for horizon-scale extrapolation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7130580054",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper title references experimental fluid dynamics (oscillating cube, flow separation) but is categorized as cs.AI (2026 preprint). The abstract is absent, making direct evaluation impossible. The combination suggests either: (1) novel ML/AI application to CFD analysis, (2) miscategorization, or (3) preliminary work not yet peer-validated. Classification as FLOWING reflects provisional status pending abstract/content review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7139819903",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

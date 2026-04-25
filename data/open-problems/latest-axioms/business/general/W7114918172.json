@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The axiom cannot be evaluated because the abstract content is embargoed and unavailable. The thesis body—essential for assessing claims about crypto contract formation, honesty conditions, and AI implications—is not accessible. This is an observation-impossible state under current access constraints.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.05
   },
   "cross_refs": {
     "arxiv": "W7114918172",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}}{\\text{Code}} = \\int_0^1 \\text{Honesty}(t) \\, dt + \\epsilon_{\\text{formation}}",
+      "interpretation": "契約の真実は、誠実さの積分と初期形成の誤差から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 75 50 Q 65 65 50 85' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 15 Q 35 35 25 50 Q 35 65 50 85' stroke='#ec4899' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='6' fill='#ffd700'/></svg>",
+      "interpretation": "暗号的な絆が内部の信頼の核から対称的に編み込まれる光景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

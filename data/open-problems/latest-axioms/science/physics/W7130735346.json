@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a novel derivation framework (2026 preprint) claiming to derive G from Λ through geometric boundary conditions. The core claims are mathematically structured but not yet peer-validated. The central identity (π³/15 convergence) and master constraint (ΛR_H²=π³/15) are computationally specific but lack independent confirmation in published literature. The resolution of the cosmological constant problem is stated but truncated in the abstract. Classification as FLOWING reflects: (a) provisional theoretical status, (b) internal mathematical consistency checkable but not independently verified, (c) extraordinary claims (deriving fundamental constants from geometric first principles) requiring validation beyond preprint stage.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130735346",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

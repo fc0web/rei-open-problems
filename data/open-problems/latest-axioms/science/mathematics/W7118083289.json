@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a theoretical extension of Mann iteration to quasi-nonexpansive mappings in Banach spaces. The core mathematical claims (demiclosedness of (I−T), weak convergence under stated conditions) are standard functional analysis techniques applied in a known framework. However, the paper is dated 2026-04-25 (future date relative to knowledge cutoff) and categorized as cs.AI rather than math.FA, suggesting either a metadata error or a preprint in validation. The theoretical contributions appear sound but unvalidated in peer review; the work is mathematically rigorous but provisional pending publication and community scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7118083289",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\rho_{n+1} = \\alpha_n \\rho_n + (1-\\alpha_n) T\\rho_n \\rightharpoonup \\text{fix}(T)",
+      "interpretation": "反復は凸結合による段階的な「柔らかい逮捕」であり、固定点へ弱く吸い込まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='40' stroke='url(#g1)' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5' fill='none'><polyline points='20,50 35,45 50,50 65,48 80,50'/><polyline points='25,65 40,60 50,50 65,55 75,52'/><polyline points='30,35 45,40 50,50 60,45 80,48'/></g><circle cx='50' cy='50' r='6' fill='#ec4899' opacity='0.8'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#ffd700' font-weight='bold'>fix(T)</text></svg>",
+      "interpretation": "収束は円の中心への多層的な螺旋運動——凸性と弱位相が同時に作用する調和。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

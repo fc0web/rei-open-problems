@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents empirical findings from a single-country ARDL study (Nigeria, 1990-2022) with claimed statistical significance but incomplete abstract (cut off mid-sentence). The relationship between military spending and energy consumption is plausible but: (1) not universally established across contexts, (2) subject to model specification choices (ARDL lag selection, cointegration assumptions), (3) requires replication and robustness checks, (4) the specific elasticity estimates (0.18%-0.19%) are provisional pending peer review. Classification as FLOWING reflects pre-validated manuscript status and context-dependency.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118792483",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = 0.18M + 0.19M_{\\infty} + \\delta_{\\text{lag}}",
+      "interpretation": "軍事支出は時間差を伴いながら、エネルギー消費を短期と長期で同じ力で引き寄せる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 28 48 Q 50 35 72 50' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 28 52 Q 50 65 72 50' stroke='#f59e0b' stroke-width='2.5' fill='none'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#00d4ff' font-family='monospace'>0.18→0.19</text></svg>",
+      "interpretation": "軍事支出の力が二本の道を通じてエネルギー需要へ流れ込み、短期と長期が共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

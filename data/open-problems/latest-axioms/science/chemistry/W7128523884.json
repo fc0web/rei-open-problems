@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a future-dated (2026) preprint describing development of an analytical chemistry/mass spectrometry technique (hAPPI-MS). The work combines established ionization physics with novel instrumental design. Classification as FLOWING is appropriate because: (1) it is marked as provisional/preprint, (2) instrumental development claims require experimental validation not yet publicly established, (3) the date is future-positioned relative to evaluation context, suggesting early-stage development status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.65
   },
   "cross_refs": {
     "arxiv": "W7128523884",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

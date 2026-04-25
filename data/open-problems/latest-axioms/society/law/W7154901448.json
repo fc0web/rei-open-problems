@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a historical research article examining documented relationships between a 19th-century Russian Orthodox clergy figure and a political organization. The core claims are empirically investigable through archival sources, but the article is dated 2026-04-25 (future date, likely error or preprint), and historiographical interpretation of 'political closeness' involves hermeneutical judgment. The reconstruction of historical attitudes is provisionally validated through primary sources but subject to scholarly debate and reinterpretation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154901448",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

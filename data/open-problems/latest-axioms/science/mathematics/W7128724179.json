@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study is dated 2026-04-25 (future date, likely preprint or provisional). Primary claim (student-created story picture books improve fraction conceptual understanding) is empirically testable but results appear incomplete ('post-a' cuts off). The ANCOVA finding of 'no statistically significant differences' suggests null result, but incomplete abstract prevents full truth evaluation. Status: under validation, not yet established.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128724179",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Story}}{\\text{Picture}} \\cdot \\text{Child} = \\sqrt[3]{\\text{Fraction}}",
+      "interpretation": "物語という土台がなければ、分数の本質は見えない。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='30' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='45' x2='50' y2='50' stroke='#ec4899' stroke-width='2'/><polyline points='30,65 50,55 70,65' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#f59e0b' font-weight='bold'>1/2</text></svg>",
+      "interpretation": "円は全体の夢、四角は分割された現実、線は物語の糸が繋ぐ瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

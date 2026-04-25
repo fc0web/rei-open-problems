@@ -21,14 +21,14 @@
   "proposer": "Chris Schneider, Philipp Schoenegger, Ben Bariach",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a novel architectural pattern (Separable Expert Architecture) for privacy-preserving LLM personalization. It is not yet a proven theorem (insufficient peer review as of 2026-04-25 timestamp), nor refuted. The empirical claims (KL divergence ~0.21, 82-89% verification) are provisional results awaiting replication and validation in production settings. The core mechanism (composable adapters + deletable proxies) is theoretically sound but implementation-dependent. Classified as FLOWING because this appears to be a preprint/early-stage work whose validation status remains in flux.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "2604.21571",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

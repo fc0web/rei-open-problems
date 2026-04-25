@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The document is embargoed and the abstract is not publicly available. The truth-value of the axiom cannot be evaluated without access to the core content. This is an observation-impossible state rather than a truth-claim about pedagogical methodology.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W7154711521",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\frac{\\text{humility}}{1 + \\text{distance}^2} \\cdot \\text{weave}(t) \\, dt",
+      "interpretation": "謙虚さが距離を縮め、文化が時間とともに織り込まれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='6' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='6' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,38 30,64 70,64 50,38' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 30 70 Q 50 50 70 70' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上から降りてくる光が、下の二つの根に触れ、編み目で繋がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

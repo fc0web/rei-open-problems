@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission describes a speculative theoretical framework (dated 2026, future date) combining leech lattice geometry with undefined 'phase-space condensation' for unified field theory via AI. No peer-reviewed validation, no experimental predictions, no formal derivations provided in abstract. The claim to unify fields via lattice geometry is mathematically suggestive but lacks rigorous axiomatic grounding or testable hypotheses. Status: preprint-class provisional theory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7128793891",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

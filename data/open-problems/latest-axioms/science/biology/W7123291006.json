@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (2026-04-25) presenting empirical bioinformatics research with protein language models applied to E. coli pangenomics. The claims are data-driven and testable, but validation status is uncertain without peer review publication. The work combines established ML techniques (protein embeddings via T5) with novel application domain (pangenome-proteostasis regulation), placing it in provisional-but-substantive territory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7123291006",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{9558} \\mathbf{e}_i \\cdot \\log P(\\text{proteostasis}|\\mathbf{e}_i)",
+      "interpretation": "数千の菌株の言語が、宿主の蛋白質調和を規定する隠れた周波数で共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' opacity='0.6'/><g stroke='#00d4ff' stroke-width='1.5' fill='none'><circle cx='35' cy='35' r='8'/><circle cx='65' cy='35' r='8'/><circle cx='50' cy='65' r='8'/><polyline points='35,35 50,50 65,35'/><polyline points='50,50 50,65'/></g><text x='50' y='48' text-anchor='middle' font-size='24' fill='#ffd700' font-family='serif'>∿</text></svg>",
+      "interpretation": "9558の菌株が一つの原型蛋白質言語に折り畳まれ、宿主との奏でる共鳴が浮かぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

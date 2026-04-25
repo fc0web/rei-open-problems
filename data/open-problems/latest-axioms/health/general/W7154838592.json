@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents provisional policy analysis and institutional recommendations regarding green economy financing mechanisms. These are not proven theorems but emerging best-practice proposals under empirical validation. The work synthesizes existing frameworks (green economy theory, ecological innovation financing) with prescriptive recommendations that require real-world testing and contextual adaptation. Status: preprint/working paper, not yet peer-validated in peer-reviewed publication.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154838592",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} G_i \\cdot I_i}{\\sqrt{E_i^2 + S_i^2}} = \\int_0^t \\delta(\\tau) d\\tau",
+      "interpretation": "緑の経済への移行において、生態系革新プロジェクトの資金化は、環境・社会インパクトの平方根で割った総投資効率の、時間に沿った累積的な変化として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='30' cy='35' r='8' fill='#00d4ff'/><circle cx='70' cy='35' r='8' fill='#ec4899'/><circle cx='50' cy='65' r='8' fill='#f59e0b'/><path d='M 30 35 Q 50 50 70 35' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 30 35 Q 50 50 50 65' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 70 35 Q 50 50 50 65' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>GREEN FLOW</text></svg>",
+      "interpretation": "三つの資金源が中心の革新ハブへ収束し、融合し、生態系的価値へと流れ出す—投資メカニズムの動的な循環体系。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

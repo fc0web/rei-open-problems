@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a design-research proposal (dated 2026, preprint status implied) addressing elderly care landscapes in Chinese resettlement communities. It presents empirical observations and normative claims about outdoor environment adequacy, but lacks formal proof, peer validation, or completed implementation evidence. The abstract is incomplete, preventing full assessment of theoretical claims vs. empirical grounding.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128061666",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Vitality} = \\int_{\\text{green}} \\left(\\text{mobility} + \\text{social} + \\text{respite}\\right) \\, d\\text{presence}",
+      "interpretation": "緑との時間が、身体と心と繋がりを同時に癒す密度。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 10 Q 65 35 50 50 Q 35 65 50 90' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='30' cy='40' r='6' fill='#00d4ff'/><circle cx='70' cy='55' r='6' fill='#ec4899'/><circle cx='50' cy='75' r='5' fill='#f59e0b'/><line x1='50' y1='50' x2='30' y2='40' stroke='#ffd700' stroke-width='1' opacity='0.6'/><line x1='50' y1='50' x2='70' y2='55' stroke='#ffd700' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "老年者が中心の円内で、自然の脈動（紫の道）と他者との繋がり（金色の糸）が共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date), marked as preprint/provisional work in Uzbek on commercial bank financing optimization. Claims are empirical-policy-oriented rather than established theorems. Contains prescriptive recommendations ('taklif va tavsiyalar') not yet validated against real banking systems. Status is developmental/under-construction.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7120112480",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^T C(t)\\,dt}{\\sqrt{P_{risk}}} \\sim \\text{Stability} \\times \\text{Innovation}",
+      "interpretation": "キャッシュフローの累積が、リスク調整された資本による分割から、持続可能性と革新の共鳴が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,42 30,58' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='50,42 70,58' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 30,82 Q 50,95 70,82' stroke='#ffd700' stroke-width='2' fill='none'/><text x='50' y='15' font-size='8' text-anchor='middle' fill='#00d4ff'>Bank</text><text x='15' y='78' font-size='7' text-anchor='middle' fill='#7c3aed'>Risk</text><text x='75' y='78' font-size='7' text-anchor='middle' fill='#00ff88'>Flow</text></svg>",
+      "interpretation": "銀行がリスクとキャッシュフローの二つの力を統合して、安定した土台へ流れ込む架橋。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

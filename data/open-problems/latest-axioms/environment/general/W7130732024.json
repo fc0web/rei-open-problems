@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a provisional empirical study (dated 2026, future-oriented) with claimed 15% efficiency gains in water forecasting. The claim is not yet peer-reviewed validation (abstract only, incomplete specification), involves real-world systems (Tanzania municipal water), and depends on external validation across regions. Status is preprint-like: promising but unconfirmed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130732024",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dW}{dt} = \\beta_0 + \\beta^\\top X - \\frac{\\varepsilon}{15\\%}",
+      "interpretation": "水の流れは過去の重みと現在の誤差の調和で決まり、予測の改善は不確実性を15%削減する魔法である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><path d='M 20 80 Q 40 60 60 50 Q 80 40 85 20' stroke='url(#g1)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='20' cy='80' r='3' fill='#00ff88'/><circle cx='85' cy='20' r='3' fill='#ec4899'/><polyline points='20,80 40,75 60,70 80,65 85,60' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6' stroke-dasharray='2,2'/><text x='50' y='95' font-size='10' fill='#ffd700' text-anchor='middle'>15%</text></svg>",
+      "interpretation": "タンザニアの水が蛇行した川のように予測の精度を高めながら流れ、不確実性という霧の中で光を見つける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

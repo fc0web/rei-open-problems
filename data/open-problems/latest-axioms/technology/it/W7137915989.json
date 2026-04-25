@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a Call for Papers (CFP) announcement, not a validated empirical or theoretical claim. It proposes a research agenda on unsettled questions (algorithmic bias, opacity, accountability in service AI) that are currently under active investigation across multiple disciplines. The axioms embedded in the CFP—that bias, opacity, and accountability failures exist and are ethically significant—are widely supported, but the specific solutions and frameworks remain provisional and subject to peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7137915989",

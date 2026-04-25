@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated thesis on soft-actuated exoskeletons—a real engineering domain with established hardware (pneumatic actuators, 3D printing) and validated methods, but the specific thesis appears to be a preprint or early-stage work (abstract cuts off mid-sentence, suggesting incomplete/pre-publication status). The core claims (soft actuators + rigid frames for rehabilitation) are technologically sound but the validation results are not fully presented in the provided abstract.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7151411061",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Assist} = \\lim_{\\text{softness} \\to \\infty} \\frac{\\text{compliance}}{\\text{weight}} \\cdot \\text{rigidity}",
+      "interpretation": "柔らかさが無限に近づくとき、従順さと硬さの積が人を支える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M50 10 Q70 30 70 50 Q70 70 50 85' stroke='#7c3aed' stroke-width='3' fill='none' stroke-linecap='round'/><path d='M50 10 Q30 30 30 50 Q30 70 50 85' stroke='#00ff88' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "二つの流れが中心で出会い、柔軟に支える背骨のような構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom concerns an emerging policy framework (flexible land-use instruments + self-organization theory) applied to street vending in Global South contexts. The paper appears preprint/early-stage (2026 future date, abstract incomplete). Core claims about regulatory facilitation of self-organizing communities are provisionally stated but lack full empirical validation across heterogeneous contexts. Truth-value depends on ongoing implementation evidence and context-specific outcomes.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128379160",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Chaos}}{\\text{Rigidity}} = \\text{Order}_{\\text{emergent}}",
+      "interpretation": "秩序は禁止ではなく、柔軟な枠の中での自己組織化から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><line x1='50' y1='20' x2='50' y2='80'/><line x1='20' y1='50' x2='80' y2='50'/><line x1='30' y1='30' x2='70' y2='70'/><line x1='70' y1='30' x2='30' y2='70'/></g><circle cx='50' cy='50' r='8' fill='#00ff88' opacity='0.7'/><circle cx='35' cy='35' r='3' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='65' cy='65' r='3' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='65' cy='35' r='3' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='35' cy='65' r='3' stroke='#ec4899' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "厳密な格子の内側で、無秩序な点群が自発的に中心へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

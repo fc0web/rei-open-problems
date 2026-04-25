@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "ZERO",
+    "dfumt8Reason": "The submission title '16S' with abstract '16S rRNA sequencing' is context-empty and observation-impossible to evaluate as an axiom. No claim, theorem, or proposition is articulated. 16S rRNA sequencing is a established biological technique, but this entry contains no axiom, hypothesis, or novel assertion to classify. The formulation is incomplete and non-evaluable in the framework requested.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.95
   },
   "cross_refs": {
     "arxiv": "W4221080317",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{n=1}^{\\infty} \\frac{1}{16S_n} \\cdot e^{-\\lambda d_n} = \\text{Life}",
+      "interpretation": "微生物の系統樹を無限級数で読む—距離が遠いほど命は薄れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='3' fill='#00d4ff'/><circle cx='50' cy='20' r='2' fill='#7c3aed' opacity='0.7'/><circle cx='30' cy='65' r='2' fill='#00ff88' opacity='0.7'/><circle cx='70' cy='70' r='2' fill='#ec4899' opacity='0.7'/><line x1='50' y1='50' x2='50' y2='20' stroke='#00d4ff' stroke-width='1' opacity='0.5'/><line x1='50' y1='50' x2='30' y2='65' stroke='#00d4ff' stroke-width='1' opacity='0.5'/><line x1='50' y1='50' x2='70' y2='70' stroke='#00d4ff' stroke-width='1' opacity='0.5'/><polyline points='50,50 50,35 35,65 65,75' fill='none' stroke='#ffd700' stroke-width='0.5' opacity='0.3'/></svg>",
+      "interpretation": "中心の光から放たれた生命の枝—各々の端点が未知の微生物種を輝かせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a thesis under embargo with abstract withheld. The work concerns applied LCA/BIM methodology—empirically testable but not yet publicly validated. Classification as FLOWING reflects provisional status pending full publication and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7126208606",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{life} = \\int_0^T \\left(\\sum_{materials} m_i \\cdot e_i + \\sum_{operations} p(t) \\right) dt",
+      "interpretation": "建物の一生は、物質の重さと環境コストの重ね合わせである。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='60' height='50' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='45' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='35' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='65' cy='50' r='7' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='35,45 50,35 65,50' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.6'/><path d='M 20 75 Q 50 85 80 75' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "建物という容器のなかで、材料と時間と影響が共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

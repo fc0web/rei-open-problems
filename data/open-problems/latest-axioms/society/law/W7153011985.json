@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents a dialectical tension: (1) empirically supports the claim that international recognition persists despite state capacity deficits (verifiable through UN records, diplomatic recognition, seat retention); (2) simultaneously refutes the stronger claim that recognition *functions as a substitute* for statehood effectiveness, since recognition alone cannot explain elite behavior without accounting for internal power structures, patronage networks, regional geopolitics, and competing theories of institutional change. The paradox itself is the substance—not resolvable to unilateral truth.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153011985",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

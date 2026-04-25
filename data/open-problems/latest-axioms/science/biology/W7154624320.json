@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint/dissertation abstract (dated 2026-04-25, future date suggests provisional staging) describing empirical research on strawberry genetics. The work presents ongoing investigation into mechanisms not yet fully characterized. The stated goal is to 'better understand' mechanisms—indicating knowledge is incomplete and actively being constructed. No claims are validated as TRUE or FALSE; the work is in progress toward validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154624320",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\infty\\text{ flowers}}{\\text{runners}} \\approx \\text{const} - \\int_0^t \\text{(energy trade)}\\,dt",
+      "interpretation": "花と走枝の永遠の拮抗——一方を無限に選べば、他方は影で消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 40 58 50' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 42 50 Q 50 60 58 50' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><line x1='50' y1='20' x2='50' y2='80' stroke='#00d4ff' stroke-width='1' opacity='0.4'/></svg>",
+      "interpretation": "二つの球体が時間軸を挟んで振動——どちらも同じ幹から生まれ、互いを無視できない呪い。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

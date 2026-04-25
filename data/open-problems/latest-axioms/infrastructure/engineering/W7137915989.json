@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a call for papers (meta-research solicitation), not a substantive axiom or claim. It announces an emerging research agenda on AI ethics in service industries. The specific claims about algorithmic bias, opacity, and accountability are empirically testable but not yet validated in this particular framing. The field itself is actively evolving (2026 date suggests near-future publication standards). No single truth-value applies; rather, the CfP invites provisional contributions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.85
   },
   "cross_refs": {
     "arxiv": "W7137915989",

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a hybrid algorithmic approach (branch-and-bound + continuous optimization) applied to a specific manufacturing problem. This is a provisional technical contribution not yet independently validated. The claim is constructive and domain-specific rather than fundamental, making it survey-like until peer review confirmation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7124233048",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-B",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\min_{\\mathbf{x}} f(\\mathbf{x}) + \\lambda \\sum_{i} \\mathbb{1}_{\\text{branch}}(x_i)",
+      "interpretation": "離散的な枝分かれと連続な流れが、欠陥という深い谷を避けるように踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><path d='M 20 80 Q 35 50 50 40 Q 65 30 80 20' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='20' cy='80' r='3' fill='#00ff88'/><circle cx='80' cy='20' r='3' fill='#ec4899'/><g stroke='#f59e0b' stroke-width='1' opacity='0.6'><line x1='35' y1='50' x2='35' y2='75'/><line x1='50' y1='40' x2='50' y2='75'/><line x1='65' y1='30' x2='65' y2='75'/></g><polyline points='30,75 40,75 50,75 60,75 70,75' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "連続な勾配と離散的な選択が、層状に積み重なりながら最適形へ螺旋状に収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

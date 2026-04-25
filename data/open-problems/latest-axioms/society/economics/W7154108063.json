@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The provisional axiom (paper dated 2026, preprint status indicated by 'publication-ready format' language) presents empirical claims about South Sudan's economic structure that are subject to ongoing validation. Dutch Disease theory is established (TRUE), but its application to South Sudan's specific rural-urban dimensions requires field verification not yet complete in peer-reviewed literature as of knowledge cutoff. The paper's status as policy analysis with forward-looking diversification imperatives places it in provisional/under-revision territory.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7154108063",

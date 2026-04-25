@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents an integrative healthcare framework (Ayurveda + biotechnology) that is conceptually coherent but lacks empirical validation at scale. Claims about Prakriti-based genomic phenotyping and herbal standardization are provisionally promising but not yet established as robust clinical paradigms. The abstract is incomplete (cuts off mid-sentence), indicating preprint/early-stage status. Integration claims are dialectically positioned—biotechnology methods exist (TRUE component) but their application to Ayurvedic frameworks remains under investigation (FLOWING component).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7124282927",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

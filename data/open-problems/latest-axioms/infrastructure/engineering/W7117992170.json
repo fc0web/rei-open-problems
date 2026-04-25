@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom describes a design-research proposal (qualitative case study) for a vessel prototype addressing real Jakarta river pollution. Status is explicitly provisional: abstract is truncated ('serve as a practical solution for g...'), no peer review date given, and the work appears to be design recommendations rather than validated empirical results or proven engineering performance. The concept is plausible and motivated, but unvalidated—characteristic of preprint/working paper status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7117992170",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "V_{adapt} = \\frac{Q(t) \\cdot h(t)}{R(t)} + \\int m(\\tau) d\\tau",
+      "interpretation": "川の流量と水位の変化に合わせて、容器自体が呼吸するように形を変える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.6'/></defs><path d='M 20 50 Q 35 40 50 50 T 80 50 L 80 75 Q 65 70 50 75 Q 35 70 20 75 Z' fill='url(#waterGrad)' stroke='#00d4ff' stroke-width='1.5'/><ellipse cx='50' cy='45' rx='18' ry='12' fill='none' stroke='#00ff88' stroke-width='2' opacity='0.7'/><polyline points='50,35 45,55 55,55' fill='none' stroke='#ec4899' stroke-width='1.5' stroke-linecap='round'/><circle cx='30' cy='65' r='3' fill='#ffd700' opacity='0.6'/><circle cx='50' cy='72' r='2.5' fill='#ffd700' opacity='0.6'/><circle cx='70' cy='68' r='2' fill='#ffd700' opacity='0.6'/></svg>",
+      "interpretation": "硬い構造ではなく、流れの中で柔らかく呼応し、塵芥を優しく捕える有機的な形態。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

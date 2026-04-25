@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is provisionally formulated (preprint, incomplete abstract, 2026 date suggests future/speculative work). The core claim—that document submission functions as 'psychological collateral' signaling trust—is empirically testable but relies on interpreted behavioral proxies rather than direct measurement. Chi-square results confirm documentation requirements exist, but inferential leap from 'documents required' to 'documents as trust proxy' requires validation beyond the reported n=45 convenience sample.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.52
   },
   "cross_refs": {
     "arxiv": "W7118585095",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Trust} = \\frac{\\text{Transparency}}{\\text{Resistance}} \\cdot e^{-\\text{Opacity}}",
+      "interpretation": "透明性への抵抗が減るほど、信頼は指数関数的に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 10 Q 70 50 50 90 Q 30 50 50 10' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><line x1='50' y1='20' x2='50' y2='80' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><polyline points='30,50 50,35 70,50 50,65' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "文書という透明な殻を通して、中心の信頼が光と共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

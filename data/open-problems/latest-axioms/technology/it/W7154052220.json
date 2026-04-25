@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy brief identifying research gaps and institutional blind spots in smart grid transition literature. It presents a meta-analysis (Sovacool's bibliometric study) showing underrepresentation of social dimensions in energy research. The claim is empirically grounded but provisional—it diagnoses a problem rather than establishing a fixed truth. The document itself is dated 2026 (future) and appears to be a working assessment of evolving research priorities, making it inherently fluid and subject to validation through ongoing research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154052220",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

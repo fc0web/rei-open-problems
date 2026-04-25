@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional business plan (2026 future date, incomplete abstract text) for agricultural entrepreneurship. It contains strategic hypotheses about market viability, financial returns, and operational feasibility that are not yet empirically validated or peer-reviewed. The proposal is in preprint/planning stage, not yet executed or formally evaluated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7139382998",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{P_{\\text{nuez}}(t) + \\sum_{i} q_i(t)}{1 - \\delta(\\text{marca})} \\cdot e^{\\alpha \\cdot \\text{red}}",
+      "interpretation": "長期利益は品質と多様性の和を、ブランド劣化で割り、ネットワーク増幅で乗じた形態。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='35' y='55' width='30' height='28' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 48 L 50 55' stroke='#f59e0b' stroke-width='2'/><polyline points='20,75 35,65 50,70 65,60 80,75' stroke='#00d4ff' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' fill='#ec4899' text-anchor='middle'>ciclos</text></svg>",
+      "interpretation": "根からの長期的な核（上）が、多層の流通基盤（下）を支え、時間とともに枝分かれする可能性を秘めている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

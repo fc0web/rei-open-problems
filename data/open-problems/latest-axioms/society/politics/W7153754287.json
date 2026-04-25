@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The submission is a preprint dated 2026-04-25 (future date, likely metadata error) proposing empirical-theoretical claims about industrial policy and economic diversification in Sub-Saharan Africa. The abstract describes a mixed-methods study but provides no specific findings, theses, or evidence. Claims about 'strongest verified scholarship' and 'practical conclusion' are asserted but not presented. Without access to actual results, mechanisms, or validated data, the truth-value remains provisional and under validation. The work is structured as publication-ready but substantive evaluation requires full paper review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7153754287",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

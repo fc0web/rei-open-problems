@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a provisional framework for post-conflict reconstruction economics. While empirical case studies (Rwanda) exist, the synthesis of resource-needs modeling, financing mechanisms, and accountability structures remains under active scholarly debate with evolving best practices. The 2026 date indicates recent/ongoing work. Classification as FLOWING reflects that this is a validated ethnographic contribution but the field itself is not closed—frameworks are being refined as contexts change.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.67
   },
   "cross_refs": {
     "arxiv": "W7154145651",

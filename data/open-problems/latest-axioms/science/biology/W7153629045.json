@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Empirical ornithological study with direct observational data (pellet analysis) from 2013-2024 spanning 11 years across three field locations. Diet composition findings are reproducible through established zooarcheological methodology. Claims are falsifiable and grounded in specimen examination.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.94
   },
   "cross_refs": {
     "arxiv": "W7153629045",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Orthoptera}}{\\text{Vertebrata}} \\approx \\frac{46.2}{50.1} \\sim 1 - \\epsilon",
+      "interpretation": "無脊椎動物が脊椎動物の重みとほぼ等しくなる、捕食者の奇妙な均衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 25 Q 65 50 50 75 Q 35 50 50 25' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5'><line x1='30' y1='50' x2='20' y2='50'/><line x1='70' y1='50' x2='80' y2='50'/><line x1='50' y1='30' x2='50' y2='20'/><line x1='50' y1='70' x2='50' y2='80'/></g></svg>",
+      "interpretation": "同心円が回転する中で、外側の昆虫と内側の脊椎動物が互いに重さを占める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

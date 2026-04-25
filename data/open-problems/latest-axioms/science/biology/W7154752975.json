@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The abstract describes a provisional methodology (incomplete text suggests preprint/early-stage work). The stated problem is empirically real (LNP characterization gap exists), but the proposed solution is not yet presented in full. Classification as FLOWING reflects: (1) document appears truncated/incomplete, (2) dated future (2026-04-25 suggests speculative/placeholder), (3) method not fully detailed for truth-evaluation, (4) research claim status is developmental, not yet validated through peer review or implementation results.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7154752975",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{N}\\sum_{i=1}^{N} \\delta(m_i - m_{cargo}) \\cdot V_i^{2/3}",
+      "interpretation": "粒子ごとの秘密は、体積と積荷の共鳴に隠されている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='35' cy='40' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='35' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='65' cy='45' r='7' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='60' r='9' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 50 50 50 85' stroke='#ffd700' stroke-width='1' fill='none' stroke-dasharray='2,2'/><text x='50' y='95' font-size='10' fill='#00d4ff' text-anchor='middle'>mRNA cargo</text></svg>",
+      "interpretation": "一つ一つの球は異なる物語を持つ—均一性の幻想を破る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

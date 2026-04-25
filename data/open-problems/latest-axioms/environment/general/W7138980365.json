@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a synthesis of established agronomic knowledge (abiotic stress is well-documented in plant science) applied to a specific geographic/institutional context (Cambodia). The claims are empirically grounded but the document appears incomplete (abstract cuts off mid-sentence). The 2026 date and preprint status indicate validation is ongoing. The core thesis—that abiotic disorders are misdiagnosed in Cambodian agriculture—is plausible but requires field validation data not visible in the fragment provided.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7138980365",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Yield} = Y_0 \\exp\\left(-\\sum_{i=1}^{n} \\frac{S_i}{T_i}\\right)",
+      "interpretation": "環境ストレスの蓄積が、見えない指数関数的な形で収穫を蝕んでいく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#ec4899'/></defs><rect x='10' y='10' width='80' height='80' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='30' r='12' fill='none' stroke='#00d4ff' stroke-width='1.5'/><polyline points='50,45 40,60 50,65 60,60 50,45' fill='none' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='75' x2='50' y2='85' stroke='#ffd700' stroke-width='2'/><path d='M 30 50 Q 35 40 40 50' fill='none' stroke='#ec4899' stroke-width='1' opacity='0.6'/><path d='M 60 50 Q 65 40 70 50' fill='none' stroke='#ec4899' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "見えない圧力が四方から植物を締め付け、根本原因の診断を曇らせている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

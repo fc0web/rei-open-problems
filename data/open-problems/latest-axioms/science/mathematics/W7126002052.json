@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper is dated 2026-04-25 (future date, likely error or preprint metadata), categorized under cs.AI despite mathematical/differential geometry content. Claims to fill gaps in existing classification work by Lie and others. Core theorems appear to reference established but scattered results. Status is explicitly expository/clarification work on existing proofs, not new foundational claims. Classified as FLOWING due to: (1) apparent preprint status, (2) date anomaly suggesting unvalidated metadata, (3) role as synthesis/reorganization rather than novel axiomatic claim.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7126002052",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\mathbb{R}^{1,3}} \\frac{d\\mu(g)}{\\text{Stab}(g)} \\sim \\bigoplus_{\\pi} \\dim(\\pi) \\cdot \\pi",
+      "interpretation": "四次元ローレンツ空間では、対称性の深さが表現の分岐を通じて見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='1.5'/><polyline points='50,15 65,35 50,50 65,65 50,85' stroke='#ffd700' stroke-width='1.5' fill='none'/><polyline points='50,15 35,35 50,50 35,65 50,85' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='97' text-anchor='middle' font-size='10' fill='#7c3aed'>Lie lattice</text></svg>",
+      "interpretation": "四次元の光円錐は、リー群の軌道構造の中で光と影の階層をかたちづくる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

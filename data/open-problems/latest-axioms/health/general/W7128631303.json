@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a biomedical research thesis (dated 2026, appears to be a dissertation abstract). The work presents empirical findings about peritoneal mesothelium and post-surgical adhesions—biological phenomena that are observable and measurable, placing core claims in the TRUE/FALSE domain. However, the abstract is incomplete (cuts mid-sentence at 'Th'), and the full thesis validation status is unknown. Classification as FLOWING reflects: (1) preprint/thesis status pending peer review, (2) incomplete presentation here, (3) reliance on experimental validation not yet fully assessed in this evaluation context.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7128631303",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dM}{dt} = -\\alpha \\cdot W_{t1} + \\beta \\cdot \\text{trauma} \\cdot (1 - e^{-\\gamma t})",
+      "interpretation": "損傷後、メソテリウムの治癒能力が失われ、癒着という記憶が時間とともに刻まれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 35 70 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 65 70 50' stroke='#ec4899' stroke-width='2' fill='none' opacity='0.4'/><line x1='50' y1='30' x2='50' y2='70' stroke='#00ff88' stroke-width='1' opacity='0.6'/><circle cx='50' cy='50' r='4' fill='#ffd700'/></svg>",
+      "interpretation": "単層膜が引き裂かれ、瘢痕という縫い目が組織を閉じ込める永遠の輪を作る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

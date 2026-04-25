@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents novel empirical clustering (190 binary systems at Π ≈ 0.5) and proposes a unified boundary relation projecting stellar photospheres to cosmic horizon. The claims are (1) operationally testable via independent measurements, (2) mathematically coherent in dimensional analysis, but (3) lack peer-reviewed validation, external replication, or published refutation. The extrapolation from local stellar data to cosmic-horizon vacuum boundary is theoretically suggestive but premature. Classification as FLOWING (provisional/preprint-not-yet-validated) is appropriate pending community scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130536639",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

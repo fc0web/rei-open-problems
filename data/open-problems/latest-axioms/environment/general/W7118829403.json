@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a policy brief dated 2026 (future date, suggesting provisional/preprint status) addressing complex socio-technical systems. Solid waste management in Pakistan involves contested implementation pathways, empirical uncertainties in outcomes, and policy choices not yet validated. Not a proven theorem, but structured argumentation about intervention design.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118829403",

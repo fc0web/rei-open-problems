@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a provisional research article (dated 2026, future-dated or preprint status) in an active policy domain. It makes empirical and normative claims about digital monopoly regulation in African markets that are not yet peer-validated in the timestamp frame. The claims are contestable and context-dependent rather than proven or refuted. Classification as FLOWING reflects that the work undergoes validation and revision cycles typical of social science research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7153842535",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Platform Power}^{n}}{\\text{Local Regulation}} \\sim \\text{Subaltern Voice}_{\\text{suppressed}}",
+      "interpretation": "支配的なプラットフォームの力は、地域の声が抑圧されるほど急速に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='20' y='60' width='60' height='25' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,45 50,60' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 30 75 L 50 70 L 70 75' stroke='#00ff88' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#f59e0b' font-weight='bold'>ASYMMETRY</text></svg>",
+      "interpretation": "単一の支配的な中心から放射される力が、基盤となる領域を圧迫する不均衡な構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

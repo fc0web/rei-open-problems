@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy/ethics framework paper dated April 2026 (future date, likely preprint or provisional). It proposes guidelines rather than proving theorems. The axiom exists as a working document but lacks empirical validation across diverse secondary school contexts. Framework papers are inherently provisional until field-tested and peer-validated.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118880740",

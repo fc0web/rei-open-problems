@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom proposes a novel theoretical construct ('psychological collateral') linking document submission willingness to trust/creditworthiness. The empirical support is limited (n=45, single-country context, incomplete abstract). The core claim is plausible but requires larger-scale validation, cross-cultural replication, and causal mechanism clarification before stabilization as established knowledge.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7118239522",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Trust} = \\frac{\\text{Transparency}^2 + \\text{Vulnerability}}{\\text{Distance}^2}",
+      "interpretation": "文書を差し出すことは、距離を消す行為であり、透明性と脆弱性という二つの力で信頼を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 L 50 80' stroke='#00d4ff' stroke-width='1.5'/><path d='M 20 50 L 80 50' stroke='#00d4ff' stroke-width='1.5'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><polyline points='50,50 70,35 75,55 68,70' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>Naked Trust</text></svg>",
+      "interpretation": "中心の露出した核は、隠蔽されない脆弱性を示し、周囲の円は制度的な検視の眼を象徴している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a dataset descriptor for experimental materials science research (perovskite nanocrystals). The axiom itself is not a truth claim but a provisional data collection artifact. The manuscript exists in future tense (2026-04-25), suggesting preprint/accepted-but-not-published status. Experimental datasets are inherently provisional—their validity depends on peer review validation, reproducibility verification, and methodological scrutiny not yet complete.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154028185",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi = \\frac{\\int_0^\\infty \\text{photon}_i \\, d(\\text{size}_i)}{\\sum_j \\text{absorption}_j}",
+      "interpretation": "個々の結晶の中で、発光効率は吸収と放出の深さの比として生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='42' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,50 65,35 72,42 58,56' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#f59e0b'>μm</text></svg>",
+      "interpretation": "光の粒子が結晶の層を透き通り、内側の発光核へ螺旋状に降りていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

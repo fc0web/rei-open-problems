@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a synthesis question about technology's educational potential in LMICs. It is provisionally evaluated because: (1) the paper itself appears incomplete (abstract cuts off mid-sentence), (2) the claim aggregates dispersed empirical findings without settled consensus, (3) success factors (People, Technology, Pedagogy, Cost, Organization) are context-dependent and continuously evolving with new implementations, and (4) the underlying question mixes descriptive potential with normative aspiration, both subject to revision as new data emerges.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124539528",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Impact} = \\frac{\\text{People} \\cdot \\text{Pedagogy}}{\\text{Cost}} \\times \\sqrt[5]{\\text{Tech} \\cdot \\text{Org}}",
+      "interpretation": "人・教育・組織が根で絡み合うとき、コストを超えて可能性が花開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='35' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='35' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='65' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='30' y1='43' x2='50' y2='57' stroke='#f59e0b' stroke-width='1.5'/><line x1='70' y1='43' x2='50' y2='57' stroke='#f59e0b' stroke-width='1.5'/><path d='M 50 73 Q 40 85 30 90 M 50 73 Q 60 85 70 90' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='15' text-anchor='middle' font-size='10' fill='#7c3aed'>Potential</text></svg>",
+      "interpretation": "五つの要素が根から幹へ流れ、希望の枝が地の果てへ伸びる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper presents a novel geometric formalism (boundary invariant 𝒳) derived from operational astrophysics. It claims analytical reduction to mass-independent identity and presents observational validation on stellar photospheres and eclipsing binaries. However: (1) preprint status (2026-04-25, arXiv categories suggest recent submission); (2) the abstract is truncated, preventing full evaluation; (3) the claim that 𝒳 'reduces to exact mass-independent identity' requires independent peer verification; (4) the projection to cosmic horizon is mentioned but not developed in visible text. The work exhibits mathematical rigor in formalization but requires community validation before assignment to TRUE or FALSE. Status: provisional, under validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7130872075",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

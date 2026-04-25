@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a doctoral thesis (2026, future-dated or recently submitted) proposing a novel conceptual framework for SSE ecosystems. It integrates multiple theoretical lenses but remains in provisional/validation phase—not yet peer-reviewed in the traditional sense, empirically tested across replication contexts, or formally adopted as established theory. The framework is under-change pending community uptake and refinement.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7126252927",

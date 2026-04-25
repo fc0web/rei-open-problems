@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents descriptive claims about technology's role in education that are partially validated but lack rigorous empirical grounding and remain subject to ongoing debate about causality, equity impacts, and unintended consequences. The framing is aspirational rather than proven; empirical support exists for some claims (productivity gains in specific contexts) but contradictory evidence exists for others (digital divides, reduced critical thinking in some populations). This is a meta-claim requiring contextualization rather than absolute truth value.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7130375712",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathcal{K}}{dt} = \\alpha \\cdot \\mathcal{T} \\cdot (1 - \\mathcal{R}) + \\beta",
+      "interpretation": "知識の成長は技術と抵抗の関数として加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><rect x='10' y='10' width='30' height='30' fill='none' stroke='#00d4ff' stroke-width='1.5'/><circle cx='75' cy='25' r='12' fill='none' stroke='#7c3aed' stroke-width='1.5'/><polyline points='40,40 60,55 80,70' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='25' cy='70' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><line x1='40' y1='45' x2='70' y2='65' stroke='#ec4899' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "古い構造から新しいネットワークへ、成長の道筋が交錯する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

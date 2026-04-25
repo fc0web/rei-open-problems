@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, categorized cs.AI despite biological content) presenting empirical phylogenetic reconstruction and spatiotemporal evolutionary modeling. The claims are testable but not yet peer-reviewed validation-completed. The abstract is incomplete (cuts at 'biotic (g'), preventing full evaluation of causal mechanistic claims. Evolutionary hypotheses are provisionally supported by multi-source molecular data but remain subject to refinement as additional taxa and fossil calibrations emerge.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7104477612",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\rho}{dt} \\propto \\rho(t) \\cdot \\mathbf{G}(\\text{Orient}) \\cdot e^{-t_0/165}",
+      "interpretation": "種多様性の爆発は地理と時間が織りなす共鳴だ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='8' fill='url(#g1)'/><g stroke='#00ff88' stroke-width='1.5' fill='none'><polyline points='50,50 65,35 72,28'/><polyline points='50,50 72,50 85,50'/><polyline points='50,50 65,65 72,72'/><polyline points='50,50 35,65 28,72'/><polyline points='50,50 25,50 15,50'/></g><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='0.8' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='20' stroke='#ffd700' stroke-width='0.8' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "東方への放射的な進化の枝が、時間の層を貫いて広がっていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

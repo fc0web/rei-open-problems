@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents a validated agricultural survey with empirical grounding (abiotic stress is established agronomy), but the specific Cambodian context synthesis and causal claims about misdiagnosis rates remain under publication validation. The document appears incomplete (abstract cuts off), suggesting preprint or in-revision status.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7139088445",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Yield} = Y_0 \\exp\\left(-\\sum_{i} \\alpha_i S_i^2\\right) + \\epsilon",
+      "interpretation": "環境ストレスは見えない二次の影響で、農業の可能性を静かに蝕む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='50' r='22' fill='none' stroke='#ec4899' stroke-width='1' stroke-dasharray='3,2'/><polyline points='50,28 50,72 20,50 80,50' stroke='#00d4ff' stroke-width='1.2' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "診断されない土壌と環境の圧力が、黄金の収穫を中心から侵食する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

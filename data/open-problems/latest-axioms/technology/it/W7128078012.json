@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents an empirical claim about organizational change dynamics (job role evolution with AI/automation adoption) that is currently under active investigation. The thesis appears incomplete (abstract truncated), and the underlying claims—while grounded in observable phenomena—require longitudinal validation, contextual boundary definition, and causal attribution that remains provisional in the literature as of 2026.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128078012",

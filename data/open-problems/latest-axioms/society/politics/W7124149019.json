@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a legal-empirical study examining Islamic law principles applied to a specific local debt-settlement practice (money loan settled by goods barter). The axiom is provisional because: (1) it describes an extant social practice requiring field validation, (2) Islamic jurisprudence on this contract type (debt settled via goods exchange) involves interpretation variance across madhabs, (3) the study appears unpublished/preprint (dated 2026, future date suggests metadata error or draft status), and (4) legal-normative conclusions depend on validating both the ethnographic facts and the fiqh reasoning.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124149019",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a contemporary applied research paper (dated 2026) addressing digital transformation's role in ESG adoption in India. It presents empirical/design contributions within an active, evolving policy landscape. ESG frameworks themselves remain contested and reforming globally; India's specific ESG-tech integration strategy is still under active implementation and academic debate. The work is neither established axiom nor refuted claim, but rather a provisional contribution to an emerging field.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7139941041",

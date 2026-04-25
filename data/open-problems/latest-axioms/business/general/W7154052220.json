@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy brief identifying epistemic gaps and research lacunae in smart grid transition scholarship. It asserts that knowledge is incomplete/provisional rather than establishing a settled factual claim. The statement 'we do not know much' is itself a meta-observation about the state of knowledge—self-referential and subject to validation as research progresses. Classification as FLOWING reflects that this represents current-state knowledge gaps awaiting empirical closure through future interdisciplinary research.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154052220",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Tech}^{4400}}{\\text{Social} + \\text{Institutional}} \\to \\infty",
+      "interpretation": "技術の数は無限に増えても、社会的理解が追いつかない不均衡の本質。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='70' cy='50' r='25' stroke='#7c3aed' stroke-width='3' fill='none'/><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='38' y1='50' x2='62' y2='50' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='75' font-size='11' text-anchor='middle' fill='#7c3aed'>blind spot</text></svg>",
+      "interpretation": "巨大な技術の円と小さな社会の円の間にある見えない溝。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

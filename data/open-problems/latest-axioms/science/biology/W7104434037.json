@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a phylogenetic/evolutionary biology manuscript dated 2026-04-25 (future date suggests preprint or provisional status). The core claims (cricket diversification timing, geographic distribution patterns, rate heterogeneity) are empirically testable but depend on: (1) phylogenetic tree reconstruction robustness (sensitive to alignment, model choice, taxon sampling), (2) molecular clock calibration assumptions, (3) biogeographic inference method validity. The abstract is incomplete ('biotic (g' cuts off), preventing full evaluation. Evolutionary reconstructions are inherently non-reproducible in strict sense—past events cannot be re-observed—but methodology is sound and findings are falsifiable via future fossil/genomic evidence. Status: provisional pending peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7104434037",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathcal{D}}{dt} \\sim \\exp\\left(\\frac{t - t_0}{\\tau}\\right) \\cdot \\mathcal{G}(\\text{geo})\\,,",
+      "interpretation": "時間とともに多様性は幾何学的に爆発し、地理が指数の秘密の鍵を握っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='20' cy='80' r='3' fill='#00ff88'/><circle cx='50' cy='50' r='5' fill='#ec4899'/><circle cx='80' cy='20' r='8' fill='#ffd700'/><path d='M 20 80 Q 35 65 50 50' stroke='url(#g1)' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 65 35 80 20' stroke='url(#g1)' stroke-width='1.5' fill='none'/><polyline points='15,85 18,82 22,83' stroke='#00ff88' stroke-width='0.8' fill='none'/><polyline points='45,55 48,52 52,53' stroke='#ec4899' stroke-width='0.8' fill='none'/><polyline points='75,25 78,22 82,23' stroke='#ffd700' stroke-width='0.8' fill='none'/></svg>",
+      "interpretation": "小さな虫たちは地理という枝上を駆け上がり、時間という幹を通じて形態空間へと散開する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

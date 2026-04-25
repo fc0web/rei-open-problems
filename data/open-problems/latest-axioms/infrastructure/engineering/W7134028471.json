@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom simultaneously asserts and denies robot categorization ('everything is' AND 'nothing is'), creating deliberate dialectical tension. This is not indecision but intentional coexistence of contradictory propositions to expose definitional instability. The statement is true as a meta-observation about category breakdown and false as a literal ontological claim.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7134028471",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\text{Robot}} = \\sum_{i=0}^{\\infty} \\text{Interaction}_i + \\text{Embodiment} - \\text{Form}",
+      "interpretation": "ロボットの本質は物質ではなく、相互作用の無限な重ね合わせである。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,20 30,40 50,60 70,40 50,20' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M50,50 L50,30 M50,50 L70,50 M50,50 L50,70 M50,50 L30,50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "定義が溶け、入れ子状の相互作用が中心へ向かって渦巻く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

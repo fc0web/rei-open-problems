@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a literature review/synthesis paper on established ecological phenomena (flooded forest structure, species composition). The core empirical observations are TRUE (flooded forests exist, are biodiverse, flood-tolerant species dominate), but the paper itself is dated 2026 (future date, impossible), marked preprint-stage ('review synthesizes'), and the abstract is incomplete ('However, increasing pressure...'). Classification as FLOWING reflects: (1) provisional/incomplete submission state, (2) future publication date creating temporal inconsistency, (3) synthesis work pending peer validation, (4) incomplete abstract preventing full evaluation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7140288329",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Flood}_{\\text{season}} \\cdot \\text{Species}_{\\text{adapted}}}{\\text{Disturbance}_{\\text{human}}} = \\text{Productivity}_{\\text{wetland}}",
+      "interpretation": "洪水と適応種の共鳴が人間の圧力に抗して生産性を保つ神秘的なバランス",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.8'/></defs><rect x='10' y='50' width='80' height='40' fill='url(#flood)' stroke='#00d4ff' stroke-width='1.5'/><polyline points='20,50 35,35 50,42 65,28 80,45' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='30' cy='30' r='3' fill='#ec4899'/><circle cx='55' cy='25' r='2.5' fill='#ec4899'/><circle cx='75' cy='32' r='3' fill='#ec4899'/><path d='M 15 70 Q 25 65 35 70 T 55 70 T 75 70 T 95 70' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "水が呼吸するようにこぼれ落ち、その中で生命が根を張り、上へ伸びようとする形",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

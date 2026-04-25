@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a future-dated thesis (2026) under embargo with abstract withheld. Truth-evaluability is suspended pending content release and peer validation. Classification cannot stabilize without access to actual argumentative claims.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7118069974",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "missing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Care} = \\lim_{\\text{surveillance} \\to \\infty} \\frac{1}{\\text{trust}} \\cdot \\text{intimacy}",
+      "interpretation": "監視が増すほど、ケアは信頼と親密さの張力の中で揺らぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 50 50 Q 35 35 50 20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='30,50 50,70 70,50' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='3,3'/><g opacity='0.6'><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1' fill='none'/></g></svg>",
+      "interpretation": "中心の心臓と透視する目線が重なり、ケアと監視の二律背反を形作る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-projected or recent) studying environmental contamination transfer mechanisms. The axiom is provisional because: (1) empirical validation pending peer review, (2) field measurements under real-world variability, (3) chlordécone (persistent organochlorine) behavior in soil-water systems requires experimental confirmation. The study's core claim (contaminant transfer via runoff/erosion) is theoretically sound but requires validation data.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7140002007",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^t C(\\tau) e^{-\\lambda(t-\\tau)} d\\tau + \\frac{\\partial}{{\\partial x}}(D\\nabla C)",
+      "interpretation": "土壌毒性の過去が現在に重なり、水の動きと共に風景を汚す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:0.3'/></defs><rect x='10' y='10' width='35' height='35' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='55' y='10' width='35' height='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 27 Q 60 40 55 50' stroke='url(#flow)' stroke-width='3' fill='none'/><polyline points='55,50 52,58 58,55' stroke='#ec4899' stroke-width='2' fill='#ec4899'/><circle cx='80' cy='70' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='80' y1='62' x2='80' y2='78' stroke='#f59e0b' stroke-width='1'/></svg>",
+      "interpretation": "汚染は区画から区画へ、目に見えない糸のように流れ、根付く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

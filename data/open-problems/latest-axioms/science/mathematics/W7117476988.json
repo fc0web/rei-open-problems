@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents novel theoretical framework (Holosphere Theory, VBCS model) with claimed testability but lacks peer validation, experimental confirmation, or published validation chain. Status explicitly provisional (2026 preprint). Core claims remain unvalidated: surface-area scaling derivation delegated to upstream work, thermodynamic normalization to downstream papers, diagnostic validation incomplete ('introduce and validate' is truncated). Coherence-shell gravity model contradicts established GR without demonstrated empirical advantage.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7117476988",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S \\sim A_{\\partial} + \\int_{\\text{defect}} \\kappa(\\nabla \\Phi) \\, d\\sigma",
+      "interpretation": "境界の欠陥が面積に従い、それが内部の流れのポテンシャル勾配を織り込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 50 22 Q 65 50 50 78' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 22 Q 35 50 50 78' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,50 70,35' stroke='#f59e0b' stroke-width='1' fill='none' marker-end='url(#arrow)'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>coherence shell</text></svg>",
+      "interpretation": "表層の欠陥スケジョグが内部の流れ対称性を支える、二重構造の膜。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The work presents an empirical investigation into XRF methodology for numismatic authentication. The abstract describes an incomplete study (cuts off mid-sentence) with provisional findings about method suitability across environmental conditions. The research status is pre-validation; conclusions are contingent on completion and peer review. The underlying chemical differentiation between coins may be TRUE, but the methodological claim about XRF effectiveness across diverse depositional contexts remains under investigation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128633535",
@@ -44,7 +44,7 @@
     "expirationPolicy": "permanent",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Au}+\\text{Cu}}{\\text{Time}+\\text{Soil}} \\to \\text{Identity}",
+      "interpretation": "表面の化学は時間と環境を超えて本質を語る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='4,3'/><ellipse cx='50' cy='50' rx='20' ry='15' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#7c3aed' stroke-width='1'><line x1='50' y1='20' x2='50' y2='80'/><line x1='20' y1='50' x2='80' y2='50'/></g><circle cx='50' cy='50' r='4' fill='#00ff88'/></svg>",
+      "interpretation": "層状の時間が中心の真実を隠し、測定の光だけがそれを貫く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

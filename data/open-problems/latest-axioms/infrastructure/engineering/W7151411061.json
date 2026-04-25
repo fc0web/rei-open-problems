@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Thesis dated 2026-04-25 (future date relative to knowledge cutoff) presents novel soft-exoskeleton design with experimental validation claimed but abstract truncated before results presentation. Status: provisional design work, not yet peer-reviewed publication. Formalization of mechanical/control systems is CLASS-A complete, but clinical efficacy claims require longitudinal validation (CLASS-B).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7151411061",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Compliance}}{\\text{Weight}} \\cdot \\text{DOF} \\approx \\sqrt{\\text{Recovery}}",
+      "interpretation": "柔らかさと軽さの比が自由度を掛けると、回復への道が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 38 Q 45 50 40 65' stroke='#00d4ff' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 50 38 Q 55 50 60 65' stroke='#00d4ff' stroke-width='2.5' fill='none' stroke-linecap='round'/><circle cx='40' cy='75' r='4' stroke='#00ff88' stroke-width='1.5' fill='#00ff88' opacity='0.6'/><circle cx='60' cy='75' r='4' stroke='#00ff88' stroke-width='1.5' fill='#00ff88' opacity='0.6'/><polyline points='35,55 45,60 55,58 65,62' stroke='#7c3aed' stroke-width='1.2' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "剛性の脊椎から柔らかな腕が呼吸するように広がり、四肢の先端で新しい動きが咲く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

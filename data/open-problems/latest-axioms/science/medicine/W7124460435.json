@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, anachronistic), written in Uzbek on cotton-textile cluster development policy. Content is policy-analytical rather than empirically validated; claims about investment mechanisms and modernization effects are provisional and context-dependent. The abstract cuts off mid-sentence, indicating incomplete/draft status. No peer-review markers visible.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7124460435",

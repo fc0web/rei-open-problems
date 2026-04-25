@@ -21,14 +21,14 @@
   "proposer": "Safouane El Ghazouali, Nicola Venturi, Michael Rueegsegger et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The paper describes a synthetic dataset benchmark (SyMTRS) that is claimed to be 'large-scale' and addresses real remote sensing challenges. However, the abstract is incomplete ('Unlike existi[ng]...' cuts off), preventing full evaluation of novelty claims, validation completeness, and comparative performance. The resource itself (dataset + pipeline) is constructable and verifiable, but the truth-value of its superiority claims and generalization guarantees cannot be assessed from the truncated abstract. Status: pre-validation, dataset likely exists but claims require peer-review confirmation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21801",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents a peer-reviewed empirical study (dated 2026, future-projected or recent) on embodied carbon in road reconstruction. The abstract is incomplete (truncated mathematical formula), preventing full truth evaluation. The methodology is sound (LCA is established), but the specific quantitative claims cannot be verified from the provided fragment. Classification as FLOWING reflects: (1) provisional status pending full manuscript review, (2) empirical claims requiring data validation, (3) context-dependent applicability to South Sudan's specific conditions.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.58
   },
   "cross_refs": {
     "arxiv": "W7134823637",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\sum_{i} M_i \\cdot c_i + \\int_0^d \\frac{f(x)}{\\sqrt{1+x}} dx",
+      "interpretation": "材料の質量と排出係数の積みが、距離にわたる輸送の根深い減衰を伴う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='70' width='80' height='4' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='20' cy='60' r='8' fill='#ec4899' opacity='0.6'/><circle cx='50' cy='45' r='8' fill='#f59e0b' opacity='0.6'/><circle cx='80' cy='30' r='8' fill='#00d4ff' opacity='0.6'/><polyline points='20,60 50,45 80,30' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><path d='M 15 75 Q 50 65 85 75' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='92' font-size='10' fill='#7c3aed' text-anchor='middle'>EMBODIED FLUX</text></svg>",
+      "interpretation": "マテリアルの重さが採石地から現地へ下降し、各ステップで炭素の幽霊を残していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

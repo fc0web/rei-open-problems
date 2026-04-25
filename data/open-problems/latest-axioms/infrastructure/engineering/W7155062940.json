@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Document is a 2026-dated conference proceedings abstract in Uzbek language regarding sustainable food technology and ecological engineering. The axiom cannot be directly evaluated as TRUE/FALSE because: (1) it is a conference call/proceedings metadata rather than a testable proposition, (2) the abstract is incomplete/truncated, (3) the publication date (2026) is future-dated relative to knowledge cutoff, (4) peer review status and validation are unknown. Classification as FLOWING reflects provisional/not-yet-validated research dissemination.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.35
   },
   "cross_refs": {
     "arxiv": "W7155062940",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Yield}}{\\text{Resource}^n} \\cdot e^{-\\text{Entropy}} = \\text{Resilience}",
+      "interpretation": "食糧安全保障は資源効率と生態的秩序の微妙なバランスの中に潜む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 40 50 60 Q 65 40 50 20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='35' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='30,50 50,50 70,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='78' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>SYNC</text></svg>",
+      "interpretation": "多様な機関の融合は、相互流動する知識と実践の渦を形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

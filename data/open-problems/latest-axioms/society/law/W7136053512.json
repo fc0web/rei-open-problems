@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a commemorative biographical essay (2001 original, 2026 revision) about a historical figure affected by 20th-century Chinese political upheavals. It is not a falsifiable empirical claim or formal theorem, but rather a narrative reconstruction with documented historical context (father's military rank, presidential pardon in 2001). The truth-status is provisionally established through archival/testimonial evidence but remains subject to revision as new sources emerge. Categorized as FLOWING because: (1) it undergoes revision across time (2001→2026), (2) biographical interpretation admits multiple valid framings, (3) historical narrative validation is ongoing rather than closed.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7136053512",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

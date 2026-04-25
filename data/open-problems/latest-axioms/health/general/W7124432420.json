@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The document is embargoed (abstract inaccessible) and dated future-relative to training cutoff. The title proposes a clinical/epidemiological claim about RSV immunization policy, which is empirically testable but cannot be evaluated without access to evidence presented in the thesis body. Status is provisional pending embargo release and peer validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7124432420",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Immunity}_\\text{early}}{\\text{Vulnerability}_\\text{infant}} \\propto \\int_0^t \\text{RSV}_\\text{blocked}(\\tau) \\, d\\tau",
+      "interpretation": "幼い時期の免疫の盾は、封じ込められたウイルスの時間積分に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,50 70,35 65,55 75,60' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='50,50 35,40 45,50 30,65' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心から波状に広がる防御層：幼児の身体を取り巻く多重の免疫の光。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

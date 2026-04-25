@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes experimental methodology (single-molecule FRET) applied to Src kinase conformational dynamics. Abstract is incomplete (cuts mid-sentence at 'enzymatic a'), preventing full evaluation. The stated research objective—quantitative kinetic analysis of Src conformational equilibrium—is scientifically motivated and addresses a gap in literature, but results/validation are not presented in the provided excerpt. Classification as FLOWING reflects: (1) preprint status with incomplete abstract, (2) provisional experimental design not yet yielding validated conclusions, (3) typical trajectory of structural biology manuscripts under peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W3165776926",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{k_{open}}{k_{close}} = e^{\\beta(E_{closed} - E_{open})} \\cdot \\frac{1 + [Y419^{PO_4}]}{1 + [Y530^{PO_4}]}",
+      "interpretation": "リン酸化が開閉の分岐点を指図し、タンパク質の呼吸は自由エネルギーの勾配に従う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='35' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 55 45 Q 50 40 45 45' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 55 Q 50 60 55 55' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='35' cy='35' r='3' fill='#f59e0b'/><circle cx='65' cy='35' r='3' fill='#f59e0b'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed'>FRET</text></svg>",
+      "interpretation": "二つの状態が呼吸するように揺らぎ、光の架け橋が距離の物語を囁く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

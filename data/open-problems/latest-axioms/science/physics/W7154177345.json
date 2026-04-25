@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a provisional meta-guidance document (how-to guide) on research publication processes. It describes evolving best practices and strategic considerations rather than claiming fixed theoretical truths. Publication norms, journal selection criteria, and dissemination strategies are subject to continuous change (open access transitions, preprint culture, metrics evolution). The advice is pragmatically validated but not formally proven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154177345",

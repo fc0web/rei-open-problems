@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint/provisional conference paper (dated 2026-04-25, future-dated or misdated) describing empirical health systems research. The abstract is incomplete (cuts off mid-sentence at 'frag'), preventing full evaluation of claims. The research appears sound in methodology (mixed-methods, triangulation, n=57 qualitative interviews, policy document review 2022-2024), but without complete results, conclusions, and peer review validation, claims about systemic fragmentation impact remain provisional and context-bound. The document itself signals incompleteness.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7125645934",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-A",
+      "formalizabilityClass": "CLASS-C",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C = \\frac{1}{1 + \\sum_{i}^{n} d_i \\cdot s_i} \\cdot P",
+      "interpretation": "断片化した各領域の距離と孤立度の積が、本来の患者ケアの連続性Cを蝕む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='20' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='80' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='32' y1='35' x2='38' y2='45' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='62' y1='55' x2='68' y2='65' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><polyline points='20,45 50,65 80,85' stroke='#00ff88' stroke-width='2' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "分断された三つの領域が、虚線で弱く結ばれ、下から連続する光が通り抜けようともがいている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

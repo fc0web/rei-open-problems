@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The proposition is empirically grounded (insects as protein source is documented) but the claim of 'potential' for meaningful environmental impact reduction remains under active research validation. Field-scale implementation data and lifecycle assessments are still being published (2024-2026 period shows emerging consensus, not settled fact). The abstract appears pre-print/preliminary.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7155089077",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Protein}}{\\text{Land} \\cdot \\text{Water} \\cdot \\text{Energy}} \\propto \\text{Insects}^{1 - \\epsilon}",
+      "interpretation": "昆虫は、従来の家畜より少ない資源で、より多くのタンパク質を生み出す逆説的な効率を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='8' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><g stroke='#ec4899' stroke-width='1.5' fill='none'><line x1='50' y1='30' x2='50' y2='15'/><line x1='50' y1='70' x2='50' y2='85'/><line x1='30' y1='50' x2='15' y2='50'/><line x1='70' y1='50' x2='85' y2='50'/></g><path d='M 35 35 Q 50 25 65 35' stroke='#ffd700' stroke-width='1.2' fill='none'/><path d='M 35 65 Q 50 75 65 65' stroke='#ffd700' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "小さな核から四方へ広がる資源の流れ——昆虫が効率の中心として全体を支える構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

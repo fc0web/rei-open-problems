@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a research proposal/abstract for glioblastoma nanoparticle drug delivery, dated future (2026-04-25). The work describes intended development rather than completed findings. The therapeutic efficacy claims are provisional pending experimental validation. The formulation chemistry itself is formalizable, but clinical outcomes remain unproven.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7154384702",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{BBB}}{\\text{NP}} \\cdot e^{-t/14.6} \\to \\text{survival}",
+      "interpretation": "血液脳関門を貫く粒子の微妙な踊りが、時間という残酷な指数を逆転させるのだ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='50' y2='55' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='70' r='12' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='50' cy='70' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='35,70 50,70 65,70' stroke='#f59e0b' stroke-width='2' fill='none' stroke-linecap='round'/></svg>",
+      "interpretation": "上の脳から下の深層へ、粒子が門番を巧妙に欺いて、希望の光を運び込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

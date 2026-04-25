@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom proposes a novel discrete spacetime model with speculative mathematical formalism (1155-dimensional tensors, 'Hamzah Equation'). It exists as a preprint claim without peer review, experimental validation, or consensus acceptance. The underlying ideas (discrete spacetime, information-theoretic geometry) have established precedent in loop quantum gravity and causal set theory, but this specific formulation lacks publication history, reproducibility evidence, or mathematical rigor. Classification as FLOWING reflects provisional/unvalidated status rather than FALSE (which would require refutation) or TRUE (which requires proof).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7142836462",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

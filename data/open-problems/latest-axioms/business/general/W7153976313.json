@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a policy brief presenting a meta-analysis of research gaps (Sovacool 2014 survey of 4400+ articles). The claim—that energy research underweights social dimensions—is itself empirically grounded but represents an observation about disciplinary bias rather than a falsifiable proposition. The document is a provisional research assessment, not a validated theorem. Status: preprint/policy stage, not peer-reviewed validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7153976313",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{transition} = T_{tech} + \\epsilon \\cdot S_{social} \\quad (\\epsilon \\to 0)",
+      "interpretation": "技術が全てを説明すると信じるとき、社会は無限小として消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='30' y2='55' stroke='#f59e0b' stroke-width='1.5' opacity='0.5'/><line x1='50' y1='50' x2='70' y2='55' stroke='#f59e0b' stroke-width='1.5' opacity='0.5'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#00ff88'>blind node</text></svg>",
+      "interpretation": "技術という大きな円が社会という二つの小さな世界を見ずに輝いている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

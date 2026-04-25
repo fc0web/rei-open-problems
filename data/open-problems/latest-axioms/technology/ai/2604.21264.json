@@ -21,14 +21,14 @@
   "proposer": "Minping Chen, Bing Xu, Zulong Chen et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper describes a provisional technical method (LLM-based augmentation + category-aware MoE) for Person-Job Fit. The abstract is incomplete (cuts off mid-sentence), evaluation results are not provided, and the approach has not undergone peer review or validation in published form (dated 2026, suggesting preprint/future work). The core techniques are theoretically sound but empirical validation status is unknown.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21264",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{PJF} = \\sum_{k=1}^{K} w_k(\\mathbf{c}) \\cdot E_k(\\mathbf{j}^*) + \\lambda \\cdot D_{\\text{aug}}(\\mathbf{j})",
+      "interpretation": "仕事と人の適合は、カテゴリに目覚めた複数の専門家の重み付き和と、LLMが磨いた職務記述の距離で織られている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='30' cy='50' r='12' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 45 Q 50 35 58 45' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 42 55 Q 50 65 58 55' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='80' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>⟨MoE⟩</text></svg>",
+      "interpretation": "左の候補と右の職務が、LLMの力線で磨かれ、カテゴリ認識の専門家ゲートが最適な経路を引き出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

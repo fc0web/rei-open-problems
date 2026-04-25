@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents empirical methodology (scenario-based measurement via BatteryManager API) applied to a real but narrow domain (Android patterns). Results are contingent on implementation details, hardware, and API versions. The work is dated 2026-04-25 (future date—likely preprint or submitted manuscript) and lacks peer validation. Energy efficiency rankings across patterns are measurable but not universal laws; findings will require validation and may shift with Android OS evolution.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7119061303",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{\\text{arch}} = \\int_0^T \\frac{\\mathcal{P}(s)}{|\\text{layers}|} \\, ds + \\sum_{i=1}^5 w_i \\delta_i",
+      "interpretation": "建築の層が薄いほど、エネルギーは流れるように通る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><rect x='10' y='15' width='80' height='70' fill='none' stroke='url(#g1)' stroke-width='2'/><line x1='20' y1='30' x2='80' y2='30' stroke='#00ff88' stroke-width='1.5'/><line x1='20' y1='48' x2='80' y2='48' stroke='#ec4899' stroke-width='1.5'/><line x1='20' y1='66' x2='80' y2='66' stroke='#f59e0b' stroke-width='1.5'/><circle cx='15' cy='30' r='3' fill='#00d4ff'/><circle cx='15' cy='48' r='3' fill='#ec4899'/><circle cx='15' cy='66' r='3' fill='#f59e0b'/></svg>",
+      "interpretation": "層から層へ、エネルギーは漏れ落ちる――設計の隙間ほど電池は消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

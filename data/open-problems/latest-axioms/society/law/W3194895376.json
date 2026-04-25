@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is an empirical dataset descriptor for a 2026-dated experimental study on agency legitimacy. The axiom is provisional because: (1) the dataset itself exists and is real, but (2) the causal claims about 'factors driving legitimacy assessments' remain subject to replication, effect-size debate, and methodological scrutiny; (3) vignette-based experimental findings are notoriously context-sensitive and validity-transferability is uncertain; (4) the work is dated future-relative to present, suggesting preprint/early-stage status. Classification as FLOWING reflects active validation-in-progress rather than settled truth or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W3194895376",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Paper presents novel geometric framework with claimed derivations (π³/15 relation, ΛR_H² identity, G extraction) that are mathematically stated but lack peer-review validation, empirical confirmation, or independent formal proof. The claims are sufficiently specific and testable to be provisional rather than purely speculative, but the 2026 date, arxiv-only status (cs.AI category anomalous for theoretical physics), and incomplete abstract prevent definitive classification. Requires validation against established GR, quantum gravity benchmarks, and dimensional analysis checks.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130855181",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-A",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

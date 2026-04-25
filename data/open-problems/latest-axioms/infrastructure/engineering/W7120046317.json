@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom presents an empirical policy analysis (regional digital transformation impact on human capital) with provisional findings (2026 date suggests preprint/early publication status). Claims are evidence-based but not yet peer-validated in major venues. Recommendations are forward-looking and context-dependent.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7120046317",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H_{\\text{cap}} = \\int_0^t \\left(E + M + S\\right) e^{\\lambda D(\\tau)} d\\tau",
+      "interpretation": "デジタル変換が時間とともに人的資本を指数関数的に増幅する、という直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='2'/><path d='M 50 15 Q 60 35 50 50 Q 40 65 50 85' fill='none' stroke='#00ff88' stroke-width='2.5'/><polyline points='30,50 50,50 70,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='30' cy='50' r='3' fill='#f59e0b'/><circle cx='70' cy='50' r='3' fill='#f59e0b'/></svg>",
+      "interpretation": "人的資本（外円）がデジタル流（緑の曲線）を通じて地域的に結接する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

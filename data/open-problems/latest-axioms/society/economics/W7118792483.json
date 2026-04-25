@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom presents empirical findings from a 2026-dated econometric study (ARDL analysis) on military spending → energy consumption in Nigeria. Classification as FLOWING because: (1) empirical claim not yet independently replicated or peer-validated in provided context; (2) methodology sound (ARDL appropriate for cointegration) but effect sizes modest (0.18%–0.19% elasticity); (3) causal direction asserted but not definitively established (reverse causality, omitted variables, structural breaks possible); (4) Nigeria-specific findings have limited generalizability; (5) abstract truncated, preventing full methodological scrutiny.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7118792483",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

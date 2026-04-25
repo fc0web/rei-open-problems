@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a preprint (dated 2026-04-25, future-dated or archival) presenting original philosophical framework under iterative development. The core claims (constraint-based physicalism, temporal parallax as entropy-gradient necessity, zombie argument dissolution) are substantive but unvalidated by peer review. The disclosure of LLM-assisted composition under author direction adds epistemic uncertainty about argumentative independence. Status: provisional, not yet community-vetted.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.31
   },
   "cross_refs": {
     "arxiv": "W7130405977",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-S(t)} \\, dt \\propto \\frac{1}{\\nabla H}",
+      "interpretation": "エントロピー勾配が時間の流れを物理的に要請し、意識はその必然性の中に浮かぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><path d='M 50 10 Q 30 40 50 70 Q 70 40 50 10' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='3' fill='#00ff88'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><circle cx='50' cy='70' r='3' fill='#ffd700'/><polyline points='20,50 50,50 80,50' stroke='#f59e0b' stroke-width='1' stroke-dasharray='3,2' opacity='0.6'/></svg>",
+      "interpretation": "時間は矢のように進まねばならず、その軌跡のうちに物質と心が同じ必然から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

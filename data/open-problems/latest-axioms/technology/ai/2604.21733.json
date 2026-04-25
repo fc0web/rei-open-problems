@@ -21,14 +21,14 @@
   "proposer": "Yiran Du, Huimin He",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint from 2026 (future-dated or timestamp error) presenting empirical mixed-methods research on a novel phenomenon (AI disclosure behavior in higher education). The psychological mechanisms proposed are plausible but not yet validated through peer review, replication, or cross-cultural longitudinal studies. The CAC framework application to this domain is provisional—the abstract indicates incomplete reporting (cuts mid-sentence), suggesting manuscript is still in draft/preprint circulation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21733",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,

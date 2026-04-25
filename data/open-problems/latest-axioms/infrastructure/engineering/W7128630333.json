@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint dated 2026-04-25 describing GaN bidirectional switch design and characterization. The work presents provisional technical claims about device structures and measurement methodologies that are not yet peer-reviewed or standardized. The abstract indicates ongoing challenges ('critically hindered') and incomplete standardization, placing this in provisional/under-validation status rather than established fact.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128630333",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P_{\\text{flow}} = \\frac{1}{2}\\left|\\frac{dQ}{dt}\\right|_{\\text{parasitic}} \\cdot \\left(1 - \\frac{1}{\\sqrt{2}}\\right)^{-1}",
+      "interpretation": "双方向性と寄生要素の消滅が、単一素子の中で力学的に螺旋を成す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 L 50 85' stroke='#00d4ff' stroke-width='2'/><path d='M 15 50 L 85 50' stroke='#00ff88' stroke-width='2'/><polygon points='50,30 45,45 55,45' fill='#ec4899'/><polygon points='50,70 45,55 55,55' fill='#ec4899'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "対称な矢印が中核の結晶に収束し、ふたつの流れが同時に満たされる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

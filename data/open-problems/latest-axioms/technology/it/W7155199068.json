@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom is a provisional thesis framework (2026 date, case-study based) that integrates three domains (LCA, social practice theory, graph theory) to address consumption modeling in eco-design. The abstract is incomplete (ends mid-sentence), indicating work-in-progress status. The core claim—that incorporating consumption via social practice theory improves LCA decision-making—is empirically testable but not yet validated in peer review. Classification as FLOWING reflects preprint/emerging status rather than established fact or refutation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7155199068",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

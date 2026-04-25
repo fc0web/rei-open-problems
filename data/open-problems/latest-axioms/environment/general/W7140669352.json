@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom is a provisional meta-analysis protocol for synthesizing heterogeneous biomass/carbon measurements across Cambodian forest types. It describes a workflow (random-effects pooling + moderator analysis) not yet fully instantiated or validated. The abstract is incomplete (cuts off mid-sentence), indicating pre-publication status. The core claims (AGB/BGB patterns, uncertainty sources) are empirically grounded but synthesis methodology is under development.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7140669352",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} \\text{AGB}_i + \\sqrt[3]{\\text{BGB}_i}}{\\sigma(\\text{allometry})^2 + \\Delta(\\text{roots})} \\approx \\text{Truth}",
+      "interpretation": "地下は地上を測る重さで隠れている — The underground hides in the weight of measuring the above.",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='35' rx='25' ry='20' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,55 35,75 50,85 65,75 50,55' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='35' x2='50' y2='55' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><circle cx='50' cy='50' r='3' fill='#f59e0b'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#00d4ff'>Cambodia</text></svg>",
+      "interpretation": "冠と根が不確定な中央で揺らいでいる — Crown and root oscillate at an uncertain center.",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Submission is embargoed with abstract withheld; empirical validation status unknown. Thesis content unavailable for evaluation. Classification contingent on future disclosure and peer review.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.3
   },
   "cross_refs": {
     "arxiv": "W7148920821",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{rootedness}^2}{\\text{extraction}} \\cdot e^{\\text{sovereignty}} = \\text{wholeness}",
+      "interpretation": "自己決定という力で、根づきが抽出された傷を癒す比率を指数関数的に増幅させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 50 50 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><polyline points='20,50 30,50 70,50 80,50' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の根から放出される光脈が、周囲との交差点で新しい経済的な生命を育てる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

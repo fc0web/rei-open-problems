@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint (dated 2026-04-25, future-dated, likely indicating provisional manuscript status) presenting a novel methodological contribution combining Gaussian surrogate modeling with Wasserstein metric optimization for partially observed stochastic processes. The work is not yet validated through peer review, and the theoretical guarantees for the surrogate's approximation quality under partial observability remain under development. The claim is mathematically structured but contingent on empirical validation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "W7127766807",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{W}_2(\\mu, \\nu) \\approx \\min_{\\sigma} \\left\\| \\mathbb{E}[X|\\text{obs}] - \\mathcal{N}(m, \\sigma^2) \\right\\|",
+      "interpretation": "観えない世界を、ガウスの鏡で映す距離が最小になるとき、部分的な観測が完全になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><path d='M 20 50 Q 40 30 60 50 T 100 50' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='3' fill='#ec4899'/><circle cx='50' cy='40' r='3' fill='#ec4899'/><circle cx='70' cy='50' r='3' fill='#ec4899'/><ellipse cx='50' cy='50' rx='35' ry='20' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6' filter='url(#blur)'/><line x1='50' y1='25' x2='50' y2='75' stroke='#f59e0b' stroke-width='1' stroke-dasharray='3,2' opacity='0.5'/></svg>",
+      "interpretation": "離散的な観測点から、確率のなめらかな双曲面が立ち上がり、その距離が最小の谷を探す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

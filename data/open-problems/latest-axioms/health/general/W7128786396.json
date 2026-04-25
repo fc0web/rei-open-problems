@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study is dated 2026-04-25 (future date, impossible), suggesting preprint or provisional status. Empirical medical finding requires validation across cohorts. Correlation evidence is strong (p<0.01) but causality unestablished. Mechanistic pathway (inflammation→stunting→delay) is plausible but not proven. Fits provisional/under-validation category.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128786396",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Growth} \\approx \\frac{1}{\\text{CHI3L1}} - \\text{Inflammation's Shadow}",
+      "interpretation": "炎症の霊が成長を食い尽くす逆数の関係。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,50 50,85' stroke='#00d4ff' stroke-width='3' fill='none'/><path d='M 50 85 Q 40 80 35 88 Q 50 95 65 88 Q 60 80 50 85' stroke='#7c3aed' stroke-width='1.5' fill='#7c3aed' opacity='0.6'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/><line x1='35' y1='50' x2='65' y2='50' stroke='#00ff88' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "頭部の炎症が根を侵し、成長の茎を萎えさせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

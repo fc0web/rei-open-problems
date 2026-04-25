@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a provisional framework for developing green insurance products in Uzbekistan based on ESG principles. The work is dated 2026 (future date, suggests preprint/working paper status) and addresses an emerging policy domain. The theoretical foundations and practical recommendations are context-dependent and subject to validation through implementation and market response. The field of green insurance in Central Asia is nascent and evolving, making definitive truth-value assignment premature.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7124991901",
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{ESG} \\cdot \\text{Risk}_{\\text{eco}}}{\\text{Premium}_{\\text{green}}} = \\sqrt[3]{\\text{Stability} \\times \\text{Innovation}}",
+      "interpretation": "緑の保険と生態系の均衡は、革新によってのみ根こそぎに支えられている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 75 50 Q 65 65 50 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 20 Q 35 35 25 50 Q 35 65 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#ec4899'>ESG-Risk</text></svg>",
+      "interpretation": "双対の流れが一本の軸に絡み合い、持続可能性の螺旋を形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
-    "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "The axiom presents empirically supported causal claims (welfare→productivity, welfare→economic returns) that are largely validated in agricultural science, while simultaneously invoking ethical imperatives (humane handling, behavioural enrichment as intrinsic goods) that remain philosophically contested. The proposition conflates instrumental (economic) and intrinsic (ethical) justifications for welfare, creating dialectical tension: welfare is simultaneously a measurable livelihood mechanism AND a values-laden ethical commitment. Both framings coexist without full resolution.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.78
   },
   "cross_refs": {
     "arxiv": "W7118727956",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "W = \\frac{H + N + E}{S} \\cdot (L + P + R)",
+      "interpretation": "福祉と経済は同じ天秤の両端にあり、ケアが増えれば全体の価値が倍増する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='25' y1='50' x2='75' y2='50' stroke='#7c3aed' stroke-width='2'/><circle cx='35' cy='40' r='8' fill='#00ff88' opacity='0.7'/><circle cx='65' cy='40' r='8' fill='#ec4899' opacity='0.7'/><path d='M 50 80 L 45 70 L 55 70 Z' fill='#f59e0b'/><text x='50' y='25' text-anchor='middle' font-size='10' fill='#ffd700' font-weight='bold'>∿</text></svg>",
+      "interpretation": "動物の世話と人間の繁栄が同じ円弧を描き、心臓が両者を脈動させている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

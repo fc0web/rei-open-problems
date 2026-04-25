@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a systematic review and meta-analysis of institutional distance literature (20-year span, multiple theoretical perspectives). The construct itself is empirically validated across organizational outcomes, but the paper appears to be in preprint/early circulation (dated 2026-04-25, categorized cs.AI despite sociology focus). The meta-analysis provides synthesis but institutional distance remains theoretically contested across three competing frameworks (organizational institutionalism, institutional economics, comparative institutionalism), making it provisionally stable rather than definitively settled.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W3015352082",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{D}_{inst} = \\sqrt{\\sum_{i=1}^{3} w_i \\left(\\frac{\\delta_i}{\\sigma_i}\\right)^2}",
+      "interpretation": "三つの制度的視点の間隔は、重みづけられた正規化距離の幾何学的合成である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 30 30 L 70 30 L 50 70 Z' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><line x1='50' y1='50' x2='50' y2='85' stroke='#f59e0b' stroke-width='2'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "三つの制度論の視点が相互に距離を形成し、中心の張力点を生み出す構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

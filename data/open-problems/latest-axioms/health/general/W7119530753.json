@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "NEITHER",
-    "dfumt8": "NEITHER",
-    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.7
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Document is dated 2026-04-25 (future date, likely typo or scenario-based), described as a University report with incomplete abstract ('Mult' truncated). Status is provisional/in-progress pending full text validation and peer review completion. Not yet a finalized published work suitable for TRUE classification.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7119530753",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Absence}}{\\text{Presence}} = \\int_{0}^{t} (\\text{Trigger} - \\text{Support}) \\, dt + \\epsilon",
+      "interpretation": "子どもの消失は、引き金と支援の不均衡が時間とともに蓄積されるとき、目に見えない。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none' stroke-dasharray='5,5'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='5' fill='#ffd700'/><path d='M 50 50 L 35 25' stroke='#00ff88' stroke-width='2' stroke-linecap='round'/></svg>",
+      "interpretation": "中心の空白は認識されず、職員の眼差しは周辺に留まり、逃げゆく道筋だけが光る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

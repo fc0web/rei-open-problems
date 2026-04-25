@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a 2026-dated scholarly article (future publication or speculative work) evaluating legal/regulatory frameworks around video data privacy. The axiom involves empirical legal analysis and policy assessment that are under active revision as technology and legislation evolve. Not yet peer-validated in this system's reference date; status provisional.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7127544556",

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (date 2026-04-25, future-dated or provisional submission) describing experimental methodology in halophilic microbiology with computational imaging components. The work presents empirical optimization procedures rather than claims of universal truth. The abstract is incomplete, preventing full evaluation of axiomatic claims. Classification as FLOWING reflects: (1) validation pending peer review, (2) experimental methodology inherently subject to refinement, (3) incomplete abstract suggests ongoing documentation.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.4
   },
   "cross_refs": {
     "arxiv": "W7130199434",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []

@@ -21,14 +21,14 @@
   "proposer": "Bartosz Balis, Michal Orzechowski, Piotr Kica et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.5
+    "dfumt8Reason": "The paper presents a provisional architectural framework (agentic AI for workflow automation) that is plausible and technically coherent, but relies on implementation details not yet validated at scale. The three-layer decomposition (semantic/deterministic/knowledge) is theoretically sound but empirically unproven in the abstract. The claim about 'confining LLM non-determinism' is a design aspiration, not an established fact. This is a preprint (2026-04-25) advancing a novel systems approach; it merits FLOWING rather than TRUE (not yet peer-validated) or NEITHER (it makes concrete testable claims).",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.68
   },
   "cross_refs": {
     "arxiv": "2604.21910",
@@ -44,7 +44,7 @@
     "expirationPolicy": "3-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Experimental investigation with time-dependent transient phenomena (gust-induced flutter). Results are empirical and context-specific to test conditions. The abstract is incomplete (truncated mid-sentence), suggesting the work is either in preprint/early validation stage or under revision. Gust-induced stall flutter itself is a well-studied phenomenon, but this specific experimental characterization requires peer validation before classification as TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.72
   },
   "cross_refs": {
     "arxiv": "W7124243312",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial \\alpha}{\\partial t} + \\Delta\\phi \\approx \\int_0^t M(\\tau)\\,d\\tau \\cdot \\text{sgn}(\\omega)",
+      "interpretation": "位相差が蓄積されるとき、翼は共鳴の淵へ踊り出る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><path d='M 20 50 Q 40 30 60 50 T 100 50' stroke='url(#g1)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='30' cy='50' r='4' fill='#7c3aed' opacity='0.7'/><circle cx='50' cy='35' r='5' fill='#00ff88' opacity='0.6'/><circle cx='70' cy='50' r='6' fill='#f59e0b' opacity='0.5'/><polyline points='30,50 50,35 70,50' stroke='#ffd700' stroke-width='1.5' fill='none' opacity='0.4' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "波のうねりが重なり、小さな振動が自己共鳴の渦へ吸収される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

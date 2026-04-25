@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "TRUE",
-    "dfumt8": "TRUE",
-    "dfumt8Reason": "Contains formal-proof language",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.55
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom describes a provisional framework under development (preprint dated 2026-04-25, abstract appears incomplete). The technical approach—UAV-based thermal/visual imaging for building energy modelling—is theoretically sound and partially demonstrated in prior work, but the claimed 'systematic framework' integration is not yet validated as established fact. Classification as FLOWING reflects: (1) incomplete abstract suggesting work-in-progress state, (2) future-dated publication suggesting pre-validation status, (3) engineering frameworks typically require field validation before D-FUMT₈ = TRUE.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7128043696",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "existing",
+    "ontologicalCategory": "can-be-made",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{total} \\approx \\int_{\\text{roof}} T_{ir}(x,y) \\, dA + \\sum_{i} V_i \\cdot U_i \\cdot \\Delta T",
+      "interpretation": "空からの熱画像が、建物全体のエネルギー流出の幽霊を映し出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><circle cx='50' cy='20' r='8' fill='none' stroke='#00d4ff' stroke-width='1.5'/><path d='M 50 28 L 50 72' stroke='#7c3aed' stroke-width='2'/><polygon points='30,72 70,72 75,90 25,90' fill='none' stroke='url(#g1)' stroke-width='2'/><line x1='40' y1='72' x2='40' y2='82' stroke='#00ff88' stroke-width='1'/><line x1='50' y1='72' x2='50' y2='82' stroke='#00ff88' stroke-width='1'/><line x1='60' y1='72' x2='60' y2='82' stroke='#00ff88' stroke-width='1'/><text x='50' y='50' font-size='10' text-anchor='middle' fill='#f59e0b' opacity='0.7'>IR</text></svg>",
+      "interpretation": "ドローンが空中に浮かび、建物の熱の漏れを光の雨として地上に注ぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

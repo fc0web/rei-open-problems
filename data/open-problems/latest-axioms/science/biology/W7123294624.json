@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "This is a preprint (arXiv 2026-04-25) describing extended data and methods for a protein language model study. The foundational claims (protein LM analysis, pangenome characterization, host-microbe proteostasis effects) are theoretically sound but the work is not yet peer-reviewed or published in a validated venue. The abstract provided is a data/methods summary rather than results, making direct truth evaluation provisional.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7123294624",
@@ -44,7 +44,7 @@
     "expirationPolicy": "6-months",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "can-be-made",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{9558} \\int_0^{\\infty} e^{-\\lambda_i t} \\, \\mathcal{P}(\\text{protein}_i) \\, dt",
+      "interpretation": "すべての大腸菌株が時間を越えて、タンパク質言語の深さを通して宿主を揺さぶる",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.5'/><polyline points='50,15 65,35 60,55 70,70 50,80 30,70 40,55 35,35' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "9558の歪んだ共鳴がタンパク質の言語を通して宿主の調和を掴む",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

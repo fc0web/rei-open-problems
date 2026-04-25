@@ -25,10 +25,10 @@
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "BOTH",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Empirical work, supports/refutes coexist",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "The axiom concerns empirical efficacy of a rangeland management intervention in a specific geographic/temporal context (Afar, Ethiopia, 2026). The abstract indicates ongoing data collection and analysis (preprint status, future-dated publication suggests provisional submission). The phenomenon itself is not undecidable, but the claim's validation status is incomplete—field assessment and remote sensing analysis appear in-progress. Classification as FLOWING reflects that this is knowledge-under-construction requiring validation against full results.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7152517665",
@@ -44,7 +44,7 @@
     "expirationPolicy": "1-year",
     "sourceTier": "peer-reviewed-preprint",
     "sourceTrust": 0.75,
-    "ontologicalCategory": "missing",
+    "ontologicalCategory": "existing",
     "epistemologicalProperties": {
       "novelty": {
         "score": 0.7,
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{B_r(t)}{B_o(t)} = 1 + \\alpha e^{-\\lambda t} \\sin(\\omega t + \\phi)",
+      "interpretation": "保護された草地の回復は、抑制された振動として自然に目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='25' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 40 50 Q 50 35 60 50' stroke='url(#g1)' stroke-width='2.5' fill='none' stroke-linecap='round'/><line x1='25' y1='35' x2='25' y2='20' stroke='#f59e0b' stroke-width='1.5'/><line x1='30' y1='40' x2='38' y2='32' stroke='#f59e0b' stroke-width='1.5'/><line x1='75' y1='65' x2='75' y2='80' stroke='#00d4ff' stroke-width='1.5'/><line x1='75' y1='65' x2='85' y2='75' stroke='#00d4ff' stroke-width='1.5'/></svg>",
+      "interpretation": "左の枯渇から右の豊かさへ、隔離が架け橋となる緑の流れ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

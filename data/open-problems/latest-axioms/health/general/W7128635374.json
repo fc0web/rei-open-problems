@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "Study is dated 2026-04-25 (future date, likely fictional or preprint), appears incomplete (abstract cuts off mid-sentence at 'recruited from six'), and represents provisional empirical research not yet validated or peer-reviewed in final form. Clinical prevalence estimates and psychological associations are empirically testable but currently in data-collection or analysis phase.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.42
   },
   "cross_refs": {
     "arxiv": "W7128635374",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(\\text{anxiety}|VI,\\text{stroke}) = 1 - e^{-\\lambda \\cdot R^{-1}(VR\\text{-}QoL)}",
+      "interpretation": "視覚喪失と心理的脆弱性は、回復力という指数的な暗闇の中で反転する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='15' x2='50' y2='50' stroke='#00d4ff' stroke-width='2'/><polyline points='50,50 70,65 65,45' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 30 35 40 25' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "脳卒中は視覚の中心を奪い、心が内側へ螺旋する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

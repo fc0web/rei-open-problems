@@ -21,14 +21,14 @@
   "proposer": "Muhy Eddin Za'ter, Anna Van Boven, Bri-Mathias Hodge et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "SELF",
-    "dfumt8": "SELF",
-    "dfumt8Reason": "Self-referential or recursive structure",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper presents a provisional deep learning framework for unit commitment (UC) optimization. The approach is novel and addresses a real computational problem, but: (1) dated future publication (2026-04-25) suggests preprint/preregistration status; (2) abstract is incomplete (cuts off mid-sentence); (3) transformer-based deep learning for MILP warm-start is an active research frontier with ongoing validation requirements; (4) claims of bypassing computational bottlenecks require empirical validation against baseline solvers and real grid data.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21891",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

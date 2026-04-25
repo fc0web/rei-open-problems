@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "This is a preprint empirical study (dated 2026, future date indicates provisional/speculative status) presenting original experimental results on cognitive aid effectiveness in veterinary CPR training. The claim is not yet peer-reviewed or validated in published literature. The comparative outcome (TCA vs ECA performance) constitutes a factual claim about observable phenomena, but lacks established consensus and formal publication status required for TRUE classification. The study design is sound but results remain provisional.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W7136761088",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{memory}}{\\text{screen}} = \\frac{\\text{hands on chest}}{\\text{eyes on device}}",
+      "interpretation": "紙と電子の間で、身体の記憶が視線と競い合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><rect x='60' y='40' width='20' height='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 45 58 50' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='30' y1='62' x2='30' y2='85' stroke='#00ff88' stroke-width='2'/><line x1='70' y1='62' x2='70' y2='85' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "脳（青い円）と機械（紫い正方形）が、血流と同期する二本の足で地に根ざしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

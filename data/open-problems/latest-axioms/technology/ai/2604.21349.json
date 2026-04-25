@@ -21,14 +21,14 @@
   "proposer": "Wadii Boulila, Adel Ammar, Bilel Benjdira et al.",
   "year": 2026,
   "status": "provisional",
-  "lastUpdate": "2026-04-24",
+  "lastUpdate": "2026-04-25",
   "reiTyping": {
     "primaryType": "FLOWING",
     "secondaryType": "SELF",
-    "dfumt8": "SELF",
-    "dfumt8Reason": "Self-referential or recursive structure",
-    "rationale": "Rule-based pilot tagging; will be re-classified by Haiku in Phase M2 (b/c)",
-    "confidence": 0.6
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Paper proposes novel SSL architecture (Trust-SSL) with trust-weighted alignment for degraded aerial imagery. Claims are empirically testable but: (1) preprint status (2026 date suggests future/speculative), (2) abstract incomplete (cuts mid-sentence), (3) core innovation (trust weights + additive-residual formulation) lacks full methodological exposition in provided text, (4) robustness claims require validation across multiple aerial datasets and corruption types. Not yet established fact, not refuted, but under active development/validation cycle.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "2604.21349",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd-after-haiku-reclassification",
       "blockers": []

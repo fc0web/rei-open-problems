@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The submission is a data publication (2026-04-25) presenting empirical datasets and preliminary network analysis. Hub gene prediction for drug response is a working hypothesis requiring independent validation beyond qPCR confirmation. The claim involves biological inference (gene-drug relationships) which remains provisional until mechanistic validation and clinical correlation are established. Status: preprint-adjacent data release, not yet peer-reviewed validated theorem.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.62
   },
   "cross_refs": {
     "arxiv": "W4226369673",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H = \\frac{\\sum_{i=1}^{n} w_i \\cdot d_i}{\\log(|N|)} \\cdot \\text{Drug}",
+      "interpretation": "ネットワークの心臓は、重みと距離の共鳴が薬への応答を透視する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.8'/><polyline points='50,50 70,35 65,55 80,50' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,50 30,65 45,60 35,75' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='8' font-size='10' fill='#ffd700' text-anchor='middle' font-weight='bold'>HUB</text></svg>",
+      "interpretation": "中心の火は放射状に広がり、癌の網目を透かして薬の道を灯す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

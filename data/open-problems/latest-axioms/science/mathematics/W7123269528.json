@@ -26,9 +26,9 @@
     "primaryType": "FLOWING",
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
-    "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
-    "confidence": 0.5
+    "dfumt8Reason": "The axiom system (Q-Field Geometry) is presented as a speculative theoretical framework dated 2026 with no peer-reviewed validation, experimental evidence, or formal mathematical derivation. It combines quantum field theory language with information-theoretic and geometric metaphors in ways that lack rigorous definition. The claim that 'space is a living coherent field of connected information states' is philosophically motivated but scientifically unvalidated. Classification as FLOWING reflects its status as provisional/preprint-stage theorizing.",
+    "rationale": "classifier=haiku-4.5-v1.0",
+    "confidence": 0.15
   },
   "cross_refs": {
     "arxiv": "W7123269528",
@@ -70,7 +70,7 @@
       }
     },
     "classificationDetail": {
-      "formalizabilityClass": "CLASS-C",
+      "formalizabilityClass": "CLASS-B",
       "sufficiencyStatus": "insufficient",
       "implementationPlan": "tbd",
       "blockers": []
@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\oint_{\\text{rel}} d\\mu(\\phi) \\exp\\left(i\\int \\sqrt{g}\\,K[\\text{info}]\\right)",
+      "interpretation": "空間は関係の位相から生まれ、情報の曲率が現実を彫刻する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><circle cx='50' cy='50' r='40' fill='url(#g1)' stroke='#00d4ff' stroke-width='0.5'/><circle cx='30' cy='35' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='70' cy='35' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='50' cy='65' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><line x1='30' y1='35' x2='50' y2='50' stroke='#ec4899' stroke-width='1'/><line x1='70' y1='35' x2='50' y2='50' stroke='#ec4899' stroke-width='1'/><line x1='50' y1='65' x2='50' y2='50' stroke='#ec4899' stroke-width='1'/><line x1='30' y1='35' x2='70' y2='35' stroke='#f59e0b' stroke-width='0.8' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "離散的な点が関係の糸で結ばれ、情報の光が内側から全体を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

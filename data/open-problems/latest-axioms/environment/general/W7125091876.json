@@ -27,7 +27,7 @@
     "secondaryType": "FLOWING",
     "dfumt8": "FLOWING",
     "dfumt8Reason": "Recent preprint, peer review pending",
-    "rationale": "classifier=rule-based-v0.1",
+    "rationale": "classifier=rule-based-fallback-haiku-error",
     "confidence": 0.5
   },
   "cross_refs": {
