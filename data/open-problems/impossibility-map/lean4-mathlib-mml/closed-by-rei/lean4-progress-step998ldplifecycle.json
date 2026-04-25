@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-STEP998LDPLIFECYCLE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step998LDPLifecycle.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step998LDPLifecycle.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step998LDPLifecycle.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: L D P Lifecycle — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: L D P Lifecycle — 定理 5 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 998 — LDP-v2.1.1 Lifecycle Disjunction Projection Lean 4 Scaffolding\n  =========================================================================\n\n  Type-level verification of T-LIFECYCLE-DISJUNCTION-PROJECTION v2.1.1\n  (Rei-AIOS retreat-refined response to chat Claude critique 2026-04-25).\n\n  Claim under test:\n    \"Gödel's 1951 disjunction admits an operational scaffold via axisT_partial,\n    where stage : UndecidedStatement → Time → KnowledgeState ⇀ AxisT_partial\n    is σ-local monotonic on TRUE, allows FLOWING ↔ BOTH bidirectional, and\n    where P_axisT projection is idempotent (P² = P)"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step998LDPLifecycle.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 998 — LDP-v2.1.1 Lifecycle Disjunction Projection Lean 4 Scaffolding\n  =========================================================================\n\n  Type-level verification of T-LIFECYCLE-DISJUNCT",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step998LDPLifecycle.lean",
+    "lineCount": 209,
+    "fileSize": 9081,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "5 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
