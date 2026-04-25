@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\pi}{e^{\\sigma}} \\approx \\frac{1}{1 + \\frac{\\delta}{\\lambda}} \\cdot \\frac{C}{I}",
+      "interpretation": "通貨の価値は、制度の脆さと外部ショックの比率に反比例する直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='10' x2='50' y2='30' stroke='#f59e0b' stroke-width='2'/><line x1='50' y1='70' x2='50' y2='90' stroke='#f59e0b' stroke-width='2'/><polyline points='20,50 35,40 50,55 65,40 80,50' stroke='#00d4ff' stroke-width='2' fill='none'/><text x='50' y='52' text-anchor='middle' font-size='10' fill='#00ff88'>⚡</text></svg>",
+      "interpretation": "脆い国家の中心（紫）を、制度の圧力（ピンク）が取り囲み、不安定な流動性（青い波）が振動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

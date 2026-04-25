@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C_{\\text{tot}} = \\alpha M_{\\text{steel}} + \\beta \\int_0^{50} E_{\\text{thermal}}(T(t)) \\, dt",
+      "interpretation": "鋼と温度のダンスが、半世紀の呼吸として炭素を紡ぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><rect x='20' y='30' width='60' height='40' stroke='url(#g1)' stroke-width='2' fill='none'/><polyline points='30,50 40,40 50,55 60,35 70,50 80,45' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><path d='M 50 20 L 50 30' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><path d='M 50 70 L 50 80' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "鋼の箱が上下の極端な気候を耐え、内部の効率は時間とともに振動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

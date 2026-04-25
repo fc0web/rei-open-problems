@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Will}_{\\text{center}} \\cdot \\text{Unity}_{\\text{system}}}{\\text{Distance}^2 + \\text{Friction}_{\\text{tech,human}}} \\to \\text{Access}",
+      "interpretation": "中央の意志と統一が距離と摩擦に抗う、不思議な均衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='50' y1='25' x2='50' y2='10' stroke='#00ff88' stroke-width='2'/><line x1='75' y1='50' x2='90' y2='50' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='75' x2='50' y2='90' stroke='#ec4899' stroke-width='2'/><line x1='25' y1='50' x2='10' y2='50' stroke='#ec4899' stroke-width='2'/><path d='M 35 35 Q 50 40 65 35' stroke='#ffd700' stroke-width='1.5' fill='none'/><path d='M 35 65 Q 50 60 65 65' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の決意から四方への意思、希望と摩擦の縞模様が交わる島。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

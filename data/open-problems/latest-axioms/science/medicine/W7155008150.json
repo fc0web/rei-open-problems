@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-t} \\sum_{n=0}^\\infty \\frac{\\text{Enamel}(n)}{n!} \\, dt = \\text{Child}",
+      "interpretation": "子どもの墓に時間の層が積み重なり、ローマの輝きが土に溶ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polygon points='50,20 70,50 50,80 30,50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1' opacity='0.5'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.5'/><circle cx='35' cy='35' r='3' fill='#00ff88'/><circle cx='65' cy='35' r='3' fill='#00ff88'/><circle cx='35' cy='65' r='3' fill='#00ff88'/><circle cx='65' cy='65' r='3' fill='#00ff88'/></svg>",
+      "interpretation": "四つの光は四つの遠い国から来た—琥珀色の留め具は子どもの肩に止まった。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

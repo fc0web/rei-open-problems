@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Resilience} \\cdot \\text{VR-QoL}}{\\text{Stroke} + \\text{VI}} \\sim \\text{Psychology}",
+      "interpretation": "二つの暗闇が交わるとき、見えない光が心を守る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,15 50,85' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>resilience</text></svg>",
+      "interpretation": "二つの欠損が交差する中心に、光の筋が希望を刻む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

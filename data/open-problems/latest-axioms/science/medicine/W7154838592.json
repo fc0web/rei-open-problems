@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{G} = \\sum_{i=1}^{n} \\alpha_i \\cdot E_i \\cdot \\left(1 + \\beta \\frac{\\Delta S_i}{S_0}\\right)",
+      "interpretation": "緑の経済への移行は、複数の資金源と生態的革新の相乗効果によって非線形に加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='42' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.6'/><line x1='50' y1='8' x2='50' y2='20' stroke='#ec4899' stroke-width='2'/><line x1='92' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='92' x2='50' y2='80' stroke='#ec4899' stroke-width='2'/><line x1='8' y1='50' x2='20' y2='50' stroke='#ec4899' stroke-width='2'/><path d='M 30 30 Q 50 40 70 30' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.7'/><path d='M 30 70 Q 50 60 70 70' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "資金の流れが中心の革新から四方へ放射し、生態系のリズムで共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

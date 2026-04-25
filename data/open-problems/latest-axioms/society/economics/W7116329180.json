@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{\\text{poverty}} = \\frac{1}{\\sqrt{\\text{ownership}}} \\times \\frac{1}{\\sqrt{\\text{capacity}}} \\times \\frac{1}{\\sqrt{\\text{finance}}}",
+      "interpretation": "所有権と自治体能力と資金が欠ければ欠けるほど、貧困は深まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><line x1='20' y1='50' x2='35' y2='50'/><line x1='65' y1='50' x2='80' y2='50'/><line x1='50' y1='20' x2='50' y2='35'/><line x1='50' y1='65' x2='50' y2='80'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#00ff88'>GAPS</text></svg>",
+      "interpretation": "複数の所有者が同じ建物を共有する分裂の中心に、見えない窮乏が渦巻く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

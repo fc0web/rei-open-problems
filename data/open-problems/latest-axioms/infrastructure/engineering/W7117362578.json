@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\text{load}(t) \\cdot \\text{decay}(t)}{\\text{structure}(t)} \\, dt \\approx \\text{resilience}",
+      "interpretation": "時間を通して荷重と構造の対話が、システムの耐久性の本質を明かす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><rect x='10' y='40' width='80' height='8' fill='url(#g1)' stroke='#00ff88' stroke-width='1.5'/><circle cx='25' cy='30' r='4' fill='none' stroke='#ec4899' stroke-width='1.5'/><circle cx='50' cy='25' r='5' fill='none' stroke='#f59e0b' stroke-width='1.5'/><circle cx='75' cy='30' r='4' fill='none' stroke='#ec4899' stroke-width='1.5'/><polyline points='25,35 50,48 75,35' fill='none' stroke='#00ff88' stroke-width='1.5'/></svg>",
+      "interpretation": "基礎から上へ伸びる力が、複数の節点を通して均衡を求める構造の姿。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

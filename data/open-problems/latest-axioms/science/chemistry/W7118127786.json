@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{4} \\int_{\\text{leaf}}^{\\text{root}} c_i(x) \\, dx = \\text{potency}",
+      "interpretation": "四つの植物の中に眠る活性物質の総量が、その治癒力を呼び覚ます。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='40' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='40' cy='65' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='60' cy='65' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,50 30,40 50,50 70,40 50,50 40,65 50,50 60,65' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "四つの根から分泌される秘密の信号が、共鳴する中心の核へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

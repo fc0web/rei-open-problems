@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{N}\\sum_{i=1}^{N} e^{i\\phi_i(t)} \\sim \\sqrt{\\frac{\\langle v \\rangle}{v_0}}",
+      "interpretation": "個々の鞭毛の位相が集団速度へと自発的に編み込まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><path d='M 85 50 Q 95 45 100 50'/><path d='M 83 60 Q 93 58 100 65'/><path d='M 83 40 Q 93 42 100 35'/><path d='M 80 70 Q 90 72 98 78'/><path d='M 80 30 Q 90 28 98 22'/></g><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><polyline points='50,50 85,50' stroke='#ec4899' stroke-width='1' stroke-dasharray='2,2' opacity='0.5'/></svg>",
+      "interpretation": "球形の共同体から放射状に現れた千本の鞭毛が、個別の揺らぎを統一的な渦へと編む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

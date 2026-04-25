@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\left(\\frac{L(t)}{R(t)}\\right) \\propto \\int_0^t e^{-\\tau/\\tau_c} \\, d\\tau",
+      "interpretation": "脳は左右の不均衡を時間とともに指数関数的に統合し、新しい歩行リズムを学ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 30 62 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 70 62 50' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='10,50 30,50 70,50 90,50' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "左右の脚が異なるリズムで動く中、脳が上から統一されたパターンへと収束していく動き。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

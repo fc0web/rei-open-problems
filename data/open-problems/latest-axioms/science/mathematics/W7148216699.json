@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{shock}} \\nabla \\cdot (\\rho \\mathbf{u}) \\, d\\mathcal{V} = \\langle \\text{RH}_{E} \\rangle_{\\text{filter}} + \\mathcal{D}_{\\text{visc}} + \\mathcal{M}_{\\text{mix}}",
+      "interpretation": "衝撃と乱流と炎が織りなす中で、濾された正気が矛盾なく呼吸する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><line x1='10' y1='50' x2='40' y2='50' stroke='#ec4899' stroke-width='3'/><polyline points='40,30 50,50 40,70' fill='none' stroke='#00d4ff' stroke-width='2.5'/><circle cx='60' cy='50' r='15' fill='none' stroke='#7c3aed' stroke-width='2' opacity='0.7'/><path d='M 60 35 Q 70 50 60 65' fill='none' stroke='#00ff88' stroke-width='1.5' stroke-dasharray='3,2'/><g opacity='0.6'><circle cx='75' cy='40' r='8' fill='none' stroke='#f59e0b' stroke-width='1'/><circle cx='80' cy='55' r='6' fill='none' stroke='#f59e0b' stroke-width='1'/><circle cx='75' cy='70' r='7' fill='none' stroke='#f59e0b' stroke-width='1'/></g></svg>",
+      "interpretation": "左から来た衝撃が渦巻く炎の中心で粒子たちが踊り、幽霊のように混ざり合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

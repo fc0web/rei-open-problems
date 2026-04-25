@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Influence} = \\frac{\\text{Finance} \\cdot \\text{Peace}}{\\text{Visibility}} \\cdot \\text{Hedge}",
+      "interpretation": "見えぬ力が、金と平和の積で増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='20' fill='none' stroke='#7c3aed' stroke-width='1.5'/><line x1='30' y1='50' x2='70' y2='50' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='30' x2='50' y2='70' stroke='#00ff88' stroke-width='2'/><circle cx='25' cy='50' r='4' fill='#ec4899'/><circle cx='75' cy='50' r='4' fill='#f59e0b'/><path d='M 50 15 Q 35 35 50 50 Q 65 35 50 15' fill='none' stroke='#ffd700' stroke-width='1.5' opacity='0.7'/></svg>",
+      "interpretation": "見える動きと見えぬ重心が、静寂の中で釣り合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

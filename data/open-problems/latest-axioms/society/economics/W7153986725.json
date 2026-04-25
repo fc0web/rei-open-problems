@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S = \\int_0^1 \\frac{C(t)}{1+\\lambda P(t)} dt",
+      "interpretation": "主権は援助条件という鎖によって積分されながら、政治力Pに反比例して流出する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 50 50 85' stroke='#ec4899' stroke-width='2.5' fill='none'/><polyline points='20,50 30,45 30,55' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='80,50 70,45 70,55' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='15' stroke='#00ff88' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "中心の円環（主権）は外部からの矢（援助条件）に張力を受けながら、内側の構造を保ち続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

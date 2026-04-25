@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Faith}_{\\text{Moscow}}}{\\text{Distance}^2} + \\frac{\\text{Exile}_{\\text{Paris}}}{\\text{Suspicion}} = \\text{Silence}",
+      "interpretation": "遠く離れた土地では、信仰と流刑の力が逆二乗則に従い、沈黙へと消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='38' y1='50' x2='62' y2='50' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 30 35 Q 50 20 70 35' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 30 65 Q 50 80 70 65' stroke='#00ff88' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed' font-style='italic'>両大陸</text></svg>",
+      "interpretation": "二つの教会の中心が張力に満ちた距離で結ばれ、上下の弧は希望と懸念の流れを示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

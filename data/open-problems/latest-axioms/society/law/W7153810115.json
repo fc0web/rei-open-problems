@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Data}_{\\text{exposed}}}{\\text{Sovereignty}_{\\text{local}}} \\sim \\int_{\\text{East Africa}} \\text{Trust}(x) \\, dx",
+      "interpretation": "データの流出は、地域主権と信頼の積分に逆比例する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='45' y1='50' x2='55' y2='50' stroke='#ec4899' stroke-width='2'/><polyline points='30,35 50,20 70,35' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 80 Q 35 65 30 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "データの門番たちが、境界線を越えて信頼と権力のバランスを求める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

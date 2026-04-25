@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{V}(x) \\sim \\int_{\\mathcal{M}} \\kappa \\, d\\omega + \\min_{\\gamma} \\text{genus}(\\Sigma)",
+      "interpretation": "多様体上の位相不変量が滑らかなエネルギー関数へと溶け込む神秘。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><path d='M 50 20 Q 65 35 50 50 Q 35 65 50 80' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 50 20 Q 35 35 50 50 Q 65 65 50 80' fill='none' stroke='#ec4899' stroke-width='2'/><circle cx='50' cy='50' r='4' fill='#ffd700'/></svg>",
+      "interpretation": "相反する幾何が一点で抱きしめ、安定へと螺旋を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

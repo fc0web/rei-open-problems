@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi = \\int_0^\\infty \\mathcal{P}(t) \\cdot \\mathcal{S}(\\phi(t)) \\cdot \\mathcal{F}(\\phi(t)) \\, dt",
+      "interpretation": "プロセスが組織を折り畳み、組織が機能を呼び出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.spiral{stroke:#7c3aed;fill:none;stroke-width:1.5}</defs><path class='spiral' d='M50,50 Q30,30 50,10 T90,50 T50,90 T10,50'/><circle cx='50' cy='50' r='3' fill='#00d4ff'/><path stroke='#00ff88' stroke-width='1' fill='none' d='M50,50 L70,30'/><path stroke='#ec4899' stroke-width='1' fill='none' d='M50,50 L30,70'/></svg>",
+      "interpretation": "螺旋する組織が中心の機能へと収束し、プロセスが全体を駆動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

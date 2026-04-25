@@ -1,0 +1,54 @@
+{
+  "id": "DISC-INFO-SCI-001",
+  "qid": "Q21198",
+  "tier": 9,
+  "name": {
+    "ja": "情報科学",
+    "en": "Information Science / Computer Science"
+  },
+  "category": "discipline",
+  "tags": [
+    "computer-science",
+    "information",
+    "computation"
+  ],
+  "reiTyping": {
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "形式 (Turing/Church) と意味 (semantics) の二重性。同じプログラムが多義に解釈される",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.6,
+      "theoryType": 0.95,
+      "reproducibility": 0.95,
+      "reconstructability": 0.95
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "BOTH",
+    "peaceCheck": "pending",
+    "peaceCheckReason": "AI 兵器化・サイバー攻撃応用は flagged 候補。基礎理論は中立"
+  },
+  "provisionalityScore": 0.2,
+  "confidence": 0.97,
+  "falsifiability": "Church-Turing 仮説が破られる物理的計算機構 (e.g. hypercomputation 実在) が示されれば core 改訂",
+  "culturalOrigin": "cross",
+  "relations": {
+    "related_to": [
+      "DISC-LOGIC-001"
+    ],
+    "bridges": [
+      "DISC-DFUMT8-001",
+      "DISC-EDUCATION-001"
+    ]
+  },
+  "description": {
+    "ja": "情報の表現・処理・伝達・保管を扱う学問。理論計算機科学・アルゴリズム論・人工知能・暗号・分散システム等を包含",
+    "en": "Study of representation, processing, transmission, and storage of information. Includes theoretical CS, algorithms, AI, cryptography, distributed systems."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.96,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

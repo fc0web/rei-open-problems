@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S_L = \\sqrt{\\frac{\\kappa \\Delta T}{\\rho c_p}} \\cdot \\frac{1}{1 + \\sqrt{\\frac{w}{\\delta_0}}}",
+      "interpretation": "火炎の速度は幅を持つ通路で、壁への拡散が抵抗として現れる神秘的な形で減速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ff6b00;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#ffd700;stop-opacity:0.3'/></defs><rect x='20' y='30' width='8' height='40' stroke='#00d4ff' stroke-width='1.5' fill='none'/><rect x='72' y='30' width='8' height='40' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='24,50 35,35 45,48 55,25 65,55 75,42' stroke='#ec4899' stroke-width='2' fill='none' opacity='0.7'/><path d='M 24 50 L 75 50' stroke='#7c3aed' stroke-width='2' stroke-dasharray='2,2' opacity='0.6'/><circle cx='50' cy='50' r='12' fill='url(#flamegr)' stroke='none'/></svg>",
+      "interpretation": "狭い通路を揺らめく火炎が前進し、壁の冷却作用に抗いながら、次第に沈黙へ向かう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

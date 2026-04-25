@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} - \\delta\\left(\\frac{g_{\\text{surf}}}{T_{\\text{eff}}^3}\\right)",
+      "interpretation": "観測は3次元の内部を見ず、放射が逃げる2次元の境界でのみ真実を語る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 22 Q 65 35 78 50 Q 65 65 50 78' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#ec4899' font-weight='bold'>2D ∂V</text></svg>",
+      "interpretation": "3次元の球体は、その2次元の表面という境界に全ての真実を写す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

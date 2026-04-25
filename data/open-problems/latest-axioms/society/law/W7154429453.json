@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Witness}}{\\text{Silence}} = \\text{Power}^{1-\\epsilon}",
+      "interpretation": "証言が沈黙を破るとき、権力構造は逆転する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 L 50 85' stroke='#ec4899' stroke-width='2'/><path d='M 15 50 L 85 50' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='30' r='8' fill='#ec4899'/><circle cx='50' cy='70' r='8' fill='#7c3aed'/><polyline points='20,40 30,50 20,60' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "囚われた声が中心を貫き、証人は光と暗黒の境界に立つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

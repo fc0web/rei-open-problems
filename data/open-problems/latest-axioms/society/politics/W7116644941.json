@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Local}^{\\text{capillary}}}{\\text{Global}^{\\text{diffuse}}} = \\text{Resistance} \\cdot e^{-\\text{Exotic}}",
+      "interpretation": "局所の細い流れが、グローバルな拡散に対して、異国情緒によって消費される抵抗を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><polyline points='50,15 45,35 50,40 55,35' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='25' y1='50' x2='75' y2='50' stroke='#ec4899' stroke-width='0.8' opacity='0.6'/><path d='M 30,50 Q 40,45 50,50 T 70,50' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "中心から毛細管のように伸びる微細な流れが、周囲の均一な圧力場に抗して、独自の痕跡を刻む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

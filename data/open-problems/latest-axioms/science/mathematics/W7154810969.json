@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sigma_{\\text{retest}}^2}{\\sigma_{\\text{preproc}}^2} \\approx \\int_0^T \\sqrt{1 + (\\nabla V)^2} \\, dt",
+      "interpretation": "時間の流れの中で、繰り返し測定のばらつきは体積勾配の幾何学的複雑さに従う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='25,38 50,50 75,38' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><polyline points='25,62 50,50 75,62' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed'>cohorts</text></svg>",
+      "interpretation": "複数の脳体積測定は共通の軌道に収束し、その変動の調和が一致性の本質である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

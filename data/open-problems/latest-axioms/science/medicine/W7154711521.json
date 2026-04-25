@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\frac{\\sqrt{1-x^2}}{1+x} \\, dx = \\frac{\\pi}{2\\sqrt{2}}",
+      "interpretation": "教育と文化が交わる空間で、謙虚さという根と安全性という弧が編み込まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50 Q 50 70 30 50' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='6' fill='#ec4899'/></svg>",
+      "interpretation": "異なる知の織物が中心点で出会い、相互尊重のなかで光が屈折する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

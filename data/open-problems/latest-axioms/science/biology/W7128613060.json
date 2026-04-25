@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d[\\text{LytR}]}{dt} = k_1[\\text{LytS}]^* - k_2[\\text{LytR}] \\cdot [\\text{DNA}]",
+      "interpretation": "信号が応答を呼び起こす、調節という名の二項対話。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 37 48 Q 50 35 63 48' stroke='#00ff88' stroke-width='2' fill='none' marker-end='url(%23arrowGreen)'/><path d='M 63 52 Q 50 65 37 52' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='25' y1='38' x2='25' y2='28' stroke='#f59e0b' stroke-width='2'/><line x1='75' y1='62' x2='75' y2='72' stroke='#ffd700' stroke-width='2'/></svg>",
+      "interpretation": "膜の感知者と核の決定者が、声なき会話で細菌の運命を仕組む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} |\\mu_i^{+} - \\mu_i^{-}|}{\\sqrt{\\sum_{i=1}^{n} (\\sigma_i^{+2} + \\sigma_i^{-2})}} \\cdot \\text{wrap}(S)",
+      "interpretation": "信号と雑音の戦い、最適な遺伝子の塔は異なる平均の峡谷を登る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='25,42 50,30 75,42' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='25,58 50,70 75,58' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,3'/><text x='50' y='90' text-anchor='middle' font-size='10' fill='#7c3aed'>distance→fitness</text></svg>",
+      "interpretation": "二つの細胞の集団が頂点で出会い、距離はやがて識別力の道となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

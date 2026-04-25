@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\mathrm{H} \\cdot \\mathrm{F_I}}{1 + \\mathrm{H} \\cdot \\mathrm{F_{II}}} \\to \\text{thrombosis}",
+      "interpretation": "ヒストンという生命の核の物質が、血液の外で凝固因子に取りつき、秩序が混乱に変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='38,48 62,52' stroke='#ec4899' stroke-width='2.5' fill='none'/><polyline points='38,52 62,48' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 50 20 Q 40 35 35 55' stroke='#ffd700' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 50 20 Q 60 35 65 55' stroke='#ffd700' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "核からの逃亡者(金色)が、血管の番人たちを結びつけ、流れを凍らせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

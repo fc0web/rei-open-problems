@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dH}{dt} = \\alpha T + \\beta E - \\gamma R",
+      "interpretation": "技術の流入速度は、教育の変容を加速させ、抵抗を克服する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 20 L 50 80 M 20 50 L 80 50' stroke='#7c3aed' stroke-width='1.5'/><polyline points='35,65 50,35 65,55 75,40' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#ec4899'>⚡→📚</text></svg>",
+      "interpretation": "光の速さで知識が拡散し、古い枠組みを突き抜ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

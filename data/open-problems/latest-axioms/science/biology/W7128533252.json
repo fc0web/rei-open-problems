@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{saRNA}_{\\text{trigger}}}{\\text{ribosomes}} \\to \\int_{0}^{t} e^{-\\lambda s} \\cdot \\text{IgG}(s) \\, ds",
+      "interpretation": "ウイルスの遺伝子が核内で自己増幅し、時間とともに免疫応答へ変わっていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 38 Q 40 55 30 70' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 38 Q 60 55 70 70' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='30' cy='75' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='75' r='6' stroke='#f59e0b' stroke-width='2' fill='none'/><polyline points='50,50 45,60 55,60' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "青い種子から紫と緑の枝が分かれ、免疫の両翼が敵を取り囲む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

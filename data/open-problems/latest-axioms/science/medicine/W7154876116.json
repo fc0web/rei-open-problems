@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{care}} \\frac{1}{\\text{isolation}} \\, d(\\text{bond}) = \\text{life}",
+      "interpretation": "隔絶を破る世話の積分が、生命そのものになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 42 48 Q 50 45 58 52' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 42 52 Q 50 55 58 48' stroke='#f59e0b' stroke-width='2.5' fill='none' stroke-linecap='round'/><text x='50' y='80' font-size='10' text-anchor='middle' fill='#7c3aed' font-weight='bold'>AUDIT</text></svg>",
+      "interpretation": "二つの生命が交わる場所で、組織の心拍を感じる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

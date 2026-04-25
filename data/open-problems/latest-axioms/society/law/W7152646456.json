@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Health} = \\frac{\\text{Access}}{\\text{Racism}} \\cdot \\text{(Disinvestment)}^{-1}",
+      "interpretation": "医療の不平等は、構造的人種差別が分子にあり、投資撤退が分母を圧倒するとき、深まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='40' stroke='url(#fade)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1'/><circle cx='25' cy='50' r='3' fill='#ec4899'/><circle cx='75' cy='50' r='3' fill='#7c3aed'/><path d='M 50 20 Q 45 35 50 50 Q 55 65 50 80' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "中心から外側への同心円が構造的隔離を示し、破線の道は癒しと回復への不確実な経路を暗示する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

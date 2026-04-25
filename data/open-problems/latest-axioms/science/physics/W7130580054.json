@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{B} = \\frac{g}{T^2} \\sim \\frac{1}{\\sqrt{\\Lambda}} \\cdot \\left(1 - \\frac{r_s}{R}\\right)",
+      "interpretation": "表面から宇宙の果てまで、同じ境界の幾何学が支配している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='1' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00ff88' stroke-width='0.8' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='0.8' opacity='0.6'/><path d='M 50 50 L 70 35' stroke='#f59e0b' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "星の光の殻から宇宙の地平線まで、同心円の共鳴が響き渡る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

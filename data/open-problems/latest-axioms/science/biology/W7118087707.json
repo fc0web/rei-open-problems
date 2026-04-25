@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi = \\int_{\\text{wild}}^{\\text{cultivar}} \\frac{dP}{dG} \\cdot \\sqrt{1 + |\\nabla \\text{traits}|^2}",
+      "interpretation": "野生から栽培への形質の傾斜が、遺伝的豊かさの隠された価値を照らし出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1.5' fill='none'/><g stroke='#00d4ff' stroke-width='1'><line x1='50' y1='20' x2='50' y2='5'/><line x1='70' y1='35' x2='82' y2='23'/><line x1='80' y1='50' x2='95' y2='50'/><line x1='70' y1='65' x2='82' y2='77'/><line x1='50' y1='80' x2='50' y2='95'/><line x1='30' y1='65' x2='18' y2='77'/><line x1='20' y1='50' x2='5' y2='50'/><line x1='30' y1='35' x2='18' y2='23'/></g><text x='50' y='54' font-size='8' text-anchor='middle' fill='#ec4899'>Φ</text></svg>",
+      "interpretation": "中核の遺伝的多様性から放射される表現型の光線—見えない過去からの贈り物。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

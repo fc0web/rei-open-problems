@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Pi(\\alpha) = \\beta\\alpha^2 - \\gamma\\alpha + \\delta + \\frac{\\epsilon}{1+e^{-\\lambda(\\alpha-\\mu)}}",
+      "interpretation": "AI採用は利益を二つの力で揺さぶる——初め苦しみ、やがて翼になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><path d='M 10 70 Q 30 50 50 40 Q 70 50 90 30' stroke='url(#g1)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='50' cy='40' r='4' fill='#ec4899'/><polygon points='50,10 55,20 45,20' fill='#00ff88'/><g><line x1='20' y1='85' x2='80' y2='85' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/><text x='50' y='97' text-anchor='middle' font-size='8' fill='#7c3aed'>adoption</text></g></svg>",
+      "interpretation": "谷から上昇する軌跡——競争と創新がもたらす再生の弧。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Nutrition}_{\\text{invested}}}{\\text{Conflict}_{\\text{political}}} \\approx \\sqrt{\\text{Will}_{\\text{institutional}}}",
+      "interpretation": "栄養投資が政治的葛藤を超えるとき、制度的意志の平方根として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,45 50,50' stroke='#ec4899' stroke-width='2'/><polyline points='35,67.5 65,67.5' stroke='#f59e0b' stroke-width='2.5'/><text x='50' y='95' text-anchor='middle' font-size='8' fill='#00d4ff' font-family='monospace'>choice</text></svg>",
+      "interpretation": "種子のような政策が制度の容器を通して根を張り、実現可能性という地平へ向かう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

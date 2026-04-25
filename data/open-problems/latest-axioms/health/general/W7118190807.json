@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{p \\in \\text{Cholistan}} \\int_0^{\\infty} \\phi(c_i) \\cdot \\exp(-\\lambda \\cdot \\text{toxicity}) \\, dc_i",
+      "interpretation": "砂漠の植物たちが秘める薬効は、時間とともに毒性の影を払いのける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' opacity='0.3' stroke='#00d4ff' stroke-width='1.5'/><circle cx='30' cy='35' r='8' fill='none' stroke='#00ff88' stroke-width='1.2'/><circle cx='70' cy='40' r='6' fill='none' stroke='#ec4899' stroke-width='1'/><circle cx='50' cy='70' r='7' fill='none' stroke='#ffd700' stroke-width='1'/><polyline points='50,50 30,35 50,50 70,40 50,50 50,70' stroke='#00d4ff' stroke-width='0.8' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "砂漠の奥底から、光の粒子が根を張り、生命の輝きが放たれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

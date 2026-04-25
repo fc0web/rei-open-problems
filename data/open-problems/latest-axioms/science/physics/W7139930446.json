@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Delta p \\approx \\alpha Q + \\beta Q^2 \\cdot \\mathbb{1}_{\\text{CAT 8}}",
+      "interpretation": "触媒体の内部幾何学が、線形な抵抗と非線形な乱流の共存を生み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><rect x='10' y='20' width='80' height='60' fill='none' stroke='url(#g1)' stroke-width='2'/><polyline points='15,70 35,55 55,48 75,45 95,42' fill='none' stroke='#ec4899' stroke-width='2.5' stroke-linecap='round'/><circle cx='85' cy='35' r='4' fill='#00ff88' opacity='0.7'/><path d='M 20 35 L 25 33 L 30 35 L 35 32 L 40 35' fill='none' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "流れが細孔構造を通り抜けるとき、線形な減速と突然の渦巻きが共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Intent}_{\\text{global}}}{\\text{Consent}_{\\text{local}}} + \\sqrt{\\text{Silence}_{\\text{institutional}}} = \\text{Bondage}",
+      "interpretation": "国際的な言葉と地域の現実の断裂が、沈黙を通じて労働搾取を生み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='30' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 45 45 L 55 55' stroke='#7c3aed' stroke-width='3' stroke-dasharray='3,3'/><line x1='30' y1='30' x2='70' y2='70' stroke='#f59e0b' stroke-width='1.5' opacity='0.4'/><polyline points='35,25 40,20 45,25' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "二つの世界が鎖で結ばれているが、その連結線は見えない亀裂で満ちている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

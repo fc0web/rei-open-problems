@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Innovation} \\propto \\frac{\\text{Industry}^{\\text{Urgency}} \\times \\text{University}^{\\text{Rigor}}}{\\text{Bureaucracy} + \\epsilon}",
+      "interpretation": "業界の切迫感と大学の厳密さの幾何平均が、官僚的摩擦を減らすほど、革新は加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='18' stroke='#ec4899' stroke-width='2.5' fill='none'/><circle cx='70' cy='50' r='18' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 48 50 Q 50 45 52 50 Q 50 55 48 50' fill='#00ff88'/><line x1='30' y1='20' x2='70' y2='20' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/><line x1='30' y1='80' x2='70' y2='80' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/><text x='25' y='75' font-size='10' fill='#ec4899'>Praxis</text><text x='62' y='75' font-size='10' fill='#7c3aed'>Theory</text></svg>",
+      "interpretation": "二つの円の共鳴点から知識の光が生まれ、上下の経路が理論と実践の往還を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

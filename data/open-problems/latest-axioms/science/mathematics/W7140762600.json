@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{V} = \\int_0^\\infty q(r) e^{-|q|^2/\\lambda} d^4q",
+      "interpretation": "真空は四元数の弾性波として、距離とともに減衰しながら拡がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.1'/></defs><circle cx='50' cy='50' r='45' fill='url(#vac)' stroke='#7c3aed' stroke-width='1.5'/><g stroke='#00ff88' stroke-width='1.2' opacity='0.6'><line x1='30' y1='50' x2='50' y2='30'/><line x1='50' y1='30' x2='70' y2='50'/><line x1='70' y1='50' x2='50' y2='70'/><line x1='50' y1='70' x2='30' y2='50'/></g><circle cx='50' cy='50' r='8' fill='none' stroke='#ffd700' stroke-width='1'/></svg>",
+      "interpretation": "四元数の回転対称性が真空の中核を支え、弾性の層が粒子を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

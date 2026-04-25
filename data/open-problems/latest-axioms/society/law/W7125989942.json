@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Ethos} \\cdot \\text{Pathos}}{\\text{Logos}} + \\int_{\\text{Speech}} \\text{Rhythm}\\,d\\tau = \\text{Power}",
+      "interpretation": "言葉の力は論理と感情の相互作用に、時間的な響きを加えることで生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,15 30,50 50,85 70,50 50,15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><path d='M 50 50 L 50 20' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "演説者は中心にいながら、同心円状に共鳴を広げ、聴き手の心へと言葉の矢が放たれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

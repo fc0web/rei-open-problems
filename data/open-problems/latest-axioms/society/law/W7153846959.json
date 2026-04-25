@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}_{\\text{protected}}}{\\text{Culture}_{\\text{silent}}} = \\sqrt[3]{\\text{Trust} \\cdot \\text{Law} \\cdot \\text{Consequence}}",
+      "interpretation": "沈黙の文化を砕く声は、信頼と法と帰結の根底にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 L 50 70' stroke='#7c3aed' stroke-width='2.5'/><rect x='35' y='70' width='30' height='18' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='40' y1='50' x2='25' y2='60' stroke='#f59e0b' stroke-width='1.5'/><line x1='60' y1='50' x2='75' y2='60' stroke='#f59e0b' stroke-width='1.5'/><text x='50' y='82' font-size='8' text-anchor='middle' fill='#00ff88' font-weight='bold'>SHIELD</text></svg>",
+      "interpretation": "一人の声が土台を支え、制度と文化の両翼に守られる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

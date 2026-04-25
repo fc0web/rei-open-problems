@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Prakriti}_{\\text{genomic}} \\times \\text{Herb}_{\\text{validated}}}{\\text{Time}_{\\text{ancient}}} = \\text{Cure}_{\\text{personalized}}",
+      "interpretation": "古き叡智と現代の分子メスが交わる時、個々の体質に応じた癒しが生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 40 55 50' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 60 55 50' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='30' y1='30' x2='70' y2='30' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='30' y1='70' x2='70' y2='70' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "紫と緑の円が対話し、中央で黄金の流れが人体の共鳴を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

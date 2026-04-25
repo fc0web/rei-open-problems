@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{W_{ag}}{P_{subsistence}} \\cdot \\left(1 - \\frac{L_{seasonal}}{L_{annual}}\\right) = \\text{Poverty}",
+      "interpretation": "農業賃金が生存最低限度に対する比率と季節性の喪失が、貧困の本質を露わにする。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='35' stroke='#00d4ff' stroke-width='2'/><polyline points='30,50 50,70 70,50' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='35' y2='50' stroke='#f59e0b' stroke-width='2'/><line x1='65' y1='50' x2='80' y2='50' stroke='#f59e0b' stroke-width='2'/><path d='M 50 70 Q 40 85 50 90' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "中心の周期的喪失（季節労働）が環状の貧困構造を掘り進める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

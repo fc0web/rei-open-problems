@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{V} = \\int_{\\mathbb{H}} e^{-\\beta E[q]} \\, dq \\, ; \\quad E[q] = \\frac{1}{2}\\|\\nabla q\\|^2 + V(q)",
+      "interpretation": "真空は四元数の弾性場として、その歪みのエネルギーによって秘密の調和を保つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5' opacity='0.7'><line x1='50' y1='15' x2='50' y2='85'/><line x1='15' y1='50' x2='85' y2='50'/><line x1='28' y1='28' x2='72' y2='72'/><line x1='72' y1='28' x2='28' y2='72'/></g></svg>",
+      "interpretation": "同心円と四つの軸が織りなす四元数的対称性は、真空そのものの構造を見透かす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\beta}{dt} = -\\lambda I(t) + \\int_0^t K(t-s) B(s) ds",
+      "interpretation": "膵島の衰退と免疫の逆転のダンスが、記憶の中で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 20 Q 60 35 50 50 Q 40 65 50 80' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1'><line x1='35' y1='50' x2='40' y2='45'/><line x1='65' y1='50' x2='60' y2='55'/><line x1='50' y1='35' x2='45' y2='40'/></g></svg>",
+      "interpretation": "免疫の矢が島を囲み、治療の螺旋が内側から光を取り戻す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

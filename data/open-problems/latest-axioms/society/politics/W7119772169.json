@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{HumanCapital}}{1 - \\text{DigitalGap}} = \\int_{\\text{Education}}^{\\text{Services}} \\text{Transformation} \\, d\\mu",
+      "interpretation": "人間資本の開花は、デジタル格差を消す力で見守られている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='30' stroke='#00ff88' stroke-width='2'/><line x1='85' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='85' x2='50' y2='70' stroke='#f59e0b' stroke-width='2'/><line x1='15' y1='50' x2='30' y2='50' stroke='#ffd700' stroke-width='2'/><polyline points='50,50 65,35 70,50 65,65' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "地域の心臓部に光の道筋が浸透し、四方八方から知識が呼び寄せられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

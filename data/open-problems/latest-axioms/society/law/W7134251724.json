@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Authority}^2}{\\text{Visibility}} \\approx \\text{Silence}_{\\text{unheard}}",
+      "interpretation": "権力の二乗は見えぬ者を作り出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#ec4899'/></defs><rect x='10' y='10' width='80' height='15' fill='url(#g1)' stroke='#7c3aed' stroke-width='1'/><rect x='20' y='35' width='60' height='12' fill='#7c3aed' opacity='0.6' stroke='#7c3aed' stroke-width='0.5'/><rect x='30' y='55' width='40' height='10' fill='#7c3aed' opacity='0.3' stroke='#7c3aed' stroke-width='0.5'/><rect x='40' y='72' width='20' height='8' fill='#7c3aed' opacity='0.1' stroke='#7c3aed' stroke-width='0.5'/><line x1='50' y1='88' x2='50' y2='95' stroke='#ec4899' stroke-width='1' opacity='0.4'/></svg>",
+      "interpretation": "階層の塔は下へ消えゆく声。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\phi}{dt} = 2\\pi\\left(f_0 + \\frac{\\mu t}{2}\\right)e^{-\\lambda|\\phi-\\phi_{lock}|}",
+      "interpretation": "周波数は時間と共に滑らかに上昇し、ロックの重力に引き寄せられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><path d='M 10 50 Q 25 30 40 35 T 70 40 T 95 45' stroke='url(#grad)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,35 50,65 65,50 35,50' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "振動する波形が中央の共鳴点に螺旋状に収束し、位相が固定される瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

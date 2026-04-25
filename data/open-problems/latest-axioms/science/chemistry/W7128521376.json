@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Statin} \\xrightarrow{\\text{ERK5}} \\int \\text{Cardio}_\\text{micro} \\, d(\\text{Doxo}^-)",
+      "interpretation": "統計剤がERK5を通じて、心臓微小血管細胞をドキソルビシンの害から積分的に守る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 45 Q 50 35 58 45' stroke='#00ff88' stroke-width='2.5' fill='none' marker-end='url(%23arrowhead)'/><line x1='42' y1='55' x2='58' y2='55' stroke='#ec4899' stroke-width='1.5' opacity='0.5'/><circle cx='50' cy='75' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><line x1='30' y1='62' x2='30' y2='68' stroke='#00d4ff' stroke-width='1.5'/><line x1='70' y1='62' x2='70' y2='68' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "毒性の敵と守護の小径が、中心の光の結節点で交わる調和の図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

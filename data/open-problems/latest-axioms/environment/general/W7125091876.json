@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S_{\\text{now}} = \\int_{t_{\\text{past}}}^{t_{\\text{present}}} \\frac{\\text{Habitat}(\\tau) \\cdot \\text{Species}(\\tau)}{\\text{Drift}(\\tau)} d\\tau",
+      "interpretation": "過去の重層が現在の復帰適性を決める、という直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 20 80 Q 35 60 50 40 T 80 20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='20' cy='80' r='4' fill='#00d4ff'/><circle cx='80' cy='20' r='4' fill='#00ff88'/><line x1='20' y1='80' x2='20' y2='95' stroke='#ec4899' stroke-width='1.5'/><line x1='80' y1='20' x2='80' y2='5' stroke='#f59e0b' stroke-width='1.5'/><text x='50' y='50' font-size='10' fill='#ffd700' text-anchor='middle'>↻</text></svg>",
+      "interpretation": "時間の層をたどり、失われた生息地から現在への架け橋を探る姿。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

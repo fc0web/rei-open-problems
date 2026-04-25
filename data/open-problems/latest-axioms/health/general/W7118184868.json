@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{leaf}}^{\\text{essence}} \\frac{d(\\text{potency})}{d(\\text{time})} \\approx \\sum_{n} c_n e^{-\\lambda_n t}",
+      "interpretation": "砂漠の植物は隠れた力を時間とともに放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 40 35 50 50 Q 60 35 50 15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='60' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='65' cy='60' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='50' y1='50' x2='50' y2='75' stroke='#00d4ff' stroke-width='2'/><polyline points='45,70 50,75 55,70' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "根から茎へ、葉から花へ、生命の薬効は内側から外側へと螺旋する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

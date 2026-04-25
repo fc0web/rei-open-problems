@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{terra}}{\\text{ius}} = \\lim_{\\text{power} \\to \\infty} \\frac{1}{\\text{justice}}",
+      "interpretation": "力が無限に近づくとき、土地は法を圧倒する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='60' width='80' height='25' stroke='#00ff88' stroke-width='2' fill='none'/><polygon points='50,20 30,50 70,50' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#7c3aed' stroke-width='2' stroke-dasharray='4'/><circle cx='50' cy='45' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "根こそぎ奪われた土地の上に、正義の矢が落ちてくる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

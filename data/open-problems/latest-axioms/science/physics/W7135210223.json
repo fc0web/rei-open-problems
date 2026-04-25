@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Lambda R_H^2 = \\frac{\\pi^3}{15} \\implies w_{\\text{eff}} = -1 - \\frac{2\\dot{H}}{3H^2}",
+      "interpretation": "境界の幾何学が体積の加速を支配する——内部の暗黒エネルギーではなく、地平線の形が宇宙の運命を書く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><path d='M 50 22 Q 65 35 72 50 Q 65 65 50 78' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='55' text-anchor='middle' font-size='10' fill='#ffd700' font-family='serif'>π³/15</text></svg>",
+      "interpretation": "球殻の内側に光る幾何学的比率——外の枠が内の運動を決定する冷たい秩序。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

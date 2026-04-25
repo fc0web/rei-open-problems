@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Gini} \\sim \\alpha - \\beta \\cdot U_{density} + \\gamma \\cdot U_{rate} + \\delta \\cdot D",
+      "interpretation": "組合密度が増すほど、不平等という川の流れが弱まるように見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><path d='M 10 80 Q 30 60 50 70 T 90 40' stroke='url(#grad)' stroke-width='3' fill='none'/><circle cx='30' cy='60' r='4' fill='#7c3aed'/><circle cx='50' cy='70' r='4' fill='#7c3aed'/><circle cx='70' cy='55' r='4' fill='#7c3aed'/><line x1='20' y1='85' x2='80' y2='85' stroke='#f59e0b' stroke-width='2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>union</text></svg>",
+      "interpretation": "個々の結合点が曲線を下へ引き下ろす——平等へ向かう静かな力。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Engagement} \\sim \\frac{1}{\\text{Latency}} \\cdot \\text{(Multimodal Coherence)}",
+      "interpretation": "遅延が消えるとき、政治的な関与が呼吸するように生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 50 L 30 30 M 50 50 L 70 30 M 50 50 L 30 70 M 50 50 L 70 70' stroke='#7c3aed' stroke-width='1.5' stroke-linecap='round'/><circle cx='30' cy='30' r='4' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='70' cy='30' r='4' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='30' cy='70' r='4' stroke='#f59e0b' stroke-width='1.5' fill='none'/><circle cx='70' cy='70' r='4' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心から四方へ同時に放たれる声——遅れない対話の星図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

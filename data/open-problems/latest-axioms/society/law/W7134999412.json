@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Fear}_{t} \\cdot \\text{Platform}_{\\text{velocity}}}{\\text{Distance}_{\\text{historical}}} \\to \\text{Threat}_{\\text{present}}",
+      "interpretation": "歴史との距離が縮まるほど、恐怖はプラットフォームの速度で増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 Q 40 50 45 60' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 38 Q 60 50 55 60' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='20,70 50,70 80,70' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='90' font-size='8' text-anchor='middle' fill='#7c3aed'>1969→2022</text></svg>",
+      "interpretation": "歴史の傷が現在へ収束し、プラットフォームを通じて増幅される螺旋構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

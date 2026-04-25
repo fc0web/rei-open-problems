@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^t \\text{Data}(\\tau) \\, d\\tau}{\\sqrt{\\text{Chaos}^2 + \\text{Order}^2}} \\to \\text{Decision}",
+      "interpretation": "データの積分がカオスと秩序の根源から浄化されるとき、決定は現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 65 50 50 85' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 15 Q 35 50 50 85' stroke='#f59e0b' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "データの流れが中心の決定核へ収束し、相互作用が光の色で交差する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

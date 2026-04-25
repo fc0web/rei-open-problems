@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Sacral Authority}}{\\text{Political Neutrality}} = \\int_{\\text{Throne}}^{\\text{Altar}} \\text{Legitimacy}(t)\\,dt",
+      "interpretation": "聖性と権力の合一が、時間とともに正当性を蓄積する不可逆的な過程。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='35' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><polygon points='50,60 30,85 70,85' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='35' x2='50' y2='60' stroke='#00d4ff' stroke-width='2.5'/><circle cx='25' cy='75' r='4' fill='#f59e0b'/><circle cx='75' cy='75' r='4' fill='#f59e0b'/><path d='M 20 50 Q 50 45 80 50' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "聖職者の冠から権力の座へ降りてくる光が、地上の二つの炎と絡み合い、揺らぐ境界を引く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

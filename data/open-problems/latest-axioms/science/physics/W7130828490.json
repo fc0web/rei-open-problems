@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} \\left(1 - \\frac{r_s}{R}\\right)^{1/2}",
+      "interpretation": "宇宙の膜は、内部の質量を知らずに、その表面だけで全てを語る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='50' r='32' fill='none' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/><circle cx='50' cy='50' r='40' fill='none' stroke='#ec4899' stroke-width='0.8' opacity='0.6'/><g stroke='#00ff88' stroke-width='1'><line x1='50' y1='15' x2='50' y2='20'/><line x1='85' y1='50' x2='80' y2='50'/><line x1='50' y1='85' x2='50' y2='80'/><line x1='15' y1='50' x2='20' y2='50'/></g><text x='50' y='55' font-size='8' text-anchor='middle' fill='#ffd700' font-family='serif'>𝒳</text></svg>",
+      "interpretation": "光の逃げ道は、内側の深淵を映す鏡でしかない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

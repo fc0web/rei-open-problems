@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}}{\\text{Code}} = \\int_0^\\infty \\text{Honesty}(t) \\cdot e^{-\\text{Opacity} \\cdot t} dt",
+      "interpretation": "契約の本質は、透明性という時間のなかで誠実さがどれだけ積み重なるかに依存する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='25' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,42 50,50' stroke='#ec4899' stroke-width='2.5'/><line x1='25' y1='70' x2='75' y2='70' stroke='#00ff88' stroke-width='1.5'/><path d='M 50 75 Q 40 85 30 82' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 50 75 Q 60 85 70 82' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "誠実さの核から契約の枠組みへ流れ、二つの道（信頼と疑い）に分岐する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

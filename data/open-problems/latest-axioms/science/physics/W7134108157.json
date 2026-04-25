@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{N\\to\\infty} \\frac{\\text{Mod}(\\mathcal{H}_N)}{|\\mathcal{H}_N|} = \\int_0^\\infty \\beta(E) \\, dE",
+      "interpretation": "有限から無限へ：アルジェブラの目隠しが外れるとき、観測者のパッチは熱放射の幽霊を見る",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='25' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 35 55 50' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><line x1='30' y1='35' x2='70' y2='65' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><text x='50' y='85' font-size='10' fill='#f59e0b' text-anchor='middle'>N→∞</text></svg>",
+      "interpretation": "小さな観測パッチが無限の暗い力学へ吸い込まれていく、その境界を越えて新しい粒子が生まれる",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

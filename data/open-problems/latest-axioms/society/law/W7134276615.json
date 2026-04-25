@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{2}{5} = \\int_0^1 \\frac{dx}{1+x^3} - \\text{(forgotten)}",
+      "interpretation": "進歩は測定できるが、後退は記憶から消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 30 80 L 50 60 L 70 75 L 55 45 L 75 35 L 50 40 L 40 10' stroke='#ec4899' stroke-width='2.5' fill='none'/><circle cx='50' cy='60' r='3' fill='#7c3aed'/><circle cx='50' cy='40' r='3' fill='#ec4899'/><line x1='10' y1='50' x2='90' y2='50' stroke='#00d4ff' stroke-width='1' opacity='0.4'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>↕ ↕</text></svg>",
+      "interpretation": "上昇と沈降が同じ道を歩む——進歩の幻と制度の重力。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{e^2}{h} \\exp\\left(-\\beta \\sqrt{A}\\right) \\cdot \\Phi(\\Delta V)",
+      "interpretation": "分子の導電率は表面積の幾何学的減衰と電位の位相の絡み合いで浮かぶ",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 38 50 Q 50 35 62 50' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 65 62 50' stroke='#00ff88' stroke-width='1' fill='none' stroke-dasharray='3,2'/><polyline points='30,42 30,58' stroke='#ffd700' stroke-width='1'/><polyline points='70,42 70,58' stroke='#ffd700' stroke-width='1'/></svg>",
+      "interpretation": "単一分子は電気的対極の間に浮かぶ橋となり、可視化されぬ干渉が流れを導く",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

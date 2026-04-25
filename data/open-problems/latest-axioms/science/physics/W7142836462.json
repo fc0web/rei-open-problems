@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\sum_{\\text{grains}} \\kappa(\\Delta\\theta)^2 + \\oint \\Xi \\cdot \\nabla\\mathbb{G}^{\\mu\\nu} + \\int\\frac{\\Phi_{B}}{\\eta} d\\mathcal{V}",
+      "interpretation": "粗い砂粒たちが、ねじれのバネと、流体の潤滑油のなかで、かすかに囁きあう。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><circle cx='50' cy='50' r='48' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6' filter='url(#f)'/><g stroke='#ec4899' stroke-width='0.8' fill='none'><line x1='30' y1='50' x2='35' y2='45'/><line x1='35' y1='45' x2='42' y2='48'/><line x1='70' y1='50' x2='65' y2='45'/><line x1='65' y1='45' x2='58' y2='48'/><line x1='50' y1='30' x2='48' y2='38'/><line x1='48' y1='38' x2='52' y2='42'/><line x1='50' y1='70' x2='48' y2='62'/><line x1='48' y1='62' x2='52' y2='58'/></g><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='0.6' fill='none' opacity='0.7'/><circle cx='50' cy='50' r='12' stroke='#ffd700' stroke-width='0.5' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "離散的な粒たちが、中心の超流動の光のまわりで、春のように震える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

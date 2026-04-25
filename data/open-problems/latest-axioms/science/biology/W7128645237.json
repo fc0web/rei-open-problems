@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{ECM}_\\text{retina} \\sim \\int_0^t \\frac{\\partial \\sigma}{\\partial \\tau} d\\tau \\cdot e^{-\\lambda t}",
+      "interpretation": "時とともに網膜の構造的張力は衰えながらも、その履歴を積み重ねていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='1' fill='none'/><path d='M 50 50 Q 65 35 80 50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 50 50 Q 35 65 50 80' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "同心円の網が時間とともに緩み、光は歪んで通り抜ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

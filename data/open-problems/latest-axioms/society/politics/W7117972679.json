@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{P_i \\cap P_j}{R} = \\frac{C(E_i, E_j)}{1 + D(E_i, E_j)}",
+      "interpretation": "地域拡大における権力の重なりが、協力と競争の比率を決める神秘的な釣り合いがある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='35' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 35 30 Q 50 20 65 30' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 35 70 Q 50 80 65 70' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='50' y1='35' x2='50' y2='65' stroke='#ffd700' stroke-width='1' opacity='0.6'/><polygon points='50,50 48,55 52,55' fill='#00ff88'/></svg>",
+      "interpretation": "二つの権力圏が絡み合い、上昇と下降の動きが、中心に微小な指針を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

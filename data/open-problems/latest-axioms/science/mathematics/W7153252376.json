@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} \\cdot \\prod_{i=1}^{n} S_i = \\log(1 + \\text{Recursion})",
+      "interpretation": "再帰的スプライシングは、無限に折り�畳まれた対称性から秩序が生まれる現象である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><path d='M50,10 Q70,30 50,50 Q30,70 50,90' stroke='url(#g1)' stroke-width='3' fill='none'/><circle cx='50' cy='30' r='4' fill='#00ff88'/><circle cx='65' cy='50' r='4' fill='#ec4899'/><circle cx='50' cy='70' r='4' fill='#f59e0b'/><polyline points='20,50 50,50 80,50' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "遺伝子の鎖が自らを食べながら再び自分を作り直す、螺旋状の自己参照。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

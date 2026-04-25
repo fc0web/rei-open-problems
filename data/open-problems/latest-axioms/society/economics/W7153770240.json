@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "T \\cdot A = \\frac{R_{pandemic}}{1 + \\delta_{opacity}} \\cdot \\prod_{i=1}^{n} (1 + \\sigma_i)",
+      "interpretation": "透明性と説明責任の乗積は、パンデミック下の収入を不透明性で割り、制度的信頼の積で増幅する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1.5'/><polyline points='50,50 65,35 70,55' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='95' text-anchor='middle' font-size='8' fill='#ffd700'>FLOW</text></svg>",
+      "interpretation": "透明な流れが中心を貫き、同心円の制度層を照らし、パンデミックの嵐を越えて資源が循環する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

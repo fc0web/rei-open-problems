@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\sin(\\omega t)}{\\sqrt{m \\cdot L(t)}} \\, dt \\approx \\text{Flight}",
+      "interpretation": "振動する質量と長さの調和が、飛行という無限の軌跡を紡ぎ出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 20 50 Q 50 20 80 50 Q 50 80 20 50' stroke='#00d4ff' stroke-width='2' fill='none'/><ellipse cx='50' cy='50' rx='8' ry='12' fill='#7c3aed'/><polyline points='35,45 30,35 25,45' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='65,45 70,35 75,45' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='28' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "骨格と羽が織りなす曲線は、重力に抗う幾何学的な歌である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

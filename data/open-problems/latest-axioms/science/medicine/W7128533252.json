@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{saRNA}}{\\text{IBV}} \\to \\int_{0}^{t} e^{-\\lambda s} (\\text{IgG} + \\text{IgA})\\, ds",
+      "interpretation": "ワクチンが時間とともに消えゆく感染を指数関数で押さえ、抗体の層を積み重ねていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 25 Q 60 40 50 55 Q 40 40 50 25' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5'><line x1='50' y1='50' x2='65' y2='35'/><line x1='50' y1='50' x2='68' y2='50'/><line x1='50' y1='50' x2='65' y2='65'/></g><text x='50' y='85' text-anchor='middle' font-size='10' fill='#ffd700'>saRNA→immunity</text></svg>",
+      "interpretation": "中心からの波動が同心円を描き、細胞防御の層が重なる光景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

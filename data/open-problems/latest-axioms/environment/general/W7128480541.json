@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\mathrm{d}(\\mathrm{CO_2} + \\mathrm{CH_4})}{\\mathrm{d}t} \\propto \\left(\\frac{\\partial \\mathcal{R}}{\\partial z}\\right)^2 \\cdot \\mathcal{M}",
+      "interpretation": "微細な撹乱が界面の傾斜を急峻にし、ガス放出を二乗で増幅させるさま。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.7'/></defs><ellipse cx='50' cy='65' rx='45' ry='18' fill='url(#g1)' stroke='#00d4ff' stroke-width='1.5'/><path d='M30,65 Q35,58 40,65 T50,65 T60,65 T70,65' stroke='#ec4899' stroke-width='2' fill='none' stroke-linecap='round'/><circle cx='35' cy='60' r='2' fill='#00ff88'/><circle cx='50' cy='55' r='2' fill='#00ff88'/><circle cx='65' cy='58' r='2' fill='#00ff88'/><path d='M35,60 L35,48' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2' opacity='0.7'/><path d='M50,55 L50,40' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2' opacity='0.7'/><path d='M65,58 L65,45' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2' opacity='0.7'/></svg>",
+      "interpretation": "水の波面（界面）の微細な皺が、見えない気体の放出を誘発する微小の泉。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

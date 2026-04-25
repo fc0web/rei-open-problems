@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\mathrm{H} \\cdot \\mathrm{FI}}{\\mathrm{FII}} \\sim \\int_0^\\infty e^{-\\lambda t} \\, d\\Phi",
+      "interpretation": "ヒストンが凝固因子に結合するとき、平衡は時間とともに指数関数的に崩れゆく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 37 45 Q 50 35 63 45' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 37 55 Q 50 65 63 55' stroke='#ec4899' stroke-width='2.5' fill='none'/><text x='50' y='15' font-size='10' fill='#f59e0b' text-anchor='middle'>H</text><text x='25' y='68' font-size='9' fill='#7c3aed' text-anchor='middle'>FI</text><text x='75' y='68' font-size='9' fill='#00d4ff' text-anchor='middle'>FII</text></svg>",
+      "interpretation": "核内の分子が血液の奥底に降りて、二つの凝固因子を異なる速度で抱きしめる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

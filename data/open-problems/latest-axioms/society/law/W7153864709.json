@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Crime}_\\infty}{\\text{Border}_0} = \\int_\\text{Senegal}^\\text{World} \\text{Justice}(x) \\, dx",
+      "interpretation": "国境を消す正義は、無限の犯罪に対する遠い国の応答である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#7c3aed' stroke-width='1'/><line x1='15' y1='50' x2='85' y2='50' stroke='#7c3aed' stroke-width='1'/><polyline points='30,50 35,45 40,55 45,40 50,55 55,40 60,55 65,45 70,50' stroke='#00ff88' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "中心の法廷から放射状に広がる管轄権の網が、遠い地で犯罪を捕捉する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

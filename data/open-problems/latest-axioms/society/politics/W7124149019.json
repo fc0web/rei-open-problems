@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Niat}}{\\text{Riba}} = \\frac{\\text{Barang}}{\\text{Uang}} \\cdot \\sqrt{\\text{Kepercayaan}}",
+      "interpretation": "村の債務慣行において、意図と利息回避のバランスが、物と貨幣の交換の根に潜む信頼によって測られる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 37 45 Q 50 35 63 45' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 63 55 Q 50 65 37 55' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='serif'>Amanah</text></svg>",
+      "interpretation": "二つの世界——貨幣と物質——が信頼の縦軸を中心に回転し、上昇する意図と下降する利益が相互に織り合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

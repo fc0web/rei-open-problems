@@ -1,0 +1,56 @@
+{
+  "id": "DISC-DFUMT8-001",
+  "tier": 9,
+  "name": {
+    "ja": "D-FUMT₈ 八値論理",
+    "en": "D-FUMT₈ Eight-Valued Logic"
+  },
+  "category": "rei-specific",
+  "tags": [
+    "dfumt8",
+    "eight-valued-logic",
+    "rei-aios",
+    "core"
+  ],
+  "reiTyping": {
+    "dfumt8": "SELF",
+    "dfumt8Reason": "D-FUMT₈ 自体の SELF 値 — 自分自身を分類する自己参照体系",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.95,
+      "theoryType": 0.95,
+      "reproducibility": 0.9,
+      "reconstructability": 0.95
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "TRUE",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "Theory#196 と一体不可分"
+  },
+  "provisionalityScore": 0.05,
+  "confidence": 0.99,
+  "falsifiability": "8 値構造が冗長 (例えば 7 値で同等以上の表現力) と証明されれば改訂候補",
+  "culturalOrigin": "synthetic",
+  "culturalNote": "Rei-AIOS 固有。3 値論理 / Kleene / Belnap 4-valued の延長 + 仏教 4 値否定の影響",
+  "relations": {
+    "bridges": [
+      "DISC-PHIL-MADHYAMAKA-001",
+      "DISC-LOGIC-001",
+      "DISC-INFO-SCI-001"
+    ],
+    "seed_kernel_refs": [
+      "T-DFUMT8-CORE"
+    ]
+  },
+  "description": {
+    "ja": "TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF の 8 値論理体系。Rei-AIOS 全モジュールの基盤",
+    "en": "Eight-valued logic system: TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF. Foundation of all Rei-AIOS modules."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "rei-internal",
+  "source_trust": 1,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

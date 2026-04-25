@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathcal{A}}{dt} = \\lambda \\mathcal{A} - \\mu(\\mathcal{A} \\cap \\mathcal{S})",
+      "interpretation": "資産は指数的に増殖するが、社会との交差領域で摩擦が生じる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 35 50 50 Q 30 65 50 85' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "外側の拡張と内側の収縮：資本が社会を包囲しながら自己矛盾を深める。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

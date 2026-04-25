@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{PPase} \\cdot \\text{Adaptor}}{\\text{Virulence}} = e^{-\\int \\text{Immune Response}\\, dt}",
+      "interpretation": "酵素と適応体の協調が感染力を指数関数的に制御する深い調和。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 35 58 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 65 58 50' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "二つの力が中心で交わり、感染の複雑な建築を支える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

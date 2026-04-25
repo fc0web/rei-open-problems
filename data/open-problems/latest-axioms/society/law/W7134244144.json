@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Justification}}{\\text{Power}} \\cdot \\sqrt{\\text{Deliberation}} = \\text{Legitimacy}",
+      "interpretation": "正当化の深さと権力の抑制が民主的熟議と出会うとき、法的正統性が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='2'/><line x1='15' y1='50' x2='85' y1='50' stroke='#00ff88' stroke-width='2'/><path d='M 35 35 Q 50 25 65 35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 35 65 Q 50 75 65 65' stroke='#f59e0b' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='#ffd700'/></svg>",
+      "interpretation": "立法と司法が対称的に天秤を支え、中心の正当化が全体の釣り合いを保つ構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

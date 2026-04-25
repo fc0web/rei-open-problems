@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C = \\frac{1}{1 + \\sum_{i} (S_i \\cdot D_i)} \\cdot \\prod_{j} (1 - \\delta_j)",
+      "interpretation": "統一されぬ部分たちの乗積は、継続性という一つの真実へ還元される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#7c3aed' stroke-width='1.5' fill='none'><circle cx='25' cy='30' r='12'/><circle cx='75' cy='30' r='12'/><circle cx='50' cy='70' r='12'/><path d='M 37 36 L 63 36' stroke-dasharray='2,2'/><path d='M 50 58 L 32 40' stroke-dasharray='2,2'/><path d='M 50 58 L 68 40' stroke-dasharray='2,2'/><polyline points='25,42 50,70 75,42' stroke='#00ff88' fill='none' stroke-width='1'/></g></svg>",
+      "interpretation": "分断された三つの世界が、下より一本の糸で繋がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

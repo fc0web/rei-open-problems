@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\Phi_{\\text{tube}} \\cdot \\mathcal{I}_{\\text{imm}}}{\\text{Scar}^{\\alpha} + \\text{Inflam}^{\\beta}} \\propto F_{\\text{fertility}}",
+      "interpretation": "卵管の形態と免疫環境のバランスが、瘢痕と炎症の重力に抗して生殖能を支配する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 20 50 Q 50 30 80 50' stroke='#ec4899' stroke-width='3' fill='none'/><circle cx='35' cy='45' r='3' fill='#00d4ff'/><circle cx='50' cy='28' r='3' fill='#00d4ff'/><circle cx='65' cy='45' r='3' fill='#00d4ff'/><path d='M 30 60 L 70 60' stroke='#7c3aed' stroke-width='2' opacity='0.6'/><circle cx='50' cy='70' r='5' fill='none' stroke='#ffd700' stroke-width='2'/></svg>",
+      "interpretation": "通路は光で満たされているが、下の暗い炎症の層がそれを歪め、中心への生殖の旅を妨げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

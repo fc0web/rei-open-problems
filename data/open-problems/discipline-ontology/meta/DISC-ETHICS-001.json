@@ -1,0 +1,58 @@
+{
+  "id": "DISC-ETHICS-001",
+  "qid": "Q9465",
+  "tier": 9,
+  "name": {
+    "ja": "倫理",
+    "en": "Ethics"
+  },
+  "category": "meta-concept",
+  "tags": [
+    "ethics",
+    "morality",
+    "philosophy"
+  ],
+  "reiTyping": {
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "善悪の二元論と相対主義が同時に成立しうる多元価値領域",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.3,
+      "theoryType": 0.85,
+      "reproducibility": 0.4,
+      "reconstructability": 0.6
+    },
+    "axisZ": "CLASS-C",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "Theory#196 PeaceConstraint と core を共有"
+  },
+  "provisionalityScore": 0.5,
+  "confidence": 0.92,
+  "falsifiability": "普遍倫理が完全公理化され、全文化・全状況で矛盾なく適用可能になれば BOTH→TRUE",
+  "culturalOrigin": "cross",
+  "culturalNote": "Aristotle 徳倫理 / Kant 義務論 / 功利主義 / 仏教倫理 / 儒教倫理 等多源",
+  "relations": {
+    "is_a": [
+      "DISC-PHIL-WEST-001",
+      "DISC-PHIL-MADHYAMAKA-001"
+    ],
+    "related_to": [
+      "DISC-EDUCATION-001"
+    ],
+    "bridges": [
+      "DISC-INFO-SCI-001"
+    ]
+  },
+  "description": {
+    "ja": "行為の善悪・正不正を問う規範的研究分野。記述倫理学 / 規範倫理学 / メタ倫理学に分類",
+    "en": "Normative inquiry into right and wrong action. Divided into descriptive, normative, and meta-ethics."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.95,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

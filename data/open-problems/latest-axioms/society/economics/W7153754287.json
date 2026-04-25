@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} (\\text{Local}_{i} \\times \\text{Policy}_{i})}{\\sqrt{\\text{Path}_{\\text{dep}}}} \\to \\text{Diversity}",
+      "interpretation": "地域の力と政策の共鳴が、歴史の重みを超えるとき、多様性は花開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='30,50 50,30 70,50 50,70 30,50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 50 50 L 50 20' stroke='#ffd700' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "共同体の結び目から、ひとつの光が上昇する—地域が中心、未来が方角。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

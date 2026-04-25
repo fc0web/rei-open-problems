@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{margin}}^{\\text{center}} \\frac{dP}{1+d(\\text{power})} = \\text{presence}",
+      "interpretation": "周辺から中心へ、力の距離に反比例する現存が積み重なる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='20' cy='70' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='80' cy='70' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 L 20 70 M 50 38 L 80 70' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='20,70 35,55 50,65 65,55 80,70' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "頂上の孤独が下界の複数性と繋がり、谷間で光が集約される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

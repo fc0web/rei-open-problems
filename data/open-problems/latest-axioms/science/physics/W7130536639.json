@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{g R}{c^2} \\sim \\frac{\\Lambda}{\\kappa} \\cdot \\frac{1}{\\sqrt{1-2M/R}}",
+      "interpretation": "表面重力と光度は宇宙の曲率への幾何学的な約束のように繋がっている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='30' cy='50' r='20' stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 50 L 85 50' stroke='#00d4ff' stroke-width='2'/><circle cx='85' cy='50' r='12' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='30,50 60,35 75,48 90,42' stroke='#f59e0b' stroke-width='1.2' fill='none' opacity='0.7'/><text x='50' y='15' font-size='8' fill='#ffd700' text-anchor='middle'>Decoupling</text></svg>",
+      "interpretation": "星の表面から宇宙の地平線まで、一本の放射線が幾何学的な共鳴を運ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

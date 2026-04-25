@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^\\infty e^{-\\lambda t} \\cdot \\sigma(W \\cdot X + b) \\, dt}{\\sqrt{\\text{Chaos}_{\\text{org}}}} \\to \\text{Order}",
+      "interpretation": "組織の混沌を通して流れる決定の本質が、指数関数的な学習で秩序へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='10' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='14' stroke='url(#grad)' stroke-width='3' fill='none'/><path d='M 50 42 L 30 50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 50 42 L 70 50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 30 70 L 50 66' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 70 70 L 50 66' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "混乱した複数の領域が、中枢の知識層に統合され、新しい秩序の結晶が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

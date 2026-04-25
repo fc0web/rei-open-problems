@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15\\Lambda R_H^2 N}",
+      "interpretation": "重力定数は宇宙の情報量と暗黒エネルギーの幾何学的な比率として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='1.5' fill='none'/><g stroke='#ffd700' stroke-width='1' fill='none'><polyline points='50,5 70,25 70,75 50,95 30,75 30,25'/></g><text x='50' y='52' text-anchor='middle' font-size='8' fill='#00ff88' font-family='monospace'>π³/15</text></svg>",
+      "interpretation": "界面に刻まれた離散的情報が、同心円的なスケールを通じて重力を生成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

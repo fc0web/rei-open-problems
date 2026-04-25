@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Intent}^n}{\\text{Friction} + \\text{Opacity}} = \\text{Behavior}_\\infty",
+      "interpretation": "意図は抵抗と不透明さの壁を超えるとき、行動は無限に変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 20 80 Q 50 30 80 80' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='20' cy='80' r='3' fill='#00d4ff'/><circle cx='80' cy='80' r='3' fill='#00ff88'/><line x1='50' y1='30' x2='50' y2='10' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/><polygon points='45,15 50,8 55,15' fill='none' stroke='#f59e0b' stroke-width='1.5'/><g opacity='0.4'><line x1='30' y1='70' x2='70' y2='70' stroke='#ffd700' stroke-width='1'/></g></svg>",
+      "interpretation": "法律という弧が、社会という二つの岸をつなぎ、意志の矢が上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

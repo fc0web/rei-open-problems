@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{civil}}}{\\text{Absence}_{\\text{state}}} = \\int_0^{\\infty} e^{-\\text{Vulnerability} \\cdot t} \\, dt",
+      "interpretation": "市民社会の信頼が、国家の空白を埋める速度を測る積分。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='30' y2='53' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='38' x2='70' y2='53' stroke='#00ff88' stroke-width='1.5'/><line x1='30' y1='77' x2='70' y2='77' stroke='#f59e0b' stroke-width='2'/><circle cx='50' cy='85' r='6' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "孤立した子どもが中心にあり、市民社会と国家機関が網状に支える構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

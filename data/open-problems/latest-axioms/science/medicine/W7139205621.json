@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{20} e^{-\\alpha_2 t} \\sin(\\text{GV20}) \\, dt \\approx \\text{Sedation}",
+      "interpretation": "経穴の呼応がフェリン意識を時間の螺旋へ沈ませていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='25' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M50 33 Q40 45 35 65' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M50 33 Q60 45 65 65' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='35,65 50,85 65,65' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "頭頂の一点から全身へ波紋のように降りていく鎮静の浸潤。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

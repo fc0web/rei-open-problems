@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{geometry}} e^{-\\lambda(x,y,z)} \\, d\\mu(\\text{tissue}) = \\mathcal{C}",
+      "interpretation": "空間の形が、見えない確率の景色を通じて、病を呼び寄せている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='20,50 50,30 80,50 50,70 20,50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 40 Q 50 35 70 45' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.7'/><path d='M 30 60 Q 50 65 70 55' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "建物の迷路のような構造が、生物的な場を歪め、細胞の運命を静かに書き換えている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

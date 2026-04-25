@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{V(p,c)}{1 + e^{-k(r-\\theta)}} = P_{buy}",
+      "interpretation": "知覚価値は、個人の閾値を超えたレコメンデーション信号の曲線で決まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M50,15 Q70,35 65,50 Q70,65 50,85' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M50,15 Q30,35 35,50 Q30,65 50,85' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='53' font-size='24' fill='#f59e0b' text-anchor='middle'>%</text></svg>",
+      "interpretation": "割引という中心から放射する複数の心理的経路が、消費者を回転する価値網に引き込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

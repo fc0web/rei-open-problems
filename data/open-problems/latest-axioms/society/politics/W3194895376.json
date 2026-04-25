@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L} = \\int_0^1 R(t) \\cdot E(t) \\, dt + \\epsilon",
+      "interpretation": "応答性の時間積分が正当性の深さを決める、という直感。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 45 Q 40 55 30 58' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 45 Q 60 55 70 58' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='30' x2='50' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "上の意思決定機関から下の市民へ流れる応答性——一度の決定で二つの信頼が育つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

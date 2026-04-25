@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} \\left(1 - \\frac{\\sigma_{2D}}{\\sigma_{bulk}}\\right)",
+      "interpretation": "観測とは、体積の幻想を捨て、逃げ出す光が触れる境界面の真実を数える行為である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0'/></defs><circle cx='50' cy='50' r='40' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='50' r='28' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 50 22 Q 65 35 70 50 Q 65 65 50 78' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>𝒳₀</text></svg>",
+      "interpretation": "光は内側の暗い核から逃げ、外殻の精密な膜で姿を現す——見えるものはすべて、別れの瞬間である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

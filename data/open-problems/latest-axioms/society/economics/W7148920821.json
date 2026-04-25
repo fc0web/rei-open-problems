@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sqrt{\\text{roots}} \\cdot \\text{agency}}{\\text{extraction}} = \\int_{\\text{place}} \\text{breath}\\,d\\omega",
+      "interpretation": "根を取り戻すことで、場所との呼吸が経済的な自己決定へ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M50,20 Q70,35 65,55 Q50,70 35,55 Q30,35 50,20' stroke='#7c3aed' stroke-width='2.5' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='5'/><line x1='50' y1='85' x2='50' y2='95'/><line x1='15' y1='50' x2='5' y2='50'/><line x1='85' y1='50' x2='95' y2='50'/></g><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='#ec4899' opacity='0.3'/></svg>",
+      "interpretation": "中心の癒しから四方へ根が広がり、場所とのつながりが甦る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

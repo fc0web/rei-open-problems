@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{native land}}{\\text{monastery}} = \\sum_{i=1}^{\\infty} \\text{distance}^{-i}",
+      "interpretation": "修道士の心は距離を否定し、あらゆる場所を故郷へと変える無限の変換。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='30' stroke='#00ff88' stroke-width='2'/><line x1='85' y1='50' x2='70' y2='50' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='85' x2='50' y2='70' stroke='#00ff88' stroke-width='2'/><line x1='15' y1='50' x2='30' y2='50' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 Q 65 35 70 20' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/><path d='M 50 50 Q 35 65 20 70' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "同心円と放射線：中心の修道士の揺るがぬ精神から、あらゆる辺境へと延びる通路の網。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

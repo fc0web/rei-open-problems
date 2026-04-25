@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{B} = \\frac{g_{\\text{rad}}}{\\kappa c^2} \\sim \\frac{\\Lambda}{\\Lambda_{\\text{obs}}}",
+      "interpretation": "局所の放射境界から宇宙地平線への幾何学的スケーリング—次元の不調和が統一される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0'/></defs><circle cx='50' cy='50' r='45' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='50' r='28' fill='none' stroke='#00d4ff' stroke-width='1'/><circle cx='50' cy='50' r='12' fill='none' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='50' x2='50' y2='8' stroke='#f59e0b' stroke-width='1' opacity='0.6'/><polyline points='50,50 35,65 50,80 65,65' fill='none' stroke='#00ff88' stroke-width='1.2'/><text x='50' y='52' font-size='8' fill='#ffd700' text-anchor='middle' font-weight='bold'>ℬ</text></svg>",
+      "interpretation": "内在する局所スケール（中心）から外部地平線へ、離散的な殻を通して階層が共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

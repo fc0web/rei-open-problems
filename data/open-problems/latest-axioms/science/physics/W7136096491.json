@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathbf{x}}{d\\boldsymbol{\\theta}} = \\mathbf{J}^{-1} \\prod_{i=1}^{6} e^{\\xi_i \\theta_i}",
+      "interpretation": "微小な回転が並列構造の先端位置にどう響くか、指数的に絡み合う関係を見ている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#7c3aed' stroke-width='1.5' fill='none'><circle cx='50' cy='50' r='35'/><line x1='50' y1='15' x2='50' y2='85'/><line x1='15' y1='50' x2='85' y2='50'/><path d='M 60 40 L 70 30 L 75 45' stroke='#00d4ff' stroke-width='1'/><path d='M 40 60 L 30 70 L 45 75' stroke='#00ff88' stroke-width='1'/><path d='M 65 65 L 78 78' stroke='#ec4899' stroke-width='1'/><text x='50' y='92' font-size='8' fill='#7c3aed' text-anchor='middle'>RFRFR</text></g></svg>",
+      "interpretation": "多数の腕が同じ点へ収束する敏感な構造—わずかな偏差が全体の振る舞いを急変させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

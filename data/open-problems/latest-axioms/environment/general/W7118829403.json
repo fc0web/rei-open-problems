@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{W_{\\text{collected}}}{W_{\\text{total}}} \\cdot e^{-\\lambda t} + \\int_0^t \\rho(s) \\, ds = \\Phi_{\\text{soil}}",
+      "interpretation": "廃棄物管理の比率と時間減衰が、土壌の健全性へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 35 70 50 Q 65 65 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 80 L 30 65 L 35 50 Z' stroke='#00ff88' stroke-width='2' fill='#00ff88' opacity='0.3'/><polyline points='20,50 35,50 50,45 65,55 80,48' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#ec4899'>循環</text></svg>",
+      "interpretation": "渦巻く物質循環のなか、下向きの流れが地へ還る希望の形。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

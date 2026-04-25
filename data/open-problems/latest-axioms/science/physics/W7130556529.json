@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} \\left(1 - e^{-\\sigma_g^2}\\right)",
+      "interpretation": "放射的脱結合は位相空間の幾何学的容量を支配する，普遍的な位相不変量として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 65 30 70 50 Q 65 70 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 35 30 30 50 Q 35 70 50 85' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/></svg>",
+      "interpretation": "外層の2次元脱結合面は内部の3次元構造から光を解放する，位相的な境界として輝く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C = \\int_0^1 \\sigma(\\mathbf{w} \\cdot \\phi(x)) \\, dx \\approx \\text{Rot}(\\text{Flesh})",
+      "interpretation": "肉の腐敗は、深い層を通る光の屈折として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 35 70 50 Q 50 65 30 50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#f59e0b' opacity='0.6'/><polyline points='50,50 35,65 50,75 65,65' stroke='#7c3aed' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "汚染は中心から放射状に広がり、認識の層を破壊する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

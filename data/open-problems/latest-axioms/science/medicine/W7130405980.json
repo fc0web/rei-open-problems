@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{0}^{t} \\text{TG}(\\tau) \\, d\\tau}{\\text{PSO}} \\propto \\text{CVD}_{\\text{risk}}^{-1}",
+      "interpretation": "ザクロ種子油が食後の時間積分された中性脂肪を削減し、女性の心疾患リスクを反転させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,60 35,45 50,55 65,35 80,50' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><path d='M 50 20 Q 55 30 50 50' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='82' font-size='10' fill='#00d4ff' text-anchor='middle' font-weight='bold'>POST-PRANDIAL</text></svg>",
+      "interpretation": "食後の波形が黄金の核を通して下降し、毒性の紫色の糸が時間の経過を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

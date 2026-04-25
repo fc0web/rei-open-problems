@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{p \\in \\text{plants}} \\left( \\prod_{c \\in C(p)} \\text{potency}_c \\right)^{1/|C(p)|}",
+      "interpretation": "植物の力は、その内なる化合物の調和した幾何平均に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='45' x2='30' y2='53' stroke='#00d4ff' stroke-width='1.5'/><line x1='50' y1='45' x2='70' y2='53' stroke='#00d4ff' stroke-width='1.5'/><line x1='30' y1='77' x2='70' y2='77' stroke='#ffd700' stroke-width='1' opacity='0.6'/><path d='M 50 85 Q 40 95 50 100 Q 60 95 50 85' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "地から立ち上る三つの生命の源が、目に見えぬ根で結ばれている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\mathrm{F}^-}{\\mathrm{Fe}^{3+}} \\approx \\sqrt{\\mathrm{pH}} \\cdot e^{-\\beta \\sigma}",
+      "interpretation": "鉄が蛍石を引き寄せ、土の酸性度と電荷が織りなす踊りの中で、離別が決まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><polyline points='50,42 50,20 45,28 55,28' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,58 50,80 45,72 55,72' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>Fe₃⁺</text></svg>",
+      "interpretation": "鉄核は土壌表面の領地を支配し、蛍光物質を上下に揺さぶりながら、絶えず放出と吸着のバレエを踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

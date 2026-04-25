@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "R_{\\text{palm}} = \\frac{\\rho_{\\text{fiber}} \\cdot L}{k_{\\text{desert}}} \\propto \\text{Comfort}",
+      "interpretation": "砂漠の賜物が熱の流れを優雅に止める——古い知恵が数式になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#f59e0b'/><stop offset='100%' style='stop-color:#ffd700'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' opacity='0.3'/><line x1='50' y1='20' x2='50' y2='80' stroke='#7c3aed' stroke-width='2'/><polyline points='35,35 50,50 65,35' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='35,65 50,50 65,65' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>fiber wall</text></svg>",
+      "interpretation": "熱は双方向に迷い、繊維の迷宮で微かに消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

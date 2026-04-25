@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{\\text{epitopes}} e^{-\\Delta G_{\\text{bind}}}}{\\int_{\\text{vivo}} \\text{immunity}(t)\\,dt}",
+      "interpretation": "計算機の予言と生きた体の応答が、ひとつの秘密の比率で結ばれている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 35 55 45' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 45 55 Q 50 65 55 55' stroke='#00d4ff' stroke-width='2.5' fill='none'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>silico↔vivo</text></svg>",
+      "interpretation": "紫の計算世界と緑の生命世界が、ピンクと青の橋によって息づく対話を交わしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

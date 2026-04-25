@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{civil}}}{\\text{Void}_{\\text{state}}} \\times \\sqrt{\\text{Presence}_{\\text{child}}} = \\text{Sanctuary}",
+      "interpretation": "国家の空白が大きいほど、市民社会の信頼がこどもたちを守る力となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='35'/><line x1='35' y1='30' x2='50' y2='35'/><line x1='65' y1='30' x2='50' y2='35'/></g><polygon points='50,60 45,75 55,75' fill='#00d4ff' opacity='0.6'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/><polyline points='20,50 30,45 30,55' stroke='#7c3aed' stroke-width='1.5' fill='none'/><polyline points='80,50 70,45 70,55' stroke='#7c3aed' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "孤立したこどもを中心に、市民社会の手が差し伸べられ、制度の外側から保護のネットワークが広がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

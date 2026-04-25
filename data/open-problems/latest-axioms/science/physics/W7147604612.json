@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{L} \\left| \\frac{d\\mathbf{I}}{dx} \\right| \\, dx = \\sum_j w_j \\cdot S_j",
+      "interpretation": "傷の連続性が離散的な証拠の重みに変わる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#ec4899' stroke-width='2' fill='none'><path d='M20,80 Q40,30 60,50 T80,20'/><circle cx='25' cy='75' r='3' fill='#ec4899'/><circle cx='40' cy='35' r='2' fill='#00d4ff'/><circle cx='60' cy='50' r='2' fill='#00d4ff'/><circle cx='80' cy='20' r='3' fill='#ec4899'/></g><rect x='10' y='10' width='80' height='80' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='4,2'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>Scale: 1cm = 1cm</text></svg>",
+      "interpretation": "傷跡の軌跡が法的枠組みの境界と一致する瞬間の視覚化。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

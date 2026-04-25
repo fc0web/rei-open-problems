@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\text{Risk} = k(1 - \\text{Maturity})^{\\alpha} \\cdot \\text{Exposure}",
+      "interpretation": "成熟度の不在が、リスク増殖の速度を決める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 35 50 15' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700'/><polyline points='30,70 50,85 70,70' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>maturation gap</text></svg>",
+      "interpretation": "未熟な核（黄金）を取り囲む二つの成長層——内は脆弱、外は保護の欠落。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

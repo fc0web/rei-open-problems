@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Impact} \\approx \\frac{\\text{People} \\cdot \\text{Pedagogy}}{\\text{Cost}} \\times \\text{Tech}^{\\text{Org}}",
+      "interpretation": "人間と教育法の調和が費用を軽くするとき、組織の力で技術は花開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='35' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='35' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='65' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='30' y1='35' x2='50' y2='50' stroke='#f59e0b' stroke-width='1.5'/><line x1='70' y1='35' x2='50' y2='50' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='65' x2='50' y2='50' stroke='#ffd700' stroke-width='1.5'/><path d='M 50 15 Q 45 25 50 35' stroke='#00d4ff' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "周縁の希望が中心に集約するが、上からの光はまだ遠く、道は開かれていない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

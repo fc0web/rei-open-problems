@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Réseau}_{\\text{local}}}{\\sqrt{\\text{Distance}}} \\cdot \\log(\\text{Exotisme}) = \\text{Présence}_{\\text{mondiale}}",
+      "interpretation": "小さな毛細血管を通じて、局所的なものが世界中に浸透する不思議。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00d4ff' stroke-width='1.2' fill='none'><path d='M 50 50 L 70 35'/><path d='M 50 50 L 72 50'/><path d='M 50 50 L 70 65'/><path d='M 50 50 L 30 35'/><path d='M 50 50 L 28 50'/><path d='M 50 50 L 30 65'/></g><circle cx='70' cy='35' r='3' stroke='#ec4899' stroke-width='1' fill='#ec4899' opacity='0.6'/><circle cx='72' cy='50' r='3' stroke='#00ff88' stroke-width='1' fill='#00ff88' opacity='0.6'/><circle cx='70' cy='65' r='3' stroke='#f59e0b' stroke-width='1' fill='#f59e0b' opacity='0.6'/><circle cx='30' cy='35' r='3' stroke='#ffd700' stroke-width='1' fill='#ffd700' opacity='0.6'/><circle cx='28' cy='50' r='3' stroke='#00d4ff' stroke-width='1' fill='#00d4ff' opacity='0.6'/><circle cx='30' cy='65' r='3' stroke='#7c3aed' stroke-width='1' fill='#7c3aed' opacity='0.6'/></svg>",
+      "interpretation": "中心から毛細血管のように広がる言語の痕跡が、異なる色で世界に根付く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

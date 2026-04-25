@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\sin(\\omega t) \\cdot \\delta(g(x))}{1+|\\nabla g|^2} d\\omega = \\text{resonance ghost}",
+      "interpretation": "非滑らかな接触は、周波数領域で消えた共鳴を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='30' stroke='url(#g1)' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#ec4899' stroke-width='1.5'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='1.5'/><polyline points='35,40 50,55 65,40' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='35,60 50,45 65,60' stroke='#00ff88' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "ブレードの根が接触線を横切るとき、ひずんだ円形の軌跡が振動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

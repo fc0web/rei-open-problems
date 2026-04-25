@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Valor} = \\int_{\\text{percepção}}^{\\text{potencial}} \\frac{1}{\\text{materialidade}} \\, d(\\text{consciência})",
+      "interpretation": "金銭の価値は物質ではなく、心が能力をどう感知するかの積分である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 30 70 50' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='55' font-size='10' text-anchor='middle' fill='#ffd700' font-weight='bold'>ψ</text></svg>",
+      "interpretation": "心の中で物質と意識が相互に波動し、そこから価値が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

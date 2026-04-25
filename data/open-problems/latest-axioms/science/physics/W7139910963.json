@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Delta p \\approx \\alpha Q + \\beta Q^2 \\left(1 + \\tanh\\left(\\frac{A_s - A_c}{\\lambda}\\right)\\right)",
+      "interpretation": "触媒体の幾何学的形状が圧力損失の線形性を破る臨界点を隠し持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><polyline points='10,80 30,65 50,50 70,35 85,25' stroke='url(#g1)' stroke-width='2' fill='none'/><polyline points='10,80 30,68 50,58 70,42 85,15' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><circle cx='70' cy='35' r='3' fill='#00ff88'/><circle cx='70' cy='42' r='3' fill='#f59e0b'/><text x='5' y='95' font-size='8' fill='#7c3aed'>Q</text><text x='88' y='30' font-size='8' fill='#7c3aed'>Δp</text></svg>",
+      "interpretation": "流量増加に伴う圧力損失は線形性から突然に非線形へ転移し、触媒体の内部構造が流れを支配する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

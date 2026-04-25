@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\sigma}{dt} = \\lambda \\cdot \\mathcal{F}(\\text{ECM}) - \\mu \\cdot \\text{compliance}",
+      "interpretation": "線維化は時間とともに組織の剛性を増し、柔軟性を奪う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 30 Q 60 40 55 50 Q 65 55 50 70' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ffd700' stroke-width='0.8' opacity='0.5'/></svg>",
+      "interpretation": "積層する瘢痕が、本来流動的であるべき弁の動きを段々と硬く縛っていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{B} = \\frac{g}{T^4} \\cdot \\int_0^\\infty \\frac{\\nu^3}{e^{\\beta\\nu}-1} d\\nu \\equiv C_\\text{geom}",
+      "interpretation": "放射の脱カップリングは幾何学的な容量へと静寂に結晶化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ffd700;stop-opacity:1'/><stop offset='100%' style='stop-color:#f59e0b;stop-opacity:0.3'/></defs><circle cx='30' cy='50' r='15' fill='url(#g1)' stroke='#ffd700' stroke-width='1.5'/><circle cx='70' cy='50' r='12' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 45 50 Q 57.5 40 70 50' fill='none' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><line x1='30' y1='20' x2='30' y2='10' stroke='#ec4899' stroke-width='1'/><line x1='30' y1='80' x2='30' y2='90' stroke='#ec4899' stroke-width='1'/><text x='50' y='75' font-size='10' fill='#00ff88' text-anchor='middle'>κ</text></svg>",
+      "interpretation": "恒星の表面から宇宙の地平線へと、放射は同じ容量を刻む門を通る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

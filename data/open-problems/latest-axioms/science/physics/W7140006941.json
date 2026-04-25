@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\rho(\\omega) \\sim \\int \\frac{d^2\\mathbf{k}}{(2\\pi)^2} \\delta\\left(\\omega - \\omega_\\text{chaos}(\\mathbf{k})\\right)",
+      "interpretation": "乱れた表面の中に隠れた波の密度は、カオスの中の共鳴を数える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none' filter='url(#f)'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none' opacity='0.7'/><polyline points='30,50 50,35 70,50 50,65 30,50' stroke='#ec4899' stroke-width='1' fill='none'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#f59e0b'>BSDF</text></svg>",
+      "interpretation": "秩序と無秩序が絡み合い、光の粒が壊れた格子を踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

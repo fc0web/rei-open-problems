@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^t G(s)\\,ds}{D(\\tau)} \\cdot \\left(1 + \\frac{\\sigma}{\\rho}\\right) \\to I^*",
+      "interpretation": "সবুজ অর্থায়নের প্রবাহ বৈচিত্র্য এবং রাষ্ট্র সহায়তার মাধ্যমে সর্বোত্তম বিনিয়োগ কর্মক্ষমতায় সংগমিত হয়।",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 40 50 50 Q 65 40 50 20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#f59e0b' stroke-width='1' fill='none'><line x1='20' y1='50' x2='35' y2='50'/><line x1='65' y1='50' x2='80' y2='50'/><line x1='50' y1='20' x2='50' y2='35'/><line x1='50' y1='65' x2='50' y2='80'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/></svg>",
+      "interpretation": "বৃত্তাকার প্রবাহের কেন্দ্রে সবুজ উদ্ভাবন থাকে, চতুর্দিক থেকে আর্থিক শক্তি আকর্ষণ করে।",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-\\lambda t} \\sin(\\omega t + \\phi) \\, dt = \\frac{\\omega}{\\lambda^2 + \\omega^2}",
+      "interpretation": "光の吸収と放出が、減衰する振動として一つの調和へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='16' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 10 Q 70 30 70 50 Q 70 70 50 90' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 10 Q 30 30 30 50 Q 30 70 50 90' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "紫色の光を捕らえる二つの輪が、中心の反応中心へと螺旋状に導く構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

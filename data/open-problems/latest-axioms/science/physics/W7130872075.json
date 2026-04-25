@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} \\cdot \\left(1 - \\frac{\\sigma T^4 R^2}{GM}\\right)",
+      "interpretation": "表面はすべて、宇宙の喉から光が漏れる一つの膜である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 50 20 Q 65 35 75 50 Q 65 65 50 80' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/><text x='50' y='52' font-size='10' text-anchor='middle' fill='#ffd700' font-family='serif'>𝒳</text></svg>",
+      "interpretation": "三つの殻が同心円で呼吸しており、最内の輝きがすべてを測る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

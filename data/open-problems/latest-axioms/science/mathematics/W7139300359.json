@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{n=-\\infty}^{\\infty} J_n(kr) e^{in\\theta} \\cdot \\int_{-L}^{L} e^{ikz\\cos\\phi} dz",
+      "interpretation": "有限な筒が無限の波を折り畳み、束ねられた光として立ち現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g><circle cx='50' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><line x1='50' y1='20' x2='50' y2='80' stroke='#00ff88' stroke-width='1.5'/><polyline points='35,50 50,45 65,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='35,50 50,55 65,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='92' text-anchor='middle' font-size='8' fill='#ffd700'>EM</text></g></svg>",
+      "interpretation": "円筒の周りを螺旋状に巻き付く電磁波が、軸方向の有限性に縛られている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

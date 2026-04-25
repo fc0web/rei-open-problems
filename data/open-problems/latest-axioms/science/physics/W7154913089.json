@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\int \\frac{\\text{Code}(\\Psi)}{\\text{Error}} \\, d\\mu \\sim \\text{Spacetime}",
+      "interpretation": "エラー訂正の深さから時空が息をしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='45' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='50' r='30' fill='none' stroke='#00d4ff' stroke-width='1' stroke-dasharray='2,2'/><polyline points='50,20 70,50 50,80 30,50 50,20' fill='none' stroke='#00ff88' stroke-width='1.2'/><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.7'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='monospace'>LOGIC→SPACE</text></svg>",
+      "interpretation": "論理の織目から幾何が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

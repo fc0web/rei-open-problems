@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sigma\\left(\\frac{\\partial \\mathbf{h}}{\\partial t} + \\nabla \\cdot \\mathbf{F}(\\mathbf{h})\\right) = \\int_0^\\infty e^{-\\lambda \\tau} \\mathbf{h}(\\tau) d\\tau",
+      "interpretation": "局所的な勾配が時間の彼方へ溶け込み、大域的な調和へと昇華する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1' fill='#00ff88' opacity='0.3'/><g stroke='#ec4899' stroke-width='1.5' fill='none'><path d='M 50 15 Q 40 35 50 50'/><path d='M 50 15 Q 60 35 50 50'/><path d='M 50 85 Q 40 65 50 50'/><path d='M 50 85 Q 60 65 50 50'/></g></svg>",
+      "interpretation": "内なる安定と外なる動態が同心円で統一され、矢印は局所から中心への収束を詩的に語る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

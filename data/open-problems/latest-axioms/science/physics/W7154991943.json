@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{ore}}^{\\text{enamel}} \\rho(r) \\, e^{i\\theta(r)} \\, dr = \\sum_{\\text{child}}^{\\text{youth}} \\mathcal{E}",
+      "interpretation": "金属から琺瑯へ — 子どもの墓に沈む帝国の痕跡が、時間を横切る虹。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polygon points='50,20 70,50 50,80 30,50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='35' r='6' fill='#ffd700' opacity='0.7'/><circle cx='50' cy='65' r='6' fill='#ffd700' opacity='0.7'/><path d='M 30 50 L 70 50' stroke='#ec4899' stroke-width='1' opacity='0.5'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#00ff88' font-family='serif'>I.32</text></svg>",
+      "interpretation": "四角い琺瑯の寝台、帝国の果てで輝く — 子どもの指に握られた異国。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

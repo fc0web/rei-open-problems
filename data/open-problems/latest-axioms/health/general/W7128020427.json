@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Bio}^{\\text{observed}} \\cdot \\text{Med}^{\\text{latent}}}{\\text{sparsity}} \\to \\text{molecules}_{\\text{synthetic}}",
+      "interpretation": "観察された生物学的関係と隠された医学的結びつきの積が、希薄さを超えて合成分子の豊かさへ変化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 40 55 45 M 45 55 Q 50 60 55 55' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='30,50 70,50' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "二つの異なる領域が動的な共鳴点を通じて交わり、中央の未知のものから新しい可能性が開花する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

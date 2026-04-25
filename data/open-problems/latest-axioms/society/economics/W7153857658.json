@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{R^\\alpha}{I^\\beta} \\cdot (1 - \\gamma G) = \\text{Curse}",
+      "interpretation": "資源の豊かさは統治の弱さで増幅され、良い制度が呪いを反転させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 35 75 50 Q 70 65 50 85' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 15 Q 30 35 25 50 Q 30 65 50 85' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='#ffd700' opacity='0.4'/><line x1='50' y1='50' x2='50' y2='20' stroke='#00ff88' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "資源（金の中核）と制度（交差する道）が張力を生み出し、統治が光として道を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

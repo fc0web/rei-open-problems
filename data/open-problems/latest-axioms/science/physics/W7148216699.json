@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial}{\\partial t}\\langle\\rho f\\rangle + \\nabla\\cdot(\\langle\\rho\\mathbf{u}f\\rangle) = \\mathcal{D}_{\\text{visc}} + \\mathcal{M}_{\\text{mix}} + [\\![ E ]\\!]_\\phi",
+      "interpretation": "衝撃波と炎が踊る時、粒子の記憶と場の呼吸が、一つの方程式で合唱する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:0.8'/></defs><path d='M 20 80 L 40 40 L 60 50 L 80 20' stroke='#00d4ff' stroke-width='2.5' fill='none'/><polyline points='25,75 35,50 50,55 75,25' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='4,2'/><circle cx='40' cy='40' r='8' fill='none' stroke='#ec4899' stroke-width='1.2'/><circle cx='60' cy='50' r='6' fill='none' stroke='#00ff88' stroke-width='1.2'/><line x1='15' y1='85' x2='85' y2='15' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "直線状の衝撃波が渦巻く炎の中に刺さり、粒子の軌跡がその間を舞う二重奏。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

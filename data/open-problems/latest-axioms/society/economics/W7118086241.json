@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Law} \\cdot \\text{Capital}}{\\text{Struggle}} = \\text{Reproduction}_{t+1}",
+      "interpretation": "法律と資本が社会闘争を通じて自らを再構成する、その必然性が見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='30' cy='70' r='12' fill='none' stroke='#ec4899' stroke-width='2'/><circle cx='70' cy='70' r='12' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 45 40 L 35 60' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 55 40 L 65 60' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='30' y1='82' x2='70' y2='82' stroke='#00ff88' stroke-width='2'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>1945-1980</text></svg>",
+      "interpretation": "法（紫）と資本（青）が下の基盤と相互作用し、社会闘争（黄）が重力の線として流れ落ちる構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

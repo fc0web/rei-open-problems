@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\rho(\\mathbf{r}) \\to E[\\rho] \\implies \\text{structure} \\otimes \\text{reactivity}",
+      "interpretation": "電子密度が全ての秘密を握り、形と反応は同じ影を落とす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><polyline points='30,50 50,35 70,50 50,65' fill='none' stroke='#00ff88' stroke-width='1.2'/><circle cx='50' cy='50' r='3' fill='#ec4899'/></svg>",
+      "interpretation": "電子雲の中心に、原子の運命を決める幾何学的な矢が刻まれている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

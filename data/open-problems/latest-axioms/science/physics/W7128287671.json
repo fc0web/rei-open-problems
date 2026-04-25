@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi(T,H) \\sim \\int_0^{H_c} \\sqrt{1-\\left(\\frac{T}{T_c}\\right)^2} \\, dH",
+      "interpretation": "温度と磁場の変化の中で、超伝導の秩序パラメータが消失する根源的な構造を直感的に映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><ellipse cx='50' cy='40' rx='35' ry='28' stroke='url(#chill)' stroke-width='2' fill='none'/><polyline points='50,12 50,68' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='30' cy='40' r='4' fill='#00ff88'/><circle cx='70' cy='40' r='4' fill='#00ff88'/><path d='M 20 55 Q 50 65 80 55' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "超伝導体が温度と磁場の複雑な相互作用の中で保つ、対称性と秩序の消えゆく輪郭。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

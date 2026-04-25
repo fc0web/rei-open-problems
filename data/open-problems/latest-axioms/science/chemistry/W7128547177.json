@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{14} \\frac{\\delta(\\text{pH})}{1 + e^{-\\alpha(\\text{pH}-pK_a)}} d(\\text{pH}) = \\Phi",
+      "interpretation": "pH空間を一度の共鳴で統合し、薬物の多面体的な化学人格を同時に映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='50%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#ec4899'/></defs><rect x='15' y='10' width='70' height='70' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='25' stroke='url(#g1)' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#00ff88' stroke-width='1'/><line x1='50' y1='30' x2='50' y2='70' stroke='#00ff88' stroke-width='1'/><polyline points='50,70 45,85 55,85 50,70' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "pH勾配が薬物分子の核心を螺旋状に照らし、隠れた対称性を一度に露わにする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}^{\\alpha}}{\\text{Rubble} + \\text{Debt}} \\cdot \\text{Visibility} = \\text{Rebirth}",
+      "interpretation": "灰燼から信頼が生まれるほどに、透明性ある資源配分が再生を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='25' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,42 50,50' stroke='#00d4ff' stroke-width='2'/><path d='M 35 65 Q 50 75 65 65' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='90' font-size='8' text-anchor='middle' fill='#f59e0b'>WATCH → BUILD</text></svg>",
+      "interpretation": "目の上の心が瓦礫から希望の道を編み上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

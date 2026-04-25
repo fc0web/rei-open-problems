@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Tech} \\cdot \\text{Gov}}{\\text{Fragility}} \\to \\text{SDG}_9",
+      "interpretation": "技術と統治の積が脆さを克服するとき、産業の持続性が顕れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,20 50,80' stroke='#7c3aed' stroke-width='2'/><polyline points='20,50 80,50' stroke='#00ff88' stroke-width='2'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><path d='M 35 35 Q 50 20 65 35' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 35 65 Q 50 80 65 65' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "中心の炎は産業の核、周囲の波は技術と統治が互いに補強し合う相互作用を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Revisionism} \\cdot \\text{Radicalism}}{\\text{Time}} \\to \\text{Militarism}^{\\text{Network}}",
+      "interpretation": "過去の書き換えと急進主義が時間とともに凝集し、ネットワークされた軍事主義へ変成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='30' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='75' cy='30' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='10' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 28 36 Q 40 50 47 62' stroke='#00d4ff' stroke-width='1.2' fill='none'/><path d='M 72 36 Q 60 50 53 62' stroke='#00d4ff' stroke-width='1.2' fill='none'/><polyline points='25,22 50,15 75,22' stroke='#f59e0b' stroke-width='1.2' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>confluence</text></svg>",
+      "interpretation": "三つの不可視な力が時間軸に沿って収束し、中心の渦へ引き込まれていく相。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

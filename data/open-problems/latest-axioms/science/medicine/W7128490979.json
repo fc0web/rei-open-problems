@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{H. pylori} \\cdot \\text{IFN-}\\gamma}{\\text{IL-}2 + \\text{TNF-}\\alpha} \\to \\text{Epithelial Collapse}",
+      "interpretation": "胃の防御が免疫の槍で貫かれるとき、組織は静かに折れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1.5' opacity='0.7'><line x1='50' y1='50' x2='30' y2='35'/><line x1='50' y1='50' x2='70' y2='35'/><line x1='50' y1='50' x2='25' y2='55'/><line x1='50' y1='50' x2='75' y2='55'/></g><circle cx='50' cy='50' r='8' stroke='#f59e0b' stroke-width='1' fill='#f59e0b' opacity='0.6'/></svg>",
+      "interpretation": "胞の内側で免疫の矢が放たれ、中心の炎症が静かに拡大する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

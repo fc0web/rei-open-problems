@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}_{\\text{protected}}}{\\text{Culture}_{\\text{fear}}} \\propto \\text{Trust}_{\\text{institutional}}",
+      "interpretation": "組織の恐怖文化が薄れるほど、制度的信頼が保護された声を増幅する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 L 50 50' stroke='#00d4ff' stroke-width='2'/><path d='M 50 50 L 70 65' stroke='#ec4899' stroke-width='2'/><path d='M 50 50 L 30 65' stroke='#00ff88' stroke-width='2'/><circle cx='50' cy='50' r='5' fill='#f59e0b'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#7c3aed'>守られた声</text></svg>",
+      "interpretation": "中心の火（勇気）から放出された三本の矢—法的保護、組織的信頼、証人の安全。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

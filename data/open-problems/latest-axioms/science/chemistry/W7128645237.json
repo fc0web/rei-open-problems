@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^T \\sqrt{\\frac{d\\sigma}{dt}} \\cdot e^{-\\lambda t} \\, dt \\approx \\text{Vision}(T)",
+      "interpretation": "時間とともに弾性が衰え、光の通路が曲がっていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='28' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='21' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.4'/><polyline points='50,15 50,85' stroke='#f59e0b' stroke-width='1' opacity='0.5'/><polyline points='15,50 85,50' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "同心円が徐々に濁り、構造の対称性が時間に蝕まれていく風景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

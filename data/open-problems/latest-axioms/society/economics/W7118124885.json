@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Inequality}}{\\text{State Control}} \\sim \\int_{\\text{adoption}}^{\\text{regulation}} \\text{resistance} \\, d\\tau",
+      "interpretation": "不平等が国家統制と衝突するとき、採用から規制への道のりは抵抗で満たされる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='20' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 32 50 Q 50 30 68 50' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='3,2'/><path d='M 32 50 Q 50 70 68 50' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='88' font-size='10' fill='#00d4ff' text-anchor='middle'>Tension</text></svg>",
+      "interpretation": "市民の自由と政府の警戒が互いに引き寄せられ、緊張する曲線を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

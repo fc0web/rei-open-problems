@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Place}_\\text{EU}}{\\text{Product}} \\perp \\frac{\\text{Innovation}_\\text{US}}{\\text{Market}}",
+      "interpretation": "ヨーロッパの土地と製品の結びつきがアメリカの市場革新と直交する、和解不可能な緊張を見る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='18' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='43' y1='50' x2='57' y2='50' stroke='#ec4899' stroke-width='2'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>GI</text></svg>",
+      "interpretation": "二つの円（EUと米国）が一本の線で接しているが交わらない——地理的表示という境界で対立する世界観。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

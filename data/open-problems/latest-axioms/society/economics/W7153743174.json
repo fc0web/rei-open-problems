@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "J = \\frac{D \\cdot P}{1 + C} \\cdot e^{-V}",
+      "interpretation": "日本の影響力は、開発資金と平和維持活動の積を、競争と可視性で割り引く静寂の経済。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='50' y1='30' x2='50' y2='15' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='70' x2='50' y2='85' stroke='#00ff88' stroke-width='2'/><line x1='30' y1='50' x2='15' y2='50' stroke='#f59e0b' stroke-width='1.5'/><line x1='70' y1='50' x2='85' y2='50' stroke='#f59e0b' stroke-width='1.5'/><polyline points='50,50 65,35 75,45' stroke='#ec4899' stroke-width='1' fill='none'/><polyline points='50,50 35,65 45,75' stroke='#ec4899' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "同心円の緘黙：中心から放射する援助の糸が、見えぬ手で大陸を編み直す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

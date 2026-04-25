@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Legitimacy} \\cdot \\text{Justice}}{\\text{Sovereignty} + \\text{Politics}} \\to \\emptyset",
+      "interpretation": "正義と主権の緊張が、制度の核を虚無へ引き込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='2'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='2'/><polygon points='50,25 60,45 40,45' fill='#f59e0b' opacity='0.6'/><polygon points='50,75 60,55 40,55' fill='#f59e0b' opacity='0.3'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "十字に分断された円の中心に、揺らぐ光の核が見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

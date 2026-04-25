@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-t} \\left(\\frac{\\text{witness}}{1+\\text{distance}}\\right) dt = \\text{presence}",
+      "interpretation": "苦しみに寄り添う時間が、心の距離を消す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 42 50 Q 50 45 58 50' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='35' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "二つの心が大きな輪に抱かれながら、光で結ばれている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

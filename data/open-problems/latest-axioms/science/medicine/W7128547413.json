@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{e^{-t}}{1+e^{-t}} \\, dt \\cdot \\text{Fog}(\\text{Will})",
+      "interpretation": "忘却と闘志の二重螺旋が時間とともに消える軌跡を見た。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='20' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 50 30 Q 65 50 50 70' stroke='#00d4ff' stroke-width='2' fill='none' opacity='0.7'/><path d='M 50 30 Q 35 50 50 70' stroke='#00ff88' stroke-width='2' fill='none' opacity='0.7'/><text x='50' y='52' font-size='8' fill='#ffd700' text-anchor='middle' opacity='0.8'>両</text></svg>",
+      "interpretation": "二つの病が同じ心身の中で踊り、互いに影を濃くしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

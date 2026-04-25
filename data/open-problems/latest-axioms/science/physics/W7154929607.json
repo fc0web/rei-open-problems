@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\kappa(\\ell) \\sim \\ell^{-\\alpha} \\cdot \\tau(\\ell) = \\int_0^\\ell \\omega^2(s) \\, ds",
+      "interpretation": "スケールが小さくなるほど曲率は激しく、ねじりはその記憶を積み重ねる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><path d='M 20 50 Q 35 30 50 45 Q 65 60 80 40' stroke='url(#fade)' stroke-width='2' fill='none'/><path d='M 20 50 Q 35 70 50 55 Q 65 40 80 60' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/><circle cx='50' cy='50' r='8' fill='none' stroke='#ec4899' stroke-width='1' stroke-dasharray='2,2'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#f59e0b'>ℓ</text></svg>",
+      "interpretation": "絡み合った螺旋は多くのスケールで踊り、中心の渦巻きがそれを統べる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

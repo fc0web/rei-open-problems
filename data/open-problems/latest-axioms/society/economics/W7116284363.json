@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Delta W = \\int_0^t \\mathcal{I}(s) \\cdot \\mathcal{N}(s) \\, ds + \\mathcal{P}(t)",
+      "interpretation": "制度の変化は、社会規範を通してのみ不平等を動かす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='30' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 30 Q 50 40 70 70' stroke='url(#g1)' stroke-width='2' fill='none' opacity='0.7'/><polyline points='50,50 45,35 55,35' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "三つの異なる力が、中心の固定点を通して相互作用し、あらゆる構造的な不利を活性化させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

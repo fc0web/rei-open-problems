@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Absolute Property}}{1} \\to \\frac{\\text{Copossession}}{1} \\equiv \\frac{\\text{Absolute Property}}{1}",
+      "interpretation": "所有制の絶対性を解体するはずが、別の絶対性へ反転するだけだという不可視の循環を直感する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='37' y1='50' x2='63' y2='50' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='18' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>inversion</text></svg>",
+      "interpretation": "二つの所有権体制が鎖で結ばれながら、同じ金の円環に吸収される——民主的解放を約束しながら新しい檻を作る逆説。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

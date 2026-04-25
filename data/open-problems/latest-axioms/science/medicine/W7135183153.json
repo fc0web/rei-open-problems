@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d^2x}{dt^2} \\cdot \\sigma_{\\text{gait}} = \\lambda \\cdot P(\\text{fracture})",
+      "interpretation": "加速度の乱れが死運命の確率を測る — 不可視の振動が運命を告げる",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 35,45 40,55 50,48 55,60 65,52 80,50' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='25,40 75,60' stroke='#7c3aed' stroke-width='1.5' opacity='0.6' stroke-dasharray='3,3'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#00ff88'>28481</text></svg>",
+      "interpretation": "走る馬の微かな揺れ — 見えない亀裂が円を割る前兆",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

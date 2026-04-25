@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\left(\\int_0^\\infty e^{-\\lambda t} \\sigma(t) \\, dt\\right) = \\text{Immunity}_{\\text{unseen}}",
+      "interpretation": "免疫の見えない部分が、時間とともに肺の構造に刻まれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='50' rx='35' ry='45' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='35' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='35' cy='55' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='65' cy='55' r='6' stroke='#ec4899' stroke-width='1.5' fill='none'/><polyline points='50,35 35,55 50,70 65,55' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 80 Q 40 85 30 88' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "肺の奥底で、見えない免疫細胞たちが複雑に共鳴している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

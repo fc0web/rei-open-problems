@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{CO}_2 + 4\\text{H}_2}{\\text{Ni}^{*} \\cdot \\text{TM}^\\dagger} \\rightarrow \\text{CH}_4 + 2\\text{H}_2\\text{O}",
+      "interpretation": "遷移金属が触媒の「目」となり、低温でもCO2が甘く分解される",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='40' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='65' cy='40' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='65' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='35' y2='40' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='50' x2='65' y2='40' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='50' x2='50' y2='65' stroke='#f59e0b' stroke-width='1.5'/><path d='M 20 50 Q 15 45 20 40' stroke='#00d4ff' stroke-width='1.5' fill='none'/><text x='50' y='20' font-size='10' fill='#7c3aed' text-anchor='middle'>TiO₂</text></svg>",
+      "interpretation": "TiO₂の土台に三つの遷移金属が花のように咲き、中心のNiを活性化する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

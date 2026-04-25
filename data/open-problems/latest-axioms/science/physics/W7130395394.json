@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Lambda_{vac} = \\frac{3H_0^2}{8\\pi G} \\cdot \\frac{\\kappa_*}{\\kappa_0} \\sim \\text{geometric closure}",
+      "interpretation": "宇宙の暗黒面は境界での幾何学的な比率にすぎない、と知覚される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='50' y1='10' x2='50' y2='90' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='10' y1='50' x2='90' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><circle cx='50' cy='50' r='3' fill='#ffd700'/><polyline points='50,50 70,30' stroke='#00ff88' stroke-width='1.5' fill='none' marker-end=''/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>κ₀</text></svg>",
+      "interpretation": "内なる対称性と外側の宇宙境界が同じ幾何学言語で語られる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

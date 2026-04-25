@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Anxiety} \\sim \\frac{\\text{Acceptance}}{\\text{Self-Compassion} \\cdot \\text{Flexibility}} + \\text{Inflexibility}",
+      "interpretation": "心臓の機械に受け入れることで、自分への優しさと柔軟性がどれだけ深いかで、苦しみが消えるか増すかが決まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 70 35 70 50 Q 70 65 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='35' cy='50' r='8' fill='#7c3aed' opacity='0.7'/><circle cx='65' cy='50' r='8' fill='#00ff88' opacity='0.7'/><line x1='35' y1='50' x2='65' y2='50' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "機械の心臓のなかで、固さと柔らかさが一本の糸で繋がり、受け入れの橋が両岸を結ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

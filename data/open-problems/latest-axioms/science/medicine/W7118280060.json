@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} t_i^2 \\cdot w_i}{\\sqrt{\\sum_{j \\in S} \\sigma_j^2}} \\to \\text{Cancer}",
+      "interpretation": "t検定の力が遺伝子の重みを通じて腫瘍の本質へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='1.5'/><circle cx='50' cy='30' r='4' fill='#ec4899'/><circle cx='65' cy='50' r='3' fill='#00ff88'/><circle cx='50' cy='70' r='3' fill='#00ff88'/><circle cx='35' cy='50' r='3' fill='#00ff88'/><path d='M 50 50 L 50 30' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "中心の異常が周囲の遺伝子シグナルから選別され、光とともに浮き上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

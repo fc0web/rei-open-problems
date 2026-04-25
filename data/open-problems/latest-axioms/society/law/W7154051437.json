@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{institutional}}}{\\text{Data}_{\\text{unbound}}} = \\sqrt[3]{\\text{Sovereignty} \\cdot \\text{Disclosure}}",
+      "interpretation": "制度への信頼が、束縛されないデータの流れと、主権と透明性の立方根の積として自己調整する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,15 75,50 50,85 25,50 50,15' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 50 35 65 50' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 50 65 65 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='52' text-anchor='middle' font-size='8' fill='#00ff88'>≈</text></svg>",
+      "interpretation": "多権管轄区域内で対称的に配置された信頼の中心から、相互に制約された流れが上昇と下降の両方向に織り交ざる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

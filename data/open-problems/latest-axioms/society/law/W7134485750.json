@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Sacred Order}}{\\text{Procedural Opacity}} \\times \\text{Accountability}^{-1} = \\text{Trust Restored}",
+      "interpretation": "聖なる秩序と透明性の衝突が、信頼を復興させる",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='3'/><path d='M 35 45 Q 50 55 65 45' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#ffd700' font-weight='bold'>REFORM</text></svg>",
+      "interpretation": "二つの権力の領域が、透明な架け橋を通じて初めて対話する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

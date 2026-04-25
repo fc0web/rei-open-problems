@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}_{\\infty}}{\\text{Borders}} \\cdot \\int_{0}^{\\infty} \\text{Listening}(t) \\, dt",
+      "interpretation": "国境を超える声と、時間を積み重ねた傾聴の共鳴。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 20 Q 65 35 65 50 Q 65 65 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 35 35 50 Q 35 65 50 80' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "中心から放射する複数の声が、境界を超えて対話の場を生み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

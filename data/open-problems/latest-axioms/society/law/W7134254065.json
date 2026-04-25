@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Mercy}_{t}}{\\text{Fate}_{\\text{Norse}}} \\cdot \\int_{\\text{choice}}^{\\text{redemption}} dC = \\text{Peace}_{\\text{Christendom}}",
+      "interpretation": "選択の自由が復讐の鎖を断ち、慈悲の積分が平和へ導く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><line x1='50' y1='20' x2='50' y2='80' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='serif'>Líka</text></svg>",
+      "interpretation": "運命の輪を超えて、慈悲と選択が交わる明暗の対話。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

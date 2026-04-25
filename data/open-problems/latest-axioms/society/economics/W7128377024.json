@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{W} = \\int_{-\\infty}^{\\infty} \\frac{w(r)}{1 + r^2} \\, dr",
+      "interpretation": "双曲的な裾の重さが、富の配分を無限に引き延ばす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:0.3'/></defs><path d='M 20 80 Q 50 20, 80 80' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 20 80 L 50 50 L 80 80' stroke='#00d4ff' stroke-width='1.5' fill='url(#g1)' opacity='0.6'/><circle cx='50' cy='50' r='3' fill='#ffd700'/><polyline points='15,85 50,50 85,85' stroke='#f59e0b' stroke-width='1' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "双曲線の深淵が、極端なリスク事象を吸い込み、重心を揺らがす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

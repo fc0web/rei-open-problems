@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{MCV} = \\mathbb{E}_{p}\\left[D_{KL}(p_0 \\| p_\\theta)\\right] + \\frac{1}{5}\\sum_{i=1}^{5}\\mathbb{1}[\\arg\\max p_0 \\neq \\arg\\max p_i]",
+      "interpretation": "道徳的揺らぎは、文言の鏡映の中で決定が何度翻るかで測られる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 Q 40 55 30 58' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><path d='M 50 42 Q 60 55 70 58' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><polyline points='30,82 50,95 70,82' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='12' font-size='8' text-anchor='middle' fill='#7c3aed'>p₀</text></svg>",
+      "interpretation": "同じ問題が複数の化身を持つとき、AIの心は三つの道に分裂する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

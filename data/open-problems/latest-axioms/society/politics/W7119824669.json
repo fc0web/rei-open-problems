@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{whisper}_{ij}}{\\sqrt{\\text{empire}^3}} \\cdot \\int_0^{60} \\text{door}(t) \\, dt",
+      "interpretation": "帝国の重力のもとで、三つの女性の声が時間という通路を揺らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='40' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='55' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='65' cy='40' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='35,40 50,50 65,40' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "三つの点が大きな円に縛られながら、微かに共鳴し、接触する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

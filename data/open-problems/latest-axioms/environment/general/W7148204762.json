@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{ROS}_{\\text{mix}} = \\sum_{i} k_i \\cdot S_i(t) \\cdot e^{-\\lambda_i t}",
+      "interpretation": "室内の酸化種は、各源からの寄与が時間とともに干渉し、衰退する",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='80' cy='50' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 28 50 L 42 50' stroke='#7c3aed' stroke-width='1'/><path d='M 58 50 L 72 50' stroke='#7c3aed' stroke-width='1'/><polyline points='50,20 50,50 50,80' stroke='#00ff88' stroke-width='1' fill='none' stroke-dasharray='2,2'/><circle cx='50' cy='50' r='25' stroke='#ffd700' stroke-width='0.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "複数の源から放出された酸化種が室内空間で絡み合い、共鳴する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

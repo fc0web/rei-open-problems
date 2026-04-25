@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sin(x)}{\\sqrt{2\\pi\\epsilon}} \\sim \\left\\lfloor \\frac{p}{q} + \\delta \\right\\rfloor",
+      "interpretation": "浮動小数点の境界では、三角関数は分数の断層線を探り、機械精度のわずかなずれが丸めを決める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 50,20 80,50 50,80 20,50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><path d='M 50,30 Q 55,40 50,50' stroke='#00ff88' stroke-width='1' fill='none' stroke-dasharray='2,2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#f59e0b' font-family='monospace'>ε-thresholds</text></svg>",
+      "interpretation": "内接する円周上で波形は格子点を舐め、ほんの一筋の境界が答えを反転させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

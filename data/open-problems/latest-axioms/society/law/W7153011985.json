@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Recognition}}{\\text{Capacity}} \\to \\infty \\implies \\text{Reform} \\to 0",
+      "interpretation": "国際的承認が国家能力から切り離されるほど、改革への誘因は消滅する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>mirror / void</text></svg>",
+      "interpretation": "二つの世界—認識と現実—が絶えず相互を映しながら決して交わらない幽霊的共存。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

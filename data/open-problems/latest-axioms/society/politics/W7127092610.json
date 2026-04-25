@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Known}_{\\text{diseases}}}{\\text{Observed}_{\\text{animal}}} \\cdot \\sqrt{\\text{Data}_{\\text{fragmented}}} = \\text{Blindspot}_{\\text{collective}}",
+      "interpretation": "断片化したデータを統合するほど、見落とされた脅威が浮き上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='30' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='65' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 35 38 L 45 58' stroke='#ec4899' stroke-width='2'/><path d='M 65 38 L 55 58' stroke='#ec4899' stroke-width='2'/><path d='M 30 50 L 70 50' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,3'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ffd700'>gap</text></svg>",
+      "interpretation": "三つの知識領域が繋がれることで、その間隙に真実が姿を現す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

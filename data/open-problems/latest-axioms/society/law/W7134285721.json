@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Intent}}{\\text{Compliance}} \\cdot \\sqrt[3]{\\text{Behavior}} = \\text{Law}",
+      "interpretation": "法律は意図と行動の立方根の緊張から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 35 55 45' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 45 55 Q 50 65 55 55' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='30' y1='35' x2='70' y2='35' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='85' font-size='10' fill='#7c3aed' text-anchor='middle'>intention↔behavior</text></svg>",
+      "interpretation": "意図と行動が往復しながら、法の織物を織り上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

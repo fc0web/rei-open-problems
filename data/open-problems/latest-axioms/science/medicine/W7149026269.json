@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial \\text{tremor}}{\\partial t} = -\\alpha \\cdot \\text{ketone} + \\beta \\cdot \\text{olive oil}",
+      "interpretation": "地中海とケトンの共鳴が、パーキンソン病の揺らぎを消す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='30,50 40,45 50,55 60,40 70,50' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='50' cy='20' r='4' fill='#ffd700'/><circle cx='30' cy='70' r='3' fill='#ec4899'/><circle cx='70' cy='75' r='3' fill='#00d4ff'/></svg>",
+      "interpretation": "振動する神経核が、二つの栄養の光に引き寄せられ、静寂へ落ち着く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

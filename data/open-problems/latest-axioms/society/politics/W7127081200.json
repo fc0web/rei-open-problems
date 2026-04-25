@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Data}_{\\text{collected}}}{\\text{Data}_{\\text{visible}}} = 1 - \\text{Silence}_{\\text{institutional}}",
+      "interpretation": "集められたデータと見えるデータの比は、制度的沈黙によってのみ1より小さくなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='45' y1='50' x2='55' y2='50' stroke='#ec4899' stroke-width='2'/><rect x='35' y='70' width='30' height='12' stroke='#00ff88' stroke-width='1.5' fill='none'/><text x='50' y='78' font-size='7' text-anchor='middle' fill='#00ff88' font-weight='bold'>BRIDGE</text></svg>",
+      "interpretation": "分断された知識の島々が、共有の橋によってようやく一つの景観を形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

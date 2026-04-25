@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{dW}{dt} = \\mu W - C - \\lambda|dN| + \\mathcal{E}(\\rho, \\psi)",
+      "interpretation": "取引の摩擦が時間選好と危険選好を分離する踊りを生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 60 40 50 50 Q 40 60 50 85' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><line x1='25' y1='50' x2='75' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/><g><circle cx='35' cy='50' r='3' fill='#00ff88'/><circle cx='65' cy='50' r='3' fill='#00ff88'/></g></svg>",
+      "interpretation": "摩擦が中心を揺らがせ、選好の二つの軸が相互に引き合う幾何学。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{ESG}_{\\text{India}} \\sim \\int_0^{\\infty} e^{-\\lambda t} \\cdot \\mathcal{D}(t) \\, dt",
+      "interpretation": "デジタル変革の力が時間とともに減衰しながら、持続可能性への到達を積分する",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 35 70 50 Q 70 70 50 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><polyline points='30,60 40,45 50,55 60,40' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "内なる光が技術の螺旋を通じて上昇し、環境・社会・統治の三重の流れが共鳴する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

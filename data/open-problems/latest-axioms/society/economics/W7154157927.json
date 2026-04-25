@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\text{sovereignty}} = \\frac{\\text{chaos}}{\\text{currency}} + \\frac{\\text{hope}}{\\sqrt{\\text{time}}}",
+      "interpretation": "脆弱な国家では、通貨の支配力が主権の逆数のように、混沌と時間の希望の平方根に分解される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 50,30 80,50 50,70 20,50' stroke='#7c3aed' stroke-width='2.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='8' stroke='#f59e0b' stroke-width='2' fill='#f59e0b' opacity='0.7'/></svg>",
+      "interpretation": "外圧と内部揺らぎの中で、一つの中心点が必死に自らの位置を保とうとする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

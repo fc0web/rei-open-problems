@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^t \\frac{dM}{d\\tau}\\left(1-e^{-\\lambda\\tau}\\right)d\\tau + C_0",
+      "interpretation": "治療と再生の競争を、回復する力と失われ続ける筋肉の積分として見る",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 20 80 Q 30 60 40 40 Q 50 20 60 30 Q 70 40 80 20' stroke='#7c3aed' stroke-width='2.5' fill='none' stroke-linecap='round'/><path d='M 20 80 L 80 80' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><circle cx='40' cy='40' r='3' fill='#ec4899'/><circle cx='60' cy='30' r='3' fill='#00ff88'/><line x1='40' y1='40' x2='60' y2='30' stroke='#ffd700' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "筋肉の退化曲線と薬物治療による回復軌跡が、時間の流れのなかで絡み合う",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

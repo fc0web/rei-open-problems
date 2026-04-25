@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Pi = 8 \\equiv \\frac{P_{\\rm mag}}{\\rho_{\\rm eff}c^2}\\bigg|_{v_A^{\\rm rel}=c/\\sqrt{2}}",
+      "interpretation": "因果律が磁気と質量のバランスポイントを指紋のように刻む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>text{font-size:10px;font-family:monospace;fill:#7c3aed}</defs><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00ff88' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='1.5'/><path d='M 50 30 Q 60 40 55 50 Q 60 60 50 70' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='48' y='52' font-weight='bold'>8</text></svg>",
+      "interpretation": "電流柱が光速の壁に触れるとき、八つの対称性が安定を抱きしめる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

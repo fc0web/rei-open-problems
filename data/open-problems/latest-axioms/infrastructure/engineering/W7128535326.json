@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\int_0^T \\left( m\\ddot{s}^2 + \\frac{1}{\\eta(v)} P_{\\text{grid}} \\right) dt",
+      "interpretation": "線路の起伏と電力網の脈動が、一つの変分原理で呼応する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 10 80 Q 25 60 40 70 T 70 50' stroke='#00d4ff' stroke-width='3' fill='none'/><path d='M 10 85 L 90 85' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='10' cy='80' r='3' fill='#00ff88'/><circle cx='90' cy='50' r='3' fill='#ec4899'/><path d='M 20 75 L 25 78 M 30 68 L 35 71 M 45 72 L 50 75' stroke='#f59e0b' stroke-width='1.5' opacity='0.7'/></svg>",
+      "interpretation": "車体が勾配に舞い、下からの電力供給が同期する踊り。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

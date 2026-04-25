@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{A} = \\oint_{\\Lambda_{24}} e^{i\\Phi(\\mathbf{p},\\mathbf{q})} \\, d\\mu_{\\text{cond}}",
+      "interpretation": "24次元のLeech格子上で、位相空間の凝縮がすべての場を統一する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1'><polyline points='50,20 70,50 50,80 30,50 50,20'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/><path d='M 50 42 Q 50 50 50 58' stroke='#f59e0b' stroke-width='1.5' stroke-linecap='round'/></svg>",
+      "interpretation": "24個の光線が原点へ収束し、位相空間が粒状から流動へ移ろう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

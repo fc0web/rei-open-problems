@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Treaty}}{\\text{Statute}} \\to \\frac{\\text{Constitution}}{\\text{Law}} \\quad \\text{(asymptotically)}",
+      "interpretation": "条約は法律として始まるが、道徳的重みにより憲法に近づく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='18' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 48 50 Q 50 45 52 50' stroke='#00d4ff' stroke-width='2.5' fill='none' stroke-linecap='round'/><text x='30' y='75' font-size='10' fill='#ec4899' text-anchor='middle'>Treaty</text><text x='70' y='75' font-size='10' fill='#7c3aed' text-anchor='middle'>Constitution</text><line x1='35' y1='50' x2='65' y2='50' stroke='#ffd700' stroke-width='1.5' stroke-dasharray='2,2' opacity='0.6'/></svg>",
+      "interpretation": "二つの円が矢印で結ばれ、法的地位の流動的な上昇を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathbf{u}}{dt} = -\\lambda \\text{sgn}(\\mathcal{K}(\\mathbf{x})) \\left|\\mathcal{K}(\\mathbf{x})\\right|^\\alpha",
+      "interpretation": "非線形の幽霊を線形空間で追い詰め、符号関数の刃で切り落とす儀式。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 55 Q 35 35 50 15' stroke='#00d4ff' stroke-width='2.5' fill='none'/><polyline points='30,50 50,65 70,50' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='85' x2='50' y2='15' stroke='#f59e0b' stroke-width='1.5' opacity='0.6' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "円の中で螺旋が振動し、下降の矢が揺らめきながら平衡へ滑り落ちる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

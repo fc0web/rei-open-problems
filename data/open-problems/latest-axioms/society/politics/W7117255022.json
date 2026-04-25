@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Distrust}}{\\text{Competence}} \\cdot \\text{Autonomy} = \\text{Green Adoption}",
+      "interpretation": "不信が能力を侵食するほど、人々は自給自足へと駆り立てられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='50' y2='58' stroke='#7c3aed' stroke-width='2'/><polyline points='30,60 50,45 70,60' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M35 75 Q50 82 65 75' stroke='#00d4ff' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "上からの支配が断たれるとき、下から新しい光が芽生える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

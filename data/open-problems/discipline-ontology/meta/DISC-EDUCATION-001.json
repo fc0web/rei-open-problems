@@ -1,0 +1,54 @@
+{
+  "id": "DISC-EDUCATION-001",
+  "qid": "Q8434",
+  "tier": 9,
+  "name": {
+    "ja": "教育",
+    "en": "Education"
+  },
+  "category": "meta-concept",
+  "tags": [
+    "education",
+    "learning",
+    "pedagogy"
+  ],
+  "reiTyping": {
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "社会変化に応じて目的・方法が常に再定義される",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.3,
+      "theoryType": 0.7,
+      "reproducibility": 0.6,
+      "reconstructability": 0.8
+    },
+    "axisZ": "CLASS-C",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "原則として人間の成長を促す。例外: 軍事教育・洗脳教育は flagged"
+  },
+  "provisionalityScore": 0.5,
+  "confidence": 0.93,
+  "falsifiability": "完全自律学習 AI が人間教育を不要にする場合、実践面の正当化が崩れる",
+  "culturalOrigin": "cross",
+  "relations": {
+    "related_to": [
+      "DISC-LEARNING-001",
+      "DISC-ETHICS-001"
+    ],
+    "bridges": [
+      "DISC-INFO-SCI-001"
+    ]
+  },
+  "description": {
+    "ja": "知識・技能・価値観を世代間に伝承し、個人の能力開発を支援する社会的実践",
+    "en": "Social practice of intergenerational transmission of knowledge, skills, and values; supports individual capacity development."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.9,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

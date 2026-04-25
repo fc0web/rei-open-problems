@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{H. pylori} \\cdot \\text{IFN-}\\gamma}{\\text{IL-12}} \\sim \\int_0^\\infty e^{-t \\cdot \\text{epithelial stress}} \\, dt",
+      "interpretation": "感染と炎症シグナルの衝突が、時間とともに胃細胞の応答を決定する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='35' cy='45' r='6' fill='#ec4899' opacity='0.7'/><circle cx='65' cy='45' r='6' fill='#00ff88' opacity='0.7'/><polyline points='35,45 50,60 65,45' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#7c3aed'>H. pylori</text></svg>",
+      "interpretation": "侵入者と防御者が同心円で対立し、中心で緊張と変化が渦巻く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

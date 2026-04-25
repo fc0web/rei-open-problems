@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Capital Flow}}{\\text{Carbon Reduction}} \\sim \\sqrt[3]{\\text{Innovation} \\cdot \\text{Policy} \\cdot \\text{Trust}}",
+      "interpretation": "資本と環境が調和するとき、その比率は三つの力の立方根に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,20 65,45 50,70 35,45 50,20' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 30 50 Q 50 35 70 50' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "外円は流動する資本、内の菱形は希望の四方向、曲線は環境との共鳴を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

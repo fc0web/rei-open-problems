@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P} = \\arg\\max_{w} \\left( \\mathbb{E}[R_w] - \\lambda \\int_{-\\infty}^{\\infty} |x|^\\alpha dH(x) \\right)",
+      "interpretation": "双曲分布は裾野の深さで最適性を歪める—重みは極値の幽霊に引き寄せられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><path id='hyp' d='M 10 50 Q 50 20, 90 50 Q 50 80, 10 50'/></defs><circle cx='25' cy='50' r='3' fill='#ec4899'/><circle cx='75' cy='50' r='3' fill='#ec4899'/><line x1='50' y1='30' x2='50' y2='70' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/><polyline points='40,45 50,50 60,45' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "双曲的なリスク曲線—極端な裾野が最適ポートフォリオの均衡を揺さぶる対称的な引力。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

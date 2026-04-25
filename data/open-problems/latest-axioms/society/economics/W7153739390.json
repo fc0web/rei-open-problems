@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "W = R \\cdot (1 - G^{-1}) + \\epsilon",
+      "interpretation": "豊かさは資源そのものではなく、統治の逆数で打ち消される呪いの形をしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00d4ff' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00d4ff' stroke-width='1.5'/><path d='M 50 50 L 65 35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 50 L 35 65' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "資源（外側）と統治（内側）の間に張られた緊張が、成長の方向を左右する二本の矢。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

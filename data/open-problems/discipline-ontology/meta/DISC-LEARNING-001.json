@@ -1,0 +1,56 @@
+{
+  "id": "DISC-LEARNING-001",
+  "qid": "Q133500",
+  "tier": 9,
+  "name": {
+    "ja": "学習",
+    "en": "Learning"
+  },
+  "category": "meta-concept",
+  "tags": [
+    "learning",
+    "cognition",
+    "meta-concept"
+  ],
+  "reiTyping": {
+    "dfumt8": "SELF",
+    "dfumt8Reason": "自己改変的プロセス — 学習する主体が学習それ自体を学習する自己参照構造",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.4,
+      "theoryType": 0.85,
+      "reproducibility": 0.7,
+      "reconstructability": 0.7
+    },
+    "axisZ": "CLASS-B",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed"
+  },
+  "provisionalityScore": 0.4,
+  "confidence": 0.94,
+  "falsifiability": "一発学習 (one-shot generalization) が完全に解明された場合、現在の漸進学習理論が改訂される",
+  "culturalOrigin": "cross",
+  "relations": {
+    "is_a": [
+      "DISC-EDUCATION-001"
+    ],
+    "related_to": [
+      "DISC-INFO-SCI-001",
+      "DISC-COGSCI-001"
+    ],
+    "bridges": [
+      "DISC-DFUMT8-001"
+    ]
+  },
+  "description": {
+    "ja": "経験・観察・指導を通じて行動・知識・能力を獲得・改変するプロセス",
+    "en": "Process of acquiring or modifying behaviors, knowledge, and abilities through experience, observation, or instruction."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.92,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{silence}}{\\text{velocity}} = \\int_0^\\infty e^{-t} \\sin(\\omega t) \\, dt",
+      "interpretation": "悪い知らせの重さは、速く言うほど軽くなるという矛盾した真実を見る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='50' y2='70' stroke='#ec4899' stroke-width='2'/><polyline points='30,50 50,70 70,50' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 35 75 Q 50 85 65 75' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "頭から心へ、そして地へ沈む言葉の重力を感じる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

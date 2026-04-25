@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "Q_{\\text{stored}} = \\int_{T_{\\min}}^{T_{\\max}} \\rho L \\cdot \\exp\\left(-\\frac{r^2}{\\sigma^2}\\right) \\, dT",
+      "interpretation": "微粒化された相変化が熱の流れを時間の外で捕捉する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='20' x2='50' y2='15'/><line x1='50' y1='80' x2='50' y2='85'/><line x1='20' y1='50' x2='15' y2='50'/><line x1='80' y1='50' x2='85' y2='50'/></g><circle cx='50' cy='50' r='8' fill='#ec4899' opacity='0.6'/><path d='M 30 50 Q 35 35 50 30 Q 65 35 70 50' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "核が脈動する同心円——内部のエネルギーが外殻を冷やす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

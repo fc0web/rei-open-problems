@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15\\Lambda R_H^2} \\cdot \\frac{1}{N}",
+      "interpretation": "重力は宇宙の果てに刻まれた離散情報の鏡像である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ffd700' stroke-width='1.5' fill='none'/><polyline points='50,50 50,20 70,35 50,50 30,35 50,20' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 35 65 Q 50 85 65 65' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>π³/15</text></svg>",
+      "interpretation": "境界に刻まれた幾何学が、無限遠の地平線から根源的な力を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial^2 \\psi}{\\partial t^2} = -\\nabla^2 \\psi + \\mathbf{q} \\cdot \\psi \\cdot \\mathbf{q}^*",
+      "interpretation": "真空は四元数の弾性波として自身と共役で揺らぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><path d='M 50 20 Q 65 35 50 50 Q 35 65 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 20 Q 35 35 50 50 Q 65 65 50 80' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' stroke='#f59e0b' stroke-width='1'/></svg>",
+      "interpretation": "四次元の回転が光と物質の渦巻きを編む真空。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

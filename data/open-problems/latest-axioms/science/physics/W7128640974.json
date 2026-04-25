@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathbf{X}}{dt} = \\frac{\\mathbf{F}}{\\alpha m} - \\frac{\\hbar\\omega}{\\sqrt{T}}",
+      "interpretation": "磁のスピンが電流で踊り、熱は摩擦にも翼にもなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><circle cx='50' cy='50' r='25' fill='url(#sky)' stroke='#7c3aed' stroke-width='1.5'/><g stroke='#00ff88' stroke-width='1' fill='none'><path d='M 50 25 Q 60 35 50 45 Q 40 55 50 65'/><path d='M 35 50 Q 45 40 55 50 Q 65 60 55 70'/></g><polyline points='20,50 15,45 18,50 15,55' stroke='#ec4899' stroke-width='1.2' fill='none'/><polyline points='80,50 85,45 82,50 85,55' stroke='#ec4899' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "渦巻く磁気の心臓、電流に揺られ、ランダムな揺らぎの中で記憶を紡ぐ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

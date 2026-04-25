@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{miR}}{\\text{cytokine}} \\sim \\int_0^t e^{-\\lambda s} \\sin(\\omega s) \\, ds",
+      "interpretation": "炎症の波が減衰するとき、マイクロRNAは隠れた調律者として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='0.8' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='0.8' opacity='0.6'/><polyline points='50,50 65,35 70,55 60,60 75,70' stroke='#f59e0b' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "同心円の揺らぎの中で、遺伝子の囁きが自己免疫の迷路を導く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

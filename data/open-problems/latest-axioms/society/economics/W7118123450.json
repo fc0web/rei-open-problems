@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "V_{HC} = \\sum_{i=1}^{n} \\left( P_i \\cdot I_i \\cdot A_i \\right) \\cdot e^{\\lambda t}",
+      "interpretation": "人的資本の価値は、技能と革新と適応性の積が時間とともに指数関数的に増殖することに見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1' /><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1' /></defs><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='50' stroke='url(#grad1)' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='50' stroke='url(#grad1)' stroke-width='1.5'/><line x1='30' y1='70' x2='50' y2='72' stroke='#00ff88' stroke-width='1.5'/><line x1='70' y1='70' x2='50' y2='72' stroke='#00ff88' stroke-width='1.5'/><path d='M 50 88 Q 45 95 50 100' stroke='#ffd700' stroke-width='2' fill='none' stroke-linecap='round'/><path d='M 50 88 Q 55 95 50 100' stroke='#ffd700' stroke-width='2' fill='none' stroke-linecap='round'/></svg>",
+      "interpretation": "無形資産の中心核から三つの才能の枝が展開し、根へ収束する——測定できぬものが測定できぬ価値を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

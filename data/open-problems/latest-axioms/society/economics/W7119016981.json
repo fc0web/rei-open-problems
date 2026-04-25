@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{W \\cdot H}{S} + \\int_0^t P(\\tau) d\\tau = L(1 + \\alpha)",
+      "interpretation": "動物福祉と人間の生計が共鳴するとき、ストレスを減じた健康は指数的に豊かさを生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='35' cy='50' r='12' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='65' cy='50' r='12' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='47' y1='50' x2='53' y2='50' stroke='#ec4899' stroke-width='2'/><path d='M 50 20 Q 40 35 35 50 Q 40 65 50 80' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 20 Q 60 35 65 50 Q 60 65 50 80' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "二つの命が光の橋で結ばれ、中心の交点で栄養と生計が一体となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{ApoB}^2}{\\text{IMCL}} \\cdot e^{-\\text{mitochondrial flux}} = \\text{dystrophy}",
+      "interpretation": "脂質の二重層が筋肉の呼吸を窒息させるとき、崩壊は指数関数的に加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 50 50 80 Q 35 50 50 20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/><line x1='20' y1='50' x2='30' y2='50' stroke='#7c3aed' stroke-width='1.5'/><line x1='70' y1='50' x2='80' y2='50' stroke='#7c3aed' stroke-width='1.5'/></svg>",
+      "interpretation": "外的な脂質の波が内側のエネルギー核を包囲し、筋肉の心臓を窒息させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

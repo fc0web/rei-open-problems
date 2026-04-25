@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{\\text{chromatin}} \\sum_{i}^{\\text{genes}} \\rho_i(\\text{3D})\\, d\\mathcal{A}}{\\text{failure}^{\\alpha}} \\sim \\mathcal{R}_{\\text{heart}}",
+      "interpretation": "心不全は、3次元構造に刻まれた遺伝子発現の積分が臨界を超えるとき、その暗号が解ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#00d4ff' stroke-width='1.5'/><path d='M 30 50 Q 50 30 70 50 Q 50 70 30 50' stroke='#00ff88' stroke-width='1.2' fill='none'/><circle cx='50' cy='50' r='4' fill='#ffd700'/><polyline points='35,50 50,40 65,50' stroke='#ec4899' stroke-width='0.8' fill='none'/></svg>",
+      "interpretation": "心臓の奥底で、3次元のループと微細な光点が、決裂と再生の分岐を織りなしている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

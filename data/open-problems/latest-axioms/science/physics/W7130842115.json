@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{X} = \\frac{\\pi^3}{15} \\left(1 - e^{-\\tau_{\\text{rad}}}\\right)",
+      "interpretation": "放射逃出面は、その幾何学的位置を π³/15 という純粋な形式数で記憶している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' fill='none' stroke='#ffd700' stroke-width='2'/><circle cx='50' cy='50' r='25' fill='none' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/><ellipse cx='50' cy='50' rx='20' ry='15' fill='none' stroke='#ec4899' stroke-width='1'/><line x1='50' y1='15' x2='50' y2='85' stroke='#7c3aed' stroke-width='0.8' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#7c3aed' stroke-width='0.8' opacity='0.6'/><text x='50' y='95' font-size='10' fill='#00ff88' text-anchor='middle' font-family='monospace'>𝒳₀</text></svg>",
+      "interpretation": "3次元の内部は失われ、表面の2次元デカップリング層だけが観測可能な現実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "C_{\\text{tot}} = \\int_0^{50} \\left(\\frac{S}{T(z)} + \\frac{H}{R(z)}\\right) e^{-\\lambda z} \\, dz",
+      "interpretation": "温度ゆらぎの中で、軽い骨組みが炭素の呼吸を繰り返す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><g stroke='#00d4ff' stroke-width='1.5' fill='none'><polyline points='10,80 20,60 30,50 40,55 50,40 60,45 70,30 80,20 90,15'/></g><g stroke='#7c3aed' stroke-width='1' fill='none'><line x1='20' y1='20' x2='80' y2='80' opacity='0.5'/><line x1='80' y1='20' x2='20' y2='80' opacity='0.5'/></g><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.6'/><g stroke='#f59e0b' stroke-width='2' fill='none'><polyline points='35,65 50,40 65,65'/></g><text x='50' y='95' text-anchor='middle' fill='#7c3aed' font-size='10'>lifecycle</text></svg>",
+      "interpretation": "季節の揺らぎと骨組みの軽さが、交差する時間の中で炭素を最小化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\sum_{i=1}^{n} w_i \\cdot \\mathbb{1}_{\\text{eligible}}(p_i) \\cdot L(\\ell_i)",
+      "interpretation": "個人の条件の和が、言語の透明性を通して、予防の可視化へと変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1' fill='#00ff88' opacity='0.3'/><line x1='50' y1='15' x2='50' y2='35' stroke='#ec4899' stroke-width='1.5'/><line x1='50' y1='65' x2='50' y2='85' stroke='#f59e0b' stroke-width='1.5'/><line x1='15' y1='50' x2='35' y2='50' stroke='#ec4899' stroke-width='1.5'/><line x1='65' y1='50' x2='85' y2='50' stroke='#f59e0b' stroke-width='1.5'/><text x='50' y='55' font-size='10' text-anchor='middle' fill='#00d4ff' font-weight='bold'>↔</text></svg>",
+      "interpretation": "複数の層が織り交ざり、言語という光を通して、個人の予防の道が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

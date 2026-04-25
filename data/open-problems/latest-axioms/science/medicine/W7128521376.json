@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Cardioprotection} \\sim \\frac{\\text{ERK5}^{\\uparrow}}{\\text{Doxorubicin}_{\\text{toxicity}}}",
+      "interpretation": "スタチンが心臓の奥底で静かに防御の扉を開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M50,20 Q70,50 50,80' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M50,20 Q30,50 50,80' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><g opacity='0.6'><circle cx='35' cy='30' r='2' fill='#f59e0b'/><circle cx='65' cy='30' r='2' fill='#f59e0b'/><circle cx='35' cy='70' r='2' fill='#f59e0b'/><circle cx='65' cy='70' r='2' fill='#f59e0b'/></g></svg>",
+      "interpretation": "毒と盾が心臓の中で螺旋を描き、その中心に光が灯る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

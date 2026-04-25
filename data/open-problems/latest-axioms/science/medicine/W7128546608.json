@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{biomarker}_{ij} \\cdot \\text{access}^{-1}}{\\text{delay}^2} \\sim \\text{survival}",
+      "interpretation": "生体標識と医療へのアクセスが時間の二乗に反比例するとき、母体の生存が明らかになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='6' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 L 30 54 M 50 38 L 70 54' stroke='#00d4ff' stroke-width='1.5'/><path d='M 30 66 L 50 85 M 70 66 L 50 85' stroke='#00ff88' stroke-width='1.5'/><circle cx='50' cy='85' r='5' stroke='#ffd700' stroke-width='2' fill='none'/><text x='50' y='15' font-size='8' text-anchor='middle' fill='#ec4899'>T₀</text></svg>",
+      "interpretation": "危機の中心から検査と介入が分岐し、時間を越えて生存へと収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

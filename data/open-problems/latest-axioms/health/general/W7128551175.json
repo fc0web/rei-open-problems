@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^\\infty e^{-\\lambda t} \\, dt}{1 + \\sum_{n=1}^\\infty \\frac{(\\text{noise})^n}{n!}} = \\text{clarity}",
+      "interpretation": "混沌の奥底から、指数的な減衰を通じて本質が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,15 70,40 50,50 30,40 50,15' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 30 60 Q 50 75 70 60' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.4'/></svg>",
+      "interpretation": "混乱した中核（紫の円）から、意思決定の矢（青）と改善の弧（緑）が生まれ、秩序へ向かう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

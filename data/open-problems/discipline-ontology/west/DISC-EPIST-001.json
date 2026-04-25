@@ -1,0 +1,56 @@
+{
+  "id": "DISC-EPIST-001",
+  "qid": "Q9471",
+  "tier": 9,
+  "name": {
+    "ja": "認識論",
+    "en": "Epistemology"
+  },
+  "category": "discipline",
+  "parent_id": "DISC-PHIL-WEST-001",
+  "tags": [
+    "epistemology",
+    "knowledge",
+    "philosophy"
+  ],
+  "reiTyping": {
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "知ることの可能性と限界を同時に扱う。確実性と不確実性の dialectic",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.4,
+      "theoryType": 0.9,
+      "reproducibility": 0.5,
+      "reconstructability": 0.7
+    },
+    "axisZ": "CLASS-C",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed"
+  },
+  "provisionalityScore": 0.5,
+  "confidence": 0.92,
+  "falsifiability": "Gettier 問題が完全解消され「正当化された真なる信念」が知識と同値であることが証明されれば core 仮説が刷新",
+  "culturalOrigin": "western",
+  "relations": {
+    "is_a": [
+      "DISC-PHIL-WEST-001"
+    ],
+    "bridges": [
+      "DISC-PHIL-MADHYAMAKA-001"
+    ],
+    "related_to": [
+      "DISC-LOGIC-001"
+    ]
+  },
+  "description": {
+    "ja": "知識の本性・正当化・限界を問う哲学分野。Plato Theaetetus 以来の中心問題",
+    "en": "Branch of philosophy concerned with the nature, justification, and limits of knowledge."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.95,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Privacy}_{\\text{local}}}{\\text{Data}_{\\text{flows}}} \\sim \\int_{\\text{Tunisia}}^{\\text{East Africa}} \\text{Sovereignty}(x) \\, dx",
+      "interpretation": "プライバシーの主権は、データの流れに抗する積分的な抵抗として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='30' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='70' x2='50' y2='85' stroke='#ec4899' stroke-width='2'/><line x1='15' y1='50' x2='30' y2='50' stroke='#00ff88' stroke-width='2'/><line x1='70' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='2'/><polyline points='50,50 65,35 75,50 65,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "法的境界と越境するデータの緊張が、アフリカの中心で対話する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

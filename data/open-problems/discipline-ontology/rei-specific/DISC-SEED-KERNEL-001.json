@@ -1,0 +1,53 @@
+{
+  "id": "DISC-SEED-KERNEL-001",
+  "tier": 9,
+  "name": {
+    "ja": "SEED_KERNEL",
+    "en": "SEED_KERNEL Theory Repository"
+  },
+  "category": "rei-specific",
+  "tags": [
+    "seed-kernel",
+    "rei-aios",
+    "theory-repository"
+  ],
+  "reiTyping": {
+    "dfumt8": "SELF",
+    "dfumt8Reason": "理論の集積体それ自体が継続的に自己を参照・更新する self-referential corpus",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.9,
+      "theoryType": 0.9,
+      "reproducibility": 0.95,
+      "reconstructability": 0.95
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "TRUE",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "Theory#196 (PeaceConstraint) を全 entry に強制"
+  },
+  "provisionalityScore": 0.1,
+  "confidence": 0.98,
+  "falsifiability": "PeaceConstraint 違反 entry が混入すれば core 整合性が崩壊",
+  "culturalOrigin": "synthetic",
+  "relations": {
+    "is_a": [
+      "DISC-DFUMT8-001"
+    ],
+    "bridges": [
+      "DISC-INFO-SCI-001",
+      "DISC-LEARNING-001"
+    ]
+  },
+  "description": {
+    "ja": "Rei-AIOS の 1,515 理論を保管する核。8 phase に分割管理。Theory#196 (Peace Axiom) は永久 TRUE",
+    "en": "Core repository of Rei-AIOS 1,515 theories. Managed in 8 phases. Theory#196 (Peace Axiom) is permanently TRUE."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "rei-internal",
+  "source_trust": 1,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

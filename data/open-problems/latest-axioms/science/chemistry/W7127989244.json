@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi = \\int_0^\\infty \\mathcal{P}(t) \\cdot \\mathcal{S}(t) \\cdot \\mathcal{F}(t) \\, dt",
+      "interpretation": "プロセスと構造と機能が時間とともに絡み合い、統一された創発性として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 38 36 Q 50 50 62 36' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 38 36 Q 50 50 44 62' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 62 36 Q 50 50 56 62' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "三つの円が対話し、流動的な経路が相互作用の秘密を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

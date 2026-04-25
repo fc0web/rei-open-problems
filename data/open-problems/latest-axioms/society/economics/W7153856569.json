@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trade}_{open}}{\\text{Rights}_{enforced}} = \\int_0^1 \\text{Sanction}(x) \\cdot \\text{Integration}(1-x) \\, dx",
+      "interpretation": "取引の開放性と人権の実現は、制裁と統合の緊張関係の積分として見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 35 55 50' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 50 Q 50 65 55 50' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#f59e0b' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "左右の張力（取引と人権）が上下の弧（制裁と統合）によって揺らぎながら繋がる構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

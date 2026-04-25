@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Inflammation}^2}{\\text{Patency}} \\cdot \\text{Immune}_{\\text{infiltrate}} = \\Delta\\text{Fertility}",
+      "interpretation": "炎症と免疫細胞の侵潤が卵管の通路性を二乗で圧倒する時、生殖能は消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 20 50 Q 50 30 80 50' stroke='#00d4ff' stroke-width='3' fill='none'/><circle cx='35' cy='45' r='4' fill='#ec4899'/><circle cx='50' cy='35' r='4' fill='#ec4899'/><circle cx='65' cy='45' r='4' fill='#ec4899'/><polyline points='50,35 50,60' stroke='#7c3aed' stroke-width='2' stroke-dasharray='2,2' fill='none'/><circle cx='50' cy='70' r='6' fill='#00ff88' opacity='0.6'/></svg>",
+      "interpretation": "青き卵管の道に、赤紫の炎症が群れをなし、下の生命の光を遠ざける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^t e^{-\\lambda(s)} \\cdot \\text{ESG}(s) \\, ds}{\\sum_{i=1}^n \\text{Risk}_i} = \\text{Green}_{\\text{sustainable}}",
+      "interpretation": "緑色保険は、時間とともに衰える古い風険を、ESG原理の指数関数で癒す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='30' r='12' fill='none' stroke='#00ff88' stroke-width='2'/><circle cx='30' cy='65' r='10' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='70' cy='65' r='10' fill='none' stroke='#00d4ff' stroke-width='2'/><path d='M 50 42 Q 40 55 30 62' fill='none' stroke='url(#grad)' stroke-width='2'/><path d='M 50 42 Q 60 55 70 62' fill='none' stroke='url(#grad)' stroke-width='2'/><path d='M 30 76 L 70 76' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上の心臓から下の二つの世界へ流れ込む――保険が生態と経済を抱きしめる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

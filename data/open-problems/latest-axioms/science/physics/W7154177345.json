@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{0}^{\\infty} e^{-\\beta t} \\sin(\\omega t) dt}{\\text{Rejection}^{\\alpha}} \\to \\text{Impact}",
+      "interpretation": "査読の炎を越えて、減衰する疑いから共鳴が立ち上る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='7' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='7' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='85' r='6' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,38 30,58' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,38 70,58' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='30,72 50,79' stroke='#ffd700' stroke-width='1.5' fill='none'/><polyline points='70,72 50,79' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "投稿、査読、修正、拡散—四つの輪が一つの光に収束する道。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

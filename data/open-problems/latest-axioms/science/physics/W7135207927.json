@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\Psi}{dt} = \\eta \\cdot \\frac{1}{\\ell_H} \\int_{\\partial M} \\mathcal{L}_b \\, d\\sigma",
+      "interpretation": "境界を越えるとき、宇宙と量子は同じ幾何学の異なる顔である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='50' y1='10' x2='50' y2='90' stroke='#ec4899' stroke-width='1' opacity='0.6'/><path d='M 50 50 L 75 35' stroke='#00ff88' stroke-width='2' fill='none' marker-end='url(%23arrow)'/><path d='M 50 50 L 30 70' stroke='#f59e0b' stroke-width='2' fill='none' marker-end='url(%23arrow)'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "同心円は外向きと内向きの情報流で、中心点は両スケール間の架け橋である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

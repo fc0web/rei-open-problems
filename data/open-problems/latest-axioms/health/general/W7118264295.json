@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} |t_i| \\cdot \\mathcal{P}(g_i)}{\\sqrt{1 + \\text{dim}(S)}} \\to \\text{diagnosis}",
+      "interpretation": "遺伝子の声が統計的重みで増幅され、モデルの欲望に従って最良の組み合わせへ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='40' cy='30' r='6' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='60' cy='45' r='7' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='80' cy='55' r='5' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 28 46 L 34 35 M 46 27 L 55 42 M 66 48 L 77 56' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 20 50 Q 50 20 80 55' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "無数の遺伝子が試されて消え、最後に選ばれた数個だけが診断という光へ導く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Promise}_{\\text{AI}}}{\\text{Complexity}_{\\text{real}}} \\to 0 \\text{ as } \\text{Ethics}_{\\text{undefined}} \\to \\infty",
+      "interpretation": "AIの約束は現実の複雑さの前で消え去る。倫理が曖昧なほど、この比率はゼロに近づく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 20 Q 60 50 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 20 Q 40 50 50 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><rect x='35' y='45' width='30' height='10' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='monospace'>?</text></svg>",
+      "interpretation": "二つの光が絡み合い、中央の灰色の枠が真実と約束の衝突を示唆している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

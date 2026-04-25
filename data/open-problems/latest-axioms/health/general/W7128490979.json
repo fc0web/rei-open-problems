@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\lambda t} \\left(1 - e^{-\\mu H(t)}\\right) \\, dt \\approx \\frac{\\Gamma}{\\lambda + \\mu}",
+      "interpretation": "感染と免疫応答が時間とともに織りなす消化の中の微妙な平衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='25' x2='50' y2='15'/><line x1='65' y1='35' x2='72' y2='28'/><line x1='75' y1='50' x2='85' y2='50'/></g><g stroke='#7c3aed' stroke-width='1.5'><polyline points='35,50 30,40 35,35' fill='none'/><polyline points='65,50 70,40 65,35' fill='none'/></g><text x='50' y='55' text-anchor='middle' font-size='10' fill='#ffd700' font-family='serif'>H</text></svg>",
+      "interpretation": "外なる感染と内なる防御が胃の領域で絶え間なく対話する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

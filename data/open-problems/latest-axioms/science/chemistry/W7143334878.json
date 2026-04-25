@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{[\\text{F}^-]_{\\text{ads}}}{[\\text{Fe}^{3+}][\\text{F}^-]_{\\text{free}}} \\sim e^{-\\beta \\Delta G}",
+      "interpretation": "鉄がフッ化物を吸着する親和性は、自由エネルギーの指数関数として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='2.5' fill='none'/><g stroke='#f59e0b' stroke-width='1.5'><line x1='50' y1='25' x2='50' y2='15'/><line x1='50' y1='75' x2='50' y2='85'/><line x1='25' y1='50' x2='15' y2='50'/><line x1='75' y1='50' x2='85' y2='50'/></g></svg>",
+      "interpretation": "鉄の中心核から、層状に広がる吸着サイト—フッ化物が同心円上で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{ij}}{\\text{Asymmetry}_{ij}} \\cdot \\sqrt{\\text{Capacity}_{i}} = \\text{Revenue}_{\\text{shared}}",
+      "interpretation": "信頼と不対称性の比が、地域協力の財政的実を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='35' y1='35' x2='65' y2='35' stroke='#ec4899' stroke-width='1.5'/><line x1='38' y1='40' x2='50' y2='62' stroke='#f59e0b' stroke-width='1.5'/><line x1='62' y1='40' x2='50' y2='62' stroke='#f59e0b' stroke-width='1.5'/><path d='M 50 82 Q 40 90 30 85' stroke='#ffd700' stroke-width='1' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "三つの地域ノードが利益フロー（金色の破線）で結ばれ、信頼のネットワークが隔たりを橋渡きする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

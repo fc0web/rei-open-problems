@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{B} = \\int_0^T \\sqrt{\\mathcal{D}(t)} \\cdot \\mathcal{T}(t) \\, dt + \\phi",
+      "interpretation": "退化した地とテクノロジーの深さが絡み合い、時間のなかで再生される生命の密度。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:0.3'/><stop offset='100%' style='stop-color:#00ff88;stop-opacity:0.8'/></defs><rect x='10' y='70' width='80' height='25' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='30' cy='50' r='8' fill='none' stroke='#ec4899' stroke-width='2'/><circle cx='50' cy='40' r='10' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='70' cy='55' r='7' fill='none' stroke='#f59e0b' stroke-width='2'/><polyline points='30,50 50,40 70,55' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 40 70 Q 50 50 60 70' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "荒れた大地から、テクノロジーの糸が絡み、光の根を伸ばし、新しい緑へと変生する景観。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

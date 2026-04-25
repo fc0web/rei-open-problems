@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Laws}^n}{\\text{Institutions}^{n-1}} \\to 0 \\text{ as } n \\to \\infty",
+      "interpretation": "法律が増えるほど、制度の力は逆説的に薄れていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='55' stroke='#ec4899' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='55' stroke='#ec4899' stroke-width='1.5'/><line x1='30' y1='75' x2='70' y2='75' stroke='#f59e0b' stroke-width='2' stroke-dasharray='3,3'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#7c3aed'>gap</text></svg>",
+      "interpretation": "上から降りてくる法律が、下の現場で二つに分かれたまま、つながらない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

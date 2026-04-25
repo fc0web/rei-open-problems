@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{0}^{2\\pi} \\delta(r - r_{\\text{threshold}}) \\, r \\, d\\theta \\, dr",
+      "interpretation": "視野の境界は、知覚と閾値の出会いの特異点として存在する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='1' fill='none' stroke-dasharray='2,2'/><path d='M 50 50 L 70 50' stroke='#ec4899' stroke-width='2'/><path d='M 50 50 L 50 20' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 L 35 35' stroke='#f59e0b' stroke-width='1.5' opacity='0.7'/><path d='M 50 50 L 65 65' stroke='#ffd700' stroke-width='1.5' opacity='0.7'/></svg>",
+      "interpretation": "動的と静的の境界線が中心から放射状に探索する視覚野の領域を追跡する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

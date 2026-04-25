@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi_{\\partial} = \\eta \\cdot \\nu \\cdot \\ell^2 \\cdot e^{-\\ell/\\ell_*}",
+      "interpretation": "境界が情報を吸収する速さは、幾何学的スケールと周波数の調和の中に隠れている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,50 50,20 70,35 50,50 30,35 50,20' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='15' y1='50' x2='85' y2='50' stroke='#f59e0b' stroke-width='0.8' opacity='0.6'/><line x1='50' y1='15' x2='50' y2='85' stroke='#f59e0b' stroke-width='0.8' opacity='0.6'/></svg>",
+      "interpretation": "3つの円がすべての尺度を包むが、中心の矢印だけが真実を知っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

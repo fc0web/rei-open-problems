@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{e^{-\\lambda t}}{1 + \\rho(t)} \\, dt = \\psi(\\text{stigma})^{-1}",
+      "interpretation": "禁止の解除は、時間とともに毒性を希釈し、隠された害を可視化する積分である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 45 Q 40 57.5 50 70' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 45 Q 60 57.5 50 70' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#00d4ff'>decriminalize</text></svg>",
+      "interpretation": "上の抑圧から下の苦悩への二重の流れ：解放は治癒と混乱の両方を解き放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

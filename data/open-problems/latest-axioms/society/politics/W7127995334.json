@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{emoji}^{\\text{courtesy}}}{\\text{words}} \\to \\infty \\text{ as } \\text{intimacy} \\nearrow",
+      "interpretation": "言葉を減らすほど、絵文字の敬意が深く響く逆説の美しさ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00d4ff' stroke-width='1.5'><polyline points='30,50 50,35 70,50'/><polyline points='30,50 50,65 70,50'/></g><text x='50' y='58' font-size='24' text-anchor='middle' fill='#ffd700'>✓</text></svg>",
+      "interpretation": "上下の矢印が出会う場所で、言葉と画像が同時に意味を交わす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

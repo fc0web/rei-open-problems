@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{care}_{\\text{parent}} \\cdot \\text{knowledge}_{\\text{child}}}{\\text{decay}_{\\text{tooth}}} \\to \\infty",
+      "interpretation": "親の配慮と子どもの知識が増せば、虫歯は消える予感がする。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='55' stroke='#00ff88' stroke-width='2.5'/><polyline points='35,70 50,85 65,70' stroke='#ec4899' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上の親の知恵が下の子どもの口へ流れ落ち、歯を守る光の道を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

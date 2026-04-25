@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Waste}_{t+1}}{\\text{Waste}_t} \\cdot \\sqrt{\\text{Policy}^2 + \\text{Action}^2} = \\text{Sustainability}",
+      "interpretation": "廃棄物の減衰は、政策と実行の合力の根にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='35' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='65' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,45 35,53 35,77' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,45 65,53 65,77' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 35 77 Q 50 85 65 77' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上より下へ流れる資源が、三つの円で再生と変容の運動を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Discourse}}{\\text{Resistance}} = \\text{Hegemony} \\cdot \\left(1 - \\frac{\\text{Tradition}}{\\text{Control}}\\right)",
+      "interpretation": "専門家の言葉と権力の闘争が、支配と抵抗の振り子の中で浮かぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 60 50 50 85' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 50 15 Q 40 50 50 85' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' text-anchor='middle' fill='#7c3aed' font-size='10'>Hegemony</text></svg>",
+      "interpretation": "二つの言説が円の中で絡み合い、中心線上の支配権を争う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

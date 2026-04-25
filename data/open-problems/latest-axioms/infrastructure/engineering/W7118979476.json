@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^\\infty \\text{demand}(t) \\, dt}{\\sqrt{\\text{bureaucracy}} \\cdot e^{-\\text{AI}}} \\to \\infty",
+      "interpretation": "AIが官僚的抵抗を指数関数的に減衰させるとき、市民の需要への応答は無限に加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 L 50 85 M 15 50 L 85 50' stroke='#00d4ff' stroke-width='1.5'/><polyline points='20,60 35,45 50,55 65,35 80,50' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/></svg>",
+      "interpretation": "都市中心の透明な監視機構から、データフローが放射状に拡散し、サービスの隠れた摩擦を解き放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\text{flight}(t) \\cdot \\text{knowledge}(t)}{\\text{silence}(t)} \\, dt",
+      "interpretation": "観察者の視線が、飛行と知識を無音の記録へ積分する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 30 60 Q 50 20 70 60' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='35' cy='50' r='3' fill='#7c3aed'/><circle cx='50' cy='30' r='3' fill='#7c3aed'/><circle cx='65' cy='50' r='3' fill='#7c3aed'/><polyline points='45,70 50,90 55,70' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='98' font-size='8' text-anchor='middle' fill='#ec4899'>∴</text></svg>",
+      "interpretation": "翼の軌跡が地上の知識の根へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

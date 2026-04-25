@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Heritage}_{\\text{depth}} \\times \\text{Digital}_{\\text{reach}}}{\\text{Friction}_{\\text{borders}}} \\to \\text{Influence}_{\\text{global}}",
+      "interpretation": "伝統の深さとデジタル拡散が国境摩擦を超えるとき、文化影響力は生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='75' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 L 50 67' stroke='#00ff88' stroke-width='2'/><polyline points='30,50 50,50 70,50' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,30 70,45' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,30 30,45' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "刺繍の核心が、デジタルと伝統の環を通じて、世界へ放射状に広がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

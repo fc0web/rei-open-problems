@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{DMGV}}{\\text{MetS}} = \\int_0^\\infty \\text{Carb}^{-1}(x) \\cdot \\text{Lipid}^{-1}(x) \\, dx",
+      "interpretation": "代謝の分岐点で、炭水化物と脂質の逆数が見えない形で絡み合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 35 35 50 50 Q 65 65 50 85' stroke='#ffd700' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#00d4ff' opacity='0.6'/></svg>",
+      "interpretation": "双螺旋のように絡み合う二つの代謝経路が、中心の謎めいた分子を取り囲む光景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

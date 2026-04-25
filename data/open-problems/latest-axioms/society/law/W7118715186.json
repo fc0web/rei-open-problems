@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{human}}}{1 + \\text{Opacity}_{\\text{AI}}} \\cdot \\text{Capability}_{\\text{AI}} = \\text{Justice}_{\\text{hybrid}}",
+      "interpretation": "AIが法を変革するとき、人間の信頼と機械の透明性のバランスが正義の真の尺度となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='18' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='48' y1='50' x2='52' y2='50' stroke='#ec4899' stroke-width='3'/><path d='M 35 35 Q 50 20 65 35' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 35 65 Q 50 80 65 65' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='serif'>⚖</text></svg>",
+      "interpretation": "二つの円が引き寄せられ、反発し、その緊張の中で司法の天秤が揺らぎながら立つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

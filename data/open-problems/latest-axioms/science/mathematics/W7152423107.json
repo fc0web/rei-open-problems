@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sigma^2_{\\text{station}}}{\\sigma^2_{\\text{station}} + \\sigma^2_{\\text{field}} + \\epsilon} \\sim \\text{Yield}_\\text{truth}",
+      "interpretation": "ステーションの変動が真実の収穫を支配する割合——ただし大地の声を聞かぬまま。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='60' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='50' y1='42' x2='70' y2='60' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='30' y1='80' x2='70' y2='80' stroke='#f59e0b' stroke-width='2'/><text x='50' y='95' text-anchor='middle' fill='#ffd700' font-size='10'>heterogeneity</text></svg>",
+      "interpretation": "上の秩序ある観測所から下の多元的な現場へ——階層の中で真実は散逸する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

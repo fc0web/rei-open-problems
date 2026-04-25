@@ -1,0 +1,55 @@
+{
+  "id": "DISC-COGSCI-001",
+  "qid": "Q147638",
+  "tier": 9,
+  "name": {
+    "ja": "認知科学",
+    "en": "Cognitive Science"
+  },
+  "category": "discipline",
+  "tags": [
+    "cognitive-science",
+    "interdisciplinary",
+    "mind"
+  ],
+  "reiTyping": {
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "6 領域 (心理・神経・哲学・言語・AI・人類学) の cross。統合理論未完",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.7,
+      "theoryType": 0.85,
+      "reproducibility": 0.7,
+      "reconstructability": 0.8
+    },
+    "axisZ": "CLASS-B",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed"
+  },
+  "provisionalityScore": 0.5,
+  "confidence": 0.9,
+  "falsifiability": "意識の hard problem が完全解消され心が物理に reducible になれば現在の synthetic 性が消滅",
+  "culturalOrigin": "synthetic",
+  "culturalNote": "1950s の interdisciplinary movement として誕生。古典 6 領域 + computational neuroscience 等",
+  "relations": {
+    "bridges": [
+      "DISC-PHIL-WEST-001",
+      "DISC-INFO-SCI-001",
+      "DISC-LEARNING-001"
+    ],
+    "related_to": [
+      "DISC-EPIST-001"
+    ]
+  },
+  "description": {
+    "ja": "心と知能の科学的・学際的研究。心理学・神経科学・哲学・言語学・人工知能・人類学が collaborate",
+    "en": "Interdisciplinary scientific study of the mind and intelligence. Combines psychology, neuroscience, philosophy, linguistics, AI, anthropology."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.92,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

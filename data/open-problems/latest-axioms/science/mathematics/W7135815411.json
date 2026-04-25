@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^T f(t) \\cdot e^{\\lambda s} \\, dt = \\text{voice rising through time}",
+      "interpretation": "時間と空間を越えて、声が指数的に上昇する何かの痕跡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><polyline points='10,80 25,65 40,50 55,35 70,20 85,10' stroke='url(#grad)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='10' cy='80' r='2' fill='#ec4899'/><circle cx='85' cy='10' r='3' fill='#00d4ff'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>Iwaidja</text></svg>",
+      "interpretation": "言語の輪郭が時間軸に沿って上昇し、過去から未来へ表現力が弧を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

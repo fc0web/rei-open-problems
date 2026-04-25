@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "G = \\frac{\\pi^3}{15\\Lambda R_H^2 N}",
+      "interpretation": "重力定数は宇宙の情報の織物から幾何学的に浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,50 80,50 75,60 85,65' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-linecap='round'/><text x='50' y='8' font-size='10' fill='#ffd700' text-anchor='middle' font-weight='bold'>π³/15</text></svg>",
+      "interpretation": "同心円的な地平線は情報を離散的に畳み込み、中心へ重力を呼び起こす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

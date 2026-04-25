@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P_{dep}(F) = \\alpha \\cdot R_{antenatal} \\cdot \\left(1 - \\beta \\cdot Q_{rel}\\right) + \\gamma",
+      "interpretation": "関係の質が父親の産後抑鬱への脆弱性を緩和する見えない力のように作用している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='58' stroke='#00d4ff' stroke-width='1.5'/><path d='M 35 50 Q 50 45 65 50' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 35 50 Q 50 55 65 50' stroke='#00ff88' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "二つの心が対話し、その間に流れる関係の質という共鳴が、暗い影を和らげている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

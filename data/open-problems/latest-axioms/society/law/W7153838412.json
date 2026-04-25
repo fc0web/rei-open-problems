@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Data}_{\\text{flow}}}{\\text{Sovereignty}_{\\text{local}}} = \\int_{\\text{institutions}}^{\\text{rights}} \\frac{dP}{dT}",
+      "interpretation": "データの流れと地域主権の緊張が、制度と個人の権利を時間とともに統合する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='20' y='55' width='60' height='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='55' stroke='#ec4899' stroke-width='2'/><polyline points='30,75 50,65 70,75' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#f59e0b'>FLOW→ANCHOR</text></svg>",
+      "interpretation": "個人データという上流の輝きが、地域の法的枠組みという土台へ根ざし、南へ流れていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

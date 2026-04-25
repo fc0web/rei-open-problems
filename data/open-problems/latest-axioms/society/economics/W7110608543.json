@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Arrivals}}{\\text{Local Benefit}} = \\frac{1}{1 - e^{-\\text{Trust}}} \\cdot \\sqrt[3]{\\text{Youth}}",
+      "interpretation": "観光客の増加が地元に還流するには、信頼と若者の力が幾何学的に必要とされる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='57' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='57' stroke='#00ff88' stroke-width='1.5'/><line x1='30' y1='73' x2='70' y2='73' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><text x='50' y='95' font-size='8' fill='#ffd700' text-anchor='middle'>gap</text></svg>",
+      "interpretation": "上から下への流れが分断され、二つの部分が破線でかろうじて繋がる――成長は孤立している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

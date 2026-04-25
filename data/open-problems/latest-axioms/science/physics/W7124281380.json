@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Phi = \\oint \\left(M_{\\text{aero}} - M_{\\text{struct}}\\right) \\, d\\theta > 0",
+      "interpretation": "位相のずれが翼を共鳴させ、やがて自己振動となる魔法の回路。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs>.pulse{animation:none}</defs><ellipse cx='50' cy='50' rx='30' ry='40' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 30 30 Q 50 20, 70 30' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 70 70 Q 50 80, 30 70' stroke='#00ff88' stroke-width='2.5' fill='none'/><circle cx='50' cy='50' r='4' fill='#ffd700'/><polyline points='35,50 50,50 65,50' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "渦と翼が踊り、やがて自分自身の呼吸で揺らぐ—位相のずれが命を吹き込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

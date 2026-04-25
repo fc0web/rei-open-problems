@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sigma}{1+m} \\to R^{-1} \\mid \\text{profit filters risk}",
+      "interpretation": "利益で調整した揺らぎは、リスクの幻想を剥ぎ取るが、謎は深まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ec4899;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 42 Q 35 60 50 75' stroke='url(#g1)' stroke-width='2.5' fill='none'/><path d='M 50 42 Q 65 60 50 75' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-dasharray='3,2'/><line x1='30' y1='85' x2='70' y2='85' stroke='#ffd700' stroke-width='1.5'/><circle cx='50' cy='85' r='2' fill='#ffd700'/></svg>",
+      "interpretation": "利益という根が、ボラティリティの枝を曲げるが、深い地面は動かぬまま。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

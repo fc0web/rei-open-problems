@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{t}}{\\text{Representation}_{\\text{past}}} \\cdot \\sqrt[3]{\\text{Homogeneity}_{\\text{ticket}}} = \\text{Fracture}_{\\text{present}}",
+      "interpretation": "同じ信仰の切符が、過去の代表不足と現在の不均衡のはざまで、信頼を三乗根で蝕む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='35' cy='50' r='18' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='18' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='53' y1='50' x2='47' y2='50' stroke='#f59e0b' stroke-width='3'/><path d='M 50 30 Q 50 50 50 70' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='85' font-size='10' fill='#7c3aed' text-anchor='middle'>↔</text></svg>",
+      "interpretation": "二つの円が狭い道で触れ、その間に垂直な道が引かれる —分断と統合の緊張の幾何学。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

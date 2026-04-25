@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} c_i \\cdot r_i}{\\sqrt{1 - d_i}} \\sim \\int_0^1 \\rho(x) \\, dx",
+      "interpretation": "群衆の分散した資本が地域の抵抗を超えて、統合の潮流へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='30' cy='35' r='5' stroke='#7c3aed' stroke-width='1' fill='none'/><circle cx='70' cy='35' r='5' stroke='#7c3aed' stroke-width='1' fill='none'/><circle cx='25' cy='65' r='5' stroke='#00ff88' stroke-width='1' fill='none'/><circle cx='75' cy='65' r='5' stroke='#00ff88' stroke-width='1' fill='none'/><line x1='30' y1='35' x2='50' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='70' y1='35' x2='50' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='25' y1='65' x2='50' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/><line x1='75' y1='65' x2='50' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "周辺から中心へ流れ込む複数の資金の筋が、地域統合という核で結実する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

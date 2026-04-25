@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^T \\omega(t) \\cdot [u]_{\\text{jump}}^2 \\, dt + \\sum_{f} \\delta_f \\langle N_f \\rangle",
+      "interpretation": "接触の瞬間に周波数と時間が織り成す不連続な重み付けが、衝突の本質を捉える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><line x1='20' y1='70' x2='80' y2='70' stroke='#7c3aed' stroke-width='2'/><polyline points='20,70 30,50 40,65 50,35 60,60 70,40 80,70' stroke='url(#g1)' stroke-width='2.5' fill='none'/><circle cx='40' cy='65' r='3' fill='#00ff88'/><circle cx='60' cy='60' r='3' fill='#ec4899'/><path d='M 50 35 L 50 80' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "揺らぎながら衝突する軌跡が、不連続な周波数のフィルタを通して現われる瞬間の景。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

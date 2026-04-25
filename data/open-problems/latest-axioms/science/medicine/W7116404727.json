@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d E}{dt} = \\lambda \\cdot M(t) \\cdot \\left(1 - e^{-\\mu C(t)}\\right)",
+      "interpretation": "細胞のエネルギー産生が、ミトコンドリア数の爆発と代謝経路の解放によって、閾値を超えて急変する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 45 Q 50 35 55 45' stroke='#ec4899' stroke-width='2.5' fill='none' stroke-linecap='round'/><polyline points='35,65 50,75 65,65' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "静寂な細胞から、らせん状のエネルギーが噴き出し、形態が拡大し、変異へと暴走する瞬間の映像。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

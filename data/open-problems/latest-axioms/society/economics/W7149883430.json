@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Authority}}{\\text{Knowledge}} \\to \\infty \\Rightarrow \\text{Credibility} \\to 0",
+      "interpretation": "権力が知識を失うほど、信用は深淵へ落ちる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 50 L 50 80' stroke='#7c3aed' stroke-width='3'/><circle cx='50' cy='85' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='35' y1='65' x2='20' y2='75' stroke='#f59e0b' stroke-width='2'/><line x1='65' y1='65' x2='80' y2='75' stroke='#f59e0b' stroke-width='2'/><path d='M 30 40 Q 50 35 70 40' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "知識の源（上）から権力の基盤（下）へ向かう言葉が、空に消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

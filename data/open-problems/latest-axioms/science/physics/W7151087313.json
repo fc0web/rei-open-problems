@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{F} = 1 - \\frac{\\epsilon}{10^4} \\cdot e^{-\\beta E_{TeV}/\\Lambda}",
+      "interpretation": "完璧さはエネルギーの深さで指数関数的に呼び起こされる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1' fill='none'/><polyline points='50,15 50,85 30,50 70,50' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>99.95%</text></svg>",
+      "interpretation": "同心の透明な殻—光と冷たさが核の完璧性を守る瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

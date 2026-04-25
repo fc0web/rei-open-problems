@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{P \\cdot L}{C + R} = \\sqrt[3]{E \\cdot T}",
+      "interpretation": "政治の重み、法の構造、犯罪学の知見が、抵抗と危険性に抗して、効率という立方根へ収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><rect x='40' y='45' width='20' height='10' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='38' y1='50' x2='42' y2='50' stroke='#f59e0b' stroke-width='2'/><line x1='58' y1='50' x2='62' y2='50' stroke='#f59e0b' stroke-width='2'/><polyline points='35,25 50,35 65,25' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 60 Q 40 75 35 85' stroke='#ffd700' stroke-width='2' fill='none'/><path d='M 50 60 Q 60 75 65 85' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "政治と法が相互作用し、犯罪学的洞察が上から降り、下へ向かう複雑な流れの中で効率が脈動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

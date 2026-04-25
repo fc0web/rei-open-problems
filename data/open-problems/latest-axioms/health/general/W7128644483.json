@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{t \\to 0^+} \\frac{\\text{silence}}{t} + \\int_0^\\infty e^{-\\lambda s} \\cdot \\text{truth} \\, ds",
+      "interpretation": "時間の極限で沈黙が無限大へ向かい、真実は徐々に減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 50 L 50 80' stroke='#7c3aed' stroke-width='3'/><line x1='35' y1='65' x2='50' y2='80' stroke='#00d4ff' stroke-width='2.5' opacity='0.6'/><line x1='65' y1='65' x2='50' y2='80' stroke='#00d4ff' stroke-width='2.5' opacity='0.6'/><rect x='20' y='85' width='60' height='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "心臓から下ろされた沈黙の重さが、地面へ二つの道筋をつけて降りていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

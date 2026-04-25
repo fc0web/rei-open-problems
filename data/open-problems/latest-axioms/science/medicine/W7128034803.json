@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{gut}}^{\\text{milk}} \\frac{\\text{oligosaccharide} \\cdot \\text{mucin}}{\\text{barrier}} \\, d\\tau",
+      "interpretation": "母乳から腸へ流れる糖と粘液の対話が、非侵襲的に時間とともに積分される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><ellipse cx='50' cy='60' rx='15' ry='20' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 38 Q 48 48 50 60' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><path d='M 50 38 Q 52 48 50 60' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><line x1='35' y1='60' x2='25' y2='70' stroke='#ec4899' stroke-width='1.5'/><line x1='65' y1='60' x2='75' y2='70' stroke='#ec4899' stroke-width='1.5'/><text x='50' y='90' font-size='8' text-anchor='middle' fill='#f59e0b'>non-invasive</text></svg>",
+      "interpretation": "乳房から腸への静かな分子の踊りが、外からは見えぬまま生命の根を育てている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

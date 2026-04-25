@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Tech} \\cdot \\text{Governance}}{\\text{Fragility}} + \\int_{\\text{Scale}} \\text{Resilience} \\, d\\sigma = \\text{Ecosystem}",
+      "interpretation": "技術と統治が脆さを超えるとき、規模を積み重ねた回復力が生態系となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><polyline points='35,35 65,35 65,65 35,65 35,35' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "同心円と交叉軸が示す：中心から放射状に拡がる技術が、統治という枠に支えられて、レジリエントな層を成す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

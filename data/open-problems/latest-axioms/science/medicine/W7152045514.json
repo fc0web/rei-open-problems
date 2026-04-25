@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Blood Flow}}{\\text{Capillary Radius}} \\propto \\sqrt{\\text{Platelet Adhesion} \\cdot \\text{Smartphone Signal}}",
+      "interpretation": "毛細血管の中で血小板が踊り、スマートフォンがその秘密の言葉を読む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><rect x='20' y='35' width='60' height='12' fill='url(#flow)' rx='6'/><circle cx='30' cy='41' r='2.5' fill='#ec4899'/><circle cx='45' cy='41' r='2.5' fill='#ec4899'/><circle cx='60' cy='41' r='2.5' fill='#ec4899'/><path d='M 50 20 L 55 30 L 45 30 Z' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,60 50,70 40,75 60,75' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "毛細管の流れの中で、血小板の粒が踊り、上からは光の目が見守る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

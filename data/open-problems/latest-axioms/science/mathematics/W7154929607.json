@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\kappa(\\ell) \\cdot \\tau(\\ell) \\sim \\ell^{-\\alpha} \\left(1 + \\frac{\\epsilon}{\\ell^{\\beta}}\\right)^{-1}",
+      "interpretation": "スケール ℓ における曲率と捩率の幾何学的ダンスは、乱流のすべての息吹に埋め込まれている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.8'/></defs><path d='M 20 50 Q 35 30 50 50 T 80 50' stroke='url(#grad)' stroke-width='2.5' fill='none'/><path d='M 20 50 Q 35 70 50 50 T 80 50' stroke='#ec4899' stroke-width='1.8' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.4'/><text x='50' y='92' text-anchor='middle' font-size='9' fill='#f59e0b' font-weight='bold'>κ,τ</text></svg>",
+      "interpretation": "層状剪断の中を螺旋状に踊る流れ粒子—曲率と捩率が異なるスケールで目覚める幽霊のよう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

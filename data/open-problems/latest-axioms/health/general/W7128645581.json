@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-t} \\sin(\\text{wisdom} \\cdot t) \\, dt = \\frac{\\text{presence}}{1 + \\text{time}^2}",
+      "interpretation": "時間とともに衰えるが、深い共鳴が無限に響き続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 38 Q 45 50 50 62' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><path d='M 50 38 Q 55 50 50 62' stroke='#ec4899' stroke-width='2' fill='none' stroke-linecap='round'/><line x1='30' y1='70' x2='70' y2='70' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "小さな自己から大きな経験へ、往路と復路の対話が地へ根ざす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

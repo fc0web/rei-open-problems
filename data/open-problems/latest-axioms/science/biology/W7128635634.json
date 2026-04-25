@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial P}{\\partial t} = \\alpha W \\cdot L + \\beta(W \\cap L) - \\gamma P",
+      "interpretation": "野生動物と家畜の接触が寄生虫の流行を増幅させる、見えない橋のようだ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='30' stroke='#00ff88' stroke-width='2'/><line x1='50' y1='50' x2='50' y2='70' stroke='#00ff88' stroke-width='2'/><circle cx='50' cy='50' r='4' fill='#ffd700'/><path d='M 35 35 Q 50 40 65 35' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 35 65 Q 50 60 65 65' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "二つの個体群が接する場所で、寄生虫は静寂のうちに交換される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

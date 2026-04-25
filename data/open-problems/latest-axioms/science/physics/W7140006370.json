@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\omega - \\omega_0 - \\frac{i\\Gamma}{2}} \\sim \\sum_n \\frac{c_n}{\\omega - \\tilde{\\omega}_n}",
+      "interpretation": "共鳴は死と生の間で振動する—虚部の幽霊が複素平面に道を示す",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='50' r='12' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='65' cy='50' r='12' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='47' y1='50' x2='53' y2='50' stroke='#ffd700' stroke-width='2'/><path d='M 50 20 Q 45 35 50 50 Q 55 35 50 20' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "二つの共鳴子が金色の絆で結ばれ、その間を幽霊波が踊る",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

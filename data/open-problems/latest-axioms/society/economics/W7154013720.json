@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Resilience}_{t}}{\\text{Vulnerability}_{t-1}} = \\frac{\\text{Will}^{\\alpha} \\cdot \\text{Capacity}^{\\beta}}{1 + \\text{Conflict}_{\\text{friction}}}",
+      "interpretation": "紛争下で、社会の弾力性は制度と意志の力が脆弱性の歴史を超える比率として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><g stroke='#7c3aed' stroke-width='1.5'><line x1='30' y1='50' x2='40' y2='50'/><line x1='60' y1='50' x2='70' y2='50'/></g><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "内なる光（制度と意志）が、外側の圧力（紛争）に抗いながら、螺旋状に上昇する家族の回復力。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

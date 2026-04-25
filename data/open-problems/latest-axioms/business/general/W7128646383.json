@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P} = \\frac{\\rho \\cdot \\kappa}{1 + \\sigma} \\cdot \\sqrt[3]{\\delta}",
+      "interpretation": "女性の政治力は、社会的役割と資本の積が、制約を越えるとき開花する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='35' cy='40' r='8' stroke='#00ff88' stroke-width='1.5' fill='#00ff88'/><circle cx='65' cy='40' r='8' stroke='#00ff88' stroke-width='1.5' fill='#00ff88'/><path d='M 35 55 Q 50 65 65 55' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='5' stroke='#ffd700' stroke-width='2'/><polyline points='35,75 50,85 65,75' stroke='#00d4ff' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "村落の女性は光を集める中心点となり、上昇する力と根ざした実践が同時に起こる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{t}}{\\text{Scars}_{t-1}} \\cdot \\sqrt{\\text{Revenue}_{local}} = \\text{Accountability}_{emergent}",
+      "interpretation": "紛争の傷跡から信頼を再構築する過程で、地方財政が説明責任を生み出す不思議な比率。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><rect x='35' y='50' width='30' height='35' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='50' stroke='#00d4ff' stroke-width='2'/><polyline points='30,65 50,55 70,65' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='88' font-size='10' fill='#f59e0b' text-anchor='middle' font-weight='bold'>Rebuild</text></svg>",
+      "interpretation": "破壊と再生の間にある財源の流れが、信頼という根拠地から説明責任の構造へと上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Alliance}_{\\text{Safavid}}}{\\text{Trade}_{\\text{Silk}}} + \\int_{\\text{Hajj}} \\text{Safety}\\,d\\mu = \\text{Stability}_{\\text{favorable}}",
+      "interpretation": "二つの帝国の均衡は、共通の敵と流動する利益の振動から生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 40 Q 50 35 55 40' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 60 Q 50 65 55 60' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='30,35 50,20 70,35' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ffd700' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "二つの帝国は共通の脅威の上で交易の橋をかけ、聖地への道を守る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

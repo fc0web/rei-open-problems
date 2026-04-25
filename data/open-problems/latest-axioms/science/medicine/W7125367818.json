@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Scar}^{\\text{slow}}}{\\text{Seal}} \\ll \\frac{\\text{Micro}^{\\text{fast}}}{\\text{Scaffold}}",
+      "interpretation": "密集した微小な再生が、遅い単一の修復より、組織の運命を支配する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='25' cy='50' r='8' stroke='#ec4899' stroke-width='1' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><circle cx='65' cy='35' r='3'/><circle cx='72' cy='48' r='3'/><circle cx='68' cy='62' r='3'/><circle cx='58' cy='55' r='3'/><circle cx='75' cy='70' r='3'/><polyline points='65,35 72,48 68,62' fill='none'/><polyline points='58,55 75,70' fill='none'/></g><path d='M 30 50 L 55 50' stroke='#ffd700' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "石灰化の重い包囲と、微小移植の光る散乱ネットワークが衝突する瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

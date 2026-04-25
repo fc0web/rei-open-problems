@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-t} \\cdot \\mathrm{echo}(t) \\, dt = \\text{永遠}",
+      "interpretation": "時間の彼岸へ衰退する声が、無限の共鳴として留まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#7c3aed' stroke-width='1.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><circle cx='50' cy='30' r='3' fill='#00ff88' opacity='0.6'/><circle cx='70' cy='50' r='3' fill='#00ff88' opacity='0.6'/><circle cx='50' cy='70' r='3' fill='#00ff88' opacity='0.6'/><circle cx='30' cy='50' r='3' fill='#00ff88' opacity='0.6'/></svg>",
+      "interpretation": "中心の炎を囲む四方の星は、悼みの境界を越えて拡がる共同の想起。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

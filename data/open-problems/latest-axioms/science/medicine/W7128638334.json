@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{PND}_\\text{father} \\sim \\frac{\\text{Antenatal Risk}}{1 + \\beta \\cdot \\text{Relationship Quality}}",
+      "interpretation": "関係の質が深いほど、父親の産後抑うつのリスクは逆数的に減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 42 48 Q 50 45 58 48' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 42 52 Q 50 55 58 52' stroke='#00d4ff' stroke-width='2.5' fill='none'/><line x1='30' y1='32' x2='30' y2='18' stroke='#f59e0b' stroke-width='2'/><polyline points='25,22 30,18 35,22' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='10' fill='#7c3aed' text-anchor='middle'>bond softens storm</text></svg>",
+      "interpretation": "二つの円（父と関係）が深い共鳴の橋で結ばれ、上からの圧力（リスク）が緩和される構図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

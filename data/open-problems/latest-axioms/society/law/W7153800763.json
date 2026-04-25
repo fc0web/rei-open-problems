@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Visibility}_{\\text{Global}}}{\\text{Agency}_{\\text{Local}}} \\sim \\text{Silence}_{\\text{Subaltern}}",
+      "interpretation": "グローバルな監視と地方の行動能力の逆比例は、周辺化された声の沈黙を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 50 L 50 45' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='30' y1='70' x2='20' y2='85' stroke='#00ff88' stroke-width='1.5'/><line x1='70' y1='70' x2='80' y2='85' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "上の秩序ある世界と下の拡張する領域を結ぶ細い断絶線——見えない通路を暗示する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

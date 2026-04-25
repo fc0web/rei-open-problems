@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Law} \\cdot \\text{Capital}}{\\text{Struggle}} \\to \\text{Order}",
+      "interpretation": "法と資本が社会的闘争を分母として秩序を再生産する、その必然性が見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 L 30 58' stroke='#f59e0b' stroke-width='1.5'/><path d='M 50 42 L 70 58' stroke='#f59e0b' stroke-width='1.5'/><line x1='30' y1='82' x2='70' y2='82' stroke='#00ff88' stroke-width='2'/></svg>",
+      "interpretation": "上の一点（法と資本の思想）が二つの基盤（対立する社会勢力）へ分岐し、底部の線へ収束される —支配秩序の再生産。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

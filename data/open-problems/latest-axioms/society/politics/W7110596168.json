@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(t) = \\frac{G \\cdot V(t)}{1 + \\lambda C(t)} - \\delta F(t)",
+      "interpretation": "観光の繁栄は外部からの流動性に反比例する脆さを隠している。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 50 50 85' stroke='#ec4899' stroke-width='3' fill='none'/><path d='M 50 15 Q 30 50 50 85' stroke='#7c3aed' stroke-width='3' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700'/><line x1='50' y1='50' x2='50' y2='20' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "中心の黄金は外部からの流入に依存する脆い平衡を示唆している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

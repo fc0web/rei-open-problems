@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{E} = \\frac{\\int_0^\\infty P(t) \\, dt}{\\sum_{i}^{N} g_i \\cdot \\log(1 + \\text{SINR}_i)}",
+      "interpretation": "通信路の流れを二つに分かち、エネルギーは調和の逆像として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='58' stroke='#00ff88' stroke-width='2.5'/><line x1='38' y1='50' x2='62' y2='50' stroke='#ec4899' stroke-width='1.5'/><path d='M 35 30 Q 25 50 35 70' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 65 30 Q 75 50 65 70' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "上下の対称を破りながら、両側の流れが中心で交差する無限の庭園。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

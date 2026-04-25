@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\lim_{N\\to\\infty} \\frac{\\text{Mod}(\\mathcal{H}_N)}{|\\mathcal{H}_N|} = \\int_0^\\infty e^{-\\beta\\omega} \\, d\\omega",
+      "interpretation": "有限から無限へ：離散的な観測者の視点が、連続的な熱放射の対称性に溶け込んでいく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><circle cx='50' cy='20' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='20' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='35' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/><polyline points='50,28 50,30 50,40 50,50 50,60 50,70 50,80' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "粒子から波へ：有限な核が無限の波動に吸収され、同時に無限の熱が微小な点に集約される逆説的な振動。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

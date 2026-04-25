@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\left(\\text{genotype}_i \\to \\text{phenotype}_i\\right) = \\text{metabolic}_{\\text{Africa}}",
+      "interpretation": "遺伝子の多様性が表現型の迷宮を織り成し、アフリカの細菌の代謝は隠れた調和を歌う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='50,50 70,35 65,55 75,60' stroke='#ec4899' stroke-width='2' fill='none' stroke-linecap='round'/><polyline points='50,50 30,40 35,60 25,65' stroke='#f59e0b' stroke-width='2' fill='none' stroke-linecap='round'/><polyline points='50,50 55,25 50,35 60,30' stroke='#ffd700' stroke-width='2' fill='none' stroke-linecap='round'/></svg>",
+      "interpretation": "同心円の中から複数の経路が放射状に広がり、単一の遺伝子源から無数の生存戦略が花開く様を見る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

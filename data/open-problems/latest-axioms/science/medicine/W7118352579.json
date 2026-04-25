@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Healing} \\propto \\frac{\\text{MSC} \\times \\text{Scaffold} \\times \\text{Signal}}{\\text{Scar}}",
+      "interpretation": "破壊された骨は、幹細胞と信号分子の共鳴が瘢痕を克服するとき、本来の形へ還る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='8' fill='#00d4ff'/><circle cx='70' cy='50' r='8' fill='#00d4ff'/><line x1='30' y1='50' x2='70' y2='50' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><path d='M 50 20 Q 40 35 50 50 Q 60 35 50 20' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 50 Q 40 65 50 80 Q 60 65 50 80' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "対称的な幹細胞の対が、骨の空洞を超えて生成と修復の波動を送る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

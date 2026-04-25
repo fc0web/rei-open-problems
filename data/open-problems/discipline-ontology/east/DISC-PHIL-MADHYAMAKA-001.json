@@ -1,0 +1,60 @@
+{
+  "id": "DISC-PHIL-MADHYAMAKA-001",
+  "qid": "Q1075050",
+  "tier": 9,
+  "name": {
+    "ja": "中観派 (Madhyamaka)",
+    "en": "Madhyamaka (Middle Way School)"
+  },
+  "category": "discipline",
+  "tags": [
+    "buddhism",
+    "madhyamaka",
+    "sunyata",
+    "nagarjuna",
+    "eastern"
+  ],
+  "reiTyping": {
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "4 値否定 (catuṣkoṭi) により TRUE/FALSE/BOTH 全否定 → NEITHER の核心",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.5,
+      "theoryType": 0.85,
+      "reproducibility": 0.3,
+      "reconstructability": 0.6
+    },
+    "axisZ": "CLASS-D",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "苦しみの止滅を目的とする倫理的実践"
+  },
+  "provisionalityScore": 0.4,
+  "confidence": 0.9,
+  "falsifiability": "空 (śūnyatā) が言語的に完全記述できる形式体系が見つかれば中観の核心 (記述不能) と矛盾",
+  "culturalOrigin": "eastern",
+  "culturalNote": "Nāgārjuna (c. 150-250 CE) 創始。Mūlamadhyamakakārikā が原典",
+  "relations": {
+    "bridges": [
+      "DISC-PHIL-WEST-001",
+      "DISC-EPIST-001"
+    ],
+    "related_to": [
+      "DISC-DFUMT8-001"
+    ],
+    "seed_kernel_refs": [
+      "T-NAGARJUNA-SUNYATA"
+    ]
+  },
+  "description": {
+    "ja": "龍樹を祖とする大乗仏教哲学派。空 (śūnyatā) と縁起 (pratītyasamutpāda) を中心に置き、4 値否定 (有・無・有無・非有非無) で本質主義を解体",
+    "en": "Mahayana Buddhist philosophical school founded by Nāgārjuna. Centers on śūnyatā (emptiness) and pratītyasamutpāda (dependent origination). The catuṣkoṭi (four-fold negation) deconstructs essentialism."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.92,
+  "visibility": "public",
+  "created_at": "2026-04-25T13:45:36.057Z",
+  "updated_at": "2026-04-25T13:45:36.057Z",
+  "version": "0.1.0"
+}

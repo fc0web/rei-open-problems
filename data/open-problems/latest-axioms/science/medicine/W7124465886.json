@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\text{delay}(t) = -\\lambda \\cdot \\text{recognition}(t) + \\mu",
+      "interpretation": "時間との競争で、早期認識が発症の軌跡を曲げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 38 48 Q 50 30 62 48' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 38 52 Q 50 70 62 52' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='30' y1='50' x2='70' y2='50' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "診断という光が、神経の複雑な迷宮を照らし出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

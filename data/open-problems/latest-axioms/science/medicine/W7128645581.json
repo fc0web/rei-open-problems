@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-t} \\cdot \\frac{\\text{depth}}{\\text{time}} \\, dt = \\text{wisdom}",
+      "interpretation": "時間の深さを積分することで、経験は指数関数的な理解へ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 L 50 75' stroke='#00d4ff' stroke-width='2'/><polyline points='30,60 50,75 70,60' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='75' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 35 50 Q 50 55 65 50' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "年輪のように層状に蓄積された記憶と現在が同時に存在する状態。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

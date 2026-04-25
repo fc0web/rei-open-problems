@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Will}^{2}}{\\text{Capacity}} \\cdot \\sqrt{\\text{Resilience}} = \\text{Survival}",
+      "interpretation": "制度の容量よりも政治的意志の二乗が、社会の回復力の根を通じて、家族の生存を決める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 50 50 85 Q 35 50 50 15' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.7'/><g><circle cx='35' cy='50' r='4' fill='#00d4ff'/><circle cx='65' cy='50' r='4' fill='#f59e0b'/></g><text x='50' y='92' text-anchor='middle' font-size='8' fill='#7c3aed' font-family='serif'>conflict</text></svg>",
+      "interpretation": "紫の堅い輪は制度、緑の脈動する経路は家族の意志、ピンクの地平線は均衡の幻。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

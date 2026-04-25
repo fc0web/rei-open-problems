@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Pi = \\frac{\\mu_0 J_0^2 a^2}{\\rho c^2} = 8 \\cdot \\frac{v_A}{c/\\sqrt{2}}",
+      "interpretation": "プラズマの自己圧縮と量子の境界が一つの数に凝結する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ffd700;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='25' fill='none' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 20 Q 60 50 50 80 Q 40 50 50 20' fill='none' stroke='#00ff88' stroke-width='1'/><polyline points='20,50 35,45 50,50 35,55 20,50' fill='#ec4899' opacity='0.6'/></svg>",
+      "interpretation": "電流が軸を中心に渦を巻き、量子ペアが虚空から生まれ、磁場が自身を絞り続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

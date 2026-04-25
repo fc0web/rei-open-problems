@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\Lambda \\cdot r_h^2 = \\text{const} \\quad \\Rightarrow \\quad \\Omega_\\Lambda = \\frac{\\pi^3}{45}",
+      "interpretation": "地平線の縁で宇宙定数は体積の幻想に溶ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='45' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='4,2'/><line x1='50' y1='50' x2='50' y2='5' stroke='#ec4899' stroke-width='1.5'/><path d='M 50 50 L 80 50' stroke='#00ff88' stroke-width='1.5'/><text x='52' y='48' font-size='10' fill='#ffd700' font-family='serif'>Λ</text><path d='M 30 50 Q 50 35 70 50' stroke='#f59e0b' stroke-width='1' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "境界が内部の重さを決める—曲率が膜の上で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Political Will} \\cdot \\text{Legal Rigour}}{\\text{Bureaucratic Friction}} \\approx \\text{Security Paradox}",
+      "interpretation": "権力と法が共謀するほど、自由の影は深くなる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='53' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='53' stroke='#f59e0b' stroke-width='1.5'/><line x1='30' y1='77' x2='70' y2='77' stroke='#ec4899' stroke-width='2' stroke-dasharray='3,2'/><path d='M 50 88 Q 35 92 20 88' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 88 Q 65 92 80 88' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "三つの力が収束する時、下には見えない圧力が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

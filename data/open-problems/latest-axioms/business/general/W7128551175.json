@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{\\text{chaos}} \\text{data}\\,dt}{\\sqrt{\\text{intuition}^2 + \\text{algorithm}^2}} = \\text{clarity}",
+      "interpretation": "混沌とした日常のデータが、直感と機械知能の調和を通じて、意思決定の透明性へ変容する不思議。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='6' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='6' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 38 Q 35 55 30 64' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 38 Q 65 55 70 64' stroke='#f59e0b' stroke-width='2' fill='none'/><polyline points='30,76 50,50 70,76' stroke='#ffd700' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "上の一点（意思決定）から分岐する知識と直感が、下の底辺で再び収束し、統合された現実を形作る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

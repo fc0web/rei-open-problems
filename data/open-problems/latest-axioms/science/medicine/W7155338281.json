@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^T \\left(1 - \\frac{N(t)}{N_0}\\right) \\cdot Q(t) \\, dt \\approx \\Delta S",
+      "interpretation": "時間をかけて騒音を減らし、眠りの質を高めることで、患者の回復が静かに積分される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='10' y='60' width='15' height='30' fill='url(#g1)' opacity='0.7'/><rect x='30' y='45' width='15' height='45' fill='url(#g1)' opacity='0.7'/><rect x='50' y='25' width='15' height='65' fill='url(#g1)' opacity='0.7'/><rect x='70' y='10' width='15' height='80' fill='url(#g1)' opacity='0.7'/><polyline points='17.5,60 37.5,45 57.5,25 77.5,10' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='25' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "騒音の層が段階的に静寂へ降りていき、患者の目覚めの質が螺旋状に上昇する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

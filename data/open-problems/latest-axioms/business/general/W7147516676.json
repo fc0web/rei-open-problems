@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}^2}{\\text{Silence}} \\cdot \\sqrt[3]{\\text{Land} \\cap \\text{Rights}} = \\text{Emergence}",
+      "interpretation": "沈黙の層を貫く声の二乗が、地と権利の交わりの立方根と共鳴するとき、何かが目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 70 50 50 80' stroke='#00ff88' stroke-width='3' fill='none'/><path d='M 50 20 Q 30 50 50 80' stroke='#7c3aed' stroke-width='3' fill='none'/><polygon points='50,15 55,25 45,25' fill='#f59e0b'/><circle cx='50' cy='50' r='8' fill='#00d4ff'/></svg>",
+      "interpretation": "円の内側で交わる二つの道が、頂上の火種へと導き、中心で静寂と喧騒が共存する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

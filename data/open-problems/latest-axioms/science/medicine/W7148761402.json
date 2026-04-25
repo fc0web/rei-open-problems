@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Age} = \\int_0^t \\text{Wear}(s) \\, ds + \\text{Rebellion}(t)",
+      "interpretation": "時間の流れは単なる刻みではなく、身体が自らの歴史を書き直す力を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 60 50 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 40 50 50 85' stroke='#ec4899' stroke-width='2' fill='none'/><text x='50' y='55' text-anchor='middle' font-size='10' fill='#ffd700'>DNA</text></svg>",
+      "interpretation": "二重螺旋は時間に抗う暗号であり、外側の磨耗と内側の記憶が同じ身体で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

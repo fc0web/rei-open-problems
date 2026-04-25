@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Adoption}^{n}}{\\text{Resistance}} \\to \\text{Velocity of Progress}",
+      "interpretation": "技術採用の力が抵抗を超えるとき、進歩の速度は加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 50 L 70 30' stroke='#00ff88' stroke-width='3'/><path d='M 50 50 L 75 50' stroke='#7c3aed' stroke-width='3'/><path d='M 50 50 L 70 70' stroke='#ec4899' stroke-width='3'/><circle cx='70' cy='30' r='5' stroke='#f59e0b' stroke-width='1.5' fill='none'/><circle cx='75' cy='50' r='5' stroke='#ffd700' stroke-width='1.5' fill='none'/><circle cx='70' cy='70' r='5' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='30,80 40,70 50,75 60,65 70,72 80,60' stroke='#00d4ff' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "中心から放射する複数の道が、知識の拡散と能力開発の多元的な経路を示唆する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

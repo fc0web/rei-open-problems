@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Growth} \\propto \\int_0^{36} \\frac{\\text{Story}(t) \\cdot \\text{Culture}(t)}{\\text{Silence}(t)} \\, dt",
+      "interpretation": "物語の力は、文化と時間の中で沈黙を言葉に変える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 50 Q 65 35 75 25' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 50 Q 35 35 25 25' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 50 Q 60 65 65 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><path d='M 50 50 Q 40 65 35 80' stroke='#f59e0b' stroke-width='2.5' fill='none'/><text x='50' y='53' text-anchor='middle' font-size='8' fill='#ffd700' font-weight='bold'>S</text></svg>",
+      "interpretation": "中心の物語から四方へ広がる言語の根—それぞれが異なる文化の土へ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

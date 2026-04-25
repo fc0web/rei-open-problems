@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{t=0}^{T} \\frac{d\\Psi}{dt} - \\lim_{\\tau \\to T^-} \\Psi(\\tau) = \\sum_{n=1}^{\\infty} \\text{Unspoken}(n)",
+      "interpretation": "診断という境界の前後で、家族の状態が跳躍する―言葉にならない喪失の無限和として。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='50' y2='62' stroke='#7c3aed' stroke-width='2' stroke-dasharray='3,3'/><path d='M 30 50 Q 50 40 70 50' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 60 70 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "診断という引き裂き線が、知識と無知、前と後の世界を切り分ける。その間で二つの時間が絡み合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

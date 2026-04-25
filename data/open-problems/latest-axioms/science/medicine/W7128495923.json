@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^T \\text{symptom}(t) \\, dt}{\\sqrt{\\text{tissue}_0 \\cdot \\text{tissue}_t}} = \\text{severity}",
+      "interpretation": "時間とともに積分された苦痛が、組織の喪失の幾何平均で正規化される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><ellipse cx='50' cy='50' rx='35' ry='45' fill='none' stroke='url(#fade)' stroke-width='2'/><path d='M 30 35 Q 50 25 70 35' fill='none' stroke='#00ff88' stroke-width='2'/><path d='M 30 65 Q 50 75 70 65' fill='none' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='30' x2='50' y2='70' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "組織の萎縮は、対称性の喪失と内部の振動として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

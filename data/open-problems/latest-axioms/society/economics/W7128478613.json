@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "R = \\frac{1}{\\ln(1 + \\text{Fragility})} \\cdot e^{-\\text{Rigidity}} \\cdot \\sum \\text{Slack}",
+      "interpretation": "壊れやすさの対数の逆数が、硬さを負の指数で減衰させ、遊びの総和を増幅する",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='35' cy='35' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='65' cy='35' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='65' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='35,35 50,50 65,35' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,50 50,65' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 45 45 Q 50 55 55 45' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "中心に集約した硬い系が、周辺の柔軟な結び目たちを通じて、流動的な回路を作る",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

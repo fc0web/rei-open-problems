@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-\\lambda t} \\sin(\\mu \\cdot \\text{mutation}) \\, dt = \\frac{\\mu}{\\lambda^2 + \\mu^2}",
+      "interpretation": "変異が時間とともに記憶を振動させ、減衰する様子を見た。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 10 Q 70 30 60 50 Q 70 70 50 90' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00d4ff'/><line x1='20' y1='50' x2='80' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.5'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>PS1</text></svg>",
+      "interpretation": "単一の変異が細胞の中心で波紋のように広がり、すべてを揺さぶる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

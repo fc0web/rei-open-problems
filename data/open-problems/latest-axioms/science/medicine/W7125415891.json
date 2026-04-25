@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H(t) = \\frac{T \\cdot M}{1 + e^{-k(t-t_0)}} \\cdot e^{-\\alpha H}",
+      "interpretation": "極度の未熟さの中で、湿度と時間が傷の癒しの速度を決定する神秘的な曲線。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 65 35 70 50 Q 65 65 50 85' stroke='#7c3aed' stroke-width='2' fill='none'/><ellipse cx='50' cy='50' rx='20' ry='25' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/><polyline points='35,50 50,58 65,50' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "最奥部の黒い芯（壊死）を取り囲む湿潤な層の再生——時間とともに中心から螺旋状に癒える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

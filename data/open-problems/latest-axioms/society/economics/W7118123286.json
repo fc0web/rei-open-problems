@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "V_{\\text{firm}} = \\sum_{i=1}^{n} \\left( s_i \\cdot t_i \\cdot a_i \\right) + \\int_{0}^{T} \\frac{\\text{Innovation}(t)}{1+r}^t \\, dt",
+      "interpretation": "目に見えぬ人間の価値が、技術と適応力と革新の積として企業の本質を決める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1.5' fill='none'/><g stroke='#ec4899' stroke-width='1'><line x1='50' y1='15' x2='50' y2='30'/><line x1='50' y1='70' x2='50' y2='85'/><line x1='15' y1='50' x2='30' y2='50'/><line x1='70' y1='50' x2='85' y2='50'/></g><polyline points='35,35 50,25 65,35 55,50 65,65 50,75 35,65 45,50' stroke='#ffd700' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "隠れた輝きが外層を貫き、目に見える価値圏と目に見えぬ可能性が共振する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

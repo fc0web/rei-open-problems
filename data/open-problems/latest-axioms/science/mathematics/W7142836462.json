@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{S} = \\sum_{\\text{grains}} \\kappa (\\Delta\\theta)^2 + \\oint \\Xi \\nabla \\mathbb{G}^{\\mu\\nu} + \\int \\frac{\\Phi_{B}}{\\eta} \\sqrt{-\\mathbb{H}_{1155}}",
+      "interpretation": "時空の粗さと柔軟性は、ヒンジの張力と超流体の潤滑が織り成す交錯にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><circle cx='2' cy='2' r='1' fill='#7c3aed' opacity='0.6'/></defs><rect width='100' height='100' fill='url(#grain)' stroke='#00d4ff' stroke-width='1'/><g stroke='#ec4899' stroke-width='1.5' fill='none'><path d='M 20 50 Q 40 30 60 50 Q 80 70 90 50'/><line x1='35' y1='35' x2='35' y2='65' stroke-dasharray='2,2'/><line x1='65' y1='35' x2='65' y2='65' stroke-dasharray='2,2'/></g><ellipse cx='50' cy='50' rx='25' ry='20' fill='#00ff88' opacity='0.15' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "粒状の離散性が、弾性的なバネと超流体のうねりによって接合される像。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

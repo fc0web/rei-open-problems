@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\rho(t+\\Delta t) = \\int_0^t K(t-\\tau) \\cdot [\\mathbf{v}(\\tau) \\oplus \\mathbf{w}(\\tau)] d\\tau + \\epsilon",
+      "interpretation": "未来の混雑は過去の流れと天気の重ね合わせの記憶から立ち上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:1'/></defs><circle cx='25' cy='50' r='8' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='12' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='75' cy='50' r='8' fill='none' stroke='#7c3aed' stroke-width='2'/><polyline points='25,50 50,50 75,50' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 50 38 Q 55 44 50 50 Q 45 56 50 62' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "時間の川が未来へ分岐し、データの波が現在で渦を巻く予言の瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

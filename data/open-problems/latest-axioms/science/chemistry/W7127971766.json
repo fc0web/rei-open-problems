@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sqrt[3]{\\text{biomass}}}{\\text{waste}} = \\text{lignin} + \\text{cellulose} + \\Phi",
+      "interpretation": "生物質の立方根が廃棄物で割られて、価値へと変わる魔法。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#f59e0b'>biomass↔value</text></svg>",
+      "interpretation": "絡み合った繊維が、中心を通して上下の価値へと分かれていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

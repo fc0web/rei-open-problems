@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\frac{d[ROS]_i}{dt} = \\prod_{j} k_j(\\mathbf{x}) - \\int \\lambda(t) \\, d\\mu",
+      "interpretation": "室内の酸化種は、同時生成と消滅の競合する流れとして現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='8' fill='url(#glow)' opacity='0.7'/><g stroke='#ec4899' stroke-width='1.5' fill='none'><path d='M 50 50 L 35 30 M 50 50 L 65 28 M 50 50 L 70 50 M 50 50 L 65 72 M 50 50 L 35 70'/></g><circle cx='35' cy='30' r='3' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='65' cy='28' r='3' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='70' cy='50' r='3' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='65' cy='72' r='3' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='35' cy='70' r='3' stroke='#00d4ff' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "複数の光子源が中心の活性酸素へ同時に収束し、瞬間的な化学的舞踏を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

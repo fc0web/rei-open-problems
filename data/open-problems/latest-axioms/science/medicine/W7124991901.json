@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{ESG} \\cdot \\text{Risk}_{\\text{eco}}}{1 + \\text{opacity}} = \\text{Resilience}_{\\text{market}}",
+      "interpretation": "ESG原則と生態系リスク管理の積は、市場の透明性を通じて持続可能な復元力へ変換される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='35' cy='60' r='10' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='60' r='10' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 42 L 35 50' stroke='#00d4ff' stroke-width='1.5'/><path d='M 50 42 L 65 50' stroke='#00d4ff' stroke-width='1.5'/><ellipse cx='50' cy='75' rx='20' ry='8' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='30' y1='75' x2='70' y2='75' stroke='#00ff88' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "生態系と市場と規制が収束する点が、保険革新の土壌となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

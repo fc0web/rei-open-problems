@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\beta H(\\mathbf{B})} |\\psi\\rangle \\, d\\mathbf{B} = \\sum_{n} c_n e^{i\\phi_n(\\mathbf{B})}",
+      "interpretation": "磁場が波動関数を優雅に彫刻し、各量子状態が独自の位相で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='30' stroke='url(#g1)' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='20' y1='50' x2='35' y2='50'/><line x1='65' y1='50' x2='80' y2='50'/><line x1='50' y1='20' x2='50' y2='35'/><line x1='50' y1='65' x2='50' y2='80'/></g><path d='M 50 50 Q 60 40 70 50 Q 60 60 50 50' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "極低温の分子が磁場の十字路で静止し、量子の羅針盤が内側で回転する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\partial \\mathbf{J}}{\\partial \\theta} \\approx \\sqrt[3]{\\frac{\\det(\\mathbf{K})}{\\text{span}(\\mathbf{L})}} \\cdot e^{-\\lambda \\tau}",
+      "interpretation": "並列ロボットの感度は、剛性の行列式と駆動空間の競合が、時間スケールで減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='50' x2='30' y2='35' stroke='#00d4ff' stroke-width='1.2'/><line x1='50' y1='50' x2='70' y2='35' stroke='#00d4ff' stroke-width='1.2'/><line x1='50' y1='50' x2='40' y2='70' stroke='#7c3aed' stroke-width='1.2'/><line x1='50' y1='50' x2='60' y2='70' stroke='#7c3aed' stroke-width='1.2'/><polyline points='25,20 35,15 45,22' stroke='#00ff88' stroke-width='0.8' fill='none'/><polyline points='55,22 65,15 75,20' stroke='#00ff88' stroke-width='0.8' fill='none'/><path d='M 30 60 Q 50 85 70 60' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "6軸の並列脚が中心の感度点から放射状に広がり、剛性と柔軟性の緊張関係を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{acto}}{\\text{frecuencia}} \\cdot \\text{intención} \\to \\text{obligación}",
+      "interpretation": "習慣性という幽霊が、単なる行為を納税者へと変身させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 38 Q 40 50 30 62' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 50 38 Q 60 50 70 62' stroke='#ec4899' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><line x1='30' y1='78' x2='70' y2='78' stroke='#f59e0b' stroke-width='2'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>Habitualidad</text></svg>",
+      "interpretation": "一つの行為は幽霊のように、繰り返しの濃霧の中でようやく実体を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

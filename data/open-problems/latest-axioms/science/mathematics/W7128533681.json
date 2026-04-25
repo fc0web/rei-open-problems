@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\begin{pmatrix}S\\\\I\\\\E\\end{pmatrix} = \\begin{pmatrix}-\\beta SI\\\\\\beta SI - \\gamma I\\\\\\gamma I\\end{pmatrix} + \\mathcal{M}_{\\text{social}}",
+      "interpretation": "接触が生命を分岐させる、しかし社会という見えざる力が全てを混ぜ返す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 38 46 Q 50 35 62 48' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 38 54 Q 50 65 62 52' stroke='#7c3aed' stroke-width='1.5' fill='none'/><polyline points='50,30 50,60' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "三つの状態が時間の矢の中で螺旋し、目に見えない糸が全てを結ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

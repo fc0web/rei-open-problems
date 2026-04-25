@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{CD7}^{1/3}}{1 - e^{-\\lambda \\cdot \\text{LSC}}} \\sim \\text{relapse}",
+      "interpretation": "CD7の発現が幹細胞性を高めるほど、再発のカーブは急峻に立ち上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='#ec4899' opacity='0.3'/><path d='M 50 50 L 65 35' stroke='#f59e0b' stroke-width='2' stroke-dasharray='3,2'/><path d='M 50 50 L 70 50' stroke='#f59e0b' stroke-width='2' stroke-dasharray='3,2'/><path d='M 50 50 L 65 65' stroke='#f59e0b' stroke-width='2' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "同心円の奥深く、変異した核（ピンク）が幹細胞の潜在性へと向かう矢は、逃げ場のない運命を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

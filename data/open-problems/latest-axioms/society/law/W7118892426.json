@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Human Judgment}}{\\text{AI Capability}} \\cdot \\sqrt{\\text{Trust}} = \\text{Legal Truth}",
+      "interpretation": "法律の真実は、人間の判断とAIの力の比率に、信頼という根によってのみ到達される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='45' y1='50' x2='55' y2='50' stroke='#ec4899' stroke-width='2'/><path d='M 50 35 Q 40 45 50 55 Q 60 45 50 35' stroke='#ffd700' stroke-width='1.5' fill='none'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#00ff88' font-family='serif'>⚖</text></svg>",
+      "interpretation": "左右の円（人間とAI）は揺れ動く黄金の架け橋によって結ばれ、底には正義の天秤が待つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

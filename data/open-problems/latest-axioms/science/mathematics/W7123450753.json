@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{m_i}{m_0} = 2^{n/k} \\quad (n \\in \\mathbb{Z}, k=2)",
+      "interpretation": "遺された重さたちが倍々で整然と増えゆく、古き者らの秩序の記憶。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='70' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='30' r='16' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='30,62 50,38 70,14' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "大いなる均衡の塔：積み重ねられた証拠が、消えた文明の測りの心を語る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

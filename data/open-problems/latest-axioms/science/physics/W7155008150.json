@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-x^2} \\cos(\\text{enamel}) \\, dx = \\frac{\\sqrt{\\pi}}{2} \\cdot \\text{youth}",
+      "interpretation": "やきもの色は時間を貫く、少年の墓に留まる光。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><polygon points='50,20 70,50 65,80 35,80 30,50' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='50' cy='45' r='6' fill='#ffd700' opacity='0.8'/><circle cx='45' cy='50' r='3' fill='#ec4899'/><circle cx='55' cy='50' r='3' fill='#00ff88'/><line x1='50' y1='80' x2='50' y2='95' stroke='#f59e0b' stroke-width='1.5'/></svg>",
+      "interpretation": "三角形の玉は異邦の火、土に根ざしたローマの子供の光。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\left( \\text{Alkaloid}_i + \\text{Flavonoid}_i \\right) \\propto \\int_{\\text{desert}}^{\\text{cell}} \\text{Bioactivity}\\, dx",
+      "interpretation": "砂漠の植物に秘められた生命力が、試験管の中で化学式として目覚める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' opacity='0.3' stroke='#00ff88' stroke-width='1.5'/><circle cx='50' cy='30' r='8' fill='none' stroke='#ec4899' stroke-width='2'/><circle cx='35' cy='55' r='6' fill='none' stroke='#ffd700' stroke-width='1.5'/><circle cx='65' cy='60' r='7' fill='none' stroke='#00d4ff' stroke-width='1.5'/><line x1='50' y1='50' x2='50' y2='30' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='50' y1='50' x2='35' y2='55' stroke='#ffd700' stroke-width='1' opacity='0.6'/><line x1='50' y1='50' x2='65' y2='60' stroke='#00d4ff' stroke-width='1' opacity='0.6'/><text x='50' y='92' font-size='9' text-anchor='middle' fill='#7c3aed' font-weight='bold'>in vitro</text></svg>",
+      "interpretation": "砂漠の根から放たれた三つの化学の光が、中心の生命へと収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

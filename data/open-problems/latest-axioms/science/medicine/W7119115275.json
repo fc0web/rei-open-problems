@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\text{Risk}}{dt} \\propto \\frac{1}{\\text{Maturity}(t)} \\cdot \\text{Exposure}",
+      "interpretation": "思春期の脳成熟が遅れるほど、リスクは指数的に増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='40' r='25' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 35 25 50 40 Q 65 25 50 15' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='30,65 50,50 70,65' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "未熟な脳（上の曲線）から下降する危機の流れ—決断と行動が絡み合う。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

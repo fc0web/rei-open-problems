@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Governance}^2 + \\text{Actors}}{\\text{Decision-Space}} \\approx \\text{Public-Quality}",
+      "interpretation": "統治と行為者の力が決定空間を分割するほど、都市の公共性は明らかになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='42' y1='50' x2='58' y2='50' stroke='#ec4899' stroke-width='1.5'/><path d='M 50 20 Q 35 50 50 80' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 20 Q 65 50 50 80' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>waterfront</text></svg>",
+      "interpretation": "二つの計画システムが互いに引き合いながら、流動する公共空間を形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

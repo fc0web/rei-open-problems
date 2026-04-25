@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Recognition}}{\\text{Capacity}} \\to \\infty \\implies \\text{Reform} \\to 0",
+      "interpretation": "国際的承認が国家能力から乖離するほど、改革圧力は消滅する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='35' y1='50' x2='65' y2='50' stroke='#ffd700' stroke-width='3'/><path d='M 50 30 Q 45 50 50 70' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='4'/><text x='50' y='88' font-size='10' text-anchor='middle' fill='#00ff88'>chasm</text></svg>",
+      "interpretation": "二つの円は国際的正統性と領土統制の乖離を示し、黄金の軸は虚構的な結合を、紫の曲線は現実との断絶を象徴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

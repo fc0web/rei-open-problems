@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Jurisdiction} \\times \\text{Compliance}}{\\text{Resistance}^2} = \\text{Effectiveness}",
+      "interpretation": "司法権と順守が抵抗の二乗に比例して初めて実効性が生まれる、という不可思議な均衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='10' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='30' y2='55' stroke='#f59e0b' stroke-width='1.5'/><line x1='50' y1='42' x2='70' y2='55' stroke='#f59e0b' stroke-width='1.5'/><line x1='30' y1='75' x2='70' y2='75' stroke='#00ff88' stroke-width='2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed' font-family='serif'>Africa</text></svg>",
+      "interpretation": "上の一点的権威から下の二つの力（順守と抵抗）が分岐し、大地に統合される相互依存の構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

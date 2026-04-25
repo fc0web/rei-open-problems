@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{t}}{\\text{Representation}_{0}} \\approx \\int_{\\text{exclusion}}^{\\text{inclusion}} \\frac{d(\\text{Voice})}{d(\\text{Time})}",
+      "interpretation": "代表性の欠如が時間とともに信頼を侵食し、包括的な声が関係を癒す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='35' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='18' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 53 50 L 47 50' stroke='#ec4899' stroke-width='3'/><line x1='35' y1='32' x2='35' y2='20' stroke='#00d4ff' stroke-width='2'/><line x1='65' y1='32' x2='65' y2='20' stroke='#00d4ff' stroke-width='2'/><polyline points='35,68 50,80 65,68' stroke='#f59e0b' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "二つの円が細い橋で結ばれ、上から光が注ぎ、下の土台へと共に降りていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

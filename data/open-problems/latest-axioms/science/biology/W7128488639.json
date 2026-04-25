@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\mathrm{AG}_{\\text{ortho}}}{\\mathrm{AG}_{\\text{spec}}} = \\int_{\\text{Brassica}} \\mathrm{d}(\\text{carpel}) \\cdot \\exp(-\\delta_{\\text{divergence}})",
+      "interpretation": "異なるアブラナ科種でのAGの役割は、分化距離に応じて指数関数的に減衰する花器官の比である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='25' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='30' cy='65' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='70' cy='65' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='4' fill='#ec4899'/><polyline points='50,25 50,50 30,65' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/><polyline points='50,50 70,65' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "中心のAGAMOUS遺伝子から各種族への放射パターンは、共通の祖先機能から多様な花器官形成への進化分岐を暗示する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

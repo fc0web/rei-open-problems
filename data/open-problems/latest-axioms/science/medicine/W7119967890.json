@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Growth}}{1 + \\beta \\cdot \\text{Glucose}^2} = \\text{Fate}",
+      "interpretation": "血糖が成長の分母に隠れて、運命を静かに変える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 45 50 L 55 50' stroke='#f59e0b' stroke-width='2'/><polyline points='30,20 30,80 70,80 70,20' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.4'/></svg>",
+      "interpretation": "二つの道が並走し、見えない糸が両者を結ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

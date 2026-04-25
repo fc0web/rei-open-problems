@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Scar}}{\\text{Sello}} \\ll \\frac{\\text{Micrograft}}{\\text{Time}^{2}}",
+      "interpretation": "微細な粒子の増殖は、時間の二乗に逆らって、瘢痕の単調さを超える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#ec4899'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='30' cy='30' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='55' r='6' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='85' cy='65' r='5' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='30' y1='30' x2='70' y2='70' stroke='url(#g1)' stroke-width='1' stroke-dasharray='3,2'/><path d='M 30 45 Q 50 40 70 55' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "大きな傷痕（左）から微細な再生の星雲へ、時間が橋を引く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

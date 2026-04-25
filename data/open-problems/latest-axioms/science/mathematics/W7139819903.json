@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\oint_{\\partial D} \\omega(t) \\times \\mathbf{u} \\, d\\ell = \\frac{d}{dt}\\int_D \\nabla^2 \\mathbf{u} \\, dV",
+      "interpretation": "振動する立方体から放出される渦の署名は、内部の粘性と時間の呼吸のバランスが織りなす。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.wave{animation:none}</defs><rect x='30' y='35' width='40' height='40' rx='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 45 25 50 35 Q 55 45 50 55' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 65 Q 45 75 50 85 Q 55 95 50 105' stroke='#ec4899' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1' opacity='0.6'><circle cx='28' cy='55' r='6' fill='none'/><circle cx='72' cy='55' r='6' fill='none'/><circle cx='50' cy='28' r='6' fill='none'/><circle cx='50' cy='72' r='6' fill='none'/></g></svg>",
+      "interpretation": "丸まった立方体の周囲に、時間とともに脈動する分離の渦が踊り、位相の外で引き離される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }
