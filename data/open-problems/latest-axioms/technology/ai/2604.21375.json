@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\text{Stop}} + \\frac{1}{\\text{Recover}} + \\frac{1}{\\text{Search}} = \\text{Escape}",
+      "interpretation": "三つの逆数が足りることで、無限ループから脱出する調和が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><polyline points='50,50 65,35 75,50 65,65' fill='none' stroke='#f59e0b' stroke-width='2'/></svg>",
+      "interpretation": "同心円が検証の層を重ね、矢印が迷宮から脱出する選択を指し示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

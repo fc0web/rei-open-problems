@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Technology}}{{1 + \\text{Society}}} = \\text{Blind Spot}",
+      "interpretation": "社会を分母に置かぬ技術知は、見えぬ危機を倍にする。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='20' y='55' width='60' height='25' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='55' stroke='#ec4899' stroke-width='2'/><path d='M 30 70 Q 50 80 70 70' stroke='#00ff88' stroke-width='2' fill='none' stroke-dasharray='3,3'/><text x='50' y='90' text-anchor='middle' font-size='10' fill='#ffd700'>gap</text></svg>",
+      "interpretation": "上の回路は光り、下の人間は消える。接続は切れたままだ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

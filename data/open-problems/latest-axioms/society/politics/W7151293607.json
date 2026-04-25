@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Private Scope}}{\\text{Public Constraint}} \\cdot \\text{Biometric Power} = \\text{Access Denied}",
+      "interpretation": "民間の目は公的規制の隙間を通して、平等なアクセスを蝕む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 L 50 85' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/><polygon points='30,50 50,40 70,50 50,60' fill='#f59e0b' opacity='0.6'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-weight='bold'>THRESHOLD</text></svg>",
+      "interpretation": "規制の境界線が二つの視線—公的なものと民間のもの—の間に揺らぎ、その隙間に市民が閉じ込められる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

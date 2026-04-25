@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Crisis}_{t}}{\\text{Memory}_{t-1}} \\cdot \\text{Access}_{\\text{wild}} = \\text{Resilience}_{\\text{next}}",
+      "interpretation": "危機から学んだ知恵が、自然へのアクセスを守りながら次の備えへ変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 Q 35 56 50 58 Q 65 56 50 42' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='95' text-anchor='middle' font-size='8' fill='#ffd700'>THRESHOLD</text></svg>",
+      "interpretation": "危機と常態の間を流れる学習が、自然保護と公衆衛生の緊張を編み直す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Witness}^2 + \\text{Risk}}{\\text{Distance}} \\to \\text{Solidarity}",
+      "interpretation": "証人の勇気と危険が、距離を縮め連帯へと化ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 38 L 35 62' stroke='#ffd700' stroke-width='2' fill='none'/><path d='M 50 38 L 65 62' stroke='#ffd700' stroke-width='2' fill='none'/><line x1='30' y1='78' x2='70' y2='78' stroke='#00d4ff' stroke-width='2.5'/></svg>",
+      "interpretation": "上からの一人の目撃が、下の二者を橋で結び、正義の地盤を作る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

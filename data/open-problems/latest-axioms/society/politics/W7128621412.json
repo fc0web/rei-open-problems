@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Aspiration}_{\\text{urban}}}{\\text{Identity}_{\\text{origin}}} \\cdot \\int_{\\text{time}} \\text{Decision}(x) \\, dx = \\text{Citizenship}_{\\text{liminal}}",
+      "interpretation": "移動は分数的な自己の引き延ばしであり、時間による意思決定の蓄積が、国籍という名の曖昧な状態を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 40 50 Q 50 35 60 50' stroke='#7c3aed' stroke-width='2.5' fill='none' marker-end='url(#arrowhead)'/><path d='M 60 50 Q 50 65 40 50' stroke='#00ff88' stroke-width='2.5' fill='none' marker-end='url(#arrowhead)'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.6'/></svg>",
+      "interpretation": "二つの世界の間で揺らぐ黄金の核——逃げることも帰ることもできない、ただ循環するだけの魂。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

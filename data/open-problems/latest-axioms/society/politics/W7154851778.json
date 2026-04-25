@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Faith}^{2}}{\\text{Land}} + \\frac{\\text{Memory}}{\\sqrt{\\text{Borders}}} = \\text{Self}",
+      "interpretation": "信仰と土地の張力が、記憶の根によって自己を定義する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 L 50 85' stroke='#00d4ff' stroke-width='2'/><path d='M 15 50 L 85 50' stroke='#00ff88' stroke-width='2'/><polygon points='50,20 60,40 40,40' fill='#ec4899' opacity='0.7'/><circle cx='50' cy='65' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#7c3aed'>ܘܘܘ</text></svg>",
+      "interpretation": "十字が交差する円：三つの同心的アイデンティティが互いに織り交ざり、中心で一つになろうとする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

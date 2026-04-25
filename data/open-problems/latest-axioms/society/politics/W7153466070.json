@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Norm}^2 - \\text{Reality}^2}{\\text{Flux}_{UD} + \\text{Flux}_{US}} = \\text{Potential}",
+      "interpretation": "国際規範と地域現実の緊張が、流動的な交易ネットワークの中で潜在力を生成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 45 38 Q 35 55 32 68' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 55 38 Q 65 55 68 68' stroke='#f59e0b' stroke-width='2' fill='none'/><polyline points='30,70 50,50 70,70' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "三角形の頂点—規範、スーダン、ウガンダ—の間に振動する張力の網。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

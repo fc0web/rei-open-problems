@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{A}(t) = \\int_0^t \\text{Thompson}(\\pi_m) \\, d\\tau + \\sum_{k=1}^{K} \\text{Reflect}(\\mathcal{F}_k) \\cdot \\mathcal{S}(t)",
+      "interpretation": "二つの時間スケールが共鳴し、短い周期の選択と長い周期の省察が、エージェントの記憶を進化させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 38 Q 35 50 50 62' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 38 Q 65 50 50 62' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 30,45 40,55 50,48' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='80,50 70,45 60,55 50,48' stroke='#ffd700' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "上の瞬間的な選択と下の深い省察が、二本の螺旋となって経験を編み上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_\\text{visual} f(x) \\, dx}{\\sum_\\text{missing} \\log(1 + |\\text{absence}|)}",
+      "interpretation": "視覚的な連続体から欠落の幽霊を通して意味を汲み上げる逆説的な割合。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='20' y1='30' x2='80' y2='30' stroke='#7c3aed' stroke-width='1.5'/><line x1='20' y1='45' x2='55' y2='45' stroke='#7c3aed' stroke-width='1.5'/><line x1='20' y1='45' x2='55' y2='45' stroke='#ffd700' stroke-width='3' opacity='0.6'/><circle cx='65' cy='45' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='20' y1='60' x2='45' y2='60' stroke='#7c3aed' stroke-width='1.5'/><line x1='45' y1='60' x2='80' y2='60' stroke='#00ff88' stroke-width='2' stroke-dasharray='3,2'/><path d='M 30 75 Q 40 70 50 75 T 70 75' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "ページの骨組みに浮かぶ欠落——見えない線が全体の意味を支える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

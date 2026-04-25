@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sigma_{\\text{GEM}}(x) = \\frac{x}{1 + e^{-2Nx}} \\cdot \\frac{1}{(1+e^{-2Nx})^{2N}}",
+      "interpretation": "滑らかさと鋭さが、対数的な階段を通じて踊っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><path d='M 10 85 Q 30 80 50 40 Q 70 10 90 5' stroke='url(#g1)' stroke-width='3' fill='none' stroke-linecap='round'/><circle cx='50' cy='40' r='3' fill='#ec4899'/><line x1='10' y1='85' x2='90' y2='5' stroke='#00ff88' stroke-width='0.5' opacity='0.4' stroke-dasharray='2,2'/><polygon points='50,40 48,35 52,35' fill='#ffd700'/></svg>",
+      "interpretation": "直線の束縛から脱け出す、しかし痕跡は消えない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

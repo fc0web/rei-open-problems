@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{local} \\cdot \\text{Bonds}_{social}}{\\text{Isolation}_{extremist}} \\propto \\text{Prevention}",
+      "interpretation": "地域の信頼と社会的絆の積が、孤立の深さで割られるとき、予防は生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='12' stroke='#7c3aed' stroke-width='1.5' fill='#7c3aed' opacity='0.3'/><circle cx='50' cy='35' r='12' stroke='#00ff88' stroke-width='1.5' fill='#00ff88' opacity='0.3'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='1.5' fill='#ec4899' opacity='0.3'/><line x1='30' y1='50' x2='50' y2='50' stroke='#ffd700' stroke-width='1.5'/><line x1='50' y1='35' x2='50' y2='50' stroke='#ffd700' stroke-width='1.5'/><line x1='70' y1='50' x2='50' y2='50' stroke='#ffd700' stroke-width='1.5'/><path d='M 50 50 Q 40 30 30 50' stroke='#f59e0b' stroke-width='1' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "地域の多様な行為者が円の中心へ向かい、金の糸で結ばれ、隔絶の心臓部を光で満たす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

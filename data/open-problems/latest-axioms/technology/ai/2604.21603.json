@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\min_{R \\in \\text{Rep}} \\left| R \\setminus \\text{Pref} \\right| \\cdot \\text{card}(\\text{conflict}(R))",
+      "interpretation": "優先度が矛盾を静かに和解させ、捨てるべきものを最小化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='35,45 65,55' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 50 30 L 50 70' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2' fill='none'/><polygon points='50,25 53,32 47,32' stroke='#7c3aed' stroke-width='1' fill='#7c3aed'/></svg>",
+      "interpretation": "衝突する事実が優先度の矢によって統一の方へ引き寄せられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

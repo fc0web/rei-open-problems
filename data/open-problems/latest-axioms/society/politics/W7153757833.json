@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}_{\\text{internal}}}{\\text{Structure}_{\\text{org}}} \\times \\text{Impact}_{\\text{external}} = \\text{Legitimacy}_{\\text{collective}}",
+      "interpretation": "内なる声と外なる力が、組織の構造を通じて増幅される時、集団の正当性が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='60' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='60' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 L 30 50 M 50 42 L 70 50' stroke='#7c3aed' stroke-width='2'/><polyline points='30,70 50,85 70,70' stroke='#f59e0b' stroke-width='2' fill='none'/><line x1='50' y1='85' x2='50' y2='95' stroke='#ffd700' stroke-width='2'/></svg>",
+      "interpretation": "内部の声（上）が複数の層を通じて結晶化し、外部への影響へと流れ落ちていく構造。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

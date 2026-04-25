@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(y_i|a, d) \\cdot \\mathcal{E}(r_i|\\phi_a) = \\int_0^\\infty \\frac{1}{\\sqrt{t}} e^{-\\frac{(a \\otimes d)^2}{4t}} dt",
+      "interpretation": "各注釈者の声は、彼ら自身の説明という川を通じて拡散し、身元と属性の深い内積に従う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='7' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='7' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='38' x2='35' y2='58' stroke='#ffd700' stroke-width='1.5'/><line x1='50' y1='38' x2='65' y2='58' stroke='#ffd700' stroke-width='1.5'/><path d='M 30 72 Q 50 85 70 72' stroke='#00ff88' stroke-width='2' fill='none'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>rationales</text></svg>",
+      "interpretation": "一つの視点（紫）から放出される説明の光が、個別の注釈者たちの異なる見解の中で収束し、言葉の流れに沿って凝聚する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

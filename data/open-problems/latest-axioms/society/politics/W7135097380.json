@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Terra}}{\\text{Povertà}} = \\int_{\\text{Comunità}} \\text{Dignità} \\, d\\xi",
+      "interpretation": "大地への正義は、共同体の尊厳を積分することで、貧困を超克する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 40 50 75 Q 35 40 50 15' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='25,50 50,50 75,50' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700'/></svg>",
+      "interpretation": "根と枝と土壌が一つの輪郭を成す、社会的根拠と環境正義の統一体。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

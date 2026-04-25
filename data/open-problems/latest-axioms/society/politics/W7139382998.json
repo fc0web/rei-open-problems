@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Pecan}_{\\text{long}} \\cdot \\text{Caper}_{\\text{short}}}{\\text{Time}^2} + \\text{Brand} \\to \\text{Market}^{\\infty}",
+      "interpretation": "長期と短期の収穫のズレが時間で正規化され、ブランド力が無限市場へ吸収される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='30' cy='50' r='12' stroke='#f59e0b' stroke-width='2' fill='none'/><ellipse cx='70' cy='50' rx='8' ry='14' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 42 50 Q 55 40 70 45' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,20 55,50 50,80' stroke='#ffd700' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed' font-weight='bold'>raíz→mercado</text></svg>",
+      "interpretation": "短期の果実（小楕円）が長期の樹木（大円）に織り込まれ、垂直の根が市場へ貫く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

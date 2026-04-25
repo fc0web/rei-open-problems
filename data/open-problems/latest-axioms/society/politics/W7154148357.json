@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Circle}_{\\text{indigenous}}}{\\text{Line}_{\\text{colonial}}} = \\text{Spiral}_{\\text{emergence}}",
+      "interpretation": "植民地的直線性を環状の知恵で割ることで、新しい螺旋的な組織形態が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 50 50 85 Q 30 50 50 15' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.4'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>decolonial</text></svg>",
+      "interpretation": "同心円が相互性を、渦巻きが時間の再編成を示し、植民地的な直線が薄れていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

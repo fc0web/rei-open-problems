@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Bias}_{\\text{gov}}}{\\text{Bias}_{\\text{market}}} = \\int_0^1 \\frac{1}{1+e^{-w(x-0.5)}} dx",
+      "interpretation": "イデオロギーの傾きは、モデルの重み付けが経済的現実を通す関数である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 38 L 30 62' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><path d='M 50 38 L 70 62' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='30' y1='78' x2='70' y2='78' stroke='#ffd700' stroke-width='2'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>empiric</text></svg>",
+      "interpretation": "真実（上）から二つのイデオロギー的分岐が生まれ、下の現実で衝突する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

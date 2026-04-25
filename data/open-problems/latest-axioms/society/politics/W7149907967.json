@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{L_1 + L_2 + L_3}{1 + T_c + T_p + T_s} = \\text{Unity}_{\\text{elusive}}",
+      "interpretation": "三つの言語が統一を求めるほど、現実の緊張がそれを遠ざける。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='20' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='30' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='25' y1='42' x2='50' y2='60' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='50' y1='32' x2='50' y2='60' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><line x1='75' y1='42' x2='50' y2='60' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='72' r='8' stroke='#f59e0b' stroke-width='2' fill='none'/><text x='50' y='76' text-anchor='middle' font-size='10' fill='#f59e0b'>?</text></svg>",
+      "interpretation": "三つの言語が一点に収束しようとするが、教室の現実は中心へ向かう道を曲げてしまう。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

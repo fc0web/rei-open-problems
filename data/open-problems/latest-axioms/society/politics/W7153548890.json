@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Norm}_\\text{intl}}{\\text{Friction}_\\text{local}} \\cdot \\sqrt[3]{\\text{Trade}_\\text{bilateral}} = \\text{Potential}_\\text{unrealised}",
+      "interpretation": "国際規範と地域の摩擦の比が、二国間貿易の立方根を乗じると、未実現の可能性が浮かぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='12' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 42 50 L 58 50' stroke='#f59e0b' stroke-width='1.2'/><polyline points='30,38 50,32 70,38' stroke='#00ff88' stroke-width='1.2' fill='none'/><path d='M 50 58 Q 30 75 20 85' stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.6'/><path d='M 50 58 Q 70 75 80 85' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "三つの節点—規範、地域、そして中心にある緊張—がいくつもの流れを引き出す、解かれない絡み合い。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

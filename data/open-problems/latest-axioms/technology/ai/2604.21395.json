@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\exists \\mathbf{v} : \\nabla_\\mathbf{v} \\mathcal{L} \\neq 0 \\land (\\mathbf{v} \\perp \\text{test}) \\Rightarrow \\text{ERM blind}",
+      "interpretation": "教師あり学習は、訓練で相関した方向を永遠に見失う運命にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.2'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='#00d4ff' stroke-width='2'/><circle cx='50' cy='50' r='25' fill='none' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='2' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#00ff88' stroke-width='1.5' opacity='0.5'/><circle cx='50' cy='50' r='5' fill='#ffd700'/><path d='M 50 50 L 65 35' stroke='#f59e0b' stroke-width='2' marker-end='url(#arrowhead)'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='monospace'>⊥</text></svg>",
+      "interpretation": "中心の盲点は必然：訓練で光った軸ほど、テスト時の暗闇へ向く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

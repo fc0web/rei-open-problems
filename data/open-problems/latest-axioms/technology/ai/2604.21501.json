@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L} = \\int_0^T \\text{perceive}(x_t) \\to \\text{reason}(h_t) \\to \\text{analyze}(\\delta_t) \\, dt",
+      "interpretation": "時間とともに知覚から推論へ、推論から検証へと流れる地質学的思考の連続性",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='50%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00ff88'/></defs><circle cx='20' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 28 50 L 42 50' stroke='url(#grad)' stroke-width='2' fill='none' marker-end='url(#arrowhead)'/><path d='M 58 50 L 72 50' stroke='url(#grad)' stroke-width='2' fill='none'/><polyline points='20,30 35,25 50,35 65,22 80,40' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><text x='20' y='65' font-size='8' fill='#7c3aed' text-anchor='middle'>perceive</text><text x='50' y='65' font-size='8' fill='#7c3aed' text-anchor='middle'>reason</text><text x='80' y='65' font-size='8' fill='#7c3aed' text-anchor='middle'>analyze</text></svg>",
+      "interpretation": "岩石の層を貫く知覚から推論、検証の三段階の対話的流れが地質現実へと収束する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

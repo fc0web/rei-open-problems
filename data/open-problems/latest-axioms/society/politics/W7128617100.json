@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E = \\frac{L_{\\text{prior}} \\cdot T_{\\text{env}}}{\\Delta_{\\text{lang}} + R_{\\text{tech}}}",
+      "interpretation": "先行する識字と環境の出会いが、言語と技術の落差によって鍛えられる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='30' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 42 48 Q 50 35 58 52' stroke='#00ff88' stroke-width='2.5' fill='none'/><polyline points='25,30 30,50 25,70' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><polyline points='75,30 70,50 75,70' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='88' font-size='10' text-anchor='middle' fill='#7c3aed' opacity='0.7'>friction→growth</text></svg>",
+      "interpretation": "古い円と新しい円の間の弧は、摩擦の中で生まれる学習の軌跡。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

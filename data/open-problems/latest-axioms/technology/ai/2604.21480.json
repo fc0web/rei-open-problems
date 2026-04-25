@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Coverage}(\\mathcal{T})}{\\text{Depth}} \\cdot e^{-\\text{Redundancy}} \\approx \\text{Failure}_{\\text{uncovered}}",
+      "interpretation": "多様性が増すほど、同じ道を歩む無駄が消え、隠れた破綻が姿を見せる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='20' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='28' x2='50' y2='45' stroke='url(#g1)' stroke-width='2'/><circle cx='35' cy='55' r='7' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='60' r='7' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='55' r='7' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 35 62 Q 50 75 65 62' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><polygon points='50,85 45,92 55,92' fill='#ec4899' opacity='0.7'/></svg>",
+      "interpretation": "木が枝分かれするたび、新しい失敗の形が根から浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

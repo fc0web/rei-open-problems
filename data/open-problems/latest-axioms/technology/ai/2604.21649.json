@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\frac{\\mathcal{H}_i(e)}{2^{d_i}} \\cdot \\prod_{j<i} \\text{refinement}_j = \\text{entity}_e",
+      "interpretation": "実体は粗い語義から細い構造へと、層状に積み重なる言語的な息吹である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#00d4ff;stop-opacity:1'/></defs><circle cx='50' cy='20' r='8' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><line x1='50' y1='28' x2='50' y2='45' stroke='#7c3aed' stroke-width='2'/><rect x='35' y='45' width='30' height='15' rx='2' fill='none' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='60' x2='50' y2='75' stroke='#7c3aed' stroke-width='2'/><polygon points='50,85 40,75 60,75' fill='#ec4899' stroke='#ec4899' stroke-width='1'/><g opacity='0.4'><line x1='35' y1='50' x2='25' y2='50' stroke='#ffd700' stroke-width='1'/><line x1='65' y1='50' x2='75' y2='50' stroke='#ffd700' stroke-width='1'/></g></svg>",
+      "interpretation": "上方の輝きが細粒化され、層状に降り、最後に離散的な指先へと枝分かれする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

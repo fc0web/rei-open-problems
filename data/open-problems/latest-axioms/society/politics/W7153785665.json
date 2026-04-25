@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Capital}_{\\text{flow}} \\cdot \\text{Regulation}_{\\text{local}}}{\\text{Distance}_{\\text{formal}} + \\text{Trust}_{\\text{digital}}} \\approx \\text{Innovation}_{\\text{inclusive}}",
+      "interpretation": "資本と規制と信頼の奇妙な釣り合いが、包括的なイノベーションを生み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='70' cy='40' r='8' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='70' r='8' stroke='#7c3aed' stroke-width='1.5' fill='none'/><line x1='30' y1='40' x2='50' y2='70' stroke='#f59e0b' stroke-width='1'/><line x1='70' y1='40' x2='50' y2='70' stroke='#f59e0b' stroke-width='1'/><line x1='30' y1='40' x2='70' y2='40' stroke='#ffd700' stroke-width='1' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "三つの力が中心に収束する：資本（ピンク）、規制（青）、信頼（紫）がアフリカの金融中核を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

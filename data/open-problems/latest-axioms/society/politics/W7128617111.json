@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Vision}_{2030} \\cdot \\text{Awareness}}{\\text{Disputes} + \\text{Fragmentation}} = \\text{Ownership}",
+      "interpretation": "ビジョンと意識の積が、紛争と分断の重みに耐えるとき、所有は実現する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='20' y='20' width='60' height='60' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='35' cy='35' r='6' fill='#00ff88'/><circle cx='65' cy='35' r='6' fill='#00ff88'/><circle cx='35' cy='65' r='6' fill='#ec4899'/><circle cx='65' cy='65' r='6' fill='#ec4899'/><line x1='35' y1='35' x2='65' y2='65' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><line x1='65' y1='35' x2='35' y2='65' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>reform</text></svg>",
+      "interpretation": "四隅の個別所有者が法的枠組みの十字で結ばれ、内部の緊張が生まれながらもひとつの共有地を形作る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

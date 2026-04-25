@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i,j} \\alpha_{ij} \\cdot \\text{Res}(G_i \\oplus G_j) \\cdot \\exp(-\\delta_{ij})",
+      "interpretation": "二つの分子の同型性を守りながら、注意が相乗効果という隠れた調和を聴く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 40 45 Q 50 35 60 45' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 40 55 Q 50 65 60 55' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='50' y1='30' x2='50' y2='70' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "二つの分子が共鳴し、光る橋によって相乗的な調べが生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

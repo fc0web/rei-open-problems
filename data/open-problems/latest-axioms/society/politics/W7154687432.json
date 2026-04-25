@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Sovereignty}^2}{\\text{Property}} \\cdot \\int_0^{\\infty} \\text{Dispossession}(t) \\, dt = \\text{Crime}",
+      "interpretation": "主権と財産の逆説が時間を通じて累積するとき、掠奪は法的な怪物へと変容する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='40' height='40' stroke='#00d4ff' stroke-width='2' fill='none'/><rect x='50' y='50' width='40' height='40' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,10 10,50' stroke='#7c3aed' stroke-width='2.5' fill='none' stroke-dasharray='5,5'/><circle cx='25' cy='25' r='3' fill='#f59e0b'/><circle cx='70' cy='70' r='3' fill='#f59e0b'/></svg>",
+      "interpretation": "二つの秩序が衝突するとき、対角線上に罪と真実の鎖が現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

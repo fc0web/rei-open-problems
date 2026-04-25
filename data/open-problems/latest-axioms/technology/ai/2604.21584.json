@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{F} = \\int_{\\text{chaos}} \\frac{\\text{abstraction}^2}{\\text{leakage} + \\text{proxy}} \\, d\\omega",
+      "interpretation": "混沌とした信号から、抽象化の力で漏出を押さえ込む本質が自然に浮かぶ",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 30 70 50 Q 50 70 30 50' stroke='#00ff88' stroke-width='2' fill='none'/><g stroke='#ec4899' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='35'/><line x1='50' y1='65' x2='50' y2='85'/><line x1='15' y1='50' x2='35' y2='50'/><line x1='65' y1='50' x2='85' y2='50'/></g></svg>",
+      "interpretation": "外側の混乱が内側の核へ向かって渦巻き、制御された思考が矢印で光を収束させる",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

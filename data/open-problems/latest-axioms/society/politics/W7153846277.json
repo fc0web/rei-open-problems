@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{local} \\times \\text{Capital}_{social}}{\\text{Void}_{institutional}} \\to \\text{Immunity}_{extremism}",
+      "interpretation": "地域の信頼と社会資本が制度の空白を埋めるとき、過激主義への抵抗力が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,35 65,50 50,65 35,50 50,35' stroke='#00d4ff' stroke-width='1.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#f59e0b' stroke-width='1' opacity='0.5'/><line x1='15' y1='50' x2='85' y2='50' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "同心円の網は地域から中心へと信頼が集約され、十字軸は機関と市民の交差点を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

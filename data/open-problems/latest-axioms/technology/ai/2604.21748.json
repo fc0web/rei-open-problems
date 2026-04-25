@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{M} = \\int_0^T \\text{Event}(t) \\otimes \\text{Rel}(t,t') \\, dt + \\sum_{i} \\text{Consolidate}_i(\\mathcal{M}_{<i})",
+      "interpretation": "時間の流れの中で事象と関係性が織り合わさり、周期的な統合を通じて構造が自己組織化される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='30' r='5' fill='#00d4ff'/><circle cx='50' cy='50' r='5' fill='#00d4ff'/><circle cx='80' cy='70' r='5' fill='#00d4ff'/><path d='M 20 30 Q 35 35 50 50' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 65 60 80 70' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='35' cy='40' r='8' stroke='#00ff88' stroke-width='1' fill='none'/><circle cx='65' cy='60' r='8' stroke='#00ff88' stroke-width='1' fill='none'/><line x1='20' y1='30' x2='80' y2='70' stroke='#ec4899' stroke-width='0.8' opacity='0.4' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "時系列の点々が張力のある関係で繋がり、周期的な圧縮が全体の幾何学を再定義する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

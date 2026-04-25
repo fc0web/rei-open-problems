@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Export}_{t} + \\text{Import}_{t}}{\\text{GDP}_{regional}} \\cdot \\sqrt[3]{\\text{Employment} + \\text{Investment}} \\approx \\text{Vitality}",
+      "interpretation": "地域の命脈は、外部との物流の往復と、内部の人と資本の融合の立方根に宿る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,15 70,40 50,65 30,40 50,15' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 50 L 75 50' stroke='#00ff88' stroke-width='2' marker-end='url(%23arrowOut)'/><path d='M 50 50 L 25 50' stroke='#ec4899' stroke-width='2' marker-end='url(%23arrowIn)'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#f59e0b' font-weight='bold'>ХОРАЗМ</text></svg>",
+      "interpretation": "地方は、内向きの投資と外向きの商流の対話によって、中心で脈動する星型の存在へと変容する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Will}^2}{\\text{Capacity}} \\cdot \\sqrt{\\text{Resilience}} = \\text{Survival}",
+      "interpretation": "意志の二乗が制度的能力を超えるとき、社会は根を張る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='50,15 50,85' stroke='#00d4ff' stroke-width='2'/><polyline points='15,50 85,50' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='50' r='8' fill='#00ff88'/><path d='M 50 50 Q 35 30 25 20' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 50 50 Q 65 70 75 80' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心の意志が四方へ根付き、割れた地に命を灯す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

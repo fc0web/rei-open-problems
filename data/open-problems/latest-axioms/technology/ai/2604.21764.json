@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^\\infty e^{-t} dt}{\\text{skill-recall}} = \\text{path-clarity} \\times \\text{token-economy}",
+      "interpretation": "熟練の想起が、無駄な探索の指数関数的減衰を圧縮する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 38 Q 35 50 50 58' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 38 Q 65 50 50 58' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='82' x2='50' y2='95' stroke='#ec4899' stroke-width='2'/><text x='50' y='12' text-anchor='middle' font-size='10' fill='#ffd700'>skill</text><text x='50' y='88' text-anchor='middle' font-size='10' fill='#ffd700'>solve</text></svg>",
+      "interpretation": "上から降りてくる蒸留された知恵が、迷路をバイパスして、下の問題へ直結する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

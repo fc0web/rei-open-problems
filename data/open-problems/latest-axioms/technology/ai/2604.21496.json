@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} \\text{neg}(s_i) \\cdot w_i}{\\sqrt{\\text{habitat}^{-1} + \\text{frames}}} \\sim \\text{conflict}",
+      "interpretation": "生息地の消失が言語の否定性を増幅させる比率を見る",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><polygon points='50,60 25,85 75,85' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 50 Q 30 55 20 70' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 50 Q 70 55 80 70' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='30' x2='50' y2='60' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "言葉という光が象の形態を透すように、メディアが現実を屈折させる",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

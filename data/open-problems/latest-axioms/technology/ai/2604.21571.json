@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Output} = f_{\\text{base}} + \\sum_i \\alpha_i \\mathcal{L}_i + \\mathcal{P}_u \\cdot \\delta_u",
+      "interpretation": "ユーザーの痕跡は足し算で現れ、引き算で消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='10' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='30' y1='50' x2='20' y2='40' stroke='#00ff88' stroke-width='1.5'/><line x1='70' y1='50' x2='80' y2='60' stroke='#00ff88' stroke-width='1.5'/><line x1='50' y1='30' x2='50' y2='15' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "同心円が層状の独立性を示し、点線の消去経路は削除可能性を象徴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

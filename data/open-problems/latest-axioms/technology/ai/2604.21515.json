@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\bigcap_{i=1}^{5} \\text{Post}_i \\stackrel{?}{=} \\bigcup_{\\text{sem}} \\text{Ext}(\\mathcal{F})",
+      "interpretation": "五つの理性公準が、すべての意味論の拡張の和集合と等しくなるかどうかを問う。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='35' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='35' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='60' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='35' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='65' cy='50' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 30 35 L 70 35 L 50 60 L 30 35' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.6'/><path d='M 35 50 L 65 50' stroke='#00ff88' stroke-width='1.5' opacity='0.7'/><text x='50' y='85' font-size='10' fill='#7c3aed' text-anchor='middle'>JSB∩ASPIC⊖</text></svg>",
+      "interpretation": "五点の理性要件が中心の交差点で収束を求めるが、周囲の円は完全な統一を拒む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

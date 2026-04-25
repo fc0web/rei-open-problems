@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Loc} = \\text{LLM}\\left(\\sum_{i=1}^{n} \\text{CoT}_i(\\text{geohash}_i) \\right) \\cdot e^{-d/\\sigma}",
+      "interpretation": "思考の鎖が地理的推論を編み上げ、距離の痛みが座標を磨く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='20,50 50,50 70,35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><g opacity='0.6'><circle cx='30' cy='40' r='3' fill='#00ff88'/><circle cx='70' cy='55' r='3' fill='#00ff88'/><circle cx='45' cy='70' r='3' fill='#00ff88'/></g><path d='M 20 80 Q 50 85 80 80' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "中心の思考が放射状に広がり、報酬の軌跡が迷いの地形を滑らかにしていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

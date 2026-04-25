@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{n} m_i \\cdot c_i}{1 - d(\\sigma)} \\propto \\int_0^1 \\rho(x) \\, dx",
+      "interpretation": "小さな資金の集約が、分断を減らす力によって、統合の流れに変わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='35' cy='35' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='7' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='65' cy='65' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='80' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 28 46 Q 40 48 50 50' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='3,2'/><path d='M 50 50 Q 65 57 73 57' stroke='#7c3aed' stroke-width='2' fill='none' stroke-dasharray='3,2'/><polyline points='20,50 35,35 50,50 65,65 80,50' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.4'/></svg>",
+      "interpretation": "個々の声が束ねられ、見えない線で大陸を横切る統合へと流れていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

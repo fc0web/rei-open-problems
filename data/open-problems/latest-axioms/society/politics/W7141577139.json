@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{terroir}^{\\text{EU}}}{\\text{innovation}^{\\text{US}}} = \\int_0^{\\infty} e^{-t \\cdot \\text{compromise}} dt",
+      "interpretation": "ふたつの異なる価値観の衝突は、譲歩という時間の中でのみ調和する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='35' cy='50' r='20' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='65' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='40' y1='50' x2='60' y2='50' stroke='#ffd700' stroke-width='3'/><polyline points='50,30 50,70' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,3' fill='none'/><text x='50' y='92' text-anchor='middle' font-size='10' fill='#7c3aed' font-family='serif'>names</text></svg>",
+      "interpretation": "二つの領域が衝突する中心線に、名前という力が揺らいでいる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

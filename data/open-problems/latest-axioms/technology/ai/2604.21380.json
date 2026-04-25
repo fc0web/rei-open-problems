@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\mathcal{H}(p_\\theta) \\cdot \\text{retrieval}(q, K) \\, dp",
+      "interpretation": "曖昧な言葉から数式への変換は、人間の選好という海を引き上げることである。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='70' r='10' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='70' r='10' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 42 Q 35 55 30 60' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 42 Q 65 55 70 60' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='30' y1='80' x2='70' y2='80' stroke='#ffd700' stroke-width='2'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>vague → precise</text></svg>",
+      "interpretation": "言語の霧から下降する二つの選好の糸が、最終的に一つの基準に収束する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Recall} = \\frac{\\text{Verbatim}}{\\text{Metaphor}} + \\epsilon_{\\text{embedding}}",
+      "interpretation": "空間的な物語は幻であり、本質は記憶そのものの質量にある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,30 70,50 50,70 30,50 50,30' stroke='#ec4899' stroke-width='1.5' fill='none'/><text x='50' y='85' text-anchor='middle' font-size='10' fill='#7c3aed'>palace→data</text></svg>",
+      "interpretation": "豪華な部屋は消え、中心の単純な埋め込みだけが光り続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

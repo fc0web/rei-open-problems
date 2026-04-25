@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{\\text{refuge}} = \\frac{1}{\\text{geography}} + \\frac{1}{\\text{law}} + \\frac{1}{\\text{time}}",
+      "interpretation": "逃げ場の消滅は、空間と秩序と瞬間の相互侵食である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 35 35 L 65 65' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/><path d='M 65 35 L 35 65' stroke='#ffd700' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "三つの港湾都市が相互に斬り合い、その中心で金色の亀裂が走る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

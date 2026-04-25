@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Structure}}{\\text{Semantics}} \\cdot \\int_0^1 \\text{Sketch}(x) \\, dx \\to \\text{Transfer}",
+      "interpretation": "意味を剥ぎ取り、構造だけが共鳴するとき、転移が生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='15' y='15' width='30' height='30' stroke='#7c3aed' stroke-width='2' fill='none'/><rect x='55' y='15' width='30' height='30' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='30' cy='65' r='12' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='70' cy='65' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='45,30 45,50 55,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><line x1='42' y1='65' x2='58' y2='65' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "領域の壁を越えて、骨格だけが光の橋となる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

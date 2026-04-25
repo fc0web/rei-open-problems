@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Voice}_{t}}{\\text{Distance}(\\text{Power}, \\text{People})} \\propto \\int_0^t \\text{Complaint}(\\tau) \\, d\\tau",
+      "interpretation": "声が権力と民衆の距離を縮める速度は、積み重ねられた不満の深さに比例する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='20' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='80' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 32 Q 30 50 50 68' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 32 Q 70 50 50 68' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,35 45,45 55,45' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='95' text-anchor='middle' font-size='8' fill='#ffd700'>↔ Feedback Loop</text></svg>",
+      "interpretation": "上の権力と下の民衆を結ぶ双方向の道が、相互の聴き合いの可能性を編み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

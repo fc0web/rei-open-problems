@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Truth} \\otimes \\text{Judge}}{\\text{Artifact}^5} \\to \\sigma(\\text{Claim})^{680}",
+      "interpretation": "真実と評価者の張力を五段階の構造物で割り、統計的な流れへと収束させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.stage{stroke:#7c3aed;stroke-width:1.5;fill:none}.flow{stroke:#00d4ff;stroke-width:2}.result{stroke:#00ff88;stroke-width:2}</defs><g class='stage'><rect x='10' y='20' width='12' height='12'/><rect x='28' y='20' width='12' height='12'/><rect x='46' y='20' width='12' height='12'/><rect x='64' y='20' width='12' height='12'/><rect x='82' y='20' width='12' height='12'/></g><polyline class='flow' points='16,26 34,26 52,26 70,26 88,26'/><circle class='result' cx='50' cy='65' r='18'/><polyline class='flow' points='50,44 50,47'/></svg>",
+      "interpretation": "五つの段階が直線的に流れ、最後に交差する真実と評価者の張力が渦巻きへ集約される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

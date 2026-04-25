@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{A}(\\omega) = \\underbrace{f_{\\text{intent}}(\\omega)}_{\\text{slow}} + \\sum_{k=1}^{\\infty} \\epsilon_k \\sin(2\\pi k \\omega t)",
+      "interpretation": "意図は低周波の柱であり、行動はその上に揺らぐ残差として踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><ellipse cx='50' cy='30' rx='25' ry='8' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,38 48,45 50,52 52,45 50,38' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='52' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5'/><circle cx='50' cy='88' r='4' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 35 60 Q 50 70 65 60' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "固い核（意図）から、微細な波紋が放出され、地へと根を張る知覚の流れ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

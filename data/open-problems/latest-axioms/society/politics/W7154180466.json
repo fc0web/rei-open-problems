@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{regional}}}{\\text{Risk}_{\\text{pathogen}}} \\propto \\sqrt{\\text{Fiscal}_{\\text{shared}} \\cdot \\text{Labs}_{\\text{certified}}}",
+      "interpretation": "地域の信頼は、共有される財政と認定された施設の幾何平均に比例して、病原体のリスクを抑える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 42 50 L 58 50' stroke='#00ff88' stroke-width='2'/><path d='M 50 35 L 50 20' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><text x='50' y='75' font-size='10' text-anchor='middle' fill='#7c3aed'>協力</text></svg>",
+      "interpretation": "二つの機関が虚心に接続し、上方へ広がる信号が、地域全体の信頼の網を編む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

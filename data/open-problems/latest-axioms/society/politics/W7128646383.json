@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P} = \\frac{\\rho \\cdot (\\sigma + \\kappa)}{\\tau(1 - \\phi)} \\cdot \\sqrt{\\beta}",
+      "interpretation": "女性の政治的力は、社会的役割と資本の蓄積が、慣習的な抵抗を超えるとき、増幅される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 20 L 50 80 M 20 50 L 80 50' stroke='#7c3aed' stroke-width='1.5'/><circle cx='50' cy='35' r='6' fill='#00ff88'/><circle cx='65' cy='50' r='6' fill='#ec4899'/><circle cx='50' cy='65' r='6' fill='#f59e0b'/><circle cx='35' cy='50' r='6' fill='#ffd700'/><polyline points='50,35 65,50 50,65 35,50 50,35' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "四方からの資本が中心に収束し、女性の行動力が四つの方向へ同時に放射される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(Y) = \\mathbb{E}_{X}[\\mathbb{E}[\\hat{Y}|X]] - \\int_X \\text{Bias}(X) \\, dP(X)",
+      "interpretation": "多次較正は、特徴ごとの誤差を消すことで、集団全体の真の存在度が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='30' cy='60' r='6' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='70' cy='60' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 38 Q 40 50 30 54' stroke='#ec4899' stroke-width='1' fill='none' filter='url(#blur)'/><path d='M 50 38 Q 60 50 70 54' stroke='#ec4899' stroke-width='1' fill='none' filter='url(#blur)'/><polyline points='30,70 50,80 70,70' stroke='#ffd700' stroke-width='1.5' fill='none'/><line x1='50' y1='80' x2='50' y2='95' stroke='#f59e0b' stroke-width='1' opacity='0.7'/></svg>",
+      "interpretation": "上の完全な見方から下への多くの経路：各サブグループは真実へ自らの道を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

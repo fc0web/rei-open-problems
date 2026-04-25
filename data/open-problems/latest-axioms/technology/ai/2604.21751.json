@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{\\text{Japan}} P(\\text{answer})}{\\sum_{\\text{all cultures}} P(\\text{answer})} \\gg \\frac{1}{N}",
+      "interpretation": "訓練データの偏りが、文化的な返答分布を予期しない方向へ歪める、謎めいた吸引力。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='35' r='12' stroke='#00d4ff' stroke-width='2.5' fill='#00d4ff' opacity='0.6'/><circle cx='30' cy='60' r='6' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='55' cy='75' r='5' stroke='#f59e0b' stroke-width='1.5' fill='none'/><circle cx='25' cy='30' r='4' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 70 35 Q 50 50 30 60' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "一つの星が奇妙に明るく輝き、他の星々を引き寄せる、不可視の磁力線に支配された宇宙。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

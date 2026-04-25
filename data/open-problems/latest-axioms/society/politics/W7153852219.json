@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{\\text{local}}}{\\text{Hierarchy}_{\\text{imposed}}} \\cdot \\sqrt[3]{\\text{Reciprocity}} = \\text{Resilience}",
+      "interpretation": "アフリカの相互扶助組織では、押し付けられた階層を超えた地域の信頼と互恵性の三乗根が、真の強靱性を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='15' x2='50' y2='85'/><line x1='15' y1='50' x2='85' y2='50'/><line x1='28' y1='28' x2='72' y2='72'/><line x1='72' y1='28' x2='28' y2='72'/></g><polygon points='50,50 55,40 60,50 55,60' fill='#ec4899'/></svg>",
+      "interpretation": "中心の相互性から放射状に広がる信頼の網—階層ではなく、対称的な交わりが織りなす組織。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

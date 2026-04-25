@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Nation}^2}{\\text{Territory}} = \\int_{\\text{Faith}} \\text{Identity}\\, d\\theta",
+      "interpretation": "宗教と領土が交差するとき、民族主義は信仰を通じて自己を問い直す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 50 50 85 Q 35 50 50 15' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><polygon points='50,30 60,50 50,70 40,50' fill='#ffd700' opacity='0.4'/></svg>",
+      "interpretation": "円環の中で、聖なる縦線と世俗の横線が絡み合い、黄金の中心に民族の矛盾を抱きかかえている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

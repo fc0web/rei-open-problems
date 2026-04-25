@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{R} = \\int_0^\\tau e^{-t/\\lambda} \\mathcal{P}(\\mathbf{x}) \\, dt + \\epsilon(\\sigma, q)",
+      "interpretation": "前処理による埋め込みが、忘却のダイナミクスと雑音の間で踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='15' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 60 40 50 65 Q 40 40 50 15' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='serif'>decay</text></svg>",
+      "interpretation": "同心円の共鳴—メモリスタの記憶が層をなして消えていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

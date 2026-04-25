@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(\\text{safe}) = \\int_{\\mathcal{H}_{\\text{safe}}} p(x) dx + \\frac{1}{2}\\int_{\\partial \\mathcal{B}} p(x) dx",
+      "interpretation": "安全の確率は、確実な領域と不確実な境界の重みのある和として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.6'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.6'/></defs><ellipse cx='50' cy='50' rx='35' ry='35' stroke='#00ff88' stroke-width='2' fill='none'/><ellipse cx='50' cy='50' rx='25' ry='25' stroke='#ec4899' stroke-width='1.5' fill='url(#grad)'/><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><polyline points='50,42 50,58 46,54 54,54' stroke='#f59e0b' stroke-width='1.2' fill='none'/></svg>",
+      "interpretation": "層状の殻が確実性の度合いを映し、核心へ向かう不確実性の漸進的な圧縮を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

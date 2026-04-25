@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}_{analog} \\cdot \\text{Speed}_{digital}}{\\text{Paradox}} \\to \\text{Leadership}",
+      "interpretation": "デジタルと信頼の緊張が、指導者を創造する触媒になる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M30 50 Q50 35 70 50' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M30 50 Q50 65 70 50' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#00ff88' stroke-width='1.5' opacity='0.6'/><circle cx='50' cy='50' r='4' fill='#f59e0b'/></svg>",
+      "interpretation": "相反する流れが中心点で静寂を保つ——矛盾の中の均衡。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

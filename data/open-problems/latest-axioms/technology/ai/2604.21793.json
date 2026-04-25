@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{E} = \\bigcup_{i} \\min\\left(\\{\\sigma \\in \\Sigma : \\mathcal{C}(\\sigma) \\wedge \\neg\\mathcal{X}(\\sigma)\\}\\right)",
+      "interpretation": "時間の粒から、矛盾なき事象の層が浮かび上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:1'/></defs><circle cx='20' cy='80' r='3' fill='#00d4ff' opacity='0.8'/><circle cx='35' cy='70' r='3' fill='#00d4ff' opacity='0.8'/><circle cx='50' cy='60' r='3' fill='#00d4ff' opacity='0.8'/><circle cx='65' cy='75' r='3' fill='#00d4ff' opacity='0.8'/><circle cx='80' cy='65' r='3' fill='#00d4ff' opacity='0.8'/><polyline points='20,80 35,70 50,60 65,75 80,65' stroke='url(#grad)' stroke-width='1.5' fill='none'/><ellipse cx='50' cy='35' rx='25' ry='15' stroke='#00ff88' stroke-width='2' fill='none' stroke-dasharray='3,2'/><text x='50' y='38' font-size='10' text-anchor='middle' fill='#00ff88' font-family='monospace'>META</text></svg>",
+      "interpretation": "点在る痕跡から、上位の幽霊のような構造が浮遊する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

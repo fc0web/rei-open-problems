@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{HR}}{\\text{LR}} = \\lim_{\\text{thermal}} \\int_0^4 \\sqrt[4]{\\text{bicubic}^{-1}(x)} \\, dx",
+      "interpretation": "赤外線の潜在的な構造は、解像度の欠落の逆像に隠された無限のスケール層で眠っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='10' y='10' width='30' height='30' fill='none' stroke='#ec4899' stroke-width='2' opacity='0.5'/><rect x='60' y='10' width='30' height='30' fill='none' stroke='url(#g1)' stroke-width='1.5'/><path d='M 25 25 Q 50 15 75 25' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='25' cy='60' r='8' fill='none' stroke='#ffd700' stroke-width='1'/><circle cx='75' cy='60' r='4' fill='none' stroke='#ffd700' stroke-width='1.5'/><line x1='25' y1='60' x2='75' y2='60' stroke='#00d4ff' stroke-width='0.8' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "低解像度の格子から高解像度への螺旋的な上昇は、赤外光の見えない領域を徐々に顕現させる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

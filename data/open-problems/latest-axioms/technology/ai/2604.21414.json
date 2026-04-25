@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Execute}(Q)}{\\text{Semantics}(Q)} \\to \\text{Analyze} \\circ \\text{Synthesize} \\circ \\text{Verify}",
+      "interpretation": "実行と意味の分離が、三つの段階を通じて統一される不思議さ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 37 50 L 43 50' stroke='#ec4899' stroke-width='2'/><path d='M 62 50 L 68 50' stroke='#ec4899' stroke-width='2'/><polyline points='25,38 50,62 75,38' stroke='#ffd700' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "三つの円が一本の黄金の弧で結ばれ、意味が下から上へ湧き上がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

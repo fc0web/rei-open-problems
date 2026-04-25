@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L}_{total} = \\mathcal{L}_{enhance} + \\lambda \\cdot \\text{KL}(Q(w) \\| w)",
+      "interpretation": "量子化の幽霊が訓練中に忍び込み、展開時の真実へと導く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:0.8'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.8'/></defs><rect x='15' y='20' width='70' height='60' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='30' cy='35' r='6' fill='#00ff88' opacity='0.7'/><circle cx='70' cy='65' r='6' fill='#ec4899' opacity='0.7'/><polyline points='30,35 50,50 70,65' fill='none' stroke='#ffd700' stroke-width='1.5' stroke-dasharray='3,3'/><text x='50' y='92' font-size='11' text-anchor='middle' fill='#00d4ff' font-family='monospace'>gate→refine</text></svg>",
+      "interpretation": "狭い門を通して多層の光が漏れ、下流で再び束ねられる精密さ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

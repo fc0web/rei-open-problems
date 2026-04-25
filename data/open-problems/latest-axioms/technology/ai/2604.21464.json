@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L} = R(\\pi) - \\lambda \\int_0^T \\left\\| \\frac{d\\pi}{dt} - \\mathcal{D}(\\pi, \\dot{\\pi}) \\right\\|^2 dt",
+      "interpretation": "報酬の後ろに，時間の流れが記憶を持つ影を追いかけている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><path d='M20,80 Q35,60 50,40 T80,20' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M20,80 Q35,65 50,50 T80,35' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6' filter='url(#blur)'/><path d='M20,80 Q35,70 50,60 T80,50' stroke='#7c3aed' stroke-width='1' fill='none' opacity='0.3'/><circle cx='50' cy='40' r='3' fill='#f59e0b'/><polyline points='30,75 40,65 50,50 60,35 70,25' stroke='#00ff88' stroke-width='1' fill='none' stroke-dasharray='2,2' opacity='0.5'/></svg>",
+      "interpretation": "鮮烈な決定の道が，その背後に幽い記憶の尾を引き，時間に抵抗する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

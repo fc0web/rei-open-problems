@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Local}^{3}}{\\text{Center}^{2}} \\cdot \\sqrt[3]{\\text{Soil}} = \\text{Bloom}",
+      "interpretation": "地域の力を三乗し、中心の支配を二乗で割ると、土地の立方根が花開く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='45' stroke='#ec4899' stroke-width='1' fill='none'/><g stroke='#00d4ff' stroke-width='1'><line x1='50' y1='5' x2='50' y2='20'/><line x1='95' y1='50' x2='80' y2='50'/><line x1='50' y1='95' x2='50' y2='80'/><line x1='5' y1='50' x2='20' y2='50'/></g><polyline points='35,65 50,55 65,65 60,80 40,80' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "中心から四方への根系、同心円で編まれた信頼、その中に小さな共同体の芽が立つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }
