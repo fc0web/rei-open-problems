@@ -1,0 +1,52 @@
+{
+  "id": "GODEL-DISJUNCTION-1951",
+  "tier": 1,
+  "source": "wikipedia/godel-disjunction-1951",
+  "sourceRef": {
+    "url": "https://plato.stanford.edu/entries/godel/#PhilSign1951GibbLect",
+    "citation": "Kurt Gödel, 1951 Gibbs Lecture, in Collected Works Vol. III (Oxford University Press, 1995)",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Gödel's Disjunction (1951 Gibbs Lecture): Either mathematics is incompletable in the sense that its evident axioms can never be comprised in a finite rule, or else there exist absolutely undecidable diophantine problems.",
+    "ja": "ゲーデルの二分律 (1951 Gibbs Lecture): 数学は、その自明な公理が有限の規則に収まりきらないという意味で完結不可能であるか、さもなくば絶対的に決定不能なディオファントス問題が存在する。",
+    "latex": "\\text{HornA: math incompletable} \\;\\lor\\; \\text{HornB: } \\exists\\,P\\in\\text{Diophantine. Undecidable}_{\\text{absolute}}(P)",
+    "preview_source": "rei-aios-godel-analysis-2026-04-25"
+  },
+  "field": "philosophy-of-mathematics",
+  "subfield": "incompleteness",
+  "proposer": "Kurt Gödel (1951)",
+  "year": 1951,
+  "status": "open",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "V_SELF_REFERENTIAL",
+    "secondaryType": "VII_FRAMEWORK_INCOMPLETE",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Horn A と Horn B が statement-distributive に共存しうる (LDP 仮説)",
+    "rationale": "Gödel 自身は Horn A 信奉。Rei v3.1 は inclusive-or 解釈で operational coordinate を提供.",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "wikipedia": "Kurt_Gödel#Mathematical_logic",
+    "sep": "https://plato.stanford.edu/entries/godel/",
+    "external": [
+      "https://www.cambridge.org/core/journals/bulletin-of-symbolic-logic/article/godels-disjunction-the-scope-and-limits-of-mathematical-knowledge/"
+    ],
+    "seedKernel": ["dfumt-godel-limit-inclusion", "self-referential-growth", "resilient-knowledge-recovery"]
+  },
+  "axisX": "missing",
+  "axisY": {
+    "novelty": 0.95,
+    "theoryType": 0.95,
+    "reproducibility": 0.0,
+    "reconstructability": 0.5
+  },
+  "axisZ": "CLASS-D",
+  "axisT": "FLOWING",
+  "peaceCheck": "passed",
+  "peaceCheckReason": "純粋哲学的命題. 武器応用 / 倫理問題なし",
+  "license": "CC-BY-4.0",
+  "visibility": "public"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "DISC-GODEL-DISJUNCTION-001",
+  "tier": 9,
+  "name": {
+    "ja": "ゲーデルの二分律 (1951 Gibbs Lecture)",
+    "en": "Gödel's Disjunction (1951 Gibbs Lecture)"
+  },
+  "category": "meta-concept",
+  "tags": [
+    "godel",
+    "disjunction",
+    "incompleteness",
+    "philosophy-of-math",
+    "self-reference"
+  ],
+  "reiTyping": {
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Horn A (mind develops) と Horn B (absolute undecidable) が inclusive-or で共存可能。Rei の axisT lifecycle で statement-distributive に分散される",
+    "axisX": "missing",
+    "axisY": {
+      "novelty": 0.85,
+      "theoryType": 0.95,
+      "reproducibility": 0.2,
+      "reconstructability": 0.6
+    },
+    "axisZ": "CLASS-D",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "純粋メタ哲学命題、応用なし"
+  },
+  "provisionalityScore": 0.75,
+  "confidence": 0.85,
+  "falsifiability": "もし数学的活動 (formal proof generation) が機械的に有限規則で完全捕捉できると示されれば Horn A 反証。もしすべての Diophantine 問題が無矛盾拡張で解決可能と示されれば Horn B 反証",
+  "culturalOrigin": "western",
+  "culturalNote": "Gödel 1951 Gibbs Lecture (Brown University). Collected Works Vol. III に収録 (Oxford UP, 1995). Lucas-Penrose 議論 / Feferman / Koellner 注釈で発展継続",
+  "relations": {
+    "is_a": [
+      "DISC-PHIL-WEST-001",
+      "DISC-EPIST-001"
+    ],
+    "related_to": [
+      "DISC-INFO-SCI-001"
+    ],
+    "opposes": [],
+    "bridges": [
+      "DISC-PHIL-MADHYAMAKA-001"
+    ],
+    "seed_kernel_refs": [
+      "dfumt-godel-limit-inclusion",
+      "self-referential-growth",
+      "resilient-knowledge-recovery"
+    ]
+  },
+  "description": {
+    "ja": "Gödel が 1951 Gibbs Lecture で提示した二分律: 数学は完結不可能 (Horn A) であるか、絶対的に決定不能な Diophantine 問題が存在する (Horn B) か。Gödel 自身は Horn A 信奉。Lucas/Penrose 論争 (mind ≠ machine) の起点。Rei-AIOS は axisT lifecycle で両 horn の statement-distributive 共存を提案 (Lifecycle Disjunction Projection 仮説)",
+    "en": "Disjunction presented by Gödel in 1951 Gibbs Lecture: Either mathematics is incompletable (Horn A) or there exist absolutely undecidable Diophantine problems (Horn B). Gödel favored Horn A. Origin of Lucas-Penrose debate (mind ≠ machine). Rei-AIOS proposes via axisT lifecycle a statement-distributive coexistence of both horns (Lifecycle Disjunction Projection hypothesis)"
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "sep",
+  "source_trust": 0.97,
+  "visibility": "public",
+  "created_at": "2026-04-25T14:30:00.000Z",
+  "updated_at": "2026-04-25T14:14:49.127Z",
+  "version": "0.1.0",
+  "_v2_reserved": {
+    "qid_required": null,
+    "contentHash": null,
+    "ipfsCid": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\neg(\\neg A \\lor \\neg B) \\equiv (A \\land B)_{\\text{axisT}}",
+        "interpretation": "ゲーデルの二分律は、否定の否定を通じて、両つの角が時間軸上で共存する論理構造を示す。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><polygon points='0 0, 10 3, 0 6' fill='#00d4ff'/></defs><circle cx='30' cy='50' r='12' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='70' cy='50' r='12' fill='none' stroke='#00ff88' stroke-width='2'/><text x='27' y='54' font-size='10' fill='#7c3aed' font-weight='bold'>A</text><text x='67' y='54' font-size='10' fill='#00ff88' font-weight='bold'>B</text><line x1='42' y1='50' x2='58' y2='50' stroke='#ec4899' stroke-width='2.5' marker-end='url(#arrowhead)'/><circle cx='50' cy='50' r='20' fill='none' stroke='#ffd700' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 70 Q 45 80 50 90' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-linecap='round'/><path d='M 50 70 Q 55 80 50 90' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-linecap='round'/><text x='48' y='98' font-size='7' fill='#f59e0b' text-anchor='middle'>axisT</text></svg>",
+        "interpretation": "左は Horn A（心の成長可能性）、右は Horn B（絶対決定不能）。中心の共鳴場で両者が時間軸に沿って分散共存する。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
+    "pedagogicalNext": [],
+    "pedagogicalPrev": [],
+    "multiLanguage": {},
+    "educationalLevel": "research",
+    "counterPositionsDetail": [
+      {
+        "schoolId": "lucas-penrose",
+        "argumentSummary": "mind ≠ Turing machine; consciousness transcends formal systems"
+      },
+      {
+        "schoolId": "feferman-2006",
+        "argumentSummary": "neither horn is forced; the disjunction admits a third path via reflective extensions"
+      },
+      {
+        "schoolId": "koellner-2018",
+        "argumentSummary": "modal-logic reconstruction; epistemic vs ontic horn-A distinction"
+      }
+    ]
+  }
+}

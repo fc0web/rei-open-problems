@@ -1,6 +1,6 @@
 # Open Problems META-DB (Rei-AIOS) — Public Snapshot
 
-**Canonical citation**: Fujimoto, N. (2026). *Open Problems META-DB (Rei-AIOS): D-FUMT₈ META-Classification of 2615 Open Problems*. Paper 130. Zenodo. DOI: [10.5281/zenodo.19700758](https://doi.org/10.5281/zenodo.19700758)
+**Canonical citation**: Fujimoto, N. (2026). *Open Problems META-DB (Rei-AIOS): D-FUMT₈ META-Classification of 2616 Open Problems*. Paper 130. Zenodo. DOI: [10.5281/zenodo.19700758](https://doi.org/10.5281/zenodo.19700758)
 
 **License**: [CC-BY 4.0](LICENSE) — free to reuse with attribution.
 
@@ -10,7 +10,7 @@
 
 ## What this is
 
-A structured meta-database of **2636 mathematical unsolved problems + Rei-AIOS research contributions**, classified by:
+A structured meta-database of **2637 mathematical unsolved problems + Rei-AIOS research contributions**, classified by:
 
 - **Rei typology** (7 types: I_INFINITE_SEARCH, VI_BRIDGING, ...) — structural reason for the problem's difficulty
 - **D-FUMT₈ value** (8-valued logic: TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF) — Rei-AIOS's logical classification
@@ -22,17 +22,17 @@ A structured meta-database of **2636 mathematical unsolved problems + Rei-AIOS r
 
 | Tier | Name | Count | Content |
 |:-:|------|----:|---------|
-| **1** | World-public open | 2615 | Wikipedia + Kourovka + Erdős + Millennium + Smale + Hilbert + Green + OEIS + MathOverflow + arXiv papers |
+| **1** | World-public open | 2616 | Wikipedia + Kourovka + Erdős + Millennium + Smale + Hilbert + Green + OEIS + MathOverflow + arXiv papers |
 | **2** | Rei Inventions | 15 | Rei-AIOS Invention Engine approved conjectures (framework: I(x) = Ψ × Φ × Ω, see Paper 132) |
 | **3** | Claude Discoveries | 6 | Research observations from Rei-AIOS Claude Code sessions (subset; 2 entries withheld pending Paper 135/136 publication) |
 
-Total: **2636 entries**.
+Total: **2637 entries**.
 
 ## Structure
 
 ```
 data/open-problems/
-├── wikipedia/       # Wikipedia List of Unsolved Problems (116 entries)
+├── wikipedia/       # Wikipedia List of Unsolved Problems (117 entries)
 ├── kourovka/        # Kourovka Notebook (group theory)
 ├── erdos/           # erdosproblems.com + formal-conjectures (406 entries)
 ├── greens/          # Ben Green's open problems
