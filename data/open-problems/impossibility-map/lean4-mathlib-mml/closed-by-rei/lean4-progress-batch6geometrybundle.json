@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-BATCH6GEOMETRYBUNDLE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Batch6GeometryBundle.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Batch6GeometryBundle.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Batch6GeometryBundle.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Batch 6 Geometry Bundle — 13 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Batch 6 Geometry Bundle — 定理 13 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Batch 6 — Geometry unsolved problems\n  ============================================\n\n  Topics covered:\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\n  2.  Sphere packing (n=8 Viazovska 2016, n=24 Cohn-Kumar-Miller-Radchenko-Viazovska 2017)\n  3.  Einstein problem (einstein tile, Smith-Myers-Kaplan-Goodman-Strauss 2023)\n  4.  Moser's worm\n  5.  Lebesgue's universal cover\n  6.  Reinhardt's convex body packing minimum\n  7.  Hadwiger-Nelson chromatic plane\n  8.  Erdős–Szekeres happy ending\n  9.  Perfect cuboid\n  10. Sofa problem (Moser)\n  11. Fejes Tóth convex body packing\n  12. Mag"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Batch6GeometryBundle.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-20"
+    },
+    "scopeOfImpossibility": "STEP Batch 6 — Geometry unsolved problems\n  ============================================\n\n  Topics covered:\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\n  2.  Sphere packing (n=8 Viazovska",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Batch6GeometryBundle.lean",
+    "lineCount": 74,
+    "fileSize": 3005,
+    "theoremCount": 13,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-20",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "13 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

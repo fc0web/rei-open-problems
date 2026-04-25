@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-KRASIKOVLAGARIAS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/KrasikovLagarias.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "KrasikovLagarias.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/KrasikovLagarias.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Krasikov Lagarias — 10 theorems/lemmas, 0 sorry, 4 axiom",
+    "ja": "Lean 4 進捗: Krasikov Lagarias — 定理 10 / sorry 0 / axiom 4",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "Krasikov-Lagarias (1993/2003) 0.84-exponent bound\n  ==================================================\n\n  Reference: Krasikov, I., Lagarias, J. C. (2003). Bounds for the 3x+1 problem\n             using difference inequalities. Acta Arith. 109, 237-258.\n  Cited by:  Tao, T. (2019/2022), arXiv:1909.03562v5, p. 1:\n             \"#{N ∈ ℕ₊ ∩ [1, x] : Col_min(N) = 1} ≫ x^{0.84}\"\n\n  Main result (stated as axiom, full proof = 20+ pages of difference inequalities):\n    ∃ c > 0, ∃ X₀, ∀ X ≥ X₀, goodCount X ≥ c · X^0.84\n  where goodCount X = #{N ∈ [1, X] : Collatz orbit of N reaches 1}.\n\n  Zero-sorry coro"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+      "Mathlib.Data.Nat.Log"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "KrasikovLagarias.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-18"
+    },
+    "scopeOfImpossibility": "Krasikov-Lagarias (1993/2003) 0.84-exponent bound\n  ==================================================\n\n  Reference: Krasikov, I., Lagarias, J. C. (2003). Bounds for the 3x+1 problem\n             usin",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "KrasikovLagarias.lean",
+    "lineCount": 186,
+    "fileSize": 9811,
+    "theoremCount": 10,
+    "lemmaCount": 0,
+    "defCount": 3,
+    "sorryCount": 0,
+    "axiomCount": 4,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-18",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "10 theorems/lemmas, 3 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

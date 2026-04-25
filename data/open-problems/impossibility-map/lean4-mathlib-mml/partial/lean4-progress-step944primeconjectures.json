@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP944PRIMECONJECTURES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step944PrimeConjectures.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step944PrimeConjectures.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step944PrimeConjectures.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Prime Conjectures — 81 theorems/lemmas, 1 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Prime Conjectures — 定理 81 / sorry 1 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 944 — Prime Conjecture Deep Dives\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four prime-related open conjectures, advanced in parallel:\r\n\r\n  A. SOPHIE GERMAIN CONJECTURE (infinitely many SG primes)\r\n     New: Density analysis — 1170 SG primes in [1,100000], decreasing trend.\r\n     New: SG ∩ Twin prime overlap: 240 primes, first 5 = {3,5,11,29,41}\r\n\r\n  B. FIBONACCI PRIMES (infinitely many?)\r\n     New: Pisano period analysis for p = 2,3,5,7,11,13,17,19,23,29,31\r\n     New: Necessary condition: if F_n prime and n > 4, then n prime\r\n     New: Primality density among F_p (p prime)\r\n\r\n  C. ERDŐS–STRAUS CONJECTURE "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 1 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Data.Nat.Prime.Basic",
+      "Mathlib.Data.Nat.Factorial.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step944PrimeConjectures.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 944 — Prime Conjecture Deep Dives\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four prime-related open conjectures, advanced in parallel:\r\n\r\n  A. SOPHIE GERMAIN CONJECTURE (infinitely many SG primes)\r\n     New: Densi",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 1 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step944PrimeConjectures.lean",
+    "lineCount": 289,
+    "fileSize": 14518,
+    "theoremCount": 81,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 1,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "81 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

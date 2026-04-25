@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-SIERPINSKIRIESELBRIER",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SierpinskiRieselBrier.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SierpinskiRieselBrier.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SierpinskiRieselBrier.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sierpinski Riesel Brier — 5 theorems/lemmas, 0 sorry, 3 axiom",
+    "ja": "Lean 4 進捗: Sierpinski Riesel Brier — 定理 5 / sorry 0 / axiom 3",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\n  ============================================================\n\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.\n  Smallest conjectured: k = 78,557.\n  Open: is 78557 the smallest Sierpinski number?\n  Currently the remaining 5 candidates < 78557 are:\n    21181, 22699, 24737, 55459, 67607\n\n  Riesel number: odd k such that k·2^n − 1 is composite for ALL n ≥ 1.\n  Smallest conjectured: k = 509,203.\n\n  Brier number: k that is BOTH Sierpinski and Riesel.\n  Smallest known < 10^28.\n\n  Status: all OPEN for smallest.\n\n  "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "SierpinskiRieselBrier.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\n  ============================================================\n\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.\n  ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SierpinskiRieselBrier.lean",
+    "lineCount": 122,
+    "fileSize": 6179,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 3,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "5 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

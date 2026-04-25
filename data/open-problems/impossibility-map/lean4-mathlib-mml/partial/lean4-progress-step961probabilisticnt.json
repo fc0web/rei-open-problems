@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP961PROBABILISTICNT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step961ProbabilisticNT.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step961ProbabilisticNT.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step961ProbabilisticNT.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Probabilistic N T — 14 theorems/lemmas, 0 sorry, 5 axiom",
+    "ja": "Lean 4 進捗: Probabilistic N T — 定理 14 / sorry 0 / axiom 5",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in probabilistic and analytic number theory:\n\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\n     The maximal prime gap satisfies max_{p_n ≤ x} (p_{n+1} - p_n) ~ (log x)².\n     STATUS: OPEN. Best unconditional: O(p^{0.525}) (Baker-Harman-Pintz 2001).\n\n  B. CHEBOTAREV DENSITY THEOREM (proved) + EFFECTIVE VERSIONS\n     Primes splitting in K with Frobenius conjugacy class C have density |C|/[K:ℚ].\n     STATUS: PROVED. Effective under GRH: O(log disc(K) log x).\n\n  C. LINDELÖF HYPOTHESIS\n     ζ(1/2 + i"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Data.Nat.Prime.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Log.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step961ProbabilisticNT.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in probabilistic and analytic number theory:\n\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\n     The ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step961ProbabilisticNT.lean",
+    "lineCount": 241,
+    "fileSize": 10697,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 5,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

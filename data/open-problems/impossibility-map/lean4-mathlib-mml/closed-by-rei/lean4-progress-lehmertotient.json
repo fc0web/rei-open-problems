@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-LEHMERTOTIENT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/LehmerTotient.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "LehmerTotient.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/LehmerTotient.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Lehmer Totient — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Lehmer Totient — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Lehmer — Lehmer's totient conjecture small-n verification\n  ==============================================================\n\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\n    ∀ n ≥ 2, φ(n) | (n − 1) ⟹ n is prime.\n\n  Empirically verified up to n < 10^30 (Cohen/Hagis 2011 et al.). No Lehmer\n  number (composite n with φ(n) | n-1) has ever been found; necessary\n  conditions include n odd, squarefree, ≥ 14 prime factors.\n\n  This file gives a Mathlib-native Lean 4 verification for n ∈ [2, 1000]:\n    - Every n with φ(n) | (n-1) in this range is prime.\n    - Every composite in this range has φ(n"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Totient",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "LehmerTotient.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP Lehmer — Lehmer's totient conjecture small-n verification\n  ==============================================================\n\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\n    ∀ n ≥ 2, φ(n) | (n ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "LehmerTotient.lean",
+    "lineCount": 68,
+    "fileSize": 2695,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

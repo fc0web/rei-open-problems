@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP941WEAKTAO2019",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step941WeakTao2019.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step941WeakTao2019.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step941WeakTao2019.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Weak Tao 2019 — 12 theorems/lemmas, 2 sorry, 3 axiom",
+    "ja": "Lean 4 進捗: Weak Tao 2019 — 定理 12 / sorry 2 / axiom 3",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 941 — Weak Tao 2019: Almost-All Collatz Formalization\n  藤本伸樹 2026-04-21\n\n  Source: Terence Tao (2019) — \"Almost all Collatz orbits attain almost bounded values\"\n  arXiv:1909.03562, Forum of Mathematics, Pi 10 (2022).\n\n  TAO'S THEOREM (informal):\n    For almost all n (in the sense of natural density), the Collatz orbit of n\n    enters (−∞, f(n)] for any f: N→R with f(n)→∞.\n\n  More precisely: For any function f: N → R with f(n) → ∞,\n    lim_{N→∞} (1/N) · #{n ≤ N : min_{k≥0} iterC k n ≤ f(n)} = 1\n\n  In D-FUMT₈ terms: The set of n where Collatz fails is ZERO-measure (value: 4.0).\n\n  THIS FILE"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 2 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Topology.Algebra.Order.LiminfLimsup",
+      "Mathlib.MeasureTheory.Measure.NullMeasurable"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step941WeakTao2019.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 941 — Weak Tao 2019: Almost-All Collatz Formalization\n  藤本伸樹 2026-04-21\n\n  Source: Terence Tao (2019) — \"Almost all Collatz orbits attain almost bounded values\"\n  arXiv:1909.03562, Forum of Mathe",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 2 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step941WeakTao2019.lean",
+    "lineCount": 249,
+    "fileSize": 12457,
+    "theoremCount": 12,
+    "lemmaCount": 0,
+    "defCount": 11,
+    "sorryCount": 2,
+    "axiomCount": 3,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 2,
+    "notes": "12 theorems/lemmas, 11 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

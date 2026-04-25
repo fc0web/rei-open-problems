@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP950ALIQUOTSOCIABLE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step950AliquotSociable.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step950AliquotSociable.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step950AliquotSociable.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Aliquot Sociable — 26 theorems/lemmas, 0 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Aliquot Sociable — 定理 26 / sorry 0 / axiom 1",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 950 — Aliquot Sequences, Sociable Numbers, Artin Primitive Root\n  藤本伸樹 2026-04-21\n  [skip-precommit] 37 min native_decide build — verified in CI only\n\n  A. CATALAN-DICKSON (Aliquot sequences, 1888/1913)\n     σ*(n) = sum of proper divisors of n. Does every aliquot orbit\n     eventually hit 0 or a cycle?\n     276, 552, 564, 660, ... are \"open-end\" candidates (unresolved).\n     New: Verified aliquot orbits for n ≤ 500.\n\n  B. SOCIABLE NUMBERS\n     A k-cycle under σ*. Known: k=1 (perfect), k=2 (amicable), k=5 (Poulet 1918).\n     New: First known 5-cycle {12496,...} verified. All amicable pairs"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step950AliquotSociable.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 950 — Aliquot Sequences, Sociable Numbers, Artin Primitive Root\n  藤本伸樹 2026-04-21\n  [skip-precommit] 37 min native_decide build — verified in CI only\n\n  A. CATALAN-DICKSON (Aliquot sequences, 188",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step950AliquotSociable.lean",
+    "lineCount": 185,
+    "fileSize": 8627,
+    "theoremCount": 26,
+    "lemmaCount": 0,
+    "defCount": 6,
+    "sorryCount": 0,
+    "axiomCount": 1,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "26 theorems/lemmas, 6 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

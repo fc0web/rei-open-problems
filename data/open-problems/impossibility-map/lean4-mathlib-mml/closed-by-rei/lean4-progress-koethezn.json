@@ -1,0 +1,99 @@
+{
+  "id": "LEAN4-PROGRESS-KOETHEZN",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/KoetheZn.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "KoetheZn.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/KoetheZn.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Koethe Zn — 26 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Koethe Zn — 定理 26 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\n  ==========================================================\n\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\n\n  ★ Key mathematical fact ★:\n  For **commutative rings**, Köthe's conjecture is trivially TRUE:\n  every (one-sided) ideal is automatically two-sided, and the nilradical\n  is the unique maximal nil ideal containing every nil ideal.\n\n  This file:\n    (a) proves Köthe for `CommRing` using Mathlib's `Ideal` API\n    (b) computes explicit nilpotent / non-nilpotent elements of Z/nZ\n    (c) characterizes Z/nZ n"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Prime.Basic",
+      "Mathlib.RingTheory.Ideal.Defs",
+      "Mathlib.RingTheory.Ideal.Operations",
+      "Mathlib.RingTheory.Nilpotent.Defs",
+      "Mathlib.RingTheory.Nilpotent.Basic",
+      "Mathlib.RingTheory.Nilpotent.Lemmas"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "KoetheZn.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\n  ==========================================================\n\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\n\n  ★ Ke",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "KoetheZn.lean",
+    "lineCount": 166,
+    "fileSize": 8171,
+    "theoremCount": 26,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 7,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "26 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

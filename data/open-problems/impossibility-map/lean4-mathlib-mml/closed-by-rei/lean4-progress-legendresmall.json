@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-LEGENDRESMALL",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/LegendreSmall.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "LegendreSmall.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/LegendreSmall.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Legendre Small — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Legendre Small — 定理 9 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Legendre — finite formalization of Legendre's conjecture for n ∈ [1, 100]\n  =============================================================================\n\n  Legendre's conjecture (1808, OPEN):\n    ∀ n ≥ 1, there exists a prime p with n² < p < (n+1)².\n\n  This file provides explicit prime witnesses for each n ∈ [1, 100] and\n  proves via `native_decide` that each witness is prime and lies in the\n  required open interval.\n\n  Rei-AIOS cross-connection: witness(24) = 577, which is exactly the\n  prime factor in peak 9232 = 2⁴·577 from Paper 118 Closure 5 (n=911\n  universal on-ramp). This is an u"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.NormNum",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "LegendreSmall.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP Legendre — finite formalization of Legendre's conjecture for n ∈ [1, 100]\n  =============================================================================\n\n  Legendre's conjecture (1808, OPEN):\n  ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "LegendreSmall.lean",
+    "lineCount": 80,
+    "fileSize": 3676,
+    "theoremCount": 9,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "9 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

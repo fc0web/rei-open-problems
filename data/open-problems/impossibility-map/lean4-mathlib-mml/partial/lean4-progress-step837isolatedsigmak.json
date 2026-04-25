@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-STEP837ISOLATEDSIGMAK",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step837IsolatedSigmaK.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step837IsolatedSigmaK.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step837IsolatedSigmaK.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Isolated Sigma K — 6 theorems/lemmas, 0 sorry, 3 axiom",
+    "ja": "Lean 4 進捗: Isolated Sigma K — 定理 6 / sorry 0 / axiom 3",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Step828IsolatedTighten"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step837IsolatedSigmaK.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-20"
+    },
+    "scopeOfImpossibility": "See lean4 file",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step837IsolatedSigmaK.lean",
+    "lineCount": 161,
+    "fileSize": 6830,
+    "theoremCount": 4,
+    "lemmaCount": 2,
+    "defCount": 3,
+    "sorryCount": 0,
+    "axiomCount": 3,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-20",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 3 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-ORBITDYNAMICALPROBLEMS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/OrbitDynamicalProblems.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "OrbitDynamicalProblems.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/OrbitDynamicalProblems.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Orbit Dynamical Problems — 28 theorems/lemmas, 0 sorry, 4 axiom",
+    "ja": "Lean 4 進捗: Orbit Dynamical Problems — 定理 28 / sorry 0 / axiom 4",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\n  ================================================================\n\n  Three unsolved problems share a common structure: iteration of a\n  number-theoretic map f : ℕ → ℕ with open termination/cycle question.\n\n    (1) Catalan-Dickson aliquot conjecture (1888/1913):\n        aliquot(n) = σ(n) - n. Does every orbit under `aliquot` hit\n        0 or a cycle? Open for n = 276, 552, 564, ...\n\n    (2) Sociable numbers:\n        k-cycles under `aliquot`. Perfect (k=1), amicable (k=2),\n        sociable (k ≥ 3) exist. Known 5-cycles, 28-cycles.\n "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "OrbitDynamicalProblems.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\n  ================================================================\n\n  Three unsolved problems share a common structure: iteration of a\n  ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "OrbitDynamicalProblems.lean",
+    "lineCount": 262,
+    "fileSize": 12384,
+    "theoremCount": 28,
+    "lemmaCount": 0,
+    "defCount": 13,
+    "sorryCount": 0,
+    "axiomCount": 4,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "28 theorems/lemmas, 13 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

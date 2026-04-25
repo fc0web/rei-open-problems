@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-PROBLEM013ITERATEBOUND",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Problem013IterateBound.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Problem013IterateBound.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Problem013IterateBound.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Problem 013 Iterate Bound — 3 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Problem 013 Iterate Bound — 定理 3 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\n\n  Builds on STEP 866 (Step866C8LTEOneLiner):\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\n    - v2_chain_strict_decrease\n    - syrOne_odd_of_v2_one\n\n  This file adds the two missing pieces:\n\n    (1) bridge_3n1_vs_n1  — the mod-4 characterization\n          Odd n → (v₂(3n+1) ≥ 2 ↔ v₂(n+1) = 1)\n\n    (2) v2_one_chain_terminates — the full iterate-bound theorem\n          For odd n, ∃ k ≤ v₂(n+1), v₂(3·syrOne^[k] n + 1) ≥ 2\n\n  Together these close Problem 013 (rei-unsolved-problems #013), which was\n  left as a "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+      "Mathlib.Data.Nat.Log",
+      "Mathlib.Algebra.Ring.Parity"
+    ],
+    "reiImports": [
+      "CollatzRei.Step866C8LTEOneLiner"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Problem013IterateBound.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-17"
+    },
+    "scopeOfImpossibility": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\n\n  Builds on STEP 866 (Step866C8LTEOneLiner):\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\n    - v2_chain_stric",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Problem013IterateBound.lean",
+    "lineCount": 194,
+    "fileSize": 9501,
+    "theoremCount": 2,
+    "lemmaCount": 1,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-17",
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "3 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

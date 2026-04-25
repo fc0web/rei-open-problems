@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP984CHANGMAPBALANCE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step984ChangMapBalance.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step984ChangMapBalance.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step984ChangMapBalance.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Chang Map Balance — 9 theorems/lemmas, 1 sorry, 2 axiom",
+    "ja": "Lean 4 進捗: Chang Map Balance — 定理 9 / sorry 1 / axiom 2",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\n  ==========================================================\n\n  Source: Edward Y. Chang (Stanford University)\n    \"A Structural Reduction of the Collatz Conjecture to One-Bit Orbit Mixing\"\n    arXiv:2603.25753v1 [math.DS], 2026-03-24\n\n  Scope of this file:\n    This is a SCAFFOLD, not a full proof. We formalize:\n      1. `compCollatz` — Chang's compressed odd-to-odd Collatz map\n         (= Rei-AIOS syrOne generalized to max halving depth).\n      2. `isBurstOne` / `v2OfCompStep` — burst-step diagnostics.\n      3. `mapBalanceAtDepth` — de"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 1 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Factorial.Basic",
+      "Mathlib.Data.Nat.Log",
+      "Mathlib.NumberTheory.Padics.PadicVal.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step984ChangMapBalance.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-23"
+    },
+    "scopeOfImpossibility": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\n  ==========================================================\n\n  Source: Edward Y. Chang (Stanford University)\n    \"A Structural Reduction of ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 1 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step984ChangMapBalance.lean",
+    "lineCount": 203,
+    "fileSize": 8789,
+    "theoremCount": 9,
+    "lemmaCount": 0,
+    "defCount": 11,
+    "sorryCount": 1,
+    "axiomCount": 2,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-23",
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "9 theorems/lemmas, 11 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

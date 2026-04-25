@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-MERSENNEPRIMES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/MersennePrimes.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "MersennePrimes.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/MersennePrimes.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Mersenne Primes — 21 theorems/lemmas, 0 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Mersenne Primes — 定理 21 / sorry 0 / axiom 1",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 889 — Mersenne Primes: Infinitude (Tier S #2)\n  ====================================================\n\n  Mersenne number: M_p = 2^p − 1 where p is prime.\n  Mersenne prime: M_p is itself prime.\n\n  Known: 52 Mersenne primes (M_52 = 2^136,279,841 − 1, discovered 2024).\n  Conjecture: **infinitely many Mersenne primes exist**.\n\n  Status: OPEN. Heuristic (Lenstra-Pomerance-Wagstaff): ~e^γ / log 2\n  Mersenne primes below 2^N expected, diverges as N → ∞.\n\n  Rei breadth-first sweep 2026-04-19: Tier S Priority 56.\n  Lens ★★★: C3_NT + C11_LEAN + E6_ALGO + E7_DATA.\n\n  This file:\n    (a) Mersenne numbe"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "MersennePrimes.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 889 — Mersenne Primes: Infinitude (Tier S #2)\n  ====================================================\n\n  Mersenne number: M_p = 2^p − 1 where p is prime.\n  Mersenne prime: M_p is itself prime.\n\n  ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "MersennePrimes.lean",
+    "lineCount": 152,
+    "fileSize": 7324,
+    "theoremCount": 21,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 1,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "21 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

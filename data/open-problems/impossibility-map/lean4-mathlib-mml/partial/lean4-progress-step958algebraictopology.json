@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP958ALGEBRAICTOPOLOGY",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step958AlgebraicTopology.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step958AlgebraicTopology.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step958AlgebraicTopology.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Algebraic Topology — 14 theorems/lemmas, 0 sorry, 5 axiom",
+    "ja": "Lean 4 進捗: Algebraic Topology — 定理 14 / sorry 0 / axiom 5",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 958 — Algebraic Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in algebraic topology:\n\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\n     Which dimensions n have smooth manifolds with Kervaire invariant 1?\n     Answer: only n ∈ {2,6,14,30,62} (and possibly 126). PROVED 2016.\n\n  B. TELESCOPE CONJECTURE (Chromatic homotopy theory)\n     Ravenel's telescope conjecture: T(n)-local sphere = Ln-finite localiz.\n     STATUS: DISPROVED for n ≥ 2 by Burklund-Hahn-Levy-Schlank (2023).\n\n  C. HOPF INVARIANT ONE PROBLEM (Adams, PROVED 1960)\n     Composition ma"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Topology.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step958AlgebraicTopology.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 958 — Algebraic Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in algebraic topology:\n\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\n     Which dimensi",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step958AlgebraicTopology.lean",
+    "lineCount": 247,
+    "fileSize": 11482,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 5,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

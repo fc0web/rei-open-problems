@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-SUMOFTHREECUBES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SumOfThreeCubes.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SumOfThreeCubes.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SumOfThreeCubes.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sum Of Three Cubes — 16 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Sum Of Three Cubes — 定理 16 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP SumOf3Cubes — Sum of three cubes problem (Mordell / Heath-Brown)\n  =====================================================================\n\n  Problem: which n ∈ ℕ admit n = x³ + y³ + z³ with x, y, z ∈ ℤ?\n\n  Known obstruction: n ≡ ±4 (mod 9) has NO representation (since x³ mod 9\n  ∈ {-1, 0, 1}; sum of three is at most ±3 mod 9).\n\n  Heath-Brown 1992 conjecture: every n ≢ ±4 (mod 9) has infinitely many\n  representations. OPEN.\n\n  Landmark computational results:\n    - n=33: x³+y³+z³ = 33 had no known solution until Booker 2019 found\n      (8866128975287528, -8778405442862239, -2736111468807040)"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Int.Basic",
+      "Mathlib.Data.Nat.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "SumOfThreeCubes.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-20"
+    },
+    "scopeOfImpossibility": "STEP SumOf3Cubes — Sum of three cubes problem (Mordell / Heath-Brown)\n  =====================================================================\n\n  Problem: which n ∈ ℕ admit n = x³ + y³ + z³ with x, y, ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SumOfThreeCubes.lean",
+    "lineCount": 99,
+    "fileSize": 4332,
+    "theoremCount": 16,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-20",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "16 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

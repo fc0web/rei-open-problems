@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-FIBONACCIPRIMES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/FibonacciPrimes.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "FibonacciPrimes.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/FibonacciPrimes.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Fibonacci Primes — 22 theorems/lemmas, 0 sorry, 2 axiom",
+    "ja": "Lean 4 進捗: Fibonacci Primes — 定理 22 / sorry 0 / axiom 2",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\n  =========================================================\n\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\n  Fibonacci prime: F_n itself prime.\n  Known Fibonacci prime indices: 3, 4, 5, 7, 11, 13, 17, 23, 29, 43,\n  47, 83, 131, 137, 359, 431, 433, 449, 509, 569, 571, 2971, 4723,\n  5387, 9311, 9677, 14431, 25561, 30757, 35999, 37511, 50833, 81839,\n  104911, ~34 known (as of 2024).\n\n  **Rei 固有接続**: Paper 698 (STEP 698) で **F_14 = 377** が\n  peak-9232 Collatz atomic core の first arithmetic predecessor と判明.\n  π(64) = 96 = Rei M"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "FibonacciPrimes.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\n  =========================================================\n\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\n  Fibonacci prime: F_",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "FibonacciPrimes.lean",
+    "lineCount": 111,
+    "fileSize": 4498,
+    "theoremCount": 22,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 2,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "22 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

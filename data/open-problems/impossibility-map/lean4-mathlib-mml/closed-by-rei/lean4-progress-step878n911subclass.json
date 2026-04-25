@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP878N911SUBCLASS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step878N911Subclass.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step878N911Subclass.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step878N911Subclass.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: N 911 Subclass — 12 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: N 911 Subclass — 定理 12 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 878 — n=911 Universal On-Ramp Partial ∀n Closure\n  ======================================================\n\n  Problem 011 (STEP 875) showed that each of the 25 canonical atomic cores\n  has orbit visiting n=911 (Lean 4 zero-sorry, 47 theorems via `native_decide`).\n\n  This file upgrades that to an *infinite* sub-family for which ∀n visits 911\n  is Lean 4 zero-sorry:\n\n    ∀ k : ℕ, orbit(2^k · 911) visits 911 in exactly k steps.\n\n  This is the full Collatz-inverse tree restricted to the pure powers-of-two\n  branch of 911. It does NOT address the arithmetic predecessors (e.g. 607)\n  whose inver"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step878N911Subclass.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-18"
+    },
+    "scopeOfImpossibility": "STEP 878 — n=911 Universal On-Ramp Partial ∀n Closure\n  ======================================================\n\n  Problem 011 (STEP 875) showed that each of the 25 canonical atomic cores\n  has orbit v",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step878N911Subclass.lean",
+    "lineCount": 164,
+    "fileSize": 8197,
+    "theoremCount": 12,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-18",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "12 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

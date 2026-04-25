@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-STEP992SYLVESTERSCHUR",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step992SylvesterSchur.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step992SylvesterSchur.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step992SylvesterSchur.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sylvester Schur — 20 theorems/lemmas, 1 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Sylvester Schur — 定理 20 / sorry 1 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 992 — Sylvester-Schur partial Lean 4 formalization (Rei-AIOS)\n  ==================================================================\n\n  Addresses two Open Problems META-DB entries:\n    - Erdős Problem 699 (binomial form — Sylvester 1892 / Erdős 1934)\n    - Erdős Problem 961 (consecutive-integer interval form)\n\n  Both are classical *proven* theorems, but absent from Mathlib v4.27.\n\n  ---\n  CURRENT SCOPE (this file):\n\n    VERIFIED (0 sorry):\n    * `sylvester_schur_k1` : k = 1 case (any m ≥ 2 has a prime factor ≥ 2)\n    * `sylvester_schur_k2` : k = 2 case (of 2 consecutive ≥ 3, the odd one\n   "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 1 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.Bertrand",
+      "Mathlib.NumberTheory.SmoothNumbers",
+      "Mathlib.Data.Nat.Choose.Basic",
+      "Mathlib.Data.Nat.Prime.Factorial"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step992SylvesterSchur.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 992 — Sylvester-Schur partial Lean 4 formalization (Rei-AIOS)\n  ==================================================================\n\n  Addresses two Open Problems META-DB entries:\n    - Erdős Prob",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 1 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step992SylvesterSchur.lean",
+    "lineCount": 267,
+    "fileSize": 10966,
+    "theoremCount": 17,
+    "lemmaCount": 3,
+    "defCount": 2,
+    "sorryCount": 1,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 4,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "20 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

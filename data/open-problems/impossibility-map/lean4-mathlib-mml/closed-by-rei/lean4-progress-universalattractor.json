@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-UNIVERSALATTRACTOR",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/UniversalAttractor.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "UniversalAttractor.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/UniversalAttractor.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Universal Attractor — 6 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Universal Attractor — 定理 6 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Q33 — Universal Attractor Framework (partial formalization of\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\n  =====================================================================\n\n  Paper 120 Q33 (hypothesis, 2026-04-20):\n    \"Every iterated integer-valued map with bounded absolute value has\n    a finite universal attractor, and folklore-open conjectures like\n    Gilbreath's (1958) and Collatz's (1937) are both statements that\n    the boundary coordinate is the attractor's anchor.\"\n\n  This file provides a MINIMAL abstract framework:\n    - `applyStep : (List Na"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.GilbreathConjecture",
+      "CollatzRei.Problem011N911OnRamp"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "UniversalAttractor.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP Q33 — Universal Attractor Framework (partial formalization of\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\n  =========================================================",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "UniversalAttractor.lean",
+    "lineCount": 116,
+    "fileSize": 5978,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 0,
+    "reiImportCount": 2,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

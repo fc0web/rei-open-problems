@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-ATOMICCORES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AtomicCores.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "AtomicCores.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/AtomicCores.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Atomic Cores — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Atomic Cores — 定理 0 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "world-open",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "open",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Scaffold only",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "AtomicCores.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-13"
+    },
+    "scopeOfImpossibility": "See lean4 file",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "AtomicCores.lean",
+    "lineCount": 3,
+    "fileSize": 36,
+    "theoremCount": 0,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-13",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "world-open"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "0 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

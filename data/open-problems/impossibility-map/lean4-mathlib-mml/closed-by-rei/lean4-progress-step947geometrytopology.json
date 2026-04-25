@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-STEP947GEOMETRYTOPOLOGY",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step947GeometryTopology.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step947GeometryTopology.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step947GeometryTopology.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Geometry Topology — 14 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Geometry Topology — 定理 14 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pythagorean system.\n     New: mod-16 obstruction for perfect cuboid sides.\n     New: Close-to-perfect cuboids (3 of 4 conditions met).\n\n  B. INSCRIBED SQUARE CONJECTURE (TOEPLITZ 1911)\n     Every simple closed curve contains an inscribed square.\n     Proved for smooth curves; OPEN for Lipschitz.\n     New: Discrete analog verified for polygons up to 20 vertices.\n\n  C. JACOBIAN CONJECTURE (algebraic geom"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step947GeometryTopology.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pytha",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step947GeometryTopology.lean",
+    "lineCount": 199,
+    "fileSize": 9250,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

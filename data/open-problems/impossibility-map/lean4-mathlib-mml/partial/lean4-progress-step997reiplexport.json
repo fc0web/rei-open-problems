@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-STEP997REIPLEXPORT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step997ReiPLExport.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step997ReiPLExport.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step997ReiPLExport.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Rei P L Export — 3 theorems/lemmas, 0 sorry, 10 axiom",
+    "ja": "Lean 4 進捗: Rei P L Export — 定理 3 / sorry 0 / axiom 10",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\n  ---------------------------------------------------\n\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\n  plus inhabitation axioms (so Lean 4 can construct witnesses).\n  Round-trip fidelity is NOT complete: Lean 4 verifies proof-term\n  shape, not D-FUMT₈ semantics.  Use the native Rei-PL Prover for\n  genuine D-FUMT₈ reasoning."
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step997ReiPLExport.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\n  ---------------------------------------------------\n\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\n  plus inhabitation axioms (",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step997ReiPLExport.lean",
+    "lineCount": 45,
+    "fileSize": 1833,
+    "theoremCount": 3,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 10,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "3 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

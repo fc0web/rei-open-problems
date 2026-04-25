@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP879ARITHPREDECESSORS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step879ArithPredecessors.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step879ArithPredecessors.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step879ArithPredecessors.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Arith Predecessors — 22 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Arith Predecessors — 定理 22 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\n  ========================================================\n\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\n  with *arithmetic* predecessors — odd numbers m with step(m) = 2^k · 911.\n\n  Since step on odd m gives 3m + 1, we need 3m + 1 = 2^k · 911, i.e.,\n  m = (2^k · 911 − 1) / 3, which is an integer ⟺ 2^k · 911 ≡ 1 (mod 3).\n\n  Since 911 ≡ 2 (mod 3) and 2^k mod 3 = 1 if k even, 2 if k odd,\n  2^k · 911 mod 3 = 2 if k even, 1 if k odd.\n  So arithmetic predecessor exists exactly when **k is odd**.\n\n  This file:\n   "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step879ArithPredecessors.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-18"
+    },
+    "scopeOfImpossibility": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\n  ========================================================\n\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\n  with *",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step879ArithPredecessors.lean",
+    "lineCount": 172,
+    "fileSize": 8496,
+    "theoremCount": 22,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-18",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "22 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

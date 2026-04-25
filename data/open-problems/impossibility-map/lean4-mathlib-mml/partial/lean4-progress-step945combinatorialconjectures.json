@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP945COMBINATORIALCONJECTURES",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step945CombinatorialConjectures.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step945CombinatorialConjectures.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step945CombinatorialConjectures.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Combinatorial Conjectures — 25 theorems/lemmas, 0 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Combinatorial Conjectures — 定理 25 / sorry 0 / axiom 1",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 945 — Combinatorial Conjecture Deep Dives\n  藤本伸樹 2026-04-21\n\n  Four combinatorial / additive open problems:\n\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\n     For every finite union-closed family F (not {∅}), some element\n     appears in ≥ |F|/2 of the sets.\n     New: Extended verification to families of size ≤ 20.\n     New: Witness for the \"averaged\" Frankl threshold.\n\n  B. WARING'S PROBLEM (classical — effective bounds)\n     g(k) = smallest s so every natural number is sum of s k-th powers.\n     New: Verified g(2)=4, g(3)=9, g(4)=19 computationally.\n     New: Hilbert-Waring theorem witn"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Data.Finset.Basic",
+      "Mathlib.Data.List.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step945CombinatorialConjectures.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 945 — Combinatorial Conjecture Deep Dives\n  藤本伸樹 2026-04-21\n\n  Four combinatorial / additive open problems:\n\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\n     For every finite union-closed family",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step945CombinatorialConjectures.lean",
+    "lineCount": 223,
+    "fileSize": 10379,
+    "theoremCount": 25,
+    "lemmaCount": 0,
+    "defCount": 12,
+    "sorryCount": 0,
+    "axiomCount": 1,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "25 theorems/lemmas, 12 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

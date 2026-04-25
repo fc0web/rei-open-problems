@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-SATPHASETRANSITION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SatPhaseTransition.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SatPhaseTransition.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SatPhaseTransition.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sat Phase Transition — 10 theorems/lemmas, 0 sorry, 7 axiom",
+    "ja": "Lean 4 進捗: Sat Phase Transition — 定理 10 / sorry 0 / axiom 7",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\n  ================================================================\n\n  Classical result: for random 3-SAT with n variables and m = αn clauses,\n  as n → ∞, the probability of satisfiability transitions sharply around\n  a critical ratio α_c(3) ≈ 4.267.\n\n  References:\n    - Mitchell, Selman, Levesque (1992). AAAI 92, 459-465.\n    - Monasson, Zecchina et al. (1999). Nature 400, 133-137.\n    - Mertens, Mézard, Zecchina (2006). Random Struct. Alg. 28, 340-373\n      (numerical value α_c = 4.2667...).\n    - Ding, Sly, Sun (2014). Commutativ"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Analysis.SpecialFunctions.Pow.Real",
+      "Mathlib.Data.List.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "SatPhaseTransition.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-18"
+    },
+    "scopeOfImpossibility": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\n  ================================================================\n\n  Classical result: for random 3-SAT with n variables and m = αn clau",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SatPhaseTransition.lean",
+    "lineCount": 241,
+    "fileSize": 11886,
+    "theoremCount": 10,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 7,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-18",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "10 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

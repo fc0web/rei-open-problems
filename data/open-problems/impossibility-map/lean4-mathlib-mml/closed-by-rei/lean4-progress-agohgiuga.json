@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-AGOHGIUGA",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AgohGiuga.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "AgohGiuga.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/AgohGiuga.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Agoh Giuga — 11 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Agoh Giuga — 定理 11 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Agoh-Giuga — Agoh-Giuga conjecture finite verification\n  ============================================================\n\n  Agoh-Giuga (Giuga 1950, Agoh 1995):\n    n is prime ⟺ Σ_{k=1}^{n-1} k^(n-1) ≡ -1 (mod n)   [for n ≥ 2]\n\n  The ⟹ direction is Fermat's Little Theorem: for prime p,\n    each k^(p-1) ≡ 1 (mod p), so the sum is (p-1) · 1 ≡ -1 (mod p).\n\n  The ⟸ direction is OPEN since 1950 (76 years). Necessary conditions for\n  a composite counterexample include being both a Giuga number and a\n  Carmichael number simultaneously — extremely rare. No such n has been\n  found below 10^4890 (Borwe"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "AgohGiuga.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP Agoh-Giuga — Agoh-Giuga conjecture finite verification\n  ============================================================\n\n  Agoh-Giuga (Giuga 1950, Agoh 1995):\n    n is prime ⟺ Σ_{k=1}^{n-1} k^(n-1)",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "AgohGiuga.lean",
+    "lineCount": 86,
+    "fileSize": 3879,
+    "theoremCount": 11,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "11 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

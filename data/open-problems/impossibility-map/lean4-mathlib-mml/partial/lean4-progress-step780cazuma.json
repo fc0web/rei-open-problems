@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-STEP780CAZUMA",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step780cAzuma.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step780cAzuma.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step780cAzuma.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: c Azuma — 5 theorems/lemmas, 0 sorry, 2 axiom",
+    "ja": "Lean 4 進捗: c Azuma — 定理 5 / sorry 0 / axiom 2",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Probability.Moments.SubGaussian",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Exp"
+    ],
+    "reiImports": [
+      "CollatzRei.Basic"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step780cAzuma.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-14"
+    },
+    "scopeOfImpossibility": "See lean4 file",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step780cAzuma.lean",
+    "lineCount": 141,
+    "fileSize": 6305,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 2,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-14",
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "5 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

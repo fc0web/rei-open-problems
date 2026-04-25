@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-STEP787FUNNELD1D2",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step787FunnelD1D2.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step787FunnelD1D2.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step787FunnelD1D2.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Funnel D 1 D 2 — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Funnel D 1 D 2 — 定理 9 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 787 / Paper 119c — Topological uniformity of ATOMIC_CORES_25\n  ==================================================================\n\n  PRE-STEP 787 memory claim:\n    \"23 FUNNEL + 2 EXCEPTIONS (n=247 ISOLATED, n=255 BYPASS).\"\n\n  Empirical verification (test/step787-funnel-empirical-check.ts, 2026-04-19)\n  shows that claim was based on a different atomic-cores list (odd n ∈ [27, 255]\n  with K/bl² > 1.8). The canonical ATOMIC_CORES_25 from STEP 696 (mod 49152\n  saturation) does NOT include n=247 or n=255.\n\n  For the canonical ATOMIC_CORES_25, the situation is stronger and more uniform:\n\n    ★ "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Problem011N911OnRamp"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step787FunnelD1D2.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 787 / Paper 119c — Topological uniformity of ATOMIC_CORES_25\n  ==================================================================\n\n  PRE-STEP 787 memory claim:\n    \"23 FUNNEL + 2 EXCEPTIONS (n=24",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step787FunnelD1D2.lean",
+    "lineCount": 70,
+    "fileSize": 2884,
+    "theoremCount": 9,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "9 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

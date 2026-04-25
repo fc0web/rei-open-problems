@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-UNIVERSALATTRACTOREXTENDED",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/UniversalAttractorExtended.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "UniversalAttractorExtended.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/UniversalAttractorExtended.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Universal Attractor Extended — 14 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Universal Attractor Extended — 定理 14 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP Q33-Extended — Universal Attractor Framework extension\n  =============================================================\n\n  Paper 126 extension of Paper 120's Q33 hypothesis.\n\n  Original Q33 (informal, 2026-04-20): \"every bounded-delta iterated\n  map has a universal attractor.\" On 11 test instances, 10 satisfy\n  Q33 and 1 (Rowland sequence) is a counterexample — it diverges.\n\n  This file provides:\n    (1) A REFINED Q33 hypothesis: 'bounded state-space + pigeonhole'\n        version that IS provable in Lean 4.\n    (2) 5 additional instance validations:\n        Juggler, Ducci 4-tuple, Kaprekar"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "UniversalAttractorExtended.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-20"
+    },
+    "scopeOfImpossibility": "STEP Q33-Extended — Universal Attractor Framework extension\n  =============================================================\n\n  Paper 126 extension of Paper 120's Q33 hypothesis.\n\n  Original Q33 (infor",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "UniversalAttractorExtended.lean",
+    "lineCount": 202,
+    "fileSize": 9359,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 10,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-20",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 10 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

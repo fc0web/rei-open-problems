@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-SOPHIEGERMAINCUNNINGHAM",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SophieGermainCunningham.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SophieGermainCunningham.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SophieGermainCunningham.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sophie Germain Cunningham — 25 theorems/lemmas, 0 sorry, 2 axiom",
+    "ja": "Lean 4 進捗: Sophie Germain Cunningham — 定理 25 / sorry 0 / axiom 2",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 907 + 912 — Sophie Germain Primes + Cunningham Chains\n  ============================================================\n\n  Sophie Germain prime: p prime AND 2p+1 prime.\n  Cunningham chain (first kind): p_1, p_2=2p_1+1, p_3=2p_2+1, ...\n  all prime; Cunningham chain of length k: chain of k consecutive SG primes.\n\n  Conjectures (both open):\n    (1) ∃∞ Sophie Germain primes\n    (2) ∃ Cunningham chain of length k for every k (currently max length 19)\n\n  Rei breadth-first sweep Tier A+."
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Tactic.FinCases",
+      "Mathlib.Data.Nat.Prime.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "SophieGermainCunningham.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 907 + 912 — Sophie Germain Primes + Cunningham Chains\n  ============================================================\n\n  Sophie Germain prime: p prime AND 2p+1 prime.\n  Cunningham chain (first kin",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SophieGermainCunningham.lean",
+    "lineCount": 115,
+    "fileSize": 5306,
+    "theoremCount": 25,
+    "lemmaCount": 0,
+    "defCount": 3,
+    "sorryCount": 0,
+    "axiomCount": 2,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "25 theorems/lemmas, 3 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

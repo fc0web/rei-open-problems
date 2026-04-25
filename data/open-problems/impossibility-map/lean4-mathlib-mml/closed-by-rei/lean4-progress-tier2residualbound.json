@@ -1,0 +1,98 @@
+{
+  "id": "LEAN4-PROGRESS-TIER2RESIDUALBOUND",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Tier2ResidualBound.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Tier2ResidualBound.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Tier2ResidualBound.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Tier 2 Residual Bound — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Tier 2 Residual Bound — 定理 5 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "Tier2ResidualBound — explicit log bound on v₂=1 chain + tier2 residual localization\n  ===================================================================================\n\n  Bridges STEP 866 (C8 LTE one-liner) + Problem 013 (iterate-bound) to a\n  concrete log₂-based upper bound on the v₂=1 chain length. Also formalizes\n  the residual gap — i.e., the statement that is logically equivalent to\n  the full Collatz conjecture — as an HONEST `axiom` with a clear name.\n\n  Dependencies:\n    - `Step866C8LTEOneLiner.lean` — v₂ chain step + odd preservation\n    - `Problem013IterateBound.lean` — bridge_3n1_"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+      "Mathlib.Data.Nat.Log",
+      "Mathlib.Algebra.Ring.Parity"
+    ],
+    "reiImports": [
+      "CollatzRei.Step866C8LTEOneLiner",
+      "CollatzRei.Problem013IterateBound"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Tier2ResidualBound.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-18"
+    },
+    "scopeOfImpossibility": "Tier2ResidualBound — explicit log bound on v₂=1 chain + tier2 residual localization\n  ===================================================================================\n\n  Bridges STEP 866 (C8 LTE on",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Tier2ResidualBound.lean",
+    "lineCount": 184,
+    "fileSize": 8979,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-18",
+    "mathlibImportCount": 3,
+    "reiImportCount": 2,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "5 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

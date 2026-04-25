@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-STEP995NEWCONCEPTVIADUALITY",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step995NewConceptViaDuality.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step995NewConceptViaDuality.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step995NewConceptViaDuality.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: New Concept Via Duality — 2 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: New Concept Via Duality — 定理 2 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 995 — New-Concept-via-Duality Cluster Lean 4 Scaffolding (Rei-AIOS)\n  ========================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery new-concept-via-duality:\n    \"Eight open problems across geometry-topology (Leech/E8 dim-24),\n    number theory (Apéry ζ(3) picture), logic-foundations (HoTT\n    computational univalence), and programming-languages (dependent\n    types + algebraic effects) share the type-theoretic primitive\n    'bridge type B with canonical projections to two opposing\n    structures'.\"\n\n  This file provides:\n    - "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step995NewConceptViaDuality.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 995 — New-Concept-via-Duality Cluster Lean 4 Scaffolding (Rei-AIOS)\n  ========================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery n",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step995NewConceptViaDuality.lean",
+    "lineCount": 179,
+    "fileSize": 6554,
+    "theoremCount": 2,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "2 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

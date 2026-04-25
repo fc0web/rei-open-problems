@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP866C8LTEONELINER",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step866C8LTEOneLiner.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step866C8LTEOneLiner.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step866C8LTEOneLiner.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: C 8 L T E One Liner — 4 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: C 8 L T E One Liner — 定理 4 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 866 — C8 closure via chat-Claude's LTE one-liner (2026-04-17)\n\n  Acknowledgement: The core LTE identity was suggested by Anthropic Claude\n  (web/desktop conversation) reviewing the Collatz briefing memo. Numerically\n  verified by Rei (250/250 cases for n ≤ 1000 with v₂(3n+1)=1, 20/20 large\n  random, chain bound ratio 0.94 < 1.0 for n ≤ 10⁵).\n\n  This file contains FOUR zero-sorry theorems formalizing the chain step\n  and its elementary corollaries:\n\n    1. `v2_chain_step_general` : ∀ odd n, v₂((3n+1)/2 + 1) = v₂(n+1) − 1\n       (strictly stronger than chat-Claude's form — no v₂=1 hypothesi"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.Padics.PadicVal.Basic",
+      "Mathlib.Data.Nat.Log",
+      "Mathlib.Algebra.Ring.Parity"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step866C8LTEOneLiner.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-17"
+    },
+    "scopeOfImpossibility": "STEP 866 — C8 closure via chat-Claude's LTE one-liner (2026-04-17)\n\n  Acknowledgement: The core LTE identity was suggested by Anthropic Claude\n  (web/desktop conversation) reviewing the Collatz briefi",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step866C8LTEOneLiner.lean",
+    "lineCount": 124,
+    "fileSize": 4999,
+    "theoremCount": 4,
+    "lemmaCount": 0,
+    "defCount": 1,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-17",
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "4 theorems/lemmas, 1 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

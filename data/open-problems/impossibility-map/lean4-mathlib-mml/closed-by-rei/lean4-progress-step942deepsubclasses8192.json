@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-STEP942DEEPSUBCLASSES8192",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step942DeepSubclasses8192.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step942DeepSubclasses8192.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step942DeepSubclasses8192.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Deep Subclasses 8192 — 19 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Deep Subclasses 8192 — 定理 19 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 942 — Deep Collatz Sub-class Descent Theorems (n%8192 level)\n  藤本伸樹 2026-04-21\n\n  Systematic modular search at n%8192 within hard residues n%256∈{71,103,167,231}.\n  Excludes sub-classes already covered at lower moduli (step938/939).\n\n  NEW THEOREMS (19 total at n%8192 level):\n  All use factor 3^8/2^13 = 6561/8192 ≈ 0.801 < 1\n  K=21 steps (8 odd + 13 halvings)\n\n  By base class:\n    n%256=71:  {5191, 5959, 6215, 6983, 7495}  — 5 new\n    n%256=103: {2663, 3687, 4199, 4455}         — 4 new\n    n%256=167: {679, 1191, 7079, 7847, 8103}    — 5 new\n    n%256=231: {5607, 6375, 6631, 7399, 7911}   "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step942DeepSubclasses8192.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 942 — Deep Collatz Sub-class Descent Theorems (n%8192 level)\n  藤本伸樹 2026-04-21\n\n  Systematic modular search at n%8192 within hard residues n%256∈{71,103,167,231}.\n  Excludes sub-classes already c",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step942DeepSubclasses8192.lean",
+    "lineCount": 190,
+    "fileSize": 10372,
+    "theoremCount": 19,
+    "lemmaCount": 0,
+    "defCount": 1,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "19 theorems/lemmas, 1 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-PERFECTCUBOID",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/PerfectCuboid.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "PerfectCuboid.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/PerfectCuboid.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Perfect Cuboid — 6 theorems/lemmas, 0 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Perfect Cuboid — 定理 6 / sorry 0 / axiom 1",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\n  ==============================================\n\n  Perfect cuboid: a rectangular parallelepiped with positive integer\n  side lengths a, b, c such that:\n    (1) face diagonal in ab-plane: √(a² + b²) ∈ ℤ\n    (2) face diagonal in ac-plane: √(a² + c²) ∈ ℤ\n    (3) face diagonal in bc-plane: √(b² + c²) ∈ ℤ\n    (4) space diagonal: √(a² + b² + c²) ∈ ℤ\n\n  Does a perfect cuboid exist?\n  Status: OPEN. No counter-example found; no proof of non-existence.\n  Computational search: no perfect cuboid with smallest side ≤ 10^11.\n\n  Rei breadth-first sweep 2026-04-1"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Data.Nat.Sqrt"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "PerfectCuboid.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-04-19"
+    },
+    "scopeOfImpossibility": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\n  ==============================================\n\n  Perfect cuboid: a rectangular parallelepiped with positive integer\n  side lengths a, b, c such that:\n ",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "PerfectCuboid.lean",
+    "lineCount": 115,
+    "fileSize": 5542,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 1,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-04-19",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

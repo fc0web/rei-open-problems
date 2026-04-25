@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP968RAMSEYCOMPUTATIONAL",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step968RamseyComputational.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step968RamseyComputational.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step968RamseyComputational.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Ramsey Computational — 14 theorems/lemmas, 0 sorry, 3 axiom",
+    "ja": "Lean 4 進捗: Ramsey Computational — 定理 14 / sorry 0 / axiom 3",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\n  藤本伸樹 2026-04-21\n\n  Native_decide proofs for small Ramsey-type numbers.\n\n  Schur convention used here: S(r) = largest n s.t. {1,...,n} admits a\n  sum-free r-coloring (Wikipedia/standard convention).\n  Then S(r)+1 = smallest n s.t. every r-coloring of {1,...,n}\n  has a monochromatic Schur triple.\n\n  Known values:\n     S(1) = 1, S(2) = 4, S(3) = 13, S(4) = 44, S(5) = 160.\n\n  EGZ constant: E(ℤ_n) = 2n-1 = smallest m s.t. every length-m sequence\n  in ℤ_n has a length-n subsequence summing to 0.\n\n  Peace Axiom #196: immutable: tru"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-24",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Data.List.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Step968RamseyComputational.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\n  藤本伸樹 2026-04-21\n\n  Native_decide proofs for small Ramsey-type numbers.\n\n  Schur convention used here: S(r) = largest n s.t. {1,...",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step968RamseyComputational.lean",
+    "lineCount": 250,
+    "fileSize": 11455,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 13,
+    "sorryCount": 0,
+    "axiomCount": 3,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 13 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-24",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
