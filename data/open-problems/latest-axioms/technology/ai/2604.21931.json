@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\left(\\int_0^t v(\\tau)\\,d\\tau\\right) = \\lambda \\cdot v(t) + \\epsilon",
+      "interpretation": "時間の流れは、視覚的な速度信号とノイズの微妙な振動である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><path d='M 10 50 Q 25 30 40 50 T 70 50 T 95 50' stroke='url(#g1)' stroke-width='3' fill='none'/><circle cx='40' cy='50' r='3' fill='#00ff88'/><circle cx='70' cy='50' r='5' fill='#ec4899' opacity='0.6'/><line x1='40' y1='10' x2='40' y2='90' stroke='#ffd700' stroke-width='1' opacity='0.4' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "波動する時間軸の上で、知覚と制御が絡み合う舞踏。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

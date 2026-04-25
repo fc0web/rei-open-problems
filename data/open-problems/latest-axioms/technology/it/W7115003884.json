@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{g} \\mathcal{L}(g) \\cdot \\mathbf{B} \\cdot \\text{CRISPR}(g) \\to \\text{Glycan}(\\text{surface})",
+      "interpretation": "糖鎖を見つめる磁力が、隠れた遺伝子の歌を引き出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='25' x2='50' y2='5'/><line x1='50' y1='75' x2='50' y2='95'/><line x1='25' y1='50' x2='5' y2='50'/><line x1='75' y1='50' x2='95' y2='50'/></g><polyline points='30,40 50,50 70,45 65,65' stroke='#ec4899' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "磁場が細胞の表面を螺旋に照らし、糖鎖の秩序が見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

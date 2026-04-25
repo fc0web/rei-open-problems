@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Rootedness}^{\\text{autonomy}}}{\\text{extraction}^{n}} \\to \\text{Healing}",
+      "interpretation": "自律が根を深くするほど、搾取の力は弱まり、癒しが現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='50,20 50,50 35,65' stroke='#7c3aed' stroke-width='2' fill='none' stroke-linecap='round'/><path d='M 30,70 Q 50,90 70,70' stroke='#00d4ff' stroke-width='2' fill='none' stroke-linecap='round'/><circle cx='50' cy='50' r='8' fill='#ec4899'/></svg>",
+      "interpretation": "中心から根が地に届き、自分の場所を取り戻す運動が、上昇する光と交わる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

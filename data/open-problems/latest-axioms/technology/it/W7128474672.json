@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{u=1}^{U} \\tau_u}{M \\cdot L} \\sim \\frac{1}{1 + \\sqrt{\\frac{P}{M}}}",
+      "interpretation": "ユーザーの分散が増すほど、パイロット汚染は幾何学的に減衰する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><polyline points='50,50 30,30 70,30 50,50 70,70 30,70 50,50' stroke='#ffd700' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "複数のアンテナが中心のユーザーを取り囲み、チャネルの幾何学的構造を共有する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

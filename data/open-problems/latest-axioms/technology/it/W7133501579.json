@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{v \\in V} \\text{risk}(v) \\cdot \\text{centrality}(v)}{\\int_{\\text{communities}} \\text{cohesion}(C) \\, dC}",
+      "interpretation": "信用リスクは個々の節点の重要性と全体の共同体構造の調和に住む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#7c3aed' stroke-width='1.5' fill='none'><circle cx='30' cy='30' r='8'/><circle cx='70' cy='30' r='8'/><circle cx='30' cy='70' r='8'/><circle cx='70' cy='70' r='8'/><circle cx='50' cy='50' r='5' fill='#ec4899' opacity='0.3'/><line x1='30' y1='30' x2='50' y2='50'/><line x1='70' y1='30' x2='50' y2='50'/><line x1='30' y1='70' x2='50' y2='50'/><line x1='70' y1='70' x2='50' y2='50'/><path d='M 20 50 Q 50 20 80 50' stroke='#00d4ff' fill='none' stroke-width='1'/></g></svg>",
+      "interpretation": "危険な節点たちが中心の不可視の渦に吸い込まれていく流動的な金融ネットワーク。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

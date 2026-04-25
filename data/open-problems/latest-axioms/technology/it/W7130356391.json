@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Virus}}{\\text{Host}} \\cdot \\int_{\\text{soil}} \\text{Catalyst} \\, d\\mu \\to \\text{Function}^{\\infty}",
+      "interpretation": "ウイルスが土壌の触媒機能を無限に複製・拡散させる比率を見える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 40 62 50' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 38 50 Q 50 60 62 50' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='30' stroke='#ffd700' stroke-width='1.5'/><line x1='50' y1='70' x2='50' y2='80' stroke='#ffd700' stroke-width='1.5'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>catalyst</text></svg>",
+      "interpretation": "ウイルス（紫）がホスト（青）を繋ぎ、触媒機能が双方向に流れ出ていく様子。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

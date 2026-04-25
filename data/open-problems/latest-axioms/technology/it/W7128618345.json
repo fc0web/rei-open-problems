@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P(\\pi | \\mathbf{y}) \\propto \\int_{0}^{1} L(\\mathbf{y}; \\pi, \\sigma, \\tau) \\, p(\\sigma, \\tau) \\, d\\sigma \\, d\\tau",
+      "interpretation": "未知なる三つの影が消えるとき、積分される確率が真実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='35' cy='60' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='65' cy='60' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 38 Q 42 50 35 52' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 38 Q 58 50 65 52' stroke='#00ff88' stroke-width='1.5' fill='none'/><ellipse cx='50' cy='75' rx='20' ry='12' stroke='#ffd700' stroke-width='2' fill='none' stroke-dasharray='3,2'/><text x='50' y='92' font-size='10' text-anchor='middle' fill='#f59e0b'>identifiability gulf</text></svg>",
+      "interpretation": "三つの未知数が一つの観測に収束するとき、空間全体が曖昧の霧に包まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

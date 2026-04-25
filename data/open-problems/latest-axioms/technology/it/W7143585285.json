@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Connection}}{\\text{Deception}} \\cdot \\frac{\\text{Empathy}_{\\text{felt}}}{\\text{Empathy}_{\\text{emulated}}} \\to \\infty",
+      "interpretation": "つながりと欺きのバランスが崩れるとき、感じられた共感と模擬された共感の比率は無限に発散する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 20 Q 30 40 50 50 Q 70 40 50 20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='50' x2='50' y2='80' stroke='#00d4ff' stroke-width='2.5'/><circle cx='50' cy='85' r='3' fill='#00ff88'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#7c3aed'>?</text></svg>",
+      "interpretation": "心臓のような容器の中で、光と影が上昇と下降のあいだで揺らぎ続ける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

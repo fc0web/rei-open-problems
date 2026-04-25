@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{A} = \\int_{\\text{LLM}} \\frac{\\text{Game}(s,a)}{\\text{Shannon}(\\mathcal{T})} \\, d\\tau",
+      "interpretation": "ゲームの戦略は、シャノンの分類をLLMの連続体で積分することで、時間とともに進化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='50' r='12' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='30' r='12' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='70' cy='50' r='12' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='50' x2='30' y2='50' stroke='#ffd700' stroke-width='1'/><line x1='50' y1='50' x2='50' y2='30' stroke='#ffd700' stroke-width='1'/><line x1='50' y1='50' x2='70' y2='50' stroke='#ffd700' stroke-width='1'/><path d='M 50 50 Q 40 35 35 25' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "中央のLLMがシャノンの多層分類を統合し、各ゲーム類型へ戦略の光線を放出する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

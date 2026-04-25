@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Intent}}{\\text{Skill}} \\xrightarrow{\\text{DAG}} \\text{Execution}",
+      "interpretation": "自然言語の意図が、熟練の技に翻訳され、決定論的な実行へと流れ落ちる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='20' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='80' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 28 50 L 42 50' stroke='#f59e0b' stroke-width='2'/><path d='M 58 50 L 72 50' stroke='#f59e0b' stroke-width='2'/><rect x='45' y='65' width='10' height='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,85 50,95' stroke='#00d4ff' stroke-width='1.5'/></svg>",
+      "interpretation": "言語の曖昧さが層を通じて濾過され、下流の確実性へと結晶化していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L}_{local} \\approx \\frac{1}{\\sigma^2} \\sum_{\\lambda} e^{-d(\\text{soil})^2} \\cdot I(\\lambda)",
+      "interpretation": "土壌のスペクトル指紋は、距離と光の記憶が織り成す局所的な真理である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,30 65,40 50,50 35,40 50,30' stroke='#00ff88' stroke-width='1.5' fill='none'/><line x1='20' y1='50' x2='30' y2='50' stroke='#ec4899' stroke-width='1'/><line x1='70' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1'/><text x='50' y='75' text-anchor='middle' font-size='10' fill='#f59e0b' font-family='monospace'>λ→soil</text></svg>",
+      "interpretation": "光の波長が土壌の深さに折り返され、局所的な共鳴が全体を知る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "S_{\\text{clean}} = \\lim_{n\\to\\infty} \\int_0^\\infty |H(f)|^2 \\cdot P_{\\text{ear}}(f,n) \\, df",
+      "interpretation": "耳の知覚が無限に深まるとき、ノイズは周波数領域で消える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M20 50 Q35 30 50 50 T80 50' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M30 45 L35 55 M50 35 L50 65 M70 45 L65 55' stroke='#7c3aed' stroke-width='1' opacity='0.6'/><polyline points='20,75 50,60 80,75' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "聴覚の内部宇宙が音波の乱れを秩序へと折りたたむ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

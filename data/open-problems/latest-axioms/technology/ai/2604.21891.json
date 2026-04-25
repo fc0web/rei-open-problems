@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{U} = \\sum_{t=1}^{T} \\left( \\Phi_{warm}(x_t) \\xrightarrow{\\text{refine}} \\Phi_{solve}(x_t) \\right) \\cdot \\mathbb{1}_{\\text{feasible}}",
+      "interpretation": "変圧器が暖められた直感を、物理の制約という炉で焼き固める儀式。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='12' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#00ff88' stroke-width='2' fill='none'/><polyline points='37,50 38,50 39,50 40,50 41,50 42,50 43,50' stroke='#f59e0b' stroke-width='2' fill='none'/><polyline points='62,50 63,50 64,50 65,50 66,50 67,50 68,50' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 50 35 Q 55 40 50 50' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><path d='M 50 65 Q 55 60 50 50' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "予測の種子が流れを通じて精製され、制約の網目で真実へと濾される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

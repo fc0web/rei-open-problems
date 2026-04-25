@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{t=0}^{\\infty} \\frac{\\delta_t}{2^t} \\cdot \\log(\\text{path}_t)",
+      "interpretation": "時間の深さとともに指数関数的に消えゆく痕跡の重ね合わせ",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#00d4ff' stroke-width='1.5' fill='none'><path d='M10,50 Q30,20 50,50 T90,50'/><circle cx='50' cy='50' r='30' opacity='0.3'/><polyline points='20,70 35,60 50,75 65,55 80,80' stroke='#7c3aed'/><text x='50' y='95' font-size='10' fill='#ffd700' text-anchor='middle'>↻ trace</text></g></svg>",
+      "interpretation": "網の中を移動する粒子の軌跡が、時間とともに透明化していく",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

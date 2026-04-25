@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_0^{T} v_r(t) \\, dt}{\\sqrt{1 - (R_p/R_\\star)^2}} \\sim \\text{Population}_{\\text{evolved}}",
+      "interpretation": "放射速度と通過の時間の融合が、惑星の過去の進化を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><g stroke='#00ff88' stroke-width='1.5'><polyline points='30,50 20,40'/><polyline points='30,50 20,60'/><polyline points='70,50 80,40'/><polyline points='70,50 80,60'/></g><path d='M 50 30 Q 60 35 65 50 Q 60 65 50 70' stroke='#ec4899' stroke-width='2' fill='none'/></svg>",
+      "interpretation": "軌道の揺らぎと影の痕跡から、消えた歴史を再構成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

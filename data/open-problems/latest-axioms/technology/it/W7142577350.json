@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{t=0}^{\\infty} \\frac{\\text{constriction}_t}{\\text{expansion}_t} \\to \\text{aperture}",
+      "interpretation": "知識を絞り込むことと開くことが、教育の本質を交互に生み出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 40 70 50 Q 50 60 30 50' stroke='#00d4ff' stroke-width='2.5' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1.5' opacity='0.6'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>coil→spiral</text></svg>",
+      "interpretation": "蛇のようにらせん状に巻きつき、解きほぐされる思考の軌跡。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

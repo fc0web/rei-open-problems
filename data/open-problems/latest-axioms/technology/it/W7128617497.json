@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Film} \\otimes \\text{Orchestra}}{\\text{Screen}} = \\int_0^{\\infty} \\text{Audience}(t) \\, dt",
+      "interpretation": "映像から解放された音楽が、観客の時間的な経験を新しく積分する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 30,35 40,55 50,30 60,60 70,40 80,50' stroke='#00d4ff' stroke-width='2' fill='none'/><g opacity='0.6'><circle cx='30' cy='70' r='3' fill='#ec4899'/><circle cx='50' cy='75' r='3' fill='#ec4899'/><circle cx='70' cy='68' r='3' fill='#ec4899'/></g><path d='M 50 10 L 50 90' stroke='#00ff88' stroke-width='1' opacity='0.4' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "スクリーンという垂直軸から解放された波動が、観客の点として散らばり、再び共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

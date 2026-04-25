@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L} = \\int_0^1 \\frac{R(t) \\cdot \\tau(t)}{1 + \\delta(t)} \\, dt",
+      "interpretation": "応答速度と時間遅延の比が、機関の正当性を積分する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 70 35 50 50 Q 30 65 50 85' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#ec4899'/><g stroke='#00ff88' stroke-width='1.5'><line x1='50' y1='50' x2='75' y2='35'/><line x1='50' y1='50' x2='25' y2='65'/></g></svg>",
+      "interpretation": "応答と信頼が中心点で振動し、周囲の期待と交差する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

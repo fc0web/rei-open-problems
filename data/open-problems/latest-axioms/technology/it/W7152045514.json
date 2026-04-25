@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{flow}_{\\mu}}{\\text{spec}} \\cdot \\sqrt[3]{\\text{cost}^{-1}} \\to \\text{access}",
+      "interpretation": "微小な流れが特異性を通して増幅され、コスト逆数の立方根で医療へのアクセスが解放される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='8' fill='#ec4899'/><path d='M 50 50 L 30 30' stroke='#00d4ff' stroke-width='2'/><path d='M 50 50 L 70 30' stroke='#00d4ff' stroke-width='2'/><path d='M 50 50 L 40 75' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 L 60 75' stroke='#00ff88' stroke-width='2'/><circle cx='30' cy='30' r='3' fill='#7c3aed'/><circle cx='70' cy='30' r='3' fill='#7c3aed'/><circle cx='40' cy='75' r='3' fill='#f59e0b'/><circle cx='60' cy='75' r='3' fill='#f59e0b'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#666'>POC</text></svg>",
+      "interpretation": "中心の血小板が毛細管ネットワークを通じて、スマートフォンの指先へと分散し拡がる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

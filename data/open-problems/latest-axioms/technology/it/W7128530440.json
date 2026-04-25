@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\min_{\\mathbf{x}} \\left( E(\\mathbf{x}) + \\lambda \\cdot C(\\mathbf{x}) - \\mu \\cdot T(\\mathbf{x}) \\right)",
+      "interpretation": "既存建物の改修において、エネルギー消費、快適性、コストの三つの力が織りなす不可視の調和を見る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='18' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='18' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='18' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 35 42 L 65 42' stroke='#ec4899' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 48 L 45 65' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 48 L 55 65' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='3,2'/><text x='50' y='85' font-size='10' fill='#ffd700' text-anchor='middle'>Pareto</text></svg>",
+      "interpretation": "三つの目的地が張力を持ちながら絡み合い、最適解という霧の中で輝く折衝点を探りつづける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

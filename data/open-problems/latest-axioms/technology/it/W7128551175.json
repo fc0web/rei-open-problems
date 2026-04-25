@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{D} = \\int_0^t \\frac{dC}{d\\tau} \\cdot e^{-\\lambda(t-\\tau)} d\\tau + \\nabla^2 \\mathcal{I}",
+      "interpretation": "決定は過去の流れと現在の勾配が織り交ざる幽霊のような積分である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><polyline points='30,70 50,20 70,65 40,45 75,50' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='42' x2='50' y2='58' stroke='#ffd700' stroke-width='1'/></svg>",
+      "interpretation": "病院のカオスの中心に、一本の光が通り、判断の絡み合った迷路を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

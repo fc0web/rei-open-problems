@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sqrt{\\text{scarcity}}}{\\text{speed}} \\cdot e^{\\text{turbulence}} = \\text{clarity}",
+      "interpretation": "データの貧困さが速度に反抗するとき、混乱の指数化が透明さを生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 42 Q 35 56 50 58' stroke='#ffd700' stroke-width='2.5' fill='none'/><path d='M 50 42 Q 65 56 50 58' stroke='#ffd700' stroke-width='2.5' fill='none'/><line x1='50' y1='15' x2='50' y2='82' stroke='#7c3aed' stroke-width='1.5' opacity='0.4'/></svg>",
+      "interpretation": "上の疎なデータが下の高速な目標へ、二つの道で橋をかけている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

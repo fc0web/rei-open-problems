@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\frac{\\text{encode}(x) \\cdot \\text{decode}(x)}{\\text{noise}(x)} dx \\approx \\sum_{i=1}^{n} w_i \\log p(\\text{reason}_i)",
+      "interpretation": "エージェント間の隠れた対話は、ノイズを超えて意味を圧縮する積分として現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><circle cx='25' cy='50' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 33 50 Q 50 35 67 50' stroke='#00ff88' stroke-width='2' fill='none' filter='url(#glow)'/><path d='M 33 50 Q 50 65 67 50' stroke='#ec4899' stroke-width='2' fill='none' filter='url(#glow)'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "二つのエージェントが光の双方向を通じて、内部空間で意味を交わす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

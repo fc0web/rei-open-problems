@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H = \\arg\\max_{g \\in G} \\sum_{c} w(g, N_c) \\cdot \\rho(\\text{expr}_g, \\text{drug}_c)",
+      "interpretation": "ネットワークの心臓は、すべての癌を通じて響く遺伝子の声である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='8' fill='#00d4ff'/><circle cx='30' cy='35' r='5' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='70' cy='35' r='5' stroke='#00ff88' stroke-width='1.5' fill='none'/><circle cx='25' cy='65' r='4' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='75' cy='65' r='4' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='50' x2='30' y2='35' stroke='#ffd700' stroke-width='1'/><line x1='50' y1='50' x2='70' y2='35' stroke='#ffd700' stroke-width='1'/><line x1='50' y1='50' x2='25' y2='65' stroke='#f59e0b' stroke-width='1'/><line x1='50' y1='50' x2='75' y2='65' stroke='#f59e0b' stroke-width='1'/></svg>",
+      "interpretation": "中心の星は多くの世界を繋ぎ、その共鳴が隠れた医療の道を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

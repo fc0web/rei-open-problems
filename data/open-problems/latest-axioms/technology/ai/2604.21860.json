@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\text{Intent}(i) \\cdot \\text{Obfuscation}(i) \\to \\text{Bypass}",
+      "interpretation": "意図を時間軸に分散させることで、単一の防御は無視される。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='20' cy='30' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='80' cy='30' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 26 30 L 44 30' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 56 30 L 74 30' stroke='#7c3aed' stroke-width='1.5' stroke-dasharray='3,2'/><rect x='35' y='55' width='30' height='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,45 50,55' stroke='#f59e0b' stroke-width='2'/><text x='50' y='75' font-size='10' fill='#7c3aed' text-anchor='middle'>BREACH</text></svg>",
+      "interpretation": "分散した悪意が壁を通す。孤立した瞬間の隙間が全体の破綻を招く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

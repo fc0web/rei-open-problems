@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\phi}{dt} = 2\\pi\\mu t + \\Delta f_0 \\cdot \\mathbb{1}_{\\text{locked}}",
+      "interpretation": "ロックされた心臓が、時間とともに周波数を掃く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='20,50 35,45 50,55 65,40 80,60' stroke='#7c3aed' stroke-width='2.5' fill='none' stroke-linejoin='round'/><circle cx='50' cy='50' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 50 50 L 70 50' stroke='#00ff88' stroke-width='2' marker-end='url(%23arrowhead)'/><text x='50' y='85' font-size='10' text-anchor='middle' fill='#ffd700' font-weight='bold'>FLL</text></svg>",
+      "interpretation": "内部の渦が外側の輪郭に自分を同期させる、永遠のフィードバック。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

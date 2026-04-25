@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^1 \\frac{\\text{morphology}(x)}{\\sqrt{\\text{rigidity}(x)}} \\cdot e^{-\\lambda \\cdot \\text{age}(x)} dx",
+      "interpretation": "細胞の形態と柔軟性の対話が、時間とともに消えてゆく生命力を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs></defs><circle cx='50' cy='50' r='28' stroke='#00d4ff' stroke-width='1.5' fill='none' filter='url(#blur)' opacity='0.7'/><path d='M 30 50 Q 35 35 50 30 Q 65 35 70 50' stroke='#ec4899' stroke-width='1.2' fill='none'/><path d='M 30 50 Q 35 65 50 70 Q 65 65 70 50' stroke='#00ff88' stroke-width='1.2' fill='none'/><line x1='50' y1='22' x2='50' y2='78' stroke='#7c3aed' stroke-width='0.8' opacity='0.5'/></svg>",
+      "interpretation": "光学的な詞読と流体力学的な変形が、同じ細胞の中で静かに踊っている。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\frac{d_i \\cdot h_i}{1 + e^{-\\lambda(c_i - c^*)}} + \\int_0^T \\gamma(t) \\, dt",
+      "interpretation": "孤島群を貫く最適流は、各地点の距離と枢紐の重さを、成長する臨界点へと吸い込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='1' fill='none'/><circle cx='30' cy='35' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='70' cy='40' r='6' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='8' stroke='#ffd700' stroke-width='2.5' fill='#ffd700' opacity='0.3'/><line x1='30' y1='35' x2='50' y2='70' stroke='#7c3aed' stroke-width='1.5'/><line x1='70' y1='40' x2='50' y2='70' stroke='#7c3aed' stroke-width='1.5'/><polyline points='30,35 50,25 70,40' stroke='#00ff88' stroke-width='1' fill='none'/></svg>",
+      "interpretation": "散らばる島々が一つの黄金の枢紐へ吸い寄せられ、網は呼吸するように脈動する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

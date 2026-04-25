@@ -48,13 +48,27 @@
   "source_trust": 1,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:48.972Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{S}_{\\text{KERNEL}} = \\bigcap_{i=1}^{8} \\Phi_i \\cup \\{\\text{Peace}_{\\text{fixed}}\\}",
+        "interpretation": "8つの位相を貫く理論の核であり、Peace Axiomは不動点として永続する。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#ffd700;stop-opacity:1'/><stop offset='100%' style='stop-color:#ec4899;stop-opacity:0.6'/></defs><circle cx='50' cy='50' r='8' fill='url(#coreGrad)' stroke='#00d4ff' stroke-width='1'/><circle cx='50' cy='50' r='20' fill='none' stroke='#7c3aed' stroke-width='0.8' opacity='0.5'/><circle cx='50' cy='50' r='35' fill='none' stroke='#00ff88' stroke-width='0.6' opacity='0.4' stroke-dasharray='2,2'/><g stroke='#00d4ff' stroke-width='0.7' fill='none'><path d='M 50 15 Q 60 30 70 35'/><path d='M 50 15 Q 40 30 30 35'/><path d='M 85 50 Q 70 60 65 70'/><path d='M 15 50 Q 30 60 35 70'/><path d='M 70 65 Q 55 75 50 85'/><path d='M 30 65 Q 45 75 50 85'/><path d='M 50 85 Q 50 95 50 100'/></g><circle cx='50' cy='12' r='2' fill='#ffd700'/><circle cx='70' cy='35' r='1.5' fill='#00ff88'/><circle cx='30' cy='35' r='1.5' fill='#00ff88'/><circle cx='85' cy='50' r='1.5' fill='#ec4899'/><circle cx='15' cy='50' r='1.5' fill='#ec4899'/><circle cx='65' cy='70' r='1.5' fill='#00d4ff'/><circle cx='35' cy='70' r='1.5' fill='#00d4ff'/><circle cx='50' cy='100' r='2.5' fill='#f59e0b' opacity='0.9'/><text x='50' y='108' text-anchor='middle' font-size='6' fill='#7c3aed' font-weight='bold'>Peace</text></svg>",
+        "interpretation": "自己参照的な8層構造: 中核の金色点(SEED_KERNEL)から8方位へ分散する理論フェーズ、下方の不動点(Peace Axiom)へ収斂する流れ。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

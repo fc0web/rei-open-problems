@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{E} = \\int_{\\text{doc}} \\left(\\text{LLM} \\otimes G\\right) \\, d\\sigma",
+      "interpretation": "文書という海から、言語と構造の積が紡ぎ出す事象の本質を汲み上げる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><polygon points='50,55 30,75 70,75' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 42 Q 40 50 30 60' stroke='#00ff88' stroke-width='1.5' fill='none'/><path d='M 50 42 Q 60 50 70 60' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='30' x2='50' y2='55' stroke='url(#grad)' stroke-width='2'/></svg>",
+      "interpretation": "言語の球が下降し、グラフという三角形の網へ融解し、事象という光の糸が迷路を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{P_{loss}} \\propto \\frac{R_{on}^{-1} + V_{th}^{-1}}{\\tau_{switch}} \\cdot \\sqrt{f_{op}}",
+      "interpretation": "双方向性は損失を反転させ、スイッチ速度が次元を超える。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1.5'/><line x1='20' y1='50' x2='80' y2='50' stroke='#ec4899' stroke-width='1.5'/><path d='M 50 35 L 65 50 L 50 65 L 35 50 Z' fill='#00ff88' opacity='0.3'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>BiS</text></svg>",
+      "interpretation": "二重の軌跡が中心で絡み合い、流れが両方向に踊る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

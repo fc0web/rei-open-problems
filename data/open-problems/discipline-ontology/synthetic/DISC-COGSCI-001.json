@@ -50,13 +50,27 @@
   "source_trust": 0.92,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:48.286Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{C} = \\bigcap_{i=1}^{6} D_i \\cup \\left(\\sum_{i<j} B_{ij}\\right)",
+        "interpretation": "認知科学は6つの領域の交集と、その境界領域での相互作用の総和によって定義される。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs>.core{fill:#00d4ff;stroke:#7c3aed;stroke-width:2}.bridge{stroke:#00ff88;stroke-width:1.5;fill:none}.label{font-size:7px;font-weight:bold;text-anchor:middle;fill:#1a1a2e}</defs><circle cx='50' cy='50' r='12' class='core'/><circle cx='50' cy='50' r='28' class='bridge'/><circle cx='50' cy='18' r='7' class='core'/><circle cx='75' cy='30' r='7' class='core'/><circle cx='78' cy='60' r='7' class='core'/><circle cx='60' cy='78' r='7' class='core'/><circle cx='25' cy='78' r='7' class='core'/><circle cx='15' cy='58' r='7' class='core'/><path d='M 50 25 L 50 43' class='bridge'/><path d='M 65 37 L 57 48' class='bridge'/><path d='M 75 52 L 62 58' class='bridge'/><path d='M 68 70 L 58 66' class='bridge'/><path d='M 40 73 L 47 65' class='bridge'/><path d='M 20 65 L 40 55' class='bridge'/><path d='M 22 48 L 38 48' class='bridge'/><path d='M 30 25 L 43 45' class='bridge'/><text x='50' y='53' class='label'>認知</text><text x='50' y='14' class='label'>心理</text><text x='78' y='26' class='label'>神経</text><text x='80' y='64' class='label'>AI</text><text x='62' y='83' class='label'>言語</text><text x='20' y='83' class='label'>人類</text><text x='8' y='61' class='label'>哲学</text></svg>",
+        "interpretation": "6つの学問領域が中核の「認知」を囲みながら相互に連結する統合構造。各辺は学問間の対話と融合を表す。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

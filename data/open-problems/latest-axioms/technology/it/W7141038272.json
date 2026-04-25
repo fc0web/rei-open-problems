@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} \\text{Hue}(x) \\cdot \\text{Genome}(x) \\, e^{-x/\\lambda} dx",
+      "interpretation": "色素の波長が遺伝子の暗号と共鳴する何か根深い。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,15 50,30 35,50 50,70 65,50 50,30' stroke='#ffd700' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 40 70 50' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "ゲノムの螺旋が色の本質へと収束する、生命の認識図。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

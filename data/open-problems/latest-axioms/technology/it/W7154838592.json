@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{G} = \\int_0^\\infty \\frac{D(t) \\cdot I(t)}{1 + \\rho(t)} e^{-\\lambda t} dt",
+      "interpretation": "緑色の転換は、資金の多様化と国家支援のバランスが時間とともに革新的生態プロジェクトの価値を増幅する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00ff88'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='35' cy='35' r='8' fill='none' stroke='#7c3aed' stroke-width='1.5'/><circle cx='65' cy='35' r='8' fill='none' stroke='#ec4899' stroke-width='1.5'/><circle cx='50' cy='65' r='8' fill='none' stroke='#f59e0b' stroke-width='1.5'/><polyline points='35,35 50,50 65,35' fill='none' stroke='#00d4ff' stroke-width='1'/><polyline points='50,50 50,65' fill='none' stroke='#00ff88' stroke-width='1'/><path d='M 50 15 Q 50 50 50 85' fill='none' stroke='#ffd700' stroke-width='0.8' opacity='0.6'/></svg>",
+      "interpretation": "複数の資金源（紫、ピンク、オレンジ）が緑色の中心へと流れ、イノベーションの樹が成長する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

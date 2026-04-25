@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P} = \\int_0^\\infty \\sigma(\\mathbf{w} \\cdot \\mathbf{x}) \\, d\\mu(t) - \\alpha \\sqrt{\\text{Noise}}",
+      "interpretation": "非線形性が市場の隠された調和を引き出し、予測可能性はノイズの根の向こう側に隠れている。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><path d='M 20 80 Q 35 50 50 40 T 80 30' stroke='url(#g1)' stroke-width='2.5' fill='none'/><circle cx='50' cy='40' r='4' fill='#ec4899'/><polyline points='20,80 30,70 40,75 50,65 60,70 70,55 80,30' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.6'/><rect x='15' y='85' width='70' height='3' fill='#f59e0b' opacity='0.7'/></svg>",
+      "interpretation": "データの波形がグラデーションで非線形に上昇し、理論の地盤に支えられながら予測の光と揺らぎが交差する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "E_{total} = \\sum_{i=1}^{n} \\left(T_{IR}(i) \\cdot A(i) \\right) \\cdot \\frac{1}{t_{survey}}",
+      "interpretation": "赤外線の目で見た建物は、時間を圧縮した熱のスケッチになる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#ec4899'/></defs><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='50,38 50,70' stroke='url(#g1)' stroke-width='2' fill='none'/><rect x='30' y='70' width='40' height='20' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='35,80 40,75 45,80 50,75 55,80 60,75 65,80' stroke='#00ff88' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "無人機は空から降りてくる測定の光で、建物の隠れた代謝を照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

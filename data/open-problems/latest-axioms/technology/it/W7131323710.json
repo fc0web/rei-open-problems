@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{17} \\left( \\frac{\\text{Ekman}(A_i) + \\text{GoEmotion}(A_i)}{2} \\right) \\approx \\text{const}",
+      "interpretation": "時間が経っても、感情は同じ深淵を繰り返す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 35,45 50,55 65,40 80,50' stroke='#ec4899' stroke-width='2' fill='none'/><polyline points='20,50 35,48 50,52 65,49 80,50' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='75' font-size='10' fill='#7c3aed' text-anchor='middle'>17 albums</text></svg>",
+      "interpretation": "波打つ感情は円環に閉じ込められ、決して逃げ出さない。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

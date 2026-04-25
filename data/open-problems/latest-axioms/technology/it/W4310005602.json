@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_{\\text{past}}^{\\text{present}} \\text{place}(t) \\, dt \\cdot \\text{network}(\\phi)",
+      "interpretation": "時間の層をすくい取り、地理と歴史の交わりが現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='20,50 50,30 80,50 50,70 20,50' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' fill='#ffd700'/><path d='M 35 35 L 65 65 M 65 35 L 35 65' stroke='#00ff88' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "地図の経線と緯線が歴史の断層と共鳴し、中心で時が輝く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "P_{loss} \\sim \\frac{1}{E_g^2} \\cdot e^{-\\beta V_{th}(T)}",
+      "interpretation": "バンドギャップが広いほど、熱という見えない敵に勝つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='20' y='20' width='60' height='60' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='50' cy='50' r='8' fill='#00ff88' opacity='0.7'/><path d='M 30 50 Q 50 30 70 50' stroke='#ec4899' stroke-width='1.5' fill='none'/><path d='M 30 50 Q 50 70 70 50' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "結晶格子の中心に光が宿り、温度の波が相殺される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

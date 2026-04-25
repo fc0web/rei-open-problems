@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Virus}_{\\text{cargo}}}{\\text{Host}_\\text{extinct}} = \\int_0^\\infty \\text{Catalyst}(t) \\, e^{-\\lambda t} \\, dt",
+      "interpretation": "ウイルスが絶滅した宿主の触媒機能を、時間と共に減衰しながらも永遠に運ぶ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='30' cy='40' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='40' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 30 52 Q 50 75 70 52' stroke='#00ff88' stroke-width='2.5' fill='none'/><line x1='35' y1='35' x2='65' y2='35' stroke='#ec4899' stroke-width='1.5'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>DNA chain</text></svg>",
+      "interpretation": "二つの宿主の遺産が、ウイルスの中心で触媒のような弧を描く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

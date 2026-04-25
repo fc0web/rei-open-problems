@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{L}_{\\text{quotient}} = \\mathbb{E}_{g \\in G} \\left[ \\mathcal{L}_{\\text{diffusion}}(x / g) \\right]",
+      "interpretation": "対称性を除くことで、学習すべき本質的な自由度だけが残る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='30' r='8' stroke='#00d4ff' stroke-width='1.5' fill='none'/><g stroke='#ec4899' stroke-width='1.5'><line x1='50' y1='50' x2='30' y2='75'/><line x1='50' y1='50' x2='50' y2='80'/><line x1='50' y1='50' x2='70' y2='75'/></g><circle cx='50' cy='50' r='20' stroke='#00ff88' stroke-width='1' fill='none' opacity='0.6' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "回転と並進で重ねられた構造が、内側の本質へと圧縮される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{F} = \\int_{\\text{process}} \\mathcal{S}(\\phi) \\cdot \\mathcal{P}(\\phi) \\, d\\phi",
+      "interpretation": "プロセスが構造を織り、構造が機能を歌う—隠れた対称性が全体を貫く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='1' fill='none'/><path d='M 50 15 Q 70 50 50 85 Q 30 50 50 15' stroke='#ec4899' stroke-width='1.5' fill='none'/><line x1='50' y1='50' x2='50' y2='15' stroke='#f59e0b' stroke-width='1' opacity='0.6'/></svg>",
+      "interpretation": "同心円は発見の層—外から内へ、プロセスから構造から機能へと螺旋する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

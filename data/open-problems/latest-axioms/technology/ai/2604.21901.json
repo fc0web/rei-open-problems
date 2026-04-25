@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathbf{v}^\\star \\propto \\nabla_{\\mathbf{W}} \\mathcal{L} \\cdot \\mathbf{W}_{0}",
+      "interpretation": "勾配の道筋に沿って、適応の種が芽吹く。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='2'/><polyline points='50,15 45,35 50,25 55,35 50,15' fill='#00ff88' stroke='#00ff88' stroke-width='1.5'/><polyline points='20,50 40,45 30,50 40,55 20,50' fill='#ec4899' stroke='#ec4899' stroke-width='1.5'/><polyline points='80,50 60,45 70,50 60,55 80,50' fill='#ffd700' stroke='#ffd700' stroke-width='1.5'/></svg>",
+      "interpretation": "最小限の数の矢が、最大の効力で勾配の心臓を刺し貫く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

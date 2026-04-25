@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^T \\left(\\text{steel}_\\phi + \\text{ops}(t) \\cdot e^{-\\lambda \\Delta T}\\right) dt \\propto \\min(\\text{carbon})",
+      "interpretation": "鋼と運用と温度変動が、時間という流れの中で炭素を追い詰めていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='10' width='60' height='70' stroke='#7c3aed' stroke-width='2' fill='none'/><line x1='50' y1='10' x2='50' y2='80' stroke='#00d4ff' stroke-width='1.5' opacity='0.6'/><polyline points='20,50 35,35 50,45 65,30 80,50' stroke='#f59e0b' stroke-width='2' fill='none'/><circle cx='50' cy='40' r='3' fill='#ec4899'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>±ΔT</text></svg>",
+      "interpretation": "季節の揺らぎの中で、鋼の骨組みが最小のエネルギーで平衡を保つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -53,13 +53,27 @@
   "source_trust": 0.95,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:43.137Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{E} = \\int_{\\text{norm}} \\left( \\frac{\\text{binary}}{\\text{relative}} \\right) d\\mu(\\text{agent})",
+        "interpretation": "倫理は規範空間における二元性と相対性の張力を、行為者を通じて統合する領域である。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><polygon points='0 0, 10 3, 0 6' fill='#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='50' r='28' fill='none' stroke='#00ff88' stroke-width='1.5' stroke-dasharray='2,2'/><path d='M 50 22 L 50 78' stroke='#ec4899' stroke-width='2' marker-end='url(#arrowhead)'/><path d='M 22 50 L 78 50' stroke='#f59e0b' stroke-width='2'/><text x='50' y='20' font-size='9' fill='#00d4ff' text-anchor='middle' font-weight='bold'>記述</text><text x='80' y='52' font-size='9' fill='#f59e0b' text-anchor='start'>規範</text><text x='20' y='52' font-size='9' fill='#f59e0b' text-anchor='end'>相対</text><text x='50' y='85' font-size='9' fill='#ec4899' text-anchor='middle' font-weight='bold'>メタ</text><polygon points='50,50 56,40 44,40' fill='#00ff88' opacity='0.6'/></svg>",
+        "interpretation": "十字対立（善/悪、絶対/相対）を内包しながら、中心の自己参照的な行為者によって複数価値が同時共存する多元領域。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

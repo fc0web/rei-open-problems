@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H_C(X,Y) = \\int_0^1 \\int_0^1 \\log \\frac{C(u,v)}{u \\cdot v} \\, dC(u,v)",
+      "interpretation": "異なる財務項目の絡み合いを、その依存構造の情報量で捉える — 不完全さの中に隠れた秩序がある。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='url(#g1)' stroke-width='2'/><circle cx='35' cy='45' r='8' fill='none' stroke='#00ff88' stroke-width='1.5'/><circle cx='65' cy='55' r='8' fill='none' stroke='#ec4899' stroke-width='1.5'/><line x1='43' y1='48' x2='57' y2='52' stroke='#ffd700' stroke-width='1'/><polyline points='50,20 50,30 45,28 55,28' fill='none' stroke='#f59e0b' stroke-width='1.5'/><path d='M 50 70 Q 45 78 50 85' fill='none' stroke='#00d4ff' stroke-width='1.5'/></svg>",
+      "interpretation": "不完全な断片どうしが、光の糸で束ねられ、全体へと上昇する — 欠落が構造を生む。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

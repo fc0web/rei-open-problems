@@ -51,13 +51,27 @@
   "source_trust": 0.92,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:43.084Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{L} = \\lim_{n \\to \\infty} \\left( S_n \\cap \\nabla S_n \\right)",
+        "interpretation": "学習とは、状態の系列Sₙが自身の勾配∇Sₙと交差する極限—変化が変化を観察する自己参照の収束過程である。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><polygon points='0 0, 10 3, 0 6' fill='#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='50' r='25' fill='none' stroke='#00ff88' stroke-width='1.5' stroke-dasharray='3,2'/><path d='M 50 15 Q 65 35 50 50' fill='none' stroke='#00d4ff' stroke-width='2' marker-end='url(#arrowhead)'/><path d='M 50 50 Q 65 65 50 85' fill='none' stroke='#00d4ff' stroke-width='2' marker-end='url(#arrowhead)'/><path d='M 50 85 Q 35 65 50 50' fill='none' stroke='#ec4899' stroke-width='2' marker-end='url(#arrowhead)'/><path d='M 50 50 Q 35 35 50 15' fill='none' stroke='#ec4899' stroke-width='2' marker-end='url(#arrowhead)'/><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.7'/><text x='50' y='97' text-anchor='middle' font-size='10' fill='#7c3aed' font-weight='bold'>自己参照ループ</text></svg>",
+        "interpretation": "外環（経験・観察）と内環（メタ認識・改変）が相互貫通し、中心の自己が両者を同時に観察する統一体—学習の本質は「学習を学ぶ主体」と「学習される過程」の融合である。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

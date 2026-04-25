@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\min_{v(t)} \\int_0^T P_{\\text{net}}(v,\\alpha,h) \\, dt \\quad | \\quad v \\in \\mathcal{C}(\\text{grid})",
+      "interpretation": "軌跡は重力と電力網の共鳴に従って、自らの最小を求める。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><path d='M 10 50 Q 30 20, 50 30 T 90 60' stroke='#00d4ff' stroke-width='2.5' fill='none'/><circle cx='50' cy='30' r='3' fill='#ec4899'/><polyline points='50,30 50,45 45,50' stroke='#f59e0b' stroke-width='1.5' fill='none'/><path d='M 15 70 L 85 70' stroke='#7c3aed' stroke-width='1' stroke-dasharray='3,2' opacity='0.6'/><ellipse cx='50' cy='70' rx='35' ry='8' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.5'/></svg>",
+      "interpretation": "車両は地形の波紋上を滑り、下の電力網が微かに共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

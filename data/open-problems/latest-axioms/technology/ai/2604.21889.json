@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{t=1}^{T} \\text{noise}(t) \\cdot \\text{LLM}(t)}{\\text{merge}(\\text{entropy})} \\to \\text{signal}",
+      "interpretation": "ノイズと言語モデルの共鳴が、統合という触媒を通して真の信号へと昇華する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><g opacity='0.6'><circle cx='35' cy='40' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='65' cy='60' r='8' stroke='#ec4899' stroke-width='1.5' fill='none'/><circle cx='50' cy='35' r='6' stroke='#00ff88' stroke-width='1.5' fill='none'/></g><polyline points='35,40 50,50 65,60' stroke='#7c3aed' stroke-width='2' fill='none' opacity='0.8'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "雑音の粒子たちが紫色の経路に沿って収束し、中心の金の点——真実の信号——へと統合される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

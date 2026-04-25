@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{i=1}^{4400}(\\text{tech})_i}{\\sum_{i=1}^{4400}(\\text{social})_i} \\to \\infty",
+      "interpretation": "技術は数多けれど、社会の声は限りなく小さし。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='30' r='25' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='50' y1='55' x2='50' y2='65' stroke='#f59e0b' stroke-width='1.5' stroke-dasharray='2,2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#7c3aed'>gap</text></svg>",
+      "interpretation": "大いなる技術の輪と、小さき社会の声—橋は架からず。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

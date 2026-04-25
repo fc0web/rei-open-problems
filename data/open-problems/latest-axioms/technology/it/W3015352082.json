@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "d_{inst} = \\sqrt{\\sum_{i=1}^{n} w_i(O_i - E_i)^2 + \\int \\nabla\\mathcal{I} \\, d\\mu}",
+      "interpretation": "制度距離は、離散的な違いと連続的な制度の勾配が絡み合う幽霊のような距離である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 40 45 Q 50 30 60 45' stroke='#ec4899' stroke-width='2' fill='none' stroke-dasharray='3,2'/><path d='M 40 55 Q 50 70 60 55' stroke='#00ff88' stroke-width='2' fill='none' stroke-dasharray='3,2'/><text x='50' y='95' font-size='10' fill='#f59e0b' text-anchor='middle'>three lenses</text></svg>",
+      "interpretation": "三つの異なる視点が、間隙を通して互いに光を反射し、距離そのものを作り出している。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

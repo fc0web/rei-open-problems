@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{left}_{t}}{\\text{right}_{t}} \\to \\frac{1}{1} \\text{ as } t \\to \\infty \\cdot \\text{plasticity}",
+      "interpretation": "脳は左右の不均衡を感じ取り、時間とともに自らを再調整する神秘的な力を持つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='25' cy='50' r='8' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='8' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 33 50 Q 50 30 67 50' stroke='#00ff88' stroke-width='2' fill='none' stroke-dasharray='4'/><path d='M 33 50 Q 50 70 67 50' stroke='#00d4ff' stroke-width='2' fill='none'/><line x1='50' y1='35' x2='50' y2='65' stroke='#f59e0b' stroke-width='1.5' opacity='0.6'/></svg>",
+      "interpretation": "左右の足が最初は異なるリズムで踊るが、脳という見えぬ架橋によって次第に同期していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Entity}_{bio} \\otimes \\text{Relation} \\otimes \\text{Entity}_{med}}{\\text{Scarcity}} \\to \\text{Molecules}_{novel}",
+      "interpretation": "生物と医学の関係という鏡を通して、希少なデータが無限の化合物へと変容する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='50' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='50' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M37 45 Q50 35 63 45' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M37 55 Q50 65 63 55' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='6' stroke='#ffd700' stroke-width='1.5' fill='#ffd700' opacity='0.6'/><polyline points='50,30 50,20 45,25' stroke='#f59e0b' stroke-width='1.5' fill='none'/><polyline points='50,70 50,80 55,75' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "二つの知識の領域が、中核の関係で共鳴し、新しい生命の可能性へと枝分かれする。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

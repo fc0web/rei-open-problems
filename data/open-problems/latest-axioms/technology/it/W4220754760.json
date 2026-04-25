@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{i=1}^{n} \\left(\\prod_{j \\in T_i} w_j\\right) \\cdot e^{-\\lambda d_i}",
+      "interpretation": "多くの木は、各々の根から枝への重みの積と、深さへの指数減衰の調和として共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='15' r='4' fill='#7c3aed'/><line x1='50' y1='19' x2='30' y2='45' stroke='#00d4ff' stroke-width='1.5'/><line x1='50' y1='19' x2='50' y2='50' stroke='#00d4ff' stroke-width='1.5'/><line x1='50' y1='19' x2='70' y2='45' stroke='#00d4ff' stroke-width='1.5'/><circle cx='30' cy='45' r='3' fill='#ec4899'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><circle cx='70' cy='45' r='3' fill='#ec4899'/><line x1='30' y1='48' x2='20' y2='70' stroke='#00ff88' stroke-width='1'/><line x1='30' y1='48' x2='40' y2='70' stroke='#00ff88' stroke-width='1'/><line x1='50' y1='53' x2='50' y2='75' stroke='#00ff88' stroke-width='1'/><line x1='70' y1='48' x2='60' y2='70' stroke='#00ff88' stroke-width='1'/><line x1='70' y1='48' x2='80' y2='70' stroke='#00ff88' stroke-width='1'/><circle cx='20' cy='70' r='2' fill='#ffd700'/><circle cx='40' cy='70' r='2' fill='#ffd700'/><circle cx='50' cy='75' r='2' fill='#ffd700'/><circle cx='60' cy='70' r='2' fill='#ffd700'/><circle cx='80' cy='70' r='2' fill='#ffd700'/></svg>",
+      "interpretation": "複数の木が一つの風景に根を張り、各層が異なる情報の密度で輝く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

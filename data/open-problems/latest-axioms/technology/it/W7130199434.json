@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sqrt{\\text{signal}}}{\\text{salt}^3 + \\text{size}^{-1}} \\approx \\text{clarity}",
+      "interpretation": "塩の深淵を超えて、微小な世界は光を放つ。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#00ff88' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='40' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.4'/><g stroke='#00d4ff' stroke-width='1.5'><polyline points='50,50 65,35' fill='none'/><polyline points='50,50 70,50' fill='none'/><polyline points='50,50 65,65' fill='none'/></g><circle cx='50' cy='50' r='2' fill='#ffd700'/></svg>",
+      "interpretation": "光が塩の壁を貫き、層を通して微小な構造が露わになる瞬間。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

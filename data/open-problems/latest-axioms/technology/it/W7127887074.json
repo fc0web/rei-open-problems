@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d^2\\theta}{dt^2} + \\frac{\\mu}{m}\\frac{d\\theta}{dt} = \\frac{F(t) \\cdot L}{I} + \\epsilon_{\\text{adapt}}(t)",
+      "interpretation": "鳥の翼は振動と適応の絶妙なバランスで、時間とともに進化する動的システムである。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M 50 20 Q 30 40 20 60 Q 30 55 50 50 Q 70 55 80 60 Q 70 40 50 20' stroke='#00d4ff' fill='none' stroke-width='2'/><path d='M 50 50 L 35 75' stroke='#7c3aed' stroke-width='2'/><path d='M 50 50 L 65 75' stroke='#7c3aed' stroke-width='2'/><circle cx='50' cy='50' r='3' fill='#ec4899'/><polyline points='20,40 25,35 30,40 25,45' stroke='#00ff88' fill='none' stroke-width='1.5'/><polyline points='80,40 75,35 70,40 75,45' stroke='#00ff88' fill='none' stroke-width='1.5'/></svg>",
+      "interpretation": "翼と脚の共進化は、流体力学と重力のダンスで、絶えず自らの形を再発明する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

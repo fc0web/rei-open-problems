@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Auth} = \\int_0^1 \\frac{1}{1 + H(x)} \\, dx - \\sum_{i=1}^{n} \\delta_i(x)",
+      "interpretation": "真正性は連続の信頼から離散的な幻覚の損失へと滑る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='30' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><path d='M 50 45 Q 35 65 25 80' stroke='#7c3aed' stroke-width='2.5' fill='none'/><path d='M 50 45 Q 65 65 75 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><circle cx='25' cy='80' r='4' fill='#00ff88'/><circle cx='75' cy='80' r='4' fill='#ffd700'/><line x1='50' y1='30' x2='50' y2='45' stroke='#00d4ff' stroke-width='1.5' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "光学真実から分岐する二つの道—一方は本物、一方は幻覚の輝き。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

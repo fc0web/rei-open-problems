@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{e^{-\\lambda t}}{1+e^{-2\\pi t}} \\, dt = \\frac{1}{24}",
+      "interpretation": "複雑な分子の構築は、無限の層状構造を持つ自然の数との共鳴である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><g stroke='#7c3aed' stroke-width='1.5' fill='none'><circle cx='50' cy='30' r='8'/><circle cx='35' cy='55' r='8'/><circle cx='65' cy='55' r='8'/><circle cx='50' cy='75' r='8'/><line x1='50' y1='38' x2='35' y2='47'/><line x1='50' y1='38' x2='65' y2='47'/><line x1='35' y1='63' x2='50' y2='67'/><line x1='65' y1='63' x2='50' y2='67'/><polyline points='50,30 55,40 48,45 52,55 45,60' stroke='#00ff88' stroke-width='1'/></g></svg>",
+      "interpretation": "有機分子の骨格は、中心から放射する枝分かれした生命の樹である。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

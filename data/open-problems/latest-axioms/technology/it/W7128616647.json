@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty e^{-\\mu(E) x} \\sqrt{\\frac{dE}{dx}} \\, dN = \\text{silicon's whisper}",
+      "interpretation": "珪素の結晶が粒子の軌跡を光に変え、エネルギーと距離の対話が治療の真実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='8' fill='#ffd700' opacity='0.8'/><polyline points='50,50 70,30 75,20 80,15' stroke='url(#g1)' stroke-width='2' fill='none' stroke-linecap='round'/><polyline points='50,50 30,70 25,80 20,85' stroke='#00ff88' stroke-width='2' fill='none' stroke-linecap='round'/><rect x='40' y='40' width='20' height='20' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='25' stroke='#f59e0b' stroke-width='1' fill='none' opacity='0.4' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "矩形結晶の心臓から放たれた粒子は、四方八方の空間に刻まれた痕跡として検知される。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Barrier}_{\\text{access}}}{\\text{Complexity}_{\\text{tool}}} \\propto \\int_0^\\infty \\text{Impact}_{\\text{users}} \\, d\\rho",
+      "interpretation": "障壁を下げることで、放射性追跡の力が万人に流れ込む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='8' stroke='#ffd700' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='42' stroke='#00d4ff' stroke-width='1' fill='none' opacity='0.3'/><polyline points='50,50 35,20 65,20 50,50 25,70 75,70' stroke='#00ff88' stroke-width='1.5' fill='none' opacity='0.7'/></svg>",
+      "interpretation": "粒子の光跡は、同心円を破って、遠くの暗い場所まで届く。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

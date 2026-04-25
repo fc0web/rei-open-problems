@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} \\psi(x) \\cdot \\mathcal{P}(x) e^{-\\lambda x} dx = \\mathbb{R}_{\\text{bound}}",
+      "interpretation": "情報の残影が知覚器を通して衰減しながら現れ、境界条件の中にだけ本質がある",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs></defs><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none' opacity='0.6'/><circle cx='50' cy='50' r='25' stroke='#00d4ff' stroke-width='2' fill='none' opacity='0.8'/><circle cx='50' cy='50' r='15' stroke='#ec4899' stroke-width='2' fill='none'/><path d='M 50 50 L 70 50 M 50 50 L 45 65 M 50 50 L 35 48' stroke='#f59e0b' stroke-width='1.5' opacity='0.7' filter='url(#fade)'/><text x='50' y='8' font-size='8' text-anchor='middle' fill='#7c3aed' opacity='0.6'>REE</text><text x='92' y='50' font-size='7' text-anchor='end' fill='#00d4ff' opacity='0.7'>P</text></svg>",
+      "interpretation": "同心円の幽霊像が知覚の層状性を映し、中心へ収束する光線が検証不可能な本質を示唆する",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

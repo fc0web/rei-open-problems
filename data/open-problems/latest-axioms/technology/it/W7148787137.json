@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^{\\infty} e^{-\\lambda t} \\cdot \\frac{\\text{Carbon}(t)}{\\text{Engine}(t)} \\, dt",
+      "interpretation": "時間とともに消える炭素の重さを、機械の脈動で測る。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 50 50 85' stroke='#00ff88' stroke-width='2.5' fill='none'/><path d='M 50 15 Q 35 50 50 85' stroke='#ec4899' stroke-width='2' fill='none' opacity='0.6'/><line x1='20' y1='50' x2='80' y2='50' stroke='#f59e0b' stroke-width='1.5' opacity='0.4'/></svg>",
+      "interpretation": "エンジンの硬い輪郭から、やさしい緑の光が生まれ出す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

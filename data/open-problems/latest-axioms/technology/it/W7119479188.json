@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{P}(t) = \\alpha \\cdot \\nabla E + \\beta(t) \\cdot \\mathcal{X}(t) + \\int_0^t \\sigma(\\tau) d\\tau",
+      "interpretation": "自動運転は勾配降下と動的な探索のバランスの中に、時間とともに滑らかさが生まれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='50' r='35' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 50 20 Q 60 40 50 50 Q 40 60 50 80' stroke='#00ff88' stroke-width='2.5' fill='none' stroke-linecap='round'/><g opacity='0.6'><circle cx='35' cy='40' r='3' fill='#ec4899'/><circle cx='65' cy='45' r='3' fill='#ec4899'/><circle cx='50' cy='65' r='3' fill='#ec4899'/></g><polyline points='20,50 30,50 40,50' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "車両は渦巻く環境の中で、複数の選択肢を探りながら滑らかな軌跡へ収束していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

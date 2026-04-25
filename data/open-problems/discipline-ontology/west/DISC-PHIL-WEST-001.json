@@ -53,13 +53,27 @@
   "source_trust": 0.95,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:53.418Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\Phi(t) = \\oint_{\\gamma} \\frac{dQ}{1-Q} \\cdot \\sum_{n=0}^{\\infty} \\mathcal{R}_n(t)",
+        "interpretation": "問い（Q）の無限循環が、時間軸上で累積的に真理空間を拡張し続ける過程。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><polygon points='0 0, 10 3, 0 6' fill='#00d4ff'/></defs><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='30' stroke='#00d4ff' stroke-width='1.5' fill='none' stroke-dasharray='3,3'/><path d='M 50 20 Q 70 35, 70 50 Q 70 65, 50 80 Q 30 65, 30 50 Q 30 35, 50 20' stroke='#00ff88' stroke-width='2' fill='none' marker-end='url(#arrowhead)'/><path d='M 50 80 Q 65 65, 65 50 Q 65 35, 50 20' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.7' stroke-dasharray='2,2'/><circle cx='50' cy='50' r='4' fill='#ffd700'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed' font-weight='bold'>FLOWING</text></svg>",
+        "interpretation": "外側の円（2400年の累積），内側の破線（知識の地層），渦巻き矢印（問い直しの永続運動），中心点（真理への指向性）。",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

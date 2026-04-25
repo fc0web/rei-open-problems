@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{D}_{syn} = \\int_{\\text{scales}} \\left( RGB \\times Z \\times \\text{Night} \\right) d\\sigma",
+      "interpretation": "合成世界は、スケール次元を通じて、幾何と光の変換を統合する単一の測度である。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#00d4ff'/><stop offset='100%' style='stop-color:#7c3aed'/></defs><circle cx='50' cy='30' r='12' fill='none' stroke='url(#g1)' stroke-width='2'/><rect x='35' y='50' width='30' height='20' fill='none' stroke='#00ff88' stroke-width='2'/><polyline points='25,70 50,55 75,70' fill='none' stroke='#ec4899' stroke-width='2'/><line x1='50' y1='30' x2='50' y2='70' stroke='#f59e0b' stroke-width='1' opacity='0.5'/></svg>",
+      "interpretation": "上空の眼は、解像度と暗闇の層を通じて、地表の深さを測る。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

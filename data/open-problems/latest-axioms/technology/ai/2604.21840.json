@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trace}(\\text{Interaction})}{\\text{Observer Effect}} \\cdot \\text{Sandbox} = \\text{Verdict}",
+      "interpretation": "相互作用の痕跡を観測者効果から分離することで、真実が現れる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='50' r='15' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='70' cy='50' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 45 50 L 55 50' stroke='#00ff88' stroke-width='2'/><polyline points='30,20 70,20 70,80 30,80 30,20' stroke='#ec4899' stroke-width='1.5' fill='none' opacity='0.6'/><text x='50' y='95' font-size='8' text-anchor='middle' fill='#ffd700'>DECOUPLED</text></svg>",
+      "interpretation": "操作と判断が壁で隔てられ、それでも光の糸でつながる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

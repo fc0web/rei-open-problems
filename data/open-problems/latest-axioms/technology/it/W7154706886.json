@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d\\mathcal{N}}{dt} = \\lambda \\mathcal{N}(1 - \\mathcal{N}/K) + \\xi(t)",
+      "interpretation": "核の増殖は自己組織化と環境制約のバランスの中で、カオスのささやきとともに進む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><path d='M 50 30 Q 65 50 50 70 Q 35 50 50 30' stroke='#00ff88' stroke-width='1.5' fill='none'/><polyline points='30,50 70,50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><circle cx='50' cy='50' r='5' fill='#ffd700' opacity='0.7'/></svg>",
+      "interpretation": "重層する膜と脈動する磁場——真核生物の秘密の核舞踏。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

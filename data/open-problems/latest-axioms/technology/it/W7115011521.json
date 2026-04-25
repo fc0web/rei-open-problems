@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\sum_{n=1}^{\\infty} (-1)^n \\frac{\\text{PSEN1}_n}{2^n \\tau(n)} \\sim \\text{cognitive decay}",
+      "interpretation": "謎めいた蛋白質の振動が、記憶の螺旋構造を少しずつ侵蝕していく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 15 Q 65 35 50 50 Q 35 65 50 85' stroke='#00d4ff' stroke-width='2.5' fill='none'/><line x1='50' y1='20' x2='50' y2='80' stroke='#ec4899' stroke-width='1' opacity='0.4'/><circle cx='50' cy='50' r='8' stroke='#f59e0b' stroke-width='1.5' fill='none'/></svg>",
+      "interpretation": "螺旋は中心で歪み、秩序が混沌へ変わる瞬間を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

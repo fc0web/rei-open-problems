@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{\\text{motion}} \\text{d}\\theta}{\\int_{\\text{stillness}} \\text{d}\\lambda} = \\text{neurological truth}",
+      "interpretation": "動きの積分と静止の積分の比が、神経視覚の真実を映す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><path d='M 50 15 Q 70 50 50 85' stroke='#00ff88' stroke-width='2' fill='none'/><path d='M 50 15 Q 30 50 50 85' stroke='#ec4899' stroke-width='2' fill='none'/><line x1='35' y1='50' x2='65' y2='50' stroke='#ffd700' stroke-width='1.5' stroke-dasharray='3,3'/></svg>",
+      "interpretation": "同心円の境界と交差する光線たちが、視野の動的・静的な二重性を踊らせる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

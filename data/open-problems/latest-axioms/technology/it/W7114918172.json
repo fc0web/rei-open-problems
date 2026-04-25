@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\text{Trust}}{\\text{Code}} = \\int_0^{\\infty} e^{-\\lambda t} \\, d(\\text{Intent})",
+      "interpretation": "約束は時間とともに減衰し、意図の積分だけが真の信頼を残す。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 50 10 Q 70 30 70 50 Q 70 70 50 80' stroke='#00d4ff' stroke-width='2.5' fill='none'/><path d='M 50 10 Q 30 30 30 50 Q 30 70 50 80' stroke='#ec4899' stroke-width='2.5' fill='none'/><line x1='50' y1='50' x2='50' y2='85' stroke='#00ff88' stroke-width='2'/><text x='50' y='95' font-size='10' text-anchor='middle' fill='#ffd700'>unwind</text></svg>",
+      "interpretation": "二つの経路が中心で絡み合い、解けるのを待つスマートコントラクトの本質。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

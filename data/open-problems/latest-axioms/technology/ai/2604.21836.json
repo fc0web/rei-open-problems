@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{N}\\sum_{i=1}^{N}\\left\\|\\text{Proc}(R_i^{v})-\\text{Proc}(R_i^{l})\\right\\|^2\\propto\\sigma_{\\text{intra}}(x)",
+      "interpretation": "個々の刺激は、内部分散の大きさによってネットワーク間の収束を制御する隠れた変数のようにふるまう。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#00d4ff;stop-opacity:1'/><stop offset='100%' style='stop-color:#7c3aed;stop-opacity:0.3'/></defs><circle cx='50' cy='50' r='35' fill='url(#g1)' stroke='#7c3aed' stroke-width='1.5'/><circle cx='35' cy='40' r='8' fill='none' stroke='#00ff88' stroke-width='1.2'/><circle cx='65' cy='40' r='8' fill='none' stroke='#ec4899' stroke-width='1.2'/><path d='M 35 48 Q 50 65 65 48' stroke='#f59e0b' stroke-width='1.5' fill='none'/><text x='50' y='75' font-size='8' text-anchor='middle' fill='#ffd700' font-weight='bold'>σ</text></svg>",
+      "interpretation": "複数の感覚器官が一つの刺激を異なる角度から「見つめ」るほど、その内部の分散が増すことで逆説的に整列が深まる。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

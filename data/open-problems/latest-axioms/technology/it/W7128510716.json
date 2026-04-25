@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\mathcal{M} = \\int_0^\\infty e^{-\\lambda t} \\left(1 - e^{-\\sigma \\Delta I}\\right) dt",
+      "interpretation": "情報の摩擦が減衰するにつれて、通貨の流動性が指数的に加速する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#00d4ff' stroke-width='1.5' fill='none'/><polyline points='50,15 50,85' stroke='#00ff88' stroke-width='1' opacity='0.6'/><polyline points='15,50 85,50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><path d='M 30 50 Q 50 35 70 50' stroke='#f59e0b' stroke-width='2' fill='none'/><path d='M 30 50 Q 50 65 70 50' stroke='#ffd700' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/></svg>",
+      "interpretation": "デジタル通貨は中心から放射し、情報摩擦が障壁を透き通す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

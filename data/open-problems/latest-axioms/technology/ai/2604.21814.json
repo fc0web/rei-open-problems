@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\sum_{t=1}^{T} \\mathbb{1}[\\text{diagnosis}_t]}{T} \\cdot \\int_0^1 \\text{clarity}(\\theta) \\, d\\theta",
+      "interpretation": "診断は、疾患の兆候という針を無限の雑音の中から抽出する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#00d4ff'/></defs><rect x='10' y='10' width='80' height='80' fill='none' stroke='#ec4899' stroke-width='1.5' opacity='0.3'/><circle cx='20' cy='50' r='3' fill='#00ff88'/><circle cx='35' cy='45' r='2.5' fill='#00ff88'/><circle cx='50' cy='52' r='2' fill='#00ff88'/><circle cx='65' cy='48' r='2.5' fill='#00ff88'/><circle cx='80' cy='55' r='3' fill='#00ff88'/><polyline points='20,50 35,45 50,52 65,48 80,55' stroke='url(#g1)' stroke-width='2' fill='none'/><path d='M 15 70 Q 25 60 35 70 T 55 70 T 75 70' stroke='#f59e0b' stroke-width='1.5' fill='none' opacity='0.6'/></svg>",
+      "interpretation": "無限の管を通して、診断の光が点々と現れ、道を示す。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{\\int_{-\\infty}^{\\infty} x \\cdot h(x) \\, dx}{\\sqrt{1 + \\left(\\frac{\\sigma}{\\mu}\\right)^2}} = \\text{wealth}",
+      "interpretation": "双曲線の淵で均衡するとき、富はその幾何学的な形によって導かれる。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><path id='hyperbola' d='M 30 20 Q 50 50 70 80'/></defs><path d='M 10 50 L 90 50' stroke='#7c3aed' stroke-width='1'/><path d='M 50 10 L 50 90' stroke='#7c3aed' stroke-width='1'/><path id='h1' d='M 30 30 Q 50 50 70 70' stroke='#00d4ff' stroke-width='2' fill='none'/><path id='h2' d='M 70 30 Q 50 50 30 70' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='3' fill='#ffd700'/></svg>",
+      "interpretation": "二つの尾がポートフォリオの極端なリスクを鏡映する双曲幾何学。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

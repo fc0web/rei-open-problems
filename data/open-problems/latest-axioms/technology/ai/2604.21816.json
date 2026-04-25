@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-24",
-  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based"
+  "ingestMethod": "tier7-ai-pilot-v0.1-rule-based",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\text{Tax} = \\sum_{t=1}^{T} \\mathbb{1}[\\text{attend}(t)] \\cdot |\\sigma_t| - \\sum_{t=1}^{T} \\mathbb{1}[\\text{lazy}(t)] \\cdot |\\sigma_t|",
+      "interpretation": "注目すべき道具だけを呼び出すことで、隠れた税を払わずに済む。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#7c3aed' stroke-width='2' fill='none'/><g id='tools'><circle cx='25' cy='35' r='6' stroke='#00d4ff' stroke-width='1.5' fill='#00d4ff' opacity='0.8'/><circle cx='75' cy='50' r='5' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='50' cy='70' r='5' stroke='#ec4899' stroke-width='1' fill='none'/><circle cx='30' cy='65' r='5' stroke='#ec4899' stroke-width='1' fill='none'/></g><path d='M 50 50 L 25 35' stroke='#00ff88' stroke-width='2'/><path d='M 50 50 L 75 50' stroke='#f59e0b' stroke-width='1' stroke-dasharray='3,2'/><path d='M 50 50 L 50 70' stroke='#f59e0b' stroke-width='1' stroke-dasharray='3,2'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>gate</text></svg>",
+      "interpretation": "中心の注意が必要な道具だけを明るく照らし、余分な負荷を遠ざける。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

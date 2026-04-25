@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{d}{dt}\\left(\\sum_{i} x_i e^{\\lambda t}\\right) = \\int_{\\mathbb{S}} K(\\mathbf{u},\\mathbf{v}) x_i x_j \\, d\\sigma",
+      "interpretation": "接触と時間が絡み合い、個々の状態が集団の波として共振する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' stroke='#00d4ff' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='25' stroke='#7c3aed' stroke-width='1.5' fill='none'/><circle cx='50' cy='50' r='10' stroke='#00ff88' stroke-width='1.5' fill='none'/><g stroke='#ec4899' stroke-width='1' opacity='0.6'><line x1='30' y1='50' x2='70' y2='50'/><line x1='50' y1='30' x2='50' y2='70'/><line x1='35' y1='35' x2='65' y2='65'/><line x1='65' y1='35' x2='35' y2='65'/></g><path d='M 50 50 Q 60 40 65 25' stroke='#f59e0b' stroke-width='1.5' fill='none' stroke-dasharray='2,2' opacity='0.7'/></svg>",
+      "interpretation": "中心から放射する接触網、時間とともに波紋が広がり、干渉し、進化する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

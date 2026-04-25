@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "H(t) = \\int_0^t \\lambda(\\tau) \\cdot P(\\text{terrain}|\\tau) \\, d\\tau + \\Phi(\\text{drift})",
+      "interpretation": "時間は地形の記憶を通して危機の層位を積み重ねていく。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><stop offset='0%' style='stop-color:#7c3aed'/><stop offset='100%' style='stop-color:#ec4899'/></defs><polygon points='10,80 50,20 90,80' stroke='#00d4ff' stroke-width='2' fill='none'/><polyline points='15,75 50,35 85,75' stroke='#7c3aed' stroke-width='1.5' fill='none' opacity='0.6'/><polyline points='20,70 50,50 80,70' stroke='#ec4899' stroke-width='1' fill='none' opacity='0.4'/><circle cx='50' cy='35' r='3' fill='#ffd700'/><path d='M 25 85 Q 50 60 75 85' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='2,2'/></svg>",
+      "interpretation": "堆積する時間が斜面の不安定さを暴露し、確率の光が危機の深さを照らす。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

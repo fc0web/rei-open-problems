@@ -49,13 +49,27 @@
   "source_trust": 0.9,
   "visibility": "public",
   "created_at": "2026-04-25T13:52:39.887Z",
-  "updated_at": "2026-04-25T13:52:39.887Z",
+  "updated_at": "2026-04-25T14:04:34.999Z",
   "version": "0.1.0",
   "_v2_reserved": {
     "qid_required": null,
     "contentHash": null,
     "ipfsCid": null,
-    "intuitionArtifact": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{E} = \\int_0^\\infty \\frac{\\partial(K,S,V)}{\\partial t} \\, dt",
+        "interpretation": "教育は時間軸に沿って知識・技能・価値観を微分的に伝承する社会的積分過程である",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": {
+        "type": "svg",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><defs><polygon points='0 0, 10 3, 0 6' fill='#00d4ff'/></defs><circle cx='50' cy='50' r='35' fill='none' stroke='#7c3aed' stroke-width='2' opacity='0.6'/><circle cx='50' cy='50' r='25' fill='none' stroke='#00ff88' stroke-width='1.5' opacity='0.5' stroke-dasharray='3,2'/><g id='nodes'><circle cx='50' cy='20' r='4' fill='#00d4ff'/><circle cx='75' cy='35' r='4' fill='#ec4899'/><circle cx='75' cy='65' r='4' fill='#f59e0b'/><circle cx='50' cy='80' r='4' fill='#ffd700'/><circle cx='25' cy='65' r='4' fill='#00ff88'/><circle cx='25' cy='35' r='4' fill='#7c3aed'/><circle cx='50' cy='50' r='5' fill='#00d4ff' opacity='0.8'/></g><path d='M 50 20 Q 62 35 75 35' stroke='#00d4ff' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><path d='M 75 35 Q 75 50 75 65' stroke='#ec4899' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><path d='M 75 65 Q 62 72 50 80' stroke='#f59e0b' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><path d='M 50 80 Q 37 72 25 65' stroke='#ffd700' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><path d='M 25 65 Q 25 50 25 35' stroke='#00ff88' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><path d='M 25 35 Q 37 28 50 20' stroke='#7c3aed' stroke-width='1.2' fill='none' marker-end='url(#arrowhead)'/><text x='50' y='54' font-size='8' fill='#00d4ff' text-anchor='middle' font-weight='bold'>FLUX</text></svg>",
+        "interpretation": "六層環流構造：知識(K)→技能(S)→価値観(V)→社会適応→世代伝承→個人開発が循環し、中核のFLUXで時間軸上の再定義が常に起動する",
+        "claimedRigor": "intuition-only"
+      },
+      "generatedBy": "haiku-4.5",
+      "generatedDate": "2026-04-25"
+    },
     "pedagogicalNext": [],
     "pedagogicalPrev": [],
     "multiLanguage": {},

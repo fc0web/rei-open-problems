@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\int_0^\\infty \\frac{\\text{ESG} \\cdot \\text{Risk}(t)}{\\text{Innovation} + \\text{Stability}} \\, dt",
+      "interpretation": "生態系のリスクと金融の持続可能性が、緑の保険という振動する調和の中で共鳴する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='35' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='50' cy='50' r='20' stroke='#7c3aed' stroke-width='2' fill='none'/><polyline points='50,30 65,50 50,70 35,50 50,30' stroke='#00ff88' stroke-width='2' fill='none'/><line x1='50' y1='15' x2='50' y2='85' stroke='#ec4899' stroke-width='1' opacity='0.6'/><line x1='15' y1='50' x2='85' y2='50' stroke='#ec4899' stroke-width='1' opacity='0.6'/><text x='50' y='95' font-size='10' fill='#7c3aed' text-anchor='middle'>ESG</text></svg>",
+      "interpretation": "リスク、革新、安定性が中心から放射状に広がり、緑の保険の多層的な生態系を形成する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }

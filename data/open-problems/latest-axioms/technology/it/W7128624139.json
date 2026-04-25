@@ -99,5 +99,20 @@
     "executabilityEffort": "unknown"
   },
   "ingested": "2026-04-25",
-  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1",
+  "intuitionArtifacts": {
+    "ramanujanFormula": {
+      "latex": "\\frac{1}{Z}\\sum_{d=1}^{D}\\int_{\\mathcal{T}} e^{-\\beta d_{JS}(p_d, q_t)} \\, dt",
+      "interpretation": "訓練領域と試験領域の間に隠れた調和が存在し、ダイバージェンスが減るほど一致する。",
+      "claimedRigor": "intuition-only"
+    },
+    "visualGlyph": {
+      "type": "svg",
+      "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='30' r='12' stroke='#00d4ff' stroke-width='2' fill='none'/><circle cx='75' cy='30' r='12' stroke='#ec4899' stroke-width='2' fill='none'/><circle cx='50' cy='70' r='15' stroke='#7c3aed' stroke-width='2' fill='none'/><path d='M 30 40 Q 50 55 65 65' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><path d='M 70 40 Q 50 55 40 65' stroke='#00ff88' stroke-width='1.5' fill='none' stroke-dasharray='3,2'/><text x='50' y='95' text-anchor='middle' font-size='10' fill='#7c3aed'>shift</text></svg>",
+      "interpretation": "複数の領域が見えない融合点へ螺旋状に収束し、ずれを超越する。",
+      "claimedRigor": "intuition-only"
+    },
+    "generatedBy": "haiku-4.5",
+    "generatedDate": "2026-04-25"
+  }
 }
