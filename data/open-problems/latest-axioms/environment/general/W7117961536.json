@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-071",
+  "tier": 7,
+  "source": "environment/general:W7117961536",
+  "sourceRef": {
+    "url": "https://doi.org/10.57647/j.ap.2025.0902.22",
+    "citation": "Pejman Aramfar et al. 2026",
+    "pdfUrl": "https://doi.org/10.57647/j.ap.2025.0902.22",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Assessment of the Environmental Impacts of Landslides on Groundwater Resources Using Geoelectrical Surveys and Dipole-Dipole Arrays",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The present study aimed to assess the geological impacts of landslides on groundwater resources along the Shemshak-Dizin road, Iran, using the geoelectric geophysical method based on a dipole-dipole array. Thus, five geoelectric acquisition profiles were designed and implemented to identify the landslide geometry and assess its impacts on the regional groundwater system. The results of reverse modeling showed the clear boundary of the landslide layers and the areas with high humidity, as well as the lithological facies and the local water infiltration through fractures downstream of the landslide. The comparative results of the quantity of groundwater at present with those of the previous year show that the groundwater level in this area has decreased by an average of 14 meters compared to"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Pejman Aramfar, Arezou Dorostian, Soheila Bouzari et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7117961536",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

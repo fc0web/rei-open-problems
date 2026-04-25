@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-012",
+  "tier": 7,
+  "source": "society/politics:W7128634744",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03195309",
+    "citation": "Zhaosheng Shi et al. 2028",
+    "pdfUrl": "https://doi.org/10.17638/03195309",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Understanding China’s Influence towards Central and Eastern European Countries: Adaptive Approach, Local Agency and Contextual Factors",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Against the backdrop of China’s rise and the growing presence in Central and Eastern Europe, especially the launch of the China-Central and Eastern European Countries Cooperation Framework, widespread wisdom assumed that China’s engagement in the region constitutes a coherent and successful strategy of influence. Instead, this study contends that China’s approach towards Central and Eastern European countries (CEECs) is best understood as improvised and adaptive, shaped not only by Beijing’s intentions and methods but also by the agency of local states and the evolving international context. It further examines the fragmented and limited nature of China’s influence in Central and Eastern Europe (CEE) from 2012 to 2024. The analytical framework developed in this study integrates five modali"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Zhaosheng Shi",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7128634744",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

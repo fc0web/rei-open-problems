@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-060",
+  "tier": 7,
+  "source": "technology/it:W7124667864",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18278796",
+    "citation": "Tomo N.R et al. 2027",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18278796",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "A Hypothetical Model of Interaction between Localized Residual Information Entities (REE) and Biophysical Perceptors",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "説明このプレプリントは、REE(残留エネルギー実体)仮説の第3バージョン(V3)を提示し、局所的な残留情報構造が生物物理学的知覚システムと相互作用する概念モデルを提案しています。この理論は経験的真実を主張するのではなく、主観的知覚、環境情報の持続性、既存の医学的および物理的モデル間の境界条件を明確にすることを目的とした反証可能なフレームワークを導入しています。安全性、医療上の優先順位、誤解、カルト化、イデオロギー的誤用の防止に特に重点が置かれています。このバージョンは、V1とV2で導入された定義を統合し、反証可能性の基準を強化し、提案モデルを、主要な介入として明示的にサポートされている確立された神経科学と精神医学と明確に区別します。この研究は、情報操作の歴史的および現代的な誤用に対する警告的かつ記述的なフレームワークを提供すること、物理学、哲学、AI安全性、情報理論にわたる学際的な議論のための概念ツールを提供することを目的として公開されています。応用マニュアルや治療マニュアルではなく、非操作的参照モデルとしてご利用ください。免責事項:これは仮説的なモデルであり、確立された科学理論ではありません。実証的な検証が失敗した場合、このモデルは却下されるべきです。 参考文献と文脈的境界:本論文は科学的な説明とモデリングに焦点を当てていますが、哲学的視点、著者の懸念、そして重要な注意点に関する詳細な議論については、以下の別論文を参照してください。(局所的残余情報実体(REE)と生物物理学的知覚器の相互作用モデル - 誤用防止と解釈境界のための哲学的枠組み -)DOI: https://doi.org/10.5281/zenodo.18294677 キーワード ・残留情報 ・情報の永続性 ・知覚モデル ・生体物理学的知覚 ・反証可能な仮説 ・情報環境 ・AIセーフティ ・認知過負荷 ・人"
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "Tomo N.R",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7124667864",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

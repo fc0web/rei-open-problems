@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-013",
+  "tier": 7,
+  "source": "society/politics:W7128617100",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03194938",
+    "citation": "Yiqun Sun et al. 2028",
+    "pdfUrl": "https://doi.org/10.17638/03194938",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Navigating Transitions to Blended Learning: Engagement and Digital Literacy Development amongst First-Year Chinese Undergraduate Students at Transnational English-Medium Universities in China",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "While studies have examined the effectiveness of blended learning and institutional transitions, little is known about how first-year Chinese undergraduate students navigate the shift from high schools with limited technology-enhanced learning opportunities to blended learning in English-as-a-Medium-of-Instruction (EMI) transnational universities in China, where frequent technology use is both the norm and an expectation. This study addresses this gap by examining students’ transition experience to blended learning with a focus on engagement and digital literacy development. Employing an explanatory sequential mixed-methods design, the study gathered data from 341 survey responses and 20 interviews. Grounded in Astin’s (1993) Input-Environment-Outcome (I-E-O) model and Leontiev’s (1978) se"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Yiqun Sun",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7128617100",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

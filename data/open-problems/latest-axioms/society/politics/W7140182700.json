@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-033",
+  "tier": 7,
+  "source": "society/politics:W7140182700",
+  "sourceRef": {
+    "url": "https://doi.org/10.48683/1926.00129061",
+    "citation": "Guinevere Tisico Madlangbayan et al. 2027",
+    "pdfUrl": "https://doi.org/10.48683/1926.00129061",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Policy analysis of agricultural mechanisation in the Philippines: an institutional analysis and development framework",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Agricultural mechanisation in the Philippines has a long history but its development has been plagued with setbacks resulting in low levels of mechanisation compared to its neighbouring countries. This has been the situation despite having several laws enacted in support of agricultural modernization in the country. The Agriculture and Fishery Mechanization Law (AFMech Law) 2013 is the most recent law enacted towards this end that focused solely on mechanisation. With this serving as the policy background for agricultural mechanization development in the country, this study aimed to analyse its policy design and structure and gain an understanding of the current level of agricultural mechanisation in the Philippines. Applying the Institutional Grammar Tool (IGT) specifically to Article VI "
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Guinevere Tisico Madlangbayan",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7140182700",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

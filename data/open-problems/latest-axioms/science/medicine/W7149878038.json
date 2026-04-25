@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-036",
+  "tier": 7,
+  "source": "science/medicine:W7149878038",
+  "sourceRef": {
+    "url": "https://digitalcommons.library.tmc.edu/dnp_abstract/144",
+    "citation": "Miracle U Izevbekhai et al. 2027",
+    "pdfUrl": "https://digitalcommons.library.tmc.edu/context/dnp_abstract/article/1145/viewcontent/auto_convert.pdf",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Evaluating the Effectiveness of a Mindfulness-Based APP to Reduce Stress Among Psychiatric Nurses at a Children’s Hospital",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The purpose of this quality improvement project was to evaluate the effectiveness and feasibility of a mindfulness-based mobile application (Smiling Mind) to reduce perceived stress and emotional exhaustion among psychiatric nurses on an adolescent inpatient unit at a children’s hospital. Psychiatric nurses experience high levels of stress and burnout, which threaten staff well-being, retention, and patient safety. Brief, app-based mindfulness practices may offer a low-burden strategy to support nurse wellness in high-acuity environments, but real-world uptake and impact are not well described. Using a pre–post quality improvement design, a convenience sample of 11 nurses enrolled in a 12-week intervention. Nurses were encouraged to complete brief mindfulness practices using the Smiling Mi"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Miracle U Izevbekhai",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7149878038",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

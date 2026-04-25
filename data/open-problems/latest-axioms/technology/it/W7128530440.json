@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-046",
+  "tier": 7,
+  "source": "technology/it:W7128530440",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03195397",
+    "citation": "Nissa Aulia Ardiani et al. 2028",
+    "pdfUrl": "https://doi.org/10.17638/03195397",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Enhancing Retrofit Design for Office Buildings in Indonesia’s Hot-Humid Climates: Exploring Energy and Comfort Trade-Offs through Multi-Objective Optimisation Framework",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The building and construction sector is responsible for approximately 34% of total final energy use and contributes about 37% of energy-related carbon dioxide emissions worldwide (United Nations Environment Programme, 2024). Although new buildings can be constructed to high energy performance standards, around 75% of today’s buildings are expected to remain in use in 2050. Most existing buildings do not comply with contemporary energy performance standards. Therefore, energy retrofitting the existing buildings offers significant opportunities to reduce global energy consumption and greenhouse gas emissions. However, the retrofit process is inherently complex due to the wide array of potential energy-efficient measures, conflicting optimisation objectives, and the multifaceted nature of ass"
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "Nissa Aulia Ardiani",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7128530440",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

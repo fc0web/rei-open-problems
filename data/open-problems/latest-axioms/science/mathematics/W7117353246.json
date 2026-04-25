@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MATHEMATICS-2026-04-25-026",
+  "tier": 7,
+  "source": "science/mathematics:W7117353246",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18059723",
+    "citation": "Lenka Galčíková et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18059723",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Real-time tuning of approximated explicit MPC of a heat exchanger",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Tunable approximated explicit model predictive control (MPC) has the significant benefit of real-time tunability without the necessity of solving the optimization problem online. The concept of tunable explicit MPC requires storing two boundary explicit MPCs having the same setup except for one of the penalty matrices. In the online phase, both controllers are used to evaluate the optimal control action. Based on both optimal control actions, the value of the tuned control action is calculated by linear interpolation according to the current tuning parameter value. This work provides a technique for scaling the tuning parameter, which depends on the current reference value. The tunable explicit MPC was implemented on a laboratory heat exchanger with nonlinear and asymmetric behavior. The s"
+  },
+  "field": "science",
+  "subfield": "mathematics",
+  "proposer": "Lenka Galčíková, Petronela Belková, Juraj Oravec",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7117353246",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "permanent",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+}

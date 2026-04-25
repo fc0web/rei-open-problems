@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ENGINEERING-2026-04-25-080",
+  "tier": 7,
+  "source": "infrastructure/engineering:W7135097156",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18973270",
+    "citation": "Kwame Asante et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18973270",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Randomised Field Trial of Process-Control System Diagnostics for Yield Optimisation in Ghanaian Industrial Operations",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Industrial process-control systems in many developing economies often operate sub-optimally, with limited empirical evidence on the efficacy of systematic diagnostic interventions for yield improvement. This study aimed to quantify the causal impact of a structured process-control diagnostic protocol on operational yield within Ghanaian industrial settings. A randomised field trial was conducted across multiple manufacturing sites. Treatment plants received the diagnostic intervention, while control plants continued standard operations. Yield was measured as the mass ratio of final product to raw material input. The treatment effect was estimated using a linear mixed model: $Y_{ij} = \\beta_0 + \\beta_1 T_{ij} + \\mu_j + \\epsilon_{ij}$, where $Y_{ij}$ is yield for unit $i$ in firm $j$, $T_{ij"
+  },
+  "field": "infrastructure",
+  "subfield": "engineering",
+  "proposer": "Kwame Asante, Kofi Mensah Ankrah, Ama Serwaa Boateng",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7135097156",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+}

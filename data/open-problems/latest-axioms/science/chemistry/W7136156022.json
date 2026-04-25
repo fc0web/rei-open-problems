@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-051",
+  "tier": 7,
+  "source": "science/chemistry:W7136156022",
+  "sourceRef": {
+    "url": "https://doi.org/10.7273/000008004",
+    "citation": "S M Hasan Shahriar Rahat et al. 2027",
+    "pdfUrl": "https://doi.org/10.7273/000008004",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "MODELING AND CHARACTERIZATION OF ALGAL GROWTH IN ANAEROBIC DIGESTION WASTEWATER FOR PROCESS OPTIMIZATION",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Microalgae cultivation using anaerobic digestion (AD) wastewater is an attractive way of producing nutrient-rich biomass and treating wastewater. Integration of computational modeling provides valuable insights into algal-bacterial interactions and process scalability. With the help of metabolic flux analysis, kinetic modeling, cellular automata, and computational fluid dynamics (CFD), the predictive capability of algal growth patterns and reactor efficiency could be enhanced. Each modeling approach captures different facets of microalgal systems, including intracellular fluxes, nutrient kinetics, spatial heterogeneity, and hydrodynamic behavior, offering a more complete process understanding. Furthermore, artificial intelligence-based models have been investigated for nutrient utilization"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "S M Hasan Shahriar Rahat",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7136156022",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-099",
+  "tier": 7,
+  "source": "society/politics:W7125605919",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18361861",
+    "citation": "Jean-Paul Morel et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18361861",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Scaling Telemedicine for Specialist Consultations in Francophone West Africa: A Case Study of Facilitators and Barriers in Seychelles",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This case study investigates the facilitators and barriers to scaling telemedicine for specialist consultations in Seychelles, a small island developing state (SIDS), between 2021 and 2026. The research addresses the persistent challenge of equitable access to specialist healthcare in geographically dispersed island nations. A qualitative methodology was employed, involving thematic analysis of national policy documents, in-depth interviews with health ministry officials, clinicians, and IT specialists, and a review of operational data from the national telemedicine platform initiated in 2022. Key findings indicate that strong political commitment and a centralised public health system were primary facilitators for initial implementation. However, significant barriers to sustainable scale-"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Jean-Paul Morel, Anita Labiche, Marie-Ange Hoareau",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7125605919",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

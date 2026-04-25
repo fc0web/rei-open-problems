@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-PHYSICS-2026-04-25-092",
+  "tier": 7,
+  "source": "science/physics:W7154623693",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19610251",
+    "citation": "aurelien SUREAU et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19610251",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The Flux: Continuous Big Bang and QGP substrate unifying dark matter and dark energy",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "I propose a cosmological model in which the Big Bang is not a singular past event, but an ongoing active process. Space itself is identified with the Flux: the primordial quark-gluon plasma (QGP), never fully hadronized in high-density regions, expanded over 13.8 billion years and still present.This single substrate — whose physical properties (η/s ≈ 1/4π, MIT Bag equation of state, cs² = 1/3) are measured at CERN — simultaneously plays the roles of dark matter, dark energy, and the engine of structure formation, without new particles or fields.Derived from Euler equilibrium and the QGP equation of state, the EOS β formula reproduces the rotation curves of 163 SPARC galaxies (Lelli et al. 2016) with a median reduced χ² of 0.57 — outperforming NFW (1.47), Burkert (0.79) and MOND/RAR (~1.2–1"
+  },
+  "field": "science",
+  "subfield": "physics",
+  "proposer": "aurelien SUREAU",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7154623693",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+}

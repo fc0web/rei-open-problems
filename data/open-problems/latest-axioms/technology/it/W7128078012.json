@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-027",
+  "tier": 7,
+  "source": "technology/it:W7128078012",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03194433",
+    "citation": "Karthik Gopalakrishnan et al. 2029",
+    "pdfUrl": "https://doi.org/10.17638/03194433",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Impact and change in decision-making and job roles in organisations adopting AI/Automation solutions for the first time",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "AI and Automation are not new topics; the technologies, systems and processes within this area have been rapidly gaining momentum in the last few years. Research suggests that the interest in AI/Automation peaked in 2005 and then waned. However, post-2015, the interest in AI/Automation has increased significantly. Industries such as manufacturing, and construction embraced automation more than two decades ago to increase quality and productivity. In recent years, better technology solutions related to storage, big data management and data interpretation have led to AI/Automation being applied to decision-making across industries and job roles. Based on research in this thesis, job roles will evolve with the use of both AI and Automation in organisations to execute repetitive tasks more eff"
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "Karthik Gopalakrishnan",
+  "year": 2029,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7128078012",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

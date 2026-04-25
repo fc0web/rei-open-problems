@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ENGINEERING-2026-04-25-089",
+  "tier": 7,
+  "source": "infrastructure/engineering:W7125345574",
+  "sourceRef": {
+    "url": "https://doi.org/10.17308/kcmf.2025.27/13327",
+    "citation": "Александр Михайлович Самойлов et al. 2026",
+    "pdfUrl": "https://doaj.org/article/349eb059fb0f4d34bdd957adfac28307",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Фазовый состав и текстура тонких пленок оксида палладия (II), синтезированных на SiO2/Si",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Объект исследования – наноструктуры на основе оксида палладия (II). Цель работы – установление влияния условий синтеза на фазовый состав и текстуру тонких пленок оксида палладия (II), синтезированных посредством оксидирования в атмосфере кислорода исходных ультрадисперсных слоев металлического палладия различной толщины на подложках SiO2/Si(100). Выводы: Установлено, что оксидирование исходных ультрадисперсных слоев металлического палладия толщиной ~ 95, ~ 190 и ~ 290 нм в атмосфере кислорода в интервале температур Tox = 873–1123 К приводит к формированию гомогенных поликристаллических пленок оксида палладия (II) на подложках SiO2/Si (100). Показано, что поверхностные слои пленок PdO/SiO2/Si (100) имеют выраженную текстуру (001), степень которой возрастает с ростом температуры оксидировани"
+  },
+  "field": "infrastructure",
+  "subfield": "engineering",
+  "proposer": "Александр Михайлович Самойлов, Алексей Игоревич Донцов, Андрей Сергеевич Прижимов et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7125345574",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ENGINEERING-2026-04-25-063",
+  "tier": 7,
+  "source": "infrastructure/engineering:W7119023117",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18160207",
+    "citation": "S. Rajanna G et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18160207",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "ಕರನಟಕ ಮತತ ಕರಳದ ಅರಣಯ ಸರಕಷತ ಪರದಶಗಳನನ ಸಪರಕಸವ ವನಯಜವ ಕರಡರಗಳ ಮಲ ಭದಶಯ ವಘಟನಯ ಪರಣಮ",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "ಪಶ್ಚಿಮ ಘಟ್ಟಗಳು ಜಗತ್ತಿನ ಜೈವಿಕ ವೈವಿಧ್ಯತೆಯ ಪ್ರಮುಖ ಕೇಂದ್ರಗಳಲ್ಲಿ ಒಂದಾಗಿದ್ದು, ಕರ್ನಾಟಕ ಮತ್ತು ಕೇರಳ ರಾಜ್ಯಗಳಾದ್ಯಂತ ವಿಸ್ತರಿಸಿದೆ. ಈ ಅಧ್ಯಯನವು ಕರ್ನಾಟಕ ಮತ್ತು ಕೇರಳದ ಅರಣ್ಯ ಸಂರಕ್ಷಿತ ಪ್ರದೇಶಗಳ ನಡುವಿನ ವನ್ಯಜೀವಿ ಕಾರಿಡಾರ್‌ಗಳ ಮೇಲೆ ಭೂದೃಶ್ಯ ವಿಘಟನೆಯ ಪರಿಣಾಮವನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ. ಕೃಷಿ ವಿಸ್ತರಣೆ, ನಗರೀಕರಣ, ಮೂಲಸೌಕರ್ಯ ಅಭಿವೃದ್ಧಿ ಮತ್ತು ತೋಟಗಳ ವಿಸ್ತರಣೆಯಿಂದಾಗಿ ಅರಣ್ಯ ಆವಾಸಸ್ಥಾನಗಳು ಗಣನೀಯವಾಗಿ ವಿಘಟನೆಗೊಂಡಿವೆ. 2000 ರಿಂದ 2024 ರವರೆಗೆ ದಟ್ಟ ಅರಣ್ಯ ಪ್ರದೇಶದಲ್ಲಿ 9.01% ಕಡಿತ ಕಂಡುಬಂದಿದೆ. ಆನೆ, ಹುಲಿ, ಚಿರತೆ ಮತ್ತು ಇತರ ವನ್ಯಜೀವಿಗಳ ಚಲನೆಗೆ ನಿರ್ಣಾಯಕವಾದ ಕಾರಿಡಾರ್‌ಗಳಾದ ತಿರುನೆಲ್ಲಿ-ಕುದ್ರಕೋಟೆ, ಎದಯರಹಳ್ಳಿ-ದೊಡ್ಡಸಂಪಿಗೆ, ಮತ್ತು ವಾಯನಾಡು-ಬಾಂಡಿಪುರ ಕಾರಿಡಾರ್‌ಗಳು ತೀವ್ರ ಒತ್ತಡದಲ್ಲಿವೆ. ಈ ಸಂಶೋಧನೆಯು ಭೌಗೋಳಿಕ ಮಾಹಿತಿ ವ್ಯವಸ್ಥೆ (GIS) ಮತ್ತು ದೂರಸಂವೇದನಾ ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಬಳಸಿಕೊಂಡು ವಿಘಟನೆಯ ಮಾದರಿಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಪರಿಸರ ಸಂಪರ್ಕತೆಯನ್ನು ಸುಧಾರಿಸಲು ಸಂರಕ್ಷಣಾ ತಂತ್ರಗಳನ್ನು ಶಿಫಾರಸು ಮಾಡುತ್"
+  },
+  "field": "infrastructure",
+  "subfield": "engineering",
+  "proposer": "S. Rajanna G",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7119023117",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+}

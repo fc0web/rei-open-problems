@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-074",
+  "tier": 7,
+  "source": "environment/general:W7125600615",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18360206",
+    "citation": "Elia Lona James et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18360206",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "A Methodological Framework for Blockchain-Enabled Peer-to-Peer Solar Trading to Mitigate Urban Heat Islands: A Lagos, Togo Case Study (2021–2026)",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This methodology article presents a novel framework for implementing blockchain-enabled peer-to-peer (P2P) solar photovoltaic (PV) trading as a dual-purpose strategy for climate adaptation in African cities, specifically targeting urban heat island (UHI) mitigation. It addresses the lack of integrated methodologies that link decentralised renewable energy markets with measurable urban cooling co-benefits in data-scarce contexts. Focusing on Lagos, Nigeria, from 2021–2026, the proposed mixed-methods approach combines a technical layer—a permissioned blockchain platform for secure P2P transactions—with a rigorous empirical monitoring protocol. This involves deploying a calibrated network of low-cost sensors across participating households to collect longitudinal, high-resolution data on surf"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Elia Lona James",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7125600615",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

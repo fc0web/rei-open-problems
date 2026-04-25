@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-008",
+  "tier": 7,
+  "source": "society/politics:W7124539528",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18280414",
+    "citation": "Karen Onuma Mielke et al. 2028",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18280414",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "What is the Potential of ICTs to Improve Education in Low and Middle Income Countries?",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Worldwide, actors hold high hopes about the use of technologies in education. Evaluat- ing literature on different aspects related to the use of technologies in education, this paper aims at bringing together the dispersed knowledge in this field. It addresses the question: What is the potential of information and communication technologies (ICTs) to improve education in low and middle income countries (LMICs)? Based on findings from past and current ICT projects in education in LMICs, this paper determines five fac- tors that seem to be decisive for the success of such initiatives: People, technology, ped- agogy, financial cost, and organization. Focusing on primary and secondary education, the author argues that considering the elaborated aspects, ICTs can contribute to ad- vance towards"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Karen Onuma Mielke",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7124539528",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

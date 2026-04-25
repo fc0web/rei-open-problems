@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-095",
+  "tier": 7,
+  "source": "society/politics:W7116329180",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.17988509",
+    "citation": "Nikos Manias et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.17988509",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Report on understanding energy poverty at the local level and the role of multi-apartment buildings: Deliverable 2.1 LOCATEE project",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This report, developed within the LOCATEE project, lays the conceptual foundation for addressing energy poverty in Europe, with particular attention to the challenges posed by private multi-apartment buildings (MABs). It reviews EU, national, and local policy frameworks, and highlights barriers such as poor building performance, fragmented ownership and decision-making, financing gaps, and limited municipal capacity that constrain effective energy poverty alleviation. A systematic review of more than 50 local initiatives across Europe illustrates both promising practices and persistent shortcomings, particularly the lack of robust monitoring and evaluation mechanisms. The analysis underscores the importance of multi-level collaboration and the critical role of municipalities, civil society"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Nikos Manias, Dimitris Papantonis, Jan Frankowski et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7116329180",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

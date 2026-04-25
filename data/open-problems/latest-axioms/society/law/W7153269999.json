@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-042",
+  "tier": 7,
+  "source": "society/law:W7153269999",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19502222",
+    "citation": "Abraham Kuol Nyuon (Ph.D) et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19502222",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The UN Sanctions Committee and South Sudan: Expert Panel Reporting and Multilateral Accountability",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This article develops a novel theoretical framework to analyse the complex accountability dynamics between the United Nations Security Council (UNSC) and its subsidiary sanctions bodies, with a focus on South Sudan. It argues that the relationship between the UNSC (the principal) and the 2206 South Sudan Sanctions Committee and its Panel of Experts (the agents) is characterised by significant information asymmetries and divergent preferences. The framework posits that the Panel's reporting is a critical mechanism for reducing these asymmetries, thereby influencing multilateral accountability and the potential for targeted sanctions to contribute to peacebuilding. The analysis draws on the empirical record of Panel reports from 2015 to 2024 to ground the theoretical propositions, examining "
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Abraham Kuol Nyuon (Ph.D)",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7153269999",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

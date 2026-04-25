@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-035",
+  "tier": 7,
+  "source": "environment/general:W7118094314",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18126356",
+    "citation": "A. Suleiman et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18126356",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Physico-Chemical Properties and Microbial Community of Soils Polluted by Tannery Effluents at the Nigerian Institute of Leather and Science Technology Zaria, Nigeria",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Abstract Tannery effluent is a wastewater containing complex toxic chemical compounds affecting the environment and the exposed organisms. This study is aimed to evaluate the physicochemical parameters and microbial composition of soil contaminated by tannery effluents.The results showed that the contaminated soil recorded highest levels of chromium and ammonia in site C, which ranges from a minimum of 0.40mg/g to a maximum of 0.43mg/g and lowest concentration of 0.60 to a maximum of 0.70mg/g respectively.Similarly, sulphide ranges from 0.40 mg/g concentration to 0.44mg/g in the same site. The recorded values exceeded the tolerable levels of <0.1, 0.2 and 0.2 mg/g for chromium, ammonia and sulphide respectively, set by Federal Ministry of Environment. Additionally, the results revealed var"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "A. Suleiman, A. D. Tasiu, A. O. Adeyi et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7118094314",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

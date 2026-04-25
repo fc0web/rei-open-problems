@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-049",
+  "tier": 7,
+  "source": "society/law:W7134269920",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18643284",
+    "citation": "Elliott David Perkins et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18643284",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Do As You Like: Free Will and Reconciliation in Þórðar saga hreðu",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This essay examines the themes of free will and reconciliation in Þórðar saga hreðu, contrasting them with typical motifs found in Norse literature such as fate and revenge. While it is a lesser-known work, the saga presents a unique libertarian and humanist perspective, illustrated through the merciful actions of its main characters and absence of traditional fate-driven narratives, supported by the author's 'punishment' and 'reward' system. The analysis suggests that these themes reflect a more open-minded cultural landscape among the Icelanders during the saga's time, and posits that this openness may have contributed to the peaceful Christianization of Iceland."
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Elliott David Perkins",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7134269920",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

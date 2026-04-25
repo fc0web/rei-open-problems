@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-034",
+  "tier": 7,
+  "source": "business/general:W7130484550",
+  "sourceRef": {
+    "url": "https://scholarship.shu.edu/student_scholarship/1730",
+    "citation": "Jesse R. Place et al. 2027",
+    "pdfUrl": "https://scholarship.shu.edu/cgi/viewcontent.cgi?article=2726&context=student_scholarship",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Cyberbullying and Free Speech Considerations Under the New Jersey Anti-Bullying Bill of Rights Act",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "While cyberbullying shares many characteristics with traditional (offline) bullying (e.g., intention, aggressiveness, power imbalance, repetition), it can be particularly pernicious because of the medium in which it occurs. 3 As examples, a discrete incident of aggression that may have previously happened at a single time or place is not so constrained on the internet. 4 The abusive content itself can take the form of a comment, image, or recording. 5 And such aggressive content can be \"repeatedly viewed, shared, saved, commented on, or 'Liked' by others, and result in a cycle of repetitionand associated ongoing damage or trauma for a victim who re-lives the experience.\" 6Additionally, the lack of non-verbal cues make intention more difficult to discern, and the power imbalance that is oft"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Jesse R. Place",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7130484550",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

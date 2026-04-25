@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-067",
+  "tier": 7,
+  "source": "science/biology:W7154752975",
+  "sourceRef": {
+    "url": "https://doi.org/10.14288/1.0451983",
+    "citation": "Martin Jasinski et al. 2027",
+    "pdfUrl": "http://hdl.handle.net/2429/94133",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "A method of counting mRNA molecules in Lipid Nanoparticles",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Lipid Nanoparticles (LNPs) containing mRNA revolutionized the pharmaceutical field by enabling direct delivery of large delicate mRNA molecules so that the expression of proteins could be precisely controlled [1]. These mRNA LNP products have helped with combating the SARS-CoV-2 pandemic and offered treatments for genetic diseases caused by the absence of specific proteins needed for biological function in patients [2]. However, despite being widely used to suppress the pandemic, these relatively new mRNA LNP products have yet to be fully characterized and optimized. For example, drug developers use ensemble-average measurement techniques which gloss over the important biophysical properties of the mRNA LNPs such as their distribution of sizes and mRNA payloads, and are in need of new high"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Martin Jasinski",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7154752975",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

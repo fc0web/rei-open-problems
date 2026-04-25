@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-005",
+  "tier": 7,
+  "source": "society/politics:W7128617111",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03194738",
+    "citation": "Faisal Alotaibi et al. 2029",
+    "pdfUrl": "https://doi.org/10.17638/03194738",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Reforming Jointly Owned Property in Line with Saudi Vision 2030: Socio- legal Lessons Learned from English Commonhold and South African Sectional Title",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This thesis critically examines how Saudi Arabia’s Jointly owned property law and practises can be reformed to support Saudi’s 2030 housing development plan, which aims to increase home ownership in the country. Due to space restrictions and overcrowding in densely populated areas, jointly owned property is key to realising this objective. However, this thesis outlines several challenges, including inadequate legal awareness about JOP, disputes and enforcement issues, currently impede this aim, leading to an increasing demand for reforms. To address these challenges and propose appropriate reforms, this thesis adopts a comparative socio-legal methodology that brings insights from comparative doctrinal analysis into conversation with those insights gained from interviews with owners/lawyers"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Faisal Alotaibi",
+  "year": 2029,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7128617111",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

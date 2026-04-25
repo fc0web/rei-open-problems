@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-005",
+  "tier": 7,
+  "source": "technology/it:W7134252063",
+  "sourceRef": {
+    "url": "https://doi.org/10.48683/1926.00128861",
+    "citation": "Shweta Nigam et al. 2031",
+    "pdfUrl": "https://doi.org/10.48683/1926.00128861",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Depth of Processing, learner aptitude, and the acquisition of L2 English grammatical structures",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Depth of Processing (DoP) is central to several models of instructed second language acquisition (ISLA) (Leow, 2015). While DoP has been extensively examined in vocabulary learning (e.g., Laufer &amp; Hulstijn, 2001), its role in the acquisition of grammatical structures, particularly through oral and audio-visual modalities remains comparatively underexplored. Drawing on the Levels of Processing framework (Craik &amp; Lockhart, 1972), this study investigated whether task-induced processing depth influences the acquisition of third conditionals and comparatives, and whether language aptitude (LLAMA B, D, F) predicts learning gains. Using a pretest–posttest design, four intact classes involving 108 Grade 8 EFL learners in India were assigned to one of the three experimental conditions diffe"
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "Shweta Nigam",
+  "year": 2031,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7134252063",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

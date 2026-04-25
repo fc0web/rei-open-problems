@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-062",
+  "tier": 7,
+  "source": "science/medicine:W7130405980",
+  "sourceRef": {
+    "url": "https://doi.org/10.48683/1926.00128529",
+    "citation": "Manal Moalla Amoraie et al. 2027",
+    "pdfUrl": "https://doi.org/10.48683/1926.00128529",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The impact of pomegranate seed oil on postprandial lipemia and other cardiovascular disease risk markers in postmenopausal women",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The replacement of saturated fats with unsaturated fats is extensively recognised as an effective intervention for attenuating cardiovascular disease (CVD) risk. However, the specific health effects of individual types of unsaturated fats remain inadequately understood. To date, most research has been conducted under fasting conditions, despite individuals typically spending the majority of their day in the postprandial state. Elevated non-fasting triglyceride levels are now recognised as an independent risk determinant for CVD, particularly among postmenopausal women. Therefore, it is essential to investigate how various dietary fats influence postprandial lipid metabolism and vascular function. The literature review identified pomegranate seed waste as a promising source of bioactive com"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Manal Moalla Amoraie",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7130405980",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

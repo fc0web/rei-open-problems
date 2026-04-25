@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-034",
+  "tier": 7,
+  "source": "technology/it:W7126045467",
+  "sourceRef": {
+    "url": "https://doi.org/10.24377/ljmu.t.00027965",
+    "citation": "K McNally et al. 2028",
+    "pdfUrl": "https://doi.org/10.24377/ljmu.t.00027965",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "HoloBine: Connecting Augmented Reality Headset and Mobile Devices in Augmented Reality Systems",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Augmented Reality (AR) is rapidly evolving as a tool for real-time collaboration and immersive experiences across sectors such as education, healthcare, and engineering. However, current AR systems lack effective cross-device interoperability, secure content sharing, and decentralised control in multi-user environments. This research aims to develop and evaluate HoloBine, a decentralised AR framework that enables secure, real-time content sharing between Microsoft HoloLens and mobile devices. The framework was developed in four phases: Phase 1 established a custom network communication layer; Phase 2 integrated ARShare plugins to support content sharing; Phase 3 built a holographic PC remote interface for object positioning and motion tracking; and Phase 4 embedded the Secure Augmented Rea"
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "K McNally",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "TRUE",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Contains formal-proof language",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.55
+  },
+  "cross_refs": {
+    "arxiv": "W7126045467",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.44999999999999996,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-B",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

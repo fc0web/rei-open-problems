@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ECONOMICS-2026-04-25-065",
+  "tier": 7,
+  "source": "society/economics:W7118132688",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18139534",
+    "citation": "Dr. Jaya Vani Majumdar et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18139534",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "GREEN FINANCE AS A CATALYST FOR SUSTAINABLE DEVELOPMENT: A BIBLIOMETRICS REVIEW OF FINANCIAL INNOVATION AND ENVIRONMENTAL IMPACT",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "ABSTRACT This paper presents a systematic bibliometrics review of green finance literature, examining how financial innovation mechanisms—particularly green bonds, ESG integration, and climate-linked instruments—are driving sustainable development goals (SDGs). Our analysis encompasses 342 peer-reviewed articles published between 2014 and 2025 from Scopus and Web of Science databases. The study addresses three critical research questions: (a) Which green finance instruments are most extensively studied and how has research focus evolved? (b) What theoretical frameworks and quantitative models dominate the assessment of green finance's environmental impact? (c) What are the critical gaps in understanding green finance's effectiveness in bridging the climate finance gap and achieving SDGs? F"
+  },
+  "field": "society",
+  "subfield": "economics",
+  "proposer": "Dr. Jaya Vani Majumdar, Ajay, Prem Siva Sai et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7118132688",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+}

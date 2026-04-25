@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-060",
+  "tier": 7,
+  "source": "environment/general:W7153432069",
+  "sourceRef": {
+    "url": "https://doi.org/10.31577/tichodroma.2025.37.2",
+    "citation": "Karol Šotnár et al. 2026",
+    "pdfUrl": "https://doaj.org/article/3fe22b12569943228845b7acf235d708",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Breeding of the Pygmy Owl (Glaucidium passerinum) in the broadleaved forests in lower altitudes",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The distribution of the Eurasian Pygmy Owl (Glaucidium passerinum) in Central Europe is mainly associated with conifers and altitudes above 450 masl. In 2023 and 2024, two nests were found at two sites in lower altitudes (264 and 410 masl). In the first case, it was a smaller lowland oak forest, adjacent to fields, meadows and the built-up area of the village, and in the second, it was an almost pure younger beech forest with a nest cavity only 20 m away from the asphalt road and meadow. Both sites were characterized by a higher number of trees with cavities, a smaller number of dry stumps and a higher biodiversity of birds. In the paper, there are discussed also other examples of the species breeding in broadleaved forests of lower altitudes."
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Karol Šotnár",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7153432069",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

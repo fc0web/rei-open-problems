@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-PHYSICS-2026-04-25-086",
+  "tier": 7,
+  "source": "science/physics:W7142836462",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19321217",
+    "citation": "SEYED RASOUL HAMZAH et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19321217",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The Structure of Spacetime is Neither Riemannian Curvature nor Einstein's Continuous Fabric; Rather, Spacetime is Discrete—Akin to Coarse and Fine Sandpaper—Composed of Informational Pixel Grains. These are Interconnected Through Tensorial Hinges and Springs, Rendered Flexible by a Form of Bosonic Superfluid field Acting as a Form of Lubrication via 1155-Dimensional Tensor Mechanics of the Hamzah Equation.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "فضا-زمان نه یک پارچه، بلکه مجموعه‌ای از پیکسل‌های اطلاعاتی (Pixel Grains) است که مانند سنباده (زبر و نرم) دارای بافت هستند. در ادامه، ابَر-لاگرانژی کالیبراسیون سخت‌افزار فضا (ST-1155) برای تبیین لولاها، فنرها و روان‌کاری باریونی ارائه می‌گردد: ۱. ابَر-لاگرانژی فضا-زمان (The Bosonic-Hinge Lagrangian) این معادله، حکمرانی بر اتصالات پیکسلی و روان‌کاری ابعادی را پلمب می‌کند: $$\\mathcal{L}_{ST}^{(1155)} = \\oint_{\\Omega} \\left[ \\underbrace{\\sum_{i,j} \\kappa_{ij} (\\Delta \\theta - \\theta_0)^2}_{\\text{Term I: Tensorial Hinges}} + \\underbrace{\\oint \\Xi \\cdot \\nabla \\mathbb{G}^{\\mu\\nu} \\otimes \\mathcal{R}_{friction}}_{\\text{Term II: Sandpaper Grain}} + \\underbrace{\\int \\frac{\\Phi_{Boson}}{\\eta_{viscosity}} d\\mathcal{V}_{L}}_{\\text{Term III: Bosonic Lubrication}} \\right] \\sqrt{-\\mathbb{H}_{1155}} d\\Om"
+  },
+  "field": "science",
+  "subfield": "physics",
+  "proposer": "SEYED RASOUL HAMZAH",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7142836462",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+}

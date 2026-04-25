@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-079",
+  "tier": 7,
+  "source": "science/chemistry:W7116040632",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.17970975",
+    "citation": "Sokra, In et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.17970975",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Factors influencing fermentation efficiency and product quality: A comprehensive review",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Fermentation is a fundamental biochemical process that underpins numerous applications in food production, agriculture, pharmaceuticals, environmental management, and industrial biotechnology. The efficiency of fermentation processes and the quality of the resulting products are governed by intricate interactions among microbial strains, substrate composition, physicochemical parameters, and process control strategies. Variability in these factors may significantly alter microbial growth dynamics, metabolic flux distribution, fermentation kinetics, and final product attributes such as flavor, aroma, texture, nutritional value, and safety. Microbial strain selection plays a decisive role, as genetic background, metabolic capacity, and stress tolerance determine substrate utilization efficie"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Sokra, In, Somaly, Srun, Kong, Mey et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7116040632",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

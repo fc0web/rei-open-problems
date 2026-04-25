@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-065",
+  "tier": 7,
+  "source": "science/biology:W7140218108",
+  "sourceRef": {
+    "url": "https://doi.org/10.48683/1926.00129059",
+    "citation": "Gaia G. Mortier et al. 2027",
+    "pdfUrl": "https://doi.org/10.48683/1926.00129059",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Lice lessons: using biochemical analyses of external parasites to reconstruct past host lives",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This thesis explores how blood-feeding ectoparasites such as lice, fleas, and ticks can be used as tools to reconstruct aspects of host diet, health, and life history. Despite acting as sources of ecological and biochemical information on their hosts, ectoparasites remain underrepresented in collections-based studies. To provide context, the historical relationship between humans and their ectoparasites is reviewed, highlighting the shifts in societal perspectives alongside growing conservation concerns. This research examined the application of ectoparasites for biochemical analysis of their hosts by establishing a modern methodological testbed for stable isotope analysis to reconstruct host dietary ecology and feeding patterns, as well as conducting molecular analyses to recover host DNA"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Gaia G. Mortier",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7140218108",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

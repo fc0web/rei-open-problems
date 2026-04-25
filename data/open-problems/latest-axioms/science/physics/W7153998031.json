@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-PHYSICS-2026-04-25-068",
+  "tier": 7,
+  "source": "science/physics:W7153998031",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19559259",
+    "citation": "Codina Lluís et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19559259",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "¿Usamos la IA para agilizar las evaluaciones? Spoiler: de momento, no",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Se analiza la creciente complejidad de la gestión de las revistas científicas, destacando la brecha entre su funcionamiento real y la percepción simplificada que predomina en la comunidad académica. En este contexto, se examinan los nuevos desafíos derivados de la incorporación de la inteligencia artificial, poniendo el foco en las inconsistencias normativas, las zonas grises en torno a su uso y las tensiones éticas que plantea en la autoría y la evaluación de manuscritos. El texto subraya la necesidad de avanzar hacia marcos regulatorios más coherentes y una cultura académica compartida que permita abordar estos retos, al tiempo que plantea de forma crítica —aunque cautelosa— la posible exploración futura de usos controlados de la IA para mejorar la eficiencia del sistema sin comprometer "
+  },
+  "field": "science",
+  "subfield": "physics",
+  "proposer": "Codina Lluís",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7153998031",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-095",
+  "tier": 7,
+  "source": "science/medicine:W7118572875",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18150175",
+    "citation": "Amresh Kumar et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18150175",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Interference RNA and microRNA in Rheumatoid Arthritis: Diagnostic Biomarkers, Epigenetic Regulation, and Emerging Therapeutic Strategies",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Rheumatoid arthritis (RA) is a persistent autoimmune disorder where traditional serological indicators, including rheumatoid factor and anti-citrullinated protein antibodies, are inadequate for early and precise diagnosis, and existing anti-cytokine treatments have effectiveness and safety constraints. Recent data indicates that non-coding microRNAs (miRNAs) play a crucial role in the epigenetic control of inflammatory and catabolic pathways in the synovium, cartilage, and circulating immune cells, therefore facilitating the development and progression of RA. This review delineates the diagnostic efficacy of circulating and cell-associated miRNAs, specifically miR-16, miR-132, miR-146a, miR-155, and miR-223, which exhibit aberrant expression in peripheral blood mononuclear cells and T-lymp"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Amresh Kumar",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7118572875",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

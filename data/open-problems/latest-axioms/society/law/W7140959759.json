@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-091",
+  "tier": 7,
+  "source": "society/law:W7140959759",
+  "sourceRef": {
+    "url": "https://scholars.unh.edu/unh_lr/vol24/iss2/3",
+    "citation": "Shira Diner et al. 2026",
+    "pdfUrl": "https://scholars.unh.edu/cgi/viewcontent.cgi?article=1542&context=unh_lr",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Revocation Reconsidered: Probation Advocacy Through a Litigation Lens",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Being found in violation of probation has dire consequences. The person found in violation can be imprisoned, upending them from their job, family, and community. Unlike incarceration after a criminal trial, a sentence after a violation of probation is not the result of a legal process characterized by robust due process protections. It is also often not the result of a forceful and thorough defense. It is instead the consequence of a hearing where lawyers with the fixed mindset of an inevitable finding of a violation don’t engage in the same preparation that they would if it was a trial. My goal in this paper is to empower lawyers to rethink their approach to litigating these hearings. For over 50 years, lawyers have interpreted U.S. Supreme Court jurisprudence as signaling to them that t"
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Shira Diner",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7140959759",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

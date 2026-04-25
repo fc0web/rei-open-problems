@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-PHYSICS-2026-04-25-004",
+  "tier": 7,
+  "source": "science/physics:W7117476988",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18078588",
+    "citation": "Michael John Sarnowski et al. 2028",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18078588",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Paper 3: The Holographic Principle and Surface-Area Scaling in a Holosphere Lattice",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "We present an operational, testable interpretation of holography in Holosphere Theory in which long-lived information is accounted for as a boundary defect ledger. The surface-area scaling of the defect inventory is taken as an upstream result (Paper A), with thermodynamic normalization delegated to Papers C and D. We model black holes as VROS-Bounded Coherence Shells (VBCS): coherence boundaries supported by the VROS scaffold (Paper J) rather than reflective material surfaces. In this transport-first framework, gravity does not require a persistent emission flux from the compact object; it arises from spatial contrast in admissible transport, summarized by a bounded coherence-potential gradient (Papers 19, 24, 62). We introduce and validate a residual-only near-horizon imaging diagnostic "
+  },
+  "field": "science",
+  "subfield": "physics",
+  "proposer": "Michael John Sarnowski",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7117476988",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-physics-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ECONOMICS-2026-04-25-032",
+  "tier": 7,
+  "source": "society/economics:W7126010369",
+  "sourceRef": {
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10220585/",
+    "citation": "Martin Herdegen et al. 2026",
+    "pdfUrl": "https://discovery.ucl.ac.uk/10220585/1/Revision_SDU_TC.pdf",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Portfolio Optimisation under Transaction Costs with Recursive Preferences",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The Merton investment-consumption problem is fundamental, both in the field of finance and in stochastic control. An important extension of the problem adds transaction costs, which is highly relevant from a financial perspective but also challenging from a control perspective because the solution now involves singular control. A further significant extension takes us from additive utility to stochastic differential utility (SDU), which allows time preferences and risk preferences to be disentangled. In this paper, we study this extended version of the Merton problem with proportional transaction costs and Epstein-Zin SDU. We fully characterise all parameter combinations for which the problem is well posed (which may depend on the level of transaction costs) and provide a full verification"
+  },
+  "field": "society",
+  "subfield": "economics",
+  "proposer": "Martin Herdegen, David Hobson, Alex S. L. Tse",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7126010369",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+}

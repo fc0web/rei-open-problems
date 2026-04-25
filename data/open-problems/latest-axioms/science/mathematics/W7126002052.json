@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MATHEMATICS-2026-04-25-088",
+  "tier": 7,
+  "source": "science/mathematics:W7126002052",
+  "sourceRef": {
+    "url": "https://oa.upm.es/93429/",
+    "citation": "Marco Castrillón López et al. 2026",
+    "pdfUrl": "https://oa.upm.es/93429/1/1-s2.0-S0926224526000045-main.pdf",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "On the local classification of four-dimensional Lorentzian real reductive pairs",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "One important piece of work in the classifications started by the seminal works of S. Lie is the classification of four-dimensional Lorentzian real reductive pairs. This classification appeared, except for one paper, as preprints of the University of Oslo, where moreover many proofs and implications are (necessarily, due to their length) greatly abridged. Given the relevance of these classifications, we think that an article on the origin, context, methods and relevance of that classification is in order. This is precisely the aim of the present paper. We intend to fill the gaps in the exposition of the ideas that structure these proofs. On the other hand, motivated by the physical applications, in a previous work we studied which of Lorentzian symmetric pairs furnish connected simply-conn"
+  },
+  "field": "science",
+  "subfield": "mathematics",
+  "proposer": "Marco Castrillón López, Pedro Martínez Gadea, Boris Komrakov et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7126002052",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "permanent",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+}

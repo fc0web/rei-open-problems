@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-028",
+  "tier": 7,
+  "source": "science/biology:W7140100227",
+  "sourceRef": {
+    "url": "https://doi.org/10.21954/ou.ro.00109205",
+    "citation": "Gabriele De Falco et al. 2028",
+    "pdfUrl": "https://doi.org/10.21954/ou.ro.00109205",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "MicroRNAs-mediated environmental adaptation in marine microalgae: from physiological responses to biotechnology applications",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "MicroRNAs (miRNAs) are small non-coding RNAs that can regulate gene expression post-transcriptionally by interacting with mRNAs. They are fine-tune modulators that have a pleiotropic effect, interacting with different targets. Thus, they are deeply embedded in gene regulatory networks. Indeed, their modulation can directly or indirectly regulate pathways without energetically stress the cell. Although, their importance is well known and they are widely investigated in human, mouse, and other model organisms, they remain poorly studied in marine organism, even in models such as <i>Phaeodactylum tricornutum</i>. Therefore, we wanted to identify and characterize miRNAs in this diatom, observing their differential expression under three different stress conditions: low salinity, nitrogen limit"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Gabriele De Falco",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7140100227",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

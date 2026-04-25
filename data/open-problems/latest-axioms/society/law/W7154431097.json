@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-094",
+  "tier": 7,
+  "source": "society/law:W7154431097",
+  "sourceRef": {
+    "url": "https://dc.etsu.edu/etd/4653",
+    "citation": "Haley Buckles et al. 2026",
+    "pdfUrl": "https://dc.etsu.edu/cgi/viewcontent.cgi?article=6203&context=etd",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The Southampton Plot: The Case for Innocence (1415)",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This thesis investigates the \"Southampton Plot\" of 1415, a famous conspiracy to overthrow King Henry V of England. While history often portrays the plotters as simple traitors against the government, this study reexamines original records to show a more complex story. By looking closely at how the English government handled the trials, the research reveals that the English Crown may have exaggerated the threat to strengthen the King’s political power before he invaded France. This study shows that what we call \"treason\" was often shaped by the government’s need to control its public image and hold on to power. Ultimately, this thesis helps us understand how rulers in the past used legal systems and propaganda to secure their thrones and silence their rivals."
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Haley Buckles",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7154431097",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

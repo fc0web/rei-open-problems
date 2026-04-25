@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-071",
+  "tier": 7,
+  "source": "health/general:W7128546608",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03195272",
+    "citation": "Yamikani Chimwaza et al. 2027",
+    "pdfUrl": "https://doi.org/10.17638/03195272",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "UNDERSTANDING AND IMPROVING THE DIAGNOSIS OF MATERNAL SEPSIS",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Sepsis-related infections in women during pregnancy, after childbirth, or miscarriage significantly contribute to maternal morbidity and mortality, especially in low- and middle-income countries where the maternal infection death rates may exceed ~11%. Early warning systems (EWS) are instrumental in predicting clinical deterioration, but few are validated for obstetrics. Sepsis biomarkers have the potential to improve diagnostic precision; however, their diagnostic performance in resource-limited settings remains uncertain. Women also face substantial barriers to timely and effective care, complicating sepsis diagnosis and management. This research used clinical and experiential approaches to maternal sepsis diagnosis and care in low-resource settings. Using data from the Global Maternal S"
+  },
+  "field": "health",
+  "subfield": "general",
+  "proposer": "Yamikani Chimwaza",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7128546608",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-health-general-rule-based-v0.1"
+}

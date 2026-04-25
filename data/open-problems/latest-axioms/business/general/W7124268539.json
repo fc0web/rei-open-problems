@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-052",
+  "tier": 7,
+  "source": "business/general:W7124268539",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18251333",
+    "citation": "D.M. Tripathi et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18251333",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "ANALYSING THE CAUSES AND MITIGATION STRATEGIES OF TRAGIC TALE; THE HUMAN – TIGER CONFLICTS IN GARHWAL HIMALAYAN REGION OF UTTARAKHAND",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Garhwal Himalayan region is a biodiversity hotspot with a rich wildlife and cultural heritage, including tigers, leopards and other wild animals. However, the increasing number of human-tiger conflicts in this region pose a significant threat to both human livelihoods and tiger conservation. This study assesses the causes of human-tiger conflicts in Garhwal Himalayan region and evaluates the effectiveness of existing mitigation strategies with a new look to better preventive measures. The underlying causes of these conflicts, emphasizing anthropogenic pressures and eventual interventions, habitat fragmentation and socio-economic factors have further been explored with greater degree of intensity. Through a comprehensive review of existing literature and case studies, this research communic"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "D.M. Tripathi, Nidhi Barthwal, Neeru Sharma et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7124268539",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

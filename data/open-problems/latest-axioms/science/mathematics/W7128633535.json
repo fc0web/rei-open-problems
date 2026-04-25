@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MATHEMATICS-2026-04-25-005",
+  "tier": 7,
+  "source": "science/mathematics:W7128633535",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03194992",
+    "citation": "N. Rubinstein et al. 2030",
+    "pdfUrl": "https://doi.org/10.17638/03194992",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "When Identity Sits on the Surface An Investigation into the Effectiveness of Surface pXRF for the Identification of Constantinian Copies in Romano-British Coin Hoards Volume I",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The visual identification of contemporary copies (unofficially minted coinage) of the house of Constantine dated AD330-341 in hoards is difficult. This is in part due to the high production quality of many of the irregular coins, coupled with factors such as poor preservation, which makes distinguishing between if a coin is regular (officially minted) or irregular (unofficially minted) a challenge. While previous studies have identified X-ray fluorescence (XRF) as a potential way to identify irregular Constantinian coinage from hoards due to differing chemical compositions, there is lack of research into the suitability of the method on hoards from a range of diverse environments and it was unclear whether the depositional environment may negatively impact the success of the XRF method for"
+  },
+  "field": "science",
+  "subfield": "mathematics",
+  "proposer": "N. Rubinstein",
+  "year": 2030,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7128633535",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "permanent",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-mathematics-rule-based-v0.1"
+}

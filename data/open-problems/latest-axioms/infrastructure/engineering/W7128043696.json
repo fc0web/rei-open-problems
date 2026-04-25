@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ENGINEERING-2026-04-25-010",
+  "tier": 7,
+  "source": "infrastructure/engineering:W7128043696",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03195460",
+    "citation": "Mengfan Jin et al. 2029",
+    "pdfUrl": "https://doi.org/10.17638/03195460",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "A UAV-Based Framework for Community-Scale Residential Building Energy Modelling in China",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "With increasing emphasis on energy efficiency and carbon emission reduction in the building sector, rapid and scalable energy modelling of existing buildings is critical for retrofit projects and policy development. Conventional surveys, data collection and energy modelling processes remain labour-intensive and impractical for large-scale applications, and energy modelling often dominates project time and cost. Unmanned Aerial Vehicles (UAVs) equipped with high-resolution and infrared cameras now offer fast and safe exterior surveys, showing great potential in building energy assessments. Yet, a systematic framework for UAV integration, from image capture through processing to inputs for building energy simulation, has not been established. This research addresses these challenges by devel"
+  },
+  "field": "infrastructure",
+  "subfield": "engineering",
+  "proposer": "Mengfan Jin",
+  "year": 2029,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "TRUE",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Contains formal-proof language",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.55
+  },
+  "cross_refs": {
+    "arxiv": "W7128043696",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.44999999999999996,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-infrastructure-engineering-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-091",
+  "tier": 7,
+  "source": "science/medicine:W7116642657",
+  "sourceRef": {
+    "url": "https://openalex.org/W7116642657",
+    "citation": "Kate Cain et al. 2026",
+    "pdfUrl": "https://eprints.lancs.ac.uk/id/eprint/234463/3/BA_Child_Outcomes_IJER_ACCEPTED.pdf",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The impact of a story-based intervention on language, literacy, and cognitive development in South African pre-schoolers : randomised controlled trials for two language groups",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Literacy rates in South Africa are low and many children start school without the requisite levels of emergent language and literacy skills needed to succeed. We report two RCTs of a story-based intervention delivered by preschool teachers to two language groups of children from low income backgrounds (isiXhosa: Nchildren=82, Nteachers=20; Afrikaans, Nchildren=118, Nteachers=24). The story-based intervention involved a 36-week programme, of 2-week cycles, each using a different culturally-appropriate story in the target language with activities designed to foster emergent language and literacy skills. Training for the teachers before and during the intervention was provided. The post-intervention assessment took place after 26 weeks. For both language groups (compared with the correspondin"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Kate Cain, Jane Oakhill, Shelley O'Carroll et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7116642657",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-030",
+  "tier": 7,
+  "source": "business/general:W7110470239",
+  "sourceRef": {
+    "url": "https://scholarworks.uark.edu/scmtuht/54",
+    "citation": "Bailey, Ethan et al. 2027",
+    "pdfUrl": "https://scholarworks.uark.edu/scmtuht/54",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Problems and Risks Within the Agriculture of Stann Creek",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Agriculture is a significant part of the economy of Stann Creek, Belize and faces many challenges. This research presents data from farms in the areas surrounding Dangriga regarding the problems that they have been experiencing and potential risks they may face. The research covers family/individual farms, an agriculture cooperative, commercial farms, agritourism businesses, and Mennonite communities. This research was conducted as part of an internship with the Ministry of Agriculture (MOA) of Belize alongside extension officers of the Stann Creek branch of the MOA. The data from the internship found that agriculture in Stann Creek dealt with problems regarding availability of capital, availability of labor, weather and climate change, non-climate change related environment, pests, plant "
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Bailey, Ethan",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7110470239",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

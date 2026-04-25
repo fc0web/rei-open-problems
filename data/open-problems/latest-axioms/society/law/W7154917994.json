@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-017",
+  "tier": 7,
+  "source": "society/law:W7154917994",
+  "sourceRef": {
+    "url": "https://doi.org/10.15382/sturi2026123.9-30",
+    "citation": "Roman Popkov et al. 2026",
+    "pdfUrl": "https://doaj.org/article/e997ef645e6a4874846fd240f80601fa",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Gentiles “under the Law” in the thought of Apostle Paul. Diversity of views",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This article analyzes and classifies exegetes’ views on the pronoun “we” in Galatians 3:13 and the position of Gentiles “under the Law” in the theology of Paul the Apostle. The following points of view are highlighted: 1) Gentiles are not “under” the Law of Moses or its curse, 2) Gentiles fall under the influence of the Law of Moses, 3) only Gentiles are “under the Law”. There are two explanations for the first point of view: a connection with the eschatological restoration of Israel and a connection with the realization of deuteronomic curses and blessings in the historical experience of Israel. There are more explanations for the second point of view: the inconsistency of Paul's thought, his explicit or implicit Jewish worldview, the identification of the Law of Moses with natural law or"
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Roman Popkov",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7154917994",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-018",
+  "tier": 7,
+  "source": "environment/general:W7138233742",
+  "sourceRef": {
+    "url": "https://doi.org/10.7273/000008013",
+    "citation": "Michael Dylan Mullins et al. 2027",
+    "pdfUrl": "https://doi.org/10.7273/000008013",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "USING LOCAL SPECTRAL LIBRARIES TO CREATE PREDICTION MODELS FOR SOIL PHYSICAL PROPERTY ASSESSMENT IN WASHINGTON STATE",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Soil compaction is a major and extensive problem within agriculture, and we do not have standardized way to measure compaction or its effects. We can use tools such as penetrometers for rapid assessment of soil compaction; however, these measurements require data on soil organic carbon, clay content, and water content. This study was conducted to set the groundwork for visible and near infrared (VisNIR) as well as mid-infrared (MIR) spectrometers to measure multiple soil properties with one measurement. To evaluate MIR spectroscopy, I evaluated the impact of local vs. statewide spectral libraries for predicting organic carbon and clay content using lab analyzed soils from Washington State University and a larger statewide dataset derived from the Kellogg Soil Survey Laboratory. Additionall"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Michael Dylan Mullins",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7138233742",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

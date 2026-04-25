@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ECONOMICS-2026-04-25-030",
+  "tier": 7,
+  "source": "society/economics:W7118727956",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18158763",
+    "citation": "Harsha Sahu, Aman Kumar Tiwari, Rekha Pathak, Nitu kujur et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18158763",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Animal Welfare: Bridging Animal Care, Economics and Livelihood",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Animal welfare is closely interconnected with animal health, productivity, human livelihoods, and economic sustainability. Across diverse production and service systems, including livestock farming, working animals, small ruminant rearing, and captive wildlife management, appropriate welfare practices directly influence performance, longevity, and economic returns. Adequate nutrition, proper housing, humane handling, disease prevention, and behavioural enrichment not only reduce stress, injury, and mortality in animals but also enhance productivity, work efficiency, and product quality. For resource-poor farmers and communities, animals often serve as a primary source of income, food security, and financial resilience, making welfare a critical livelihood issue rather than a purely ethical"
+  },
+  "field": "society",
+  "subfield": "economics",
+  "proposer": "Harsha Sahu, Aman Kumar Tiwari, Rekha Pathak, Nitu kujur",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7118727956",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+}

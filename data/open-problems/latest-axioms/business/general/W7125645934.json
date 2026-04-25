@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-079",
+  "tier": 7,
+  "source": "business/general:W7125645934",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18364884",
+    "citation": "Kofi Mensah-Agyapong et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18364884",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Fragmentation and Continuity: A Systems Analysis of Multi-morbid NCD Care in Ghana's Mixed Health System",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This conference paper presents a systems analysis of the challenges to care continuity for patients with multi-morbid non-communicable diseases (NCDs) within Ghana's pluralistic health system. The research problem centres on the detrimental impact of systemic fragmentation—characterised by siloed public and private providers, disparate financing mechanisms, and uncoordinated information systems—on patient pathways and outcomes. A rigorous qualitative, multi-method approach was employed between 2022 and 2024, comprising in-depth interviews with patients managing hypertension-diabetes co-morbidity (n=35) and key informant interviews with policymakers and clinicians (n=22), triangulated with a thematic document review of national NCD policies from 2021-2025. The findings demonstrate that frag"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Kofi Mensah-Agyapong, Kwame Gyeabour Asante, Ama Serwaa Boateng",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7125645934",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-A",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

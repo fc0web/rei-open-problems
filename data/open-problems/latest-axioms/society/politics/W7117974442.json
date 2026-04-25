@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-054",
+  "tier": 7,
+  "source": "society/politics:W7117974442",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18113435",
+    "citation": "Nurul Dessy Ardiani et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18113435",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Criminal Liability of Defendants with Paranoid Schizophrenia Mental Disorder in the New Criminal Code",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This study examines criminal liability for defendants suffering from mental disorders, specifically Paranoid Schizophrenia, within the framework of the new Indonesian Criminal Code (KUHP), while also comparing it to provisions under the former Criminal Code. Paranoid Schizophrenia, as a severe mental disorder, often raises debates in criminal law, particularly concerning the capacity of individuals to bear legal responsibility. The purpose of this research is to analyze the comparative concept of criminal liability for defendants with Paranoid Schizophrenia under both the old and the new Criminal Code, as well as to explore the implications of these differences for safeguarding the rights of defendants with such conditions within the criminal justice system. This research employs a normati"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Nurul Dessy Ardiani, Pujiyono",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7117974442",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

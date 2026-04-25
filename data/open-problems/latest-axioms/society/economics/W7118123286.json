@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ECONOMICS-2026-04-25-062",
+  "tier": 7,
+  "source": "society/economics:W7118123286",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18139646",
+    "citation": "G. Vandana et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18139646",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "HUMAN CAPITAL VALUATION AS A STRATEGIC FINANCIAL ASSET: INTEGRATING INTANGIBLE WORKFORCE METRICS INTO FINANCIAL REPORTING IN THE IT SECTOR",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "ABSTRACT Human capital has emerged as a decisive driver of competitive advantage in the information technology (IT) sector, yet its strategic value remains largely underrepresented within conventional financial reporting frameworks. This paper explores the integration of intangible workforce metrics into financial valuation models, proposing a comprehensive approach for recognizing human capital as a measurable and strategic financial asset. Drawing on contemporary organizational theory, intellectual capital frameworks, and sectorspecific dynamics, the study evaluates how workforce capabilities—such as technical proficiency, innovation capacity, and organizational adaptability—contribute to long-term corporate performance. It further examines the gaps within existing accounting standards t"
+  },
+  "field": "society",
+  "subfield": "economics",
+  "proposer": "G. Vandana, D. Lekita, S. Pavani",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7118123286",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+}

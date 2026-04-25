@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-031",
+  "tier": 7,
+  "source": "environment/general:W7134823637",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18933822",
+    "citation": "Chol Deng et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18933822",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Quantifying Embodied Carbon in South Sudan's Road Reconstruction: A Life Cycle Assessment for the 2021–2026 Period",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "{ \"background\": \"Road infrastructure reconstruction in post-conflict regions is a critical development activity, yet its associated embodied carbon emissions remain largely unquantified, particularly in fragile states with nascent environmental governance.\", \"purpose and objectives\": \"This study aims to quantify the cradle-to-site embodied carbon of a major national road reconstruction programme, identifying the most emission-intensive life cycle stages and materials to inform low-carbon construction strategies.\", \"methodology\": \"A process-based life cycle assessment (LCA) was conducted, modelling material production, transport, and construction phases. Primary data were collected from project bills of quantities and logistics records. Emissions were calculated using $E = \\\\sum{i} (Mi \\\\ti"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Chol Deng, James Akech Bior, Nyamal Gatwech",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7134823637",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

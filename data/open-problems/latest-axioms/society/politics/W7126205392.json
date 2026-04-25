@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-023",
+  "tier": 7,
+  "source": "society/politics:W7126205392",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18441659",
+    "citation": "Pardo Gabaldón, Rafael Pardo Gabaldón, Rafael et al. 2027",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18441659",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Concepto de Trabajador Autónomo: La obligación de cotización en el RETA con especial referencia al requisito de habitualidad",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "En el presente artículo se analiza de manera pormenorizada el concepto de trabajador autónomo, clave a la hora de determinar la obligación o no de cotización dentro del Régimen Especial de Trabajadores Autónomos (RETA). Dentro de las notas tipificadoras del trabajo autónomo, sin lugar a dudas debido a su carácter ambiguo e indeterminado, el criterio de habitualidad es el que mayor controversia jurídica viene despertando desde siempre, motivo por el cual el Tribunal Supremo se ha visto obligado a pronunciarse en reiteradas ocasiones. Por otro lado, dentro de los supuestos incluidos dentro del RETA, existen numerosos puntos críticos como es el caso de los transportistas con vehículo propio, los escritores de libros, o los funcionarios públicos sanitarios por sus actividades profesionales pri"
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Pardo Gabaldón, Rafael Pardo Gabaldón, Rafael",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7126205392",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

@@ -10,9 +10,9 @@
   "totalGaps": 38,
   "totalTools": 7,
   "totalStrategy": 13,
-  "totalLatestAxioms": 101,
+  "totalLatestAxioms": 1401,
   "totalImpossibilities": 143,
-  "grandTotalEntries": 2938,
+  "grandTotalEntries": 4238,
   "tierDescription": {
     "tier1": "World-public open problems (2615 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
     "tier2": "Rei Invention Engine approved conjectures (15 entries) — CC-BY 4.0 attribution required",
@@ -20,7 +20,7 @@
     "tier4": "Gaps META-DB (38 entries) — things missing from world/Rei/Claude research. GAP-A/B/C/M/P/S label system.",
     "tier5": "Rei-AIOS tools (7 entries) — tools Rei-AIOS has built (Rei-PL Prover, Invention Engine, NNUE D-FUMT, etc.)",
     "tier6": "Strategic concepts (13 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans.",
-    "tier7": "★ v3.0 NEW — Latest axioms (101 entries) across all 14 fields. D-FUMT₈ + 4-axis (X/Y/Z/T) = 2,560-dimensional evaluation. Provisional FLOWING → TRUE → SEED_KERNEL lifecycle.",
+    "tier7": "★ v3.0 NEW — Latest axioms (1401 entries) across all 14 fields. D-FUMT₈ + 4-axis (X/Y/Z/T) = 2,560-dimensional evaluation. Provisional FLOWING → TRUE → SEED_KERNEL lifecycle.",
     "tier8": "★ v3.0 NEW — Impossibility map (143 entries) across 5 classes (computational/logical/physical/current-limit/dfumt8-zero). Rei-AIOS's honest acknowledgment of unformalizable knowledge."
   },
   "paperReference": {

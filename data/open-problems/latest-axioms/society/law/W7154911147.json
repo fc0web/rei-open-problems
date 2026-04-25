@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-024",
+  "tier": 7,
+  "source": "society/law:W7154911147",
+  "sourceRef": {
+    "url": "https://doi.org/10.15382/sturii2026128.108-131",
+    "citation": "Ekaterina Ozmitel et al. 2026",
+    "pdfUrl": "https://doaj.org/article/8d35050bcd6840aeadf28db9e0ef2fc9",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Additions to the Tashkent period of the biography of the holy confessor Luke (Voino-Yasenetsky) (1917–1930)",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The article is devoted to the Tashkent period of the life of St. Luke (Voino-Yasenetsky), very significant for his preaching, apologetic activities and episcopal service. His stay in Tashkent occurred during the period of revolutions, civil war and the most severe repression of the Soviet government against the Church (1917–1930s). Arrests, exiles, and gross interference of the authorities in internal church affairs provoked schisms, a complete breakdown of church governance, conflicts between clergy and “inter-party” strife among parishioners. Saint Luke also suffered persecution - four of his criminal cases were fabricated in Tashkent. In addition, at the Tashkent department he experienced very serious spiritual trials. In 1923 - deep disappointment in his first mentor-bishop, a secret e"
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Ekaterina Ozmitel",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7154911147",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

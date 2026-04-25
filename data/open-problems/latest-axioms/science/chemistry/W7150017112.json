@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-092",
+  "tier": 7,
+  "source": "science/chemistry:W7150017112",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19428263",
+    "citation": "Chinwe Okonkwo et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19428263",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Structured Peer Observation and the Development of Pedagogical Content Knowledge in Nigerian Chemistry Teaching",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "{ \"background\": \"The quality of science education in many African contexts is constrained by limited opportunities for teachers to develop sophisticated pedagogical content knowledge (PCK). In chemistry, where abstract concepts dominate, this gap is particularly acute. Current in-service teacher development programmes often lack structured, collaborative, and subject-specific mechanisms for PCK growth.\", \"purpose and objectives\": \"This policy analysis examines the efficacy of a structured peer observation protocol as a mechanism for enhancing the pedagogical content knowledge of secondary school chemistry teachers. It aims to evaluate the protocol's design, implementation challenges, and its specific impact on teachers' understanding of how to represent chemical concepts effectively.\", \"me"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Chinwe Okonkwo, Adebayo Adeyemi, Amina Suleiman",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7150017112",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

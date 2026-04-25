@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-096",
+  "tier": 7,
+  "source": "society/law:W7136053512",
+  "sourceRef": {
+    "url": "https://doi.org/10.17613/njzge-v9342",
+    "citation": "Lawrence K Wang et al. 2026",
+    "pdfUrl": "https://doi.org/10.17613/njzge-v9342",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "《王懷萱:二十世紀中國歷史風暴中如塵的人生》 Wang Huaixuan: A Life Like Dust in the Storms of Twentieth-Century Chinese History.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "王抗曝 (Lawrence K. Wang). (2026). 《王懷萱:二十世紀中國歷史風暴中如塵的人生》Wang Huaixuan: A Life Like Dust in the Storms of Twentieth-Century Chinese History. Global Humanities and Liberal Arts, 2026(5A). Lenox Institute Press, Auburndale, Massachusetts, USA.; 27 pages. 摘要 : 本文為紀念 王懷萱先生(字若塵) 辭世二十五週年所整理的紀念傳略。王懷萱生於浙江江山縣,其父為著名軍事將領 王蒲臣將軍,曾榮獲中華民國 蔣中正總統頒授之雲麾勳章。作為將門之子,他早年接受法律與刑事警察專業教育,並接受刑事偵查與情報相關訓練。然而 1949 年中國政局劇變 後,國共對峙與兩岸分治改變了他的人生。他曾於中國大陸遭到監禁,後逃回台灣,但其後大半生因政治疑慮而處於限制自由或監禁之中。儘管如此,他始終忠貞愛國,從未認為自己做錯任何事情。直到 2001 年人生將近終點時,中華民國 陳水扁總統對其予以特赦,承認其所遭遇的不幸多為大時代歷史動盪所造成。本文原為作者 2001 年悼念長兄所撰寫之悼文,今於 2026 年二十五週年 修訂出版。ABSTRACT: This commemorative essay honors the life of Mr. Wang Huaixuan (courtesy name Ruochén) whose life was deeply shaped by the political upheavals of twentieth-century China. He was born in Jiangshan County of Zhejian"
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Lawrence K Wang",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7136053512",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-076",
+  "tier": 7,
+  "source": "science/chemistry:W7155052173",
+  "sourceRef": {
+    "url": "https://doi.org/10.26599/fmh.2026.9420132",
+    "citation": "Cheng-yuan Wang et al. 2026",
+    "pdfUrl": "https://doaj.org/article/2ce8d321b9524563a4c3bbd5ebfc5405",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Addressing the Precision Delivery Challenges of Food-Medicine Homologous Active Polysaccharides (F-MHAPs): A Synergistic Strategy of \"Carrier Adaptation-Targeted Modification-Environmental Response\"",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Active polysaccharides from food-medicine homologous sources are pivotal for the modernization of Food-Medicine Homologous substances. However, their clinical translation and efficacy exertion are hindered by three critical bottlenecks: inadequate targeting ability (prone to dispersion in non-target tissues, thus limiting efficient accumulation at lesion sites), low bioavailability (some polysaccharides with large molecular weights are susceptible to glycosidase degradation or unable to penetrate physiological barriers), and poor stability (vulnerable to pH fluctuations and enzymatic hydrolysis in the gastrointestinal tract). This paper proposes a \"carrier adaptation-targeted modification-environmental response\" synergistic strategy. Carrier adaptation provides a stable transportation foun"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Cheng-yuan Wang, Ping Fan, Ninghao Yang et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7155052173",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

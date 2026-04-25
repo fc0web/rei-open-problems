@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-085",
+  "tier": 7,
+  "source": "science/chemistry:W7155356965",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19708043",
+    "citation": "Sara Corona Valencia et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19708043",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Huitlacoche (Ustilago maydis) y su potencial antioxidante: implicaciones para la salud y la actividad física en atletas de alto rendimiento",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "El huitlacoche (Ustilago maydis), hongo comestible tradicionalmente consumido en México, ha sido revalorizado como alimento funcional debido a su perfil nutricional y su contenido de compuestos bioactivos con actividad antioxidante. En el contexto del deporte de alto rendimiento, el estrés oxidativo inducido por el ejercicio intenso representa un factor determinante en la fatiga muscular, inflamación y disminución del rendimiento físico. Diversos estudios han demostrado que los hongos comestibles medicinales poseen compuestos fenólicos, polisacáridos y metabolitos secundarios capaces de modular el equilibrio redox y la respuesta inmunológica. Aunque la evidencia específica sobre U. maydis en atletas aún es limitada, su perfil antioxidante sugiere un potencial relevante para mejorar la recu"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Sara Corona Valencia, Ma. Angeles Valencia de Ita, Omar Romero Arenas et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7155356965",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

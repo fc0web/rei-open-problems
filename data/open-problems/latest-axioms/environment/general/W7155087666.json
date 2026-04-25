@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-032",
+  "tier": 7,
+  "source": "environment/general:W7155087666",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19676067",
+    "citation": "Mithlesh Kumar Jha, Sudhanshu,  Ankit Tiwari, Abhishek Kumar Mishra, Ashish Kumar Pandey, Mamta Tripathi, CM Tripathi, Rahul Shukla, Vaishnavi Tiwari et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19676067",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Installation and Maintenance of Micro Irrigation Systems",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Micro irrigation systems such as drip irrigation and sprinkler irrigation have emerged as efficient technologies for improving water use efficiency and enhancing crop productivity, particularly in water-scarce regions. The installation and proper maintenance of these systems play a critical role in ensuring their effectiveness and sustainability. This study examines the installation procedures, operational mechanisms, and maintenance practices associated with micro irrigation systems. The research also evaluates their impact on crop yield, water conservation, and economic benefits for farmers. Data were collected through field observations, farmer surveys, and analysis of existing literature on micro irrigation technologies. The results indicate that properly installed and maintained micro"
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Mithlesh Kumar Jha, Sudhanshu,  Ankit Tiwari, Abhishek Kumar Mishra, Ashish Kumar Pandey, Mamta Tripathi, CM Tripathi, Rahul Shukla, Vaishnavi Tiwari",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7155087666",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

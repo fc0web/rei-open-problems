@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-028",
+  "tier": 7,
+  "source": "environment/general:W7118460177",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18159915",
+    "citation": "Subrat Kumar Nayak et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18159915",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Critical Analysis of Netra roga nidanas (Causative factors) as per Ayurveda",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Freshwater reservoirs play a vital role in sustaining fish biodiversity and supporting local livelihoods. The present study assesses the fish diversity and ecological status of the Majalgaon Reservoir located on the Sindphana River in Maharashtra, India. Seasonal surveys were conducted to document fish species composition, abundance, and distribution using standard sampling techniques and taxonomic identification keys. Physico-chemical parameters of water such as temperature, pH, dissolved oxygen, turbidity, and nutrient levels were analyzed to evaluate the ecological health of the reservoir. The study recorded a diverse assemblage of fish species belonging to different families, indicating moderate to good biodiversity. However, variations in species richness and water quality parameters "
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Subrat Kumar Nayak, K. RATHORE, Dinesh Singh Gaur et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7118460177",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

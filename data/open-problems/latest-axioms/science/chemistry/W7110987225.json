@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-073",
+  "tier": 7,
+  "source": "science/chemistry:W7110987225",
+  "sourceRef": {
+    "url": "https://amsacta.unibo.it/id/eprint/8611/",
+    "citation": "Cristina, Algieri et al. 2026",
+    "pdfUrl": "https://amsacta.unibo.it/id/eprint/8611/",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dataset about substitution of Mg2+ cofactor with Ca2+ disrupt positive cooperativity in F1FO-ATP(hydrol)ase catalysis",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This dataset contains data from the evaluation of the hydrolytic activity of mitochondrial F1FO-ATPase, isolated from porcine heart, activated by the natural cofactor Mg²⁺ or replaced by Ca²⁺. The aim of the research was to investigate how replacing the physiological cofactor Mg²⁺ with Ca²⁺ affects the catalysis, cooperativity, and mechanochemical functionality of mitochondrial F1FO-ATPase, in order to understand the molecular mechanisms that determine the transition of the enzyme from its physiological role as an ATP synthase (the \"enzyme of life\") to its pathological function as a component of the mitochondrial permeability transition pore (mPTP, \"enzyme of death\"). \"F_ATPase_cooperativity_Dataset.zip\" contains data on the activity of the Mg2+-dependent F1FO-ATPase, which is more efficie"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Cristina, Algieri, Antonia, Cugliari, Fabiana, Trombetti et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7110987225",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

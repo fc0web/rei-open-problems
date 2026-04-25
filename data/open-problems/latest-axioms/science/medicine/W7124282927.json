@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-085",
+  "tier": 7,
+  "source": "science/medicine:W7124282927",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18251233",
+    "citation": "D.M. Triapthi et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18251233",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "NEW VISTAS FOR BETTER HEALTHCARE SYSTEM TO HUMAN BEINGS CAN BE OPENED BY THE INTEGRATION OF BIOTECHNOLOGY AND AYURVEDA",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This study explores the multidisciplinary fusion of Ayurveda and biotechnology as a convergent paradigm for healthcare systems. While biotechnology offers the cutting edge tools and techniques for molecular characterization, quality assurance and therapeutic innovation, Ayurveda, an ancient Indian medical tradition of healthcare, places an emphasis on personalized, preventive and holistic health practices. The study methodically investigates the biotechnological validation of Ayurvedic ideas including the use of genomes for Prakriti-based phenotyping, the clinical standardization of herbal formulations and the improvement of bioavailability. To find areas of agreement and integration issues, a qualitative review methodology was used to examine clinical research, peer-reviewed literature an"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "D.M. Triapthi, N. K. SHARMA, Nidhi Barthwal et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7124282927",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

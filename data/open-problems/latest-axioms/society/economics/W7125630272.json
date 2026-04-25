@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-ECONOMICS-2026-04-25-058",
+  "tier": 7,
+  "source": "society/economics:W7125630272",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18364804",
+    "citation": "Mariama Abdallah et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18364804",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Methodological Framework for Mapping Insulin Supply Chains, Pricing, and Patient Outcomes in Comoros: A Political Economy Analysis, 2021–2026",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This methodology article presents a novel framework for conducting a political economy analysis (PEA) of insulin access in the Comoros. It addresses a critical gap in understanding the systemic barriers to diabetes care in small island developing states. The research problem centres on the urgent need to elucidate the complex interplay between supply chain actors, pricing policies, and patient outcomes that perpetuate insulin insecurity. The proposed multi-method approach, implemented between 2021 and 2026, integrates three components: (1) supply chain mapping via stakeholder interviews and document review to trace insulin flows from import to point-of-care; (2) a policy analysis of national pricing regulations, tariffs, and procurement mechanisms; and (3) a longitudinal assessment of pati"
+  },
+  "field": "society",
+  "subfield": "economics",
+  "proposer": "Mariama Abdallah, Fatima Youssouf, Ahmed Soilihi",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7125630272",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-economics-rule-based-v0.1"
+}

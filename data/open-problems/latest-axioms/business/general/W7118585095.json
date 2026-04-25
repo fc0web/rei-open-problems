@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-095",
+  "tier": 7,
+  "source": "business/general:W7118585095",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18163525",
+    "citation": "Taiwo Adewale Muritala et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18163525",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "EXAMINING SME OWNERS' WILLINGNESS TO SUBMIT PERSONAL AND BUSINESS DOCUMENTS AS A PROXY FOR TRUST AND CREDITWORTHINESS: THE PSYCHOLOGICAL COLLATERAL PARADIGM",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Abstract Moving beyond the conventional analysis of tangible assets and financial documentation as mere bureaucratic requirements, this research posits that an SME owner's willingness to submit personal and business documents constitutes a critical, non-physical form of collateral. It symbolizes trust, transparency, and commitment to institutional scrutiny. Employing a quantitative survey methodology with 45 management staff from selected Nigerian commercial banks, the study utilized descriptive statistics and chi-square analysis to test its hypotheses. The findings robustly confirm that significant documentation is required by banks (χ² = 47.945 > 7.82) and that proper record-keeping is intrinsically linked to business growth (χ² = 59.737 > 7.82). Crucially, it reveals that a notable mino"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Taiwo Adewale Muritala",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7118585095",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

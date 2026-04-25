@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-099",
+  "tier": 7,
+  "source": "science/biology:W7153584908",
+  "sourceRef": {
+    "url": "https://doi.org/10.31577/tichodroma.2025.37.18",
+    "citation": "Miroslav DEMKO et al. 2026",
+    "pdfUrl": "https://doaj.org/article/6fef98c4fe694c91b4eace24c02875b4",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Red List of birds in Slovakia: update 2013–2023",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The national Red List was updated for the period 2013–2023, based on the improved knowledge and the change in the conservation status of some rare bird species. IUCN categories and criteria according to version 3.1 were used and recommendations for their application according to version 15.1. Version 4.0 of the IUCN recommendations was taken into account for the application of the criteria at the national and regional levels. Altogether 213 native breeding species were assessed (of the total number of 233 species of breeding birds). A total 94 of 213 native species met the criteria for inclusion in the Red List (five species RE – regionally extinct, 12 CR – critically endangered, 24 EN – endangered, 29 VU – vulnerable, and 24 NT – near threatened), which represents up to 40% of the species"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Miroslav DEMKO, Peter Lešo, Jozef RIDZOŇ et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7153584908",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

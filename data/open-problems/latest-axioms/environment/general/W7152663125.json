@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-054",
+  "tier": 7,
+  "source": "environment/general:W7152663125",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19485470",
+    "citation": "Mekonnen Assefa et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19485470",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Evaluating Communal Grazing Reserve Efficacy for Rangeland Biomass Restoration in Afar, Ethiopia: An Integrated Remote Sensing and Field Assessment",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "{ \"background\": \"Communal grazing reserves are a key rangeland management strategy in arid and semi-arid pastoral systems of the Horn of Africa, yet empirical evidence of their efficacy for biomass restoration remains limited and contested.\", \"purpose and objectives\": \"This study quantitatively assessed the effectiveness of community-enforced grazing reserves on rangeland biomass recovery in the Afar pastoral region. The primary objective was to determine if reserves significantly increased above-ground biomass compared to continuously grazed areas.\", \"methodology\": \"We employed an integrated approach combining time-series analysis of Sentinel-2 satellite-derived Normalised Difference Vegetation Index (NDVI) data with ground-truthed biomass measurements from paired reserve and open-grazed "
+  },
+  "field": "environment",
+  "subfield": "general",
+  "proposer": "Mekonnen Assefa, Mohammed, Hanan, Tadesse Gebre et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7152663125",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-environment-general-rule-based-v0.1"
+}

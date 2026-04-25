@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-096",
+  "tier": 7,
+  "source": "science/biology:W7130864531",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18721957",
+    "citation": "Uttam Kumar Sahu*, Pratyanshu Srivastava, Athidi Lokavya Reddy, Brijesh Kumar, M. H. Khan et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18721957",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Breeding Management in Female Dogs with Emphasis on Ovulation Timing and Hormonal Monitoring",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Breeding management of bitches relies on precise understanding of the canine estrous cycle and accurate timing of ovulation. The cycle is monoestrous, with ovulation occurring approximately 24–48 hours after the luteinizing hormone (LH) surge. Because bitches ovulate primary oocytes that require 48–72 hours for maturation, peak fertility occurs 4–6 days after the LH surge rather than immediately at ovulation. Serial progesterone monitoring is the most practical method for estimating ovulation, while vaginal cytology, LH assays, and ultrasonography provide complementary support. Selection of breeding method, including natural mating or artificial insemination with fresh, chilled, or frozen semen, must align precisely with this fertile window. Accurate gestational dating from the LH surge im"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Uttam Kumar Sahu*, Pratyanshu Srivastava, Athidi Lokavya Reddy, Brijesh Kumar, M. H. Khan",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7130864531",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

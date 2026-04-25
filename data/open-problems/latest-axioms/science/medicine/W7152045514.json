@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-019",
+  "tier": 7,
+  "source": "science/medicine:W7152045514",
+  "sourceRef": {
+    "url": "https://doi.org/10.48683/1926.00129234",
+    "citation": "Daniel James Hodge et al. 2028",
+    "pdfUrl": "https://doi.org/10.48683/1926.00129234",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Development and optimisation of a novel microcapillary and smartphone based global haemostasis and platelet function assay",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Platelets are small cells that play a crucial role in haemostasis. Platelet dysfunction, however, can lead to serious diseases such as heart attacks and strokes. To determine the likelihood of dysfunction, researchers and clinicians can utilise tools called platelet function tests (PFTs), which can provide an array of insights to platelet function. Historically, these have been performed in labs with a relatively high equipment and specialism burden. More recently, a new type of platelet function test that can be performed in a wider range of settings was introduced – the point of care test (POCT). However, the sensitivity, specificity, and cost of these tests has significantly limited their utility. Here, we show a novel, proof-of-concept POCT which has the required characteristics to mee"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Daniel James Hodge",
+  "year": 2028,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "TRUE",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Contains formal-proof language",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.55
+  },
+  "cross_refs": {
+    "arxiv": "W7152045514",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.44999999999999996,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-B",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}

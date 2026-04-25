@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-087",
+  "tier": 7,
+  "source": "science/biology:W7124277407",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18251149",
+    "citation": "Deepa Arya et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18251149",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "TRADE- OFF IN COCCINELLIDAE: A COMPREHENSIVE REVIEW OF ECOLOGICAL CONSTRAINTS AND LIFE- HISTORY",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "The Coccinellidae family of ladybird beetles exhibits a range of physiological and ecological trade-offs that influence their ability to reproduce, survive, and function as biological control agents. These trade-offs occur when resources and energy devoted to one activity, such protection, reproduction, or foraging, cannot be used for another. In warmer climates, bright aposematic colouring may impair thermoregulation, but it further enhances predator deterrence. In the same manner, more foraging increases nutrient intake but increases the risk of predation. Chemical defence increases survival but at the expense of growth rate and fertility, primarily through the generation of alkaloids and reflex bleeding. A balance between increased resource requirements and predation efficiency is also "
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Deepa Arya, Ahmad Pervez, Noorin Saifi et al.",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7124277407",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

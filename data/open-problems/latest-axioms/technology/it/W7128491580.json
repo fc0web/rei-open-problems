@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-IT-2026-04-25-088",
+  "tier": 7,
+  "source": "technology/it:W7128491580",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03194237",
+    "citation": "Ran An et al. 2027",
+    "pdfUrl": "https://doi.org/10.17638/03194237",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Unsupervised Deep-learning Methods for Low-dose Computed Tomography Reconstruction",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Computed tomography (CT) has become an indispensable imaging technique in medical diagnostics and industrial applications, owing to its non-invasive nature and high resolution in visualizing object internal structures. While X-ray CT (X-ray computed tomography) significantly enhances lesion detection capabilities, excessive exposure to X-ray radiation raises substantial health concerns, including elevated cancer risks and potential genetic damage. Although low-dose CT (LDCT) protocols reduce radiation safety concerns, they inevitably introduce severe noise and artifacts, which might compromise diagnostic accuracy. Recent advances in supervised deep learning approaches have demonstrated remarkable success in LDCT reconstruction. However, the reliance on paired training data severely limits "
+  },
+  "field": "technology",
+  "subfield": "it",
+  "proposer": "Ran An",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "SELF",
+    "dfumt8": "SELF",
+    "dfumt8Reason": "Self-referential or recursive structure",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7128491580",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "3-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-technology-it-rule-based-v0.1"
+}

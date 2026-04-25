@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-POLITICS-2026-04-25-089",
+  "tier": 7,
+  "source": "society/politics:W7153844061",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19536900",
+    "citation": "Abraham Kuol Nyuon et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19536900",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "The Resource Curse and Institutional Quality: Does Governance Mediate Natural Resource Effects: Beyond the Liberal Peace Framework",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This article examines The Resource Curse and Institutional Quality: Does Governance Mediate Natural Resource Effects: Beyond the Liberal Peace Framework with a focused emphasis on Somalia within the field of Law. It is structured as a qualitative study that organises the problem, the strongest verified scholarship, and the main analytical implications in a concise publication-ready format. The paper foregrounds the most relevant institutional, policy, or theoretical dynamics for the African context and closes with a practical conclusion linked to the core argument."
+  },
+  "field": "society",
+  "subfield": "politics",
+  "proposer": "Abraham Kuol Nyuon",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "TRUE",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Contains formal-proof language",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.55
+  },
+  "cross_refs": {
+    "arxiv": "W7153844061",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.44999999999999996,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-politics-rule-based-v0.1"
+}

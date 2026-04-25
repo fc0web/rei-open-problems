@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-BIOLOGY-2026-04-25-069",
+  "tier": 7,
+  "source": "science/biology:W7138445854",
+  "sourceRef": {
+    "url": "https://doi.org/10.7273/000008015",
+    "citation": "Elizabeth Amy Campbell et al. 2027",
+    "pdfUrl": "https://doi.org/10.7273/000008015",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "ROLE OF METHIONINE TRANSPORTER FUNCTION IN SULFUR PARTITIONING AND SOURCE-SINK PHYSIOLOGY OF NODULATED PEA (Pisum sativum L.) PLANTS",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Sulfur (S) is an essential nutrient that plants require for the synthesis of methionine and cysteine. These S-amino acids are building blocks of enzymes and proteins and are needed to produce other S-containing compounds crucial for plant growth, development, and stress response. In legumes such as peas (Pisum sativum L.), S is particularly important for the process of atmospheric nitrogen (N) fixation within root nodules, and for the synthesis of high-quality, S-rich storage seed proteins. In this study, it was hypothesized that S partitioning processes from source organs, such as roots and mature leaves, to nodule and seed sinks impact their physiological function. It was further hypothesized that transporters located within source and sink organs control the quantity and quality of S co"
+  },
+  "field": "science",
+  "subfield": "biology",
+  "proposer": "Elizabeth Amy Campbell",
+  "year": 2027,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7138445854",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-biology-rule-based-v0.1"
+}

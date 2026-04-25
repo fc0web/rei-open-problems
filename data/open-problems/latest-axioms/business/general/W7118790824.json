@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-096",
+  "tier": 7,
+  "source": "business/general:W7118790824",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18163144",
+    "citation": "Adekunle G. Ahmed et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.18163144",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "DOES MILITARY SPENDING STIMULATE ENERGY CONSUMPTION IN NIGERIA?",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Abstract Numerous studies have underscored the detrimental environmental effects of military spending vis-à-vis energy consumption, including pollution and habitat damage. Sequel to this, this study examines the effects of military spending on energy consumption in Nigeria. The data for the study were obtained from World Development Indicator (WDI, 2022) which covered from 1990-2022. The ARDL methods were employed to analyze the data. The analysis indicates that military spending has a positive effect on Nigeria's energy consumption in both the short and long term. An increase in military spending by a certain percentage is associated with a rise in energy consumption of approximately 0.18% in the short term and around 0.19% in the long term. The results demonstrate statistical significanc"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Adekunle G. Ahmed",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "TRUE",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Contains formal-proof language",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.55
+  },
+  "cross_refs": {
+    "arxiv": "W7118790824",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.44999999999999996,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

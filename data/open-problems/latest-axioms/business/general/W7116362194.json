@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-GENERAL-2026-04-25-009",
+  "tier": 7,
+  "source": "business/general:W7116362194",
+  "sourceRef": {
+    "url": "https://doi.org/10.7273/000007504",
+    "citation": "Di Zhu et al. 2030",
+    "pdfUrl": "https://doi.org/10.7273/000007504",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "MODELING HOSPITALITY AND TOURISM STRATEGIES",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "This dissertation investigates various strategies to advance the development of the hospitality and tourism industry through three essays, with a particular emphasis on the transformative roles of artificial intelligence (AI) and women’s economic empowerment. The first essay investigates the nonlinear impact of AI adoption on hospitality firm profit based on both demand and productivity perspectives. This study develops a differentiated Bertrand competition model where firms compete on price and AI enhances service differentiation and pricing strategies. Theoretical modeling and empirical evidence synergistically reveal a U-shaped influence of AI adoption on firm profit, indicating dynamic and long-term profit gains from AI in hospitality. The second essay examines the strategic interactio"
+  },
+  "field": "business",
+  "subfield": "general",
+  "proposer": "Di Zhu",
+  "year": 2030,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "BOTH",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Empirical work, supports/refutes coexist",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.6
+  },
+  "cross_refs": {
+    "arxiv": "W7116362194",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.4,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-business-general-rule-based-v0.1"
+}

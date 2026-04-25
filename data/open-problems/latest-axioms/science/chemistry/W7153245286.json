@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-CHEMISTRY-2026-04-25-066",
+  "tier": 7,
+  "source": "science/chemistry:W7153245286",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.19495015",
+    "citation": "Sunku Kyathi Nandini et al. 2026",
+    "pdfUrl": "https://doi.org/10.5281/zenodo.19495015",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Development and Validation of a UV Spectrophotometric Method for the Simultaneous Estimation of Lornoxicam and Thiocolchicoside in Combined Dosage Form",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "ABSTRACT A simple, precise, and accurate UV spectrophotometric method was developed and validated for the simultaneous estimation of Lornoxicam and Thiocolchicoside in bulk and pharmaceutical formulations. The method employs methanol as solvent, and absorbance was measured at the respective wavelengths where both drugs showed maximum absorbance with minimal interference. Calibration curves were linear within the concentration ranges of 4–20 µg/mL for Lornoxicam and 5–25 µg/mL for Thiocolchicoside, with correlation coefficients (R²) of 0.9992 and 0.9995, respectively. Validation was carried out according to ICH Q2(R1) guidelines, including parameters such as linearity, accuracy, precision, LOD, LOQ, robustness, and ruggedness. Recovery studies at 50%, 100%, and 150% levels showed recoveries"
+  },
+  "field": "science",
+  "subfield": "chemistry",
+  "proposer": "Sunku Kyathi Nandini, Kommineni Vinutha, Sridevi Pingali",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "FLOWING",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Recent preprint, peer review pending",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "arxiv": "W7153245286",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.5,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-chemistry-rule-based-v0.1"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-LAW-2026-04-25-036",
+  "tier": 7,
+  "source": "society/law:W7125916454",
+  "sourceRef": {
+    "url": "https://doi.org/10.5281/zenodo.18405126",
+    "citation": "Promise Uzochi Ejike et al. 2026",
+    "pdfUrl": null,
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "A Theoretical Analysis of Speech Acts in Political Speeches; A Review of Governor Douye Diri's Selected Speeches",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Speechmaking has become an essential component of political leadership and governance across the world, serving as a tool for persuasion, mobilisation, and political communication. This study critically examines the linguistic and rhetorical features of selected political speeches of Governor DouyeDiri of Bayelsa State, Nigeria, with the aim of uncovering the unique stylistic and discursive strategies embedded in his political discourse. Despite the prominence of political speech analysis in Nigeria, little attention has been given to Governor Diri’s oratorical style, hence the need for this investigation. The study employs textual analysis and critical discourse analysis (CDA) as its methodological frameworks, focusing on the linguistic structures, rhetorical devices, and persuasive techn"
+  },
+  "field": "society",
+  "subfield": "law",
+  "proposer": "Promise Uzochi Ejike",
+  "year": 2026,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7125916454",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "1-year",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "can-be-made",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-society-law-rule-based-v0.1"
+}

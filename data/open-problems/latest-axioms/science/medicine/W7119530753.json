@@ -1,0 +1,103 @@
+{
+  "id": "LATEST-MEDICINE-2026-04-25-001",
+  "tier": 7,
+  "source": "science/medicine:W7119530753",
+  "sourceRef": {
+    "url": "https://doi.org/10.17638/03196213",
+    "citation": "Sara Waring et al. 2050",
+    "pdfUrl": "https://doi.org/10.17638/03196213",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "“When a child goes missing”: Care home staff experiences and practice reflections. Report produced by the University of Liverpool.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier7-ingest-v0.2",
+    "summary": "Children in the care of local authorities are significantly more likely to be reported missing, and to go missing repeatedly, compared to those living in family homes. Care home staff and managers (CHS/Ms) are often the first to identify that a young person is missing and are in a unique position to recognise behavioural triggers, assess risk, and provide emotional support. Despite this central role in prevention and response, CHS/M perspectives remain significantly underrepresented in the literature. Accordingly, this study explores CHS/M perspectives and experiences of the factors that facilitate or hinder responses to children who go missing from care settings. Analysis of 14 interviews with care home managers (N=10) and care workers (N=4) identified the following five key factors: Mult"
+  },
+  "field": "science",
+  "subfield": "medicine",
+  "proposer": "Sara Waring, Emily Ashworth, Amelia Shaw et al.",
+  "year": 2050,
+  "status": "provisional",
+  "lastUpdate": "2026-04-25",
+  "reiTyping": {
+    "primaryType": "FLOWING",
+    "secondaryType": "NEITHER",
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "Survey/review — meta-level, not direct claim",
+    "rationale": "classifier=rule-based-v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "arxiv": "W7119530753",
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "FLOWING",
+    "provisionalityScore": 0.30000000000000004,
+    "expirationPolicy": "6-months",
+    "sourceTier": "peer-reviewed-preprint",
+    "sourceTrust": 0.75,
+    "ontologicalCategory": "missing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 0.7,
+        "evidence": "preprint entry",
+        "reviewedBy": "rule-based-v0.1"
+      },
+      "theoryType": {
+        "score": 0.5,
+        "evidence": "requires deeper analysis",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 0.5,
+        "attempts": 0,
+        "evidenceLevel": "preprint-only",
+        "publicProtocol": null
+      },
+      "reconstructability": {
+        "score": 0.3,
+        "lean4Progress": "none",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "insufficient",
+      "implementationPlan": "tbd",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": null,
+    "notes": null
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "observation-only",
+    "quadrant": "Q1",
+    "missingKind": "theorem-or-empirical",
+    "impossibilityEvidence": "none",
+    "executabilityEffort": "unknown"
+  },
+  "ingested": "2026-04-25",
+  "ingestMethod": "tier7-ingest-science-medicine-rule-based-v0.1"
+}
