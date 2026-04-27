@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-POWERTHERMODYNAMICS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/PowerThermodynamics.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "PowerThermodynamics.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/PowerThermodynamics.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Power Thermodynamics — 24 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Power Thermodynamics — 定理 24 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\n\n  Nine theories bridging CPU/GPU power-conversion engineering with the\n  D-FUMT₈ framework. Each theory is stated formally in Lean 4 and tagged\n  with its D-FUMT₈ valuation.\n\n  Tier 1 — Information ↔ Thermodynamics (情報熱力学)\n  ─────────────────────────────────────────────────\n  T1.1  Landauer's principle (1961):\n        Erasing 1 bit dissipates at least k_B · T · ln 2 of heat.\n        D-FUMT₈ = ZERO  (information annihilation lower bound)\n  T1.2  Bennett's reversible computing (1973):\n        Any classical comput"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic",
+      "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Pow.Real"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "PowerThermodynamics.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\n\n  Nine theories bridging CPU/GPU power-conversion engineering with the\n  D-FUMT₈ framework. Each theory is stated fo",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "PowerThermodynamics.lean",
+    "lineCount": 398,
+    "fileSize": 21378,
+    "theoremCount": 24,
+    "lemmaCount": 0,
+    "defCount": 27,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "24 theorems/lemmas, 27 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
