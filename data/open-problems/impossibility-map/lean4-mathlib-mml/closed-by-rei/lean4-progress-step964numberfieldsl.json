@@ -9,25 +9,25 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/Step964NumberFieldsL.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Number Fields L — 18 theorems/lemmas, 0 sorry, 2 axiom",
-    "ja": "Lean 4 進捗: Number Fields L — 定理 18 / sorry 0 / axiom 2",
+    "en": "Lean 4 progress: Number Fields L — 20 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Number Fields L — 定理 20 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": "STEP 964 — Number Fields, L-functions and Automorphic Forms\n  藤本伸樹 2026-04-21\n\n  Five open problems connecting number theory, L-functions and automorphic forms:\n\n  A. LANGLANDS PROGRAM (overarching framework)\n     Automorphic representations of GL_n correspond to Galois representations.\n     STATUS: Known cases: GL_2 (Wiles, Taylor-Wiles), many rank 1 results.\n     Open: functoriality conjecture for general reductive groups.\n\n  B. RAMANUJAN CONJECTURE → THEOREM (Deligne 1974)\n     |τ(p)| ≤ 2p^{11/2} for the Ramanujan τ function.\n     More generally: Satake parameters of cuspidal automorphic fo"
   },
   "field": "lean4-mathlib-mml",
-  "subfield": "partial",
+  "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
-  "status": "progressing",
-  "lastUpdate": "2026-04-26",
+  "status": "closed",
+  "lastUpdate": "2026-04-27",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
-    "secondaryType": "IV_PROBLEM_UNDEFINED",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Partial: 0 sorry residual",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
     "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
-    "confidence": 0.7
+    "confidence": 1
   },
   "cross_refs": {
     "mathlibImports": [
@@ -40,7 +40,7 @@
   },
   "impossibilityMeta": {
     "impossibilityClass": "computational",
-    "certaintyLevel": "conjectured",
+    "certaintyLevel": "proven",
     "proofRef": {
       "lean4": "Step964NumberFieldsL.lean",
       "oleanBuilt": false,
@@ -48,47 +48,47 @@
     },
     "scopeOfImpossibility": "STEP 964 — Number Fields, L-functions and Automorphic Forms\n  藤本伸樹 2026-04-21\n\n  Five open problems connecting number theory, L-functions and automorphic forms:\n\n  A. LANGLANDS PROGRAM (overarching fr",
     "bypassability": {
-      "bypassPossible": true,
-      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
-      "bypassCost": "Hours to days per sorry"
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
     },
     "relatedImpossibilities": [],
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
     "fileName": "Step964NumberFieldsL.lean",
-    "lineCount": 239,
-    "fileSize": 11008,
-    "theoremCount": 18,
+    "lineCount": 233,
+    "fileSize": 10738,
+    "theoremCount": 20,
     "lemmaCount": 0,
     "defCount": 2,
     "sorryCount": 0,
-    "axiomCount": 2,
+    "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
     "mathlibImportCount": 2,
     "reiImportCount": 0,
-    "category": "partial"
+    "category": "closed-by-rei"
   },
   "formalization": {
-    "lean4": "partial",
+    "lean4": "complete",
     "coq": "none",
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "18 theorems/lemmas, 2 defs"
+    "notes": "20 theorems/lemmas, 2 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
   },
   "missingExecutableMeta": {
-    "missingStatus": "partially-addressed",
-    "possibilityStatus": "executable-within-years",
-    "quadrant": "Q1",
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
     "missingKind": "theorem-formalization",
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
-    "executabilityEffort": "months-to-years"
+    "executabilityEffort": "completed"
   },
-  "ingested": "2026-04-26",
+  "ingested": "2026-04-27",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

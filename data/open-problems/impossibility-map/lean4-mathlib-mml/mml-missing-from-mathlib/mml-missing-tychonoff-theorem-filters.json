@@ -1,0 +1,84 @@
+{
+  "id": "MML-MISSING-TYCHONOFF-THEOREM-FILTERS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://mizar.uwb.edu.pl/version/current/html/TYCHO.html",
+    "citation": "MML",
+    "lean4Ref": null,
+    "sourceCode": null,
+    "mmlArticle": "TYCHO.miz",
+    "mmlAuthor": "Bartłomiej Skorulski",
+    "wiedijkRank": null,
+    "knownPRs": []
+  },
+  "statement": {
+    "en": "Mathlib4 has Tychonoff via ultrafilters. MML has the Bourbaki filter-base proof, useful for constructive variants and base-change.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mml-missing-from-mathlib-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mml-missing-from-mathlib",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "MML で proven, Mathlib への port 待ち",
+    "rationale": "Tier 8 mml-missing-from-mathlib curated ingest v0.1",
+    "confidence": 0.95
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [
+      "MML TYCHO article",
+      "Bourbaki, General Topology Ch. I §9"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Mathlib4 has Tychonoff via ultrafilters. MML has the Bourbaki filter-base proof, useful for constructive variants and base-change.",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Port from MML article TYCHO.miz",
+      "bypassCost": "months"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "complete",
+    "sorryCount": 0,
+    "notes": "Difficulty: medium; area: topology"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (MML article index http://mizar.org/version/current/html/ + Mathlib4 grep cross-check)",
+    "executabilityEffort": "months"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}

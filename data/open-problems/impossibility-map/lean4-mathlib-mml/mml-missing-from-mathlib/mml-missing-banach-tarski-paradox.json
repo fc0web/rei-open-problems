@@ -1,0 +1,84 @@
+{
+  "id": "MML-MISSING-BANACH-TARSKI-PARADOX",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://mizar.uwb.edu.pl/version/current/html/BTPARA.html",
+    "citation": "MML",
+    "lean4Ref": null,
+    "sourceCode": null,
+    "mmlArticle": "BTPARA.miz",
+    "mmlAuthor": "Grzegorz Bancerek",
+    "wiedijkRank": null,
+    "knownPRs": []
+  },
+  "statement": {
+    "en": "Solid ball in ℝ³ can be decomposed and reassembled into two balls of original size (assuming AC). Wiedijk #82. MML has the proof, Mathlib4 does not.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mml-missing-from-mathlib-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mml-missing-from-mathlib",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "MML で proven, Mathlib への port 待ち",
+    "rationale": "Tier 8 mml-missing-from-mathlib curated ingest v0.1",
+    "confidence": 0.95
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [
+      "MML BTPARA series",
+      "Wagon, The Banach-Tarski Paradox (1985)"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Solid ball in ℝ³ can be decomposed and reassembled into two balls of original size (assuming AC). Wiedijk #82. MML has the proof, Mathlib4 does not.",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Port from MML article BTPARA.miz",
+      "bypassCost": "months"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "complete",
+    "sorryCount": 0,
+    "notes": "Difficulty: high; area: set-theory"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (MML article index http://mizar.org/version/current/html/ + Mathlib4 grep cross-check)",
+    "executabilityEffort": "months"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}

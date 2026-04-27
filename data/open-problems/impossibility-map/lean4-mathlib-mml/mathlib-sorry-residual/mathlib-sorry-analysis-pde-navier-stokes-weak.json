@@ -1,0 +1,86 @@
+{
+  "id": "MATHLIB-SORRY-ANALYSIS-PDE-NAVIER-STOKES-WEAK",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/leanprover-community/mathlib4",
+    "citation": "Mathlib4 / Lean Community",
+    "lean4Ref": "Mathlib/Analysis/PDE (does not yet exist)",
+    "sourceCode": null,
+    "mmlArticle": null,
+    "mmlAuthor": null,
+    "wiedijkRank": null,
+    "knownPRs": []
+  },
+  "statement": {
+    "en": "Weak solutions of Navier-Stokes — area entirely absent, listed here as the canonical 'open formalization frontier'",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mathlib-sorry-residual-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mathlib-sorry-residual",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Mathlib4 内 sorry residual: gap is acknowledged but not closed",
+    "rationale": "Tier 8 mathlib-sorry-residual curated ingest v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Analysis.PDE (does not yet exist)"
+    ],
+    "reiImports": [],
+    "external": [
+      "Leray, Acta Math 63 (1934)",
+      "Tao, Compactness and Contradiction (2013), Ch. 4"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "tracked",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Weak solutions of Navier-Stokes — area entirely absent, listed here as the canonical 'open formalization frontier'",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close sorry in Mathlib/Analysis/PDE (does not yet exist)",
+      "bypassCost": "months-to-years"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "none",
+    "sorryCount": 1,
+    "notes": "Difficulty: high; area: pde"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (Lean Community issue tracker + 公開 PR レビュー由来)",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}

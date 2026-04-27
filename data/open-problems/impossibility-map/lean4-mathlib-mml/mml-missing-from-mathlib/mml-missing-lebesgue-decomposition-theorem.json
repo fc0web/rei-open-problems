@@ -1,0 +1,84 @@
+{
+  "id": "MML-MISSING-LEBESGUE-DECOMPOSITION-THEOREM",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://mizar.uwb.edu.pl/version/current/html/LEBES10.html",
+    "citation": "MML",
+    "lean4Ref": null,
+    "sourceCode": null,
+    "mmlArticle": "LEBES10.miz",
+    "mmlAuthor": "Noboru Endou",
+    "wiedijkRank": null,
+    "knownPRs": []
+  },
+  "statement": {
+    "en": "Any σ-finite signed measure decomposes as μ = μ_ac + μ_s relative to a reference. Mathlib4 has Radon–Nikodym; explicit Lebesgue decomp is not separated.",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mml-missing-from-mathlib-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mml-missing-from-mathlib",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "MML で proven, Mathlib への port 待ち",
+    "rationale": "Tier 8 mml-missing-from-mathlib curated ingest v0.1",
+    "confidence": 0.95
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [
+      "MML LEBES10 series",
+      "Halmos, Measure Theory §32"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Any σ-finite signed measure decomposes as μ = μ_ac + μ_s relative to a reference. Mathlib4 has Radon–Nikodym; explicit Lebesgue decomp is not separated.",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Port from MML article LEBES10.miz",
+      "bypassCost": "months"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "complete",
+    "sorryCount": 0,
+    "notes": "Difficulty: medium; area: measure-theory"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (MML article index http://mizar.org/version/current/html/ + Mathlib4 grep cross-check)",
+    "executabilityEffort": "months"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}

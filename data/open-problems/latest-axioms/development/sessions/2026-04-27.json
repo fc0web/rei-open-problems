@@ -1,0 +1,156 @@
+{
+  "id": "SESSION-2026-04-27-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-04-27",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-04-27: KnowledgeVoyage: 偉人 30→58 名拡張 + SEED_KERNEL 動的反映",
+    "ja": "開発セッション 2026-04-27: KnowledgeVoyage: 偉人 30→58 名拡張 + SEED_KERNEL 動的反映",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-04-27. 25 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "5828c853",
+      "0a5caca7",
+      "6a8a66d6",
+      "7d229f63",
+      "e9e6c3c0",
+      "c4203aa3",
+      "5a30d49c",
+      "95d09509",
+      "4abe163b",
+      "ffe3d809",
+      "c40b199c",
+      "de549f64",
+      "bbc1baa9",
+      "d84fb901",
+      "43b0e4bb",
+      "259480bd",
+      "3f21bf3e",
+      "01dee313",
+      "ad5f4c5c",
+      "8241b7b8",
+      "ab1b5e47",
+      "b9d0df44",
+      "640a07db",
+      "1709d647",
+      "654e35e2"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 25,
+    "newFiles": {
+      "lean": 0,
+      "ts": 49,
+      "json": 7495,
+      "md": 6,
+      "other": 24
+    },
+    "newFilesTotal": 7574,
+    "newTheorems": 0,
+    "newScripts": [
+      "dry-run-invention-cooldown.ts",
+      "sync-index-html-bundle.ts",
+      "publish-harvard-draft-to-version.ts",
+      "publish-paper-138-ia-harvard.ts",
+      "publish-paper-139-ia-harvard.ts",
+      "publish-paper-140-ia-harvard.ts",
+      "publish-paper-139-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "score-papers.ts",
+      "publish-paper-140-zenodo.ts",
+      "build-formalize-templates.ts",
+      "compare-l4-haiku-vs-heuristic.ts",
+      "build-daily-banner.ts",
+      "publish-paper-to-philarchive.ts",
+      "publish-paper-138-zenodo.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "KnowledgeVoyage: 偉人 30→58 名拡張 + SEED_KERNEL 動的反映 / STEP 1000: Invention pipeline regression fix — recent-cooldown / ReiAutomation: banner のみのシンプル画面に縮小"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

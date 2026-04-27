@@ -1,0 +1,84 @@
+{
+  "id": "MATHLIB-UNFORMALIZED-MORDELL-CONJECTURE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/leanprover-community/mathlib4",
+    "citation": "Mathlib4 / Lean Community",
+    "lean4Ref": null,
+    "sourceCode": null,
+    "mmlArticle": null,
+    "mmlAuthor": null,
+    "wiedijkRank": null,
+    "knownPRs": []
+  },
+  "statement": {
+    "en": "Curves of genus ≥ 2 over a number field have only finitely many rational points (Faltings 1983).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mathlib-unformalized-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mathlib-unformalized",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "open",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Mathlib4 未形式化既知定理: stated truth, awaiting formalization",
+    "rationale": "Tier 8 mathlib-unformalized curated ingest v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [
+      "Faltings, Inventiones 73 (1983)",
+      "Bombieri, Annali Sc. Norm. Sup. Pisa (1990)"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Curves of genus ≥ 2 over a number field have only finitely many rational points (Faltings 1983).",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Formalize from scratch (5-10)",
+      "bypassCost": "years"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "none",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "none",
+    "sorryCount": 0,
+    "notes": "Difficulty: high; area: arithmetic-geometry"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "not-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (Wiedijk + Lean Community 100.html status snapshot)",
+    "executabilityEffort": "years"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}

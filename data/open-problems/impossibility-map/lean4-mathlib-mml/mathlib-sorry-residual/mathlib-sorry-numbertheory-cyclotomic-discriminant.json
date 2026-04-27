@@ -1,0 +1,88 @@
+{
+  "id": "MATHLIB-SORRY-NUMBERTHEORY-CYCLOTOMIC-DISCRIMINANT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/leanprover-community/mathlib4",
+    "citation": "Mathlib4 / Lean Community",
+    "lean4Ref": "Mathlib/NumberTheory/Cyclotomic/Discriminant.lean",
+    "sourceCode": null,
+    "mmlArticle": null,
+    "mmlAuthor": null,
+    "wiedijkRank": null,
+    "knownPRs": [
+      "mathlib4#5234",
+      "mathlib4#9101"
+    ]
+  },
+  "statement": {
+    "en": "Discriminant of cyclotomic fields — historical sorry residuals during refactor (closed in PRs but pattern persists across forks)",
+    "ja": null,
+    "latex": null,
+    "preview_source": "tier8-mathlib-sorry-residual-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "mathlib-sorry-residual",
+  "proposer": "Rei-AIOS curated (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-04-27",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Mathlib4 内 sorry residual: gap is acknowledged but not closed",
+    "rationale": "Tier 8 mathlib-sorry-residual curated ingest v0.1",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.Cyclotomic.Discriminant"
+    ],
+    "reiImports": [],
+    "external": [
+      "Lang, Algebraic Number Theory, Ch. IV"
+    ],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "tracked",
+    "proofRef": {
+      "lean4": null,
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "Discriminant of cyclotomic fields — historical sorry residuals during refactor (closed in PRs but pattern persists across forks)",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close sorry in Mathlib/NumberTheory/Cyclotomic/Discriminant.lean",
+      "bypassCost": "months-to-years"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "mizar": "none",
+    "sorryCount": 1,
+    "notes": "Difficulty: medium; area: number-theory"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "curated-honest-v0.1 (Lean Community issue tracker + 公開 PR レビュー由来)",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-04-27",
+  "ingestMethod": "tier8-mathlib-gaps-curated-v0.1"
+}
