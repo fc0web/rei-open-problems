@@ -9,7 +9,7 @@ license: "CC-BY-4.0"
 repository-code: "https://github.com/fc0web/rei-open-problems"
 url: "https://doi.org/10.5281/zenodo.19700758"
 version: "2.0-public"
-date-released: "2026-04-27"
+date-released: "2026-04-28"
 preferred-citation:
   type: article
   title: "Open Problems META-DB (Rei-AIOS): D-FUMT₈ META-Classification of 2572 Open Problems"

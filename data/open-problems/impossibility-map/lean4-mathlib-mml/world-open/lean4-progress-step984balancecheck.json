@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "open",
-  "lastUpdate": "2026-04-27",
+  "lastUpdate": "2026-04-28",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-04-27",
+  "ingested": "2026-04-28",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

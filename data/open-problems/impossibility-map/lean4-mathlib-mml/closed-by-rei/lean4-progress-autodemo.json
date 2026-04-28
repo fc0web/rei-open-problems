@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP992BROCARDSTRUCTURE",
+  "id": "LEAN4-PROGRESS-AUTODEMO",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step992BrocardStructure.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AutoDemo.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step992BrocardStructure.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step992BrocardStructure.lean"
+    "lean4Ref": "AutoDemo.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/AutoDemo.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Brocard Structure — 14 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Brocard Structure — 定理 14 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Auto Demo — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Auto Demo — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 992 — Brocard's problem: structural analysis\n  ==================================================\n\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\n  Pivots from \"extended verification range\" to \"structural understanding\":\n  why are n=4, 5, 7 the only known solutions?\n\n  ★ Brocard 1876 / Ramanujan 1913 — OPEN 150 years ★\n    The only known (n, m) with n! + 1 = m² are:\n      n=4 → m=5   (25 = 5²)\n      n=5 → m=11  (121 = 11²)\n      n=7 → m=71  (5041 = 71²)\n    Berndt–Galway 2000 verified no other solution for N ≤ 10⁹.\n\n  ★ This file provides ★:\n    Part 1: Known 3 soluti"
+    "headerDoc": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and the `auto` tactic from\n  leanprover-community/lean-auto v4.27.0-hammer (FOL bridge).\n\n  This is the Stage 2 RECOVERY path after LeanCopilot failed on Windows\n  due to MSYS2 ct2 dependency. Both Duper and lean-auto have NO native\n  C++ binding requirement.\n\n  Configuration:\n    - Duper: pure-Lean, ready to use immediately\n    - lean-auto + Duper backend: uses Duper as the Native.solverFunc\n\n  All t"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,11 +31,9 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Data.Nat.Factorial.Basic"
+      "Mathlib.Tactic"
     ],
-    "reiImports": [
-      "CollatzRei.Step980BrocardExtended"
-    ],
+    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -43,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step992BrocardStructure.lean",
+      "lean4": "AutoDemo.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 992 — Brocard's problem: structural analysis\n  ==================================================\n\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\n  Pivots from \"extended veri",
+    "scopeOfImpossibility": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,18 +55,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step992BrocardStructure.lean",
-    "lineCount": 174,
-    "fileSize": 6820,
-    "theoremCount": 14,
+    "fileName": "AutoDemo.lean",
+    "lineCount": 90,
+    "fileSize": 4853,
+    "theoremCount": 9,
     "lemmaCount": 0,
-    "defCount": 2,
+    "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
     "mathlibImportCount": 1,
-    "reiImportCount": 1,
+    "reiImportCount": 0,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -77,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "14 theorems/lemmas, 2 defs"
+    "notes": "9 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
