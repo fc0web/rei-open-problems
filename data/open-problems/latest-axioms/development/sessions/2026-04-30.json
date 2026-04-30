@@ -1,0 +1,137 @@
+{
+  "id": "SESSION-2026-04-30-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-04-30",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-04-30: Phase C Step 1: Gowin EDA install guide + Step 2/3 skeleton",
+    "ja": "開発セッション 2026-04-30: Phase C Step 1: Gowin EDA install guide + Step 2/3 skeleton",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-04-30. 13 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-04-30",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "d25f67ce",
+      "31b74843",
+      "841ddd00",
+      "45568baf",
+      "4b2309b0",
+      "1f67586f",
+      "c2cf1d05",
+      "9341ac23",
+      "eb0205ed",
+      "79744bec",
+      "3e381d37",
+      "494f9ee3",
+      "83d1b61d"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 13,
+    "newFiles": {
+      "lean": 0,
+      "ts": 24,
+      "json": 165,
+      "md": 16,
+      "other": 5
+    },
+    "newFilesTotal": 210,
+    "newTheorems": 0,
+    "newScripts": [
+      "convert-paper-to-zenn.ts",
+      "publish-paper-142-ia-harvard.ts",
+      "publish-paper-142-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "classify-zones.ts",
+      "md-to-pdf-math.ts",
+      "publish-paper-33-ia-harvard.ts",
+      "publish-paper-33-zenodo.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Phase C Step 1: Gowin EDA install guide + Step 2/3 skeleton / STEP 1013: は/が 問題 × Rei machinery 適用範囲実験 / Paper 142 publish: 10/11 platforms (Zenodo DOI 10.5281/zenodo.19921301)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-04-30",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
