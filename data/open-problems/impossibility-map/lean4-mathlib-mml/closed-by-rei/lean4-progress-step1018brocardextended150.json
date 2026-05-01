@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-AUTODEMO",
+  "id": "LEAN4-PROGRESS-STEP1018BROCARDEXTENDED150",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AutoDemo.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1018BrocardExtended150.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "AutoDemo.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/AutoDemo.lean"
+    "lean4Ref": "Step1018BrocardExtended150.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1018BrocardExtended150.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Auto Demo — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Auto Demo — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Brocard Extended 150 — 24 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Brocard Extended 150 — 定理 24 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and the `auto` tactic from\n  leanprover-community/lean-auto v4.27.0-hammer (FOL bridge).\n\n  This is the Stage 2 RECOVERY path after LeanCopilot failed on Windows\n  due to MSYS2 ct2 dependency. Both Duper and lean-auto have NO native\n  C++ binding requirement.\n\n  Configuration:\n    - Duper: pure-Lean, ready to use immediately\n    - lean-auto + Duper backend: uses Duper as the Native.solverFunc\n\n  All t"
+    "headerDoc": "STEP 1018 — Brocard's problem n ∈ [131, 150] Lean 4 extension\n  ==============================================================\n\n  Follow-up to STEP 1017 (n ∈ [121, 130]). Same Nat.sqrt-based O(log) approach.\n\n  Target: n ∈ [131, 150] non-square verification (20 new theorems).\n  Combined with STEP 980/990/993/1015/1016/1017/Brocard base:\n    Rei-AIOS Brocard coverage n ∈ [1, 150] (~161 theorems total).\n\n  Honest positioning:\n    - Berndt-Galway 2000: N ≤ 10⁹ (Brocard's problem search limit).\n    - Rei contribution: Lean 4 mechanical verification first record continues.\n    - Brocard conjecture "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,9 +31,12 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Tactic"
+      "Mathlib.Data.Nat.Factorial.Basic",
+      "Mathlib.Data.Nat.Sqrt"
     ],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.Step980BrocardExtended"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +44,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "AutoDemo.lean",
+      "lean4": "Step1018BrocardExtended150.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and ",
+    "scopeOfImpossibility": "STEP 1018 — Brocard's problem n ∈ [131, 150] Lean 4 extension\n  ==============================================================\n\n  Follow-up to STEP 1017 (n ∈ [121, 130]). Same Nat.sqrt-based O(log) ap",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +58,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "AutoDemo.lean",
+    "fileName": "Step1018BrocardExtended150.lean",
     "lineCount": 90,
-    "fileSize": 4853,
-    "theoremCount": 9,
+    "fileSize": 4632,
+    "theoremCount": 24,
     "lemmaCount": 0,
     "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
-    "mathlibImportCount": 1,
-    "reiImportCount": 0,
+    "mathlibImportCount": 2,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +78,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 0 defs"
+    "notes": "24 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
