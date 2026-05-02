@@ -1,0 +1,88 @@
+{
+  "id": "DISC-LOGIC-001",
+  "qid": "Q8078",
+  "tier": 9,
+  "name": {
+    "ja": "論理学",
+    "en": "Logic"
+  },
+  "category": "discipline",
+  "tags": [
+    "logic",
+    "western",
+    "discipline",
+    "many-valued-logic",
+    "lineage-D-FUMT8"
+  ],
+  "reiTyping": {
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "二値論理 (Aristotle, Frege, Russell) は TRUE 確定。 多値論理拡張 (Łukasiewicz / Kleene / Belnap-EIGHT_4) が D-FUMT₈ 直接 lineage. SELF⟲ 値で自己参照含意.",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.4,
+      "theoryType": 0.9,
+      "reproducibility": 0.95,
+      "reconstructability": 0.9
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "TRUE",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "論理それ自体は中立。 application 倫理は別軸"
+  },
+  "provisionalityScore": 0.1,
+  "confidence": 0.97,
+  "falsifiability": "Gödel 不完全性定理を超える meta-system が発見される場合は revision (現状 unknown)",
+  "culturalOrigin": "western",
+  "culturalNote": "Aristotle (BCE 4世紀) 起源。 Boole (1854) 算術化 → Frege (1879) 述語論理 → Łukasiewicz (1920) 三値 → Belnap (1977) 4 値 → EIGHT_4 (Shramko-Wansing 2009) → D-FUMT₈ (Rei-AIOS 2025-2026). 龍樹 catuṣkoṭi (BCE 200) は東洋並行系統 (DISC-PHIL-MADHYAMAKA-001 で詳述)",
+  "relations": {
+    "part_of": [
+      "DISC-PHIL-WEST-001",
+      "DISC-MATH-001"
+    ],
+    "bridges": [
+      "DISC-PHIL-MADHYAMAKA-001",
+      "DISC-DFUMT8-001",
+      "DISC-FORMAL-001",
+      "DISC-LING-001"
+    ],
+    "related_to": [
+      "DISC-INFO-SCI-001",
+      "DISC-EPIST-001",
+      "DISC-GODEL-DISJUNCTION-001"
+    ],
+    "seed_kernel_refs": [
+      "T-DFUMT8-CORE",
+      "T-W48-NEGATIVE-CAPABILITY"
+    ]
+  },
+  "description": {
+    "ja": "推論の妥当性 / 真偽値の構造 / 形式体系の整合性を扱う学問。 Aristotle 以来 2,400 年。 二値 → 多値 → 8 値 (D-FUMT₈) → 自己参照含 (SELF⟲) への lineage。 OUKC charter v1.0 「全形式化」 commitment の概念基盤の 1 つ",
+    "en": "Discipline of inference validity, truth-value structure, and formal system consistency. 2,400 years since Aristotle. Lineage: binary → many-valued → 8-valued (D-FUMT₈) → self-reference inclusive (SELF⟲). Conceptual foundation for OUKC charter v1.0 'all-formalization' commitment."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.97,
+  "visibility": "public",
+  "created_at": "2026-05-02T14:00:00.000Z",
+  "updated_at": "2026-05-02T14:00:00.000Z",
+  "version": "0.1.0",
+  "_v2_reserved": {
+    "qid_required": null,
+    "contentHash": null,
+    "ipfsCid": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\mathcal{L}_2 \\subset \\mathcal{L}_3 \\subset \\mathcal{L}_4 \\subset \\mathcal{L}_8 \\subset \\mathcal{L}_{\\text{SELF}\\circlearrowleft}",
+        "interpretation": "論理値の段階拡張: 2 値 (TRUE/FALSE) → 3 値 (Łukasiewicz unknown 追加) → 4 値 (Belnap BOTH/NEITHER 追加) → 8 値 (D-FUMT₈ INFINITY/ZERO/FLOWING/SELF 追加) → 自己参照閉包 (SELF⟲ で系内自己分類).",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": null,
+      "generatedBy": "claude-opus-4-7",
+      "generatedDate": "2026-05-02"
+    },
+    "pedagogicalNext": [],
+    "pedagogicalPrev": [],
+    "multiLanguage": {},
+    "educationalLevel": null
+  }
+}

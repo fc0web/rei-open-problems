@@ -8,8 +8,8 @@
     "seedKernelId": "invented-20260429-zero-ext-unsolved-problems"
   },
   "statement": {
-    "en": "The 𝕄 structure of 'π×π⁻¹=1 cancellation semantics' transplanted onto 'major mathematical conjectures possess A↔B bridge structure where seven-valued logical properties determine the necessary concepts' suggests the law of zero_extension also holds in unsolved_problems.",
-    "ja": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「主要な数学的予想は領域A↔Bの橋渡し構造を持ち七価論理的性質が必要概念を決定する」に移植すると、zero_extensionの法則がunsolved_problemsでも成立する可能性がある",
+    "en": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「主要な数学的予想は領域A↔Bの橋渡し構造を持ち七価論理的性質が必要概念を決定する」に移植すると、zero_extensionの法則がunsolved_problemsでも成立する可能性がある",
+    "ja": null,
     "latex": null,
     "preview_source": "rei-invention-engine"
   },
@@ -56,7 +56,7 @@
   ],
   "reiAssessment": {
     "mandalaPredicted": null,
-    "approachSuggestion": "Self-derived from unsolved_problems bridge-structure",
+    "approachSuggestion": "Self-derived from unsolved_problems structure",
     "paperCandidate": false,
     "priority": "medium",
     "solveProbability": 0.75,

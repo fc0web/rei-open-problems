@@ -8,8 +8,8 @@
     "seedKernelId": "invented-20260429-zero-ext-weakness-engine"
   },
   "statement": {
-    "en": "The 𝕄 structure of 'π×π⁻¹=1 cancellation semantics' transplanted onto 'true mathematical truth is beautiful; beauty is the indicator of truth (Dirac)' suggests the law of zero_extension also holds in weakness_engine.",
-    "ja": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「真の数学的真理は美しい 美しさは真理の指標である（ディラック）」に移植すると、zero_extensionの法則がweakness_engineでも成立する可能性がある",
+    "en": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「真の数学的真理は美しい 美しさは真理の指標である（ディラック）」に移植すると、zero_extensionの法則がweakness_engineでも成立する可能性がある",
+    "ja": null,
     "latex": null,
     "preview_source": "rei-invention-engine"
   },
@@ -40,7 +40,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "SEED_KERNEL promotion (src/axiom-os/seed-kernel-approved-inventions-2026-04-29.ts). Suggests W-49 (aesthetic judgment) candidate."
+    "notes": "SEED_KERNEL promotion (src/axiom-os/seed-kernel-approved-inventions-2026-04-29.ts)"
   },
   "known_progress": [
     {
@@ -56,7 +56,7 @@
   ],
   "reiAssessment": {
     "mandalaPredicted": null,
-    "approachSuggestion": "Self-derived; suggests W-49 (aesthetic judgment) as W-48 dual",
+    "approachSuggestion": "Self-derived from weakness_engine structure",
     "paperCandidate": false,
     "priority": "medium",
     "solveProbability": 0.75,

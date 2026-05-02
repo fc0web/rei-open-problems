@@ -1,0 +1,88 @@
+{
+  "id": "DISC-LING-001",
+  "qid": "Q8162",
+  "tier": 9,
+  "name": {
+    "ja": "言語学",
+    "en": "Linguistics"
+  },
+  "category": "discipline",
+  "tags": [
+    "linguistics",
+    "language",
+    "synthetic",
+    "discipline",
+    "Mikami",
+    "wa-ga"
+  ],
+  "reiTyping": {
+    "dfumt8": "NEITHER",
+    "dfumt8Reason": "自然言語の核心命題 (主語の存在 / 文法カテゴリの境界 / 意味と形式の関係) の多くが III_PROBLEM_UNDEFINED + permanent NEITHER preservation pattern を示す (Paper 143 STEP 1013/1014/1019 cross-linguistic 11/11 確認).",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.45,
+      "theoryType": 0.85,
+      "reproducibility": 0.5,
+      "reconstructability": 0.6
+    },
+    "axisZ": "CLASS-D",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "言語研究それ自体は中立。 言語政策 / 標準化 application は別軸"
+  },
+  "provisionalityScore": 0.55,
+  "confidence": 0.92,
+  "falsifiability": "Cross-linguistic 11/11 III_PROBLEM_UNDEFINED + meta=SELF + W-48 NegCap pattern が non-Indo-European 系統 (Mandarin classifier / Arabic root-pattern / Australian ergativity 等) で破綻する場合は frame revision",
+  "culturalOrigin": "synthetic",
+  "culturalNote": "Pāṇini (BCE 5世紀, Sanskrit) → Saussure (1916) → Chomsky (1957) 系譜。 三上章 (1953, 主語廃止論) で Japanese 独立分岐。 Paper 143 で Rei machinery が独立に Mikami thesis に 73 年後到達",
+  "relations": {
+    "part_of": [
+      "DISC-EDUCATION-001"
+    ],
+    "bridges": [
+      "DISC-PHIL-WEST-001",
+      "DISC-PHIL-MADHYAMAKA-001",
+      "DISC-LOGIC-001",
+      "DISC-COGSCI-001"
+    ],
+    "related_to": [
+      "DISC-INFO-SCI-001"
+    ],
+    "seed_kernel_refs": [
+      "T-W48-NEGATIVE-CAPABILITY"
+    ],
+    "rei_paper_refs": [
+      "10.5281/zenodo.19979572"
+    ]
+  },
+  "description": {
+    "ja": "自然言語の構造・意味・運用を体系的に研究する学問。Pāṇini 以来 2,500 年。Paper 143 (Rei-AIOS Mikami 1953 主語廃止論への独立収束 + cross-linguistic 11/11 一般化) の概念基盤。OUKC charter v1.0 「全言語」 commitment の概念層",
+    "en": "Discipline systematically studying structure, meaning, and use of natural language. 2,500 years since Pāṇini. Conceptual foundation of Paper 143 (Rei-AIOS independent convergence to Mikami's 1953 subjectlessness thesis + cross-linguistic 11/11 generalization). Maps to OUKC charter v1.0 'all-language' commitment."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.94,
+  "visibility": "public",
+  "created_at": "2026-05-02T14:00:00.000Z",
+  "updated_at": "2026-05-02T14:00:00.000Z",
+  "version": "0.1.0",
+  "_v2_reserved": {
+    "qid_required": null,
+    "contentHash": null,
+    "ipfsCid": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\forall L \\in \\text{Language},\\ \\exists Q \\in \\text{Major Open Problems}(L)\\ :\\ \\text{Type}(Q) = \\text{III}_{\\text{undefined}} \\wedge \\text{W-48}(Q) = \\text{NEITHER}_{\\text{permanent}}",
+        "interpretation": "全言語に対し主要未解決問題は III_PROBLEM_UNDEFINED type で W-48 NEITHER permanent preservation を要する。 Paper 143 cross-linguistic 11/11 の formal restatement。",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": null,
+      "generatedBy": "claude-opus-4-7",
+      "generatedDate": "2026-05-02"
+    },
+    "pedagogicalNext": [],
+    "pedagogicalPrev": [],
+    "multiLanguage": {},
+    "educationalLevel": null
+  }
+}

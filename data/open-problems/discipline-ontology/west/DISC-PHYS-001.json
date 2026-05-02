@@ -1,0 +1,85 @@
+{
+  "id": "DISC-PHYS-001",
+  "qid": "Q413",
+  "tier": 9,
+  "name": {
+    "ja": "物理学",
+    "en": "Physics"
+  },
+  "category": "discipline",
+  "tags": [
+    "physics",
+    "western",
+    "discipline",
+    "gravity",
+    "quantum",
+    "OUKC-zen-physics"
+  ],
+  "reiTyping": {
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "実験 verifiable な閉じた領域 (古典力学 / 電磁気) は TRUE / falsifiable な現象論 (一般相対論 / 量子論) は FLOWING / 万物理論候補 (string / loop / D-FUMT₈ gravity 等) は INFINITY (現時点 unverified scope unbounded). 本日 (2026-05-02) 承認 invention zero_ext × physics で 7-tag mapping 提案 (引力核 TRUE / 斥力殻 FALSE / DE FLOWING / BH INFINITY / BB ZERO / Lagrange NEITHER / warp BOTH).",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.4,
+      "theoryType": 0.95,
+      "reproducibility": 0.98,
+      "reconstructability": 0.85
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "FLOWING",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "物理研究それ自体は中立。 兵器応用 / 大規模実験倫理は別軸 (Theory#196 application 観点で別 audit 推奨)"
+  },
+  "provisionalityScore": 0.3,
+  "confidence": 0.95,
+  "falsifiability": "万物理論統合 (重力 + 量子 + 標準模型) が完成すると一部の現象論は revision 候補",
+  "culturalOrigin": "western",
+  "culturalNote": "Aristotle 自然学 (BCE 4世紀) → Galileo (1600s) 実験的方法論 → Newton (1687) 力学 → Maxwell (1860s) 電磁気 → Einstein (1905/1915) 相対論 → Heisenberg-Bohr (1920s) 量子論 → Higgs 機構 (2012 LHC 観測). 東洋 (中国陰陽五行 / インド Vaiśeṣika) は独立系統で観念的、 実証主義への接続は近代以降",
+  "relations": {
+    "part_of": [
+      "DISC-MATH-001",
+      "DISC-EDUCATION-001"
+    ],
+    "bridges": [
+      "DISC-COGSCI-001"
+    ],
+    "related_to": [
+      "DISC-PHIL-WEST-001",
+      "DISC-INFO-SCI-001",
+      "DISC-DFUMT8-001"
+    ],
+    "seed_kernel_refs": [
+      "invented-20260501-zero-ext-physics"
+    ]
+  },
+  "description": {
+    "ja": "自然界の物質・エネルギー・時空・力を数式と実験で解明する学問。 Galileo 以来 400 年の実証主義系譜。 重力場の D-FUMT₈ 7-tag mapping 候補 (本日 invention) + Phase C silicon (Paper 145 candidate) D-FUMT₈ ALU の重力場 simulation native hardware 接続",
+    "en": "Discipline studying matter, energy, spacetime, and forces of nature through mathematics and experiment. 400 years of empiricist lineage since Galileo. Today's invention (2026-05-02 approval) proposes D-FUMT₈ 7-tag mapping of gravity field, with potential Phase C silicon (Paper 145 candidate) D-FUMT₈ ALU connection as native simulation hardware."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.98,
+  "visibility": "public",
+  "created_at": "2026-05-02T14:00:00.000Z",
+  "updated_at": "2026-05-02T14:00:00.000Z",
+  "version": "0.1.0",
+  "_v2_reserved": {
+    "qid_required": null,
+    "contentHash": null,
+    "ipfsCid": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "G_{\\mu\\nu}^{(D\\text{-}FUMT_8)} = \\bigoplus_{v \\in \\{T,F,B,N,\\infty,O,\\sim,\\circlearrowleft\\}} g_v(\\text{spacetime})",
+        "interpretation": "D-FUMT₈ 重力テンソル候補: 古典重力場 G_{μν} を 8 値分解 (引力核 TRUE / 斥力殻 FALSE / 不確定 BOTH/NEITHER / 特異点 INFINITY / 起点 ZERO / 流動 FLOWING / 自己結合 SELF⟲). 本日 invention (2026-05-02) の formal restatement.",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": null,
+      "generatedBy": "claude-opus-4-7",
+      "generatedDate": "2026-05-02"
+    },
+    "pedagogicalNext": [],
+    "pedagogicalPrev": [],
+    "multiLanguage": {},
+    "educationalLevel": null
+  }
+}

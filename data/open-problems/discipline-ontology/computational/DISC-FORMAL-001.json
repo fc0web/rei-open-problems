@@ -1,0 +1,90 @@
+{
+  "id": "DISC-FORMAL-001",
+  "qid": "Q1191914",
+  "tier": 9,
+  "name": {
+    "ja": "形式化 (機械的形式証明)",
+    "en": "Formalization (Mechanical Formal Proof)"
+  },
+  "category": "discipline",
+  "tags": [
+    "formalization",
+    "lean4",
+    "mathlib",
+    "computational",
+    "discipline",
+    "OUKC-zen-formalization"
+  ],
+  "reiTyping": {
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "lake env lean exit 0 = TRUE 確定 (zero sorry での型検査通過は machine-verified)。 partial proof は FLOWING、 sorry は NEITHER (証明未完). OUKC charter v1.0 motto v3 「全形式化」 の operational core",
+    "axisX": "existing",
+    "axisY": {
+      "novelty": 0.7,
+      "theoryType": 0.9,
+      "reproducibility": 0.99,
+      "reconstructability": 0.95
+    },
+    "axisZ": "CLASS-A",
+    "axisT": "TRUE",
+    "peaceCheck": "passed",
+    "peaceCheckReason": "形式証明それ自体は中立。 Theory#196 と直接的衝突なし"
+  },
+  "provisionalityScore": 0.08,
+  "confidence": 0.97,
+  "falsifiability": "Lean 4 / Mathlib に実装上の根本的不健全性が発見される場合は revision (現状 unknown)",
+  "culturalOrigin": "synthetic",
+  "culturalNote": "Hilbert program (1900s) 起源。 Whitehead-Russell Principia (1910-1913) → Automath (1967) → Coq (1989) → HOL/Isabelle → Lean 4 (2021-) + Mathlib. Rei-AIOS 累計 2,188 zero-sorry theorems + Mathlib Prep 5 artifacts (STEP 1000)",
+  "relations": {
+    "part_of": [
+      "DISC-MATH-001",
+      "DISC-LOGIC-001"
+    ],
+    "bridges": [
+      "DISC-DFUMT8-001",
+      "DISC-INFO-SCI-001"
+    ],
+    "related_to": [
+      "DISC-EDUCATION-001",
+      "DISC-EPIST-001"
+    ],
+    "seed_kernel_refs": [
+      "T-LEAN4-FORMALIZATION",
+      "T-MATHLIB-PREP-W2"
+    ],
+    "rei_paper_refs": [
+      "10.5281/zenodo.19821866",
+      "10.5281/zenodo.19704359"
+    ]
+  },
+  "description": {
+    "ja": "数学的命題を機械検証可能な型システムに翻訳する学問・実践。 lake env lean による型検査が真理値判定 oracle として機能。 OUKC corpus 累計 2,188 zero-sorry theorems + Mathlib Prep 5 artifacts (BipartiteRamsey/Wolstenholme/HappyEnding/HadwigerNelson/SylvesterSchur, STEP 1000) が operational backing",
+    "en": "Discipline and practice of translating mathematical propositions into machine-verifiable type systems. The lake env lean type-checker functions as truth-value oracle. OUKC corpus accumulates 2,188 zero-sorry theorems + 5 Mathlib Prep artifacts (BipartiteRamsey/Wolstenholme/HappyEnding/HadwigerNelson/SylvesterSchur, STEP 1000) as operational backing."
+  },
+  "license": "CC-BY-4.0",
+  "source_tier": "wikidata",
+  "source_trust": 0.96,
+  "visibility": "public",
+  "created_at": "2026-05-02T14:00:00.000Z",
+  "updated_at": "2026-05-02T14:00:00.000Z",
+  "version": "0.1.0",
+  "_v2_reserved": {
+    "qid_required": null,
+    "contentHash": null,
+    "ipfsCid": null,
+    "intuitionArtifact": {
+      "ramanujanFormula": {
+        "latex": "\\text{Truth}(P) \\equiv (\\text{lake env lean } P\\text{.lean}) \\xrightarrow{\\text{exit code}} 0",
+        "interpretation": "形式化された命題 P の真理値は、 機械検証 (lake env lean) の終了コードで定義される。 0 = TRUE / 非 0 = FLOWING (証明試行継続) または NEITHER (sorry 残存).",
+        "claimedRigor": "intuition-only"
+      },
+      "visualGlyph": null,
+      "generatedBy": "claude-opus-4-7",
+      "generatedDate": "2026-05-02"
+    },
+    "pedagogicalNext": [],
+    "pedagogicalPrev": [],
+    "multiLanguage": {},
+    "educationalLevel": null
+  }
+}

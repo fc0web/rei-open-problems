@@ -8,8 +8,8 @@
     "seedKernelId": "invented-20260429-zero-ext-philosophy-formalization"
   },
   "statement": {
-    "en": "The 𝕄 structure of 'π×π⁻¹=1 cancellation semantics' transplanted onto 'great philosophical intuitions are structurally isomorphic to mathematics invented centuries later (Nāgārjuna → category theory ≈ 1700 yrs; Leibniz → nonstandard analysis ≈ 280 yrs)' suggests the law of zero_extension also holds in philosophy_formalization.",
-    "ja": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「偉大な哲学的直観は数百年後に発明される数学と構造的同型(龍樹→圏論1700年 ライプニッツ→非標準解析280年)」に移植すると、zero_extensionの法則がphilosophy_formalizationでも成立する可能性がある",
+    "en": "「π×π⁻¹=1 キャンセル意味論」の𝕄構造を「偉大な哲学的直観は数百年後に発明される数学と構造的同型(龍樹→圏論1700年 ライプニッツ→非標準解析280年)」に移植すると、zero_extensionの法則がphilosophy_formalizationでも成立する可能性がある",
+    "ja": null,
     "latex": null,
     "preview_source": "rei-invention-engine"
   },
@@ -56,7 +56,7 @@
   ],
   "reiAssessment": {
     "mandalaPredicted": null,
-    "approachSuggestion": "Self-derived from time-delay invariance between philosophy and mathematics",
+    "approachSuggestion": "Self-derived from philosophy_formalization structure",
     "paperCandidate": false,
     "priority": "medium",
     "solveProbability": 0.75,
