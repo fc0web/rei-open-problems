@@ -1,0 +1,163 @@
+{
+  "id": "SESSION-2026-05-05-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-05",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-05: Auto: site rebuild + stats refresh (SEED 1568 / STEP 1018 / ",
+    "ja": "開発セッション 2026-05-05: Auto: site rebuild + stats refresh (SEED 1568 / STEP 1018 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-05. 43 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-05",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "a70fea13",
+      "0cfff2aa",
+      "1498630c",
+      "cde580bb",
+      "36f369f8",
+      "9aa598de",
+      "da1a6942",
+      "c7dc115a",
+      "d5f057ba",
+      "6d19cc48",
+      "d9274347",
+      "2abc22db",
+      "6878a252",
+      "cee4de4b",
+      "1073dc66",
+      "0b6804ed",
+      "b8031ba6",
+      "bd0121af",
+      "100b43d7",
+      "9bc445b0",
+      "c4e57d8c",
+      "ae111bf5",
+      "fb3e9d9f",
+      "f691a33e",
+      "b5677dc3",
+      "287a2e96",
+      "fe25cff1",
+      "2cf69360",
+      "7da1dca1",
+      "51f9e7ad",
+      "9446403c",
+      "0a0943f1",
+      "9ceb0aa0",
+      "87948f37",
+      "ec0b11e9",
+      "e8a34acc",
+      "0fb92ab2",
+      "8976d728",
+      "c813ac52",
+      "ba74da86",
+      "7ea28189",
+      "983b6ca6",
+      "46828b71"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 43,
+    "newFiles": {
+      "lean": 0,
+      "ts": 51,
+      "json": 208,
+      "md": 3,
+      "other": 107
+    },
+    "newFilesTotal": 369,
+    "newTheorems": 0,
+    "newScripts": [
+      "auto-publish.ts",
+      "build-theory-chart-data.ts",
+      "build-oukc-static-pages.ts",
+      "extract-theory-formulas.ts",
+      "export-seed-kernel-summary.ts",
+      "build-daily-discovery-bundle.ts",
+      "tag-glyphs.ts",
+      "build-impossibility-radar.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1568 / STEP 1018 / Papers 146) / Auto: site rebuild + stats refresh (SEED 1568 / STEP 1018 / Papers 146) / Auto: site rebuild + stats refresh (SEED 1568 / STEP 1018 / Papers 146)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-05",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
