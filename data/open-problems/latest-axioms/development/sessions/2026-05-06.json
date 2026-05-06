@@ -1,0 +1,160 @@
+{
+  "id": "SESSION-2026-05-06-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-06",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-06: Auto: site rebuild + stats refresh (SEED 1573 / STEP 1018 / ",
+    "ja": "開発セッション 2026-05-06: Auto: site rebuild + stats refresh (SEED 1573 / STEP 1018 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-06. 32 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-06",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "4ccdef6c",
+      "131759cd",
+      "0cf0b587",
+      "2d9fc5e6",
+      "cccb11e0",
+      "abf2531b",
+      "e0fedbcc",
+      "08c1b6ac",
+      "a92b96fd",
+      "606148e2",
+      "faa46b5f",
+      "ab3edbe5",
+      "739ba251",
+      "1a87ec76",
+      "03d8804f",
+      "2bcf99a8",
+      "e5d0d036",
+      "62a55444",
+      "6d3beec6",
+      "5f8a480e",
+      "964096d0",
+      "46f25d8b",
+      "fbb9465a",
+      "9538d097",
+      "ed3c01a3",
+      "25c48ec6",
+      "843c8bd9",
+      "c62e8477",
+      "6a0b5e5a",
+      "f9ec2132",
+      "90418f92",
+      "a70fea13"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 32,
+    "newFiles": {
+      "lean": 0,
+      "ts": 39,
+      "json": 238,
+      "md": 6,
+      "other": 38
+    },
+    "newFilesTotal": 321,
+    "newTheorems": 0,
+    "newScripts": [
+      "check-invention-novelty.ts",
+      "seed-similarity-poc.ts",
+      "publish-paper-147-ia-harvard.ts",
+      "publish-paper-147-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-to-philarchive.ts",
+      "publish-paper-148-ia-harvard.ts",
+      "publish-paper-148-zenodo.ts",
+      "auto-publish.ts",
+      "build-fx-data.ts",
+      "build-realtime-snapshots.ts",
+      "build-theory-chart-data.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1573 / STEP 1018 / Papers 148) / feat(invention): internal SEED similarity 統合 + Spot/ROLL audit (Round 5 E+F) / feat(oss-audit): SEED 1573 重複検出 POC + Paraconsistent-Lib prior art audit"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-06",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
