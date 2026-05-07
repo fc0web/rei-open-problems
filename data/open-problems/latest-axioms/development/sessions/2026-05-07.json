@@ -1,0 +1,195 @@
+{
+  "id": "SESSION-2026-05-07-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-07",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-07: Auto: site rebuild + stats refresh (SEED 1578 / STEP 1018 / ",
+    "ja": "開発セッション 2026-05-07: Auto: site rebuild + stats refresh (SEED 1578 / STEP 1018 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-07. 51 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-07",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "1a0290ac",
+      "318fcdb0",
+      "2b4decc1",
+      "08d470c1",
+      "02a78896",
+      "379c2406",
+      "0f55bd2a",
+      "2726422d",
+      "4b09dd83",
+      "6c43e05a",
+      "51a288db",
+      "16dd6baf",
+      "67942346",
+      "59ed058f",
+      "04c19b64",
+      "fa6a7033",
+      "4bc29484",
+      "a0e74da2",
+      "b214cc91",
+      "fd78771b",
+      "1f87288f",
+      "62fe2fa5",
+      "7cf959e1",
+      "80399570",
+      "1508e3d4",
+      "8bb2090e",
+      "45871d79",
+      "5d2ace00",
+      "ee5a9d77",
+      "e8d9a286",
+      "98d56f22",
+      "9c0a456a",
+      "b57bd773",
+      "fbe05387",
+      "a307df7e",
+      "f6b67ddd",
+      "d61c5bfe",
+      "97ac042f",
+      "4f1aaf2c",
+      "0f59d4ef",
+      "9d30a292",
+      "c0038f83",
+      "1f4e9d57",
+      "dcab4b22",
+      "a538d0ac",
+      "5a422b54",
+      "ba9ba03b",
+      "46482f1b",
+      "9532d4fb",
+      "4ccdef6c",
+      "131759cd"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 51,
+    "newFiles": {
+      "lean": 0,
+      "ts": 102,
+      "json": 254,
+      "md": 5,
+      "other": 114
+    },
+    "newFilesTotal": 475,
+    "newTheorems": 0,
+    "newScripts": [
+      "publish-paper-149-ia-harvard.ts",
+      "publish-paper-149-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-to-philarchive.ts",
+      "auto-publish.ts",
+      "build-arxiv-edu.ts",
+      "build-edu-news.ts",
+      "build-eric.ts",
+      "build-github-edu.ts",
+      "sync-index-html-bundle.ts",
+      "build-jquants.ts",
+      "build-stooq-jp.ts",
+      "build-arxiv-recent.ts",
+      "build-finnhub.ts",
+      "build-manifold.ts",
+      "build-solar-wind.ts",
+      "build-nasa-sdo.ts",
+      "build-wiki-pageviews.ts",
+      "build-hf-models.ts",
+      "build-gcn-circulars.ts",
+      "build-ligo-events.ts",
+      "build-gbif-recent.ts",
+      "build-wiki-edits.ts",
+      "build-usgs-quakes.ts",
+      "build-crypto-data.ts",
+      "build-theory-chart-data.ts",
+      "check-invention-novelty.ts",
+      "seed-similarity-poc.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1578 / STEP 1018 / Papers 149) / feat(observatory): 🌐 Path B 共有 fetch — Hub で 1 回 /api/mandala-observe → 3 engine 共有 / feat(publish): 📚 Paper 149 を 9 platform で公開 + script bug 2 件修正"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-07",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
