@@ -1,0 +1,142 @@
+{
+  "id": "SESSION-2026-05-08-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-08",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-08: Auto: site rebuild + stats refresh (SEED 1583 / STEP 1018 / ",
+    "ja": "開発セッション 2026-05-08: Auto: site rebuild + stats refresh (SEED 1583 / STEP 1018 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-08. 29 commits, 2 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-08",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "c90147c3",
+      "bee7823b",
+      "122cd9e3",
+      "8ed6a437",
+      "163a3af4",
+      "8c3d5dc4",
+      "42ede624",
+      "052bacf4",
+      "ccd38c2c",
+      "dc6a345b",
+      "d8b9e8d6",
+      "6a9865c5",
+      "3decceba",
+      "6a3675b9",
+      "94926617",
+      "b4b21970",
+      "c58d57c6",
+      "9ecd87f6",
+      "9bd51731",
+      "1b0065d9",
+      "1abbdf5c",
+      "af1f3125",
+      "4922c22d",
+      "73d107ba",
+      "1c7ee233",
+      "abf53a37",
+      "507c3a6e",
+      "c1eeba4d",
+      "1a0290ac"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 29,
+    "newFiles": {
+      "lean": 1,
+      "ts": 38,
+      "json": 222,
+      "md": 8,
+      "other": 52
+    },
+    "newFilesTotal": 321,
+    "newTheorems": 2,
+    "newScripts": [
+      "sync-index-html-bundle.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1583 / STEP 1018 / Papers 149) / feat(octatheoria): STEP 1023 — Phase Z-2.7 envelope 拡張 + Network/Sankey 本実装 / feat(octatheoria): STEP 1022 — Phase Z-2.6 8 view-mode 本格実装"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-08",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
