@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-05-09-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-09",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-09: Auto: site rebuild + stats refresh (SEED 1585 / STEP 1018 / ",
+    "ja": "開発セッション 2026-05-09: Auto: site rebuild + stats refresh (SEED 1585 / STEP 1018 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-09. 33 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-09",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "aa38fd9e",
+      "f20a5acc",
+      "97f82328",
+      "60212d09",
+      "9fe7639b",
+      "f8a3f1e5",
+      "550ea35b",
+      "26efa58b",
+      "174506c7",
+      "64c3e008",
+      "6536e61c",
+      "5b072a96",
+      "81b3767d",
+      "bc1c1cee",
+      "5ddb8fd9",
+      "69abe84a",
+      "8874e754",
+      "3d1fbd60",
+      "3216ee8b",
+      "99cde397",
+      "ce101a04",
+      "1d229d47",
+      "86c2d940",
+      "6c8763c1",
+      "3cdf3a72",
+      "a693df80",
+      "fc60da2d",
+      "7d98f5ae",
+      "39ad2775",
+      "ddade7af",
+      "2c7be99e",
+      "2564d1ff",
+      "c90147c3"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 33,
+    "newFiles": {
+      "lean": 0,
+      "ts": 12,
+      "json": 251,
+      "md": 26,
+      "other": 61
+    },
+    "newFilesTotal": 350,
+    "newTheorems": 0,
+    "newScripts": [
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-145-ia-harvard.ts",
+      "publish-paper-145-zenodo.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1585 / STEP 1018 / Papers 149) / milestone(phase-c): STEP 1038 ★★★ Tang Nano 9K 物理 silicon 格上げ達成 + IDCODE corrigendum ★★★ / Auto: site rebuild + stats refresh (SEED 1585 / STEP 1018 / Papers 149)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-09",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
