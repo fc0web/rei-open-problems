@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-05-12-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-12",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-12: Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / ",
+    "ja": "開発セッション 2026-05-12: Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-12. 31 commits, 15 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-12",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "25f4f57b",
+      "ccfa1716",
+      "a91eb417",
+      "1f4817bd",
+      "f90438b0",
+      "1e2c8397",
+      "beb87dc9",
+      "c9749d0b",
+      "56909a78",
+      "503b79e0",
+      "79ccf1ff",
+      "16c153cf",
+      "b1911ace",
+      "29918b54",
+      "6e8811e9",
+      "ee495fbf",
+      "38e95b35",
+      "586a5c8a",
+      "57b5ba59",
+      "a833bdd3",
+      "3d516d0b",
+      "97c0dbd3",
+      "05361bda",
+      "82d3b74b",
+      "e2e73bd6",
+      "d17b6c79",
+      "ad430718",
+      "7fffa464",
+      "3ffe95e4",
+      "e039d01e",
+      "05b84851"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 31,
+    "newFiles": {
+      "lean": 1,
+      "ts": 36,
+      "json": 246,
+      "md": 5,
+      "other": 43
+    },
+    "newFilesTotal": 331,
+    "newTheorems": 15,
+    "newScripts": [
+      "daily-radar.ts",
+      "huggingface-fetcher.ts",
+      "build-daily-banner.ts",
+      "buchi25-spot-integration.ts",
+      "sync-index-html-bundle.ts",
+      "collatz-5percent-analyze.ts",
+      "collatz-verify-hybrid.ts",
+      "wall-sun-sun-verify.ts",
+      "fetch-oeis-stream.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / Papers 150) / feat(mobile): Phase 1 — global helper CSS injection + ReiLauncher 補強 (STEP 1093) / docs(mobile): Phase 0 audit report — site 全 mobile 対応 plan (STEP 1092)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-12",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
