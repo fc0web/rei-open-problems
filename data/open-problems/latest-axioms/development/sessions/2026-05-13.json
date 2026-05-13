@@ -1,0 +1,171 @@
+{
+  "id": "SESSION-2026-05-13-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-13",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-13: Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / ",
+    "ja": "開発セッション 2026-05-13: Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-13. 36 commits, 13 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-13",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "3674ef45",
+      "d6e5b5e5",
+      "2a1b459c",
+      "dff99d8f",
+      "aa8d2f8c",
+      "92b67ed5",
+      "a5d30d7f",
+      "dc224c37",
+      "59ada191",
+      "a1db970a",
+      "dbd6ea07",
+      "c5cda4f4",
+      "d351559b",
+      "3b86129b",
+      "c6c45f79",
+      "cb6f7c1e",
+      "acddc11d",
+      "deccb8c5",
+      "965bba7a",
+      "5a9afc1a",
+      "719cfa50",
+      "71fb187a",
+      "b7f9bcce",
+      "ac9c584f",
+      "368f2a01",
+      "5cc06603",
+      "1d8f645d",
+      "d1ce6254",
+      "81ee9f6a",
+      "720e06bb",
+      "fdc0689e",
+      "06cfbd92",
+      "4259d74b",
+      "25f4f57b",
+      "ccfa1716",
+      "a91eb417"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 36,
+    "newFiles": {
+      "lean": 6,
+      "ts": 85,
+      "json": 225,
+      "md": 13,
+      "other": 68
+    },
+    "newFilesTotal": 397,
+    "newTheorems": 13,
+    "newScripts": [
+      "publish-paper-152-v02-ia.ts",
+      "publish-paper-152-v02-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "collatz-class21-isolation-proof.ts",
+      "collatz-infinity-scan-1e9-light.ts",
+      "collatz-d70-mod96-missing.ts",
+      "collatz-n96k-boundary-analysis.ts",
+      "publish-paper-152-ia.ts",
+      "publish-paper-152-zenodo.ts",
+      "collatz-infinity-scan-1e8.ts",
+      "build-collatz-confluence-graph.ts",
+      "collatz-buchi25-cores-orbits.ts",
+      "collatz-peak250504-prime-analysis.ts",
+      "collatz-infinity-scan-1e7.ts",
+      "collatz-peak-merge-and-trunk-enum.ts",
+      "collatz-cluster-topology.ts",
+      "collatz-infinity-scan-1e6.ts",
+      "experiment-collatz-sigma-cascade.ts",
+      "publish-paper-151-zenodo.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1600 / STEP 1088 / Papers 152) / fix(quantum-microscope): data-schema mismatch fix + 15s fetch timeout fallback / publish(paper-152): v0.2 — Lean 4 native_decide closures + 3-adic isolation theorem + honest correct"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-13",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

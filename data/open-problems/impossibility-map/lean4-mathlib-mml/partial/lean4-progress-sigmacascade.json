@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP986HADWIGERNELSON",
+  "id": "LEAN4-PROGRESS-SIGMACASCADE",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step986HadwigerNelson.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SigmaCascade.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step986HadwigerNelson.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step986HadwigerNelson.lean"
+    "lean4Ref": "SigmaCascade.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SigmaCascade.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Hadwiger Nelson — 5 theorems/lemmas, 0 sorry, 1 axiom",
-    "ja": "Lean 4 進捗: Hadwiger Nelson — 定理 5 / sorry 0 / axiom 1",
+    "en": "Lean 4 progress: Sigma Cascade — 2 theorems/lemmas, 1 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Sigma Cascade — 定理 2 / sorry 1 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 986 (D) — Hadwiger-Nelson chromatic lower bound via Moser-Spindle\n  ======================================================================\n\n  Problem (Hadwiger-Nelson, 1950-open):\n    What is χ(ℝ²), the chromatic number of the unit-distance graph in the plane?\n    Current best bounds: 5 ≤ χ(ℝ²) ≤ 7\n      - Lower bound ≥ 5: Aubrey de Grey 2018 (1,581-vertex graph, later 553)\n      - Upper bound ≤ 7: Isbell (hexagonal tiling)\n\n  This STEP establishes the COMBINATORIAL CORE of the classical χ(ℝ²) ≥ 4\n  lower bound (Moser-Moser 1961) in Lean 4.\n\n  Combinatorial claim (provable by native_decid"
+    "headerDoc": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\n\n  Honest scope:\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\n    * The proof is `sorry` — full mechanized proof is long-term future work.\n    * Companion to Paper 151 (Zenodo DOI 10.5281/zenodo.20146654).\n    * Companion to STEP 1101-1103 σ-cascade empirical Collatz observation.\n\n  Paper 151 Theorem 14:\n    The six σ-attributes (field, flow, memory, layer, relation, will) interact\n    in cascading reactions: a change in one attribute propagates to others\n    through a chain of "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
@@ -25,15 +25,15 @@
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
     "dfumt8": "BOTH",
-    "dfumt8Reason": "Partial: 0 sorry residual",
+    "dfumt8Reason": "Partial: 1 sorry residual",
     "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
     "confidence": 0.7
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Data.Fintype.Basic",
-      "Mathlib.Data.Finset.Basic",
-      "Mathlib.Data.Real.Basic"
+      "Mathlib.Data.Fin.Basic",
+      "Mathlib.Data.List.Basic",
+      "Mathlib.Logic.Function.Iterate"
     ],
     "reiImports": [],
     "external": [],
@@ -43,27 +43,27 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Step986HadwigerNelson.lean",
+      "lean4": "SigmaCascade.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 986 (D) — Hadwiger-Nelson chromatic lower bound via Moser-Spindle\n  ======================================================================\n\n  Problem (Hadwiger-Nelson, 1950-open):\n    What is χ(ℝ",
+    "scopeOfImpossibility": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\n\n  Honest scope:\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\n    * The proof is `s",
     "bypassability": {
       "bypassPossible": true,
-      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassMethod": "Close 1 sorry; integrate to Mathlib",
       "bypassCost": "Hours to days per sorry"
     },
     "relatedImpossibilities": [],
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step986HadwigerNelson.lean",
-    "lineCount": 184,
-    "fileSize": 7889,
-    "theoremCount": 5,
+    "fileName": "SigmaCascade.lean",
+    "lineCount": 114,
+    "fileSize": 4861,
+    "theoremCount": 2,
     "lemmaCount": 0,
-    "defCount": 7,
-    "sorryCount": 0,
+    "defCount": 3,
+    "sorryCount": 1,
     "axiomCount": 1,
     "hasOleanBuild": false,
     "oleanDate": null,
@@ -76,8 +76,8 @@
     "coq": "none",
     "agda": "none",
     "isabelle": "none",
-    "sorryCount": 0,
-    "notes": "5 theorems/lemmas, 7 defs"
+    "sorryCount": 1,
+    "notes": "2 theorems/lemmas, 3 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

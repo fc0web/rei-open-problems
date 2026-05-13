@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP993BROCARDEXTENDED100",
+  "id": "LEAN4-PROGRESS-THREEADICISOLATION",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step993BrocardExtended100.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ThreeAdicIsolation.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step993BrocardExtended100.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step993BrocardExtended100.lean"
+    "lean4Ref": "ThreeAdicIsolation.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ThreeAdicIsolation.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Brocard Extended 100 — 51 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Brocard Extended 100 — 定理 51 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Three Adic Isolation — 3 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Three Adic Isolation — 定理 3 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 993 — Brocard's problem n ∈ [51, 100] Lean 4 extension\n  ============================================================\n\n  Follow-up to STEP 990 (n ∈ [21, 50]). Same Nat.sqrt-based O(log) approach.\n\n  Target: n ∈ [51, 100] non-square verification (50 new theorems).\n  Combined with STEP 980/990/Brocard base:\n    Rei-AIOS Brocard coverage n ∈ [1, 100] (102 theorems total).\n\n  Honest positioning:\n    - Berndt-Galway 2000: N ≤ 10⁹ (10,000,000× beyond our n≤100).\n    - Rei contribution: Lean 4 mechanical verification first record.\n    - Brocard conjecture itself remains OPEN since 1876.\n\n  Scale"
+    "headerDoc": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\n\n  Companion to:\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\n    - PeakMergeInvariant.lean (companion file in same module)\n    - PeakMergeWitness.lean (1,000 explicit peak-250,504 witnesses)\n\n  Main theorem: For any value v ≡ 0 (mod 3), the inverse Collatz tree branch\n  rooted at v consists exclusively of {v · 2^k : k ≥ 0}. There are no odd-step\n  entrances into this branch.\n\n  Consequence for σ-cascade Collatz observation (Paper 152):\n    - For ANY specific value v with 3 | v, v's inverse"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,13 +31,11 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Data.Nat.Factorial.Basic",
-      "Mathlib.Data.Nat.Sqrt"
+      "Mathlib.Data.Nat.Basic",
+      "Mathlib.Data.Int.Basic",
+      "Mathlib.Tactic.Linarith"
     ],
-    "reiImports": [
-      "CollatzRei.Step980BrocardExtended",
-      "CollatzRei.Step990BrocardExtended50"
-    ],
+    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -45,11 +43,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step993BrocardExtended100.lean",
+      "lean4": "ThreeAdicIsolation.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 993 — Brocard's problem n ∈ [51, 100] Lean 4 extension\n  ============================================================\n\n  Follow-up to STEP 990 (n ∈ [21, 50]). Same Nat.sqrt-based O(log) approach.",
+    "scopeOfImpossibility": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\n\n  Companion to:\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\n    - PeakMergeInvariant.lean (co",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,18 +57,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step993BrocardExtended100.lean",
-    "lineCount": 143,
-    "fileSize": 8071,
-    "theoremCount": 51,
+    "fileName": "ThreeAdicIsolation.lean",
+    "lineCount": 85,
+    "fileSize": 3581,
+    "theoremCount": 3,
     "lemmaCount": 0,
-    "defCount": 0,
+    "defCount": 1,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
-    "mathlibImportCount": 2,
-    "reiImportCount": 2,
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -79,7 +77,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "51 theorems/lemmas, 0 defs"
+    "notes": "3 theorems/lemmas, 1 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
