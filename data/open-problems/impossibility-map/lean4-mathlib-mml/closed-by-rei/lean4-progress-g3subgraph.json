@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP947GEOMETRYTOPOLOGY",
+  "id": "LEAN4-PROGRESS-G3SUBGRAPH",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step947GeometryTopology.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/G3Subgraph.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step947GeometryTopology.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step947GeometryTopology.lean"
+    "lean4Ref": "G3Subgraph.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/G3Subgraph.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Geometry Topology — 14 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Geometry Topology — 定理 14 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: G 3 Subgraph — 14 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: G 3 Subgraph — 定理 14 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pythagorean system.\n     New: mod-16 obstruction for perfect cuboid sides.\n     New: Close-to-perfect cuboids (3 of 4 conditions met).\n\n  B. INSCRIBED SQUARE CONJECTURE (TOEPLITZ 1911)\n     Every simple closed curve contains an inscribed square.\n     Proved for smooth curves; OPEN for Lipschitz.\n     New: Discrete analog verified for polygons up to 20 vertices.\n\n  C. JACOBIAN CONJECTURE (algebraic geom"
+    "headerDoc": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\n\n  Companion to:\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\n    - PeakMergeInvariant.lean (Büchi-25 native_decide)\n    - PeakMergeWitness.lean (1,000-witness existential closure)\n\n  This file mechanizes Paper 152 v0.3 §5d Lemma 5d.1 (G_3 edges are\n  inverse-halving only) and Lemma 5d.2 (G_3 chain decomposition) as far\n  as classical Mathlib + ThreeAdicIsolation allows.\n\n  Key theorem (Lemma 5d.1):\n    ∀ v with 3 | v, ∀ c : ℕ, collatzStep c = v → c = 2v.\n\n  In words: within the multiples"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,9 +31,14 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Tactic"
+      "Mathlib.Data.Nat.Basic",
+      "Mathlib.Data.Int.Basic",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.Ring"
     ],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.ThreeAdicIsolation"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +46,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step947GeometryTopology.lean",
+      "lean4": "G3Subgraph.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pytha",
+    "scopeOfImpossibility": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\n\n  Companion to:\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\n    - PeakMergeInvariant.lean (",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +60,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step947GeometryTopology.lean",
-    "lineCount": 199,
-    "fileSize": 9250,
+    "fileName": "G3Subgraph.lean",
+    "lineCount": 286,
+    "fileSize": 11039,
     "theoremCount": 14,
     "lemmaCount": 0,
-    "defCount": 5,
+    "defCount": 3,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
-    "mathlibImportCount": 1,
-    "reiImportCount": 0,
+    "mathlibImportCount": 4,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +80,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "14 theorems/lemmas, 5 defs"
+    "notes": "14 theorems/lemmas, 3 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
