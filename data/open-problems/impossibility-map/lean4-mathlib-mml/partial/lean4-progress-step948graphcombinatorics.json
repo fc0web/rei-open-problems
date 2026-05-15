@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Graph Combinatorics — 定理 18 / sorry 2 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 948 — Graph Theory and Combinatorics Conjectures\n  藤本伸樹 2026-04-21\n\n  Five graph-theoretic open problems:\n\n  A. HADWIGER'S CONJECTURE (chromatic number vs minor)\n     χ(G) ≤ k implies G has K_k as minor? OPEN for k ≥ 7.\n     Proved: k ≤ 6 (Robertson et al. 1993). Verified small cases.\n\n  B. RECONSTRUCTION CONJECTURE (Kelly-Ulam 1960)\n     Every graph on ≥ 3 vertices is determined by its deck.\n     OPEN for general graphs. Verified for small graphs.\n\n  C. GRACEFUL TREE CONJECTURE (Kotzig-Ringel 1963)\n     Every tree has a graceful labeling (edges get distinct values 1..n-1).\n     OPEN. Ver"
+    "headerDoc": "STEP 948 — Graph Theory and Combinatorics Conjectures\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five graph-theoretic open problems:\r\n\r\n  A. HADWIGER'S CONJECTURE (chromatic number vs minor)\r\n     χ(G) ≤ k implies G has K_k as minor? OPEN for k ≥ 7.\r\n     Proved: k ≤ 6 (Robertson et al. 1993). Verified small cases.\r\n\r\n  B. RECONSTRUCTION CONJECTURE (Kelly-Ulam 1960)\r\n     Every graph on ≥ 3 vertices is determined by its deck.\r\n     OPEN for general graphs. Verified for small graphs.\r\n\r\n  C. GRACEFUL TREE CONJECTURE (Kotzig-Ringel 1963)\r\n     Every tree has a graceful labeling (edges get distinct values 1..n-1).\r"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-05-14",
+  "lastUpdate": "2026-05-15",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 948 — Graph Theory and Combinatorics Conjectures\n  藤本伸樹 2026-04-21\n\n  Five graph-theoretic open problems:\n\n  A. HADWIGER'S CONJECTURE (chromatic number vs minor)\n     χ(G) ≤ k implies G has K_k a",
+    "scopeOfImpossibility": "STEP 948 — Graph Theory and Combinatorics Conjectures\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five graph-theoretic open problems:\r\n\r\n  A. HADWIGER'S CONJECTURE (chromatic number vs minor)\r\n     χ(G) ≤ k implies G has",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 2 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step948GraphCombinatorics.lean",
     "lineCount": 235,
-    "fileSize": 11332,
+    "fileSize": 11566,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 12,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-05-14",
+  "ingested": "2026-05-15",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

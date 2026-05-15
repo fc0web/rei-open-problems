@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP988WOLSTENHOLME",
+  "id": "LEAN4-PROGRESS-HODGEFERMATFOURFOLD",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step988Wolstenholme.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/HodgeFermatFourfold.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step988Wolstenholme.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step988Wolstenholme.lean"
+    "lean4Ref": "HodgeFermatFourfold.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/HodgeFermatFourfold.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Wolstenholme — 9 theorems/lemmas, 0 sorry, 3 axiom",
-    "ja": "Lean 4 進捗: Wolstenholme — 定理 9 / sorry 0 / axiom 3",
+    "en": "Lean 4 progress: Hodge Fermat Fourfold — 2 theorems/lemmas, 0 sorry, 7 axiom",
+    "ja": "Lean 4 進捗: Hodge Fermat Fourfold — 定理 2 / sorry 0 / axiom 7",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\n  ==========================================================================\n\n  Sources:\n    - Wolstenholme (1862): C(2p-1, p-1) ≡ 1 (mod p³) for all primes p ≥ 5\n    - Linhares (arXiv:2604.16507, 2026-04-14): first Lean 4 formalization\n    - Known Wolstenholme primes (mod p^4): 16843 and 2124679 only\n\n  Definitions:\n    IsWolstenholmeTheoremInstance p ↔ p > 3 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p³)\n    IsWolstenholmePrime p         ↔ p > 7 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p⁴)\n\n  This STEP contributes:\n    1. Small-p ver"
+    "headerDoc": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\n\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\n  Lefschetz (1,1) axiom and the Hodge predicate at the abstract level.\n  This file specializes to the Fermat fourfold family\n\n      F_d^4 := { [x_0 : … : x_5] ∈ P^5(ℂ) | x_0^d + x_1^d + … + x_5^d = 0 }\n\n  for d ≥ 2. The case d = 4 inside P^5 is the *quartic Fermat fourfold*,\n  a workhorse test family for Hodge-theoretic questions where the\n  predicate is *open in middle dimensions* (cf. Voisin 2002).\n\n  Honest scope:\n    * Mathlib v"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
@@ -31,12 +31,13 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Data.Nat.Factorial.Basic",
-      "Mathlib.Data.Nat.Choose.Basic",
-      "Mathlib.Data.Nat.ModEq",
-      "Mathlib.Data.Nat.Prime.Basic"
+      "Mathlib.Data.Rat.Defs",
+      "Mathlib.Data.Nat.Basic",
+      "Mathlib.Tactic.Linarith"
     ],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.HodgeBasics"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -44,11 +45,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Step988Wolstenholme.lean",
+      "lean4": "HodgeFermatFourfold.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\n  ==========================================================================\n\n  Sources:\n    - Wolstenholme (1862): C(2p-1, p",
+    "scopeOfImpossibility": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\n\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\n  Lefschetz (1,1) axiom and the Hodg",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,18 +59,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step988Wolstenholme.lean",
-    "lineCount": 149,
-    "fileSize": 6501,
-    "theoremCount": 9,
+    "fileName": "HodgeFermatFourfold.lean",
+    "lineCount": 216,
+    "fileSize": 11624,
+    "theoremCount": 2,
     "lemmaCount": 0,
-    "defCount": 4,
+    "defCount": 3,
     "sorryCount": 0,
-    "axiomCount": 3,
+    "axiomCount": 7,
     "hasOleanBuild": false,
     "oleanDate": null,
-    "mathlibImportCount": 4,
-    "reiImportCount": 0,
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
     "category": "partial"
   },
   "formalization": {
@@ -78,7 +79,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 4 defs"
+    "notes": "2 theorems/lemmas, 3 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

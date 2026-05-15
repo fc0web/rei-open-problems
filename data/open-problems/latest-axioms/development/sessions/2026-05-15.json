@@ -1,0 +1,176 @@
+{
+  "id": "SESSION-2026-05-15-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-15",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-15: Auto: site rebuild + stats refresh (SEED 1601 / STEP 1155 / ",
+    "ja": "開発セッション 2026-05-15: Auto: site rebuild + stats refresh (SEED 1601 / STEP 1155 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-15. 42 commits, 74 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-15",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "799850c0",
+      "c54bbcd6",
+      "27c11fc4",
+      "295e7310",
+      "2dc2296e",
+      "5aabedf3",
+      "089d636b",
+      "57948a24",
+      "f82a397c",
+      "1d678a73",
+      "ccf98619",
+      "23adfd4d",
+      "f3dcbe79",
+      "823f52ff",
+      "8bcc238f",
+      "3db3f9fc",
+      "beab589f",
+      "dcb6484b",
+      "7fbfaaf6",
+      "2b7c4c74",
+      "cf40b5cf",
+      "5f1c996c",
+      "0e3c641d",
+      "365d4512",
+      "32a8de3f",
+      "a59701fa",
+      "3c26fa7f",
+      "2f55cae4",
+      "643d8f0e",
+      "6800caaa",
+      "4c3699e3",
+      "40ff2b7c",
+      "02e84934",
+      "5f50a985",
+      "b347f0d9",
+      "12bf0627",
+      "2d8a2243",
+      "b4acbbf4",
+      "e27de57c",
+      "5adb10aa",
+      "49c198ed",
+      "2e74db38"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 42,
+    "newFiles": {
+      "lean": 11,
+      "ts": 81,
+      "json": 935,
+      "md": 209,
+      "other": 7276
+    },
+    "newFilesTotal": 8512,
+    "newTheorems": 74,
+    "newScripts": [
+      "smoke-test-routes.ts",
+      "rotate-research-radar.ts",
+      "build-site-stats.ts",
+      "generate-daily-sources.ts",
+      "generate-seo-files.ts",
+      "generate-stats.ts",
+      "publish-paper-153-ia.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-153-zenodo-records-finish3.ts",
+      "publish-paper-153-zenodo-records.ts",
+      "publish-paper-145-v07-zenodo.ts",
+      "publish-paper-153-zenodo.ts",
+      "inject-explicit-dfumt8-into-approved-seeds.ts",
+      "verify-seed-kernel-dfumt8-counts.ts",
+      "sync-index-html-bundle.ts",
+      "test-verilog-to-mermaid.ts",
+      "generate-theory-to-circuit-full-batch.ts",
+      "generate-theory-to-circuit-samples.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1601 / STEP 1155 / Papers 153) / step(1156-followup-11.2): smoke test 12/12 PASS baseline + npm scripts / step(1156-followup-11): live deploy smoke test + 4 deploy gap fix (OUKC + publications mirror)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-15",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
