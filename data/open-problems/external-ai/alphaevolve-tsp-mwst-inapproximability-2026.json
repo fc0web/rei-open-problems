@@ -1,0 +1,42 @@
+{
+  "id": "external-ai-alphaevolve-tsp-mwst-inapproximability-2026",
+  "source": "external-ai",
+  "origin": "alphaevolve",
+  "sourceRef": {
+    "agent": "AlphaEvolve (Google DeepMind)",
+    "paper": "arXiv:2509.18057 — Reinforced Generation of Combinatorial Structures: Hardness of Approximation",
+    "ingestedAt": "2026-05-17",
+    "ingestedBy": "Rei STEP 1156-followup-23 (TODO 2 scaffold)",
+    "factCheckSource": "https://arxiv.org/abs/2509.18057 (verified via WebSearch 2026-05-17)"
+  },
+  "statement": {
+    "en": "AlphaEvolve discovered new gadget reductions improving inapproximability bounds: TSP/MWST (metric TSP equivalent) inapproximability ratio improved from previous state-of-the-art to 111/110. MAX-4-CUT NP-hard to approximate within 0.987; MAX-3-CUT within 0.9649. Notable: the TSP gadget asymmetry was central to the improvement, and standard SMT/MIP solvers failed to find these solutions.",
+    "ja": "AlphaEvolve が新 gadget reduction 発見: TSP/MWST 近似不可能比 → 111/110 (改良). MAX-4-CUT 0.987 / MAX-3-CUT 0.9649 NP困難. TSP gadget の非対称性が改良の核 — 標準 SMT/MIP solver では発見不能.",
+    "latex": "\\text{Metric-TSP inapprox factor} \\geq \\frac{111}{110}"
+  },
+  "field": "complexity-theory",
+  "subfield": "inapproximability",
+  "proposer": "AlphaEvolve / DeepMind 2026",
+  "year": 2026,
+  "status": "verified-construction",
+  "lastUpdate": "2026-05-17",
+  "reiTyping": {
+    "primaryType": "VI_BRIDGING",
+    "secondaryType": "II_OPEN_FRONTIER",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Constructive lower bound + asymmetric gadget structure (BOTH: provably hard + concrete witness)",
+    "rationale": "Hardness lower bounds combine logical impossibility with explicit witness construction. AlphaEvolve filled the gap that classical SMT/MIP could not.",
+    "confidence": "TRUE"
+  },
+  "reiInterest": {
+    "lean4Candidate": "MEDIUM — gadget structure formalizable in Lean 4, but full P ≠ NP reduction chain is heavy. Paper 132 Mathlib contribution stack relevant.",
+    "paperCandidate": "Paper 154 candidate (joint with Ramsey 2603.09172): 'Rei formal scaffold for AlphaEvolve combinatorial structure papers'.",
+    "relationToReiStack": "Connects to STEP 717-721 'Portfolio+AlphaEvolve / 4-Route Assault / k_max bound' work — Rei's own AlphaEvolve engine specifically tested k_max bound estimation. AlphaEvolve at Google scale generalizes Rei's local impl."
+  },
+  "cross_refs": {
+    "rei_engines": ["src/axiom-os/alpha-evolve-engine.ts (STEP 717)"],
+    "rei_papers": ["STEP 717-721 Portfolio+AlphaEvolve (CLAUDE.md track 'k_max bound / 4-Route Assault')"],
+    "external_papers": ["arXiv:2509.18057", "arXiv:2603.09172 (sister Ramsey paper)"]
+  },
+  "honestScope": "★ Rei's alpha-evolve-engine.ts (STEP 717) is local TS reimplementation, NOT Google-scale AlphaEvolve. The 111/110 result is by Google DeepMind, ingested here for tracking. Pattern 5 prevention: Rei ≠ AlphaEvolve, complement not competitor."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "external-ai-alphaevolve-26-circles-packing-2025",
+  "source": "external-ai",
+  "origin": "alphaevolve",
+  "sourceRef": {
+    "agent": "AlphaEvolve (Google DeepMind)",
+    "paper": "AlphaEvolve white paper 2025-05 + reproduced by OpenEvolve (HuggingFace blog 2025-05-20)",
+    "ingestedAt": "2026-05-17",
+    "ingestedBy": "Rei STEP 1156-followup-23 (TODO 2 scaffold)",
+    "factCheckSource": "https://huggingface.co/blog/codelion/openevolve (verified via WebFetch 2026-05-17)"
+  },
+  "statement": {
+    "en": "For the optimal packing of 26 circles of varying sizes in a unit square, AlphaEvolve achieved a sum-of-radii of 2.635. OpenEvolve (open-source reproduction, algorithmicsuperintelligence/openevolve, Apache 2.0) achieved 2.634, within 0.04% of the Google result.",
+    "ja": "26 円異径配置 (単位正方形内, 半径和最大化): AlphaEvolve 2.635, OpenEvolve (OSS 再現) 2.634 — 0.04% 以内.",
+    "latex": "\\sum_{i=1}^{26} r_i \\geq 2.635 \\quad \\text{(AlphaEvolve)}"
+  },
+  "field": "geometry",
+  "subfield": "circle-packing",
+  "proposer": "AlphaEvolve / DeepMind 2025-05",
+  "year": 2025,
+  "status": "reproduced-by-oss",
+  "lastUpdate": "2026-05-17",
+  "reiTyping": {
+    "primaryType": "I_DECIDABLE_CASE",
+    "secondaryType": "VIII_NUMERICAL_OPTIMIZATION",
+    "dfumt8": "INFINITY",
+    "dfumt8Reason": "Continuous optimization in R^{52} — Φ → bound established, not unique",
+    "rationale": "Sum-of-radii is a continuous bound. Multiple near-optimal configurations exist. Tammes-type problem family (also in AlphaEvolve gallery).",
+    "confidence": "TRUE"
+  },
+  "reiInterest": {
+    "lean4Candidate": "LOW — geometric optimization is hard to formalize cleanly. Better as numerical / certified-bound result.",
+    "paperCandidate": "Used as 'sanity benchmark' for OpenEvolve fork (when Rei adds Lean 4 β-evaluator + D-FUMT₈ γ-evaluator layers).",
+    "relationToReiStack": "★ This is the standard benchmark for OpenEvolve OSS reproduction. If Rei forks OpenEvolve (per chat-Claude proposal 2026-05-16), reproduction of this 2.634 ≈ 2.635 result confirms environment correctness."
+  },
+  "cross_refs": {
+    "rei_engines": ["alpha-evolve-engine.ts (STEP 717) — could attempt this with local Ollama LLM"],
+    "external_oss": ["github.com/algorithmicsuperintelligence/openevolve (Apache 2.0, v0.2.27 2026-03-18)"],
+    "external_papers": ["AlphaEvolve white paper 2025-05"],
+    "gallery": "alphaevolve-examples.web.app/ae/gallery (Tammes problem + this packing)"
+  },
+  "honestScope": "Rei has NOT yet attempted this benchmark. Ingest tracks it as canonical reproduction target for OpenEvolve fork integration (chat-Claude 2026-05-16 evening implementation plan)."
+}

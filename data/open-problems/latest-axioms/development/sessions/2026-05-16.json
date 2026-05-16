@@ -1,0 +1,151 @@
+{
+  "id": "SESSION-2026-05-16-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-16",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-16: step(1156-followup-23-karpathy-v1.1): watch entry corrigendu",
+    "ja": "開発セッション 2026-05-16: step(1156-followup-23-karpathy-v1.1): watch entry corrigendu",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-16. 34 commits, 24 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-16",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "bc9bab96",
+      "b6fe1c98",
+      "09bcd34f",
+      "be32a209",
+      "24d1159a",
+      "334c28b2",
+      "8ffe6bcf",
+      "f4d3120c",
+      "3a55cc54",
+      "f5e91ae6",
+      "7b9e2d0e",
+      "b6d07e1c",
+      "cdaf9c15",
+      "316c8584",
+      "4d280d7c",
+      "99754498",
+      "a6b665d1",
+      "e60c8793",
+      "e0fa37a9",
+      "cd986939",
+      "7922569b",
+      "2bc7266b",
+      "add1b45f",
+      "299b8c43",
+      "92bafa93",
+      "5d9d57b5",
+      "c3d227c1",
+      "93fda148",
+      "245787bb",
+      "6ea6ea67",
+      "c424ee26",
+      "799850c0",
+      "c54bbcd6",
+      "27c11fc4"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 34,
+    "newFiles": {
+      "lean": 3,
+      "ts": 24,
+      "json": 399,
+      "md": 26,
+      "other": 324
+    },
+    "newFilesTotal": 776,
+    "newTheorems": 24,
+    "newScripts": [
+      "ingest-alphaevolve-tao67-scaffold.ts",
+      "publish-paper-153-v02-zenodo-new-version.ts",
+      "refresh-rei-familiar-matches.ts",
+      "smoke-test-routes.ts",
+      "sync-index-html-bundle.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "step(1156-followup-23-karpathy-v1.1): watch entry corrigendum — Apr 4 (not 5) + frequency rebalance / step(1156-followup-23-karpathy): Research Radar watch + data/queries/ filing 4th-tier scaffold / Auto: site rebuild + stats refresh (SEED 1601 / STEP 1155 / Papers 153)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-16",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

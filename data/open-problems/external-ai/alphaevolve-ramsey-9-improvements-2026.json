@@ -1,0 +1,45 @@
+{
+  "id": "external-ai-alphaevolve-ramsey-9-improvements-2026",
+  "source": "external-ai",
+  "origin": "alphaevolve",
+  "sourceRef": {
+    "agent": "AlphaEvolve (Google DeepMind, Gemini Flash/Pro + evolutionary loop)",
+    "paper": "arXiv:2603.09172 — Reinforced Generation of Combinatorial Structures: Ramsey Numbers",
+    "authors": ["Ansh Nagda (UC Berkeley)", "Prabhakar Raghavan (Google)", "Abhradeep Thakurta (Google DeepMind)"],
+    "publishYear": 2026,
+    "ingestedAt": "2026-05-17",
+    "ingestedBy": "Rei STEP 1156-followup-23 (TODO 2 scaffold)",
+    "factCheckSource": "https://arxiv.org/abs/2603.09172 (verified via WebSearch 2026-05-17)"
+  },
+  "statement": {
+    "en": "AlphaEvolve improved the lower bounds of 9 classical Ramsey numbers: R(3,13): 60→61, R(3,18): 99→100, R(4,13): 138→139, R(4,14): 147→148, R(4,15): 158→159, R(4,16): 170→174, R(4,18): 205→209, R(4,19): 213→219, R(4,20): 234→237. Existing best lower bounds for all known-exact Ramsey numbers were also recovered, and the best known lower bounds across many other cases were matched.",
+    "ja": "AlphaEvolve が 9 個の古典的 Ramsey 数下限を改良: R(3,13) 60→61 / R(3,18) 99→100 / R(4,13-20) 計 7 件. 既知 exact Ramsey 数の最良下限も再現済.",
+    "latex": "R(4, 16) \\geq 174 \\quad (\\text{previously } 170)"
+  },
+  "field": "combinatorics",
+  "subfield": "ramsey-numbers",
+  "proposer": "AlphaEvolve / DeepMind 2026",
+  "year": 2026,
+  "status": "verified-numerical-result",
+  "lastUpdate": "2026-05-17",
+  "reiTyping": {
+    "primaryType": "I_DECIDABLE_CASE",
+    "secondaryType": "III_PROBLEM_UNDEFINED",
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Specific lower bounds verified — TRUE for existence",
+    "rationale": "Each new R(s,t) bound is a constructive existence proof (an explicit graph witness). The graphs themselves were found by AlphaEvolve evolutionary search and are explicitly published.",
+    "confidence": "TRUE"
+  },
+  "reiInterest": {
+    "lean4Candidate": "★ HIGH — 9 explicit graphs published. Each (s,t) bound formalizable as: ∃ G : SimpleGraph (Fin n), (no K_s subgraph) ∧ (no independent set of size t). Mathlib PR candidate.",
+    "paperCandidate": "★ Paper 154 candidate: 'Rei formal verification of AlphaEvolve Ramsey graphs (R(4,16)=174 etc.)' — fills the '證明完成器' role per Tao framing.",
+    "relationToReiStack": "Complements REI-PROVE 5-prover ensemble (STEP 1021/1057-1067) and AlphaEvolve engine local impl (alpha-evolve-engine.ts STEP 717). Rei does NOT need to find the graphs (AlphaEvolve did) — Rei provides the formal verification layer."
+  },
+  "cross_refs": {
+    "rei_engines": ["src/axiom-os/alpha-evolve-engine.ts (STEP 717)", "REI-PROVE 5-prover ensemble (STEP 1021/1057-1067)"],
+    "rei_papers": ["Paper 131 (Bipartite Ramsey b(2,2)=5 Lean 4)", "Paper 132 (Mathlib contribution roadmap)"],
+    "external_papers": ["arXiv:2603.09172", "arXiv:2509.18057 (sister AlphaEvolve TSP paper)"],
+    "mathlib_module_candidate": "Mathlib.Combinatorics.SimpleGraph.Ramsey (does not yet exist as of 2026-05)"
+  },
+  "honestScope": "Rei has NOT independently verified these graphs (yet). Ingest is a META-DB tier-10 (external-ai) ENTRY for future Rei verification. Pattern 5 prevention: the ramsey-num improvements are CITED, not claimed as Rei output."
+}
