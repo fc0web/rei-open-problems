@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1159BROCARDEXTENDED400",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1159BrocardExtended400.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1159BrocardExtended400.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1159BrocardExtended400.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Brocard Extended 400 — 111 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Brocard Extended 400 — 定理 111 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1159 — Brocard's problem n ∈ [301, 400] Lean 4 extension\r\n  ==============================================================\r\n\r\n  Follow-up to STEP 1158 (n ∈ [251, 300]). Same Nat.sqrt-based O(log) approach.\r\n\r\n  Target: n ∈ [301, 400] non-square verification (100 new theorems).\r\n  Combined with prior STEPs: Rei-AIOS Brocard coverage n ∈ [1, 400] (~427 theorems total).\r\n\r\n  Honest positioning:\r\n    - Berndt-Galway 2000: N ≤ 10⁹ (Brocard's problem search limit).\r\n    - Brocard conjecture itself remains OPEN since 1876.\r\n\r\n  Scale check: n=400 means 400! ≈ 6.4 × 10^868. Nat.sqrt O(log) digits"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-05-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Factorial.Basic",
+      "Mathlib.Data.Nat.Sqrt"
+    ],
+    "reiImports": [
+      "CollatzRei.Step980BrocardExtended"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1159BrocardExtended400.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 1159 — Brocard's problem n ∈ [301, 400] Lean 4 extension\r\n  ==============================================================\r\n\r\n  Follow-up to STEP 1158 (n ∈ [251, 300]). Same Nat.sqrt-based O(log)",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1159BrocardExtended400.lean",
+    "lineCount": 263,
+    "fileSize": 16447,
+    "theoremCount": 111,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 2,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "111 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-05-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1159LEGENDREEXTENDED500",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1159LegendreExtended500.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1159LegendreExtended500.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1159LegendreExtended500.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Legendre Extended 500 — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Legendre Extended 500 — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1159 — Legendre's conjecture n ∈ [301, 500] Lean 4 extension\r\n  =================================================================\r\n\r\n  Follow-up to STEP 1158 (n ∈ [201, 300], 100 witnesses).\r\n  Same explicit-witness + `native_decide` pattern.\r\n\r\n  Target: n ∈ [301, 500] explicit prime witnesses (200 new witnesses).\r\n  Combined with prior LegendreSmall.lean + STEP 1157 + STEP 1158:\r\n    Rei-AIOS Legendre coverage n ∈ [1, 500] (~421 theorems total).\r\n\r\n  Honest positioning:\r\n    - Legendre's conjecture (1808) remains OPEN unconditionally.\r\n    - Rei contribution: Lean 4 mechanical witness v"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-05-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Prime.Basic",
+      "Mathlib.Tactic.NormNum.Prime"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1159LegendreExtended500.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 1159 — Legendre's conjecture n ∈ [301, 500] Lean 4 extension\r\n  =================================================================\r\n\r\n  Follow-up to STEP 1158 (n ∈ [201, 300], 100 witnesses).\r\n  S",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1159LegendreExtended500.lean",
+    "lineCount": 102,
+    "fileSize": 5741,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-05-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
