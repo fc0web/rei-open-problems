@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-05-18-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-18",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-18: Auto: site rebuild + stats refresh (SEED 1606 / STEP 1159 / ",
+    "ja": "開発セッション 2026-05-18: Auto: site rebuild + stats refresh (SEED 1606 / STEP 1159 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-18. 38 commits, 41 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-18",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "da43e40c",
+      "f7680865",
+      "0e878dd0",
+      "6bd3df4b",
+      "95fe6958",
+      "0a200850",
+      "da85f415",
+      "c21519fe",
+      "aec6e945",
+      "8293a090",
+      "84e7e42a",
+      "ee878c88",
+      "462e8d69",
+      "763b0c21",
+      "da420df4",
+      "cee97ae2",
+      "d6138e4e",
+      "c7db2eaa",
+      "1ac249ee",
+      "43cf91f1",
+      "e30e8e01",
+      "857d8220",
+      "f9d7304c",
+      "9e4d4c7b",
+      "9f8c2459",
+      "2cba10ab",
+      "94e91ba6",
+      "577a16e7",
+      "07a63fc8",
+      "a68435b8",
+      "b608f884",
+      "4ca179c4",
+      "e080667f",
+      "c9415583",
+      "8f07dd6a",
+      "efabbd38",
+      "aff2e5d2",
+      "1b85c2dd"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 38,
+    "newFiles": {
+      "lean": 5,
+      "ts": 35,
+      "json": 272,
+      "md": 2,
+      "other": 828
+    },
+    "newFilesTotal": 1142,
+    "newTheorems": 41,
+    "newScripts": [
+      "fetch-microbe-gallery.ts",
+      "generate-theory-to-circuit-samples.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1606 / STEP 1159 / Papers 154) / refresh(top-page): site-stats + daily-banner + activity-log を最新 commit 反映 / fix(spa-chunk-hash): mermaid + lib chunk hash rotation を stage — Circuit Showcase Failed to fetch 解消"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-18",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
