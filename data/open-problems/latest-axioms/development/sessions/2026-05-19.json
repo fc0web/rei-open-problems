@@ -1,0 +1,146 @@
+{
+  "id": "SESSION-2026-05-19-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-19",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-19: Auto: site rebuild + stats refresh (SEED 1607 / STEP 1159 / ",
+    "ja": "開発セッション 2026-05-19: Auto: site rebuild + stats refresh (SEED 1607 / STEP 1159 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-19. 24 commits, 5 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-19",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "ee90e746",
+      "97fab143",
+      "c4bb8331",
+      "d8026f4a",
+      "eb0e9ac1",
+      "516b3468",
+      "6dd873e0",
+      "1a27ad38",
+      "2cc29019",
+      "f9516454",
+      "466f6ba3",
+      "1373d2a7",
+      "d7b25a02",
+      "49c0a926",
+      "654da66a",
+      "747e68df",
+      "6932c784",
+      "81f25255",
+      "793ad8d2",
+      "7092d10e",
+      "9007f4d1",
+      "dfdbc15f",
+      "da43e40c",
+      "f7680865"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 24,
+    "newFiles": {
+      "lean": 1,
+      "ts": 23,
+      "json": 163,
+      "md": 4,
+      "other": 356
+    },
+    "newFilesTotal": 547,
+    "newTheorems": 5,
+    "newScripts": [
+      "dry-run-step1089cd-verify.ts",
+      "dry-run-step1089b-cap.ts",
+      "publish-paper-155-harvard.ts",
+      "publish-paper-155-ia.ts",
+      "publish-paper-155-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1607 / STEP 1159 / Papers 155) / feat(raqm): RaQM (Tim Palmer Oxford arXiv 2510.02877) honest filter — Research Radar v1.16 + chat-cl / step(1089cd): 発明 pipeline 8th iteration 続編 — (g2) Greek tokens + (i) categoryB exhaustion + (h) load"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-19",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
