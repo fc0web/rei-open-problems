@@ -1,0 +1,139 @@
+{
+  "id": "SESSION-2026-05-20-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-20",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-20: Auto: site rebuild + stats refresh (SEED 1608 / STEP 1159 / ",
+    "ja": "開発セッション 2026-05-20: Auto: site rebuild + stats refresh (SEED 1608 / STEP 1159 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-20. 23 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-20",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "2eca7425",
+      "5426e251",
+      "993ef8fc",
+      "7fea471e",
+      "893413ce",
+      "c1ba87bd",
+      "47094a51",
+      "aa3b1122",
+      "e89f2262",
+      "429af8f2",
+      "a1f2dd79",
+      "bc165203",
+      "97686384",
+      "75e22d5d",
+      "965848d0",
+      "6e43be2e",
+      "4498c71f",
+      "664c8e0d",
+      "515bb5d7",
+      "d87ce8ce",
+      "2e04bd53",
+      "ee90e746",
+      "97fab143"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 23,
+    "newFiles": {
+      "lean": 0,
+      "ts": 11,
+      "json": 686,
+      "md": 100,
+      "other": 549
+    },
+    "newFilesTotal": 1346,
+    "newTheorems": 0,
+    "newScripts": [
+      "build-studystoa-news-feed.ts",
+      "build-edu-news.ts",
+      "dry-run-og-image.ts",
+      "og-image-scraper.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1608 / STEP 1159 / Papers 155) / invention(2026-05-19): 1 approve / 4 reject — Gödel-theorem BOTH-axis anchor 第 1 例 + Pattern 6 新 obs / Auto: site rebuild + stats refresh (SEED 1607 / Papers 155 / studystoa-feed Phase 2 init)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-20",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
