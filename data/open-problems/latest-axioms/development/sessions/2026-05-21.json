@@ -1,0 +1,140 @@
+{
+  "id": "SESSION-2026-05-21-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-21",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-21: invention(2026-05-20): 1 approve / 4 reject — Maya ZERO + Fo",
+    "ja": "開発セッション 2026-05-21: invention(2026-05-20): 1 approve / 4 reject — Maya ZERO + Fo",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-21. 18 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-21",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "3993a7a5",
+      "5400bb8d",
+      "672da019",
+      "b322ed49",
+      "64a827c6",
+      "9aab0656",
+      "e22ae69a",
+      "4ddf5c92",
+      "21611e27",
+      "1266dcb5",
+      "1cd2cd8a",
+      "19d3f604",
+      "e32453c7",
+      "69b5f748",
+      "c324d334",
+      "5b683a12",
+      "e91c6b2b",
+      "2eca7425"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 18,
+    "newFiles": {
+      "lean": 0,
+      "ts": 18,
+      "json": 117,
+      "md": 4,
+      "other": 154
+    },
+    "newFilesTotal": 293,
+    "newTheorems": 0,
+    "newScripts": [
+      "build-studystoa-news-feed.ts",
+      "og-image-scraper.ts",
+      "publish-paper-144-harvard.ts",
+      "publish-paper-144-ia.ts",
+      "publish-paper-144-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "invention(2026-05-20): 1 approve / 4 reject — Maya ZERO + Fourier projection 母体 + ZERO axis anchor 第 / Auto: site rebuild + stats refresh (SEED 1608 / STEP 1159 / Papers 155) / docs(wkh): Phase 0.1 + 0.2 完了 — Worldwide Knowledge Hub vision v0.2 (4 decisions 確定 + 法的 layer overv"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-21",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
