@@ -1,0 +1,138 @@
+{
+  "id": "SESSION-2026-05-23-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-23",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-23: Auto: site rebuild + stats refresh (SEED 1613 / STEP 1159 / ",
+    "ja": "開発セッション 2026-05-23: Auto: site rebuild + stats refresh (SEED 1613 / STEP 1159 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-23. 25 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-23",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "ce88ea2d",
+      "b5c1cdc8",
+      "3cdb09e5",
+      "93e1c4da",
+      "68a6cd2c",
+      "d7f45704",
+      "1594289b",
+      "55599d90",
+      "c5507bf6",
+      "556e63e7",
+      "873704a0",
+      "f76ed965",
+      "dcbf0fa7",
+      "b3dd8b43",
+      "3bdf1ef8",
+      "969c3227",
+      "6f0d7dd9",
+      "31b567e8",
+      "a4ddf1e9",
+      "7326f19e",
+      "fed67902",
+      "d838aad0",
+      "8701be6f",
+      "6995a363",
+      "f40b90f1"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 25,
+    "newFiles": {
+      "lean": 0,
+      "ts": 3,
+      "json": 181,
+      "md": 9,
+      "other": 149
+    },
+    "newFilesTotal": 342,
+    "newTheorems": 0,
+    "newScripts": [
+      "build-daily-banner.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1613 / STEP 1159 / Papers 156) / wwd(vision v0.5 §0.6.1-0.6.4 + competitor audit doc): WIC scope expansion to 7 sub-domain matrix + u / wwd(vision v0.5 §0.6-0.8): WIC (World Investment Center) = WDC vision の Layer α concrete instantiati"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-23",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
