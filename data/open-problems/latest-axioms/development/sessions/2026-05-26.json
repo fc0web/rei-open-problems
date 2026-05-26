@@ -1,0 +1,136 @@
+{
+  "id": "SESSION-2026-05-26-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-26",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-26: Auto: site rebuild + stats refresh (SEED 1619 / STEP 1168 / ",
+    "ja": "開発セッション 2026-05-26: Auto: site rebuild + stats refresh (SEED 1619 / STEP 1168 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-26. 25 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-26",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "0efa80eb",
+      "96a68307",
+      "3f575ccf",
+      "2dc5f249",
+      "ea29721d",
+      "79416879",
+      "756c0ede",
+      "d7217a98",
+      "b9fe28c0",
+      "13adec2a",
+      "48ba00e1",
+      "e5d6d273",
+      "cfc5563e",
+      "cddabeec",
+      "c2eac966",
+      "51f503c4",
+      "f02c2a53",
+      "63247f4f",
+      "eae8885a",
+      "3f14deab",
+      "768fb37c",
+      "42769c10",
+      "57f9de2e",
+      "746f9499",
+      "5c69fbe0"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 25,
+    "newFiles": {
+      "lean": 1,
+      "ts": 29,
+      "json": 167,
+      "md": 9,
+      "other": 218
+    },
+    "newFilesTotal": 424,
+    "newTheorems": 0,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1619 / STEP 1168 / Papers 157) / Close compCollatz_preserves_odd sorry in STEP 984 (Chang map balance) / Auto: site rebuild + stats refresh (SEED 1619 / STEP 1168 / Papers 157)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-26",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
