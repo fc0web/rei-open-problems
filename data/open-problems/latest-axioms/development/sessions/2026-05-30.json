@@ -1,0 +1,131 @@
+{
+  "id": "SESSION-2026-05-30-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-30",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-30: Auto: site rebuild + stats refresh (SEED 1634 / STEP 1184 / ",
+    "ja": "開発セッション 2026-05-30: Auto: site rebuild + stats refresh (SEED 1634 / STEP 1184 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-30. 16 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-30",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "2072471a",
+      "8f7bb6d9",
+      "18e72184",
+      "122ddd5d",
+      "d3725bb9",
+      "eb5c37fd",
+      "06715937",
+      "49a14b02",
+      "14236b99",
+      "9b9b9172",
+      "808f2c4d",
+      "946ea162",
+      "2062fa4d",
+      "5ad8ca1d",
+      "f8f15a76",
+      "ab3e3378"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 16,
+    "newFiles": {
+      "lean": 0,
+      "ts": 10,
+      "json": 150,
+      "md": 2,
+      "other": 150
+    },
+    "newFilesTotal": 312,
+    "newTheorems": 0,
+    "newScripts": [
+      "fetch-wic-events.ts",
+      "daily-radar.ts",
+      "wic-economic-fetcher.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1634 / STEP 1184 / Papers 158) / STEP 1184: economic event archetypes (7 entries) + 30-day cooldown gate / STEP 1182-1183: OctaTheoria wic-events domain + WIC→Radar reverse bridge"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-30",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
