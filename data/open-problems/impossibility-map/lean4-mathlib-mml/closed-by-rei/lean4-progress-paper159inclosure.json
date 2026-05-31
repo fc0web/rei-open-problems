@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP991MINIMALOVERLAPEXT",
+  "id": "LEAN4-PROGRESS-PAPER159INCLOSURE",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step991MinimalOverlapExt.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper159Inclosure.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step991MinimalOverlapExt.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step991MinimalOverlapExt.lean"
+    "lean4Ref": "Paper159Inclosure.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper159Inclosure.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Minimal Overlap Ext — 4 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Minimal Overlap Ext — 定理 4 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Paper 159 Inclosure — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 159 Inclosure — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\n  =======================================================\n\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\n  Attempts extension to M(6), M(7), M(8) via same computable M function\n  and native_decide on larger partition enumeration.\n\n  Known values (OEIS-referenced, to be verified by native_decide):\n    M(6) = ?\n    M(7) = ?\n    M(8) = ?\n\n  Partition counts:\n    C(12, 6) = 924\n    C(14, 7) = 3,432\n    C(16, 8) = 12,870\n    C(18, 9) = 48,620\n    C(20, 10) = 184,756\n\n  All counts are small; dominant cost is per-partition MaxOverlap computation"
+    "headerDoc": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\n\n  Companion to Paper 159 v0.2 (Rei-AIOS).\n  Zenodo (v0.1 OUTLINE): DOI 10.5281/zenodo.20468146\n  Stance: rational reconstruction following Priest-Garfield (2003)'s own\n          self-framing — NOT textual history.\n\n  This file machine-checks (sorry-free, decide-only):\n    1. DFUMT8.omega_upper is idempotent  (Paper 159 §3.4 main claim)\n    2. omega_upper contracts BOTH → ZERO (the 0₀ genesis layer of ZCSG)\n    3. omega_upper contracts NEITHER → ZERO\n    4. Any I"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,9 +31,7 @@
   },
   "cross_refs": {
     "mathlibImports": [],
-    "reiImports": [
-      "CollatzRei.Step989MinimalOverlap"
-    ],
+    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +39,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step991MinimalOverlapExt.lean",
+      "lean4": "Paper159Inclosure.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-23"
+      "oleanDate": "2026-05-31"
     },
-    "scopeOfImpossibility": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\n  =======================================================\n\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\n  Attempts extension to M(6), M(7), M(8",
+    "scopeOfImpossibility": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\n\n  Companion to Paper 159 v0.2 (Rei-AIOS).\n  Zenodo (v0.1 OUTLINE):",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +53,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step991MinimalOverlapExt.lean",
-    "lineCount": 91,
-    "fileSize": 2626,
-    "theoremCount": 4,
+    "fileName": "Paper159Inclosure.lean",
+    "lineCount": 241,
+    "fileSize": 10284,
+    "theoremCount": 9,
     "lemmaCount": 0,
-    "defCount": 3,
+    "defCount": 6,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-23",
+    "oleanDate": "2026-05-31",
     "mathlibImportCount": 0,
-    "reiImportCount": 1,
+    "reiImportCount": 0,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +73,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "4 theorems/lemmas, 3 defs"
+    "notes": "9 theorems/lemmas, 6 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-05-31-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-05-31",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-05-31: Auto: site rebuild + stats refresh (SEED 1634 / STEP 1188 / ",
+    "ja": "開発セッション 2026-05-31: Auto: site rebuild + stats refresh (SEED 1634 / STEP 1188 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-05-31. 28 commits, 9 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-05-31",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "f5af5441",
+      "979a0f80",
+      "1202becd",
+      "ca20f9e8",
+      "dd9ba454",
+      "3b21316f",
+      "b1c8cbb2",
+      "e3f2fc58",
+      "c4f30079",
+      "4f5c5002",
+      "bae7cf56",
+      "4a624eee",
+      "86d831a5",
+      "f0754267",
+      "e92571e7",
+      "d023f939",
+      "6a7f1bf9",
+      "1ad2e822",
+      "3e91862c",
+      "de166a08",
+      "30431566",
+      "da9455a3",
+      "d563394f",
+      "88e3620a",
+      "cab2f47a",
+      "a27825ad",
+      "e8be8417",
+      "2072471a"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 28,
+    "newFiles": {
+      "lean": 2,
+      "ts": 27,
+      "json": 185,
+      "md": 5,
+      "other": 290
+    },
+    "newFilesTotal": 509,
+    "newTheorems": 9,
+    "newScripts": [
+      "publish-paper-159-v02-harvard.ts",
+      "publish-paper-159-v02-ia.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-159-v02-zenodo-newversion.ts",
+      "publish-paper-159-harvard.ts",
+      "publish-paper-159-ia.ts",
+      "publish-paper-159-zenodo.ts",
+      "generate-multi-sensor-fusion.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1634 / STEP 1188 / Papers 160) / Auto: site rebuild + stats refresh (SEED 1634 / STEP 1188 / Papers 159) / Auto: site rebuild + stats refresh (SEED 1634 / STEP 1188 / Papers 159)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-05-31",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
