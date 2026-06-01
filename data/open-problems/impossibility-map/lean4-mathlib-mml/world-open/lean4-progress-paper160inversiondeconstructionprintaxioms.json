@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-ATOMICCORES",
+  "id": "LEAN4-PROGRESS-PAPER160INVERSIONDECONSTRUCTIONPRINTAXIOMS",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AtomicCores.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper160InversionDeconstructionPrintAxioms.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "AtomicCores.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/AtomicCores.lean"
+    "lean4Ref": "Paper160InversionDeconstructionPrintAxioms.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper160InversionDeconstructionPrintAxioms.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Atomic Cores — 0 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Atomic Cores — 定理 0 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Paper 160 Inversion Deconstruction Print Axioms — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 160 Inversion Deconstruction Print Axioms — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\n  Companion to Paper 159 v0.2 audit (Paper159InclosurePrintAxioms.lean)."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
@@ -31,7 +31,9 @@
   },
   "cross_refs": {
     "mathlibImports": [],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.Paper160InversionDeconstruction"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -39,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "AtomicCores.lean",
-      "oleanBuilt": true,
-      "oleanDate": "2026-04-13"
+      "lean4": "Paper160InversionDeconstructionPrintAxioms.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\n  Companion to Paper 159 v0.2 audit (Paper159",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -53,18 +55,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "AtomicCores.lean",
-    "lineCount": 3,
-    "fileSize": 36,
+    "fileName": "Paper160InversionDeconstructionPrintAxioms.lean",
+    "lineCount": 15,
+    "fileSize": 502,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
-    "hasOleanBuild": true,
-    "oleanDate": "2026-04-13",
+    "hasOleanBuild": false,
+    "oleanDate": null,
     "mathlibImportCount": 0,
-    "reiImportCount": 0,
+    "reiImportCount": 1,
     "category": "world-open"
   },
   "formalization": {

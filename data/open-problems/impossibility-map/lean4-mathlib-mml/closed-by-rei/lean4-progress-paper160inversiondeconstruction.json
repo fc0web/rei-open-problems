@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP787FUNNELD1D2",
+  "id": "LEAN4-PROGRESS-PAPER160INVERSIONDECONSTRUCTION",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step787FunnelD1D2.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper160InversionDeconstruction.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step787FunnelD1D2.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step787FunnelD1D2.lean"
+    "lean4Ref": "Paper160InversionDeconstruction.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper160InversionDeconstruction.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Funnel D 1 D 2 — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Funnel D 1 D 2 — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Paper 160 Inversion Deconstruction — 4 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 160 Inversion Deconstruction — 定理 4 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 787 / Paper 119c — Topological uniformity of ATOMIC_CORES_25\n  ==================================================================\n\n  PRE-STEP 787 memory claim:\n    \"23 FUNNEL + 2 EXCEPTIONS (n=247 ISOLATED, n=255 BYPASS).\"\n\n  Empirical verification (test/step787-funnel-empirical-check.ts, 2026-04-19)\n  shows that claim was based on a different atomic-cores list (odd n ∈ [27, 255]\n  with K/bl² > 1.8). The canonical ATOMIC_CORES_25 from STEP 696 (mod 49152\n  saturation) does NOT include n=247 or n=255.\n\n  For the canonical ATOMIC_CORES_25, the situation is stronger and more uniform:\n\n    ★ "
+    "headerDoc": "CollatzRei.Paper160InversionDeconstruction —\n  Application note for Paper 160 §X (Rei-AIOS):\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\n  on the D-FUMT₈ value system.\n\n  Core claim (chat Claude 2026-06-01, three-instance convergence with\n  ChatGPT and Gemini, see paper-160-figA-thread-synthesis-en-2026-06-01.svg\n  for the research-log of the multi-AI thread):\n\n      \"Reversal ≠ Deconstruction\"\n\n      NOT(NOT(x)) preserves the underlying axis (involution);\n      only Ω_upper(Ω_upper(x)) folds the axis itself (idempotent collapse).\n\n  This file machine-checks (de"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -32,7 +32,7 @@
   "cross_refs": {
     "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Problem011N911OnRamp"
+      "CollatzRei.Paper159Inclosure"
     ],
     "external": [],
     "seedKernel": null
@@ -41,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step787FunnelD1D2.lean",
+      "lean4": "Paper160InversionDeconstruction.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-19"
+      "oleanDate": "2026-05-31"
     },
-    "scopeOfImpossibility": "STEP 787 / Paper 119c — Topological uniformity of ATOMIC_CORES_25\n  ==================================================================\n\n  PRE-STEP 787 memory claim:\n    \"23 FUNNEL + 2 EXCEPTIONS (n=24",
+    "scopeOfImpossibility": "CollatzRei.Paper160InversionDeconstruction —\n  Application note for Paper 160 §X (Rei-AIOS):\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\n  on the D-FUMT₈ value system.\n",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,16 +55,16 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step787FunnelD1D2.lean",
-    "lineCount": 70,
-    "fileSize": 2884,
-    "theoremCount": 9,
+    "fileName": "Paper160InversionDeconstruction.lean",
+    "lineCount": 171,
+    "fileSize": 7427,
+    "theoremCount": 4,
     "lemmaCount": 0,
-    "defCount": 0,
+    "defCount": 1,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-19",
+    "oleanDate": "2026-05-31",
     "mathlibImportCount": 0,
     "reiImportCount": 1,
     "category": "closed-by-rei"
@@ -75,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 0 defs"
+    "notes": "4 theorems/lemmas, 1 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
