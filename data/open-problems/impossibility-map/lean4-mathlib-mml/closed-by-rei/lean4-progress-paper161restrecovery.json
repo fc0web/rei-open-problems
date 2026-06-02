@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-PAPER161RESTRECOVERY",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper161RestRecovery.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Paper161RestRecovery.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper161RestRecovery.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Paper 161 Rest Recovery — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 161 Rest Recovery — 定理 9 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "RestRecovery.lean\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\n\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\n  本ファイルは Mathlib 不要(core Lean 4)。`lake build` で検証のこと。"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-02",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Paper161RestRecovery.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-01"
+    },
+    "scopeOfImpossibility": "RestRecovery.lean\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\n\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\n  本ファ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Paper161RestRecovery.lean",
+    "lineCount": 99,
+    "fileSize": 3611,
+    "theoremCount": 9,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-01",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "9 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-02",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

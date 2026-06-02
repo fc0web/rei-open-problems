@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-PAPER161RESTRECOVERYMEASURE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper161RestRecoveryMeasure.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Paper161RestRecoveryMeasure.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper161RestRecoveryMeasure.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Paper 161 Rest Recovery Measure — 4 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 161 Rest Recovery Measure — 定理 4 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "RestRecoveryMeasure.lean\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\n\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\n  riddled / fat-fractal 吸引域(正測度の境界)では成り立たない。\n  よって NEITHER は「一般に(generically)」無視できるが、普遍的ではない。\n\n  Mathlib を import。呼び出し補題(IsOpen.measurableSet, isClosed_frontier,\n  ae_iff 等)は版で差があり得るため `lake build` で確認のこと(本環境では未検証)。"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-02",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Paper161RestRecoveryMeasure.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-01"
+    },
+    "scopeOfImpossibility": "RestRecoveryMeasure.lean\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\n\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\n  ridd",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Paper161RestRecoveryMeasure.lean",
+    "lineCount": 70,
+    "fileSize": 3145,
+    "theoremCount": 4,
+    "lemmaCount": 0,
+    "defCount": 1,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-01",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "4 theorems/lemmas, 1 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-02",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
