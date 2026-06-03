@@ -11,9 +11,9 @@
   "totalTools": 7,
   "totalStrategy": 13,
   "totalLatestAxioms": 1441,
-  "totalImpossibilities": 214,
+  "totalImpossibilities": 215,
   "totalDisciplineOntology": 16,
-  "grandTotalEntries": 4409,
+  "grandTotalEntries": 4410,
   "tierDescription": {
     "tier1": "World-public open problems (2620 entries) — Wikipedia / Kourovka / Erdős / Millennium / Smale / Hilbert / Green / OEIS etc.",
     "tier2": "Rei Invention Engine approved conjectures (54 entries) — CC-BY 4.0 attribution required",
@@ -22,7 +22,7 @@
     "tier5": "Rei-AIOS tools (7 entries) — tools Rei-AIOS has built (Rei-PL Prover, Invention Engine, NNUE D-FUMT, etc.)",
     "tier6": "Strategic concepts (13 entries public; some private/semi-public not included) — curricula, certifications, new-math seeds, outreach plans.",
     "tier7": "★ v3.0 NEW — Latest axioms (1441 entries) across all 14 fields. D-FUMT₈ + 4-axis (X/Y/Z/T) = 2,560-dimensional evaluation. Provisional FLOWING → TRUE → SEED_KERNEL lifecycle.",
-    "tier8": "★ v3.0 NEW — Impossibility map (214 entries) across 5 classes (computational/logical/physical/current-limit/dfumt8-zero). Rei-AIOS's honest acknowledgment of unformalizable knowledge.",
+    "tier8": "★ v3.0 NEW — Impossibility map (215 entries) across 5 classes (computational/logical/physical/current-limit/dfumt8-zero). Rei-AIOS's honest acknowledgment of unformalizable knowledge.",
     "tier9": "★ v3.1 NEW — Discipline Ontology (16 entries). Concepts themselves (philosophy/education/ethics/CS) as first-class entries with 4-axis + Peace + Cultural origin + falsifiability + provisionality. Per docs/metadb-v3-1-tier9-spec.md."
   },
   "paperReference": {
