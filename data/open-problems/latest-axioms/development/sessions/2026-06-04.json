@@ -1,0 +1,127 @@
+{
+  "id": "SESSION-2026-06-04-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-04",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-04: Auto: site rebuild + stats refresh (SEED 1639 / STEP 1191 / ",
+    "ja": "開発セッション 2026-06-04: Auto: site rebuild + stats refresh (SEED 1639 / STEP 1191 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-04. 16 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-04",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "add07d9d",
+      "3ef65f13",
+      "d6fc3048",
+      "bd5413c6",
+      "95244ace",
+      "d83924a9",
+      "a1c86736",
+      "78e355b5",
+      "147c5645",
+      "85a9ed1d",
+      "808c0aff",
+      "79413a89",
+      "09c3dc31",
+      "7ace472e",
+      "3446b61f",
+      "5e2f6d47"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 16,
+    "newFiles": {
+      "lean": 0,
+      "ts": 0,
+      "json": 133,
+      "md": 2,
+      "other": 82
+    },
+    "newFilesTotal": 217,
+    "newTheorems": 0,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1639 / STEP 1191 / Papers 162) / Invention 2026-06-03: 5/5 reject + Research Radar v1.24 prior-art entries / Auto: site rebuild + stats refresh (SEED 1639 / STEP 1191 / Papers 162)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-04",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
