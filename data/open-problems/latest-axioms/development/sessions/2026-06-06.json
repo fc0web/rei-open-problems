@@ -1,0 +1,141 @@
+{
+  "id": "SESSION-2026-06-06-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-06",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-06: Auto: site rebuild + stats refresh (SEED 1643 / STEP 1197 / ",
+    "ja": "開発セッション 2026-06-06: Auto: site rebuild + stats refresh (SEED 1643 / STEP 1197 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-06. 26 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-06",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "1e0a5325",
+      "bd7bedcd",
+      "c9bbb8f3",
+      "9de05f66",
+      "e7746dd3",
+      "e85ed068",
+      "8579bf31",
+      "b4457a44",
+      "bdcc28a6",
+      "1e5633f2",
+      "f1213dc1",
+      "cb652ec8",
+      "73ec4bc1",
+      "3eae2761",
+      "2486cbb8",
+      "82256add",
+      "3f8a61ec",
+      "44bf282c",
+      "4393a426",
+      "d9ac4d82",
+      "62b8d188",
+      "de94c583",
+      "7c1a5d21",
+      "53682061",
+      "81cdb5c3",
+      "afe21259"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 26,
+    "newFiles": {
+      "lean": 0,
+      "ts": 39,
+      "json": 261,
+      "md": 7,
+      "other": 320
+    },
+    "newFilesTotal": 627,
+    "newTheorems": 0,
+    "newScripts": [
+      "audit-buddy.ts",
+      "generate-daily-buddy.ts",
+      "sync-index-html-bundle.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1643 / STEP 1197 / Papers 162) / STEP 1198 Research Radar v1.25 — chat-Claude code evolution thread 6/6 fact-check + 5 entries / STEP 1197 Buddy Stage 1.4 audit operational — audit-buddy CLI + reject-aware guard + /buddy lens ove"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-06",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
