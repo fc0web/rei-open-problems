@@ -1,0 +1,140 @@
+{
+  "id": "SESSION-2026-06-08-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-08",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-08: Auto: site rebuild + stats refresh (SEED 1644 / STEP 1202 / ",
+    "ja": "開発セッション 2026-06-08: Auto: site rebuild + stats refresh (SEED 1644 / STEP 1202 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-08. 25 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-08",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "d56bcb29",
+      "7bd97df4",
+      "705bbdc3",
+      "6ef44ecd",
+      "fb47bc01",
+      "2c5809c4",
+      "3caf8037",
+      "abc72816",
+      "121acdbb",
+      "5032da9d",
+      "9378eca6",
+      "e9f78d97",
+      "92e7bc4e",
+      "6d8b323c",
+      "cf11bae2",
+      "ccac62f4",
+      "2354c31a",
+      "6234ae40",
+      "f081c333",
+      "652b17a7",
+      "74cdab07",
+      "3ac02ec0",
+      "83d3270e",
+      "02206d57",
+      "f9f831cf"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 25,
+    "newFiles": {
+      "lean": 0,
+      "ts": 13,
+      "json": 162,
+      "md": 8,
+      "other": 81
+    },
+    "newFilesTotal": 264,
+    "newTheorems": 0,
+    "newScripts": [
+      "generate-bilattice-eight.ts",
+      "sync-index-html-bundle.ts",
+      "daily-curriculum-rotation.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1644 / STEP 1202 / Papers 162) / docs: RECENT_UPDATES.md — STEP 1202 (b) entry (rei-aios 705bbdc3) / STEP 1202 (b): Bilattice 8値拡張 engine + site lens (Belnap FOUR + orthogonal extension)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-08",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
