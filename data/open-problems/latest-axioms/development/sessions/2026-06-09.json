@@ -1,0 +1,163 @@
+{
+  "id": "SESSION-2026-06-09-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-09",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-09: Auto: site rebuild + stats refresh (SEED 1646 / STEP 1208 / ",
+    "ja": "開発セッション 2026-06-09: Auto: site rebuild + stats refresh (SEED 1646 / STEP 1208 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-09. 36 commits, 17 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-09",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "f5c5c2b2",
+      "8504e9e2",
+      "7a4ce8b3",
+      "adc3b1a8",
+      "1bfd0946",
+      "e2f85edd",
+      "6f033444",
+      "13a05bdb",
+      "4dd42cd8",
+      "ec9c2769",
+      "852e9143",
+      "aa575127",
+      "22b51019",
+      "1361f775",
+      "b1384c21",
+      "a785b5f0",
+      "a3563cd5",
+      "ef874edf",
+      "f6ac5afa",
+      "bcdc9810",
+      "827c9952",
+      "1c11eeb8",
+      "beaf2f13",
+      "89972e4e",
+      "39f41849",
+      "5602528f",
+      "b5dae559",
+      "4d9b9727",
+      "cc7e05b6",
+      "6b27398f",
+      "b6256630",
+      "d56bcb29",
+      "7bd97df4",
+      "705bbdc3",
+      "6ef44ecd",
+      "fb47bc01"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 36,
+    "newFiles": {
+      "lean": 11,
+      "ts": 53,
+      "json": 211,
+      "md": 19,
+      "other": 356
+    },
+    "newFilesTotal": 650,
+    "newTheorems": 17,
+    "newScripts": [
+      "publish-paper-164-harvard.ts",
+      "publish-paper-164-ia.ts",
+      "publish-paper-164-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "publish-paper-163-harvard.ts",
+      "publish-paper-163-ia.ts",
+      "publish-paper-163-zenodo.ts",
+      "generate-infinity-cosmoi.ts",
+      "sync-index-html-bundle.ts",
+      "generate-bilattice-eight.ts",
+      "daily-curriculum-rotation.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1646 / STEP 1208 / Papers 164) / docs: RECENT_UPDATES.md add 06-08 invention approval entry / Invention 2026-06-08: 2 approve / 3 reject + STEP 1190 hardening leak 8 例目 detected"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-09",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
