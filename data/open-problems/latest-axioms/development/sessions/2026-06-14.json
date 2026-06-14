@@ -1,0 +1,138 @@
+{
+  "id": "SESSION-2026-06-14-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-14",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-14: Auto: site rebuild + stats refresh (SEED 1649 / STEP 1216 / ",
+    "ja": "開発セッション 2026-06-14: Auto: site rebuild + stats refresh (SEED 1649 / STEP 1216 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-14. 25 commits, 33 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-14",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "55f95cde",
+      "598bd5ab",
+      "ca44b346",
+      "62350d63",
+      "c9b02de3",
+      "4c174b1a",
+      "bce690d3",
+      "0db1661a",
+      "db97a962",
+      "d921fdc1",
+      "18a930b7",
+      "d8882dfe",
+      "1dae57c2",
+      "0f87b8c3",
+      "ad18760e",
+      "82286b63",
+      "d7932189",
+      "027556da",
+      "66609e83",
+      "fff6368f",
+      "82b5ff24",
+      "76936b40",
+      "c3fb4b48",
+      "fff2fe16",
+      "8306612a"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 25,
+    "newFiles": {
+      "lean": 6,
+      "ts": 13,
+      "json": 156,
+      "md": 4,
+      "other": 230
+    },
+    "newFilesTotal": 409,
+    "newTheorems": 33,
+    "newScripts": [
+      "generate-magnetometer.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1649 / STEP 1216 / Papers 165) / feat(lean): STEP 1217 ZCSG × mathlib SmallCategory instance (Paper 61 機械検証) / feat(invention): STEP 1216 (q) requireHistorySourceLiteralVsNewTargetBan — cross-direction leak 11 例"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-14",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
