@@ -1,0 +1,137 @@
+{
+  "id": "SESSION-2026-06-15-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-15",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-15: Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / ",
+    "ja": "開発セッション 2026-06-15: Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-15. 23 commits, 30 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-15",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "e8910655",
+      "1f87ddc8",
+      "da830719",
+      "47bfd068",
+      "d5adfa00",
+      "000db511",
+      "3a831dc4",
+      "1027516c",
+      "c12f75c8",
+      "9edacc45",
+      "0961af0c",
+      "36689c5c",
+      "cfb4f2cb",
+      "4cb6085c",
+      "b9824658",
+      "ce979557",
+      "42e338a2",
+      "091f8256",
+      "09ea97bf",
+      "c0e1640e",
+      "55f95cde",
+      "598bd5ab",
+      "ca44b346"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 23,
+    "newFiles": {
+      "lean": 8,
+      "ts": 12,
+      "json": 156,
+      "md": 6,
+      "other": 222
+    },
+    "newFilesTotal": 404,
+    "newTheorems": 30,
+    "newScripts": [
+      "detect-audit-gap.ts",
+      "sync-index-html-bundle.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / Papers 165) / feat(audit-gap): STEP 1221 lens — #/audit-gap UI page (前回 commit の補完) / feat(audit-gap): STEP 1221 invention audit-gap detector (06-12 incident 再発防止)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-15",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

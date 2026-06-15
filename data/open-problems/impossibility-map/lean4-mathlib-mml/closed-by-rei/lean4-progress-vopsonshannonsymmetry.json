@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP955MATHPHYSICS",
+  "id": "LEAN4-PROGRESS-VOPSONSHANNONSYMMETRY",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step955MathPhysics.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/VopsonShannonSymmetry.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step955MathPhysics.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step955MathPhysics.lean"
+    "lean4Ref": "VopsonShannonSymmetry.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/VopsonShannonSymmetry.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Math Physics — 17 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Math Physics — 定理 17 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Vopson Shannon Symmetry — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Vopson Shannon Symmetry — 定理 5 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 955 — Mathematical Physics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems at the math-physics interface:\n\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\n     Prove existence of Yang-Mills quantum field theory in 4D and\n     that it has a positive mass gap Δ > 0.\n     STATUS: OPEN. One of the hardest open problems.\n\n  B. QUANTUM CHAOS AND BERRY-TABOR CONJECTURE\n     Integrable systems → Poisson level spacing; Chaotic → GUE/GOE.\n     Berry-Tabor conjecture (1977): proved for arithmetic surfaces (Marklof 2003).\n\n  C. QUANTUM ERGODICITY (Shnirelman-Zelditch-Colin de Verdière"
+    "headerDoc": ""
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,8 +31,11 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Tactic",
-      "Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic"
+      "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+      "Mathlib.Algebra.BigOperators.Fin",
+      "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Logic.Equiv.Defs"
     ],
     "reiImports": [],
     "external": [],
@@ -42,11 +45,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step955MathPhysics.lean",
+      "lean4": "VopsonShannonSymmetry.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 955 — Mathematical Physics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems at the math-physics interface:\n\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\n     Prove existence of ",
+    "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -56,17 +59,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step955MathPhysics.lean",
-    "lineCount": 253,
-    "fileSize": 11694,
-    "theoremCount": 17,
+    "fileName": "VopsonShannonSymmetry.lean",
+    "lineCount": 113,
+    "fileSize": 5947,
+    "theoremCount": 5,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 3,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": false,
     "oleanDate": null,
-    "mathlibImportCount": 2,
+    "mathlibImportCount": 5,
     "reiImportCount": 0,
     "category": "closed-by-rei"
   },
@@ -76,7 +79,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "17 theorems/lemmas, 1 defs"
+    "notes": "5 theorems/lemmas, 3 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

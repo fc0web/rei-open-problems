@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP1015BROCARDEXTENDED110",
+  "id": "LEAN4-PROGRESS-LAWVEREFIXEDPOINTEXPERIMENT",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1015BrocardExtended110.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/LawvereFixedPointExperiment.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step1015BrocardExtended110.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1015BrocardExtended110.lean"
+    "lean4Ref": "LawvereFixedPointExperiment.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/LawvereFixedPointExperiment.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Brocard Extended 110 — 14 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Brocard Extended 110 — 定理 14 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Lawvere Fixed Point Experiment — 10 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Lawvere Fixed Point Experiment — 定理 10 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1015 — Brocard's problem n ∈ [101, 110] Lean 4 extension\n  ============================================================\n\n  Follow-up to STEP 993 (n ∈ [51, 100]). Same Nat.sqrt-based O(log) approach.\n\n  Target: n ∈ [101, 110] non-square verification (10 new theorems).\n  Combined with STEP 980/990/993/Brocard base:\n    Rei-AIOS Brocard coverage n ∈ [1, 110] (112 theorems total).\n\n  Honest positioning:\n    - Berndt-Galway 2000: N ≤ 10⁹ (Brocard's problem search limit, far ahead of our n≤110).\n    - Rei contribution: Lean 4 mechanical verification first record continues.\n    - Brocard conject"
+    "headerDoc": ""
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -30,12 +30,9 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [
-      "Mathlib.Data.Nat.Factorial.Basic",
-      "Mathlib.Data.Nat.Sqrt"
-    ],
+    "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Step980BrocardExtended"
+      "CollatzRei.Dfumt8CategoryExperiment"
     ],
     "external": [],
     "seedKernel": null
@@ -44,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step1015BrocardExtended110.lean",
+      "lean4": "LawvereFixedPointExperiment.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-30"
+      "oleanDate": "2026-06-15"
     },
-    "scopeOfImpossibility": "STEP 1015 — Brocard's problem n ∈ [101, 110] Lean 4 extension\n  ============================================================\n\n  Follow-up to STEP 993 (n ∈ [51, 100]). Same Nat.sqrt-based O(log) approa",
+    "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,17 +55,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step1015BrocardExtended110.lean",
-    "lineCount": 70,
-    "fileSize": 3299,
-    "theoremCount": 14,
+    "fileName": "LawvereFixedPointExperiment.lean",
+    "lineCount": 198,
+    "fileSize": 11090,
+    "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-30",
-    "mathlibImportCount": 2,
+    "oleanDate": "2026-06-15",
+    "mathlibImportCount": 0,
     "reiImportCount": 1,
     "category": "closed-by-rei"
   },
@@ -78,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "14 theorems/lemmas, 0 defs"
+    "notes": "10 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
