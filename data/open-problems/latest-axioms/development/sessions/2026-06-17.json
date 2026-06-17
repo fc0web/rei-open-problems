@@ -1,0 +1,155 @@
+{
+  "id": "SESSION-2026-06-17-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-17",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-17: Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / ",
+    "ja": "開発セッション 2026-06-17: Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-17. 30 commits, 54 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-17",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "de745054",
+      "f1bafd80",
+      "257db58e",
+      "6cce29d6",
+      "c19ed795",
+      "f0defd7b",
+      "7b39042d",
+      "39d43d5b",
+      "65500849",
+      "311e643e",
+      "7e670481",
+      "115bc2e4",
+      "b27fea79",
+      "da3c86b8",
+      "d4645d0f",
+      "531bfb37",
+      "b19865a7",
+      "8f434e95",
+      "0ac29786",
+      "ec90fe30",
+      "54a8ea2d",
+      "246832cd",
+      "63863b79",
+      "a866754c",
+      "79c834c4",
+      "85f2c576",
+      "27a94b91",
+      "c2526e7f",
+      "885ca27b",
+      "13c44c05"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 30,
+    "newFiles": {
+      "lean": 14,
+      "ts": 17,
+      "json": 194,
+      "md": 7,
+      "other": 226
+    },
+    "newFilesTotal": 458,
+    "newTheorems": 54,
+    "newScripts": [
+      "auto-publish.ts",
+      "candidate-lambda-2026-06-17.ts",
+      "w-entropy-padic-merge-2026-06-17.ts",
+      "cases-5-8-multi-axis-classify-2026-06-17.ts",
+      "collatz-ait-cases-comparison-2026-06-17.ts",
+      "publish-paper-166-harvard.ts",
+      "publish-paper-166-ia.ts",
+      "publish-paper-166-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1650 / STEP 1221 / Papers 166) / docs(paper-159): v0.2.1 editorial revision (chat-Claude review fixes) / feat(collatz): (A)+(E)+(B) sequential — conveyor Lean axiom-free + Casino lens + F8/F9 wall extensio"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-17",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
