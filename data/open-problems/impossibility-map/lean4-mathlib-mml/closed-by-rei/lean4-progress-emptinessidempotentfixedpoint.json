@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-EMPTINESSIDEMPOTENTFIXEDPOINT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/EmptinessIdempotentFixedPoint.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "EmptinessIdempotentFixedPoint.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/EmptinessIdempotentFixedPoint.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Emptiness Idempotent Fixed Point — 6 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Emptiness Idempotent Fixed Point — 定理 6 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.EmptinessIdempotentFixedPoint\n    — 「空 = 自己適用が冪等に閉じる不動点」 articulation の Lean bridge\n    — chat-Claude 2026-06-17 thread turn 6 提案 を honest 3 分で実装\n    — 藤本さん 2026-06-18 「全部でお願い」 + 後 builder への種 stance per\n\n  ★★★ Honest scope (非常に重要、 file 設計時に明示):\n\n  chat-Claude turn 6 は 4 register (① omega_upper / ② ZCSG / ③ Lawvere / ④ SNST)\n  全部が同じ 「冪等不動点」 を書いている、 という unification を提案した。\n\n  Rei 側 honest filter で 4 register を 「Lean 化可能性」 で分類:\n\n    ① omega_upper (Paper 159, type=DFUMT8 all-caps):\n       idempotent (Ω∘Ω=Ω). Lean axiom-free 既存\n      "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-18",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Paper159Inclosure",
+      "CollatzRei.LawvereFixedPointExperiment"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "EmptinessIdempotentFixedPoint.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-17"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.EmptinessIdempotentFixedPoint\n    — 「空 = 自己適用が冪等に閉じる不動点」 articulation の Lean bridge\n    — chat-Claude 2026-06-17 thread turn 6 提案 を hon",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "EmptinessIdempotentFixedPoint.lean",
+    "lineCount": 187,
+    "fileSize": 9965,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-17",
+    "mathlibImportCount": 0,
+    "reiImportCount": 2,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-18",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

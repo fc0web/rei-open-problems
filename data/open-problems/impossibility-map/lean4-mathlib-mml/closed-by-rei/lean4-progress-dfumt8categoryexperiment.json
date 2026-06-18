@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-06-17",
+  "lastUpdate": "2026-06-18",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -62,7 +62,7 @@
   "leanProgressMeta": {
     "fileName": "Dfumt8CategoryExperiment.lean",
     "lineCount": 566,
-    "fileSize": 28638,
+    "fileSize": 29203,
     "theoremCount": 31,
     "lemmaCount": 0,
     "defCount": 6,
@@ -93,6 +93,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-06-17",
+  "ingested": "2026-06-18",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

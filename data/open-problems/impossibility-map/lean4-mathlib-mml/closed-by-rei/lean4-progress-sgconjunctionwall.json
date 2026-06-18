@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP802PADICDFUMT",
+  "id": "LEAN4-PROGRESS-SGCONJUNCTIONWALL",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step802PadicDFumt.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SGConjunctionWall.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step802PadicDFumt.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step802PadicDFumt.lean"
+    "lean4Ref": "SGConjunctionWall.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SGConjunctionWall.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Padic D Fumt — 11 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Padic D Fumt — 定理 11 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: S G Conjunction Wall — 11 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: S G Conjunction Wall — 定理 11 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SGConjunctionWall\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\n    — chat-Claude 2026-06-17 thread + 2026-06-18 SG analysis Experiment 3 結果\n      の Lean 4 formalize\n\n  Honest scope (★★ load-bearing — paper 引用にも耐える形):\n\n  本 file は **「ある feature が SG-detection に insufficient であること」 を\n  finite concrete witness で示す axiom-free Lean theorem** を 4 件記録する。\n\n  Phase B BF infeasibility は ALL parity-blind features で INFEASIBLE\n  (Experiment 2/3 で 6/7 confirm 済) だが、 「general feature family\n  insufficient」 は Lean 4 で"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,8 +31,7 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.NumberTheory.Padics.PadicVal.Basic",
-      "Mathlib.NumberTheory.Padics.PadicNorm",
+      "Mathlib.Data.Nat.Prime.Basic",
       "Mathlib.Tactic.NormNum"
     ],
     "reiImports": [],
@@ -43,11 +42,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step802PadicDFumt.lean",
+      "lean4": "SGConjunctionWall.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-15"
+      "oleanDate": "2026-06-17"
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SGConjunctionWall\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\n    — chat-Claude 2026-06-17 thread + 2026-0",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,17 +56,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step802PadicDFumt.lean",
-    "lineCount": 120,
-    "fileSize": 4719,
+    "fileName": "SGConjunctionWall.lean",
+    "lineCount": 184,
+    "fileSize": 7733,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 1,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-15",
-    "mathlibImportCount": 3,
+    "oleanDate": "2026-06-17",
+    "mathlibImportCount": 2,
     "reiImportCount": 0,
     "category": "closed-by-rei"
   },
