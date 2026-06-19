@@ -9,8 +9,8 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/Dfumt8CategoryExperiment.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Dfumt 8 Category Experiment — 31 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Dfumt 8 Category Experiment — 定理 31 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Dfumt 8 Category Experiment — 18 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Dfumt 8 Category Experiment — 定理 18 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-06-18",
+  "lastUpdate": "2026-06-19",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -33,10 +33,7 @@
     "mathlibImports": [
       "Mathlib.Tactic.DeriveFintype",
       "Mathlib.Order.Defs.Unbundled",
-      "Mathlib.CategoryTheory.Category.Preorder",
-      "Mathlib.Data.Finset.Card",
-      "Mathlib.Data.Finset.Image",
-      "Mathlib.Logic.Equiv.Defs"
+      "Mathlib.CategoryTheory.Category.Preorder"
     ],
     "reiImports": [],
     "external": [],
@@ -61,16 +58,16 @@
   },
   "leanProgressMeta": {
     "fileName": "Dfumt8CategoryExperiment.lean",
-    "lineCount": 566,
-    "fileSize": 29203,
-    "theoremCount": 31,
+    "lineCount": 296,
+    "fileSize": 14678,
+    "theoremCount": 18,
     "lemmaCount": 0,
-    "defCount": 6,
+    "defCount": 4,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
     "oleanDate": "2026-06-14",
-    "mathlibImportCount": 6,
+    "mathlibImportCount": 3,
     "reiImportCount": 0,
     "category": "closed-by-rei"
   },
@@ -80,7 +77,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "31 theorems/lemmas, 6 defs"
+    "notes": "18 theorems/lemmas, 4 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -93,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-06-18",
+  "ingested": "2026-06-19",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

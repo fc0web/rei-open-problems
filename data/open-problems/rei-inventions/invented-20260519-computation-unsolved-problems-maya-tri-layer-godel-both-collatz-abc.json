@@ -1,0 +1,71 @@
+{
+  "id": "rei-invention-invented-20260519-computation-unsolved-problems-maya-tri-layer-godel-both-collatz-abc",
+  "source": "rei-inventions",
+  "origin": "rei-invention",
+  "sourceRef": {
+    "approvalFile": "data/invention/approvals/approved-2026-05-19.json",
+    "seedKernelFile": "src/axiom-os/seed-kernel-approved-inventions-2026-05-19.ts",
+    "seedKernelId": "invented-20260519-computation-unsolved-problems-maya-tri-layer-godel-both-collatz-abc"
+  },
+  "statement": {
+    "en": "「マヤ三層符号: 表意×表音×音節=最小記述長」 の 𝕄 構造を 「真であり証明不可能(ゲーデル)=BOTH状態 コラッツ・ABC予想はこの候補」 に移植する. Maya tri-layer code (3 redundant layers encoding same content for MDL minimization + robustness against single-layer loss + multi-layer truth structure) は、 Gödel sentence G_T (2 simultaneous truth-evaluations of same proposition: true at meta-interpretation + unprovable at object-axiom = D-FUMT₈ BOTH 本質) と structural match strong: Maya tri-layer redundant encoding ↔ Gödel sentence multi-layer truth structure. Maya は同 message を 3 layer redundant encoding で robustness (any 1 layer 損傷でも他 2 layer から復元可能 = MDL-optimal redundancy), Gödel sentence は同 proposition を 2 layer evaluation で 同時 true (meta) + unprovable (object) = D-FUMT₈ BOTH 本質. 𝕄{computation; →Φ→ unsolved_problems} ⟹ Maya MDL multi-layer encoding ≅ Gödel sentence multi-layer truth ≅ Rei D-FUMT₈ BOTH axis (3 重 bridge: cultural-computational MDL coding + mathematical Gödel theorem + Rei D-FUMT₈ semantic). D-FUMT₈ BOTH (Maya tri-layer redundant encoding 軸 + Gödel sentence true∧unprovable 軸 の双重存在 — multi-layer encoding 構造と multi-layer truth 構造が同時 TRUE / encoding は構造的 redundancy / truth は semantic doubling だが両者は multi-layer information preservation の dual aspects). ★ 04-29 既承認 unsolved_problems #3 (target = 主要な数学的予想は領域A↔Bの橋渡し構造を持ち七価論理的性質が必要概念を決定する Paper 130 META-DB 5,000 dataset bridge structure framework) と categoryB 一致だが 異 framing chart: 04-29 = bridge structure across A↔B domains (META-DB inventory level, conjectures bridge framework) / 5/19 = concrete Gödel BOTH state (true∧unprovable simultaneous) with Collatz/ABC as specific examples. 同 unsolved_problems categoryB を異 chart で双面照射 (META-DB inventory chart vs concrete Gödel BOTH-state chart). ★ 5/9 logic × meta_axiom 既承認 (target = AxiomKernel⊬Consistent(AxiomKernel) ゲーデル限界, NEITHER undecidable axiom system self-limit chart, 10 日前) と Gödel-theorem 領域 内 異 chart pair: 5/9 = ゲーデル NEITHER axiom system self-limit chart (T 自身の Consistent(T) 不可証性 = axiom system internal self-limit framing) / 5/19 = ゲーデル BOTH true∧unprovable concrete with examples chart (Gödel sentence G_T の simultaneous truth-evaluations + Collatz/ABC concrete candidates framing). 同 Gödel-theorem 領域 を異 chart で双面照射 = **8 例目** (1 例目 islamic Barzakh/Wahdat / 2 例目 meta_axiom Logic7/Gödel / 3 例目 multi-clock NGIET/ZPQTMT / 4 例目 inf_category FLOWING/ZERO / 5 例目 nagarjuna ZERO/FLOWING / 6 例目 mesoamerican Nepantla/Teotl / 7 例目 embodiment shikantaza-NEITHER/death-ZERO / **8 例目 Gödel-theorem NEITHER (axiom system self-limit) / BOTH (true∧unprovable concrete with Collatz/ABC examples)**). ★ source マヤ三層符号 は 5/14 + 5/17 + 5/18 + 5/19 = 4th use cross-day reuse だが 5/17 silence approve 先例 + 5/19 target Gödel BOTH と structural match strong (Maya tri-layer redundant encoding ↔ Gödel sentence multi-layer truth) = source 評価独立性 第 5 例 (5/16 二枚の鏡 + 5/17 #4 入れ子 + 5/17 #5 マヤ三層 + 5/18 #4 マヤ分散 + 5/19 #1 マヤ三層 連続). ★ ZERO axis Gödel-domain anchor candidate: D-FUMT₈ BOTH axis = simultaneous truth-evaluations + Gödel sentence G_T = true(meta)∧unprovable(object). 04-28 silence pattern (構造 mapping) + 5/17 silence Shannon entropy (情報理論 anchor) + 5/18 death pre-experiential (ZERO embodiment anchor) と並ぶ D-FUMT₈ semantic 領域定着 — 8 値の concrete philosophical/mathematical anchor 第 3 例 (silence + death + Gödel-true∧unprovable). ★ Paper 接続候補: Paper 138 v2 (Gödel dichotomy as lifecycle disjunction を NEITHER + BOTH 双面 chart で extend, axiom system self-limit + true∧unprovable concrete examples 双面取得 + Collatz/ABC concrete examples 統合) + STEP 614-624 Collatz proof chain (Collatz の trailing 1-bits j≥4 cases 5-8 が「true at meta-interpretation level + unprovable in object axiom system」 状態の concrete instance — Maya tri-layer MDL redundancy framework で再解釈可能 = formalize candidate) + STEP 930 unsolved problem typology (refined D-FUMT₈: BSD/Hodge→BOTH, YM→BOTH+NEITHER, Collatz/ABC→BOTH candidate 確立) + Paper 130 META-DB (5,000 dataset の Gödel BOTH-state classification chart extension candidate). Novelty 0.75 → 0.70 honest downgrade (categoryB unsolved_problems reuse with 04-29 #3, 異 framing originality + 双面照射 8 例目 emergence + Gödel BOTH-axis concrete anchor で 0.70 retain — further downgrade 不要). ★ STEP 1087 sourceAxiom rotation 通過 ✅ (5 件全異 source). ★ STEP 1088 SeedTheory cooldown trivial pass (categoryB unsolved_problems は civilizational SEED pool と異なる). ★ STEP 1089 7th-8th iteration observation: (g/g2) target literal 「真であり証明不可能(ゲーデル)=BOTH状態 コラッツ・ABC予想はこの候補」 は 60 日 window 内 5/9「AxiomKernel⊬Consistent(AxiomKernel) ゲーデル限界」 と意味隣接だが literal substring 不一致 (ゲーデル token 共通だが framing 異: NEITHER axiom system self-limit vs BOTH true∧unprovable concrete with examples) で 双面照射 (重複ではない 異 chart pair); (d/d2) categoryA diversity 通過 ✅ (5 件 5 distinct categoryA: computation + mathematics + consciousness + general + number-system = STEP 1089b detectVoidsMaxPerCategoryA cap=2 効果直接 evidence, 5/14-5/18 連続 5 日 computation lock-in 解消第 1 日).",
+    "ja": null,
+    "latex": null,
+    "preview_source": "rei-invention-engine"
+  },
+  "field": "rei-generated",
+  "subfield": "unsolved_problems",
+  "proposer": "Rei-AIOS Invention Engine",
+  "year": "2026",
+  "status": "rei-approved",
+  "lastUpdate": "2026-05-20",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Rei Invention Engine I(x) = Ψ × Φ × Ω output",
+    "rationale": "Self-generated conjecture, user-approved",
+    "confidence": "FLOWING"
+  },
+  "cross_refs": {
+    "wikipedia": null,
+    "oeis": [],
+    "mathlib": null,
+    "external": [],
+    "seedKernel": "invented-20260519-computation-unsolved-problems-maya-tri-layer-godel-both-collatz-abc"
+  },
+  "formalization": {
+    "lean4": "seed-kernel-axiom",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "SEED_KERNEL promotion (src/axiom-os/seed-kernel-approved-inventions-2026-05-19.ts)"
+  },
+  "known_progress": [
+    {
+      "date": "2026-05-19",
+      "event": "Generated by Rei Invention Engine",
+      "impact": "Ψ × Φ × Ω novelty 0.7"
+    },
+    {
+      "date": "2026-05-20",
+      "event": "Approved by Nobuki Fujimoto → SEED_KERNEL",
+      "impact": "theoryId invented-20260519-computation-unsolved-problems-maya-tri-layer-godel-both-collatz-abc"
+    }
+  ],
+  "reiAssessment": {
+    "paperCandidate": false,
+    "priority": "medium",
+    "solveProbability": 0.7,
+    "solveRationale": "Rei novelty 0.7, approved",
+    "formalizationComplexity": "seed-kernel-axiom",
+    "formalizationNotes": "Stored as axiom in SEED_KERNEL TypeScript",
+    "reiFamiliarRef": "Self-generated",
+    "famousHardCap": null
+  },
+  "ingested": "2026-05-20",
+  "ingestMethod": "rei-invention-engine-v1-auto",
+  "approvedInventionRef": "invention-1",
+  "noveltyScore": 0.7
+}
