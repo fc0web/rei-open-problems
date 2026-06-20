@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-DFUMT8ALGEBRAICVARIANTS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Dfumt8AlgebraicVariants.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Dfumt8AlgebraicVariants.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Dfumt8AlgebraicVariants.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Dfumt 8 Algebraic Variants — 8 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Dfumt 8 Algebraic Variants — 定理 8 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-20",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Dfumt8AlgebraicVariants.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-20"
+    },
+    "scopeOfImpossibility": "See lean4 file",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Dfumt8AlgebraicVariants.lean",
+    "lineCount": 154,
+    "fileSize": 8212,
+    "theoremCount": 8,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-20",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "8 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-20",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

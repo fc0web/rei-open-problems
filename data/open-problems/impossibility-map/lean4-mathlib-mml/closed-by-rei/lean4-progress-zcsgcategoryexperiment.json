@@ -9,8 +9,8 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/ZcsgCategoryExperiment.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Zcsg Category Experiment — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Zcsg Category Experiment — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Zcsg Category Experiment — 13 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Zcsg Category Experiment — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-06-19",
+  "lastUpdate": "2026-06-20",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -36,7 +36,9 @@
       "Mathlib.CategoryTheory.Category.Preorder",
       "Mathlib.Data.Finset.Card"
     ],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -59,17 +61,17 @@
   },
   "leanProgressMeta": {
     "fileName": "ZcsgCategoryExperiment.lean",
-    "lineCount": 161,
-    "fileSize": 7964,
-    "theoremCount": 9,
+    "lineCount": 231,
+    "fileSize": 11994,
+    "theoremCount": 13,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 2,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
     "oleanDate": "2026-06-14",
     "mathlibImportCount": 4,
-    "reiImportCount": 0,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -78,7 +80,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 1 defs"
+    "notes": "13 theorems/lemmas, 2 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -91,6 +93,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-06-19",
+  "ingested": "2026-06-20",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

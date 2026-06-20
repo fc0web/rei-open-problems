@@ -9,8 +9,8 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/Step845InfiniteDotTheory.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Infinite Dot Theory — 1 theorems/lemmas, 0 sorry, 10 axiom",
-    "ja": "Lean 4 進捗: Infinite Dot Theory — 定理 1 / sorry 0 / axiom 10",
+    "en": "Lean 4 progress: Infinite Dot Theory — 4 theorems/lemmas, 0 sorry, 10 axiom",
+    "ja": "Lean 4 進捗: Infinite Dot Theory — 定理 4 / sorry 0 / axiom 10",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-06-19",
+  "lastUpdate": "2026-06-20",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -56,11 +56,11 @@
   },
   "leanProgressMeta": {
     "fileName": "Step845InfiniteDotTheory.lean",
-    "lineCount": 102,
-    "fileSize": 3610,
-    "theoremCount": 1,
+    "lineCount": 158,
+    "fileSize": 6264,
+    "theoremCount": 4,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 3,
     "sorryCount": 0,
     "axiomCount": 10,
     "hasOleanBuild": true,
@@ -75,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "1 theorems/lemmas, 1 defs"
+    "notes": "4 theorems/lemmas, 3 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-06-19",
+  "ingested": "2026-06-20",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
