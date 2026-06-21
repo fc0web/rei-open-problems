@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-REIRAAEXPERIMENT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ReiRaaExperiment.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ReiRaaExperiment.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ReiRaaExperiment.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Rei Raa Experiment — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Rei Raa Experiment — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "!\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\n\nSTEP 1231 sanity-check stage (2026-06-21).\n\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\naxiom-free 証明できるか確認する file。\n\n## Honest scope\n- 「新数学」 と即時 framing せず、 既存 component (6 attributes + MDNST 4 modes +\n  Genesis 7 stages + reflection + canonical notations) の新 combination の sanity 確認\n- 数学未解決問題を解くものではない (suggester / organizer framework)\n- 5 axiom が self-consistent + concrete realization が axiom-free 構成可能か検証する\n- prior art: stratified types / sized types / reflexive objects / multi-graded algeb"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-21",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ReiRaaExperiment.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "!\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\n\nSTEP 1231 sanity-check stage (2026-06-21).\n\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\naxiom-f",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ReiRaaExperiment.lean",
+    "lineCount": 192,
+    "fileSize": 6713,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-21",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
