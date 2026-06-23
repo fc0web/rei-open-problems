@@ -1,16 +1,16 @@
 {
-  "id": "LEAN4-PROGRESS-EXITLAYERSTRUCTURE",
+  "id": "LEAN4-PROGRESS-VOYNICHNOTATION",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ExitLayerStructure.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/VoynichNotation.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "ExitLayerStructure.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/ExitLayerStructure.lean"
+    "lean4Ref": "VoynichNotation.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/VoynichNotation.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Exit Layer Structure — 6 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Exit Layer Structure — 定理 6 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Voynich Notation — 8 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Voynich Notation — 定理 8 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -30,9 +30,12 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [],
+    "mathlibImports": [
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Tactic.DeriveFintype"
+    ],
     "reiImports": [
-      "CollatzRei.ExitLayer"
+      "CollatzRei.Dfumt8CategoryExperiment"
     ],
     "external": [],
     "seedKernel": null
@@ -41,9 +44,9 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "ExitLayerStructure.lean",
-      "oleanBuilt": false,
-      "oleanDate": null
+      "lean4": "VoynichNotation.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-22"
     },
     "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
@@ -55,17 +58,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "ExitLayerStructure.lean",
-    "lineCount": 124,
-    "fileSize": 5326,
-    "theoremCount": 6,
+    "fileName": "VoynichNotation.lean",
+    "lineCount": 167,
+    "fileSize": 7210,
+    "theoremCount": 8,
     "lemmaCount": 0,
-    "defCount": 0,
+    "defCount": 2,
     "sorryCount": 0,
     "axiomCount": 0,
-    "hasOleanBuild": false,
-    "oleanDate": null,
-    "mathlibImportCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-22",
+    "mathlibImportCount": 2,
     "reiImportCount": 1,
     "category": "closed-by-rei"
   },
@@ -75,7 +78,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "6 theorems/lemmas, 0 defs"
+    "notes": "8 theorems/lemmas, 2 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
