@@ -1,0 +1,150 @@
+{
+  "id": "SESSION-2026-06-24-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-24",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-24: Auto: site rebuild + stats refresh (SEED 1653 / STEP 1239 / ",
+    "ja": "開発セッション 2026-06-24: Auto: site rebuild + stats refresh (SEED 1653 / STEP 1239 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-24. 34 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-24",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "1d6db14e6",
+      "5d1ea8d51",
+      "6792f92a9",
+      "bee505216",
+      "ac41af84c",
+      "38e91c3d8",
+      "4ba65addb",
+      "d254fe8e4",
+      "68e05f9d3",
+      "ace50dee7",
+      "9cad2ca71",
+      "ab5b54bc5",
+      "2ce5a51ea",
+      "3185fa982",
+      "1dc4b568b",
+      "cbb9e929f",
+      "c4d384de1",
+      "53c89dd4d",
+      "e4e041c6d",
+      "cd07f2da7",
+      "44419a1f3",
+      "862126b86",
+      "3a30780c3",
+      "399743e9c",
+      "78890f161",
+      "3cce91e69",
+      "90437dcbc",
+      "cee2cc46d",
+      "86fd8c2ee",
+      "20d32d716",
+      "03bf122c0",
+      "5037a271b",
+      "79afe64f8",
+      "96c6bdd41"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 34,
+    "newFiles": {
+      "lean": 0,
+      "ts": 47,
+      "json": 344,
+      "md": 26,
+      "other": 763
+    },
+    "newFilesTotal": 1180,
+    "newTheorems": 0,
+    "newScripts": [
+      "generate-comparative-logic-atlas.ts",
+      "sync-index-html-bundle.ts",
+      "generate-unsolved-problems-journey.ts",
+      "run-occult-bridge-discovery.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1653 / STEP 1239 / Papers 167) / 比較論理地図 v0.1 lens (Phase 1 Tier A 着手 + Phase 0 prior art audit 反映) / Phase 0 prior art audit — 比較論理地図 (Comparative Logic Atlas by D-FUMT₈)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-24",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
