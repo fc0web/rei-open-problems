@@ -1,0 +1,169 @@
+{
+  "id": "SESSION-2026-06-25-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-06-25",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-06-25: site: deploy 無限次元ドット理論 interactive simulation",
+    "ja": "開発セッション 2026-06-25: site: deploy 無限次元ドット理論 interactive simulation",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-06-25. 42 commits, 77 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-06-25",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "b5689ad13",
+      "3ba142e6c",
+      "94fc7c9ae",
+      "d52316672",
+      "05ed16213",
+      "344946982",
+      "52ccece96",
+      "bf70a751f",
+      "6fb58dab0",
+      "d40557f6e",
+      "3f53d10cd",
+      "0cbc9388d",
+      "84fa957b5",
+      "0f635a180",
+      "b37b498e2",
+      "f014d124c",
+      "c2f8e1c94",
+      "a8c516333",
+      "f9fbe6c7f",
+      "bff640d73",
+      "d6e9ccda8",
+      "69c8f6f96",
+      "91d6e1704",
+      "17049b2a0",
+      "863e3f620",
+      "a161e022f",
+      "3404db5fc",
+      "5cbd371c8",
+      "de62f60ce",
+      "6eebd842b",
+      "16c576964",
+      "476604aef",
+      "b437da216",
+      "2102dadf3",
+      "3d0ec483e",
+      "f9a6e293b",
+      "39de7fef1",
+      "4a3368f00",
+      "c568d0494",
+      "1d6db14e6",
+      "5d1ea8d51",
+      "6792f92a9"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 42,
+    "newFiles": {
+      "lean": 14,
+      "ts": 35,
+      "json": 509,
+      "md": 35,
+      "other": 590
+    },
+    "newFilesTotal": 1183,
+    "newTheorems": 77,
+    "newScripts": [
+      "publish-paper-168-v04-zenodo-newversion.ts",
+      "publish-paper-168-v03-zenodo-newversion.ts",
+      "publish-paper-168-ia.ts",
+      "publish-paper-168-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts",
+      "generate-comparative-logic-atlas.ts",
+      "run-occult-bridge-discovery.ts",
+      "generate-miraheze-preview-comparative-logic-atlas.ts",
+      "publish-all-lenses-to-miraheze.ts",
+      "publish-lens-to-miraheze.ts",
+      "sync-index-html-bundle.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "site: deploy 無限次元ドット理論 interactive simulation / FIDT Phase A: IDT_7 independence proof — chat-Claude audit response / docs(RECENT_UPDATES): Paper 168 v0.4 STABLE RELEASE entry"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-06-25",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
