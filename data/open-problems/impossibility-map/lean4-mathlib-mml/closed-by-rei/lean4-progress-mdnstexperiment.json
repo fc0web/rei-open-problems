@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-06-26",
+  "lastUpdate": "2026-06-30",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -42,8 +42,8 @@
     "certaintyLevel": "proven",
     "proofRef": {
       "lean4": "MdnstExperiment.lean",
-      "oleanBuilt": false,
-      "oleanDate": null
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-26"
     },
     "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
@@ -63,8 +63,8 @@
     "defCount": 3,
     "sorryCount": 0,
     "axiomCount": 0,
-    "hasOleanBuild": false,
-    "oleanDate": null,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-26",
     "mathlibImportCount": 1,
     "reiImportCount": 0,
     "category": "closed-by-rei"
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-06-26",
+  "ingested": "2026-06-30",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

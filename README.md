@@ -4,13 +4,13 @@
 
 **License**: [CC-BY 4.0](LICENSE) — free to reuse with attribution.
 
-**Version**: 2.0-public (snapshot generated 2026-06-26)
+**Version**: 2.0-public (snapshot generated 2026-06-30)
 
 ---
 
 ## What this is
 
-A structured meta-database of **2728 mathematical unsolved problems + Rei-AIOS research contributions**, classified by:
+A structured meta-database of **2729 mathematical unsolved problems + Rei-AIOS research contributions**, classified by:
 
 - **Rei typology** (7 types: I_INFINITE_SEARCH, VI_BRIDGING, ...) — structural reason for the problem's difficulty
 - **D-FUMT₈ value** (8-valued logic: TRUE/FALSE/BOTH/NEITHER/INFINITY/ZERO/FLOWING/SELF) — Rei-AIOS's logical classification
@@ -23,10 +23,10 @@ A structured meta-database of **2728 mathematical unsolved problems + Rei-AIOS r
 | Tier | Name | Count | Content |
 |:-:|------|----:|---------|
 | **1** | World-public open | 2620 | Wikipedia + Kourovka + Erdős + Millennium + Smale + Hilbert + Green + OEIS + MathOverflow + arXiv papers |
-| **2** | Rei Inventions | 102 | Rei-AIOS Invention Engine approved conjectures (framework: I(x) = Ψ × Φ × Ω, see Paper 132) |
+| **2** | Rei Inventions | 103 | Rei-AIOS Invention Engine approved conjectures (framework: I(x) = Ψ × Φ × Ω, see Paper 132) |
 | **3** | Claude Discoveries | 6 | Research observations from Rei-AIOS Claude Code sessions (subset; 2 entries withheld pending Paper 135/136 publication) |
 
-Total: **2728 entries**.
+Total: **2729 entries**.
 
 ## Structure
 

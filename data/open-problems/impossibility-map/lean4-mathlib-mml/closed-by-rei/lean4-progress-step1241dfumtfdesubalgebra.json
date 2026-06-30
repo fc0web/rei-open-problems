@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1241DFUMTFDESUBALGEBRA",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1241DfumtFdeSubAlgebra.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1241DfumtFdeSubAlgebra.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1241DfumtFdeSubAlgebra.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Dfumt Fde Sub Algebra — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Dfumt Fde Sub Algebra — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1241 — D-FUMT₈|₄ ≅ Priest FDE 4-value (Belnap-Dunn 1977) — Axiom-Free\r\n              Sub-Algebra Isomorphism in Lean 4\r\n\r\n  Sibling to STEP 1218 (D-FUMT₈ ≇ Zaitsev EIGHT₄) and STEP 1219 v3b (D-FUMT₈\r\n  ≇ Heald U8). Those were *non*-isomorphism results between distinct 8-value\r\n  algebras. This file establishes the *positive* sub-algebra fact:\r\n\r\n      D-FUMT₈ restricted to {TRUE, FALSE, BOTH, NEITHER}\r\n        ≅\r\n      Belnap-Dunn FOUR (Belnap 1977, Anderson-Belnap 1975)\r\n        =\r\n      Priest FDE 4-value (the 4-element fragment of Priest's catuṣkoṭi logic,\r\n                          be"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-30",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment",
+      "CollatzRei.Step1240RecaptureRegion"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1241DfumtFdeSubAlgebra.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-28"
+    },
+    "scopeOfImpossibility": "STEP 1241 — D-FUMT₈|₄ ≅ Priest FDE 4-value (Belnap-Dunn 1977) — Axiom-Free\r\n              Sub-Algebra Isomorphism in Lean 4\r\n\r\n  Sibling to STEP 1218 (D-FUMT₈ ≇ Zaitsev EIGHT₄) and STEP 1219 v3b (D-FU",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1241DfumtFdeSubAlgebra.lean",
+    "lineCount": 277,
+    "fileSize": 12419,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-28",
+    "mathlibImportCount": 0,
+    "reiImportCount": 2,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-30",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

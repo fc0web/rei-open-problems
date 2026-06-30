@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1242MAXIMALRECAPTUREREGION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1242MaximalRecaptureRegion.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1242MaximalRecaptureRegion.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1242MaximalRecaptureRegion.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Maximal Recapture Region — 8 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Maximal Recapture Region — 定理 8 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1242 — D-FUMT₈ Maximal Recapture Region — Axiom-Free Characterization\r\n              in Lean 4\r\n\r\n  Follow-up to STEP 1240, which proved that modus ponens recaptures on the\r\n  classical Boolean subset `{TRUE, FALSE}` of D-FUMT₈ and fails on the\r\n  Belnap-Dunn FOUR subset `{TRUE, FALSE, BOTH, NEITHER}`. STEP 1240 left\r\n  open: *what is the maximal MP-stable subset?*\r\n\r\n  This file closes that question with a full characterisation:\r\n\r\n      mpValid s  ↔  (s BOTH = false) ∨ (s FALSE = false ∧ s NEITHER = false)\r\n\r\n  In words: MP fails on a subset iff the subset contains BOTH together\r\n  with"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-30",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment",
+      "CollatzRei.Step1240RecaptureRegion"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1242MaximalRecaptureRegion.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-28"
+    },
+    "scopeOfImpossibility": "STEP 1242 — D-FUMT₈ Maximal Recapture Region — Axiom-Free Characterization\r\n              in Lean 4\r\n\r\n  Follow-up to STEP 1240, which proved that modus ponens recaptures on the\r\n  classical Boolean s",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1242MaximalRecaptureRegion.lean",
+    "lineCount": 314,
+    "fileSize": 13679,
+    "theoremCount": 8,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-28",
+    "mathlibImportCount": 0,
+    "reiImportCount": 2,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "8 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-30",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

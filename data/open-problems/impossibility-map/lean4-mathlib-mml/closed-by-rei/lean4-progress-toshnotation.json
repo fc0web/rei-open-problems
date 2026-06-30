@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-TOSHNOTATION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ToshNotation.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ToshNotation.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ToshNotation.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Tosh Notation — 2 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Tosh Notation — 定理 2 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "↯-notation — 6つのグリフを「検査可能な変換の質」へ対応づける Lean4 素描\n  ───────────────────────────────────────────────────────────────────────\n  記事「コードとコーディングツールの未来」の記号表を、装飾ではなく\n  「証明義務 (proof obligation)」として閉じさせる試み。\n  各グリフは証人 (witness) を構成して初めて TRUE に落ちる。\n\n  対応表\n  ┌──────┬──────────┬─────────────────────────┬─────────────────────────┐\n  │ glyph │ 質        │ 証明義務                  │ 証人 (witness)           │\n  ├──────┼──────────┼─────────────────────────┼─────────────────────────┤\n  │  ↔   │ 可逆      │ 両側逆が存在 (全単射)      │ (inv, left, right)       │\n  │  ⇝   │ 近似      │ 目標との誤差 ≤ ε          │ ε と上界証明              │\n  │ "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-30",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ToshNotation.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-29"
+    },
+    "scopeOfImpossibility": "↯-notation — 6つのグリフを「検査可能な変換の質」へ対応づける Lean4 素描\n  ───────────────────────────────────────────────────────────────────────\n  記事「コードとコーディングツールの未来」の記号表を、装飾ではなく\n  「証明義務 (proof obligation)」として閉じさせる試み。\n  各グリ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ToshNotation.lean",
+    "lineCount": 102,
+    "fileSize": 5751,
+    "theoremCount": 2,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-29",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "2 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-30",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

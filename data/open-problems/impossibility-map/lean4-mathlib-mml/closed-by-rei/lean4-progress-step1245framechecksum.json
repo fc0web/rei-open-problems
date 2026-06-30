@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1245FRAMECHECKSUM",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1245FrameChecksum.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1245FrameChecksum.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1245FrameChecksum.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Frame Checksum — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Frame Checksum — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": ""
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-06-30",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.ToshNotation",
+      "CollatzRei.ZcsgCategoryExperiment",
+      "CollatzRei.Step1244ZcsgToshNotationBridge"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1245FrameChecksum.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-06-29"
+    },
+    "scopeOfImpossibility": "See lean4 file",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1245FrameChecksum.lean",
+    "lineCount": 217,
+    "fileSize": 9440,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-06-29",
+    "mathlibImportCount": 0,
+    "reiImportCount": 3,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-06-30",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
