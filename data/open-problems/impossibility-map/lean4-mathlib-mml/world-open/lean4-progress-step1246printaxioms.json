@@ -1,16 +1,16 @@
 {
-  "id": "LEAN4-PROGRESS-ZEROINITIALAXIOMSCHECK",
+  "id": "LEAN4-PROGRESS-STEP1246PRINTAXIOMS",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ZeroInitialAxiomsCheck.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1246PrintAxioms.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "ZeroInitialAxiomsCheck.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/ZeroInitialAxiomsCheck.lean"
+    "lean4Ref": "Step1246PrintAxioms.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1246PrintAxioms.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Zero Initial Axioms Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Zero Initial Axioms Check — 定理 0 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Print Axioms — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Print Axioms — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -32,7 +32,7 @@
   "cross_refs": {
     "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.ZeroInitialBridge"
+      "CollatzRei.Step1246LiarInSelfNotInFde"
     ],
     "external": [],
     "seedKernel": null
@@ -41,7 +41,7 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "ZeroInitialAxiomsCheck.lean",
+      "lean4": "Step1246PrintAxioms.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
@@ -55,9 +55,9 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "ZeroInitialAxiomsCheck.lean",
-    "lineCount": 11,
-    "fileSize": 403,
+    "fileName": "Step1246PrintAxioms.lean",
+    "lineCount": 8,
+    "fileSize": 373,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
