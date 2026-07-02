@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1247FIXEDPOINTCLASSIFICATION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1247FixedPointClassification.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1247FixedPointClassification.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1247FixedPointClassification.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Fixed Point Classification — 17 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Fixed Point Classification — 定理 17 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1247 — Full Fixed-Point Classification of not on Fde4 and Dfumt8:\r\n              Precise Articulation of chat-Claude's B/N Precision Note\r\n              — Axiom-Free in Lean 4\r\n\r\n  Trigger: 2026-07-02 chat-Claude research-partner critique of STEP 1246\r\n  Paper 173 v0.2 §4.3. chat-Claude noted (verbatim):\r\n\r\n      「Belnap の De Morgan negation では ¬B = B, ¬N = N なので、\r\n       FDE はそもそも negation fixed point を二つ (BOTH, NEITHER) 持って\r\n       います。 ここは embed の定義に依らず確実。」\r\n\r\n      「訂正後の『SELF⟲ = Fix(NOT) が FDE の外』も、\r\n       \"FDE に fixed point が無い\" と読まれると第二の誤りになります。\r\n       theorem #4 が言えているのは『FDE の外に追"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-02",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment",
+      "CollatzRei.Step1240RecaptureRegion",
+      "CollatzRei.Step1241DfumtFdeSubAlgebra"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1247FixedPointClassification.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-01"
+    },
+    "scopeOfImpossibility": "STEP 1247 — Full Fixed-Point Classification of not on Fde4 and Dfumt8:\r\n              Precise Articulation of chat-Claude's B/N Precision Note\r\n              — Axiom-Free in Lean 4\r\n\r\n  Trigger: 2026-",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1247FixedPointClassification.lean",
+    "lineCount": 271,
+    "fileSize": 13298,
+    "theoremCount": 17,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-01",
+    "mathlibImportCount": 0,
+    "reiImportCount": 3,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "17 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-02",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

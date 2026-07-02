@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-AMALAFIXPOINT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/AmalaFixpoint.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "AmalaFixpoint.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/AmalaFixpoint.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Amala Fixpoint — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Amala Fixpoint — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "!\n# AmalaFixpoint.lean\n## 二種の不動点の分離 ── 真諦(阿摩羅識) と 龍樹(空亦復空 / SELF⟲)\n\n【証明済み】層：定義・定理はコア Lean4 のみ（mathlib 非依存）で閉じる。\n【解釈】層：形式的骨格への思想史的読みは doc 註に置き、定理と混ぜない。\n\n--------------------------------------------------------------------------------\n【解釈】この対話で立てた対比：\n  ・阿頼耶識(第八識) … 業を貯める再帰の「機構」（KarmaRecurrence.lean 参照）\n  ・阿摩羅識(第九識) … 業に染まらぬ清浄なる「基体」を、再帰の外に *措定* する\n                       （真諦・摂論学派の九識説／如来蔵寄り）\n  ・SELF⟲ = 空亦復空 … 置いた不動点にすら「空じる」操作 R を再適用してなお崩れない\n                       （龍樹側の要求）\n\n両者はともに「不動点(R x = x)」だが、不動点であることだけでは区別できない。\n分ける鍵は《その不動点が外部を根拠づける沈み込み先になっているか》。\n\n  阿摩羅識型 = 基体沈み込み(BasisSink)：\n      外部の器(vessel)が"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-02",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "AmalaFixpoint.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-02"
+    },
+    "scopeOfImpossibility": "!\n# AmalaFixpoint.lean\n## 二種の不動点の分離 ── 真諦(阿摩羅識) と 龍樹(空亦復空 / SELF⟲)\n\n【証明済み】層：定義・定理はコア Lean4 のみ（mathlib 非依存）で閉じる。\n【解釈】層：形式的骨格への思想史的読みは doc 註に置き、定理と混ぜない。\n\n------------------------------------------------",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "AmalaFixpoint.lean",
+    "lineCount": 132,
+    "fileSize": 6992,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-02",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-02",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

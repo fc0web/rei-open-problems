@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-STEP1249LIARSEMANTICSSEPARATION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1249LiarSemanticsSeparation.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Step1249LiarSemanticsSeparation.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1249LiarSemanticsSeparation.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Liar Semantics Separation — 6 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Liar Semantics Separation — 定理 6 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1249 — Semantic-level Liar sentence separation:\n              LiarSentence type + strict extension from FDE to D-FUMT₈\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\n\n  Trigger: 2026-07-02 chat-Claude 6 turn arc + STEP 1246/1247/1248 完了後、\n  藤本さん 「Plan B: 具体的 Liar 文 semantics で SELF に一意安定 vs FDE で\n  不安定・複数解 の Lean 4 encoding」 判断。\n\n  ★ Honest reframe of chat-Claude's original Plan B statement:\n    chat-Claude's 2026-07-02 critique proposed proving \"Dfumt8 上で SELF に\n    一意安定\" as the load-bearing semantic separation. STEP 1247/1248 have\n    since established that this "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-02",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Dfumt8CategoryExperiment",
+      "CollatzRei.Step1240RecaptureRegion",
+      "CollatzRei.Step1241DfumtFdeSubAlgebra",
+      "CollatzRei.Step1246LiarInSelfNotInFde",
+      "CollatzRei.Step1247FixedPointClassification"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Step1249LiarSemanticsSeparation.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-02"
+    },
+    "scopeOfImpossibility": "STEP 1249 — Semantic-level Liar sentence separation:\n              LiarSentence type + strict extension from FDE to D-FUMT₈\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\n\n  Tr",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Step1249LiarSemanticsSeparation.lean",
+    "lineCount": 308,
+    "fileSize": 14271,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 9,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-02",
+    "mathlibImportCount": 0,
+    "reiImportCount": 5,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 9 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-02",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "SESSION-2026-07-02-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-02",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-02: Auto: site rebuild + stats refresh (SEED 1659 / STEP 1249 / ",
+    "ja": "開発セッション 2026-07-02: Auto: site rebuild + stats refresh (SEED 1659 / STEP 1249 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-02. 31 commits, 44 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-02",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "0c791bf8c",
+      "e9084728a",
+      "d4c3813e8",
+      "6fbaa0c67",
+      "c476852b7",
+      "fa862a7a1",
+      "4c084c6fe",
+      "f0108d971",
+      "7822ef6d2",
+      "281007704",
+      "e1cda1905",
+      "7449dfa78",
+      "987224d78",
+      "612ac654e",
+      "ed699ae0f",
+      "c513acc20",
+      "b4492498c",
+      "d755a96e8",
+      "62f0bf37a",
+      "9bf77de3c",
+      "f7326d4eb",
+      "bd88b822e",
+      "04cf944cd",
+      "cf07fe774",
+      "2d36b9956",
+      "cabdabd9b",
+      "04f063779",
+      "4e43c1d96",
+      "b9305914e",
+      "3c237b9a9",
+      "3228bedd3"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 31,
+    "newFiles": {
+      "lean": 9,
+      "ts": 12,
+      "json": 163,
+      "md": 14,
+      "other": 299
+    },
+    "newFilesTotal": 497,
+    "newTheorems": 44,
+    "newScripts": [
+      "publish-paper-103-ia-harvard.ts",
+      "publish-paper-103-zenodo.ts",
+      "publish-paper-to-devto.ts",
+      "publish-paper-to-gist.ts",
+      "publish-paper-to-hackmd.ts",
+      "publish-paper-to-hatena.ts",
+      "publish-paper-to-livedoor.ts",
+      "publish-paper-to-notion.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1659 / STEP 1249 / Papers 174) / Auto: site rebuild + stats refresh (SEED 1659 / STEP 1249 / Papers 174) / Retroactive: SEED integration for 2026-07-01 06-23/06-28 backlog audit"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-02",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
