@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP939DEEPSUBCLASSES",
+  "id": "LEAN4-PROGRESS-INDRANET",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step939DeepSubclasses.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/IndraNet.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step939DeepSubclasses.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step939DeepSubclasses.lean"
+    "lean4Ref": "IndraNet.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/IndraNet.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Deep Subclasses — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Deep Subclasses — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Indra Net — 9 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Indra Net — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{71,103,167,231}.\n\n  NEW THEOREMS (9 total):\n\n  n%1024 level (stronger, covers 4 sub-classes each):\n    A. n%1024=423  (base=167, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n    B. n%1024=999  (base=231, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n\n  n%4096 level (genuinely need higher modulus):\n    C. n%4096=231  (base=231, K=19, 3^7/2^12)\n    D. n%4096=615  (base=103, K=19, 3^7/2^12)\n    E. n%4096=935  (base=167, K"
+    "headerDoc": ""
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -30,10 +30,10 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [
-      "Mathlib.Tactic"
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.AmalaFixpoint"
     ],
-    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step939DeepSubclasses.lean",
+      "lean4": "IndraNet.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-20"
+      "oleanDate": "2026-07-02"
     },
-    "scopeOfImpossibility": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{7",
+    "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +55,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step939DeepSubclasses.lean",
-    "lineCount": 174,
-    "fileSize": 10110,
+    "fileName": "IndraNet.lean",
+    "lineCount": 171,
+    "fileSize": 8718,
     "theoremCount": 9,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 6,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-20",
-    "mathlibImportCount": 1,
-    "reiImportCount": 0,
+    "oleanDate": "2026-07-02",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 1 defs"
+    "notes": "9 theorems/lemmas, 6 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
