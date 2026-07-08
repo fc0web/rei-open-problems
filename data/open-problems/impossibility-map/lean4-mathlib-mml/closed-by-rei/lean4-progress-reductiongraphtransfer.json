@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-REDUCTIONGRAPHTRANSFER",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ReductionGraphTransfer.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ReductionGraphTransfer.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ReductionGraphTransfer.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Reduction Graph Transfer — 8 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Reduction Graph Transfer — 定理 8 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ReductionGraphTransfer — STEP 1170 (reduction-graph) × STEP 1259\n  (TransferInterface) 統合 (C-1j)。\n\n  ★ 目的:\n    Rei-AIOS の TS 側 `src/aios/reduction-graph/` (STEP 1170, 2026-05-27) は未解決問題を\n    「易→難の階段」 でなく **還元の半順序 = 矢印グラフ** として curate する。 辺は 4 種:\n      • reduction   PROVEN: `to` を解けば `from` も落ちる (Frey–Serre–Ribet 等)\n      • route       CONJECTURAL: 未証明の program/hope (Hilbert–Pólya 等)\n      • analog      既に登られた低い段 (Lefschetz (1,1) 等)\n      • wall        load-bearing 障害 (Collatz equidistribution 等)\n\n    本 file は 4 辺種を Lean 4 の induc"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-08",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.TransferInterface"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ReductionGraphTransfer.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-08"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ReductionGraphTransfer — STEP 1170 (reduction-graph) × STEP 1259\n  (TransferInterface) 統合 (C-1j)。\n\n  ★ 目的:\n    Rei-AIOS の TS 側 `src/aio",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ReductionGraphTransfer.lean",
+    "lineCount": 300,
+    "fileSize": 20282,
+    "theoremCount": 8,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-08",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "8 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-08",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
