@@ -1,0 +1,140 @@
+{
+  "id": "SESSION-2026-07-09-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-09",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-09: Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-09: Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-09. 29 commits, 40 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-09",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "859b24340",
+      "b1b88b3d1",
+      "77e03dc91",
+      "2385b6d18",
+      "d4838a5b3",
+      "d50474c23",
+      "0a496ee8a",
+      "06f5523d7",
+      "b9980c5f7",
+      "d3b026431",
+      "aaa8a6463",
+      "08153d8bc",
+      "ff0a150eb",
+      "241c0cace",
+      "a894a3671",
+      "8649baa53",
+      "cc25ab2a0",
+      "de16091c6",
+      "7e3e6aa91",
+      "ff7610263",
+      "cec1d0b5a",
+      "f12747da3",
+      "eedf7ebd0",
+      "faab4da68",
+      "60f2547fb",
+      "f1eec5c21",
+      "1792c2e63",
+      "838b34ca6",
+      "1e535c8ec"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 29,
+    "newFiles": {
+      "lean": 5,
+      "ts": 1,
+      "json": 141,
+      "md": 16,
+      "other": 221
+    },
+    "newFilesTotal": 384,
+    "newTheorems": 40,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / Papers 174) / STEP 1264 (Paper 145 v0.9-c): F3/§C.9 F.1 CLOSURE — Binary 64-entry Lean 4 refinement (3年越し deferred / Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / Papers 174)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-09",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-RICHARDSONBELIEFHIERARCHYKERNEL",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/RichardsonBeliefHierarchyKernel.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "RichardsonBeliefHierarchyKernel.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/RichardsonBeliefHierarchyKernel.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Richardson Belief Hierarchy Kernel — 2 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Richardson Belief Hierarchy Kernel — 定理 2 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\n\n  ★ Origin: chat-Claude 2026-07-09 `RichardsonPeace.lean` draft §3\n    \"geometric_convergence + depth_log_bound\" を Rei env で API drift 修正 + build 実測。\n    元 draft は chat-Claude 自身 disclose per「機械検証未実施 (Mathlib ビルド不可)」、\n    Mathlib v4.27.0 で 5 error (line 54/61 nlinarith / 72 le_or_lt / 178\n    fixedPoint_isFixedPt 引数、 STEP 1259 と同 drift 系譜)。\n\n    §1 (紙面 Hurwitz stability) は Rei STEP 1261 と parallel form"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-09",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Topology.MetricSpace.Contracting",
+      "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "Mathlib.Tactic.Linarith",
+      "Mathlib.Tactic.Positivity"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "RichardsonBeliefHierarchyKernel.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-08"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\n\n  ★ O",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "RichardsonBeliefHierarchyKernel.lean",
+    "lineCount": 164,
+    "fileSize": 10623,
+    "theoremCount": 2,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-08",
+    "mathlibImportCount": 4,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "2 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-09",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
