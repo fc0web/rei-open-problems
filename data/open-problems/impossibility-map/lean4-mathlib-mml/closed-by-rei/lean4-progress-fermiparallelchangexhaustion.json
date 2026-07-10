@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-FERMIPARALLELCHANGEXHAUSTION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/FermiParallelChangExhaustion.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "FermiParallelChangExhaustion.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/FermiParallelChangExhaustion.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Fermi Parallel Chang Exhaustion — 13 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Fermi Parallel Chang Exhaustion — 定理 13 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.FermiParallelChangExhaustion — STEP 1271 sub-1 (2026-07-10)\r\n\r\n  ★ 目的:\r\n    藤本さん note 記事 (2025-02-25 「数式や方程式以外での理論」) の\r\n    「D-FUMT 宇宙知性探査理論 (D-FUMT Fermi Paradox Theory)」 提案を\r\n    Rei 中核の Collatz research と接続する Lean 4 formalization。\r\n\r\n    Fermi Paradox の canonical 6 explanations と Chang v6 Theorem 13.1\r\n    Paradigm Exhaustion (arxiv:2603.11066v6, 22 Apr 2026) の 29 paradigms\r\n    survey の 6 aggregated failure modes の間に structural isomorphism\r\n    (archetypal pattern) が存在することを axiom-free に taxonomic\r\n    formalize する。\r\n\r\n    共通"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-10",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.ChangParadigmExhaustion"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "FermiParallelChangExhaustion.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-10"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.FermiParallelChangExhaustion — STEP 1271 sub-1 (2026-07-10)\r\n\r\n  ★ 目的:\r\n    藤本さん note 記事 (2025-02-25 「数式や方程式以外での理論」) の\r\n    「D-FUMT 宇宙",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "FermiParallelChangExhaustion.lean",
+    "lineCount": 350,
+    "fileSize": 22105,
+    "theoremCount": 13,
+    "lemmaCount": 0,
+    "defCount": 7,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-10",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "13 theorems/lemmas, 7 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-10",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

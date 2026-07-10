@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-SUGENOTCONORMZCSG",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SugenoTConormZcsg.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SugenoTConormZcsg.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SugenoTConormZcsg.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sugeno T Conorm Zcsg — 12 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Sugeno T Conorm Zcsg — 定理 12 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SugenoTConormZcsg — STEP 1273 (2026-07-10)\n\n  ★ 目的:\n    藤本さん note 記事 (2025-02-01「新しい計算式・数値体系」の提案) の\n    ⊕ (ゼロ融合演算 `A + B + AB`) の正体 = Sugeno 1974 t-conorm family\n    (λ=1 case) の **既知 prior art** を honest attribution 込みで Lean 4\n    axiom-free に形式化。\n\n    ZCSG (Paper 61) の 0 層 (dim 0) の commentary は structural marker\n    としてのみ提供 (categorical equivalence 不主張)。\n\n  ★ 数学的内容 (全て elementary、 `ring` tactic で closure):\n    (1) `a ⊕ b = a + b + a*b` の associativity / commutativity / 0 identity\n    (2) shift 写像 `f(x) = x + 1` による同型:\n        "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-10",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.Ring",
+      "Mathlib.Tactic.FieldSimp",
+      "Mathlib.Data.Real.Basic"
+    ],
+    "reiImports": [
+      "CollatzRei.ZcsgCategoryExperiment"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "SugenoTConormZcsg.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-09"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SugenoTConormZcsg — STEP 1273 (2026-07-10)\n\n  ★ 目的:\n    藤本さん note 記事 (2025-02-01「新しい計算式・数値体系」の提案) の\n    ⊕ (ゼロ融合演算 `A + B + AB`) の正体 = S",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SugenoTConormZcsg.lean",
+    "lineCount": 213,
+    "fileSize": 11985,
+    "theoremCount": 12,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-09",
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "12 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-10",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
