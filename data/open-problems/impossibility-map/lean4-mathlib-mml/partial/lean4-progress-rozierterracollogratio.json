@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Rozier Terracol Log Ratio — 定理 4 / sorry 0 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RozierTerracolLogRatio — STEP 1275 sub-3 (2026-07-11)\n\n  ★ 目的:\n    Olivier Rozier + Claude Terracol\n    \"Paradoxical behavior in Collatz sequences\"\n    arXiv:2502.00948 v5 (2026-05-17)\n    published in Discrete Mathematics 349, 115167 (2026)\n    の parity-vector + log_3 2 連分数 障壁の **partial formalization** を\n    Rei env で attempt する。\n\n    具体的 partial target:\n      (a) log_3 2 = Real.log 2 / Real.log 3 を Lean 4 で defined 値として置く\n      (b) 2^S ≠ 3^k for S, k > 0 (parity 障壁の atomic 事実) を axiom-free に\n      (c) Collatz cycle length T wi"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RozierTerracolLogRatio — STEP 1275 sub-3 (2026-07-11)\r\n\r\n  ★ 目的:\r\n    Olivier Rozier + Claude Terracol\r\n    \"Paradoxical behavior in Collatz sequences\"\r\n    arXiv:2502.00948 v5 (2026-05-17)\r\n    published in Discrete Mathematics 349, 115167 (2026)\r\n    の parity-vector + log_3 2 連分数 障壁の **partial formalization** を\r\n    Rei env で attempt する。\r\n\r\n    具体的 partial target:\r\n      (a) log_3 2 = Real.log 2 / Real.log 3 を Lean 4 で defined 値として置く\r\n      (b) 2^S ≠ 3^k for S, k > 0 (parity 障壁の atomic 事実) を axiom-free に\r\n      (c) Collatz cyc"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-07-10",
+  "lastUpdate": "2026-07-11",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -51,7 +51,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-10"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RozierTerracolLogRatio — STEP 1275 sub-3 (2026-07-11)\n\n  ★ 目的:\n    Olivier Rozier + Claude Terracol\n    \"Paradoxical behavior in Collat",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RozierTerracolLogRatio — STEP 1275 sub-3 (2026-07-11)\r\n\r\n  ★ 目的:\r\n    Olivier Rozier + Claude Terracol\r\n    \"Paradoxical behavior in C",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -63,7 +63,7 @@
   "leanProgressMeta": {
     "fileName": "RozierTerracolLogRatio.lean",
     "lineCount": 274,
-    "fileSize": 15130,
+    "fileSize": 15403,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 9,
@@ -94,6 +94,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-07-10",
+  "ingested": "2026-07-11",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

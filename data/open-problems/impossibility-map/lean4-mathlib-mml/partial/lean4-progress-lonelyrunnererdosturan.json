@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-BUCHI25BRIDGE",
+  "id": "LEAN4-PROGRESS-LONELYRUNNERERDOSTURAN",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Buchi25Bridge.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/LonelyRunnerErdosTuran.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Buchi25Bridge.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Buchi25Bridge.lean"
+    "lean4Ref": "LonelyRunnerErdosTuran.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/LonelyRunnerErdosTuran.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Buchi 25 Bridge — 15 theorems/lemmas, 3 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Buchi 25 Bridge — 定理 15 / sorry 3 / axiom 0",
+    "en": "Lean 4 progress: Lonely Runner Erdos Turan — 7 theorems/lemmas, 3 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Lonely Runner Erdos Turan — 定理 7 / sorry 3 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\n\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean 4.\n\nPhase 3 of project_collatz_oss_toolkit_survey_2026-05-12.md plan.\n\n## honest scope (永続記録)\n\n- **minimal sketch only** — full formal proof は別 turn (Mathlib contribution standard cycle 数週間-数ヶ月)\n- key lemmas は `sorry` で stub (intent + signature 確立)\n- 真の Mathlib `NumberTheory.Collatz` module への contribution は本 sketch の formal proof 完了後\n\n## Rei 既達 cross-reference\n\n- `src/axiom-os/buchi25-q33-bridge.ts"
+    "headerDoc": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\n\n## Context\n- Rei existing asset: `data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/LonelyRunnerConjecture.lean`\n  (external formal-conjectures repo, 1 sorry, `UnitAddCircle` based)\n- Rei existing asset: Andrica A_4 = √11 − √7 (`AndricaConjecture.lean`)\n- Rei adopted constant (2026-07-12): C = A_4/(φ−1) = 1.086..., minimal polynomial\n  P(x) = x^8 − 108 x^6 + 1408 x^4 − 1728 x^2 + 256 (degree 8, totally real Q(√5"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
@@ -31,10 +31,10 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Data.Nat.Basic",
-      "Mathlib.Data.List.Basic",
-      "Mathlib.Data.List.Range",
-      "Mathlib.Tactic.NormNum"
+      "Mathlib.Analysis.SpecialFunctions.Pow.NNReal",
+      "Mathlib.NumberTheory.Real.Irrational",
+      "Mathlib.Data.Real.Pi.Bounds",
+      "Mathlib.Algebra.Polynomial.Basic"
     ],
     "reiImports": [],
     "external": [],
@@ -44,11 +44,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Buchi25Bridge.lean",
-      "oleanBuilt": false,
-      "oleanDate": null
+      "lean4": "LonelyRunnerErdosTuran.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-11"
     },
-    "scopeOfImpossibility": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\n\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean 4.",
+    "scopeOfImpossibility": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\n\n## Context\n- Rei existing asse",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 3 sorry; integrate to Mathlib",
@@ -58,16 +58,16 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Buchi25Bridge.lean",
-    "lineCount": 217,
-    "fileSize": 9267,
-    "theoremCount": 15,
+    "fileName": "LonelyRunnerErdosTuran.lean",
+    "lineCount": 212,
+    "fileSize": 9070,
+    "theoremCount": 7,
     "lemmaCount": 0,
-    "defCount": 8,
+    "defCount": 4,
     "sorryCount": 3,
     "axiomCount": 0,
-    "hasOleanBuild": false,
-    "oleanDate": null,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-11",
     "mathlibImportCount": 4,
     "reiImportCount": 0,
     "category": "partial"
@@ -78,7 +78,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 3,
-    "notes": "15 theorems/lemmas, 8 defs"
+    "notes": "7 theorems/lemmas, 4 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

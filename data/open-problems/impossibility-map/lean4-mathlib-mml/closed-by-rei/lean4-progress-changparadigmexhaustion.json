@@ -9,8 +9,8 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/ChangParadigmExhaustion.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Chang Paradigm Exhaustion — 17 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Chang Paradigm Exhaustion — 定理 17 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Chang Paradigm Exhaustion — 32 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Chang Paradigm Exhaustion — 定理 32 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ChangParadigmExhaustion — STEP 1269 (2026-07-10)\r\n\r\n  ★ 目的:\r\n    Edward Y. Chang v6 \"Exploring Collatz Dynamics with Human-LLM Collaboration\"\r\n    (arxiv:2603.11066v6, 22 Apr 2026, Stanford + QuadriumAI) の Theorem 13.1\r\n    Paradigm Exhaustion の 29 paradigms を Lean 4 の inductive type として\r\n    taxonomic formalize し、 STEP 1260 (ReductionGraphTransfer) の\r\n    `WallEdge` に **どの paradigm shape の wall か** を明示的に annotate する\r\n    setup を axiom-free に確立する。\r\n\r\n    加えて、 Rei-AIOS 既存の axiom-free machine-checked negative results:\r\n      (i)  "
@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-07-10",
+  "lastUpdate": "2026-07-11",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -56,11 +56,11 @@
   },
   "leanProgressMeta": {
     "fileName": "ChangParadigmExhaustion.lean",
-    "lineCount": 567,
-    "fileSize": 36149,
-    "theoremCount": 17,
+    "lineCount": 931,
+    "fileSize": 63459,
+    "theoremCount": 32,
     "lemmaCount": 0,
-    "defCount": 12,
+    "defCount": 18,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
@@ -75,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "17 theorems/lemmas, 12 defs"
+    "notes": "32 theorems/lemmas, 18 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-07-10",
+  "ingested": "2026-07-11",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
