@@ -1,0 +1,140 @@
+{
+  "id": "SESSION-2026-07-12-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-12",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-12: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-12: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-12. 29 commits, 30 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-12",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "7f13cfd6e",
+      "bfdbacb14",
+      "42c05606e",
+      "ddc263a81",
+      "9d43dec44",
+      "69c49abf3",
+      "731263014",
+      "934f15a0a",
+      "d67836828",
+      "5c5db898e",
+      "77c0f235a",
+      "636ce2a8c",
+      "a59090654",
+      "dcc656d7e",
+      "abea70e27",
+      "1c32a1c50",
+      "d14cf0047",
+      "031c887b8",
+      "dfaa899d6",
+      "c9ab018e0",
+      "5bc57ad44",
+      "123275324",
+      "3b971ea04",
+      "20f0f04f6",
+      "a428cc3d7",
+      "f1b3f7c0d",
+      "96ed4bacd",
+      "2b8c39006",
+      "83c7775c7"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 29,
+    "newFiles": {
+      "lean": 4,
+      "ts": 10,
+      "json": 669,
+      "md": 34,
+      "other": 3585
+    },
+    "newFilesTotal": 4302,
+    "newTheorems": 30,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 174) / STEP 1282: Chang paradigm P13 (Tao amplification) Rei retrofit — coverage 11/29 → 12/29 = 41.4%, axi / 07-09 invention audit: fresh approve #1 (logic × mesoamerican ReverseCausation → Nepantla) — SEED 16"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-12",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
