@@ -1,26 +1,26 @@
 {
-  "id": "SESSION-2026-07-09-DEVLOG",
+  "id": "SESSION-2026-07-14-DEVLOG",
   "tier": 7,
   "source": "development/sessions",
   "sourceRef": {
     "url": "https://github.com/fc0web/rei-aios/commits/main",
-    "citation": "Rei-AIOS dev session 2026-07-09",
+    "citation": "Rei-AIOS dev session 2026-07-14",
     "lean4Ref": null,
     "sourceCode": null
   },
   "statement": {
-    "en": "Dev session 2026-07-09: Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / ",
-    "ja": "開発セッション 2026-07-09: Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / ",
+    "en": "Dev session 2026-07-14: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-14: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
     "latex": null,
     "preview_source": "tier7-session-log-v0.1",
-    "summary": "Auto-generated session log for 2026-07-09. 29 commits, 40 new theorems detected via git log scan."
+    "summary": "Auto-generated session log for 2026-07-14. 31 commits, 152 new theorems detected via git log scan."
   },
   "field": "development",
   "subfield": "sessions",
   "proposer": "Rei-AIOS team (藤本 + Claude)",
   "year": 2026,
   "status": "completed",
-  "lastUpdate": "2026-07-09",
+  "lastUpdate": "2026-07-14",
   "reiTyping": {
     "primaryType": "VII_REI_GENERATED",
     "secondaryType": null,
@@ -31,35 +31,37 @@
   },
   "cross_refs": {
     "commits": [
-      "859b24340",
-      "b1b88b3d1",
-      "77e03dc91",
-      "2385b6d18",
-      "d4838a5b3",
-      "d50474c23",
-      "0a496ee8a",
-      "06f5523d7",
-      "b9980c5f7",
-      "d3b026431",
-      "aaa8a6463",
-      "08153d8bc",
-      "ff0a150eb",
-      "241c0cace",
-      "a894a3671",
-      "8649baa53",
-      "cc25ab2a0",
-      "de16091c6",
-      "7e3e6aa91",
-      "ff7610263",
-      "cec1d0b5a",
-      "f12747da3",
-      "eedf7ebd0",
-      "faab4da68",
-      "60f2547fb",
-      "f1eec5c21",
-      "1792c2e63",
-      "838b34ca6",
-      "1e535c8ec"
+      "230d489d9",
+      "9f9d875f6",
+      "a552bf58f",
+      "c0ef37d6a",
+      "6b96f67fd",
+      "556a99151",
+      "4a5de1b89",
+      "f4d805897",
+      "a58310c58",
+      "01ade5f89",
+      "63122efec",
+      "114cc54f3",
+      "0bed05de0",
+      "d7699ef3d",
+      "8cbb2cfe5",
+      "df1d2a7b6",
+      "7ec394ec3",
+      "cd8980fb8",
+      "c487649ca",
+      "285fde2f7",
+      "c6779400c",
+      "4c421f8b4",
+      "91e376fa9",
+      "7167a5bd7",
+      "fb8c1251d",
+      "f3d796978",
+      "1027d2ef3",
+      "4fdbde255",
+      "cefc09f8e",
+      "4251437bc",
+      "4a40d1595"
     ],
     "external": [],
     "seedKernel": null
@@ -109,20 +111,20 @@
     "peaceCheck": "passed"
   },
   "sessionMeta": {
-    "classification": "docs",
-    "commitCount": 29,
+    "classification": "design",
+    "commitCount": 31,
     "newFiles": {
-      "lean": 5,
-      "ts": 1,
-      "json": 141,
-      "md": 16,
-      "other": 221
+      "lean": 43,
+      "ts": 0,
+      "json": 500,
+      "md": 17,
+      "other": 191
     },
-    "newFilesTotal": 384,
-    "newTheorems": 40,
+    "newFilesTotal": 751,
+    "newTheorems": 152,
     "newScripts": [],
     "memoryAdded": 0,
-    "highlights": "Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / Papers 174) / STEP 1264 (Paper 145 v0.9-c): F3/§C.9 F.1 CLOSURE — Binary 64-entry Lean 4 refinement (3年越し deferred / Auto: site rebuild + stats refresh (SEED 1674 / STEP 1258 / Papers 174)"
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / STEP 1293 (Task 6): AI Reasoning Lens v0.1 — 8 値で AI 出力を受け直す注入層 / STEP 1292 (Task 5): v0.9 PKI-based tamper-proof (ECDSA P-256) + Lean 4 provenance spec"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -135,6 +137,6 @@
     "sorryCount": null,
     "notes": null
   },
-  "ingested": "2026-07-09",
+  "ingested": "2026-07-14",
   "ingestMethod": "tier7-session-log-auto-v0.1"
 }
