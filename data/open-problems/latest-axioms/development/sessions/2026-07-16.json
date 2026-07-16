@@ -1,0 +1,134 @@
+{
+  "id": "SESSION-2026-07-16-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-16",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-16: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-16: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-16. 23 commits, 14 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-16",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "9b13ce72e",
+      "7b3be65b0",
+      "58dd02024",
+      "529a2301f",
+      "4e230b8e7",
+      "45758d825",
+      "cb5ed1ffc",
+      "5ed190c14",
+      "28db5cc15",
+      "a958acf09",
+      "d4f115877",
+      "8a2932ee5",
+      "48140ec2e",
+      "9fc0e6799",
+      "ce6d0d1c4",
+      "f8f782c0c",
+      "de5a362aa",
+      "b9ffd19d8",
+      "ca23bee31",
+      "a70029776",
+      "7a017d73a",
+      "cbbaa54ef",
+      "a56827a70"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 23,
+    "newFiles": {
+      "lean": 3,
+      "ts": 0,
+      "json": 183,
+      "md": 3,
+      "other": 59
+    },
+    "newFilesTotal": 248,
+    "newTheorems": 14,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / STEP 1298 訂正: 3 site (job-board + talent-agency + citizen-journal) mirror を Rei トップから撤去"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-16",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
