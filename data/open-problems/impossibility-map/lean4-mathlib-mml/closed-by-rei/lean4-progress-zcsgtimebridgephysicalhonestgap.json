@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-ZCSGTIMEBRIDGEPHYSICALHONESTGAP",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ZcsgTimeBridgePhysicalHonestGap.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ZcsgTimeBridgePhysicalHonestGap.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ZcsgTimeBridgePhysicalHonestGap.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Zcsg Time Bridge Physical Honest Gap — 12 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Zcsg Time Bridge Physical Honest Gap — 定理 12 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgePhysicalHonestGap — STEP 1300 (2026-07-17)\r\n\r\n  ★ 目的:\r\n    STEP 1299 (ZcsgTimeBridgeExperiment) で試作した symbolic bridge に対し、\r\n    chat-Claude arc で残された 3 gap:\r\n      (a) 「秒」 「プランク時間」 等の物理次元との接続\r\n      (b) 時間結晶 / 宇宙膨張率 等の物理数値の再現\r\n      (c) Noether 定理との bridge (時間並進対称性 ↔ エネルギー保存)\r\n    を honest に埋める試み + 埋められない場所の formal 負値結果。\r\n\r\n  ★★★ Honest scope (super critical):\r\n    本 STEP は以下 3 種類の formal 結果のみを含む:\r\n      (P) Parametric embedding — 物理単位 τ を free parameter として\r\n          持ち込む。 但し τ の値は ZCSG から derived ではなく choice。\r\n "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan"
+    ],
+    "reiImports": [
+      "CollatzRei.ZcsgTimeBridgeExperiment"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ZcsgTimeBridgePhysicalHonestGap.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-17"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgePhysicalHonestGap — STEP 1300 (2026-07-17)\r\n\r\n  ★ 目的:\r\n    STEP 1299 (ZcsgTimeBridgeExperiment) で試作した symbolic bridge に対",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ZcsgTimeBridgePhysicalHonestGap.lean",
+    "lineCount": 247,
+    "fileSize": 11778,
+    "theoremCount": 12,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-17",
+    "mathlibImportCount": 2,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "12 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
