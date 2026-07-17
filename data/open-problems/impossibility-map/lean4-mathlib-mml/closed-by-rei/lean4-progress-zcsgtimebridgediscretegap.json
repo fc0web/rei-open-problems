@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-ZCSGTIMEBRIDGEDISCRETEGAP",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ZcsgTimeBridgeDiscreteGap.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ZcsgTimeBridgeDiscreteGap.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ZcsgTimeBridgeDiscreteGap.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Zcsg Time Bridge Discrete Gap — 4 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Zcsg Time Bridge Discrete Gap — 定理 4 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeDiscreteGap — STEP 1302 (2026-07-17)\n\n  ★ 目的:\n    STEP 1301 の `piZ_proper_subset_R` (πℤ ⊊ ℝ) を「discrete (spectral\n    gap ε=π)」 に強化し、 Noether 失敗の理由を airtight にする。\n\n  ★ chat-Claude 指摘 (2026-07-17, STEP 1301 完成後):\n    「πℤ ⊊ ℝ (真部分集合) だけでは discrete を意味しない。 反例:\n     ℚ ⊊ ℝ も真部分集合だが ℚ は稠密。 Noether を排除する本当の\n     根拠は 『proper』 ではなく 『discrete (孤立点、 稠密でない、\n     原点近傍に無限小生成子が無い)』」\n\n    → 本 STEP で以下を追加:\n    (a) `piZ_discrete_gap` = ∀ x ∈ πℤ, x ≠ 0 → π ≤ |x|\n        (ε=π が明示的な spectral gap = 「原点まわりの空隙」)\n    (b) `piZ_infinitesimal_"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Analysis.SpecialFunctions.Trigonometric.Arctan"
+    ],
+    "reiImports": [
+      "CollatzRei.ZcsgTimeBridgeDihedralPrecision"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ZcsgTimeBridgeDiscreteGap.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-17"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeDiscreteGap — STEP 1302 (2026-07-17)\n\n  ★ 目的:\n    STEP 1301 の `piZ_proper_subset_R` (πℤ ⊊ ℝ) を「discrete (spectral\n    gap",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ZcsgTimeBridgeDiscreteGap.lean",
+    "lineCount": 210,
+    "fileSize": 10253,
+    "theoremCount": 4,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-17",
+    "mathlibImportCount": 2,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "4 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

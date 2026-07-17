@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-MONOSTABLETETBRIDGE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/MonostableTetBridge.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "MonostableTetBridge.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/MonostableTetBridge.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Monostable Tet Bridge — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Monostable Tet Bridge — 定理 5 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "# Monostable Tetrahedron Obtuse-Path Bridge (STEP 1303 skeleton)\n\nFix(R) taxonomy specimen 追加として STEP 1299-1302 ZCSG time bridge と同 discipline 適用。\n\n★ 2026-07-18 chat-Claude Phase A 完了で得た [1] §2 obtuse dihedral 完全形を実装。\n★ Structural resemblance to STEP 1302 piZ_discrete_gap (πℤ ⊊ ℝ, gap ε=π).\n   NOT formal identity. 07-17 crystalline scope-note discipline 継承。\n★ Fix(R) 分類学は Morse-Smale/Palis-Smale/coalgebra 系譜への specimen 追加。 novel claim 不使用。\n\n## Sources\n- [1] Almádi, Dawson, Domokos, Regős. \"On Equilibria of Tetrahedra\".\n      Math. Intelligencer 46 (2024) 247-254. arXiv:2304.06984\n      ★ 出版版 th"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "MonostableTetBridge.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-17"
+    },
+    "scopeOfImpossibility": "# Monostable Tetrahedron Obtuse-Path Bridge (STEP 1303 skeleton)\n\nFix(R) taxonomy specimen 追加として STEP 1299-1302 ZCSG time bridge と同 discipline 適用。\n\n★ 2026-07-18 chat-Claude Phase A 完了で得た [1] §2 obtuse",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "MonostableTetBridge.lean",
+    "lineCount": 266,
+    "fileSize": 14746,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 8,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-17",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "5 theorems/lemmas, 8 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
