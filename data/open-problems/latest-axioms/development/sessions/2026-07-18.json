@@ -1,0 +1,134 @@
+{
+  "id": "SESSION-2026-07-18-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-18",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-18: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-18: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-18. 23 commits, 17 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-18",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "bc0779f3e",
+      "a2aae13f8",
+      "3a1fd703f",
+      "ea3a281fa",
+      "ee4713f38",
+      "1ecea3c0c",
+      "e2051cf2c",
+      "ed443b4a5",
+      "c20acf15c",
+      "684585146",
+      "8df44f0de",
+      "30147774e",
+      "2571dbedb",
+      "a5d3c6b60",
+      "e072799a3",
+      "6a22d7216",
+      "9c0f4c1d7",
+      "19c8cb50d",
+      "7f3344e15",
+      "f6251252e",
+      "8a501787d",
+      "8e4c0fc43",
+      "ab43f454d"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 23,
+    "newFiles": {
+      "lean": 7,
+      "ts": 0,
+      "json": 1119,
+      "md": 118,
+      "other": 3423
+    },
+    "newFilesTotal": 4667,
+    "newTheorems": 17,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / cleanup: 07-14〜07-18 accumulated data + oukc regenerate + discovery-device mirror restore + 07-18 in / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-18",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
