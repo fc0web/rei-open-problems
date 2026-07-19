@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-ZCSGMDNSTMODULARBOUNDARY",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ZcsgMdnstModularBoundary.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ZcsgMdnstModularBoundary.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ZcsgMdnstModularBoundary.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Zcsg Mdnst Modular Boundary — 18 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Zcsg Mdnst Modular Boundary — 定理 18 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.ZcsgMdnstModularBoundary — STEP 1306 (2026-07-20)\n\n   ★ Origin:\n     chat-Claude 2026-07-19 の Fermat prime infinity question 診断:\n       「ZCSG は記号列の位置 → 整数 d の組合せ的写像、 MDNST は数値 → 数値の\n        加重集約写像。 どちらも 2^(2^n)+1 の素因数構造に作用する演算を内包\n        していない。」\n\n     藤本さん経路で Path A (chat-Claude 提案「mod / order 演算を追加して\n     F_5 = 641 × 6700417 で検証」) を選択 → 本 file で machine-checked\n     confirmation。\n\n   ★ Purpose:\n     ZCSG (Paper 61) の `dim` に mod 演算を「追加」 したものが、 実際には\n     Nat.mod そのままで、 641 が F_5 を割る「理由」 (Lucas 1878 の\n     k · 2^(n+2) + 1 form / "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-19",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Prime.Basic",
+      "Mathlib.Data.List.Basic",
+      "Mathlib.Tactic.NormNum",
+      "Mathlib.Tactic.NormNum.Prime"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ZcsgMdnstModularBoundary.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-19"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.ZcsgMdnstModularBoundary — STEP 1306 (2026-07-20)\n\n   ★ Origin:\n     chat-Claude 2026-07-19 の Fermat prime infinity question 診断:\n     ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ZcsgMdnstModularBoundary.lean",
+    "lineCount": 279,
+    "fileSize": 15110,
+    "theoremCount": 18,
+    "lemmaCount": 0,
+    "defCount": 9,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-19",
+    "mathlibImportCount": 4,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "18 theorems/lemmas, 9 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-19",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

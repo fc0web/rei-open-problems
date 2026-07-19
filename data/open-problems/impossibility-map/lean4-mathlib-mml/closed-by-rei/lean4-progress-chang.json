@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-CHANG",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Chang.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Chang.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Chang.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Chang — 6 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Chang — 定理 6 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.Chang — Chang v6 Paradigm Exhaustion catalog hub\r\n  (originally STEP 1269 ChangParadigmExhaustion.lean, split refactored 2026-07-19)\r\n\r\n  ★ Purpose (hub):\r\n    Edward Y. Chang v6 \"Exploring Collatz Dynamics with Human-LLM Collaboration\"\r\n    (arxiv:2603.11066v6, 22 Apr 2026, Stanford + QuadriumAI) の Theorem 13.1\r\n    Paradigm Exhaustion の 29 paradigms を Lean 4 の inductive type として\r\n    taxonomic formalize し、 STEP 1260 (ReductionGraphTransfer) の `WallEdge` に\r\n    「どの paradigm shape の wall か」 を明示的に annotate する core setup を\r\n    ax"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-19",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.ReductionGraphTransfer"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Chang.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-19"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.Chang — Chang v6 Paradigm Exhaustion catalog hub\r\n  (originally STEP 1269 ChangParadigmExhaustion.lean, split refactored 2026-07-19)\r\n",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Chang.lean",
+    "lineCount": 335,
+    "fileSize": 19260,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 5,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-19",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 5 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-19",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

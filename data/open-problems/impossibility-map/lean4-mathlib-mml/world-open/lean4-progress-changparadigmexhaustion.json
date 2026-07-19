@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-CHANGPARADIGMEXHAUSTION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ChangParadigmExhaustion.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ChangParadigmExhaustion.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ChangParadigmExhaustion.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Chang Paradigm Exhaustion — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Chang Paradigm Exhaustion — 定理 0 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ChangParadigmExhaustion — Backward-compat stub (2026-07-19 split refactor)\r\n\r\n  ★ 元 1014 line 単一 file の内容は以下に分割済:\r\n    - CollatzRei/Chang.lean                    (hub: inductive + AnnotatedWall + EdgeType)\r\n    - CollatzRei/Chang/Retrofits/*.lean        (13 retrofit defs across 8 source files)\r\n    - CollatzRei/Chang/Coverage.lean           (coverage list + Nodup + gap theorem)\r\n    - CollatzRei/Chang/README.md               (coverage tracker + ETP discipline)\r\n\r\n  ★ Backward compatibility: FermiParallelChangExhaustion.lean 等の依存"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "world-open",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "open",
+  "lastUpdate": "2026-07-19",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Scaffold only",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Chang",
+      "CollatzRei.Chang.Coverage"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "ChangParadigmExhaustion.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-19"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ChangParadigmExhaustion — Backward-compat stub (2026-07-19 split refactor)\r\n\r\n  ★ 元 1014 line 単一 file の内容は以下に分割済:\r\n    - CollatzRei/Ch",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ChangParadigmExhaustion.lean",
+    "lineCount": 21,
+    "fileSize": 1297,
+    "theoremCount": 0,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-19",
+    "mathlibImportCount": 0,
+    "reiImportCount": 2,
+    "category": "world-open"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "0 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-07-19",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
