@@ -9,18 +9,18 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/FermatNineExcessWitness.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Fermat Nine Excess Witness — 11 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Fermat Nine Excess Witness — 定理 11 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Fermat Nine Excess Witness — 26 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Fermat Nine Excess Witness — 定理 26 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.FermatNineExcessWitness — STEP 1307 (2026-07-20, refined)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 collab (後 Paper 176 = \"modular bridge sketch\") §7\n     F_5-F_8 拡張 → 藤本さん指示「やります」 → Python 実測で F_9 excess = 5\n     (chat-Claude 未計算 range) を発見 → 藤本さん指示「Lean 4 witness も追加」\n     → chat-Claude 独立再現 + 「excess ≥ 5 (下界) = 反証十分」 framing refine 指摘\n     → 本 file honest scope refinement (theorem rename + chain step attribution)\n\n   ★ Purpose (refined):\n     F_9 excess ≥ 5 の **反証 chain の前半 (factor-level structural facts)** を\n     axiom-free "
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.FermatNineExcessWitness — STEP 1307 (2026-07-20, refined)\r\n\r\n   ★ Origin:\r\n     chat-Claude 2026-07-20 collab (後 Paper 176 = \"modular bridge sketch\") §7\r\n     F_5-F_8 拡張 → 藤本さん指示「やります」 → Python 実測で F_9 excess = 5\r\n     (chat-Claude 未計算 range) を発見 → 藤本さん指示「Lean 4 witness も追加」\r\n     → chat-Claude 独立再現 + 「excess ≥ 5 (下界) = 反証十分」 framing refine 指摘\r\n     → 本 file honest scope refinement (theorem rename + chain step attribution)\r\n\r\n   ★ Purpose (refined):\r\n     F_9 excess ≥ 5 の **反証 chain の前半 (factor-level structural facts)** を\r\n    "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-07-19",
+  "lastUpdate": "2026-07-20",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-19"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.FermatNineExcessWitness — STEP 1307 (2026-07-20, refined)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 collab (後 Paper 176 = \"modular bri",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.FermatNineExcessWitness — STEP 1307 (2026-07-20, refined)\r\n\r\n   ★ Origin:\r\n     chat-Claude 2026-07-20 collab (後 Paper 176 = \"modular",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,11 +58,11 @@
   },
   "leanProgressMeta": {
     "fileName": "FermatNineExcessWitness.lean",
-    "lineCount": 220,
-    "fileSize": 13122,
-    "theoremCount": 11,
+    "lineCount": 477,
+    "fileSize": 28969,
+    "theoremCount": 26,
     "lemmaCount": 0,
-    "defCount": 4,
+    "defCount": 6,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
@@ -77,7 +77,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "11 theorems/lemmas, 4 defs"
+    "notes": "26 theorems/lemmas, 6 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-07-19",
+  "ingested": "2026-07-20",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

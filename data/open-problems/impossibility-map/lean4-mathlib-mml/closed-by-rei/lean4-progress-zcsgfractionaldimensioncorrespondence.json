@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-ZCSGFRACTIONALDIMENSIONCORRESPONDENCE",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ZcsgFractionalDimensionCorrespondence.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ZcsgFractionalDimensionCorrespondence.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ZcsgFractionalDimensionCorrespondence.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Zcsg Fractional Dimension Correspondence — 8 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Zcsg Fractional Dimension Correspondence — 定理 8 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.ZcsgFractionalDimensionCorrespondence — Path B v0.1 (2026-07-20)\r\n\r\n   ★ Origin:\r\n     chat-Claude 2026-07-20 final advice「grand theory → 既存体系の縁を一歩」\r\n     への転換提案 → 藤本さん指示「Path B (Mathlib Hausdorff dimension survey +\r\n     ZCSG 0o^d 対応)」 選択 → 本 file が Path B の Lean 4 stub v0.1。\r\n\r\n   ★ Purpose (v0.1):\r\n     Mathlib v4.27 `MeasureTheory.dimH : Set X → ℝ≥0∞` (Yury Kudryashov 2021)\r\n     と Paper 62 §5.1 fractional ZCSG expression `0o^d` の対応を axiom-free\r\n     Lean 4 で establish する minimal stub。\r\n\r\n     v0.1 では「対応 = numerical 値の一致」 を"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-07-20",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Topology.MetricSpace.HausdorffDimension",
+      "Mathlib.Data.NNReal.Basic",
+      "Mathlib.Data.ENNReal.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "ZcsgFractionalDimensionCorrespondence.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-19"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.ZcsgFractionalDimensionCorrespondence — Path B v0.1 (2026-07-20)\r\n\r\n   ★ Origin:\r\n     chat-Claude 2026-07-20 final advice「grand theo",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ZcsgFractionalDimensionCorrespondence.lean",
+    "lineCount": 131,
+    "fileSize": 8239,
+    "theoremCount": 8,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-19",
+    "mathlibImportCount": 3,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "8 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-07-20",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
