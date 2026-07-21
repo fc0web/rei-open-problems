@@ -9,18 +9,18 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/CantorMiddleThirdsStub.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Cantor Middle Thirds Stub — 10 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Cantor Middle Thirds Stub — 定理 10 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Cantor Middle Thirds Stub — 19 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Cantor Middle Thirds Stub — 定理 19 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — Path B v0.2 candidate stub (2026-07-20)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 recommendation\n     → 藤本さん 2026-07-20 指示「Cantor set dimH = log 2 / log 3 の Mathlib\n     upstream contribution」 → 本 file が STEP 1309 candidate stub v0.1。\n\n   ★ Purpose (v0.1 stub):\n     Cantor middle-thirds set C ⊆ [0, 1] の Lean 4 definition + Hausdorff\n     dimension = log 2 / log 3 の Mathlib-upstream-ready statement を stub\n     として整備。 完全 proof (IFS-based dimH lower/upper bound) は v0.2+ で。\n\n   ★ Math"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 recommendation\n     → 藤本さん 2026-07-20 指示「Cantor set dimH = log 2 / log 3 の Mathlib\n     upstream contribution」 → 本 file が STEP 1309 candidate stub v0.1。\n     2026-07-21 v0.2 で elementary topological properties を実 proof に置換。\n\n   ★ v0.2 更新 (2026-07-21):\n     - Section 3 の 10 stub (True := trivial) を実 proof に置換:\n       f_left/f_right continuity, cantorStep_subset_Icc, cantorSet_subset_Icc,\n       cantorStep_compact, cantorSt"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-07-20",
+  "lastUpdate": "2026-07-21",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -44,9 +44,9 @@
     "proofRef": {
       "lean4": "CantorMiddleThirdsStub.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-07-20"
+      "oleanDate": "2026-07-21"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — Path B v0.2 candidate stub (2026-07-20)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 rec",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 recommendation\n     → 藤本さ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,15 +57,15 @@
   },
   "leanProgressMeta": {
     "fileName": "CantorMiddleThirdsStub.lean",
-    "lineCount": 156,
-    "fileSize": 9385,
-    "theoremCount": 10,
+    "lineCount": 263,
+    "fileSize": 13632,
+    "theoremCount": 19,
     "lemmaCount": 0,
     "defCount": 4,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-07-20",
+    "oleanDate": "2026-07-21",
     "mathlibImportCount": 2,
     "reiImportCount": 0,
     "category": "closed-by-rei"
@@ -76,7 +76,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "10 theorems/lemmas, 4 defs"
+    "notes": "19 theorems/lemmas, 4 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-07-20",
+  "ingested": "2026-07-21",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
