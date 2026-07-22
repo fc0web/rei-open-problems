@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cantor Middle Thirds Stub — 定理 19 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 recommendation\n     → 藤本さん 2026-07-20 指示「Cantor set dimH = log 2 / log 3 の Mathlib\n     upstream contribution」 → 本 file が STEP 1309 candidate stub v0.1。\n     2026-07-21 v0.2 で elementary topological properties を実 proof に置換。\n\n   ★ v0.2 更新 (2026-07-21):\n     - Section 3 の 10 stub (True := trivial) を実 proof に置換:\n       f_left/f_right continuity, cantorStep_subset_Icc, cantorSet_subset_Icc,\n       cantorStep_compact, cantorSt"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\r\n\r\n   ★★★ 2026-07-22 CORRIGENDUM (重要): 本 file は definition + basic\r\n   topological property を独自 namespace `CollatzRei.CantorMiddleThirds` に\r\n   実装しているが、 Mathlib v4.27.0 に既に\r\n   **`Mathlib.Topology.Instances.CantorSet`** (2024, Jana Göken + 10 authors\r\n   共著) が存在し、 以下が完備であることが 2026-07-22 に発覚:\r\n     - `preCantorSet` / `cantorSet` (Rei の `cantorStep` / `cantorSet` と同定義)\r\n     - `preCantorSet_antitone` / `preCantorSet_subset_unitInterval` /\r\n       `cantorSet_subset_unitInterval`\r\n     - `"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-07-21",
+  "lastUpdate": "2026-07-22",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-21"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\n\n   ★ Origin:\n     chat-Claude 2026-07-20 final advice「未形式化の既知定理」 recommendation\n     → 藤本さ",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMiddleThirdsStub — v0.2 (2026-07-21)\r\n\r\n   ★★★ 2026-07-22 CORRIGENDUM (重要): 本 file は definition + basic\r\n   topological propert",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,8 +57,8 @@
   },
   "leanProgressMeta": {
     "fileName": "CantorMiddleThirdsStub.lean",
-    "lineCount": 263,
-    "fileSize": 13632,
+    "lineCount": 309,
+    "fileSize": 17067,
     "theoremCount": 19,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-07-21",
+  "ingested": "2026-07-22",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
