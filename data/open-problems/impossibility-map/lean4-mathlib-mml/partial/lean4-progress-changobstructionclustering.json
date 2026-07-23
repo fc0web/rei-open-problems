@@ -1,0 +1,95 @@
+{
+  "id": "LEAN4-PROGRESS-CHANGOBSTRUCTIONCLUSTERING",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ChangObstructionClustering.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "ChangObstructionClustering.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ChangObstructionClustering.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Chang Obstruction Clustering — 8 theorems/lemmas, 0 sorry, 1 axiom",
+    "ja": "Lean 4 進捗: Chang Obstruction Clustering — 定理 8 / sorry 0 / axiom 1",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ChangObstructionClustering — STEP 1313 (2026-07-23)\n\n  ★ 目的: 藤本さん指示 (chat-Claude approach (2) 「なぜ」 を掘る) の実行。\n    Chang v6 の 29 paradigms obstruction descriptions を Rei が elementary\n    に clustering、 meta-pattern candidate を Lean 4 で型化する elementary\n    attempt。\n\n    Chat-Claude の framing:\n      「value control problem が 29 回別々に現れるなら、 その 29 回に\n       共通の核を formal に抽出できるか。 成功すれば第30パラダイムの必要\n       条件が定理になる。 失敗しても、 失敗の仕方が情報になります」\n\n  ★★★ Honest scope (super critical, 開始時点で明言):\n    - 本 clustering は **Rei の interpretation** であって Chang v6 "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-07-23",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 0 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Tactic.FinCases"
+    ],
+    "reiImports": [
+      "CollatzRei.Chang"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "ChangObstructionClustering.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-07-23"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ChangObstructionClustering — STEP 1313 (2026-07-23)\n\n  ★ 目的: 藤本さん指示 (chat-Claude approach (2) 「なぜ」 を掘る) の実行。\n    Chang v6 の 29 paradigm",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "ChangObstructionClustering.lean",
+    "lineCount": 268,
+    "fileSize": 14788,
+    "theoremCount": 8,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 1,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-07-23",
+    "mathlibImportCount": 1,
+    "reiImportCount": 1,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "8 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-07-23",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

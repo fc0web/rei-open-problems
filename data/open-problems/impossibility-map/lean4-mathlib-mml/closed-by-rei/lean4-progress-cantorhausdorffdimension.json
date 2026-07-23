@@ -9,18 +9,18 @@
     "sourceCode": "data/lean4-mathlib/CollatzRei/CantorHausdorffDimension.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Cantor Hausdorff Dimension — 20 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Cantor Hausdorff Dimension — 定理 20 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Cantor Hausdorff Dimension — 44 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Cantor Hausdorff Dimension — 定理 44 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.5 (2026-07-23)\n\n   ★ v0.3 → v0.4 差分 (2026-07-22):\n     v0.3 の 3 stub (Section 6 の homothety scaling + Section 4 の upper\n     bound stub) を **real theorem** に格上げ。\n     - `f_left_as_homothety` + `f_right_as_homothety`: functional 同一化を\n       `AffineMap.homothety` の literal identification に refine\n     - `leftImage_hausdorffMeasure_scaling` + `rightImage_hausdorffMeasure_scaling`:\n       Mathlib `hausdorffMeasure_homothety_image` の specialization\n     - `cantorSet_hausdorffMeasure_self_similar`:"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\n\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\n     v0.7 の strong upper bound を基盤に、 full equality への lower bound path\n     を **reduction phase** として整備。 full lower bound 実装は Mathlib の\n     Frostman lemma / Cantor measure infrastructure 未収録で substantial (v0.9+\n     複数 session)、 v0.8 では 「positivity implies equality」 reduction を\n     axiom-free real theorem 化して 未来 STEP の target 明確化。\n\n     v0.8 新規 real theorems (Section 11, ★ 全 axiom-free with Mathlib 標準\n     [p"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-07-22",
+  "lastUpdate": "2026-07-23",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -37,7 +37,10 @@
       "Mathlib.Analysis.SpecialFunctions.Log.Basic",
       "Mathlib.Analysis.SpecialFunctions.Log.Base",
       "Mathlib.Analysis.SpecialFunctions.Pow.NNReal",
-      "Mathlib.LinearAlgebra.AffineSpace.AffineMap"
+      "Mathlib.LinearAlgebra.AffineSpace.AffineMap",
+      "Mathlib.Data.Fintype.Vector",
+      "Mathlib.Data.Fintype.BigOperators",
+      "Mathlib.Topology.Instances.ENNReal.Lemmas"
     ],
     "reiImports": [],
     "external": [],
@@ -49,9 +52,9 @@
     "proofRef": {
       "lean4": "CantorHausdorffDimension.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-07-22"
+      "oleanDate": "2026-07-23"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.5 (2026-07-23)\n\n   ★ v0.3 → v0.4 差分 (2026-07-22):\n     v0.3 の 3 stub (Section 6 の homothety scali",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\n\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\n     v0.7 の st",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -62,16 +65,16 @@
   },
   "leanProgressMeta": {
     "fileName": "CantorHausdorffDimension.lean",
-    "lineCount": 395,
-    "fileSize": 23631,
-    "theoremCount": 20,
+    "lineCount": 1037,
+    "fileSize": 57508,
+    "theoremCount": 44,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 4,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-07-22",
-    "mathlibImportCount": 7,
+    "oleanDate": "2026-07-23",
+    "mathlibImportCount": 10,
     "reiImportCount": 0,
     "category": "closed-by-rei"
   },
@@ -81,7 +84,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "20 theorems/lemmas, 1 defs"
+    "notes": "44 theorems/lemmas, 4 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -94,6 +97,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-07-22",
+  "ingested": "2026-07-23",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
