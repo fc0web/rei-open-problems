@@ -1,0 +1,179 @@
+{
+  "id": "SESSION-2026-07-26-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-26",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-26: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "ja": "開発セッション 2026-07-26: Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-26. 18 commits, 21 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-26",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "f8ad77702",
+      "5e37787c3",
+      "34746bbbf",
+      "ecc00c08e",
+      "60f699e0b",
+      "cbde5d1fa",
+      "d5242f334",
+      "f328230b5",
+      "062ca76d7",
+      "bbbadd61f",
+      "11a7ee9c7",
+      "12ce06209",
+      "4ce76a39a",
+      "c6e2b9f76",
+      "d4cf531de",
+      "41e8befe4",
+      "8fdafbe6c",
+      "2f59e4fe3"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 18,
+    "newFiles": {
+      "lean": 3,
+      "ts": 49,
+      "json": 152,
+      "md": 6,
+      "other": 12
+    },
+    "newFilesTotal": 222,
+    "newTheorems": 21,
+    "newScripts": [
+      "publish-paper-026v2-v03-zenodo.ts",
+      "publish-paper-026v2-zenodo.ts",
+      "publish-paper-063-v02-zenodo.ts",
+      "publish-paper-103-zenodo.ts",
+      "publish-paper-104-zenodo.ts",
+      "publish-paper-133-zenodo.ts",
+      "publish-paper-134-zenodo.ts",
+      "publish-paper-135-zenodo.ts",
+      "publish-paper-137-zenodo.ts",
+      "publish-paper-138-zenodo.ts",
+      "publish-paper-139-zenodo.ts",
+      "publish-paper-140-zenodo.ts",
+      "publish-paper-141-zenodo.ts",
+      "publish-paper-142-zenodo.ts",
+      "publish-paper-143-zenodo.ts",
+      "publish-paper-145-v06-zenodo.ts",
+      "publish-paper-145-v07-zenodo.ts",
+      "publish-paper-145-v08-zenodo.ts",
+      "publish-paper-145-zenodo.ts",
+      "publish-paper-146-zenodo.ts",
+      "publish-paper-147-zenodo.ts",
+      "publish-paper-148-zenodo.ts",
+      "publish-paper-149-zenodo.ts",
+      "publish-paper-150-v03-zenodo.ts",
+      "publish-paper-150-zenodo.ts",
+      "publish-paper-151-zenodo.ts",
+      "publish-paper-152-v02-zenodo.ts",
+      "publish-paper-152-v03-zenodo.ts",
+      "publish-paper-152-zenodo.ts",
+      "publish-paper-156-zenodo.ts",
+      "publish-paper-157-zenodo.ts",
+      "publish-paper-158-zenodo.ts",
+      "publish-paper-159-zenodo.ts",
+      "publish-paper-160-zenodo.ts",
+      "publish-paper-161-zenodo.ts",
+      "publish-paper-162-zenodo.ts",
+      "publish-paper-163-zenodo.ts",
+      "publish-paper-164-zenodo.ts",
+      "publish-paper-165-zenodo.ts",
+      "publish-paper-166-zenodo.ts",
+      "publish-paper-167-zenodo.ts",
+      "publish-paper-168-zenodo.ts",
+      "publish-paper-169-zenodo.ts",
+      "publish-paper-170-zenodo.ts",
+      "publish-paper-171-zenodo.ts",
+      "publish-paper-33-zenodo.ts",
+      "publish-paper-39-zenodo.ts",
+      "publish-paper-40-zenodo.ts",
+      "publish-paper-to-github-wiki.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / Paper 26 v3.0 draft + Lean 4 axiom-free (γ-4 śūnyatā decision 3 段 protocol 3/3) / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-26",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

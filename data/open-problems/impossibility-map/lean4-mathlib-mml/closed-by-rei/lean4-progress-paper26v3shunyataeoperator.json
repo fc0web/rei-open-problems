@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP939DEEPSUBCLASSES",
+  "id": "LEAN4-PROGRESS-PAPER26V3SHUNYATAEOPERATOR",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step939DeepSubclasses.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step939DeepSubclasses.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step939DeepSubclasses.lean"
+    "lean4Ref": "Paper26V3ShunyataEOperator.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Deep Subclasses — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Deep Subclasses — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Paper 26 V 3 Shunyata E Operator — 11 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Paper 26 V 3 Shunyata E Operator — 定理 11 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{71,103,167,231}.\n\n  NEW THEOREMS (9 total):\n\n  n%1024 level (stronger, covers 4 sub-classes each):\n    A. n%1024=423  (base=167, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n    B. n%1024=999  (base=231, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n\n  n%4096 level (genuinely need higher modulus):\n    C. n%4096=231  (base=231, K=19, 3^7/2^12)\n    D. n%4096=615  (base=103, K=19, 3^7/2^12)\n    E. n%4096=935  (base=167, K"
+    "headerDoc": ""
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,9 +31,17 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Tactic"
+      "Mathlib.Tactic.Basic",
+      "Mathlib.Tactic.DeriveFintype",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Data.Fintype.Pi",
+      "Mathlib.Data.Fintype.Card",
+      "Mathlib.Data.Finset.Basic",
+      "Mathlib.Data.Finset.Card"
     ],
-    "reiImports": [],
+    "reiImports": [
+      "CollatzRei.Belnap4Embedding"
+    ],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +49,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step939DeepSubclasses.lean",
+      "lean4": "Paper26V3ShunyataEOperator.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-04-20"
+      "oleanDate": "2026-07-26"
     },
-    "scopeOfImpossibility": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{7",
+    "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +63,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step939DeepSubclasses.lean",
-    "lineCount": 174,
-    "fileSize": 10110,
-    "theoremCount": 9,
+    "fileName": "Paper26V3ShunyataEOperator.lean",
+    "lineCount": 314,
+    "fileSize": 14195,
+    "theoremCount": 11,
     "lemmaCount": 0,
-    "defCount": 1,
+    "defCount": 15,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-04-20",
-    "mathlibImportCount": 1,
-    "reiImportCount": 0,
+    "oleanDate": "2026-07-26",
+    "mathlibImportCount": 7,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +83,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 1 defs"
+    "notes": "11 theorems/lemmas, 15 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
