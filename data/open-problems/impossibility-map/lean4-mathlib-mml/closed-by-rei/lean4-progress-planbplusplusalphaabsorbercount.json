@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-PAPER26V3SHUNYATAEOPERATOR",
+  "id": "LEAN4-PROGRESS-PLANBPLUSPLUSALPHAABSORBERCOUNT",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Paper26V3ShunyataEOperator.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean"
+    "lean4Ref": "PlanBPlusPlusAlphaAbsorberCount.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Paper 26 V 3 Shunyata E Operator — 11 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Paper 26 V 3 Shunyata E Operator — 定理 11 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Plan B Plus Plus Alpha Absorber Count — 32 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Plan B Plus Plus Alpha Absorber Count — 定理 32 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\n\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\n\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\n  semantic priority rule that selects SELF (or another extension axis)\n  as the 'Liar-specific' evaluation for self-referential sentences\",\n  and noted \"this rule cannot come from Dfumt8's algebra alone — it\n  must be introduced as a semantic principle\".\n\n  Rei-project 2026-07-28 close-of-session listed three Rule P candidates:\n    (α) absorber-count / (β) Priest-type / (γ) Kripke minimal-fp.\n  The founder chose (α)"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -31,16 +31,10 @@
   },
   "cross_refs": {
     "mathlibImports": [
-      "Mathlib.Tactic.Basic",
-      "Mathlib.Tactic.DeriveFintype",
-      "Mathlib.Data.Fintype.Basic",
-      "Mathlib.Data.Fintype.Pi",
-      "Mathlib.Data.Fintype.Card",
-      "Mathlib.Data.Finset.Basic",
-      "Mathlib.Data.Finset.Card"
+      "Mathlib.Data.Fintype.Card"
     ],
     "reiImports": [
-      "CollatzRei.Belnap4Embedding"
+      "CollatzRei.Dfumt8CategoryExperiment"
     ],
     "external": [],
     "seedKernel": null
@@ -49,11 +43,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Paper26V3ShunyataEOperator.lean",
+      "lean4": "PlanBPlusPlusAlphaAbsorberCount.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-07-26"
+      "oleanDate": "2026-07-29"
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\n\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\n\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\n  semantic priority",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -63,17 +57,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Paper26V3ShunyataEOperator.lean",
-    "lineCount": 314,
-    "fileSize": 14195,
-    "theoremCount": 11,
+    "fileName": "PlanBPlusPlusAlphaAbsorberCount.lean",
+    "lineCount": 352,
+    "fileSize": 16489,
+    "theoremCount": 32,
     "lemmaCount": 0,
-    "defCount": 15,
+    "defCount": 4,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-07-26",
-    "mathlibImportCount": 7,
+    "oleanDate": "2026-07-29",
+    "mathlibImportCount": 1,
     "reiImportCount": 1,
     "category": "closed-by-rei"
   },
@@ -83,7 +77,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "11 theorems/lemmas, 15 defs"
+    "notes": "32 theorems/lemmas, 4 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
