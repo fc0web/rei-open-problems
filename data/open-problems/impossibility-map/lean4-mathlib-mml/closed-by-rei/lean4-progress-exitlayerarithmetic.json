@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-PAPER26V3SHUNYATAEOPERATOR",
+  "id": "LEAN4-PROGRESS-EXITLAYERARITHMETIC",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ExitLayerArithmetic.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Paper26V3ShunyataEOperator.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper26V3ShunyataEOperator.lean"
+    "lean4Ref": "ExitLayerArithmetic.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ExitLayerArithmetic.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Paper 26 V 3 Shunyata E Operator — 11 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Paper 26 V 3 Shunyata E Operator — 定理 11 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Exit Layer Arithmetic — 13 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Exit Layer Arithmetic — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\n  ==========================================================================\n\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん original observation\n    2026-05-28) の exitM = (4^p - 1) / 3 base + ExitLayerStructure.lean\n    (STEP 1233 γ path, 4 structural facts) を拡張。\n\n  ★ 本 file の scope: exit layer m_p の **mod-算術 pattern** + **gap ratio**\n    の axiom-free 補完。 既存 ExitLayer + ExitLayerStructure の 22 theorem\n    は growth / chain / uniqueness を cover しているが、 mod-3 / mod-4 の\n    invariant + successive gap の explicit formula は未提供。\n\n  ★ v0"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -30,17 +30,9 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [
-      "Mathlib.Tactic.Basic",
-      "Mathlib.Tactic.DeriveFintype",
-      "Mathlib.Data.Fintype.Basic",
-      "Mathlib.Data.Fintype.Pi",
-      "Mathlib.Data.Fintype.Card",
-      "Mathlib.Data.Finset.Basic",
-      "Mathlib.Data.Finset.Card"
-    ],
+    "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Belnap4Embedding"
+      "CollatzRei.ExitLayer"
     ],
     "external": [],
     "seedKernel": null
@@ -49,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Paper26V3ShunyataEOperator.lean",
+      "lean4": "ExitLayerArithmetic.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-07-26"
+      "oleanDate": "2026-07-30"
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\n  ==========================================================================\n\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん original ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -63,17 +55,17 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Paper26V3ShunyataEOperator.lean",
-    "lineCount": 314,
-    "fileSize": 14195,
-    "theoremCount": 11,
+    "fileName": "ExitLayerArithmetic.lean",
+    "lineCount": 272,
+    "fileSize": 12153,
+    "theoremCount": 13,
     "lemmaCount": 0,
-    "defCount": 15,
+    "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-07-26",
-    "mathlibImportCount": 7,
+    "oleanDate": "2026-07-30",
+    "mathlibImportCount": 0,
     "reiImportCount": 1,
     "category": "closed-by-rei"
   },
@@ -83,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "11 theorems/lemmas, 15 defs"
+    "notes": "13 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
