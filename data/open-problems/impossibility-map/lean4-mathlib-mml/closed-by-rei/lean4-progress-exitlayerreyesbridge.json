@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-LAWVEREFIXEDPOINTEXPERIMENT",
+  "id": "LEAN4-PROGRESS-EXITLAYERREYESBRIDGE",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/LawvereFixedPointExperiment.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ExitLayerReyesBridge.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "LawvereFixedPointExperiment.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/LawvereFixedPointExperiment.lean"
+    "lean4Ref": "ExitLayerReyesBridge.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ExitLayerReyesBridge.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Lawvere Fixed Point Experiment — 10 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Lawvere Fixed Point Experiment — 定理 10 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Exit Layer Reyes Bridge — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Exit Layer Reyes Bridge — 定理 5 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "CollatzRei.ExitLayerReyesBridge — Rei exit layer と Reyes 2606.02621v2\r\n  「4 mod 6 avoidance」 counting theorem の structural proximity 記録 (axiom-free)\r\n  ==========================================================================\r\n\r\n  ★ Radar 出典 (2026-07-30 Research Radar):\r\n    Manuel-Alejandro Reyes Jiménez, \"A Fibonacci theorem for Collatz trajectories\r\n    via modular graph structure\" (arxiv:2606.02621v2, math.NT, 2026-05-28):\r\n      「∀ m ≥ 1, {1,...,2^m} の odd 数のうち accelerated T =\r\n       (n/2 if even, (3n+1)/2 if odd) orbit が step 2..m 中に residue class\r\n       4 mod 6 を avoid するものが exactly "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -32,7 +32,8 @@
   "cross_refs": {
     "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Dfumt8CategoryExperiment"
+      "CollatzRei.ExitLayer",
+      "CollatzRei.ExitLayerArithmetic"
     ],
     "external": [],
     "seedKernel": null
@@ -41,11 +42,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "LawvereFixedPointExperiment.lean",
+      "lean4": "ExitLayerReyesBridge.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-06-24"
+      "oleanDate": "2026-07-30"
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "CollatzRei.ExitLayerReyesBridge — Rei exit layer と Reyes 2606.02621v2\r\n  「4 mod 6 avoidance」 counting theorem の structural proximity 記録 (axiom-free)\r\n  ================================================",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +56,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "LawvereFixedPointExperiment.lean",
-    "lineCount": 198,
-    "fileSize": 11090,
-    "theoremCount": 10,
+    "fileName": "ExitLayerReyesBridge.lean",
+    "lineCount": 144,
+    "fileSize": 7003,
+    "theoremCount": 5,
     "lemmaCount": 0,
     "defCount": 0,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-06-24",
+    "oleanDate": "2026-07-30",
     "mathlibImportCount": 0,
-    "reiImportCount": 1,
+    "reiImportCount": 2,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +76,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "10 theorems/lemmas, 0 defs"
+    "notes": "5 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
