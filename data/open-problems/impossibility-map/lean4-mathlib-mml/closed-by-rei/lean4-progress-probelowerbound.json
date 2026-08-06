@@ -1,16 +1,16 @@
 {
-  "id": "LEAN4-PROGRESS-STEP1244ZCSGTOSHNOTATIONBRIDGE",
+  "id": "LEAN4-PROGRESS-PROBELOWERBOUND",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1244ZcsgToshNotationBridge.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/ProbeLowerBound.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step1244ZcsgToshNotationBridge.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1244ZcsgToshNotationBridge.lean"
+    "lean4Ref": "ProbeLowerBound.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/ProbeLowerBound.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Zcsg Tosh Notation Bridge — 15 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Zcsg Tosh Notation Bridge — 定理 15 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Probe Lower Bound — 12 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Probe Lower Bound — 定理 12 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -30,11 +30,10 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [],
-    "reiImports": [
-      "CollatzRei.ToshNotation",
-      "CollatzRei.ZcsgCategoryExperiment"
+    "mathlibImports": [
+      "Mathlib.Data.Nat.Factorial.Basic"
     ],
+    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -42,9 +41,9 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step1244ZcsgToshNotationBridge.lean",
+      "lean4": "ProbeLowerBound.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-06-29"
+      "oleanDate": "2026-08-05"
     },
     "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
@@ -56,18 +55,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step1244ZcsgToshNotationBridge.lean",
-    "lineCount": 171,
-    "fileSize": 8020,
-    "theoremCount": 15,
+    "fileName": "ProbeLowerBound.lean",
+    "lineCount": 141,
+    "fileSize": 6845,
+    "theoremCount": 12,
     "lemmaCount": 0,
-    "defCount": 4,
+    "defCount": 1,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-06-29",
-    "mathlibImportCount": 0,
-    "reiImportCount": 2,
+    "oleanDate": "2026-08-05",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -76,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "15 theorems/lemmas, 4 defs"
+    "notes": "12 theorems/lemmas, 1 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"

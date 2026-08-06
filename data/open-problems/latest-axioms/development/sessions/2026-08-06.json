@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-08-06-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-08-06",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-08-06: STEP 1287+1288 patch 2nd: 数訂正 4→3 + 読解順序分離 + Stothers 経路棄却",
+    "ja": "開発セッション 2026-08-06: STEP 1287+1288 patch 2nd: 数訂正 4→3 + 読解順序分離 + Stothers 経路棄却",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-08-06. 39 commits, 18 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-08-06",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "064c4d56e",
+      "ec021f50b",
+      "06d7d4bc2",
+      "fb8f3e674",
+      "2733fdb26",
+      "355b4cbc3",
+      "4c334830f",
+      "5d780cde3",
+      "dfc38c7aa",
+      "2df051ed2",
+      "b527042cb",
+      "178c5868b",
+      "14bb03eac",
+      "5c62e7c8d",
+      "1fec5fed7",
+      "d2f817eb8",
+      "aaf875e16",
+      "05e19ea88",
+      "9a13abc82",
+      "14cf19cfd",
+      "fb86bc5dd",
+      "2b67edef7",
+      "e68022268",
+      "67f31b469",
+      "099152b06",
+      "d5e36a7ec",
+      "08e0aa02a",
+      "21d8f8f6a",
+      "9cc8723e2",
+      "c6ead3c6f",
+      "ff0c9fe9a",
+      "7a407bad7",
+      "9b8544b27",
+      "804c1e9e5",
+      "0f736f285",
+      "2bcb9df61",
+      "113dfbd83",
+      "5edcd494c",
+      "143140a66"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 39,
+    "newFiles": {
+      "lean": 6,
+      "ts": 420,
+      "json": 367,
+      "md": 264,
+      "other": 3101
+    },
+    "newFilesTotal": 4158,
+    "newTheorems": 18,
+    "newScripts": [
+      "quality-sweep.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "STEP 1287+1288 patch 2nd: 数訂正 4→3 + 読解順序分離 + Stothers 経路棄却 / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1279 / Papers 176) / STEP 1287+1288 patch: framing 訂正 + +1 差解決 + STEP 1290 再スコープ"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-08-06",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
