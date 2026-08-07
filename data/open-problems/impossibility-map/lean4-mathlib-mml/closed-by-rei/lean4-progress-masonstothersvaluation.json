@@ -1,0 +1,96 @@
+{
+  "id": "LEAN4-PROGRESS-MASONSTOTHERSVALUATION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/MasonStothersValuation.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "MasonStothersValuation.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/MasonStothersValuation.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Mason Stothers Valuation — 3 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Mason Stothers Valuation — 定理 3 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1290: Mason-Stothers by valuation-factor reformulation\r\n  ============================================================\r\n\r\n  ★ Framing (2026-08-07 藤本さん 事前訂正):\r\n    「別経路の独立形式化」 (initial 誤想定) → 「付値・因子による別定式化」\r\n\r\n  ★ Position (2026-08-07 藤本さん 事前訂正):\r\n    (b) is NOT a standalone \"4th independent implementation\" — it is\r\n    the工程 (machinery-building step) for (c) Brownawell-Masser n-term\r\n    generalization. Do NOT report completion as \"独立実装 4 件目\".\r\n\r\n  ★ Independence estimate correction (2026-08-07 藤本さん):\r\n    Mason-Stothers's all known proofs use derivatives (that's why they\r\n    are charact"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-08-07",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.NumberTheory.FunctionField",
+      "Mathlib.RingTheory.Polynomial.Radical",
+      "Mathlib.RingTheory.Polynomial.UniqueFactorization",
+      "Mathlib.NumberTheory.FLT.MasonStothers"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "MasonStothersValuation.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-08-07"
+    },
+    "scopeOfImpossibility": "STEP 1290: Mason-Stothers by valuation-factor reformulation\r\n  ============================================================\r\n\r\n  ★ Framing (2026-08-07 藤本さん 事前訂正):\r\n    「別経路の独立形式化」 (initial 誤想定) → 「付値・",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "MasonStothersValuation.lean",
+    "lineCount": 289,
+    "fileSize": 17452,
+    "theoremCount": 3,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-08-07",
+    "mathlibImportCount": 4,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "3 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-08-07",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
