@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-STEP984BALANCECHECK",
+  "id": "LEAN4-PROGRESS-BROWNAWELLMASSERAXIOMCHECK",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step984BalanceCheck.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/BrownawellMasserAxiomCheck.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step984BalanceCheck.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step984BalanceCheck.lean"
+    "lean4Ref": "BrownawellMasserAxiomCheck.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/BrownawellMasserAxiomCheck.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Balance Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Balance Check — 定理 0 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Brownawell Masser Axiom Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Brownawell Masser Axiom Check — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Step984 empirical balance statistics — small-K evaluation.\n  Uses #eval to compute surrogate mapBalanceAtDepth values."
+    "headerDoc": "STEP 1291 axiom profile verification for BrownawellMasser.lean\n  ==============================================================\n  Run: `lake env lean CollatzRei/BrownawellMasserAxiomCheck.lean`"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
@@ -32,7 +32,7 @@
   "cross_refs": {
     "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Step984ChangMapBalance"
+      "CollatzRei.BrownawellMasser"
     ],
     "external": [],
     "seedKernel": null
@@ -41,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Step984BalanceCheck.lean",
+      "lean4": "BrownawellMasserAxiomCheck.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Step984 empirical balance statistics — small-K evaluation.\n  Uses #eval to compute surrogate mapBalanceAtDepth values.",
+    "scopeOfImpossibility": "STEP 1291 axiom profile verification for BrownawellMasser.lean\n  ==============================================================\n  Run: `lake env lean CollatzRei/BrownawellMasserAxiomCheck.lean`",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -55,9 +55,9 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step984BalanceCheck.lean",
-    "lineCount": 17,
-    "fileSize": 559,
+    "fileName": "BrownawellMasserAxiomCheck.lean",
+    "lineCount": 16,
+    "fileSize": 484,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
