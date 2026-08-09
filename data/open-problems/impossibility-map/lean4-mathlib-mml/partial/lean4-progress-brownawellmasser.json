@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Brownawell Masser — 定理 5 / sorry 1 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1291: Brownawell-Masser n-term abc + n-tuple Wronskian machinery\n  ============================================================\n\n  ★ Framing (following STEP 1290 discipline):\n    \"n-tuple Wronskian machinery + Brownawell-Masser n-term abc statement\"\n    NOT \"4th independent implementation\" — 藤本さん 2026-08-07 order\n    preservation principle applies.\n\n  ★ Position (2026-08-07 → 2026-08-08 arc):\n    STEP 1290 (b) closed as P2 (Mason-Stothers = Mathlib wrap).\n    STEP 1291 (c) is the \"genuine 追加\" candidate: Mathlib has NEITHER\n    Brownawell-Masser NOR n-tuple Wronskian. `Wronskian.lean` docs"
+    "headerDoc": "STEP 1291: Brownawell-Masser n-term abc + n-tuple Wronskian machinery\r\n  ============================================================\r\n\r\n  ★ Framing (following STEP 1290 discipline):\r\n    \"n-tuple Wronskian machinery + Brownawell-Masser n-term abc statement\"\r\n    NOT \"4th independent implementation\" — 藤本さん 2026-08-07 order\r\n    preservation principle applies.\r\n\r\n  ★ Position (2026-08-07 → 2026-08-08 arc):\r\n    STEP 1290 (b) closed as P2 (Mason-Stothers = Mathlib wrap).\r\n    STEP 1291 (c) is the \"genuine 追加\" candidate: Mathlib has NEITHER\r\n    Brownawell-Masser NOR n-tuple Wronskian. `Wronskian"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-08-08",
+  "lastUpdate": "2026-08-09",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -49,7 +49,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-08-08"
     },
-    "scopeOfImpossibility": "STEP 1291: Brownawell-Masser n-term abc + n-tuple Wronskian machinery\n  ============================================================\n\n  ★ Framing (following STEP 1290 discipline):\n    \"n-tuple Wronski",
+    "scopeOfImpossibility": "STEP 1291: Brownawell-Masser n-term abc + n-tuple Wronskian machinery\r\n  ============================================================\r\n\r\n  ★ Framing (following STEP 1290 discipline):\r\n    \"n-tuple Wro",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 1 sorry; integrate to Mathlib",
@@ -61,7 +61,7 @@
   "leanProgressMeta": {
     "fileName": "BrownawellMasser.lean",
     "lineCount": 216,
-    "fileSize": 10545,
+    "fileSize": 10760,
     "theoremCount": 5,
     "lemmaCount": 0,
     "defCount": 1,
@@ -92,6 +92,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-08-08",
+  "ingested": "2026-08-09",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

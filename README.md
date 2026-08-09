@@ -4,7 +4,7 @@
 
 **License**: [CC-BY 4.0](LICENSE) — free to reuse with attribution.
 
-**Version**: 2.0-public (snapshot generated 2026-08-08)
+**Version**: 2.0-public (snapshot generated 2026-08-09)
 
 ---
 
