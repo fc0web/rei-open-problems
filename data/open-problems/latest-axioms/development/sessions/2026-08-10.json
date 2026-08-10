@@ -1,0 +1,142 @@
+{
+  "id": "SESSION-2026-08-10-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-08-10",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-08-10: STEP 1318 arc — Büchi 95% 境界 backlog #11 site 反映 + Findings ",
+    "ja": "開発セッション 2026-08-10: STEP 1318 arc — Büchi 95% 境界 backlog #11 site 反映 + Findings ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-08-10. 31 commits, 3 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-08-10",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "6334fd45b",
+      "7db8083c2",
+      "816423214",
+      "b048d858c",
+      "5f7d16d6e",
+      "59c2abdc8",
+      "dc250d676",
+      "8a84c840f",
+      "3988a4a89",
+      "ae7e21824",
+      "0f55c937a",
+      "1e08d32d5",
+      "ee877ec14",
+      "dd4e82946",
+      "2b8fe67c5",
+      "34ea25c5a",
+      "5a9ef858d",
+      "3d3a4e60f",
+      "73bb48608",
+      "5e8ea1e5f",
+      "11b5c27f7",
+      "c36d847e1",
+      "1a5e4a15d",
+      "31da7d1f0",
+      "ea02a7897",
+      "26ed6f238",
+      "dfdfff61f",
+      "6d9fe9c3f",
+      "f1db7bc7e",
+      "53e1de0a8",
+      "a08f9601e"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 31,
+    "newFiles": {
+      "lean": 1,
+      "ts": 15,
+      "json": 563,
+      "md": 46,
+      "other": 140
+    },
+    "newFilesTotal": 765,
+    "newTheorems": 3,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "STEP 1318 arc — Büchi 95% 境界 backlog #11 site 反映 + Findings 3-7 narrative 訂正 明示 / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1279 / Papers 176) / STEP 1317 arc — chat-Claude 追加 3 file site 反映 (toolchain-stack-simulator + specialized-ai-entry-judg"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-08-10",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
