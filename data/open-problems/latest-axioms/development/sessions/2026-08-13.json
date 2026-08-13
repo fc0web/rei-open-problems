@@ -1,26 +1,26 @@
 {
-  "id": "SESSION-2026-08-11-DEVLOG",
+  "id": "SESSION-2026-08-13-DEVLOG",
   "tier": 7,
   "source": "development/sessions",
   "sourceRef": {
     "url": "https://github.com/fc0web/rei-aios/commits/main",
-    "citation": "Rei-AIOS dev session 2026-08-11",
+    "citation": "Rei-AIOS dev session 2026-08-13",
     "lean4Ref": null,
     "sourceCode": null
   },
   "statement": {
-    "en": "Dev session 2026-08-11: STEP 1331 拡張 — papers/ Zenodo aggregation endpoint + Lean 4 ",
-    "ja": "開発セッション 2026-08-11: STEP 1331 拡張 — papers/ Zenodo aggregation endpoint + Lean 4 ",
+    "en": "Dev session 2026-08-13: fix: STEP 1334 — KnowledgeApi 配線漏れ修正 (STEP 151 retrofit) / t",
+    "ja": "開発セッション 2026-08-13: fix: STEP 1334 — KnowledgeApi 配線漏れ修正 (STEP 151 retrofit) / t",
     "latex": null,
     "preview_source": "tier7-session-log-v0.1",
-    "summary": "Auto-generated session log for 2026-08-11. 37 commits, 0 new theorems detected via git log scan."
+    "summary": "Auto-generated session log for 2026-08-13. 24 commits, 0 new theorems detected via git log scan."
   },
   "field": "development",
   "subfield": "sessions",
   "proposer": "Rei-AIOS team (藤本 + Claude)",
   "year": 2026,
   "status": "completed",
-  "lastUpdate": "2026-08-11",
+  "lastUpdate": "2026-08-13",
   "reiTyping": {
     "primaryType": "VII_REI_GENERATED",
     "secondaryType": null,
@@ -31,43 +31,30 @@
   },
   "cross_refs": {
     "commits": [
-      "1ad34c84f",
-      "0348f326b",
-      "b0681fb0a",
-      "1072005a0",
-      "1df13624f",
-      "1607b5af4",
-      "24f389eac",
-      "7a0773940",
-      "8081642a6",
-      "447cb0806",
-      "f437147c4",
-      "65791a004",
-      "915403dd0",
-      "7222f63d2",
-      "2853e60d7",
-      "744133ac6",
-      "e8a26c454",
-      "ce8f5050d",
-      "8bf20feeb",
-      "e73ebb86e",
-      "f3f4877e3",
-      "0c374e8a0",
-      "ad2c534ed",
-      "35edad276",
-      "b8b3aa883",
-      "2b697d0b9",
-      "55695a525",
-      "add48eee6",
-      "7e194217d",
-      "98cda74b6",
-      "0b020dee7",
-      "83ae370cc",
-      "6334fd45b",
-      "7db8083c2",
-      "816423214",
-      "b048d858c",
-      "5f7d16d6e"
+      "4bbb1ae84",
+      "a7dcfd55b",
+      "85cc0e78f",
+      "c7a119bea",
+      "6d314dd82",
+      "d1ea2eb97",
+      "5c9cfade1",
+      "1204ce1da",
+      "78a70706d",
+      "d3fa6f327",
+      "a80245043",
+      "38501066f",
+      "600cf4d9c",
+      "810a40eac",
+      "8d1367531",
+      "3d04359bf",
+      "fe94d8254",
+      "02dcdf449",
+      "0c662a06f",
+      "780b79968",
+      "977ea8c95",
+      "cd7141727",
+      "2a796cced",
+      "bb3d0b9e7"
     ],
     "external": [],
     "seedKernel": null
@@ -117,22 +104,22 @@
     "peaceCheck": "passed"
   },
   "sessionMeta": {
-    "classification": "docs",
-    "commitCount": 37,
+    "classification": "fix",
+    "commitCount": 24,
     "newFiles": {
       "lean": 0,
-      "ts": 3,
-      "json": 300,
-      "md": 63,
-      "other": 56
+      "ts": 5,
+      "json": 210,
+      "md": 27,
+      "other": 102
     },
-    "newFilesTotal": 422,
+    "newFilesTotal": 344,
     "newTheorems": 0,
     "newScripts": [
-      "gen-lean-metadata.ts"
+      "claude-md-pointer-gen.ts"
     ],
     "memoryAdded": 0,
-    "highlights": "STEP 1331 拡張 — papers/ Zenodo aggregation endpoint + Lean 4 metadata sample 6 → 16 拡張 (item 4 + item / STEP 1330 CONVERGENCE-NOTES.md option B 適用 — 「6 point independent convergence table」 section 削除、 pro / STEP 1331 AI-readable infrastructure 3 種追加 — llms.txt + data/README.md + Lean 4 AXIOM_PROFILES + met"
+    "highlights": "fix: STEP 1334 — KnowledgeApi 配線漏れ修正 (STEP 151 retrofit) / test 39/39 PASS / tools(explosion-model-v0): deploy chat-Claude 「関数爆発モデル」 self-contained HTML / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1279 / Papers 176)"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -145,6 +132,6 @@
     "sorryCount": null,
     "notes": null
   },
-  "ingested": "2026-08-11",
+  "ingested": "2026-08-13",
   "ingestMethod": "tier7-session-log-auto-v0.1"
 }
