@@ -1,39 +1,39 @@
 {
-  "id": "LEAN4-PROGRESS-STEP843FUJIMOTOINFINITYALGEBRA",
+  "id": "LEAN4-PROGRESS-SSMQUANTERRORBOUNDEDAXIOMCHECK",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step843FujimotoInfinityAlgebra.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SsmQuantErrorBoundedAxiomCheck.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step843FujimotoInfinityAlgebra.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step843FujimotoInfinityAlgebra.lean"
+    "lean4Ref": "SsmQuantErrorBoundedAxiomCheck.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SsmQuantErrorBoundedAxiomCheck.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Fujimoto Infinity Algebra — 1 theorems/lemmas, 0 sorry, 11 axiom",
-    "ja": "Lean 4 進捗: Fujimoto Infinity Algebra — 定理 1 / sorry 0 / axiom 11",
+    "en": "Lean 4 progress: Ssm Quant Error Bounded Axiom Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Ssm Quant Error Bounded Axiom Check — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
   },
   "field": "lean4-mathlib-mml",
-  "subfield": "partial",
+  "subfield": "world-open",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
-  "status": "progressing",
+  "status": "open",
   "lastUpdate": "2026-08-14",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
-    "dfumt8": "BOTH",
-    "dfumt8Reason": "Partial: 0 sorry residual",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Scaffold only",
     "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
-    "confidence": 0.7
+    "confidence": 0.5
   },
   "cross_refs": {
-    "mathlibImports": [
-      "Mathlib.Tactic.Basic"
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.SsmQuantErrorBounded"
     ],
-    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -41,33 +41,33 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Step843FujimotoInfinityAlgebra.lean",
-      "oleanBuilt": true,
-      "oleanDate": "2026-04-16"
+      "lean4": "SsmQuantErrorBoundedAxiomCheck.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
     },
     "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
       "bypassPossible": true,
-      "bypassMethod": "Close 0 sorry; integrate to Mathlib",
-      "bypassCost": "Hours to days per sorry"
+      "bypassMethod": null,
+      "bypassCost": "N/A"
     },
     "relatedImpossibilities": [],
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step843FujimotoInfinityAlgebra.lean",
-    "lineCount": 90,
-    "fileSize": 3021,
-    "theoremCount": 1,
+    "fileName": "SsmQuantErrorBoundedAxiomCheck.lean",
+    "lineCount": 5,
+    "fileSize": 187,
+    "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
     "sorryCount": 0,
-    "axiomCount": 11,
-    "hasOleanBuild": true,
-    "oleanDate": "2026-04-16",
-    "mathlibImportCount": 1,
-    "reiImportCount": 0,
-    "category": "partial"
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "world-open"
   },
   "formalization": {
     "lean4": "partial",
@@ -75,7 +75,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "1 theorems/lemmas, 0 defs"
+    "notes": "0 theorems/lemmas, 0 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
