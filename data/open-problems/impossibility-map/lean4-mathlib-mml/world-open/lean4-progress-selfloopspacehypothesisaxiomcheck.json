@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-PAPER159INCLOSUREPRINTAXIOMS",
+  "id": "LEAN4-PROGRESS-SELFLOOPSPACEHYPOTHESISAXIOMCHECK",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Paper159InclosurePrintAxioms.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SelfLoopSpaceHypothesisAxiomCheck.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Paper159InclosurePrintAxioms.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Paper159InclosurePrintAxioms.lean"
+    "lean4Ref": "SelfLoopSpaceHypothesisAxiomCheck.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SelfLoopSpaceHypothesisAxiomCheck.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Paper 159 Inclosure Print Axioms — 0 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Paper 159 Inclosure Print Axioms — 定理 0 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Self Loop Space Hypothesis Axiom Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Self Loop Space Hypothesis Axiom Check — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Axiom audit for Paper 159 Inclosure formalization.\n  Verifies all load-bearing theorems use only the default Lean kernel axioms."
+    "headerDoc": "STEP 1339 axiom profile check for SelfLoopSpaceHypothesis"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
@@ -32,7 +32,7 @@
   "cross_refs": {
     "mathlibImports": [],
     "reiImports": [
-      "CollatzRei.Paper159Inclosure"
+      "CollatzRei.SelfLoopSpaceHypothesis"
     ],
     "external": [],
     "seedKernel": null
@@ -41,11 +41,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "conjectured",
     "proofRef": {
-      "lean4": "Paper159InclosurePrintAxioms.lean",
+      "lean4": "SelfLoopSpaceHypothesisAxiomCheck.lean",
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Axiom audit for Paper 159 Inclosure formalization.\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.",
+    "scopeOfImpossibility": "STEP 1339 axiom profile check for SelfLoopSpaceHypothesis",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -55,9 +55,9 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Paper159InclosurePrintAxioms.lean",
-    "lineCount": 18,
-    "fileSize": 576,
+    "fileName": "SelfLoopSpaceHypothesisAxiomCheck.lean",
+    "lineCount": 15,
+    "fileSize": 578,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
