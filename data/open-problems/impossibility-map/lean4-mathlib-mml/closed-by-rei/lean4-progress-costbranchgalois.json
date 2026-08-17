@@ -1,0 +1,94 @@
+{
+  "id": "LEAN4-PROGRESS-COSTBRANCHGALOIS",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/CostBranchGalois.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "CostBranchGalois.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/CostBranchGalois.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Cost Branch Galois — 11 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Cost Branch Galois — 定理 11 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1340 (2026-08-17): ⧗/⋔ Galois 接続 — chat-Claude 2026-08-17 discussion Turn 13 最重要 insight\r\n「新記号を足すより 既存 4 個 (⧗/⋔/↯/⟡) の 関係を 一本の 定理で 締める」 の Rei stack Lean 4\r\nformalization。 ⧗[t] = t を証明するのに 足すべき公理 と ⋔[a] = a を抜いたら 失われる定理\r\nは Tarski (1930s) 帰結演算子 の Galois pair 標準形。 本 file は Formal Concept Analysis\r\n(Wille 1982) polarity 経由で 抽象定式化。\r\n\r\n★ Honest scope (譲れない):\r\n(1) 本 file は Turn 13 chat-Claude 提案の formal scaffold + axiom-free proof、 実 SEED_KERNEL\r\n    1,675 理論 or Lean 4 CollatzRei theorem に 対する 具体的 ⧗/⋔ 計算は 与えていない\r\n    (計算は 別 script、 本 file は 抽象定理のみ)。\r\n(2) axiom-free 保証: sorry 一切なし、 native_decide "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-08-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Order.GaloisConnection.Basic",
+      "Mathlib.Data.Set.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "CostBranchGalois.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-08-16"
+    },
+    "scopeOfImpossibility": "STEP 1340 (2026-08-17): ⧗/⋔ Galois 接続 — chat-Claude 2026-08-17 discussion Turn 13 最重要 insight\r\n「新記号を足すより 既存 4 個 (⧗/⋔/↯/⟡) の 関係を 一本の 定理で 締める」 の Rei stack Lean 4\r\nformalization。 ⧗[t] = t を証明するのに 足すべき公理 ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "CostBranchGalois.lean",
+    "lineCount": 181,
+    "fileSize": 8995,
+    "theoremCount": 11,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-08-16",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "11 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-08-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

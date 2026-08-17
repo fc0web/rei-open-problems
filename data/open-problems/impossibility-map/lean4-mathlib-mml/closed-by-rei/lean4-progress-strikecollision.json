@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-STRIKECOLLISION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/StrikeCollision.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "StrikeCollision.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/StrikeCollision.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Strike Collision — 14 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Strike Collision — 定理 14 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1340 Arc Item 2 (2026-08-17): ↯ Lean 4 collision search — chat-Claude 2026-08-17\r\ndiscussion turn 6 提案 「↯[A,B] = A と B が同時には成り立たない最小の共有点」 の Rei stack\r\nLean 4 formalization。 Strike 関係 (predicate 両立不能性) の 抽象定式化 + set-level 対応\r\n+ D-FUMT₈ BOTH-candidate 連結 (chat-Claude turn 6 「8 値では ↯ の 到達先が ⊥ でなく BOTH」\r\nの 部分実現)。\r\n\r\n★ Honest scope (譲れない):\r\n(1) 本 file は Strike の 抽象定式化 (predicate-level + set-level) と 基本性質 (symm、\r\n    disjoint 相当、 BOTH-candidate 連結) のみ、 実 SAT solver + parametric search による\r\n    concrete Collatz α 非存在計算は 別 script (本 file は 抽象命題 のみ)。\r\n(2) axiom-free 保証: sorry 一切なし、 native_decide 系"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-08-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.Set.Basic"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "StrikeCollision.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-08-16"
+    },
+    "scopeOfImpossibility": "STEP 1340 Arc Item 2 (2026-08-17): ↯ Lean 4 collision search — chat-Claude 2026-08-17\r\ndiscussion turn 6 提案 「↯[A,B] = A と B が同時には成り立たない最小の共有点」 の Rei stack\r\nLean 4 formalization。 Strike 関係 (predicate 両",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "StrikeCollision.lean",
+    "lineCount": 155,
+    "fileSize": 6756,
+    "theoremCount": 14,
+    "lemmaCount": 0,
+    "defCount": 3,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-08-16",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "14 theorems/lemmas, 3 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-08-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

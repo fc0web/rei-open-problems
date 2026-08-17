@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-SELFTHREEBITDECOMPOSITION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SelfThreeBitDecomposition.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SelfThreeBitDecomposition.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SelfThreeBitDecomposition.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Self Three Bit Decomposition — 10 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Self Three Bit Decomposition — 定理 10 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1340 Arc Item 4 (2026-08-17): ⟲ SELF 3-bit 分解 usage 定理 — chat-Claude 2026-08-17\r\ndiscussion で 発生した 3-bit 分解 (⧗ / ⋔ / ↯ → 2³ = 8 combination = D-FUMT₈ cardinality)\r\nの Lean 4 formalization。 SELF ⟲ (6.0) = ⧗ ✓ + ⋔ ✓ + ↯ ✓ 「全 立った」 状態 の\r\nmachine-checked characterization + 他 7 D-FUMT₈ tag との 排他性 定理。\r\n\r\nchat-Claude test criterion (turn 12) 「SELF⟲ を 使わないと 証明できない 定理」 の\r\n部分応答: SELF は 3 独立 bit 全 立った 唯一の tag = 2 bit 部分集合では 表現不能、\r\nこれが Rei stack で 3-bit encoding 経由の 「使用例」 1 個目。\r\n\r\n3-bit ↔ D-FUMT₈ mapping (memory catalog Layer 4):\r\n  ✗ ✗ ✗ → FALSE (0.0)      何も 起きていない\r\n  ✓ ✗ ✗ → TRUE (1.0)       代価のみ = "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-08-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "SelfThreeBitDecomposition.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-08-16"
+    },
+    "scopeOfImpossibility": "STEP 1340 Arc Item 4 (2026-08-17): ⟲ SELF 3-bit 分解 usage 定理 — chat-Claude 2026-08-17\r\ndiscussion で 発生した 3-bit 分解 (⧗ / ⋔ / ↯ → 2³ = 8 combination = D-FUMT₈ cardinality)\r\nの Lean 4 formalization。 SELF ⟲ ",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SelfThreeBitDecomposition.lean",
+    "lineCount": 174,
+    "fileSize": 8693,
+    "theoremCount": 10,
+    "lemmaCount": 0,
+    "defCount": 9,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-08-16",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "10 theorems/lemmas, 9 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-08-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

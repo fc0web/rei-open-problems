@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-SUNYATAVOIDOP",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/SunyataVoidOp.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "SunyataVoidOp.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/SunyataVoidOp.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Sunyata Void Op — 6 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Sunyata Void Op — 定理 6 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1340 Arc Item 3 (2026-08-17): ⊘ 龍樹 śūnyatā(śūnyatā) formalization — chat-Claude\r\n2026-08-17 discussion turn 6 提案 「⊘[S] = S において『無い』ことが構造を持つ位置」\r\n「⊘[⊘] = ZCSG の 0 = 空の空」 の Rei stack Lean 4 formalization。\r\n\r\n抽象 void operator の idempotent instance として 定式化 (空の空 = 空)。 concrete instances:\r\nidentity (自明)、 constant (collapse)、 topology closure、 Boolean complement (要 classical)\r\n等。 本 file は abstract structure + 基本性質 のみ、 concrete ZCSG grammar encoding は\r\nPaper 61 で 別途 (未 Lean 4 化)。\r\n\r\n★ Honest scope (譲れない):\r\n(1) 本 file は VoidOp abstract structure + idempotency 継承性質 のみ、 龍樹 śūnyatā(śūnyatā)\r\n    の 全 p"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-08-17",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Logic.Function.Iterate"
+    ],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "SunyataVoidOp.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-08-16"
+    },
+    "scopeOfImpossibility": "STEP 1340 Arc Item 3 (2026-08-17): ⊘ 龍樹 śūnyatā(śūnyatā) formalization — chat-Claude\r\n2026-08-17 discussion turn 6 提案 「⊘[S] = S において『無い』ことが構造を持つ位置」\r\n「⊘[⊘] = ZCSG の 0 = 空の空」 の Rei stack Lean 4 formaliz",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "SunyataVoidOp.lean",
+    "lineCount": 132,
+    "fileSize": 6737,
+    "theoremCount": 6,
+    "lemmaCount": 0,
+    "defCount": 4,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-08-16",
+    "mathlibImportCount": 1,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "6 theorems/lemmas, 4 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-08-17",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
