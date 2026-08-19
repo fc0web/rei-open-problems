@@ -1,0 +1,149 @@
+{
+  "id": "SESSION-2026-08-19-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-08-19",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-08-19: Auto: site rebuild + stats refresh (SEED 1677 / STEP 1343 / ",
+    "ja": "開発セッション 2026-08-19: Auto: site rebuild + stats refresh (SEED 1677 / STEP 1343 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-08-19. 33 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-08-19",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "6b92a10bb",
+      "886688e7f",
+      "816ce4c71",
+      "0516517e9",
+      "b78ff0dc6",
+      "21e0ca9e2",
+      "c8d07c358",
+      "9d76b51f5",
+      "616b74f92",
+      "79ffef8db",
+      "dca81ce6e",
+      "d14fe2e95",
+      "15a158b23",
+      "6e96c6f8b",
+      "df5f54df5",
+      "46bc46be9",
+      "bcb10dd25",
+      "85a943c27",
+      "9eb45a54c",
+      "443ae663a",
+      "26898cee5",
+      "cec132447",
+      "dfe5e3ded",
+      "69939e999",
+      "77255df7e",
+      "21d542578",
+      "3cd1256a3",
+      "7c43ce0c5",
+      "f98877af7",
+      "591ea720f",
+      "d59f7efe5",
+      "8ba763cbe",
+      "546a1c3f5"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 33,
+    "newFiles": {
+      "lean": 0,
+      "ts": 10,
+      "json": 520,
+      "md": 58,
+      "other": 200
+    },
+    "newFilesTotal": 788,
+    "newTheorems": 0,
+    "newScripts": [
+      "_diag-axiom-count.ts",
+      "build-index.ts",
+      "search-verified.ts",
+      "dump-seed-kernel-json.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1677 / STEP 1343 / Papers 176) / search_verified v0.1: local探査 engine (SEED_KERNEL + Lean 4 CollatzRei/, 49/49 test) / site + docs: rei-meta-mcp Phase 1 arc (コネクタ群の上に立つ圏)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-08-19",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
