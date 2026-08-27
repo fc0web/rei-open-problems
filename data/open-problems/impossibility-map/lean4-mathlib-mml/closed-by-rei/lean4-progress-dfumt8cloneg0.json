@@ -1,16 +1,16 @@
 {
-  "id": "LEAN4-PROGRESS-STEP1245FRAMECHECKSUM",
+  "id": "LEAN4-PROGRESS-DFUMT8CLONEG0",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Step1245FrameChecksum.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Dfumt8CloneG0.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "Step1245FrameChecksum.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/Step1245FrameChecksum.lean"
+    "lean4Ref": "Dfumt8CloneG0.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Dfumt8CloneG0.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Frame Checksum — 7 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Frame Checksum — 定理 7 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Dfumt 8 Clone G 0 — 78 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Dfumt 8 Clone G 0 — 定理 78 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
     "headerDoc": ""
@@ -30,11 +30,12 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [],
+    "mathlibImports": [
+      "Mathlib.Data.Finset.Card",
+      "Mathlib.Data.Finset.Insert"
+    ],
     "reiImports": [
-      "CollatzRei.ToshNotation",
-      "CollatzRei.ZcsgCategoryExperiment",
-      "CollatzRei.Step1244ZcsgToshNotationBridge"
+      "CollatzRei.Dfumt8CategoryExperiment"
     ],
     "external": [],
     "seedKernel": null
@@ -43,9 +44,9 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "Step1245FrameChecksum.lean",
+      "lean4": "Dfumt8CloneG0.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-06-29"
+      "oleanDate": "2026-08-26"
     },
     "scopeOfImpossibility": "See lean4 file",
     "bypassability": {
@@ -57,18 +58,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "Step1245FrameChecksum.lean",
-    "lineCount": 217,
-    "fileSize": 9440,
-    "theoremCount": 7,
+    "fileName": "Dfumt8CloneG0.lean",
+    "lineCount": 415,
+    "fileSize": 18915,
+    "theoremCount": 78,
     "lemmaCount": 0,
-    "defCount": 5,
+    "defCount": 7,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-06-29",
-    "mathlibImportCount": 0,
-    "reiImportCount": 3,
+    "oleanDate": "2026-08-26",
+    "mathlibImportCount": 2,
+    "reiImportCount": 1,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -77,7 +78,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "7 theorems/lemmas, 5 defs"
+    "notes": "78 theorems/lemmas, 7 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
