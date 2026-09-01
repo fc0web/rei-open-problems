@@ -1,0 +1,160 @@
+{
+  "id": "SESSION-2026-09-01-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-09-01",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-09-01: note 記事 site page 公開 — Rei-AIOS の 449 本 コネクタツール を 全公開",
+    "ja": "開発セッション 2026-09-01: note 記事 site page 公開 — Rei-AIOS の 449 本 コネクタツール を 全公開",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-09-01. 40 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-09-01",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "88bbb6705",
+      "8241ea815",
+      "4bb15038c",
+      "2253cad60",
+      "8c896fc48",
+      "0fc6cd3c5",
+      "5dc18e37d",
+      "14b8bfcb1",
+      "80c20bedc",
+      "535ee3f02",
+      "a09934cb8",
+      "29925c560",
+      "58ec346c9",
+      "750d96da0",
+      "f14b57ae2",
+      "e9735a4ad",
+      "09a07d24f",
+      "5951b7625",
+      "91a6aeefa",
+      "f71d00f92",
+      "7ccc0448c",
+      "5ed4a96c5",
+      "24abe68ab",
+      "1045d4da7",
+      "1b860f2a5",
+      "9e699ce21",
+      "f0c6e4b89",
+      "8939838e9",
+      "9692d9574",
+      "6c825d6eb",
+      "201359d7a",
+      "3ae4bd362",
+      "456c3cc27",
+      "be01966b3",
+      "690cb3dd8",
+      "abfc8a874",
+      "a54ee99b2",
+      "13fd27c62",
+      "a127ac87f",
+      "e5bc33c66"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 40,
+    "newFiles": {
+      "lean": 0,
+      "ts": 44,
+      "json": 139,
+      "md": 68,
+      "other": 187
+    },
+    "newFilesTotal": 438,
+    "newTheorems": 0,
+    "newScripts": [
+      "emit-harvest-lag.ts",
+      "run-empirical-v02.ts",
+      "run-empirical.ts",
+      "ledger-bootstrap.ts",
+      "ledger-guard-binding.ts",
+      "ledger.ts",
+      "refactor-guard.ts",
+      "arbitrariness-audit.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "note 記事 site page 公開 — Rei-AIOS の 449 本 コネクタツール を 全公開 / sougou-connectors 使い方 ガイド — URL 集 + LLM 環境別 使い方 (Claude/ChatGPT/Gemini/その他) / STEP 1650 Archify CLI 実 render 検証 (clone 経路、 17→0 errors 4 iteration、 712KB HTML)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-09-01",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
