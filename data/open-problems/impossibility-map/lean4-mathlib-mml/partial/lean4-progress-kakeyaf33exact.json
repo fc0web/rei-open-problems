@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-KAKEYAF33EXACT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/KakeyaF33Exact.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "KakeyaF33Exact.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/KakeyaF33Exact.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Kakeya F 33 Exact — 5 theorems/lemmas, 1 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Kakeya F 33 Exact — 定理 5 / sorry 1 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1700 (Phase 4): F_3^3 Kakeya minimum size = 13 — Lean 4 formal verification\r\n  =================================================================================\r\n\r\n  ★ Framing:\r\n    STEP 1694 (Phase 3) の ILP (scipy.milp/HiGHS) が F_3^3 で exact min = 13\r\n    と optimal 到達 (gap 0%)。 これは solver 内部判定 = 「ソフトウェア証明書」 レベル。\r\n    本 STEP 1700 は それを Lean 4 で machine-checked formal proof に 格上げする arc。\r\n\r\n  ★ Position (掛谷 arc):\r\n    - STEP 1687 (Phase 1): skeleton (dvir_kakeya = sorry)\r\n    - STEP 1691 (Phase 2a): sub-lemma 分解 + Sub-lemma 5 close\r\n    - STEP 1694 (Phase 3): ILP exact for F_3^3 = 13 (ソフトウェ"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "partial",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "progressing",
+  "lastUpdate": "2026-09-03",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "BOTH",
+    "dfumt8Reason": "Partial: 1 sorry residual",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.7
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.ZMod.Basic",
+      "Mathlib.Data.Finset.Powerset",
+      "Mathlib.LinearAlgebra.Matrix.Notation"
+    ],
+    "reiImports": [
+      "CollatzRei.KakeyaDvir"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "KakeyaF33Exact.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-09-02"
+    },
+    "scopeOfImpossibility": "STEP 1700 (Phase 4): F_3^3 Kakeya minimum size = 13 — Lean 4 formal verification\r\n  =================================================================================\r\n\r\n  ★ Framing:\r\n    STEP 1694 (Ph",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": "Close 1 sorry; integrate to Mathlib",
+      "bypassCost": "Hours to days per sorry"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "KakeyaF33Exact.lean",
+    "lineCount": 126,
+    "fileSize": 6356,
+    "theoremCount": 5,
+    "lemmaCount": 0,
+    "defCount": 1,
+    "sorryCount": 1,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-09-02",
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
+    "category": "partial"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 1,
+    "notes": "5 theorems/lemmas, 1 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-09-03",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "LEAN4-PROGRESS-KAKEYAF34UBFORMAL",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/KakeyaF34UBFormal.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "KakeyaF34UBFormal.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/KakeyaF34UBFormal.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Kakeya F 34 U B Formal — 3 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Kakeya F 34 U B Formal — 定理 3 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 1704 (Phase 4a-F34): F_3^4 Kakeya UB ≤ 29 — Lean 4 formal machine-check\n  ==============================================================================\n\n  ★ Framing:\n    STEP 1694 (Phase 3) の scipy.milp/HiGHS ILP は F_3^4 で time limit 600s の\n    incumbent = 28 (optimal 未確定 gap 57%)、 その後の 再実行 300s で incumbent\n    = 29 点 (heuristic path 差、 依然 STEP 1662 greedy 31 より 良い)。 本 STEP は\n    その 29 点集合 を Lean 4 で `native_decide` を使い machine-checked に格上げ。\n\n  ★ Position (掛谷 arc):\n    - STEP 1687 Phase 1: skeleton\n    - STEP 1691 Phase 2a: sub-lemma 分解 + Sub-lemma 5 close\n    - STEP 1694 Phase 3: ILP ex"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-09-03",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [
+      "Mathlib.Data.ZMod.Basic",
+      "Mathlib.Data.Finset.Powerset",
+      "Mathlib.LinearAlgebra.Matrix.Notation"
+    ],
+    "reiImports": [
+      "CollatzRei.KakeyaDvir"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "KakeyaF34UBFormal.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-09-02"
+    },
+    "scopeOfImpossibility": "STEP 1704 (Phase 4a-F34): F_3^4 Kakeya UB ≤ 29 — Lean 4 formal machine-check\n  ==============================================================================\n\n  ★ Framing:\n    STEP 1694 (Phase 3) の sc",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "KakeyaF34UBFormal.lean",
+    "lineCount": 94,
+    "fileSize": 4407,
+    "theoremCount": 3,
+    "lemmaCount": 0,
+    "defCount": 1,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-09-02",
+    "mathlibImportCount": 3,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "3 theorems/lemmas, 1 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-09-03",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
