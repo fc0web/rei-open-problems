@@ -1,19 +1,19 @@
 {
-  "id": "LEAN4-PROGRESS-INDRANET",
+  "id": "LEAN4-PROGRESS-RANSCORE",
   "tier": 8,
   "source": "lean4-mathlib-mml",
   "sourceRef": {
-    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/IndraNet.lean",
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/RansCore.lean",
     "citation": "Rei-AIOS Lean 4 verification",
-    "lean4Ref": "IndraNet.lean",
-    "sourceCode": "data/lean4-mathlib/CollatzRei/IndraNet.lean"
+    "lean4Ref": "RansCore.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/RansCore.lean"
   },
   "statement": {
-    "en": "Lean 4 progress: Indra Net — 9 theorems/lemmas, 0 sorry, 0 axiom",
-    "ja": "Lean 4 進捗: Indra Net — 定理 9 / sorry 0 / axiom 0",
+    "en": "Lean 4 progress: Rans Core — 5 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Rans Core — 定理 5 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": ""
+    "headerDoc": "STEP 1731 (2026-09-03) — ransbench arc\r\n   Axiom-free formal verification of the rANS coder's algebraic core.\r\n\r\n   Corresponds one-to-one to ransbench/rans.py:\r\n     - `putStep`      ↔ Python `RansEncoder.put` (before renormalization)\r\n     - `advanceStep`  ↔ Python `RansDecoder.advance` (before renormalization)\r\n\r\n   Proof target 1 (round-trip): C then D returns the pre-encoding state.\r\n     C(s, x) := (x / f_s) * T + (x % f_s) + cum_s\r\n     D(x)    := (sym(x % T), f_s * (x / T) + (x % T) - cum_s)\r\n     D(C(s, x)) = (s, x)   provided cum_s + f_s ≤ T and 0 < f_s.\r\n\r\n   Proof target 2 (table i"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
@@ -30,10 +30,11 @@
     "confidence": 1
   },
   "cross_refs": {
-    "mathlibImports": [],
-    "reiImports": [
-      "CollatzRei.AmalaFixpoint"
+    "mathlibImports": [
+      "Mathlib.Tactic.Ring",
+      "Mathlib.Data.Nat.Basic"
     ],
+    "reiImports": [],
     "external": [],
     "seedKernel": null
   },
@@ -41,11 +42,11 @@
     "impossibilityClass": "computational",
     "certaintyLevel": "proven",
     "proofRef": {
-      "lean4": "IndraNet.lean",
+      "lean4": "RansCore.lean",
       "oleanBuilt": true,
-      "oleanDate": "2026-07-02"
+      "oleanDate": "2026-09-04"
     },
-    "scopeOfImpossibility": "See lean4 file",
+    "scopeOfImpossibility": "STEP 1731 (2026-09-03) — ransbench arc\r\n   Axiom-free formal verification of the rANS coder's algebraic core.\r\n\r\n   Corresponds one-to-one to ransbench/rans.py:\r\n     - `putStep`      ↔ Python `RansEn",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,18 +56,18 @@
     "peaceCheck": "passed"
   },
   "leanProgressMeta": {
-    "fileName": "IndraNet.lean",
-    "lineCount": 171,
-    "fileSize": 8718,
-    "theoremCount": 9,
-    "lemmaCount": 0,
-    "defCount": 6,
+    "fileName": "RansCore.lean",
+    "lineCount": 161,
+    "fileSize": 7297,
+    "theoremCount": 4,
+    "lemmaCount": 1,
+    "defCount": 5,
     "sorryCount": 0,
     "axiomCount": 0,
     "hasOleanBuild": true,
-    "oleanDate": "2026-07-02",
-    "mathlibImportCount": 0,
-    "reiImportCount": 1,
+    "oleanDate": "2026-09-04",
+    "mathlibImportCount": 2,
+    "reiImportCount": 0,
     "category": "closed-by-rei"
   },
   "formalization": {
@@ -75,7 +76,7 @@
     "agda": "none",
     "isabelle": "none",
     "sorryCount": 0,
-    "notes": "9 theorems/lemmas, 6 defs"
+    "notes": "5 theorems/lemmas, 5 defs"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
