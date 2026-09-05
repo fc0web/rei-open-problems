@@ -1,0 +1,155 @@
+{
+  "id": "SESSION-2026-09-05-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-09-05",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-09-05: STEP 1780: chat-Claude directive registry — design + scaffol",
+    "ja": "開発セッション 2026-09-05: STEP 1780: chat-Claude directive registry — design + scaffol",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-09-05. 44 commits, 16 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-09-05",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "9be381883",
+      "e35c4de35",
+      "cbd563d24",
+      "aadd497c4",
+      "bc931fcf6",
+      "8aa84f594",
+      "0407605d3",
+      "bb7a2cea0",
+      "c217ab10d",
+      "aa64f3680",
+      "c1b077ef7",
+      "c0256729e",
+      "782edd3b7",
+      "5098872ad",
+      "b5e6ce98b",
+      "cb18b8799",
+      "849086a95",
+      "277a651d2",
+      "81937fcdb",
+      "add70bb8c",
+      "ca362e4ee",
+      "303d5839b",
+      "289fd7090",
+      "4344535c5",
+      "e921a7eb6",
+      "51bae4613",
+      "4e1e828fc",
+      "19a67255b",
+      "5ef0b1971",
+      "b3398b7f9",
+      "065ed79fb",
+      "b1f10db72",
+      "fb9782184",
+      "bd9175190",
+      "d98f330aa",
+      "ac81c6880",
+      "792e97b6c",
+      "de2311816",
+      "3f9893149",
+      "db25ffeaa",
+      "5ec0e3f05",
+      "2ff4bf21d",
+      "8ce7a46cb",
+      "21708342f"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "fix",
+    "commitCount": 44,
+    "newFiles": {
+      "lean": 18,
+      "ts": 10,
+      "json": 168,
+      "md": 142,
+      "other": 185
+    },
+    "newFilesTotal": 523,
+    "newTheorems": 16,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "STEP 1780: chat-Claude directive registry — design + scaffold (実装 defer) / STEP 1779: d8_verify に cross-impl-drift claim 追加 (TS vs Verilog snapshot、 fail 固定、 緑完全停止) / STEP 1777: SsmQuantErrorBounded root fail audit (3 週間 silent red、 「なぜ 気づかれなかったか」 構造分析、 藤本さん 運用見直し ST"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-09-05",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
