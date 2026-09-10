@@ -20,7 +20,7 @@
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-09-09",
+  "lastUpdate": "2026-09-10",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,8 +45,8 @@
     "certaintyLevel": "proven",
     "proofRef": {
       "lean4": "DFUMT8Quantum.lean",
-      "oleanBuilt": false,
-      "oleanDate": null
+      "oleanBuilt": true,
+      "oleanDate": "2026-09-10"
     },
     "scopeOfImpossibility": "CollatzRei.DFUMT8Quantum — Lean 4 formalisation of D-FUMT₈ quantum operators.\n\n  Companion to scripts/quantum/dfumt8_unitary_phase1.py (Aer simulator) and\n  data/verilog/dfumt8_alu.v (Tang Nano 9K FPG",
     "bypassability": {
@@ -66,8 +66,8 @@
     "defCount": 2,
     "sorryCount": 0,
     "axiomCount": 0,
-    "hasOleanBuild": false,
-    "oleanDate": null,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-09-10",
     "mathlibImportCount": 4,
     "reiImportCount": 0,
     "category": "closed-by-rei"
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-09-09",
+  "ingested": "2026-09-10",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

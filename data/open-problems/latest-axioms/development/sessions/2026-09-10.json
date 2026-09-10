@@ -1,0 +1,185 @@
+{
+  "id": "SESSION-2026-09-10-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-09-10",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-09-10: STEP 1945 refs (rei-aios-ab): items 4 + 1 + 3 execution + ba",
+    "ja": "開発セッション 2026-09-10: STEP 1945 refs (rei-aios-ab): items 4 + 1 + 3 execution + ba",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-09-10. 69 commits, 119 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-09-10",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "748ef58b7",
+      "23300029f",
+      "65023f720",
+      "62490ebec",
+      "dd7743df9",
+      "b2a9c288f",
+      "4c2e9e5ef",
+      "5db9f6ca7",
+      "ae139727f",
+      "6385c5ac4",
+      "cca02b873",
+      "6cd4e1c39",
+      "2f4d661a2",
+      "59f154977",
+      "91813625f",
+      "4f767374a",
+      "e93c8f76a",
+      "421488210",
+      "370e876bd",
+      "4493f987f",
+      "e98c41c3a",
+      "56452d0bd",
+      "331bdf292",
+      "6c922ea54",
+      "25d76eb52",
+      "29fa8bb87",
+      "6b02b311e",
+      "4fc4cd98c",
+      "95ee701f8",
+      "dc2e0d24c",
+      "f4ad0e47b",
+      "3a3af1566",
+      "6dd7641cb",
+      "5d5d9622e",
+      "d1b79ecae",
+      "8ba453277",
+      "fa2bc7780",
+      "009e0524a",
+      "0ddff88d6",
+      "459ecdbaf",
+      "131940753",
+      "9dfaa4bcc",
+      "3b67e3f00",
+      "6f14b5cc4",
+      "d23f87a9e",
+      "0253be5fb",
+      "17cd967b5",
+      "739c361a1",
+      "4146f32fe",
+      "a2cfbdb47",
+      "c2cd58fcd",
+      "ba9605ad0",
+      "bd3ad8529",
+      "458928465",
+      "ecaf247df",
+      "c47bc7c36",
+      "dfa8a4d42",
+      "ff8bca345",
+      "ca4d808b5",
+      "7682e6ed7",
+      "b37b91840",
+      "92a0ae56a",
+      "ab3a09f52",
+      "baaee9e19",
+      "496d225a6",
+      "85b28fc9b",
+      "e782c2474",
+      "5c63a0e7b",
+      "20f60adf9"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 69,
+    "newFiles": {
+      "lean": 43,
+      "ts": 34,
+      "json": 367,
+      "md": 225,
+      "other": 317
+    },
+    "newFilesTotal": 986,
+    "newTheorems": 119,
+    "newScripts": [
+      "build-daily-banner.ts",
+      "lean4-mathlib-pilot-detector.ts",
+      "generate-formalization-yaml.ts",
+      "orphan-gauge.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "STEP 1945 refs (rei-aios-ab): items 4 + 1 + 3 execution + baseline pilot / STEP 1953 (rei-aios-9b): top page banner pill 追加 — 孤立度計 device (v0.4) / STEP 1952 (rei-aios-9b): v0.4 latest.json archive + SnstRealComparison KEEP judgment + CF verify"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-09-10",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

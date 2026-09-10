@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-CASES58NEITHERFORMALIZATION",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Cases58NeitherFormalization.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Cases58NeitherFormalization.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Cases58NeitherFormalization.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Cases 58 Neither Formalization — 3 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Cases 58 Neither Formalization — 定理 3 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58NeitherFormalization — STEP 1935 (2026-09-10, rei-aios-4b)\n\n  ★ Directive source: 藤本さん 2026-09-10 発話「(iii) でお願い致します」\n    (私 rei-aios-4b の recommendation (iii) = D-FUMT₈ NEITHER approach for\n     Cases 5-8 = 藤本さん explicit authorize、直接発話、relay carrier 無し)\n\n  ★ Finding source: rei-aios-4b STEP 1927 arc opening note の (iii)\n    recommendation + STEP 1931 corrigendum で (ii) 崩壊後 の 代替 identify\n\n  ★ Approach: 既存 arc の D-FUMT₈ NEITHER semantic layer 追加\n    - CollatzRei.DFUMT8Quantum の Fin 8 encoding (NEITHER = 2、 self-dual)\n      を"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-09-10",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.DFUMT8Quantum"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Cases58NeitherFormalization.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-09-10"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58NeitherFormalization — STEP 1935 (2026-09-10, rei-aios-4b)\n\n  ★ Directive source: 藤本さん 2026-09-10 発話「(iii) でお願い致します」\n    (私 rei-",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Cases58NeitherFormalization.lean",
+    "lineCount": 104,
+    "fileSize": 5575,
+    "theoremCount": 3,
+    "lemmaCount": 0,
+    "defCount": 2,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-09-10",
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "3 theorems/lemmas, 2 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-09-10",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}

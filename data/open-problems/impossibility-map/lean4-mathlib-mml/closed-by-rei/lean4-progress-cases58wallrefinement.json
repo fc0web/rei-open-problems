@@ -1,0 +1,91 @@
+{
+  "id": "LEAN4-PROGRESS-CASES58WALLREFINEMENT",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Cases58WallRefinement.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Cases58WallRefinement.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Cases58WallRefinement.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Cases 58 Wall Refinement — 7 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Cases 58 Wall Refinement — 定理 7 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\n\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\n    「radar audit は DeFranco #1 の full PDF review のみ続行。\n      ... 終わったら Cases 5-8 に戻ってください。」\n    「□ Cases 5-8 に戻る (Rei Collatz 未解決部分) でお願い致します。」\n\n  ★ Approach: rei-aios-28 self-decide = Cases 5-8 wall の 精密記述拡張\n    (universal 解決ではなく、 wall 内 の explicit 事実蓄積)\n    step624_COMPLETE.lean の case5a (n%256=7) は clean pattern\n    (4 odd + 7 even) で descent 証明済み。 本 file は Case 5 の 他 sub-cases\n    (n%256 = 39, 71, 103) が **同 pattern "
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "closed-by-rei",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "closed",
+  "lastUpdate": "2026-09-10",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Zero-sorry verified by lake env lean",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "proven",
+    "proofRef": {
+      "lean4": "Cases58WallRefinement.lean",
+      "oleanBuilt": true,
+      "oleanDate": "2026-09-09"
+    },
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\n\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\n    「radar audit は DeFra",
+    "bypassability": {
+      "bypassPossible": false,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Cases58WallRefinement.lean",
+    "lineCount": 134,
+    "fileSize": 7743,
+    "theoremCount": 7,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": true,
+    "oleanDate": "2026-09-09",
+    "mathlibImportCount": 0,
+    "reiImportCount": 0,
+    "category": "closed-by-rei"
+  },
+  "formalization": {
+    "lean4": "complete",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "7 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "addressed",
+    "possibilityStatus": "addressed-as-impossibility",
+    "quadrant": "Q3",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "completed"
+  },
+  "ingested": "2026-09-10",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
