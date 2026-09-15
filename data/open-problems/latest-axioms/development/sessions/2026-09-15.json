@@ -1,0 +1,152 @@
+{
+  "id": "SESSION-2026-09-15-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-09-15",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-09-15: STEP 2060 site-verify-signature.sh v1.2 G0 status gate + api",
+    "ja": "開発セッション 2026-09-15: STEP 2060 site-verify-signature.sh v1.2 G0 status gate + api",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-09-15. 39 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-09-15",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "5cdccb466",
+      "77a08c4e8",
+      "3681d797d",
+      "ae9f17983",
+      "602c4bc84",
+      "3339f44e0",
+      "5084419b0",
+      "6f8fa4611",
+      "1e83036a3",
+      "456e91be2",
+      "1593dcc4a",
+      "9d6f175a1",
+      "c7c608657",
+      "47249db69",
+      "a7ba96d6d",
+      "2db9d77b5",
+      "3ddfa5c8b",
+      "852bd7ee0",
+      "a3fe874e0",
+      "64fce7c06",
+      "d6fc8f269",
+      "be214487f",
+      "e34071617",
+      "3e283ac13",
+      "02cc6344d",
+      "a7cac1d33",
+      "666a4fa6f",
+      "b59425adf",
+      "6de3d0d96",
+      "5dd710229",
+      "319728109",
+      "5414bef31",
+      "90b6f084a",
+      "427802428",
+      "6a299ed47",
+      "923573e4d",
+      "c1a65a698",
+      "38176b20b",
+      "4b38de1c8"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "design",
+    "commitCount": 39,
+    "newFiles": {
+      "lean": 0,
+      "ts": 9,
+      "json": 85,
+      "md": 128,
+      "other": 74
+    },
+    "newFilesTotal": 296,
+    "newTheorems": 0,
+    "newScripts": [
+      "build-daily-banner.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "STEP 2060 site-verify-signature.sh v1.2 G0 status gate + api.rei-aios.org 530 hole close + D pre-wor / STEP 2059 site-verify-signature.sh v1.1 2-layer self-test + canary UNKNOWN discipline (rei-aios-65,  / STEP 2058 site-verify-signature.sh script v1 land (rei-aios-65, STEP 2057 spec の bash 実装、 UNKNOWN ga"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-09-15",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
