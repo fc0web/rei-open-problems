@@ -1,0 +1,142 @@
+{
+  "id": "SESSION-2026-09-21-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-09-21",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-09-21: Auto: site rebuild + stats refresh (SEED 1685 / STEP 2171 / ",
+    "ja": "開発セッション 2026-09-21: Auto: site rebuild + stats refresh (SEED 1685 / STEP 2171 / ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-09-21. 28 commits, 0 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-09-21",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "76bed65ec",
+      "d068e6b0a",
+      "7341dc2b6",
+      "4f8bf2d90",
+      "56bd7dc22",
+      "a0124bc38",
+      "2ee2e64f4",
+      "84169e982",
+      "1c89dee2d",
+      "1f481572d",
+      "84322a136",
+      "d9ac1459f",
+      "6b18f1542",
+      "d5219a984",
+      "7c42533a1",
+      "dead89837",
+      "4f28b6fcf",
+      "d907ef585",
+      "197649699",
+      "107de7b13",
+      "a36345da3",
+      "7024344cd",
+      "211951280",
+      "a791887ac",
+      "e6282cdc3",
+      "a636597be",
+      "5e79c9c15",
+      "b00d00444"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "docs",
+    "commitCount": 28,
+    "newFiles": {
+      "lean": 0,
+      "ts": 8,
+      "json": 201,
+      "md": 68,
+      "other": 164
+    },
+    "newFilesTotal": 441,
+    "newTheorems": 0,
+    "newScripts": [
+      "orphan-gauge.ts",
+      "auto-publish.ts"
+    ],
+    "memoryAdded": 0,
+    "highlights": "Auto: site rebuild + stats refresh (SEED 1685 / STEP 2171 / Papers 180) / STEP 2171 (rei-aios-fe tab, 2026-09-21) hash 反映 site: 孤立度計 v0.6 D+#1 → 4-layer land / STEP 2171 (rei-aios-fe tab, 2026-09-21): 孤立度計 orphan gauge v0.6 = D + #1 land"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-09-21",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}
