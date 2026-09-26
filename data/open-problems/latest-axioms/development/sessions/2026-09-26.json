@@ -1,26 +1,26 @@
 {
-  "id": "SESSION-2026-09-24-DEVLOG",
+  "id": "SESSION-2026-09-26-DEVLOG",
   "tier": 7,
   "source": "development/sessions",
   "sourceRef": {
     "url": "https://github.com/fc0web/rei-aios/commits/main",
-    "citation": "Rei-AIOS dev session 2026-09-24",
+    "citation": "Rei-AIOS dev session 2026-09-26",
     "lean4Ref": null,
     "sourceCode": null
   },
   "statement": {
-    "en": "Dev session 2026-09-24: STEP 2228 (rei-aios-88 tab, 2026-09-25): ghost 2201 resoluti",
-    "ja": "開発セッション 2026-09-24: STEP 2228 (rei-aios-88 tab, 2026-09-25): ghost 2201 resoluti",
+    "en": "Dev session 2026-09-26: STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundl",
+    "ja": "開発セッション 2026-09-26: STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundl",
     "latex": null,
     "preview_source": "tier7-session-log-v0.1",
-    "summary": "Auto-generated session log for 2026-09-24. 35 commits, 0 new theorems detected via git log scan."
+    "summary": "Auto-generated session log for 2026-09-26. 32 commits, 0 new theorems detected via git log scan."
   },
   "field": "development",
   "subfield": "sessions",
   "proposer": "Rei-AIOS team (藤本 + Claude)",
   "year": 2026,
   "status": "completed",
-  "lastUpdate": "2026-09-24",
+  "lastUpdate": "2026-09-26",
   "reiTyping": {
     "primaryType": "VII_REI_GENERATED",
     "secondaryType": null,
@@ -31,41 +31,38 @@
   },
   "cross_refs": {
     "commits": [
-      "8325d589d",
-      "1a9940d94",
-      "582780bf3",
-      "8cfd08484",
-      "a2d24c7e9",
-      "ae91abc86",
-      "1f636e15b",
-      "20e2215eb",
-      "1af48a12e",
-      "6997a932c",
-      "b91af336d",
-      "1c16de231",
-      "0a9d6bd98",
-      "5607da73c",
-      "69afd9211",
-      "a18a6b340",
-      "8f1fd765e",
-      "4bbeed5fb",
-      "932b9a029",
-      "768403f8f",
-      "f5b001d9c",
-      "3f2427186",
-      "c69e10dfb",
-      "fb79ecfa8",
-      "d5f7fffe6",
-      "6ac5f7343",
-      "2215b08dc",
-      "607e507b3",
-      "bcd5b4c7d",
-      "5f5e4c87f",
-      "729e1f997",
-      "3a808c9b5",
-      "2910b4a18",
-      "96b7b76e2",
-      "87bac6038"
+      "ba66c43f5",
+      "35d895694",
+      "d5d9a998b",
+      "cbf96ceb0",
+      "ccbbdf450",
+      "e0c5c2e6d",
+      "42237d312",
+      "45366a6a7",
+      "4180a15cf",
+      "9a178479e",
+      "69d24a2cc",
+      "97e072dd7",
+      "1cf2205f3",
+      "77cd27519",
+      "a968dfae2",
+      "18605d450",
+      "87ff60aaa",
+      "3ce1c22e7",
+      "afee85077",
+      "0b790d8c6",
+      "bcb8bd0fe",
+      "0ca310d2c",
+      "15a163b52",
+      "cefd58d4e",
+      "91dc6bb96",
+      "d46badddf",
+      "452b6f4f7",
+      "c789dd5cc",
+      "3c6077d25",
+      "f1d9e0506",
+      "341739520",
+      "d7f1b9e77"
     ],
     "external": [],
     "seedKernel": null
@@ -116,24 +113,23 @@
   },
   "sessionMeta": {
     "classification": "design",
-    "commitCount": 35,
+    "commitCount": 32,
     "newFiles": {
       "lean": 0,
-      "ts": 5,
-      "json": 361,
-      "md": 123,
-      "other": 385
+      "ts": 11,
+      "json": 268,
+      "md": 99,
+      "other": 162
     },
-    "newFilesTotal": 874,
+    "newFilesTotal": 540,
     "newTheorems": 0,
     "newScripts": [
-      "daily-radar.ts",
-      "arxiv-audit-index.ts",
-      "arxiv-fetcher.ts",
-      "score-papers.ts"
+      "judgment-queue-length-meter.ts",
+      "publish-paper-176-harvard.ts",
+      "rei-status-summary.ts"
     ],
     "memoryAdded": 0,
-    "highlights": "STEP 2228 (rei-aios-88 tab, 2026-09-25): ghost 2201 resolution follow-up + chat-Claude 2026-09-24 ju / STEP 2227 corrigendum #1 (rei-aios-f3 tab, 2026-09-25): immutable_artifact_write_once 遵守 + md5 wordi / STEP 2227 (rei-aios-f3 tab, 2026-09-24): rei-aios-88 STEP 2201 ghost entry resolve — option (b) retr"
+    "highlights": "STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundle 詳細 view site 反映 + Rei から 辿れる + memory  / STEP 2258: rei-aios-50 session close arc (12 STEPs + Paper 176 全 11 platform) / Merge pull request #27 from fc0web/worktree-step2252-v06_rule_abc_impl"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -146,6 +142,6 @@
     "sorryCount": null,
     "notes": null
   },
-  "ingested": "2026-09-24",
+  "ingested": "2026-09-26",
   "ingestMethod": "tier7-session-log-auto-v0.1"
 }
