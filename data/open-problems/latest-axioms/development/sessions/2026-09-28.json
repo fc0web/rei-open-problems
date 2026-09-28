@@ -1,26 +1,26 @@
 {
-  "id": "SESSION-2026-09-26-DEVLOG",
+  "id": "SESSION-2026-09-28-DEVLOG",
   "tier": 7,
   "source": "development/sessions",
   "sourceRef": {
     "url": "https://github.com/fc0web/rei-aios/commits/main",
-    "citation": "Rei-AIOS dev session 2026-09-26",
+    "citation": "Rei-AIOS dev session 2026-09-28",
     "lean4Ref": null,
     "sourceCode": null
   },
   "statement": {
-    "en": "Dev session 2026-09-26: STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundl",
-    "ja": "開発セッション 2026-09-26: STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundl",
+    "en": "Dev session 2026-09-28: Merge branch 'main' of https://github.com/fc0web/rei-aios",
+    "ja": "開発セッション 2026-09-28: Merge branch 'main' of https://github.com/fc0web/rei-aios",
     "latex": null,
     "preview_source": "tier7-session-log-v0.1",
-    "summary": "Auto-generated session log for 2026-09-26. 32 commits, 0 new theorems detected via git log scan."
+    "summary": "Auto-generated session log for 2026-09-28. 14 commits, 0 new theorems detected via git log scan."
   },
   "field": "development",
   "subfield": "sessions",
   "proposer": "Rei-AIOS team (藤本 + Claude)",
   "year": 2026,
   "status": "completed",
-  "lastUpdate": "2026-09-26",
+  "lastUpdate": "2026-09-28",
   "reiTyping": {
     "primaryType": "VII_REI_GENERATED",
     "secondaryType": null,
@@ -31,38 +31,20 @@
   },
   "cross_refs": {
     "commits": [
-      "ba66c43f5",
-      "35d895694",
-      "d5d9a998b",
-      "cbf96ceb0",
-      "ccbbdf450",
-      "e0c5c2e6d",
-      "42237d312",
-      "45366a6a7",
-      "4180a15cf",
-      "9a178479e",
-      "69d24a2cc",
-      "97e072dd7",
-      "1cf2205f3",
-      "77cd27519",
-      "a968dfae2",
-      "18605d450",
-      "87ff60aaa",
-      "3ce1c22e7",
-      "afee85077",
-      "0b790d8c6",
-      "bcb8bd0fe",
-      "0ca310d2c",
-      "15a163b52",
-      "cefd58d4e",
-      "91dc6bb96",
-      "d46badddf",
-      "452b6f4f7",
-      "c789dd5cc",
-      "3c6077d25",
-      "f1d9e0506",
-      "341739520",
-      "d7f1b9e77"
+      "fd68eeb02",
+      "8bfdd2a07",
+      "3ba326356",
+      "816551dba",
+      "2e35cb87d",
+      "bde4aa5f4",
+      "b94ed4ddd",
+      "5e0eda498",
+      "b0d462d28",
+      "6e4e694d6",
+      "375ea536f",
+      "d64096b81",
+      "cd4c105e0",
+      "7b71a3729"
     ],
     "external": [],
     "seedKernel": null
@@ -112,24 +94,20 @@
     "peaceCheck": "passed"
   },
   "sessionMeta": {
-    "classification": "design",
-    "commitCount": 32,
+    "classification": "research",
+    "commitCount": 14,
     "newFiles": {
       "lean": 0,
-      "ts": 11,
-      "json": 268,
-      "md": 99,
-      "other": 162
+      "ts": 0,
+      "json": 62,
+      "md": 19,
+      "other": 18
     },
-    "newFilesTotal": 540,
+    "newFilesTotal": 99,
     "newTheorems": 0,
-    "newScripts": [
-      "judgment-queue-length-meter.ts",
-      "publish-paper-176-harvard.ts",
-      "rei-status-summary.ts"
-    ],
+    "newScripts": [],
     "memoryAdded": 0,
-    "highlights": "STEP 2257 (rei-aios-b6 tab, 2026-09-26): STEP 2243 arc bundle 詳細 view site 反映 + Rei から 辿れる + memory  / STEP 2258: rei-aios-50 session close arc (12 STEPs + Paper 176 全 11 platform) / Merge pull request #27 from fc0web/worktree-step2252-v06_rule_abc_impl"
+    "highlights": "Merge branch 'main' of https://github.com/fc0web/rei-aios / STEP 2289 (rei-aios-2c, 2026-09-28): benchtop-mcp audit-coverage patch review arc + Python env repai / chore(judgment-queue-meter): weekly snapshot 2026-09-28 [skip ci]"
   },
   "visibilityMeta": {
     "publicVisibility": "public"
@@ -142,6 +120,6 @@
     "sorryCount": null,
     "notes": null
   },
-  "ingested": "2026-09-26",
+  "ingested": "2026-09-28",
   "ingestMethod": "tier7-session-log-auto-v0.1"
 }
