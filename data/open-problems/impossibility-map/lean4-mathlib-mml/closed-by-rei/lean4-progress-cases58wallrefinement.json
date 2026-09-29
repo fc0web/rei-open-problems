@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cases 58 Wall Refinement — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\n\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\n    「radar audit は DeFranco #1 の full PDF review のみ続行。\n      ... 終わったら Cases 5-8 に戻ってください。」\n    「□ Cases 5-8 に戻る (Rei Collatz 未解決部分) でお願い致します。」\n\n  ★ Approach: rei-aios-28 self-decide = Cases 5-8 wall の 精密記述拡張\n    (universal 解決ではなく、 wall 内 の explicit 事実蓄積)\n    step624_COMPLETE.lean の case5a (n%256=7) は clean pattern\n    (4 odd + 7 even) で descent 証明済み。 本 file は Case 5 の 他 sub-cases\n    (n%256 = 39, 71, 103) が **同 pattern "
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\r\n\r\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\r\n    「radar audit は DeFranco #1 の full PDF review のみ続行。\r\n      ... 終わったら Cases 5-8 に戻ってください。」\r\n    「□ Cases 5-8 に戻る (Rei Collatz 未解決部分) でお願い致します。」\r\n\r\n  ★ Approach: rei-aios-28 self-decide = Cases 5-8 wall の 精密記述拡張\r\n    (universal 解決ではなく、 wall 内 の explicit 事実蓄積)\r\n    step624_COMPLETE.lean の case5a (n%256=7) は clean pattern\r\n    (4 odd + 7 even) で descent 証明済み。 本 file は Case 5 の 他 sub-cases\r\n    (n%256 = 39, 71, 103) が "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-09-28",
+  "lastUpdate": "2026-09-29",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-09-09"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\n\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\n    「radar audit は DeFra",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.Cases58WallRefinement — STEP 1933 (2026-09-10, rei-aios-28)\r\n\r\n  ★ Directive source: 藤本さん 2026-09-10 explicit 発話\r\n    「radar audit は D",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Cases58WallRefinement.lean",
     "lineCount": 134,
-    "fileSize": 7743,
+    "fileSize": 7876,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 0,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-09-28",
+  "ingested": "2026-09-29",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
