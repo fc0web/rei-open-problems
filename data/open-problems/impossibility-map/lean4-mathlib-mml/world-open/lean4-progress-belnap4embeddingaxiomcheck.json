@@ -1,0 +1,93 @@
+{
+  "id": "LEAN4-PROGRESS-BELNAP4EMBEDDINGAXIOMCHECK",
+  "tier": 8,
+  "source": "lean4-mathlib-mml",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/blob/main/data/lean4-mathlib/CollatzRei/Belnap4EmbeddingAxiomCheck.lean",
+    "citation": "Rei-AIOS Lean 4 verification",
+    "lean4Ref": "Belnap4EmbeddingAxiomCheck.lean",
+    "sourceCode": "data/lean4-mathlib/CollatzRei/Belnap4EmbeddingAxiomCheck.lean"
+  },
+  "statement": {
+    "en": "Lean 4 progress: Belnap 4 Embedding Axiom Check — 0 theorems/lemmas, 0 sorry, 0 axiom",
+    "ja": "Lean 4 進捗: Belnap 4 Embedding Axiom Check — 定理 0 / sorry 0 / axiom 0",
+    "latex": null,
+    "preview_source": "tier8-lean4-progress-v0.1",
+    "headerDoc": "STEP 2335 (Reipedia Phase 1) — AxiomCheck for Belnap4Embedding.lean\r\n  ====================================================================\r\n  Run: `lake env lean CollatzRei/Belnap4EmbeddingAxiomCheck.lean`\r\n\r\n  Expected outcome (per source file header comment, lines 120-125):\r\n    - `embedDfumt8_injective`              → [propext] のみ (mathlib base)\r\n    - `embedDfumt8_preserves_meet`         → does not depend on any axioms (axiom-free)\r\n    - `embedDfumt8_image_characterization` → [propext, Classical.choice, Quot.sound]\r\n\r\n  Reipedia Phase 1 target:\r\n    - C1 (= `embedDfumt8_injective`) の axi"
+  },
+  "field": "lean4-mathlib-mml",
+  "subfield": "world-open",
+  "proposer": "Rei-AIOS (藤本 + Claude)",
+  "year": 2026,
+  "status": "open",
+  "lastUpdate": "2026-10-14",
+  "reiTyping": {
+    "primaryType": "III_COMPUTATIONAL_LIMIT",
+    "secondaryType": "IV_PROBLEM_UNDEFINED",
+    "dfumt8": "FLOWING",
+    "dfumt8Reason": "Scaffold only",
+    "rationale": "Tier 8 lean4-mathlib-mml auto-ingest",
+    "confidence": 0.5
+  },
+  "cross_refs": {
+    "mathlibImports": [],
+    "reiImports": [
+      "CollatzRei.Belnap4Embedding"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "impossibilityMeta": {
+    "impossibilityClass": "computational",
+    "certaintyLevel": "conjectured",
+    "proofRef": {
+      "lean4": "Belnap4EmbeddingAxiomCheck.lean",
+      "oleanBuilt": false,
+      "oleanDate": null
+    },
+    "scopeOfImpossibility": "STEP 2335 (Reipedia Phase 1) — AxiomCheck for Belnap4Embedding.lean\r\n  ====================================================================\r\n  Run: `lake env lean CollatzRei/Belnap4EmbeddingAxiomCheck",
+    "bypassability": {
+      "bypassPossible": true,
+      "bypassMethod": null,
+      "bypassCost": "N/A"
+    },
+    "relatedImpossibilities": [],
+    "peaceCheck": "passed"
+  },
+  "leanProgressMeta": {
+    "fileName": "Belnap4EmbeddingAxiomCheck.lean",
+    "lineCount": 25,
+    "fileSize": 1047,
+    "theoremCount": 0,
+    "lemmaCount": 0,
+    "defCount": 0,
+    "sorryCount": 0,
+    "axiomCount": 0,
+    "hasOleanBuild": false,
+    "oleanDate": null,
+    "mathlibImportCount": 0,
+    "reiImportCount": 1,
+    "category": "world-open"
+  },
+  "formalization": {
+    "lean4": "partial",
+    "coq": "none",
+    "agda": "none",
+    "isabelle": "none",
+    "sorryCount": 0,
+    "notes": "0 theorems/lemmas, 0 defs"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "missingExecutableMeta": {
+    "missingStatus": "partially-addressed",
+    "possibilityStatus": "executable-within-years",
+    "quadrant": "Q1",
+    "missingKind": "theorem-formalization",
+    "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
+    "executabilityEffort": "months-to-years"
+  },
+  "ingested": "2026-10-14",
+  "ingestMethod": "tier8-lean4-progress-auto-v0.1"
+}
