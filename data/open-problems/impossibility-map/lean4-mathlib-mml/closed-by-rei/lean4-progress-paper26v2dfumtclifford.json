@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 26 V 2 D Fumt Clifford — 定理 23 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Copyright (c) 2026 Nobuki Fujimoto. All rights reserved.\nReleased under Apache 2.0 license as described in the file LICENSE.\nAuthors: Nobuki Fujimoto, Rei (Rei-AIOS), Claude (Anthropic)"
+    "headerDoc": "Copyright (c) 2026 Nobuki Fujimoto. All rights reserved.\r\nReleased under Apache 2.0 license as described in the file LICENSE.\r\nAuthors: Nobuki Fujimoto, Rei (Rei-AIOS), Claude (Anthropic)"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-24"
     },
-    "scopeOfImpossibility": "Copyright (c) 2026 Nobuki Fujimoto. All rights reserved.\nReleased under Apache 2.0 license as described in the file LICENSE.\nAuthors: Nobuki Fujimoto, Rei (Rei-AIOS), Claude (Anthropic)",
+    "scopeOfImpossibility": "Copyright (c) 2026 Nobuki Fujimoto. All rights reserved.\r\nReleased under Apache 2.0 license as described in the file LICENSE.\r\nAuthors: Nobuki Fujimoto, Rei (Rei-AIOS), Claude (Anthropic)",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Paper26V2DFumtClifford.lean",
     "lineCount": 509,
-    "fileSize": 20078,
+    "fileSize": 20586,
     "theoremCount": 23,
     "lemmaCount": 0,
     "defCount": 14,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

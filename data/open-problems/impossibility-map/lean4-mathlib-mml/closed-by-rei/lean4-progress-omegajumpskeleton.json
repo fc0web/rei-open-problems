@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Omega Jump Skeleton — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1340 arc extension (2026-08-17): Ω 跳躍作用素 Lean 4 axiom-free skeleton —\nchat-Claude 2026-08-17 「決定不能性を 1 ミリ動かす — 4 本の定規」 §I.1 の Rei stack\nformalization。 Post (1948) Turing jump / Kleene arithmetic hierarchy の 抽象骨格\n(Nat 上の 具体 realization)。\n\n★ Honest scope (譲れない):\n(1) 本 file は Turing jump の **Nat 上の 具体 successor 骨格 のみ** (順序 chain + iteration\n    strict monotone)、 実際の TM 計算/oracle 復号/Kleene reducibility の 実装ではない。\n    「Ω⁽ⁿ⁺¹⁾ = Ω⁽ⁿ⁾ ⊕ Halt(Ω⁽ⁿ⁾)」 の 対角化 concrete construction は 別問題。\n(2) axiom-free 保証: sorry 一切なし、 native_decide 系規律なし、 user axiom なし。\n    Nat + omega + Nat.lt_succ_self + Nat.lt_succ"
+    "headerDoc": "STEP 1340 arc extension (2026-08-17): Ω 跳躍作用素 Lean 4 axiom-free skeleton —\r\nchat-Claude 2026-08-17 「決定不能性を 1 ミリ動かす — 4 本の定規」 §I.1 の Rei stack\r\nformalization。 Post (1948) Turing jump / Kleene arithmetic hierarchy の 抽象骨格\r\n(Nat 上の 具体 realization)。\r\n\r\n★ Honest scope (譲れない):\r\n(1) 本 file は Turing jump の **Nat 上の 具体 successor 骨格 のみ** (順序 chain + iteration\r\n    strict monotone)、 実際の TM 計算/oracle 復号/Kleene reducibility の 実装ではない。\r\n    「Ω⁽ⁿ⁺¹⁾ = Ω⁽ⁿ⁾ ⊕ Halt(Ω⁽ⁿ⁾)」 の 対角化 concrete construction は 別問題。\r\n(2) axiom-free 保証: sorry 一切なし、 native_decide 系規律なし、 user axiom なし。\r\n    Nat + omega + Nat.lt_succ_self + N"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-08-16"
     },
-    "scopeOfImpossibility": "STEP 1340 arc extension (2026-08-17): Ω 跳躍作用素 Lean 4 axiom-free skeleton —\nchat-Claude 2026-08-17 「決定不能性を 1 ミリ動かす — 4 本の定規」 §I.1 の Rei stack\nformalization。 Post (1948) Turing jump / Kleene arithmetic ",
+    "scopeOfImpossibility": "STEP 1340 arc extension (2026-08-17): Ω 跳躍作用素 Lean 4 axiom-free skeleton —\r\nchat-Claude 2026-08-17 「決定不能性を 1 ミリ動かす — 4 本の定規」 §I.1 の Rei stack\r\nformalization。 Post (1948) Turing jump / Kleene arithmeti",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "OmegaJumpSkeleton.lean",
     "lineCount": 103,
-    "fileSize": 5133,
+    "fileSize": 5235,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 2,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

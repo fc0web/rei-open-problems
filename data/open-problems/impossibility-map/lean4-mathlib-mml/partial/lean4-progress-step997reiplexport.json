@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Rei P L Export — 定理 3 / sorry 0 / axiom 10",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\n  ---------------------------------------------------\n\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\n  plus inhabitation axioms (so Lean 4 can construct witnesses).\n  Round-trip fidelity is NOT complete: Lean 4 verifies proof-term\n  shape, not D-FUMT₈ semantics.  Use the native Rei-PL Prover for\n  genuine D-FUMT₈ reasoning."
+    "headerDoc": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\r\n  ---------------------------------------------------\r\n\r\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\r\n  plus inhabitation axioms (so Lean 4 can construct witnesses).\r\n  Round-trip fidelity is NOT complete: Lean 4 verifies proof-term\r\n  shape, not D-FUMT₈ semantics.  Use the native Rei-PL Prover for\r\n  genuine D-FUMT₈ reasoning."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -43,7 +43,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\n  ---------------------------------------------------\n\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\n  plus inhabitation axioms (",
+    "scopeOfImpossibility": "Rei-PL Prover v0.1 — Lean 4 export (auto-generated)\r\n  ---------------------------------------------------\r\n\r\n  D-FUMT₈ non-classical values are encoded as opaque Prop axioms\r\n  plus inhabitation axio",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Step997ReiPLExport.lean",
     "lineCount": 45,
-    "fileSize": 1833,
+    "fileSize": 1877,
     "theoremCount": 3,
     "lemmaCount": 0,
     "defCount": 0,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Brocard Extended — 定理 18 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 980 — Brocard's problem, extension to n ∈ [13, 20]\n  =======================================================\n\n  Companion to `CollatzRei/BrocardProblem.lean` (n ≤ 12, native_decide brute force).\n\n  ★ Brocard 1876 / Ramanujan 1913 — OPEN 150 years:\n    The only (n, m) with n! + 1 = m² are:\n      n=4 → m=5   (25 = 5²)\n      n=5 → m=11  (121 = 11²)\n      n=7 → m=71  (5041 = 71²)\n    No other solution is known; Berndt–Galway 2000 verified up to N = 10⁹.\n\n  ★ Approach for n ≥ 13 ★\n    Brute force `∀ m ≤ bound, m * m ≠ n! + 1` becomes infeasible for native_decide\n    once bound exceeds ~10⁷ (n "
+    "headerDoc": "STEP 980 — Brocard's problem, extension to n ∈ [13, 20]\r\n  =======================================================\r\n\r\n  Companion to `CollatzRei/BrocardProblem.lean` (n ≤ 12, native_decide brute force).\r\n\r\n  ★ Brocard 1876 / Ramanujan 1913 — OPEN 150 years:\r\n    The only (n, m) with n! + 1 = m² are:\r\n      n=4 → m=5   (25 = 5²)\r\n      n=5 → m=11  (121 = 11²)\r\n      n=7 → m=71  (5041 = 71²)\r\n    No other solution is known; Berndt–Galway 2000 verified up to N = 10⁹.\r\n\r\n  ★ Approach for n ≥ 13 ★\r\n    Brute force `∀ m ≤ bound, m * m ≠ n! + 1` becomes infeasible for native_decide\r\n    once bound ex"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-23"
     },
-    "scopeOfImpossibility": "STEP 980 — Brocard's problem, extension to n ∈ [13, 20]\n  =======================================================\n\n  Companion to `CollatzRei/BrocardProblem.lean` (n ≤ 12, native_decide brute force).\n",
+    "scopeOfImpossibility": "STEP 980 — Brocard's problem, extension to n ∈ [13, 20]\r\n  =======================================================\r\n\r\n  Companion to `CollatzRei/BrocardProblem.lean` (n ≤ 12, native_decide brute force",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step980BrocardExtended.lean",
     "lineCount": 159,
-    "fileSize": 6468,
+    "fileSize": 6626,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 1,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

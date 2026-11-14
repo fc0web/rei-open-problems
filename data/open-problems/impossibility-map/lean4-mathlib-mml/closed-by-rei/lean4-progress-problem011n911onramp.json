@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Problem 011 N 911 On Ramp — 定理 46 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Problem 011 / STEP 875 — n=911 Universal On-Ramp (Atomic Cores)\n  ================================================================\n\n  Empirical finding (STEP 872-873, 2026-04-18):\n    All 25 atomic hard cores of E_{1.8} (STEP 696 canonical list) have Collatz\n    orbits that visit the value 911 before reaching 1. Verified empirically\n    for n ≤ 10^6 (100% atomic-core necessity).\n\n  This file formalizes the finite-n version as a Lean 4 zero-sorry theorem.\n  Each individual core is verified with `native_decide`, and the aggregate\n  theorem follows.\n\n  Sources:\n    - src/axiom-os/collatz-atomic-c"
+    "headerDoc": "Problem 011 / STEP 875 — n=911 Universal On-Ramp (Atomic Cores)\r\n  ================================================================\r\n\r\n  Empirical finding (STEP 872-873, 2026-04-18):\r\n    All 25 atomic hard cores of E_{1.8} (STEP 696 canonical list) have Collatz\r\n    orbits that visit the value 911 before reaching 1. Verified empirically\r\n    for n ≤ 10^6 (100% atomic-core necessity).\r\n\r\n  This file formalizes the finite-n version as a Lean 4 zero-sorry theorem.\r\n  Each individual core is verified with `native_decide`, and the aggregate\r\n  theorem follows.\r\n\r\n  Sources:\r\n    - src/axiom-os/col"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Problem 011 / STEP 875 — n=911 Universal On-Ramp (Atomic Cores)\n  ================================================================\n\n  Empirical finding (STEP 872-873, 2026-04-18):\n    All 25 atomic ha",
+    "scopeOfImpossibility": "Problem 011 / STEP 875 — n=911 Universal On-Ramp (Atomic Cores)\r\n  ================================================================\r\n\r\n  Empirical finding (STEP 872-873, 2026-04-18):\r\n    All 25 atomi",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Problem011N911OnRamp.lean",
     "lineCount": 199,
-    "fileSize": 11199,
+    "fileSize": 11397,
     "theoremCount": 46,
     "lemmaCount": 0,
     "defCount": 5,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

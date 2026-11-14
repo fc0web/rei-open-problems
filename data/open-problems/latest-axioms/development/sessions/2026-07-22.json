@@ -1,0 +1,135 @@
+{
+  "id": "SESSION-2026-07-22-DEVLOG",
+  "tier": 7,
+  "source": "development/sessions",
+  "sourceRef": {
+    "url": "https://github.com/fc0web/rei-aios/commits/main",
+    "citation": "Rei-AIOS dev session 2026-07-22",
+    "lean4Ref": null,
+    "sourceCode": null
+  },
+  "statement": {
+    "en": "Dev session 2026-07-22: STEP 1310: Chang paradigm coverage 12/29 → 14/29 (+P6 DFA + ",
+    "ja": "開発セッション 2026-07-22: STEP 1310: Chang paradigm coverage 12/29 → 14/29 (+P6 DFA + ",
+    "latex": null,
+    "preview_source": "tier7-session-log-v0.1",
+    "summary": "Auto-generated session log for 2026-07-22. 24 commits, 51 new theorems detected via git log scan."
+  },
+  "field": "development",
+  "subfield": "sessions",
+  "proposer": "Rei-AIOS team (藤本 + Claude)",
+  "year": 2026,
+  "status": "completed",
+  "lastUpdate": "2026-07-22",
+  "reiTyping": {
+    "primaryType": "VII_REI_GENERATED",
+    "secondaryType": null,
+    "dfumt8": "TRUE",
+    "dfumt8Reason": "Completed session, commits pushed",
+    "rationale": "Dev session auto-log",
+    "confidence": 1
+  },
+  "cross_refs": {
+    "commits": [
+      "4bdab64bf",
+      "6feb2e4c6",
+      "a2e5c6a6b",
+      "78a2d9ff0",
+      "426ddb789",
+      "03477e90e",
+      "19c7783ad",
+      "afb9f5741",
+      "9b99b2fd9",
+      "3b8f735c3",
+      "549549b69",
+      "800668d29",
+      "63d9a71b8",
+      "5e7b5df45",
+      "2fa7f5ebb",
+      "9897a92f2",
+      "22cfc7bb6",
+      "7b2a4c444",
+      "faa7b5d80",
+      "4e541ca71",
+      "e7ce8f9a9",
+      "15584960d",
+      "bfc5a7952",
+      "013f2a4e6"
+    ],
+    "external": [],
+    "seedKernel": null
+  },
+  "axiomMeta": {
+    "lifecycleStage": "TRUE",
+    "provisionalityScore": 0,
+    "expirationPolicy": "90-days",
+    "sourceTier": "rei-internal",
+    "sourceTrust": 1,
+    "ontologicalCategory": "existing",
+    "epistemologicalProperties": {
+      "novelty": {
+        "score": 1,
+        "evidence": "unique to this session",
+        "reviewedBy": "auto-log"
+      },
+      "theoryType": {
+        "score": 0,
+        "evidence": "work record, not theory",
+        "reducibleToExistingAxioms": null
+      },
+      "reproducibility": {
+        "score": 1,
+        "attempts": 1,
+        "evidenceLevel": "commit-level",
+        "publicProtocol": true
+      },
+      "reconstructability": {
+        "score": 1,
+        "lean4Progress": "n/a",
+        "axiomChainLength": null,
+        "blockers": []
+      }
+    },
+    "classificationDetail": {
+      "formalizabilityClass": "CLASS-C",
+      "sufficiencyStatus": "sufficient",
+      "implementationPlan": "completed",
+      "blockers": []
+    },
+    "latestLinkage": {
+      "seedKernelCandidate": [],
+      "relatedTier1Problems": [],
+      "relatedTier4Gaps": []
+    },
+    "peaceCheck": "passed"
+  },
+  "sessionMeta": {
+    "classification": "research",
+    "commitCount": 24,
+    "newFiles": {
+      "lean": 13,
+      "ts": 0,
+      "json": 500,
+      "md": 5,
+      "other": 201
+    },
+    "newFilesTotal": 719,
+    "newTheorems": 51,
+    "newScripts": [],
+    "memoryAdded": 0,
+    "highlights": "STEP 1310: Chang paradigm coverage 12/29 → 14/29 (+P6 DFA + P18 Digit-sum) + popcount obstruction em / Auto: site rebuild + stats refresh (SEED 1675 / STEP 1258 / Papers 175) / Cantor v0.5: critical exponent arithmetic + Frostman roadmap (Mathlib gap noted)"
+  },
+  "visibilityMeta": {
+    "publicVisibility": "public"
+  },
+  "formalization": {
+    "lean4": "n/a",
+    "coq": "n/a",
+    "agda": "n/a",
+    "isabelle": "n/a",
+    "sorryCount": null,
+    "notes": null
+  },
+  "ingested": "2026-07-22",
+  "ingestMethod": "tier7-session-log-auto-v0.1"
+}

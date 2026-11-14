@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Sigma Cascade — 定理 2 / sorry 1 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\n\n  Honest scope:\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\n    * The proof is `sorry` — full mechanized proof is long-term future work.\n    * Companion to Paper 151 (Zenodo DOI 10.5281/zenodo.20146654).\n    * Companion to STEP 1101-1103 σ-cascade empirical Collatz observation.\n\n  Paper 151 Theorem 14:\n    The six σ-attributes (field, flow, memory, layer, relation, will) interact\n    in cascading reactions: a change in one attribute propagates to others\n    through a chain of "
+    "headerDoc": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\r\n\r\n  Honest scope:\r\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\r\n    * The proof is `sorry` — full mechanized proof is long-term future work.\r\n    * Companion to Paper 151 (Zenodo DOI 10.5281/zenodo.20146654).\r\n    * Companion to STEP 1101-1103 σ-cascade empirical Collatz observation.\r\n\r\n  Paper 151 Theorem 14:\r\n    The six σ-attributes (field, flow, memory, layer, relation, will) interact\r\n    in cascading reactions: a change in one attribute propagates to others\r\n    through "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\n\n  Honest scope:\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\n    * The proof is `s",
+    "scopeOfImpossibility": "STEP 1104 (2026-05-13): σ-cascade (Paper 151 Theorem 14) — Lean 4 statement stub.\r\n\r\n  Honest scope:\r\n    * This file states the σ-cascade theorem in Lean 4 syntax that type-checks.\r\n    * The proof i",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 1 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "SigmaCascade.lean",
     "lineCount": 114,
-    "fileSize": 4861,
+    "fileSize": 4974,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 3,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

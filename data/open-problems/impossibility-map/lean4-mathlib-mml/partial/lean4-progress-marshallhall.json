@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Marshall Hall — 定理 8 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 973 — Marshall Hall's Conjecture (1971): Computational Scaffolding\n  藤本伸樹 2026-04-22\n\n  Pattern A gap fill (2026-04-22 research radar audit):\n  Marshall Hall's conjecture: for any ε > 0, there exists C_ε > 0 such that\n  for all integers x, y ≥ 1 with y² ≠ x³:\n      |x³ - y²| ≥ C_ε · x^(1/2 - ε)\n\n  Original (1971) liminf form: liminf_{x→∞} |x³ - y²| / √x > 0.\n  Status: OPEN. Almost no recent literature; partial progress via ABC\n  implications (Hall follows from ABC).\n\n  This file provides:\n    (a) Computation of the Hall gap |x³ - y²| for small witnesses.\n    (b) The classical near-miss (x"
+    "headerDoc": "STEP 973 — Marshall Hall's Conjecture (1971): Computational Scaffolding\r\n  藤本伸樹 2026-04-22\r\n\r\n  Pattern A gap fill (2026-04-22 research radar audit):\r\n  Marshall Hall's conjecture: for any ε > 0, there exists C_ε > 0 such that\r\n  for all integers x, y ≥ 1 with y² ≠ x³:\r\n      |x³ - y²| ≥ C_ε · x^(1/2 - ε)\r\n\r\n  Original (1971) liminf form: liminf_{x→∞} |x³ - y²| / √x > 0.\r\n  Status: OPEN. Almost no recent literature; partial progress via ABC\r\n  implications (Hall follows from ABC).\r\n\r\n  This file provides:\r\n    (a) Computation of the Hall gap |x³ - y²| for small witnesses.\r\n    (b) The classica"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 973 — Marshall Hall's Conjecture (1971): Computational Scaffolding\n  藤本伸樹 2026-04-22\n\n  Pattern A gap fill (2026-04-22 research radar audit):\n  Marshall Hall's conjecture: for any ε > 0, there ex",
+    "scopeOfImpossibility": "STEP 973 — Marshall Hall's Conjecture (1971): Computational Scaffolding\r\n  藤本伸樹 2026-04-22\r\n\r\n  Pattern A gap fill (2026-04-22 research radar audit):\r\n  Marshall Hall's conjecture: for any ε > 0, ther",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "MarshallHall.lean",
     "lineCount": 115,
-    "fileSize": 5754,
+    "fileSize": 5868,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

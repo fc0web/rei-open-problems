@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Rei Raa Experiment — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "!\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\n\nSTEP 1231 sanity-check stage (2026-06-21).\n\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\naxiom-free 証明できるか確認する file。\n\n## Honest scope\n- 「新数学」 と即時 framing せず、 既存 component (6 attributes + MDNST 4 modes +\n  Genesis 7 stages + reflection + canonical notations) の新 combination の sanity 確認\n- 数学未解決問題を解くものではない (suggester / organizer framework)\n- 5 axiom が self-consistent + concrete realization が axiom-free 構成可能か検証する\n- prior art: stratified types / sized types / reflexive objects / multi-graded algeb"
+    "headerDoc": "!\r\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\r\n\r\nSTEP 1231 sanity-check stage (2026-06-21).\r\n\r\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\r\naxiom-free 証明できるか確認する file。\r\n\r\n## Honest scope\r\n- 「新数学」 と即時 framing せず、 既存 component (6 attributes + MDNST 4 modes +\r\n  Genesis 7 stages + reflection + canonical notations) の新 combination の sanity 確認\r\n- 数学未解決問題を解くものではない (suggester / organizer framework)\r\n- 5 axiom が self-consistent + concrete realization が axiom-free 構成可能か検証する\r\n- prior art: stratified types / sized types / reflexive objects / multi"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "!\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\n\nSTEP 1231 sanity-check stage (2026-06-21).\n\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\naxiom-f",
+    "scopeOfImpossibility": "!\r\n# Reflexive Attribute Algebra (RAA) v0.1 — Lean 4 axiom-free sanity check\r\n\r\nSTEP 1231 sanity-check stage (2026-06-21).\r\n\r\n5 axiom (RA-1〜RA-5) + 1 elementary lemma を **concrete** RaaValue 実装に対して\r\na",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "ReiRaaExperiment.lean",
     "lineCount": 192,
-    "fileSize": 6713,
+    "fileSize": 6904,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 7,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

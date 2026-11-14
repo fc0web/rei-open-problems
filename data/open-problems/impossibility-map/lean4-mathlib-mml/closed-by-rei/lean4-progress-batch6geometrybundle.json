@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Batch 6 Geometry Bundle — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Batch 6 — Geometry unsolved problems\n  ============================================\n\n  Topics covered:\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\n  2.  Sphere packing (n=8 Viazovska 2016, n=24 Cohn-Kumar-Miller-Radchenko-Viazovska 2017)\n  3.  Einstein problem (einstein tile, Smith-Myers-Kaplan-Goodman-Strauss 2023)\n  4.  Moser's worm\n  5.  Lebesgue's universal cover\n  6.  Reinhardt's convex body packing minimum\n  7.  Hadwiger-Nelson chromatic plane\n  8.  Erdős–Szekeres happy ending\n  9.  Perfect cuboid\n  10. Sofa problem (Moser)\n  11. Fejes Tóth convex body packing\n  12. Mag"
+    "headerDoc": "STEP Batch 6 — Geometry unsolved problems\r\n  ============================================\r\n\r\n  Topics covered:\r\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\r\n  2.  Sphere packing (n=8 Viazovska 2016, n=24 Cohn-Kumar-Miller-Radchenko-Viazovska 2017)\r\n  3.  Einstein problem (einstein tile, Smith-Myers-Kaplan-Goodman-Strauss 2023)\r\n  4.  Moser's worm\r\n  5.  Lebesgue's universal cover\r\n  6.  Reinhardt's convex body packing minimum\r\n  7.  Hadwiger-Nelson chromatic plane\r\n  8.  Erdős–Szekeres happy ending\r\n  9.  Perfect cuboid\r\n  10. Sofa problem (Moser)\r\n  11. Fejes Tóth convex body pac"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Batch 6 — Geometry unsolved problems\n  ============================================\n\n  Topics covered:\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\n  2.  Sphere packing (n=8 Viazovska",
+    "scopeOfImpossibility": "STEP Batch 6 — Geometry unsolved problems\r\n  ============================================\r\n\r\n  Topics covered:\r\n  1.  Kissing number (only n=1,2,3,4,8,24 known exactly)\r\n  2.  Sphere packing (n=8 Viaz",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Batch6GeometryBundle.lean",
     "lineCount": 74,
-    "fileSize": 3005,
+    "fileSize": 3078,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 0,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

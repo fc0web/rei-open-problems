@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Algebraic K Theory — 定理 14 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 962 — Algebraic K-Theory and Homological Algebra Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in K-theory and homological algebra:\n\n  A. LICHTENBAUM-QUILLEN CONJECTURE (proved)\n     Algebraic K-groups of ℤ[1/p] related to étale cohomology.\n     PROVED: Voevodsky 2000 (motivic cohomology) + Rost-Voevodsky.\n\n  B. QUILLEN-LICHTENBAUM CONJECTURE FOR NUMBER FIELDS\n     K_n(𝒪_F) ⊗ ℤ_p ≅ K_n^et(𝒪_F, ℤ_p) for n large.\n     STATUS: Proved (Rost-Voevodsky + Bloch-Kato + descent).\n\n  C. WEIBEL'S VANISHING CONJECTURE\n     K_n(X) = 0 for n < -dim(X) (X Noetherian of finite type).\n     STATU"
+    "headerDoc": "STEP 962 — Algebraic K-Theory and Homological Algebra Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in K-theory and homological algebra:\r\n\r\n  A. LICHTENBAUM-QUILLEN CONJECTURE (proved)\r\n     Algebraic K-groups of ℤ[1/p] related to étale cohomology.\r\n     PROVED: Voevodsky 2000 (motivic cohomology) + Rost-Voevodsky.\r\n\r\n  B. QUILLEN-LICHTENBAUM CONJECTURE FOR NUMBER FIELDS\r\n     K_n(𝒪_F) ⊗ ℤ_p ≅ K_n^et(𝒪_F, ℤ_p) for n large.\r\n     STATUS: Proved (Rost-Voevodsky + Bloch-Kato + descent).\r\n\r\n  C. WEIBEL'S VANISHING CONJECTURE\r\n     K_n(X) = 0 for n < -dim(X) (X Noetherian of finite typ"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 962 — Algebraic K-Theory and Homological Algebra Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in K-theory and homological algebra:\n\n  A. LICHTENBAUM-QUILLEN CONJECTURE (proved)\n     Alge",
+    "scopeOfImpossibility": "STEP 962 — Algebraic K-Theory and Homological Algebra Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in K-theory and homological algebra:\r\n\r\n  A. LICHTENBAUM-QUILLEN CONJECTURE (proved)\r\n   ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step962AlgebraicKTheory.lean",
     "lineCount": 233,
-    "fileSize": 10407,
+    "fileSize": 10639,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 0,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

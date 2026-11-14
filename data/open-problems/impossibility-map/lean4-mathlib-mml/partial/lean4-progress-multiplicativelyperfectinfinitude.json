@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Multiplicatively Perfect Infinitude — 定理 13 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 924 — Multiplicatively Perfect Number Infinitude\n  =======================================================\n\n  A number n is **multiplicatively perfect** iff the product of all\n  positive divisors of n equals n². Equivalently, τ(n) = 4 where τ\n  is the divisor-count function.\n\n  Classification: τ(n) = 4 iff either\n    (a) n = p³ for some prime p, or\n    (b) n = p · q for distinct primes p, q.\n\n  Consequence: Since there are infinitely many primes (Euclid 300 BC),\n  there are infinitely many cubes of primes p³, each multiplicatively\n  perfect. Hence **infinitely many multiplicatively perfec"
+    "headerDoc": "STEP 924 — Multiplicatively Perfect Number Infinitude\r\n  =======================================================\r\n\r\n  A number n is **multiplicatively perfect** iff the product of all\r\n  positive divisors of n equals n². Equivalently, τ(n) = 4 where τ\r\n  is the divisor-count function.\r\n\r\n  Classification: τ(n) = 4 iff either\r\n    (a) n = p³ for some prime p, or\r\n    (b) n = p · q for distinct primes p, q.\r\n\r\n  Consequence: Since there are infinitely many primes (Euclid 300 BC),\r\n  there are infinitely many cubes of primes p³, each multiplicatively\r\n  perfect. Hence **infinitely many multiplica"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 924 — Multiplicatively Perfect Number Infinitude\n  =======================================================\n\n  A number n is **multiplicatively perfect** iff the product of all\n  positive divisors",
+    "scopeOfImpossibility": "STEP 924 — Multiplicatively Perfect Number Infinitude\r\n  =======================================================\r\n\r\n  A number n is **multiplicatively perfect** iff the product of all\r\n  positive divi",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "MultiplicativelyPerfectInfinitude.lean",
     "lineCount": 166,
-    "fileSize": 7858,
+    "fileSize": 8023,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 2,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

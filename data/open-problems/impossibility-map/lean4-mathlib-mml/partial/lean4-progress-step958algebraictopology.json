@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Algebraic Topology — 定理 14 / sorry 0 / axiom 5",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 958 — Algebraic Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in algebraic topology:\n\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\n     Which dimensions n have smooth manifolds with Kervaire invariant 1?\n     Answer: only n ∈ {2,6,14,30,62} (and possibly 126). PROVED 2016.\n\n  B. TELESCOPE CONJECTURE (Chromatic homotopy theory)\n     Ravenel's telescope conjecture: T(n)-local sphere = Ln-finite localiz.\n     STATUS: DISPROVED for n ≥ 2 by Burklund-Hahn-Levy-Schlank (2023).\n\n  C. HOPF INVARIANT ONE PROBLEM (Adams, PROVED 1960)\n     Composition ma"
+    "headerDoc": "STEP 958 — Algebraic Topology Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in algebraic topology:\r\n\r\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\r\n     Which dimensions n have smooth manifolds with Kervaire invariant 1?\r\n     Answer: only n ∈ {2,6,14,30,62} (and possibly 126). PROVED 2016.\r\n\r\n  B. TELESCOPE CONJECTURE (Chromatic homotopy theory)\r\n     Ravenel's telescope conjecture: T(n)-local sphere = Ln-finite localiz.\r\n     STATUS: DISPROVED for n ≥ 2 by Burklund-Hahn-Levy-Schlank (2023).\r\n\r\n  C. HOPF INVARIANT ONE PROBLEM (Adams, PROVED 1960)\r\n     "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 958 — Algebraic Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in algebraic topology:\n\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\n     Which dimensi",
+    "scopeOfImpossibility": "STEP 958 — Algebraic Topology Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in algebraic topology:\r\n\r\n  A. KERVAIRE INVARIANT ONE PROBLEM → THEOREM (Hill-Hopkins-Ravenel 2016)\r\n     Which d",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step958AlgebraicTopology.lean",
     "lineCount": 247,
-    "fileSize": 11482,
+    "fileSize": 11728,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

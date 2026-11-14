@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Devissage — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Abstract Dévissage Lemma — Lean 4 Zero-Sorry Formalization\n  ============================================================\n\n  Motivation: closes the abstract / well-foundedness portion of a\n  dévissage formalization (Rei-AIOS STEP 881, 2026-04-19). Accompanies\n  Roshanak-sensei's note article on dévissage\n  (https://note.com/nifty_godwit2635/n/n3c70baa9f3b2) which declared 5\n  sorries remaining in a Noetherian-scheme-specific treatment.\n\n  Rei contribution here: the *abstract* dévissage theorem (category-free,\n  scheme-free) is proven ZERO-SORRY via strong well-founded induction\n  on a lexicogr"
+    "headerDoc": "Abstract Dévissage Lemma — Lean 4 Zero-Sorry Formalization\r\n  ============================================================\r\n\r\n  Motivation: closes the abstract / well-foundedness portion of a\r\n  dévissage formalization (Rei-AIOS STEP 881, 2026-04-19). Accompanies\r\n  Roshanak-sensei's note article on dévissage\r\n  (https://note.com/nifty_godwit2635/n/n3c70baa9f3b2) which declared 5\r\n  sorries remaining in a Noetherian-scheme-specific treatment.\r\n\r\n  Rei contribution here: the *abstract* dévissage theorem (category-free,\r\n  scheme-free) is proven ZERO-SORRY via strong well-founded induction\r\n  on"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Abstract Dévissage Lemma — Lean 4 Zero-Sorry Formalization\n  ============================================================\n\n  Motivation: closes the abstract / well-foundedness portion of a\n  dévissage",
+    "scopeOfImpossibility": "Abstract Dévissage Lemma — Lean 4 Zero-Sorry Formalization\r\n  ============================================================\r\n\r\n  Motivation: closes the abstract / well-foundedness portion of a\r\n  dévis",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Devissage.lean",
     "lineCount": 223,
-    "fileSize": 10124,
+    "fileSize": 10346,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 3,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

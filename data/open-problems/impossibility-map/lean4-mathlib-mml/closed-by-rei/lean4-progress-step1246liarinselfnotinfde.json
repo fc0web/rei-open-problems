@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Liar In Self Not In Fde — 定理 5 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1246 — Liar-type NOT-fixed-point in D-FUMT₈ SELF⟲ axis, not captured\n              by Priest FDE 4-value embedding — Axiom-Free in Lean 4\n\n  Trigger: 2026-07-01 session chat-Claude Pyrrho arc arrives at the thesis\n  \"NEITHER/SELF⟲ = load-bearing multi-value primitive that classical\n  2-valued logic cannot represent\" and inscribes in the artifact footer:\n\n      「NEITHERが四値FDEに還元されないことの分離証明は、\n       まだ Lean4 の向こうにある」\n      (public/tools/pyrrho-all-circuits/index.html, chat-Claude 2026-07-01)\n\n  This STEP retroactively strengthens that footer by establishing the\n  intended separation theorem"
+    "headerDoc": "STEP 1246 — Liar-type NOT-fixed-point in D-FUMT₈ SELF⟲ axis, not captured\r\n              by Priest FDE 4-value embedding — Axiom-Free in Lean 4\r\n\r\n  Trigger: 2026-07-01 session chat-Claude Pyrrho arc arrives at the thesis\r\n  \"NEITHER/SELF⟲ = load-bearing multi-value primitive that classical\r\n  2-valued logic cannot represent\" and inscribes in the artifact footer:\r\n\r\n      「NEITHERが四値FDEに還元されないことの分離証明は、\r\n       まだ Lean4 の向こうにある」\r\n      (public/tools/pyrrho-all-circuits/index.html, chat-Claude 2026-07-01)\r\n\r\n  This STEP retroactively strengthens that footer by establishing the\r\n  intended separa"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-01"
     },
-    "scopeOfImpossibility": "STEP 1246 — Liar-type NOT-fixed-point in D-FUMT₈ SELF⟲ axis, not captured\n              by Priest FDE 4-value embedding — Axiom-Free in Lean 4\n\n  Trigger: 2026-07-01 session chat-Claude Pyrrho arc arr",
+    "scopeOfImpossibility": "STEP 1246 — Liar-type NOT-fixed-point in D-FUMT₈ SELF⟲ axis, not captured\r\n              by Priest FDE 4-value embedding — Axiom-Free in Lean 4\r\n\r\n  Trigger: 2026-07-01 session chat-Claude Pyrrho arc ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step1246LiarInSelfNotInFde.lean",
     "lineCount": 223,
-    "fileSize": 10701,
+    "fileSize": 10923,
     "theoremCount": 5,
     "lemmaCount": 0,
     "defCount": 0,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

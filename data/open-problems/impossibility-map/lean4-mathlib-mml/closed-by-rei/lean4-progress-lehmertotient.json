@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Lehmer Totient — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Lehmer — Lehmer's totient conjecture small-n verification\n  ==============================================================\n\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\n    ∀ n ≥ 2, φ(n) | (n − 1) ⟹ n is prime.\n\n  Empirically verified up to n < 10^30 (Cohen/Hagis 2011 et al.). No Lehmer\n  number (composite n with φ(n) | n-1) has ever been found; necessary\n  conditions include n odd, squarefree, ≥ 14 prime factors.\n\n  This file gives a Mathlib-native Lean 4 verification for n ∈ [2, 1000]:\n    - Every n with φ(n) | (n-1) in this range is prime.\n    - Every composite in this range has φ(n"
+    "headerDoc": "STEP Lehmer — Lehmer's totient conjecture small-n verification\r\n  ==============================================================\r\n\r\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\r\n    ∀ n ≥ 2, φ(n) | (n − 1) ⟹ n is prime.\r\n\r\n  Empirically verified up to n < 10^30 (Cohen/Hagis 2011 et al.). No Lehmer\r\n  number (composite n with φ(n) | n-1) has ever been found; necessary\r\n  conditions include n odd, squarefree, ≥ 14 prime factors.\r\n\r\n  This file gives a Mathlib-native Lean 4 verification for n ∈ [2, 1000]:\r\n    - Every n with φ(n) | (n-1) in this range is prime.\r\n    - Every composite in this r"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP Lehmer — Lehmer's totient conjecture small-n verification\n  ==============================================================\n\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\n    ∀ n ≥ 2, φ(n) | (n ",
+    "scopeOfImpossibility": "STEP Lehmer — Lehmer's totient conjecture small-n verification\r\n  ==============================================================\r\n\r\n  Conjecture (Lehmer, 1932, OPEN for 94 years):\r\n    ∀ n ≥ 2, φ(n) |",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "LehmerTotient.lean",
     "lineCount": 68,
-    "fileSize": 2695,
+    "fileSize": 2762,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

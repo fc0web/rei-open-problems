@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Problem 008 F D A F I D T — 定理 10 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Problem 008 — Fujimoto Dimension Algebra (FDA) ↔ Mathlib Embedding\n  + V3 Skeleton — FIDT (Fujimoto Infinite Dot Theory) structure\n\n  This file formalizes:\n\n    V1. FDA (STEP 844) — inductive DimensionValue with 5 kinds\n         (Finite ℤ, ±∞, AbsoluteZero, Indeterminate)\n         + dimAdd, dimNeg, dimMul operations (closure shown structurally)\n\n    V2. Problem 008 resolution — bijection with a Mathlib-native type:\n          DimensionValue ≃ Option (Option ℤ) ⊕ Unit ⊕ Unit\n        Round-trip theorems (zero sorry).\n\n    V3. FIDT (STEP 845) skeleton — InfiniteDot = (DimensionValue × DFumt8)\n    "
+    "headerDoc": "Problem 008 — Fujimoto Dimension Algebra (FDA) ↔ Mathlib Embedding\r\n  + V3 Skeleton — FIDT (Fujimoto Infinite Dot Theory) structure\r\n\r\n  This file formalizes:\r\n\r\n    V1. FDA (STEP 844) — inductive DimensionValue with 5 kinds\r\n         (Finite ℤ, ±∞, AbsoluteZero, Indeterminate)\r\n         + dimAdd, dimNeg, dimMul operations (closure shown structurally)\r\n\r\n    V2. Problem 008 resolution — bijection with a Mathlib-native type:\r\n          DimensionValue ≃ Option (Option ℤ) ⊕ Unit ⊕ Unit\r\n        Round-trip theorems (zero sorry).\r\n\r\n    V3. FIDT (STEP 845) skeleton — InfiniteDot = (DimensionValue ×"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Problem 008 — Fujimoto Dimension Algebra (FDA) ↔ Mathlib Embedding\n  + V3 Skeleton — FIDT (Fujimoto Infinite Dot Theory) structure\n\n  This file formalizes:\n\n    V1. FDA (STEP 844) — inductive Dimensio",
+    "scopeOfImpossibility": "Problem 008 — Fujimoto Dimension Algebra (FDA) ↔ Mathlib Embedding\r\n  + V3 Skeleton — FIDT (Fujimoto Infinite Dot Theory) structure\r\n\r\n  This file formalizes:\r\n\r\n    V1. FDA (STEP 844) — inductive Dim",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Problem008FDAFIDT.lean",
     "lineCount": 315,
-    "fileSize": 13588,
+    "fileSize": 13902,
     "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 18,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

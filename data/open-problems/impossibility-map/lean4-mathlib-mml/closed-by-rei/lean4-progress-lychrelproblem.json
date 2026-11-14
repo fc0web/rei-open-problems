@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Lychrel Problem — 定理 12 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Lychrel — Lychrel conjecture / 196 problem finite verification\n  ====================================================================\n\n  Conjecture (informal, base 10):\n    Iterating n ↦ n + reverse(n) eventually produces a palindrome\n    for every positive integer n.\n\n  Lychrel numbers: candidates that never reach a palindrome.\n  Smallest base-10 candidate: n = 196 (Wade VanLandingham verified > 10⁹ iterations).\n  OPEN: status of 196 is unproven (not known to be a Lychrel number or not).\n\n  Rei STEP Lychrel (2026-04-21):\n    Verified n ∈ [1, 1000] with K = 500 iterations:\n      - 987/100"
+    "headerDoc": "STEP Lychrel — Lychrel conjecture / 196 problem finite verification\r\n  ====================================================================\r\n\r\n  Conjecture (informal, base 10):\r\n    Iterating n ↦ n + reverse(n) eventually produces a palindrome\r\n    for every positive integer n.\r\n\r\n  Lychrel numbers: candidates that never reach a palindrome.\r\n  Smallest base-10 candidate: n = 196 (Wade VanLandingham verified > 10⁹ iterations).\r\n  OPEN: status of 196 is unproven (not known to be a Lychrel number or not).\r\n\r\n  Rei STEP Lychrel (2026-04-21):\r\n    Verified n ∈ [1, 1000] with K = 500 iterations:\r\n  "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Lychrel — Lychrel conjecture / 196 problem finite verification\n  ====================================================================\n\n  Conjecture (informal, base 10):\n    Iterating n ↦ n + reve",
+    "scopeOfImpossibility": "STEP Lychrel — Lychrel conjecture / 196 problem finite verification\r\n  ====================================================================\r\n\r\n  Conjecture (informal, base 10):\r\n    Iterating n ↦ n + ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "LychrelProblem.lean",
     "lineCount": 97,
-    "fileSize": 4135,
+    "fileSize": 4231,
     "theoremCount": 12,
     "lemmaCount": 0,
     "defCount": 5,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

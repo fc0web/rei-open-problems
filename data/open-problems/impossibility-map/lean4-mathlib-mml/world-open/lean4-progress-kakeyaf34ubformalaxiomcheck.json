@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Kakeya F 34 U B Formal Axiom Check — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1704 axiom profile verification for KakeyaF34UBFormal.lean\n  ================================================================\n  Run: `lake env lean CollatzRei/KakeyaF34UBFormalAxiomCheck.lean`"
+    "headerDoc": "STEP 1704 axiom profile verification for KakeyaF34UBFormal.lean\r\n  ================================================================\r\n  Run: `lake env lean CollatzRei/KakeyaF34UBFormalAxiomCheck.lean`"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "open",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1704 axiom profile verification for KakeyaF34UBFormal.lean\n  ================================================================\n  Run: `lake env lean CollatzRei/KakeyaF34UBFormalAxiomCheck.lean`",
+    "scopeOfImpossibility": "STEP 1704 axiom profile verification for KakeyaF34UBFormal.lean\r\n  ================================================================\r\n  Run: `lake env lean CollatzRei/KakeyaF34UBFormalAxiomCheck.lean`",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "KakeyaF34UBFormalAxiomCheck.lean",
     "lineCount": 14,
-    "fileSize": 384,
+    "fileSize": 397,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

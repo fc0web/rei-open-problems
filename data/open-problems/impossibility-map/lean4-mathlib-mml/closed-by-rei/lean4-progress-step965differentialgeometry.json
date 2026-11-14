@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Differential Geometry — 定理 16 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 965 — Differential Geometry and Geometric Analysis Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in differential geometry and geometric analysis:\n\n  A. POINCARÉ CONJECTURE (PROVED, Perelman 2003)\n     Every compact simply-connected 3-manifold is homeomorphic to S³.\n     STATUS: PROVED by Perelman using Ricci flow with surgery (2002-2003).\n\n  B. YAU'S CONJECTURE ON EIGENFUNCTIONS (partial)\n     Eigenfunctions of the Laplacian on a Riemannian manifold have\n     nodal sets of (n-1)-dimensional measure comparable to √λ.\n     STATUS: OPEN in general. Logunov-Malinnikova 2018: proved th"
+    "headerDoc": "STEP 965 — Differential Geometry and Geometric Analysis Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in differential geometry and geometric analysis:\r\n\r\n  A. POINCARÉ CONJECTURE (PROVED, Perelman 2003)\r\n     Every compact simply-connected 3-manifold is homeomorphic to S³.\r\n     STATUS: PROVED by Perelman using Ricci flow with surgery (2002-2003).\r\n\r\n  B. YAU'S CONJECTURE ON EIGENFUNCTIONS (partial)\r\n     Eigenfunctions of the Laplacian on a Riemannian manifold have\r\n     nodal sets of (n-1)-dimensional measure comparable to √λ.\r\n     STATUS: OPEN in general. Logunov-Malinnikova 201"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 965 — Differential Geometry and Geometric Analysis Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in differential geometry and geometric analysis:\n\n  A. POINCARÉ CONJECTURE (PROVED, Perelm",
+    "scopeOfImpossibility": "STEP 965 — Differential Geometry and Geometric Analysis Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in differential geometry and geometric analysis:\r\n\r\n  A. POINCARÉ CONJECTURE (PROVED, P",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step965DifferentialGeometry.lean",
     "lineCount": 217,
-    "fileSize": 9713,
+    "fileSize": 9929,
     "theoremCount": 16,
     "lemmaCount": 0,
     "defCount": 1,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

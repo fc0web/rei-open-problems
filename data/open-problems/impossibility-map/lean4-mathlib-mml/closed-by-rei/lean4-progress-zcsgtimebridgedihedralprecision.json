@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Zcsg Time Bridge Dihedral Precision — 定理 11 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeDihedralPrecision — STEP 1301 (2026-07-17)\n\n  ★ 目的:\n    STEP 1300 の (N) negative theorem 群で使用した用語 「Z/2 discrete」\n    を chat-Claude 2026-07-17 arc の指摘に基づき精密化する。\n\n  ★ chat-Claude 指摘 (2026-07-17):\n    「Z/2 discrete」 と 「ℤ (integer multiples)」 が階層混同している。\n    正しい 3 層:\n      * ⊖ 単独 → Z/2 (位数 2 involution)\n      * ZeroPi 単独 → Z/2 (位数 2 involution)\n      * ⊖ + ZeroPi 一緒に生成 → **D∞ 無限二面体群**\n      * D∞ の並進部分群 → **πℤ ≅ ℤ** (無限だが 0 次元離散)\n      * Noether 前提: **正次元連続 Lie group** (πℤ ⊊ ℝ)\n    Noether が失敗する精密な理由は 「Z/2 だから」 ではなく\n    「"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgeDihedralPrecision — STEP 1301 (2026-07-17)\r\n\r\n  ★ 目的:\r\n    STEP 1300 の (N) negative theorem 群で使用した用語 「Z/2 discrete」\r\n    を chat-Claude 2026-07-17 arc の指摘に基づき精密化する。\r\n\r\n  ★ chat-Claude 指摘 (2026-07-17):\r\n    「Z/2 discrete」 と 「ℤ (integer multiples)」 が階層混同している。\r\n    正しい 3 層:\r\n      * ⊖ 単独 → Z/2 (位数 2 involution)\r\n      * ZeroPi 単独 → Z/2 (位数 2 involution)\r\n      * ⊖ + ZeroPi 一緒に生成 → **D∞ 無限二面体群**\r\n      * D∞ の並進部分群 → **πℤ ≅ ℤ** (無限だが 0 次元離散)\r\n      * Noether 前提: **正次元連続 Lie group** (πℤ ⊊ ℝ)\r\n    Noether が失敗する精密な理由は 「Z/2 "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-17"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeDihedralPrecision — STEP 1301 (2026-07-17)\n\n  ★ 目的:\n    STEP 1300 の (N) negative theorem 群で使用した用語 「Z/2 discrete」\n    を ch",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgeDihedralPrecision — STEP 1301 (2026-07-17)\r\n\r\n  ★ 目的:\r\n    STEP 1300 の (N) negative theorem 群で使用した用語 「Z/2 discrete」\r\n   ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "ZcsgTimeBridgeDihedralPrecision.lean",
     "lineCount": 226,
-    "fileSize": 10638,
+    "fileSize": 10863,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 1,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

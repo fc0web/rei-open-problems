@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cantor Measure Ionescu Tulcea Setup — 定理 8 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMeasureIonescuTulceaSetup — v0.9-a setup phase (2026-07-24)\n\n   ★★★ 目的: Cantor measure を Ionescu-Tulcea `trajMeasure` 経由で構築する\n   setup phase file。 full 実装は multi-session substantial work、 本 file は\n   foundation (定義 + 型 signature + roadmap comment) のみで、 実際の theorem\n   proof は honest stub。\n\n   ★ 藤本さん 07-24 (J) 指示: 「Cantor v0.9-a Ionescu-Tulcea setup」\n\n   ★★★ Honest scope (super critical):\n   本 file 単独で `μH[s_critical] cantorSet ≠ 0` は達成不可。\n   Multi-session commitment (数 session 〜 数十時間) が本気の実装には必要。\n   本 file は roadmap 明確化 + f"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMeasureIonescuTulceaSetup — v0.9-a setup phase (2026-07-24)\r\n\r\n   ★★★ 目的: Cantor measure を Ionescu-Tulcea `trajMeasure` 経由で構築する\r\n   setup phase file。 full 実装は multi-session substantial work、 本 file は\r\n   foundation (定義 + 型 signature + roadmap comment) のみで、 実際の theorem\r\n   proof は honest stub。\r\n\r\n   ★ 藤本さん 07-24 (J) 指示: 「Cantor v0.9-a Ionescu-Tulcea setup」\r\n\r\n   ★★★ Honest scope (super critical):\r\n   本 file 単独で `μH[s_critical] cantorSet ≠ 0` は達成不可。\r\n   Multi-session commitment (数 session 〜 数十時間) が本気の実装には必要。\r\n   本 file は ro"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-23"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMeasureIonescuTulceaSetup — v0.9-a setup phase (2026-07-24)\n\n   ★★★ 目的: Cantor measure を Ionescu-Tulcea `trajMeasure` 経由で構築する\n  ",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMeasureIonescuTulceaSetup — v0.9-a setup phase (2026-07-24)\r\n\r\n   ★★★ 目的: Cantor measure を Ionescu-Tulcea `trajMeasure` 経由で構築する",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "CantorMeasureIonescuTulceaSetup.lean",
     "lineCount": 116,
-    "fileSize": 6067,
+    "fileSize": 6182,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 0,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

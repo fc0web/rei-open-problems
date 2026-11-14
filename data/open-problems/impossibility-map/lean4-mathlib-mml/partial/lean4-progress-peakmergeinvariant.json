@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Peak Merge Invariant — 定理 4 / sorry 1 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1111 (2026-05-13): Peak-merge invariant for Collatz σ-cascade observation.\n\n  Honest scope:\n    * This file states the peak-merge invariants observed empirically\n      in STEP 1107-1109 (Büchi-25 → peak 9,232 / INFINITY top peak 250,504).\n    * Concrete case (Büchi-25 → 9,232) is decidable computationally;\n      we provide the statement and indicate proof strategy.\n    * The general statement (∀ n ∈ INFINITY, ∃ super-hub peak it merges at)\n      is left as `sorry` — observational, not a derived theorem.\n\n  Companion to:\n    - Paper 151 (Rei 4-axiom foundation, Zenodo DOI 10.5281/zenodo.20"
+    "headerDoc": "STEP 1111 (2026-05-13): Peak-merge invariant for Collatz σ-cascade observation.\r\n\r\n  Honest scope:\r\n    * This file states the peak-merge invariants observed empirically\r\n      in STEP 1107-1109 (Büchi-25 → peak 9,232 / INFINITY top peak 250,504).\r\n    * Concrete case (Büchi-25 → 9,232) is decidable computationally;\r\n      we provide the statement and indicate proof strategy.\r\n    * The general statement (∀ n ∈ INFINITY, ∃ super-hub peak it merges at)\r\n      is left as `sorry` — observational, not a derived theorem.\r\n\r\n  Companion to:\r\n    - Paper 151 (Rei 4-axiom foundation, Zenodo DOI 10.528"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1111 (2026-05-13): Peak-merge invariant for Collatz σ-cascade observation.\n\n  Honest scope:\n    * This file states the peak-merge invariants observed empirically\n      in STEP 1107-1109 (Büchi-25",
+    "scopeOfImpossibility": "STEP 1111 (2026-05-13): Peak-merge invariant for Collatz σ-cascade observation.\r\n\r\n  Honest scope:\r\n    * This file states the peak-merge invariants observed empirically\r\n      in STEP 1107-1109 (Büch",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 1 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "PeakMergeInvariant.lean",
     "lineCount": 119,
-    "fileSize": 4740,
+    "fileSize": 4858,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 6,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

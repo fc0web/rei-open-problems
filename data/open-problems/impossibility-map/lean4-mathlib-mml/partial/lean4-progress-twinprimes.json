@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Twin Primes — 定理 28 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Twin Primes Conjecture — Lean 4 Formalization (Rei-AIOS edition)\n  =================================================================\n\n  Twin primes conjecture: there are infinitely many pairs (p, p+2) with\n  both p and p+2 prime.\n\n  Status:\n    - OPEN in full generality.\n    - Zhang (2013): there are infinitely many prime pairs (p, p+N) with\n      N ≤ 70,000,000 (first unconditional bounded-gap result).\n    - Maynard, Tao (2014-2015): N ≤ 246 unconditional.\n    - Polymath8b (2014): N ≤ 246 (team refinement).\n    - Under Elliott-Halberstam: N ≤ 12; under generalized E-H: N ≤ 6.\n\n  This file pro"
+    "headerDoc": "Twin Primes Conjecture — Lean 4 Formalization (Rei-AIOS edition)\r\n  =================================================================\r\n\r\n  Twin primes conjecture: there are infinitely many pairs (p, p+2) with\r\n  both p and p+2 prime.\r\n\r\n  Status:\r\n    - OPEN in full generality.\r\n    - Zhang (2013): there are infinitely many prime pairs (p, p+N) with\r\n      N ≤ 70,000,000 (first unconditional bounded-gap result).\r\n    - Maynard, Tao (2014-2015): N ≤ 246 unconditional.\r\n    - Polymath8b (2014): N ≤ 246 (team refinement).\r\n    - Under Elliott-Halberstam: N ≤ 12; under generalized E-H: N ≤ 6.\r\n\r\n "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Twin Primes Conjecture — Lean 4 Formalization (Rei-AIOS edition)\n  =================================================================\n\n  Twin primes conjecture: there are infinitely many pairs (p, p+2)",
+    "scopeOfImpossibility": "Twin Primes Conjecture — Lean 4 Formalization (Rei-AIOS edition)\r\n  =================================================================\r\n\r\n  Twin primes conjecture: there are infinitely many pairs (p, p",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "TwinPrimes.lean",
     "lineCount": 177,
-    "fileSize": 8678,
+    "fileSize": 8854,
     "theoremCount": 28,
     "lemmaCount": 0,
     "defCount": 4,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Additive Prime Problems — 定理 17 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 897 + 898 + 899 + 894 — Additive / Diophantine Problems\n  =============================================================\n\n  Four classical additive / Diophantine conjectures:\n    (a) Goldbach:       every even n ≥ 4 is sum of two primes\n    (b) Lemoine:        every odd n ≥ 7 is p + 2q with p,q prime\n    (c) Fermat-Catalan: finitely many (a^m + b^n = c^k, 1/m+1/n+1/k < 1)\n    (d) Sum of 3 cubes: which n are a³ + b³ + c³ (a,b,c ∈ ℤ)\n\n  Each is stated as Prop + axiom; small explicit cases verified."
+    "headerDoc": "STEP 897 + 898 + 899 + 894 — Additive / Diophantine Problems\r\n  =============================================================\r\n\r\n  Four classical additive / Diophantine conjectures:\r\n    (a) Goldbach:       every even n ≥ 4 is sum of two primes\r\n    (b) Lemoine:        every odd n ≥ 7 is p + 2q with p,q prime\r\n    (c) Fermat-Catalan: finitely many (a^m + b^n = c^k, 1/m+1/n+1/k < 1)\r\n    (d) Sum of 3 cubes: which n are a³ + b³ + c³ (a,b,c ∈ ℤ)\r\n\r\n  Each is stated as Prop + axiom; small explicit cases verified."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 897 + 898 + 899 + 894 — Additive / Diophantine Problems\n  =============================================================\n\n  Four classical additive / Diophantine conjectures:\n    (a) Goldbach:    ",
+    "scopeOfImpossibility": "STEP 897 + 898 + 899 + 894 — Additive / Diophantine Problems\r\n  =============================================================\r\n\r\n  Four classical additive / Diophantine conjectures:\r\n    (a) Goldbach:",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "AdditivePrimeProblems.lean",
     "lineCount": 119,
-    "fileSize": 4946,
+    "fileSize": 5064,
     "theoremCount": 17,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

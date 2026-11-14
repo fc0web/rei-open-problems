@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Arithmetic Geometry — 定理 16 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 957 — Arithmetic Geometry Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in arithmetic geometry and number theory:\n\n  A. TATE CONJECTURE (Tate 1963)\n     For a smooth projective variety X/k (k finitely generated):\n     cycle class map CH^r(X) ⊗ ℚ_ℓ → H^{2r}_{et}(X̄, ℚ_ℓ(r))^{Gal(k̄/k)}\n     is surjective. STATUS: OPEN for general X.\n     Proved: abelian varieties over finite fields (Tate 1966), surfaces (Faltings 1983 for abelian).\n\n  B. MORDELL CONJECTURE → FALTINGS' THEOREM (1983)\n     Curves of genus ≥ 2 over number fields have finitely many rational points.\n     STATUS: THEOREM"
+    "headerDoc": "STEP 957 — Arithmetic Geometry Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in arithmetic geometry and number theory:\r\n\r\n  A. TATE CONJECTURE (Tate 1963)\r\n     For a smooth projective variety X/k (k finitely generated):\r\n     cycle class map CH^r(X) ⊗ ℚ_ℓ → H^{2r}_{et}(X̄, ℚ_ℓ(r))^{Gal(k̄/k)}\r\n     is surjective. STATUS: OPEN for general X.\r\n     Proved: abelian varieties over finite fields (Tate 1966), surfaces (Faltings 1983 for abelian).\r\n\r\n  B. MORDELL CONJECTURE → FALTINGS' THEOREM (1983)\r\n     Curves of genus ≥ 2 over number fields have finitely many rational points.\r\n     ST"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 957 — Arithmetic Geometry Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in arithmetic geometry and number theory:\n\n  A. TATE CONJECTURE (Tate 1963)\n     For a smooth projective variety X/",
+    "scopeOfImpossibility": "STEP 957 — Arithmetic Geometry Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in arithmetic geometry and number theory:\r\n\r\n  A. TATE CONJECTURE (Tate 1963)\r\n     For a smooth projective vari",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step957ArithmeticGeometry.lean",
     "lineCount": 253,
-    "fileSize": 11957,
+    "fileSize": 12209,
     "theoremCount": 16,
     "lemmaCount": 0,
     "defCount": 2,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

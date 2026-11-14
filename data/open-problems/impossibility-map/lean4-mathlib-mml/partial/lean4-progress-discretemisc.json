@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Discrete Misc — 定理 18 / sorry 0 / axiom 5",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 893 + 922 + 915 + 914 + 895 — Discrete / Misc Problems\n  ===========================================================\n\n  Five discrete-math / combinatorial conjectures:\n    (a) Markov:          a² + b² + c² = 3abc solutions are a tree rooted at (1,1,1)\n    (b) Singmaster:      binomial entries ≥ 2 appear O(1) times (bounded multiplicity)\n    (c) Hadwiger-Nelson: chromatic # of unit-distance plane ∈ {5, 6, 7}\n    (d) Hadamard:        ∃ Hadamard matrix of every order 4k\n    (e) Bunyakovsky:     polynomials with irreducible integer values → ∃∞ prime values"
+    "headerDoc": "STEP 893 + 922 + 915 + 914 + 895 — Discrete / Misc Problems\r\n  ===========================================================\r\n\r\n  Five discrete-math / combinatorial conjectures:\r\n    (a) Markov:          a² + b² + c² = 3abc solutions are a tree rooted at (1,1,1)\r\n    (b) Singmaster:      binomial entries ≥ 2 appear O(1) times (bounded multiplicity)\r\n    (c) Hadwiger-Nelson: chromatic # of unit-distance plane ∈ {5, 6, 7}\r\n    (d) Hadamard:        ∃ Hadamard matrix of every order 4k\r\n    (e) Bunyakovsky:     polynomials with irreducible integer values → ∃∞ prime values"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 893 + 922 + 915 + 914 + 895 — Discrete / Misc Problems\n  ===========================================================\n\n  Five discrete-math / combinatorial conjectures:\n    (a) Markov:          a²",
+    "scopeOfImpossibility": "STEP 893 + 922 + 915 + 914 + 895 — Discrete / Misc Problems\r\n  ===========================================================\r\n\r\n  Five discrete-math / combinatorial conjectures:\r\n    (a) Markov:        ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "DiscreteMisc.lean",
     "lineCount": 130,
-    "fileSize": 5834,
+    "fileSize": 5963,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 5,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

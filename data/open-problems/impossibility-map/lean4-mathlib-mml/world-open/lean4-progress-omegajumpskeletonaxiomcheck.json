@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Omega Jump Skeleton Axiom Check — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1340 arc extension OmegaJumpSkeleton axiom profile verify (companion file)\n\n期待: 全 theorem が 完全 zero-axiom or [propext] のみ。 Nat + Preorder + lt_trans +\nomega の 標準 combination のみ 使用。"
+    "headerDoc": "STEP 1340 arc extension OmegaJumpSkeleton axiom profile verify (companion file)\r\n\r\n期待: 全 theorem が 完全 zero-axiom or [propext] のみ。 Nat + Preorder + lt_trans +\r\nomega の 標準 combination のみ 使用。"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "open",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1340 arc extension OmegaJumpSkeleton axiom profile verify (companion file)\n\n期待: 全 theorem が 完全 zero-axiom or [propext] のみ。 Nat + Preorder + lt_trans +\nomega の 標準 combination のみ 使用。",
+    "scopeOfImpossibility": "STEP 1340 arc extension OmegaJumpSkeleton axiom profile verify (companion file)\r\n\r\n期待: 全 theorem が 完全 zero-axiom or [propext] のみ。 Nat + Preorder + lt_trans +\r\nomega の 標準 combination のみ 使用。",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "OmegaJumpSkeletonAxiomCheck.lean",
     "lineCount": 20,
-    "fileSize": 611,
+    "fileSize": 630,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

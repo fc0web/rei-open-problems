@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: S G Conjunction Wall — 定理 11 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SGConjunctionWall\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\n    — chat-Claude 2026-06-17 thread + 2026-06-18 SG analysis Experiment 3 結果\n      の Lean 4 formalize\n\n  Honest scope (★★ load-bearing — paper 引用にも耐える形):\n\n  本 file は **「ある feature が SG-detection に insufficient であること」 を\n  finite concrete witness で示す axiom-free Lean theorem** を 4 件記録する。\n\n  Phase B BF infeasibility は ALL parity-blind features で INFEASIBLE\n  (Experiment 2/3 で 6/7 confirm 済) だが、 「general feature family\n  insufficient」 は Lean 4 で"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.SGConjunctionWall\r\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\r\n    — chat-Claude 2026-06-17 thread + 2026-06-18 SG analysis Experiment 3 結果\r\n      の Lean 4 formalize\r\n\r\n  Honest scope (★★ load-bearing — paper 引用にも耐える形):\r\n\r\n  本 file は **「ある feature が SG-detection に insufficient であること」 を\r\n  finite concrete witness で示す axiom-free Lean theorem** を 4 件記録する。\r\n\r\n  Phase B BF infeasibility は ALL parity-blind features で INFEASIBLE\r\n  (Experiment 2/3 で 6/7 confirm 済) だが、 「general feature family\r\n  insufficien"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-06-17"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.SGConjunctionWall\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\n    — chat-Claude 2026-06-17 thread + 2026-0",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.SGConjunctionWall\r\n    — Sophie Germain primes \"conjunction wall\" axiom-free finite witness\r\n    — chat-Claude 2026-06-17 thread + 202",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "SGConjunctionWall.lean",
     "lineCount": 184,
-    "fileSize": 7733,
+    "fileSize": 7916,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 1,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

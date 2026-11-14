@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Hammer Demo — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1007 (α) — Hammer / aesop / polyrith demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates available Lean 4 hammer-style tactics in the Rei-AIOS project:\n    - `aesop`     — Mathlib-bundled, generic search (already installed)\n    - `polyrith`  — polynomial arithmetic + Sage backend\n    - `omega`     — linear arith over Nat/Int (decision procedure)\n    - `nlinarith` — non-linear arith\n    - `decide`    — decidable proposition decision procedure\n    - `native_decide` — same, but compiled native (faster for large cases)\n    - LeanCopilot `suggest_tactics` / `select_premises` — currently"
+    "headerDoc": "STEP 1007 (α) — Hammer / aesop / polyrith demo\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates available Lean 4 hammer-style tactics in the Rei-AIOS project:\r\n    - `aesop`     — Mathlib-bundled, generic search (already installed)\r\n    - `polyrith`  — polynomial arithmetic + Sage backend\r\n    - `omega`     — linear arith over Nat/Int (decision procedure)\r\n    - `nlinarith` — non-linear arith\r\n    - `decide`    — decidable proposition decision procedure\r\n    - `native_decide` — same, but compiled native (faster for large cases)\r\n    - LeanCopilot `suggest_tactics` / `select_premises` —"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1007 (α) — Hammer / aesop / polyrith demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates available Lean 4 hammer-style tactics in the Rei-AIOS project:\n    - `aesop`     — Mathlib-bundled,",
+    "scopeOfImpossibility": "STEP 1007 (α) — Hammer / aesop / polyrith demo\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates available Lean 4 hammer-style tactics in the Rei-AIOS project:\r\n    - `aesop`     — Mathlib-bund",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "HammerDemo.lean",
     "lineCount": 85,
-    "fileSize": 5006,
+    "fileSize": 5090,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 0,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

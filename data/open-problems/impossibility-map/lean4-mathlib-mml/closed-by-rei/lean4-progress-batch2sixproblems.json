@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Batch 2 Six Problems — 定理 20 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Batch 2 — 6 classical unsolved problems: finite verifications\n  ===================================================================\n\n  Each section contains known small cases + empirical invariants.\n  Lean 4 native_decide verifies concrete numeric claims.\n\n  1. Wolstenholme primes  — known only 16843, 2124679\n  2. Wilson primes         — known only 5, 13, 563\n  3. Waring's problem g(k) — deterministic for k ≤ 471600000\n  4. Hilbert-Polya         — spectral perspective (demo only)\n  5. Congruent number      — small cases via Tunnell criterion\n  6. Pillai's conjecture   — |a^x - b^y| lower "
+    "headerDoc": "STEP Batch 2 — 6 classical unsolved problems: finite verifications\r\n  ===================================================================\r\n\r\n  Each section contains known small cases + empirical invariants.\r\n  Lean 4 native_decide verifies concrete numeric claims.\r\n\r\n  1. Wolstenholme primes  — known only 16843, 2124679\r\n  2. Wilson primes         — known only 5, 13, 563\r\n  3. Waring's problem g(k) — deterministic for k ≤ 471600000\r\n  4. Hilbert-Polya         — spectral perspective (demo only)\r\n  5. Congruent number      — small cases via Tunnell criterion\r\n  6. Pillai's conjecture   — |a^x - "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Batch 2 — 6 classical unsolved problems: finite verifications\n  ===================================================================\n\n  Each section contains known small cases + empirical invarian",
+    "scopeOfImpossibility": "STEP Batch 2 — 6 classical unsolved problems: finite verifications\r\n  ===================================================================\r\n\r\n  Each section contains known small cases + empirical invar",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Batch2SixProblems.lean",
     "lineCount": 126,
-    "fileSize": 5841,
+    "fileSize": 5966,
     "theoremCount": 20,
     "lemmaCount": 0,
     "defCount": 1,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

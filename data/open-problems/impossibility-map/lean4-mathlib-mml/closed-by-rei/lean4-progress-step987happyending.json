@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Happy Ending — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 987 — Happy Ending Problem f(3) = 3 (Erdős-Szekeres 1935)\n  ==============================================================\n\n  Source: Erdős & Szekeres (1935), formal-conjectures/ErdosProblems/107.lean\n    (original scaffold has `theorem f_three_eq : f 3 = 3 := by sorry`)\n\n  The function f(n) is defined as:\n    f(n) = min N such that any N points in ℝ² in general position (no 3 collinear)\n           contain n points forming a convex n-gon.\n\n  Classical result:\n    f(3) = 3: any 3 points in general position form a convex triangle.\n\n  Claim: This is the DEGENERATE case of Erdős-Szekeres.\n  E"
+    "headerDoc": "STEP 987 — Happy Ending Problem f(3) = 3 (Erdős-Szekeres 1935)\r\n  ==============================================================\r\n\r\n  Source: Erdős & Szekeres (1935), formal-conjectures/ErdosProblems/107.lean\r\n    (original scaffold has `theorem f_three_eq : f 3 = 3 := by sorry`)\r\n\r\n  The function f(n) is defined as:\r\n    f(n) = min N such that any N points in ℝ² in general position (no 3 collinear)\r\n           contain n points forming a convex n-gon.\r\n\r\n  Classical result:\r\n    f(3) = 3: any 3 points in general position form a convex triangle.\r\n\r\n  Claim: This is the DEGENERATE case of Erdős-"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 987 — Happy Ending Problem f(3) = 3 (Erdős-Szekeres 1935)\n  ==============================================================\n\n  Source: Erdős & Szekeres (1935), formal-conjectures/ErdosProblems/107",
+    "scopeOfImpossibility": "STEP 987 — Happy Ending Problem f(3) = 3 (Erdős-Szekeres 1935)\r\n  ==============================================================\r\n\r\n  Source: Erdős & Szekeres (1935), formal-conjectures/ErdosProblems/",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "Step987HappyEnding.lean",
     "lineCount": 137,
-    "fileSize": 5694,
+    "fileSize": 5830,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 4,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

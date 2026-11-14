@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Math Physics — 定理 17 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 955 — Mathematical Physics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems at the math-physics interface:\n\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\n     Prove existence of Yang-Mills quantum field theory in 4D and\n     that it has a positive mass gap Δ > 0.\n     STATUS: OPEN. One of the hardest open problems.\n\n  B. QUANTUM CHAOS AND BERRY-TABOR CONJECTURE\n     Integrable systems → Poisson level spacing; Chaotic → GUE/GOE.\n     Berry-Tabor conjecture (1977): proved for arithmetic surfaces (Marklof 2003).\n\n  C. QUANTUM ERGODICITY (Shnirelman-Zelditch-Colin de Verdière"
+    "headerDoc": "STEP 955 — Mathematical Physics Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems at the math-physics interface:\r\n\r\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\r\n     Prove existence of Yang-Mills quantum field theory in 4D and\r\n     that it has a positive mass gap Δ > 0.\r\n     STATUS: OPEN. One of the hardest open problems.\r\n\r\n  B. QUANTUM CHAOS AND BERRY-TABOR CONJECTURE\r\n     Integrable systems → Poisson level spacing; Chaotic → GUE/GOE.\r\n     Berry-Tabor conjecture (1977): proved for arithmetic surfaces (Marklof 2003).\r\n\r\n  C. QUANTUM ERGODICITY (Shnirelman-Zelditch-Col"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 955 — Mathematical Physics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems at the math-physics interface:\n\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\n     Prove existence of ",
+    "scopeOfImpossibility": "STEP 955 — Mathematical Physics Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems at the math-physics interface:\r\n\r\n  A. YANG-MILLS EXISTENCE AND MASS GAP (Millennium Prize)\r\n     Prove existen",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step955MathPhysics.lean",
     "lineCount": 253,
-    "fileSize": 11694,
+    "fileSize": 11946,
     "theoremCount": 17,
     "lemmaCount": 0,
     "defCount": 1,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

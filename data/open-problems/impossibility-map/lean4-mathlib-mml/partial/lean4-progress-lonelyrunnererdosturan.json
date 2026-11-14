@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Lonely Runner Erdos Turan — 定理 7 / sorry 3 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\n\n## Context\n- Rei existing asset: `data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/LonelyRunnerConjecture.lean`\n  (external formal-conjectures repo, 1 sorry, `UnitAddCircle` based)\n- Rei existing asset: Andrica A_4 = √11 − √7 (`AndricaConjecture.lean`)\n- Rei adopted constant (2026-07-12): C = A_4/(φ−1) = 1.086..., minimal polynomial\n  P(x) = x^8 − 108 x^6 + 1408 x^4 − 1728 x^2 + 256 (degree 8, totally real Q(√5"
+    "headerDoc": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\r\nLicensed under AGPL-3.0 + Commercial (Dual License).\r\n\r\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\r\n\r\n## Context\r\n- Rei existing asset: `data/external-oss/formal-conjectures/FormalConjectures/Wikipedia/LonelyRunnerConjecture.lean`\r\n  (external formal-conjectures repo, 1 sorry, `UnitAddCircle` based)\r\n- Rei existing asset: Andrica A_4 = √11 − √7 (`AndricaConjecture.lean`)\r\n- Rei adopted constant (2026-07-12): C = A_4/(φ−1) = 1.086..., minimal polynomial\r\n  P(x) = x^8 − 108 x^6 + 1408 x^4 − 1728 x^2 + 256 (degree 8, totally"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-11"
     },
-    "scopeOfImpossibility": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\n\n## Context\n- Rei existing asse",
+    "scopeOfImpossibility": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\r\nLicensed under AGPL-3.0 + Commercial (Dual License).\r\n\r\n# Lonely Runner ↔ Erdős-Turán inequality retrofit skeleton (2026-07-12)\r\n\r\n## Context\r\n- Rei existin",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 3 sorry; integrate to Mathlib",
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "LonelyRunnerErdosTuran.lean",
     "lineCount": 212,
-    "fileSize": 9070,
+    "fileSize": 9281,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 4,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

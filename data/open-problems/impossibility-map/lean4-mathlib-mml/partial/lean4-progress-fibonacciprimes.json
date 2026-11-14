@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Fibonacci Primes — 定理 22 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\n  =========================================================\n\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\n  Fibonacci prime: F_n itself prime.\n  Known Fibonacci prime indices: 3, 4, 5, 7, 11, 13, 17, 23, 29, 43,\n  47, 83, 131, 137, 359, 431, 433, 449, 509, 569, 571, 2971, 4723,\n  5387, 9311, 9677, 14431, 25561, 30757, 35999, 37511, 50833, 81839,\n  104911, ~34 known (as of 2024).\n\n  **Rei 固有接続**: Paper 698 (STEP 698) で **F_14 = 377** が\n  peak-9232 Collatz atomic core の first arithmetic predecessor と判明.\n  π(64) = 96 = Rei M"
+    "headerDoc": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\r\n  =========================================================\r\n\r\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\r\n  Fibonacci prime: F_n itself prime.\r\n  Known Fibonacci prime indices: 3, 4, 5, 7, 11, 13, 17, 23, 29, 43,\r\n  47, 83, 131, 137, 359, 431, 433, 449, 509, 569, 571, 2971, 4723,\r\n  5387, 9311, 9677, 14431, 25561, 30757, 35999, 37511, 50833, 81839,\r\n  104911, ~34 known (as of 2024).\r\n\r\n  **Rei 固有接続**: Paper 698 (STEP 698) で **F_14 = 377** が\r\n  peak-9232 Collatz atomic core の first arithmetic predecessor と判明.\r\n  π(64) "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\n  =========================================================\n\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\n  Fibonacci prime: F_",
+    "scopeOfImpossibility": "STEP 911 — Fibonacci Prime Infinitude ★★★ (Rei 固有接続)\r\n  =========================================================\r\n\r\n  Fibonacci sequence: F_0 = 0, F_1 = 1, F_{n+2} = F_n + F_{n+1}.\r\n  Fibonacci prime",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "FibonacciPrimes.lean",
     "lineCount": 111,
-    "fileSize": 4498,
+    "fileSize": 4608,
     "theoremCount": 22,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

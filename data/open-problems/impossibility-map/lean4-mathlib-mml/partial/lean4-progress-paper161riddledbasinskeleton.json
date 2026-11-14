@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 161 Riddled Basin Skeleton — 定理 2 / sorry 1 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Paper161RiddledBasinSkeleton.lean\n  Riddled basin counterexample — formalization SKELETON + roadmap.\n\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\n  The Lean 4 Mathlib4 (as of 2026-06-02) does not include the geometric measure\n  theory / dynamical systems libraries required to fully prove\n  \"riddled basin has positive-measure boundary\" (Alexander-Yorke-You-Kan 1992).\n\n  What this file CAN do:\n    - Define the abstract notion `IsRiddledBasin` capturing the property\n      \"every neighborhood of every basin point also intersects the complement\n      of the closure of basi"
+    "headerDoc": "Paper161RiddledBasinSkeleton.lean\r\n  Riddled basin counterexample — formalization SKELETON + roadmap.\r\n\r\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\r\n  The Lean 4 Mathlib4 (as of 2026-06-02) does not include the geometric measure\r\n  theory / dynamical systems libraries required to fully prove\r\n  \"riddled basin has positive-measure boundary\" (Alexander-Yorke-You-Kan 1992).\r\n\r\n  What this file CAN do:\r\n    - Define the abstract notion `IsRiddledBasin` capturing the property\r\n      \"every neighborhood of every basin point also intersects the complement\r\n      of the clos"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Paper161RiddledBasinSkeleton.lean\n  Riddled basin counterexample — formalization SKELETON + roadmap.\n\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\n  The Lean 4 Mathlib4 (as of",
+    "scopeOfImpossibility": "Paper161RiddledBasinSkeleton.lean\r\n  Riddled basin counterexample — formalization SKELETON + roadmap.\r\n\r\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\r\n  The Lean 4 Mathlib4 (a",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 1 sorry; integrate to Mathlib",
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper161RiddledBasinSkeleton.lean",
     "lineCount": 114,
-    "fileSize": 5471,
+    "fileSize": 5584,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 2,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

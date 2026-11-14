@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Plan B Plus Plus Alpha Absorber Count — 定理 32 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\n\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\n\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\n  semantic priority rule that selects SELF (or another extension axis)\n  as the 'Liar-specific' evaluation for self-referential sentences\",\n  and noted \"this rule cannot come from Dfumt8's algebra alone — it\n  must be introduced as a semantic principle\".\n\n  Rei-project 2026-07-28 close-of-session listed three Rule P candidates:\n    (α) absorber-count / (β) Priest-type / (γ) Kripke minimal-fp.\n  The founder chose (α)"
+    "headerDoc": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\r\n\r\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\r\n\r\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\r\n  semantic priority rule that selects SELF (or another extension axis)\r\n  as the 'Liar-specific' evaluation for self-referential sentences\",\r\n  and noted \"this rule cannot come from Dfumt8's algebra alone — it\r\n  must be introduced as a semantic principle\".\r\n\r\n  Rei-project 2026-07-28 close-of-session listed three Rule P candidates:\r\n    (α) absorber-count / (β) Priest-type / (γ) Kripke minimal-fp.\r\n  The found"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-29"
     },
-    "scopeOfImpossibility": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\n\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\n\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\n  semantic priority",
+    "scopeOfImpossibility": "CollatzRei/PlanBPlusPlusAlphaAbsorberCount.lean\r\n\r\n  Plan B++ (α) — Semantic Priority Rule P via Absorber Count\r\n\r\n  STEP 1249 footer §278-290 outlined Plan B++ as needing \"a canonical\r\n  semantic pri",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "PlanBPlusPlusAlphaAbsorberCount.lean",
     "lineCount": 352,
-    "fileSize": 16489,
+    "fileSize": 16840,
     "theoremCount": 32,
     "lemmaCount": 0,
     "defCount": 4,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

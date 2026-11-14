@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Orbit Dynamical Problems — 定理 28 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\n  ================================================================\n\n  Three unsolved problems share a common structure: iteration of a\n  number-theoretic map f : ℕ → ℕ with open termination/cycle question.\n\n    (1) Catalan-Dickson aliquot conjecture (1888/1913):\n        aliquot(n) = σ(n) - n. Does every orbit under `aliquot` hit\n        0 or a cycle? Open for n = 276, 552, 564, ...\n\n    (2) Sociable numbers:\n        k-cycles under `aliquot`. Perfect (k=1), amicable (k=2),\n        sociable (k ≥ 3) exist. Known 5-cycles, 28-cycles.\n "
+    "headerDoc": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\r\n  ================================================================\r\n\r\n  Three unsolved problems share a common structure: iteration of a\r\n  number-theoretic map f : ℕ → ℕ with open termination/cycle question.\r\n\r\n    (1) Catalan-Dickson aliquot conjecture (1888/1913):\r\n        aliquot(n) = σ(n) - n. Does every orbit under `aliquot` hit\r\n        0 or a cycle? Open for n = 276, 552, 564, ...\r\n\r\n    (2) Sociable numbers:\r\n        k-cycles under `aliquot`. Perfect (k=1), amicable (k=2),\r\n        sociable (k ≥ 3) exist. Known 5-cycles, "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\n  ================================================================\n\n  Three unsolved problems share a common structure: iteration of a\n  ",
+    "scopeOfImpossibility": "STEP 886 — Orbit-Dynamical Unsolved Problems: Common Framework\r\n  ================================================================\r\n\r\n  Three unsolved problems share a common structure: iteration of a",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "OrbitDynamicalProblems.lean",
     "lineCount": 262,
-    "fileSize": 12384,
+    "fileSize": 12645,
     "theoremCount": 28,
     "lemmaCount": 0,
     "defCount": 13,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

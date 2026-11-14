@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Classical Density Ladder — 定理 11 / sorry 0 / axiom 6",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Classical Collatz Density Ladder (Terras 1976, Allouche 1979, Korec 1994)\n  =========================================================================\n\n  Partial-density results on the Collatz map, stated as Lean 4 axioms with\n  zero-sorry corollaries. Extends `KrasikovLagarias.lean` (0.84 bound) with\n  two earlier θ-exponent bounds:\n\n    - Terras 1976 / Everett 1977 : Col_min(N) < N for almost all N (θ = 1)\n    - Allouche 1979             : θ > α_A ≈ 0.869 (natural density 1)\n    - Korec 1994                : θ > α_K = log 3 / log 4 ≈ 0.7924\n    - Krasikov-Lagarias 1993    : goodCount(X) ≫ X^0"
+    "headerDoc": "Classical Collatz Density Ladder (Terras 1976, Allouche 1979, Korec 1994)\r\n  =========================================================================\r\n\r\n  Partial-density results on the Collatz map, stated as Lean 4 axioms with\r\n  zero-sorry corollaries. Extends `KrasikovLagarias.lean` (0.84 bound) with\r\n  two earlier θ-exponent bounds:\r\n\r\n    - Terras 1976 / Everett 1977 : Col_min(N) < N for almost all N (θ = 1)\r\n    - Allouche 1979             : θ > α_A ≈ 0.869 (natural density 1)\r\n    - Korec 1994                : θ > α_K = log 3 / log 4 ≈ 0.7924\r\n    - Krasikov-Lagarias 1993    : goodCoun"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Classical Collatz Density Ladder (Terras 1976, Allouche 1979, Korec 1994)\n  =========================================================================\n\n  Partial-density results on the Collatz map, sta",
+    "scopeOfImpossibility": "Classical Collatz Density Ladder (Terras 1976, Allouche 1979, Korec 1994)\r\n  =========================================================================\r\n\r\n  Partial-density results on the Collatz map, ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "ClassicalDensityLadder.lean",
     "lineCount": 166,
-    "fileSize": 7864,
+    "fileSize": 8029,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

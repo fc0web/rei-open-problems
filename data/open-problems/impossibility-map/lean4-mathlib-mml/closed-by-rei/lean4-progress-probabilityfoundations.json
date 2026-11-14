@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Probability Foundations — 定理 16 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1010 — Layer 4 続き: 確率論基礎 (BorelCantelli / Distributions / 法則)\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 probability foundations in the Rei-AIOS\n  project. Builds on STEP 1008 MeasureTheory.lean and STEP 1009\n  ConditionalProbability.lean.\n\n  Topics:\n    §1. Bernoulli distribution (discrete, finite parameterization)\n    §2. Binomial distribution via combinatorics\n    §3. Geometric distribution\n    §4. Borel-Cantelli — statement + concrete consequence\n    §5. Weak Law of Large Numbers — statement (finite case)\n    §6. Concrete probability calculations (CV (Chebyshe"
+    "headerDoc": "STEP 1010 — Layer 4 続き: 確率論基礎 (BorelCantelli / Distributions / 法則)\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 probability foundations in the Rei-AIOS\r\n  project. Builds on STEP 1008 MeasureTheory.lean and STEP 1009\r\n  ConditionalProbability.lean.\r\n\r\n  Topics:\r\n    §1. Bernoulli distribution (discrete, finite parameterization)\r\n    §2. Binomial distribution via combinatorics\r\n    §3. Geometric distribution\r\n    §4. Borel-Cantelli — statement + concrete consequence\r\n    §5. Weak Law of Large Numbers — statement (finite case)\r\n    §6. Concrete probability calculations "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1010 — Layer 4 続き: 確率論基礎 (BorelCantelli / Distributions / 法則)\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 probability foundations in the Rei-AIOS\n  project. Builds on STEP",
+    "scopeOfImpossibility": "STEP 1010 — Layer 4 続き: 確率論基礎 (BorelCantelli / Distributions / 法則)\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 probability foundations in the Rei-AIOS\r\n  project. Builds on ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "ProbabilityFoundations.lean",
     "lineCount": 158,
-    "fileSize": 7902,
+    "fileSize": 8059,
     "theoremCount": 16,
     "lemmaCount": 0,
     "defCount": 4,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

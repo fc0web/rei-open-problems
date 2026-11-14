@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 161 Rest Recovery — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "RestRecovery.lean\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\n\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\n  本ファイルは Mathlib 不要(core Lean 4)。`lake build` で検証のこと。"
+    "headerDoc": "RestRecovery.lean\r\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\r\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\r\n\r\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\r\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\r\n  本ファイルは Mathlib 不要(core Lean 4)。`lake build` で検証のこと。"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-06-01"
     },
-    "scopeOfImpossibility": "RestRecovery.lean\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\n\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\n  本ファ",
+    "scopeOfImpossibility": "RestRecovery.lean\r\n  Φ/Ψ/Ω と回復の代数 — 「静止の二系統」付録 B.1.3 の形式化\r\n  Phi (Genesis Seed / 拡張), Psi (収束), Omega (冪等).\r\n\r\n  方針:有限モード上の代数的骨格を zero-sorry で確立する。\r\n  解析的内容(return map の |P'|<1、σ の実数下限)は連続モデル側 = 要補完。\r",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Paper161RestRecovery.lean",
     "lineCount": 99,
-    "fileSize": 3611,
+    "fileSize": 3709,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 7,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

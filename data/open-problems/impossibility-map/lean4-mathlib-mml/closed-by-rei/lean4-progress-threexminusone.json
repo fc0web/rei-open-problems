@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Three X Minus One — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 3x-1 — Collatz-variant conjecture finite verification\n  ==========================================================\n\n  3x-1 map: T(n) = 3n-1 if odd, n/2 if even.\n  Known cycles (empirical):\n    A = {1, 2}                                        (length 2)\n    B = {5, 7, 10, 14, 20}                            (length 5)\n    C = {17, 25, 34, 37, 41, 50, 55, 61, 68, 74, 82,\n         91, 110, 122, 136, 164, 182, 272}            (length 18)\n\n  Conjecture: every positive integer eventually enters one of {A, B, C}.\n  Status: OPEN. Empirical (Rei 2026-04-20): verified for n ≤ 10^5,\n  basin distribu"
+    "headerDoc": "STEP 3x-1 — Collatz-variant conjecture finite verification\r\n  ==========================================================\r\n\r\n  3x-1 map: T(n) = 3n-1 if odd, n/2 if even.\r\n  Known cycles (empirical):\r\n    A = {1, 2}                                        (length 2)\r\n    B = {5, 7, 10, 14, 20}                            (length 5)\r\n    C = {17, 25, 34, 37, 41, 50, 55, 61, 68, 74, 82,\r\n         91, 110, 122, 136, 164, 182, 272}            (length 18)\r\n\r\n  Conjecture: every positive integer eventually enters one of {A, B, C}.\r\n  Status: OPEN. Empirical (Rei 2026-04-20): verified for n ≤ 10^5,\r\n  ba"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP 3x-1 — Collatz-variant conjecture finite verification\n  ==========================================================\n\n  3x-1 map: T(n) = 3n-1 if odd, n/2 if even.\n  Known cycles (empirical):\n    A ",
+    "scopeOfImpossibility": "STEP 3x-1 — Collatz-variant conjecture finite verification\r\n  ==========================================================\r\n\r\n  3x-1 map: T(n) = 3n-1 if odd, n/2 if even.\r\n  Known cycles (empirical):\r\n ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "ThreeXMinusOne.lean",
     "lineCount": 74,
-    "fileSize": 2860,
+    "fileSize": 2933,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 3,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

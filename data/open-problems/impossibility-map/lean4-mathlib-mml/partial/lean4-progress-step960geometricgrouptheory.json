@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Geometric Group Theory — 定理 11 / sorry 0 / axiom 7",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 960 — Geometric Group Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in geometric group theory:\n\n  A. BURNSIDE PROBLEM (1902)\n     Is every finitely generated periodic group finite?\n     ANSWERS: General: NO (Novikov-Adian 1968, Olshanskii 1982).\n     Restricted Burnside Problem: YES (Zelmanov 1994, Fields Medal).\n\n  B. VON NEUMANN PARADOX / BANACH-TARSKI\n     Can a ball be decomposed into finitely many pieces and reassembled into two balls?\n     YES (Banach-Tarski 1924) — using AC, for groups containing F₂.\n\n  C. GROMOV'S VIRTUALLY NILPOTENT THEOREM (1981)\n     A finitely g"
+    "headerDoc": "STEP 960 — Geometric Group Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in geometric group theory:\r\n\r\n  A. BURNSIDE PROBLEM (1902)\r\n     Is every finitely generated periodic group finite?\r\n     ANSWERS: General: NO (Novikov-Adian 1968, Olshanskii 1982).\r\n     Restricted Burnside Problem: YES (Zelmanov 1994, Fields Medal).\r\n\r\n  B. VON NEUMANN PARADOX / BANACH-TARSKI\r\n     Can a ball be decomposed into finitely many pieces and reassembled into two balls?\r\n     YES (Banach-Tarski 1924) — using AC, for groups containing F₂.\r\n\r\n  C. GROMOV'S VIRTUALLY NILPOTENT THEOREM (1981)\r\n  "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 960 — Geometric Group Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in geometric group theory:\n\n  A. BURNSIDE PROBLEM (1902)\n     Is every finitely generated periodic group finite?",
+    "scopeOfImpossibility": "STEP 960 — Geometric Group Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in geometric group theory:\r\n\r\n  A. BURNSIDE PROBLEM (1902)\r\n     Is every finitely generated periodic group f",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step960GeometricGroupTheory.lean",
     "lineCount": 270,
-    "fileSize": 12245,
+    "fileSize": 12514,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 0,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

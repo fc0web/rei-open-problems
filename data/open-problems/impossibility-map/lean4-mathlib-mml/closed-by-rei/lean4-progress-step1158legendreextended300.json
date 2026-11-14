@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Legendre Extended 300 — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1158 — Legendre's conjecture n ∈ [201, 300] Lean 4 extension\n  =================================================================\n\n  Follow-up to STEP 1157 (n ∈ [101, 200], 100 witnesses).\n  Same explicit-witness + `native_decide` pattern.\n\n  Target: n ∈ [201, 300] explicit prime witnesses (100 new witnesses).\n  Combined with prior LegendreSmall.lean + STEP 1157:\n    Rei-AIOS Legendre coverage n ∈ [1, 300] (~221 theorems total).\n\n  Honest positioning:\n    - Legendre's conjecture (1808): for every n ≥ 1, there exists a prime p\n      with n² < p < (n+1)². OPEN unconditionally.\n    - Rei cont"
+    "headerDoc": "STEP 1158 — Legendre's conjecture n ∈ [201, 300] Lean 4 extension\r\n  =================================================================\r\n\r\n  Follow-up to STEP 1157 (n ∈ [101, 200], 100 witnesses).\r\n  Same explicit-witness + `native_decide` pattern.\r\n\r\n  Target: n ∈ [201, 300] explicit prime witnesses (100 new witnesses).\r\n  Combined with prior LegendreSmall.lean + STEP 1157:\r\n    Rei-AIOS Legendre coverage n ∈ [1, 300] (~221 theorems total).\r\n\r\n  Honest positioning:\r\n    - Legendre's conjecture (1808): for every n ≥ 1, there exists a prime p\r\n      with n² < p < (n+1)². OPEN unconditionally.\r\n "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1158 — Legendre's conjecture n ∈ [201, 300] Lean 4 extension\n  =================================================================\n\n  Follow-up to STEP 1157 (n ∈ [101, 200], 100 witnesses).\n  Same ",
+    "scopeOfImpossibility": "STEP 1158 — Legendre's conjecture n ∈ [201, 300] Lean 4 extension\r\n  =================================================================\r\n\r\n  Follow-up to STEP 1157 (n ∈ [101, 200], 100 witnesses).\r\n  S",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step1158LegendreExtended300.lean",
     "lineCount": 94,
-    "fileSize": 4698,
+    "fileSize": 4791,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

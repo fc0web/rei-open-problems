@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Deep Subclasses — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{71,103,167,231}.\n\n  NEW THEOREMS (9 total):\n\n  n%1024 level (stronger, covers 4 sub-classes each):\n    A. n%1024=423  (base=167, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n    B. n%1024=999  (base=231, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\n\n  n%4096 level (genuinely need higher modulus):\n    C. n%4096=231  (base=231, K=19, 3^7/2^12)\n    D. n%4096=615  (base=103, K=19, 3^7/2^12)\n    E. n%4096=935  (base=167, K"
+    "headerDoc": "STEP 939 — Deep Collatz Sub-class Descent Theorems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\r\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{71,103,167,231}.\r\n\r\n  NEW THEOREMS (9 total):\r\n\r\n  n%1024 level (stronger, covers 4 sub-classes each):\r\n    A. n%1024=423  (base=167, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\r\n    B. n%1024=999  (base=231, K=16, 3^6/2^10 = 729/1024 ≈ 0.712)\r\n\r\n  n%4096 level (genuinely need higher modulus):\r\n    C. n%4096=231  (base=231, K=19, 3^7/2^12)\r\n    D. n%4096=615  (base=103, K=19, 3^7/2^12)\r\n    E. n%4096=93"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP 939 — Deep Collatz Sub-class Descent Theorems\n  藤本伸樹 2026-04-21\n\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\n  n%1024 and n%4096 within the \"hard\" residues n%256∈{7",
+    "scopeOfImpossibility": "STEP 939 — Deep Collatz Sub-class Descent Theorems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Systematic modular search (scripts/collatz-subclass-search.py) at levels\r\n  n%1024 and n%4096 within the \"hard\" residues n%25",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step939DeepSubclasses.lean",
     "lineCount": 174,
-    "fileSize": 10110,
+    "fileSize": 10283,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 1,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

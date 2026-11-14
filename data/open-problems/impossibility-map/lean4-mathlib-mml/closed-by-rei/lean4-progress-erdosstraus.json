@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Erdos Straus — 定理 56 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Erdős-Straus Conjecture — Lean 4 (Mathlib) Partial Formalization\n  =================================================================\n\n  Conjecture (Erdős-Straus 1948): For every integer n ≥ 2, there exist\n  positive integers a ≤ b ≤ c with\n      4/n = 1/a + 1/b + 1/c.\n  Clearing denominators:\n      4·a·b·c = n·(b·c + a·c + a·b).\n\n  Status:\n    - Verified empirically for n < 10^17 (Salez and others).\n    - Known residue-class results close many cases.\n    - Completely open in full generality.\n\n  This file provides:\n    1. A Nat-arithmetic predicate `erdosStraus n a b c`.\n    2. Explicit witness"
+    "headerDoc": "Erdős-Straus Conjecture — Lean 4 (Mathlib) Partial Formalization\r\n  =================================================================\r\n\r\n  Conjecture (Erdős-Straus 1948): For every integer n ≥ 2, there exist\r\n  positive integers a ≤ b ≤ c with\r\n      4/n = 1/a + 1/b + 1/c.\r\n  Clearing denominators:\r\n      4·a·b·c = n·(b·c + a·c + a·b).\r\n\r\n  Status:\r\n    - Verified empirically for n < 10^17 (Salez and others).\r\n    - Known residue-class results close many cases.\r\n    - Completely open in full generality.\r\n\r\n  This file provides:\r\n    1. A Nat-arithmetic predicate `erdosStraus n a b c`.\r\n    2. "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "Erdős-Straus Conjecture — Lean 4 (Mathlib) Partial Formalization\n  =================================================================\n\n  Conjecture (Erdős-Straus 1948): For every integer n ≥ 2, there e",
+    "scopeOfImpossibility": "Erdős-Straus Conjecture — Lean 4 (Mathlib) Partial Formalization\r\n  =================================================================\r\n\r\n  Conjecture (Erdős-Straus 1948): For every integer n ≥ 2, ther",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "ErdosStraus.lean",
     "lineCount": 247,
-    "fileSize": 12525,
+    "fileSize": 12771,
     "theoremCount": 56,
     "lemmaCount": 0,
     "defCount": 2,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

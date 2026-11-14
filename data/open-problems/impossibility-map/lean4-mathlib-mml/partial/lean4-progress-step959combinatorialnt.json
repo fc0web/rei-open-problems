@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Combinatorial N T — 定理 23 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 959 — Combinatorial Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in combinatorial number theory:\n\n  A. PROUHET-THUE-MORSE AND PAPERFOLDING\n     PTM sequence and its combinatorial properties.\n     New: Subword complexity is 2(n+1) for Thue-Morse (proved by Brlek 1989).\n\n  B. PILLAI CONJECTURE (1936)\n     For fixed a,b,c,d: ax^n - by^m = c has finitely many solutions.\n     Stronger: perfect power gaps → finitely many pairs.\n     Known: Mihailescu 2002 (Catalan: x^p - y^q = 1 has only 3^2-2^3=1).\n\n  C. BUNYAKOVSKY / BATEMAN-HORN CONJECTURE\n     Generalization of Dirich"
+    "headerDoc": "STEP 959 — Combinatorial Number Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in combinatorial number theory:\r\n\r\n  A. PROUHET-THUE-MORSE AND PAPERFOLDING\r\n     PTM sequence and its combinatorial properties.\r\n     New: Subword complexity is 2(n+1) for Thue-Morse (proved by Brlek 1989).\r\n\r\n  B. PILLAI CONJECTURE (1936)\r\n     For fixed a,b,c,d: ax^n - by^m = c has finitely many solutions.\r\n     Stronger: perfect power gaps → finitely many pairs.\r\n     Known: Mihailescu 2002 (Catalan: x^p - y^q = 1 has only 3^2-2^3=1).\r\n\r\n  C. BUNYAKOVSKY / BATEMAN-HORN CONJECTURE\r\n     Generaliz"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 959 — Combinatorial Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in combinatorial number theory:\n\n  A. PROUHET-THUE-MORSE AND PAPERFOLDING\n     PTM sequence and its combina",
+    "scopeOfImpossibility": "STEP 959 — Combinatorial Number Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in combinatorial number theory:\r\n\r\n  A. PROUHET-THUE-MORSE AND PAPERFOLDING\r\n     PTM sequence and its c",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step959CombinatorialNT.lean",
     "lineCount": 297,
-    "fileSize": 12774,
+    "fileSize": 13070,
     "theoremCount": 23,
     "lemmaCount": 0,
     "defCount": 9,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Problem 007 F I A Axiom Independence — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Problem 007 Skeleton — FIA (Fujimoto Infinity Algebra) Axiom Independence\n\n  State the 6 FIA axioms and skeleton the independence proof: for each\n  axiom A_i, there exists a structure satisfying A_1,...,A_{i-1},A_{i+1},...,A_6\n  but NOT A_i.\n\n  Source: rei-unsolved-problems #007, STEP 843.\n\n  Status: SKELETON ONLY. Full countermodels for all 6 axioms are pending.\n  This file establishes the formal framework and shows one worked example\n  (FIA_1 independence via a modified-absorbing countermodel)."
+    "headerDoc": "Problem 007 Skeleton — FIA (Fujimoto Infinity Algebra) Axiom Independence\r\n\r\n  State the 6 FIA axioms and skeleton the independence proof: for each\r\n  axiom A_i, there exists a structure satisfying A_1,...,A_{i-1},A_{i+1},...,A_6\r\n  but NOT A_i.\r\n\r\n  Source: rei-unsolved-problems #007, STEP 843.\r\n\r\n  Status: SKELETON ONLY. Full countermodels for all 6 axioms are pending.\r\n  This file establishes the formal framework and shows one worked example\r\n  (FIA_1 independence via a modified-absorbing countermodel)."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Problem 007 Skeleton — FIA (Fujimoto Infinity Algebra) Axiom Independence\n\n  State the 6 FIA axioms and skeleton the independence proof: for each\n  axiom A_i, there exists a structure satisfying A_1,.",
+    "scopeOfImpossibility": "Problem 007 Skeleton — FIA (Fujimoto Infinity Algebra) Axiom Independence\r\n\r\n  State the 6 FIA axioms and skeleton the independence proof: for each\r\n  axiom A_i, there exists a structure satisfying A_",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Problem007FIAAxiomIndependence.lean",
     "lineCount": 493,
-    "fileSize": 20557,
+    "fileSize": 21049,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 26,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

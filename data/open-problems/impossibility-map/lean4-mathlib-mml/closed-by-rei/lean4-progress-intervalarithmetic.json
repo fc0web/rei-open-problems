@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Interval Arithmetic — 定理 10 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1007 (β) — Interval Arithmetic / 区間演算 sample\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates basic interval arithmetic in Lean 4 + Mathlib v4.27.\n  Foundation for physical applications (Kepler-style sphere packing,\n  numerical analysis with rigorous bounds, sensitivity analysis).\n\n  Mathlib has `Set.Icc`, `Set.Ioo` etc. for interval representations.\n  Here we define a thin wrapper `BoundedInterval` and prove properties\n  needed for downstream physical / numerical formalization.\n\n  Tier 8 mathlib-unformalized references:\n    - Kepler conjecture (sphere packing, Hales 2017 Flyspeck) —"
+    "headerDoc": "STEP 1007 (β) — Interval Arithmetic / 区間演算 sample\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates basic interval arithmetic in Lean 4 + Mathlib v4.27.\r\n  Foundation for physical applications (Kepler-style sphere packing,\r\n  numerical analysis with rigorous bounds, sensitivity analysis).\r\n\r\n  Mathlib has `Set.Icc`, `Set.Ioo` etc. for interval representations.\r\n  Here we define a thin wrapper `BoundedInterval` and prove properties\r\n  needed for downstream physical / numerical formalization.\r\n\r\n  Tier 8 mathlib-unformalized references:\r\n    - Kepler conjecture (sphere packing, Hales 2017"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1007 (β) — Interval Arithmetic / 区間演算 sample\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates basic interval arithmetic in Lean 4 + Mathlib v4.27.\n  Foundation for physical applications (Kep",
+    "scopeOfImpossibility": "STEP 1007 (β) — Interval Arithmetic / 区間演算 sample\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates basic interval arithmetic in Lean 4 + Mathlib v4.27.\r\n  Foundation for physical applications ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "IntervalArithmetic.lean",
     "lineCount": 131,
-    "fileSize": 5714,
+    "fileSize": 5844,
     "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 7,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

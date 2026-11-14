@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Probabilistic N T — 定理 14 / sorry 0 / axiom 5",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in probabilistic and analytic number theory:\n\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\n     The maximal prime gap satisfies max_{p_n ≤ x} (p_{n+1} - p_n) ~ (log x)².\n     STATUS: OPEN. Best unconditional: O(p^{0.525}) (Baker-Harman-Pintz 2001).\n\n  B. CHEBOTAREV DENSITY THEOREM (proved) + EFFECTIVE VERSIONS\n     Primes splitting in K with Frobenius conjugacy class C have density |C|/[K:ℚ].\n     STATUS: PROVED. Effective under GRH: O(log disc(K) log x).\n\n  C. LINDELÖF HYPOTHESIS\n     ζ(1/2 + i"
+    "headerDoc": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in probabilistic and analytic number theory:\r\n\r\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\r\n     The maximal prime gap satisfies max_{p_n ≤ x} (p_{n+1} - p_n) ~ (log x)².\r\n     STATUS: OPEN. Best unconditional: O(p^{0.525}) (Baker-Harman-Pintz 2001).\r\n\r\n  B. CHEBOTAREV DENSITY THEOREM (proved) + EFFECTIVE VERSIONS\r\n     Primes splitting in K with Frobenius conjugacy class C have density |C|/[K:ℚ].\r\n     STATUS: PROVED. Effective under GRH: O(log disc(K) log x).\r\n\r\n  C. LINDELÖF HYPOTHESIS\r\n"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in probabilistic and analytic number theory:\n\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\n     The ",
+    "scopeOfImpossibility": "STEP 961 — Probabilistic and Analytic Number Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in probabilistic and analytic number theory:\r\n\r\n  A. CRAMÉR'S CONJECTURE ON PRIME GAPS\r\n   ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step961ProbabilisticNT.lean",
     "lineCount": 241,
-    "fileSize": 10697,
+    "fileSize": 10937,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 4,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Ramsey Extremal — 定理 19 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 953 — Ramsey Theory and Extremal Combinatorics\n  藤本伸樹 2026-04-21\n\n  Five open problems in Ramsey/extremal combinatorics:\n\n  A. RAMSEY NUMBERS R(k, k)\n     R(k,k) = smallest N such that every 2-coloring of K_N has a monochromatic K_k.\n     Known: R(3,3)=6, R(4,4)=18, R(5,5)∈[43,48]. OPEN for k≥5.\n     New: R(3,3)=6 formally proved. R(4,4)=18 witness.\n\n  B. ZARANKIEWICZ PROBLEM z(n; k)\n     Max edges in K_{n,n} with no K_{k,k} subgraph.\n     New: z(4;2) = 6 verified. Kővári-Sós-Turán bound formalized.\n\n  C. TURÁN'S PROBLEM ex(n, K_{r+1})\n     Max edges in K_n with no K_{r+1} subgraph (ex(n,"
+    "headerDoc": "STEP 953 — Ramsey Theory and Extremal Combinatorics\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in Ramsey/extremal combinatorics:\r\n\r\n  A. RAMSEY NUMBERS R(k, k)\r\n     R(k,k) = smallest N such that every 2-coloring of K_N has a monochromatic K_k.\r\n     Known: R(3,3)=6, R(4,4)=18, R(5,5)∈[43,48]. OPEN for k≥5.\r\n     New: R(3,3)=6 formally proved. R(4,4)=18 witness.\r\n\r\n  B. ZARANKIEWICZ PROBLEM z(n; k)\r\n     Max edges in K_{n,n} with no K_{k,k} subgraph.\r\n     New: z(4;2) = 6 verified. Kővári-Sós-Turán bound formalized.\r\n\r\n  C. TURÁN'S PROBLEM ex(n, K_{r+1})\r\n     Max edges in K_n with no K_{r+1} "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 953 — Ramsey Theory and Extremal Combinatorics\n  藤本伸樹 2026-04-21\n\n  Five open problems in Ramsey/extremal combinatorics:\n\n  A. RAMSEY NUMBERS R(k, k)\n     R(k,k) = smallest N such that every 2-co",
+    "scopeOfImpossibility": "STEP 953 — Ramsey Theory and Extremal Combinatorics\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in Ramsey/extremal combinatorics:\r\n\r\n  A. RAMSEY NUMBERS R(k, k)\r\n     R(k,k) = smallest N such that ever",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step953RamseyExtremal.lean",
     "lineCount": 309,
-    "fileSize": 14380,
+    "fileSize": 14688,
     "theoremCount": 19,
     "lemmaCount": 0,
     "defCount": 15,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

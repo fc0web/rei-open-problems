@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Sierpinski Riesel Brier — 定理 5 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\n  ============================================================\n\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.\n  Smallest conjectured: k = 78,557.\n  Open: is 78557 the smallest Sierpinski number?\n  Currently the remaining 5 candidates < 78557 are:\n    21181, 22699, 24737, 55459, 67607\n\n  Riesel number: odd k such that k·2^n − 1 is composite for ALL n ≥ 1.\n  Smallest conjectured: k = 509,203.\n\n  Brier number: k that is BOTH Sierpinski and Riesel.\n  Smallest known < 10^28.\n\n  Status: all OPEN for smallest.\n\n  "
+    "headerDoc": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\r\n  ============================================================\r\n\r\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.\r\n  Smallest conjectured: k = 78,557.\r\n  Open: is 78557 the smallest Sierpinski number?\r\n  Currently the remaining 5 candidates < 78557 are:\r\n    21181, 22699, 24737, 55459, 67607\r\n\r\n  Riesel number: odd k such that k·2^n − 1 is composite for ALL n ≥ 1.\r\n  Smallest conjectured: k = 509,203.\r\n\r\n  Brier number: k that is BOTH Sierpinski and Riesel.\r\n  Smallest known < 10^28.\r\n\r\n  Status: all OPEN fo"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\n  ============================================================\n\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.\n  ",
+    "scopeOfImpossibility": "STEP 892 — Sierpinski, Riesel, Brier Numbers (Tier S #5-6)\r\n  ============================================================\r\n\r\n  Sierpinski number: odd k such that k·2^n + 1 is composite for ALL n ≥ 1.",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "SierpinskiRieselBrier.lean",
     "lineCount": 122,
-    "fileSize": 6179,
+    "fileSize": 6300,
     "theoremCount": 5,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

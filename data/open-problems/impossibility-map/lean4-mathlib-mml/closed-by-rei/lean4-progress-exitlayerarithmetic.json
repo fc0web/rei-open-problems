@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Exit Layer Arithmetic — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\n  ==========================================================================\n\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん original observation\n    2026-05-28) の exitM = (4^p - 1) / 3 base + ExitLayerStructure.lean\n    (STEP 1233 γ path, 4 structural facts) を拡張。\n\n  ★ 本 file の scope: exit layer m_p の **mod-算術 pattern** + **gap ratio**\n    の axiom-free 補完。 既存 ExitLayer + ExitLayerStructure の 22 theorem\n    は growth / chain / uniqueness を cover しているが、 mod-3 / mod-4 の\n    invariant + successive gap の explicit formula は未提供。\n\n  ★ v0"
+    "headerDoc": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\r\n  ==========================================================================\r\n\r\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん original observation\r\n    2026-05-28) の exitM = (4^p - 1) / 3 base + ExitLayerStructure.lean\r\n    (STEP 1233 γ path, 4 structural facts) を拡張。\r\n\r\n  ★ 本 file の scope: exit layer m_p の **mod-算術 pattern** + **gap ratio**\r\n    の axiom-free 補完。 既存 ExitLayer + ExitLayerStructure の 22 theorem\r\n    は growth / chain / uniqueness を cover しているが、 mod-3 / mod-4 の\r\n    invariant + successive gap の explicit formula は未提"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-30"
     },
-    "scopeOfImpossibility": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\n  ==========================================================================\n\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん original ",
+    "scopeOfImpossibility": "CollatzRei.ExitLayerArithmetic — exit-layer 算術構造の axiom-free 拡張\r\n  ==========================================================================\r\n\r\n  ★ Source: ExitLayer.lean (STEP 1176-1179, 藤本さん origin",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "ExitLayerArithmetic.lean",
     "lineCount": 272,
-    "fileSize": 12153,
+    "fileSize": 12424,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 0,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Analysis Topology — 定理 10 / sorry 0 / axiom 6",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 951 — Analysis and Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in analysis and topology:\n\n  A. INVARIANT SUBSPACE PROBLEM (functional analysis)\n     Does every bounded linear operator on a separable Hilbert space\n     have a non-trivial invariant subspace? OPEN for Hilbert spaces.\n     (Proved false for Banach spaces by Enflo 1987.)\n\n  B. NAVIER-STOKES EXISTENCE AND SMOOTHNESS (Millennium Prize)\n     Do global smooth solutions always exist for 3D incompressible NS?\n     New: Energy inequality verified for 2D (classical). 3D: OPEN.\n\n  C. BLOCH-KATO CONJECTURE → now THEOR"
+    "headerDoc": "STEP 951 — Analysis and Topology Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in analysis and topology:\r\n\r\n  A. INVARIANT SUBSPACE PROBLEM (functional analysis)\r\n     Does every bounded linear operator on a separable Hilbert space\r\n     have a non-trivial invariant subspace? OPEN for Hilbert spaces.\r\n     (Proved false for Banach spaces by Enflo 1987.)\r\n\r\n  B. NAVIER-STOKES EXISTENCE AND SMOOTHNESS (Millennium Prize)\r\n     Do global smooth solutions always exist for 3D incompressible NS?\r\n     New: Energy inequality verified for 2D (classical). 3D: OPEN.\r\n\r\n  C. BLOCH-KATO CONJECTU"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 951 — Analysis and Topology Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in analysis and topology:\n\n  A. INVARIANT SUBSPACE PROBLEM (functional analysis)\n     Does every bounded linear o",
+    "scopeOfImpossibility": "STEP 951 — Analysis and Topology Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in analysis and topology:\r\n\r\n  A. INVARIANT SUBSPACE PROBLEM (functional analysis)\r\n     Does every bounded li",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step951AnalysisTopology.lean",
     "lineCount": 252,
-    "fileSize": 12316,
+    "fileSize": 12567,
     "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 1,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

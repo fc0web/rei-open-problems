@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Prime Distribution — 定理 28 / sorry 0 / axiom 5",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 967 — Prime Distribution and Sieve Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in prime distribution and sieve theory:\n\n  A. DENSITY OF PRIMES IN SHORT INTERVALS\n     Hoheisel (1930): π(x+x^θ) - π(x) ~ x^θ/log x for θ > 3/4.\n     Baker-Harman-Pintz (2001): θ = 0.525 works unconditionally.\n     STATUS: Under RH: θ = 1/2+ε. OPEN: θ < 1/2.\n\n  B. CHEN'S THEOREM (proved 1973)\n     Every sufficiently large even integer = prime + product of at most 2 primes.\n     STATUS: PROVED (Chen 1973). p + p' almost goldbach.\n\n  C. LINNIK'S THEOREM\n     The smallest prime in AP a mod q is ≤"
+    "headerDoc": "STEP 967 — Prime Distribution and Sieve Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in prime distribution and sieve theory:\r\n\r\n  A. DENSITY OF PRIMES IN SHORT INTERVALS\r\n     Hoheisel (1930): π(x+x^θ) - π(x) ~ x^θ/log x for θ > 3/4.\r\n     Baker-Harman-Pintz (2001): θ = 0.525 works unconditionally.\r\n     STATUS: Under RH: θ = 1/2+ε. OPEN: θ < 1/2.\r\n\r\n  B. CHEN'S THEOREM (proved 1973)\r\n     Every sufficiently large even integer = prime + product of at most 2 primes.\r\n     STATUS: PROVED (Chen 1973). p + p' almost goldbach.\r\n\r\n  C. LINNIK'S THEOREM\r\n     The smallest prime in "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 967 — Prime Distribution and Sieve Theory Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in prime distribution and sieve theory:\n\n  A. DENSITY OF PRIMES IN SHORT INTERVALS\n     Hoheisel (1",
+    "scopeOfImpossibility": "STEP 967 — Prime Distribution and Sieve Theory Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in prime distribution and sieve theory:\r\n\r\n  A. DENSITY OF PRIMES IN SHORT INTERVALS\r\n     Hohei",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step967PrimeDistribution.lean",
     "lineCount": 276,
-    "fileSize": 11757,
+    "fileSize": 12032,
     "theoremCount": 28,
     "lemmaCount": 0,
     "defCount": 8,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

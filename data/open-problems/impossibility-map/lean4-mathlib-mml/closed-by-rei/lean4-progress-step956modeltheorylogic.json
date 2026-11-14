@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Model Theory Logic — 定理 17 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 956 — Model Theory and Mathematical Logic Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in model theory and logic:\n\n  A. VAUGHT CONJECTURE (1961)\n     For a complete first-order theory T in a countable language:\n     the number of countable models is either ≤ℵ₀, = ℵ₁, or = 2^ℵ₀.\n     (No theory has exactly ℵ₁ countable models if CH fails?)\n     STATUS: OPEN for 60+ years.\n\n  B. SHELAH MAIN GAP THEOREM (1982, PROVED)\n     For a complete first-order theory T:\n     Either T has at most 2^ℵ₀ models in every cardinality (ω-stable,\n     superstable-like), OR T has the maximum number 2^κ"
+    "headerDoc": "STEP 956 — Model Theory and Mathematical Logic Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in model theory and logic:\r\n\r\n  A. VAUGHT CONJECTURE (1961)\r\n     For a complete first-order theory T in a countable language:\r\n     the number of countable models is either ≤ℵ₀, = ℵ₁, or = 2^ℵ₀.\r\n     (No theory has exactly ℵ₁ countable models if CH fails?)\r\n     STATUS: OPEN for 60+ years.\r\n\r\n  B. SHELAH MAIN GAP THEOREM (1982, PROVED)\r\n     For a complete first-order theory T:\r\n     Either T has at most 2^ℵ₀ models in every cardinality (ω-stable,\r\n     superstable-like), OR T has the maxi"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 956 — Model Theory and Mathematical Logic Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in model theory and logic:\n\n  A. VAUGHT CONJECTURE (1961)\n     For a complete first-order theory T ",
+    "scopeOfImpossibility": "STEP 956 — Model Theory and Mathematical Logic Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in model theory and logic:\r\n\r\n  A. VAUGHT CONJECTURE (1961)\r\n     For a complete first-order the",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step956ModelTheoryLogic.lean",
     "lineCount": 245,
-    "fileSize": 11634,
+    "fileSize": 11878,
     "theoremCount": 17,
     "lemmaCount": 0,
     "defCount": 0,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

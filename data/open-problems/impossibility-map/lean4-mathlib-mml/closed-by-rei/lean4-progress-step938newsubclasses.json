@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: New Subclasses — 定理 8 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 938 — New Collatz Sub-class Theorems + GMS + σ_k fixes\n  藤本伸樹 2026-04-21\n\n  This file extends step624_COMPLETE.lean with:\n\n  A. MISSING Case 7 sub-class: n%256=151 (K=8, factor 27/32)\n  B. NEW Case 5 sub-classes at n%256: n%256∈{39,135,199} (K=13,11,13)\n  C. DEEP Case 5: n%1024=583 (K=16)\n  D. Extended batch verification: n=1..100000 (native_decide)\n  E. Honest gap summary: n%256∈{71,103,167,231} need n%2048+ subdivision\n\n  Together with step624 and Problem013, the proven portion covers:\n    - ALL n%2=0 (even)\n    - ALL n%4=1\n    - ALL n%16∈{3,11}\n    - n%256∈{7} (Case 5)\n    - n%256∈{23,"
+    "headerDoc": "STEP 938 — New Collatz Sub-class Theorems + GMS + σ_k fixes\r\n  藤本伸樹 2026-04-21\r\n\r\n  This file extends step624_COMPLETE.lean with:\r\n\r\n  A. MISSING Case 7 sub-class: n%256=151 (K=8, factor 27/32)\r\n  B. NEW Case 5 sub-classes at n%256: n%256∈{39,135,199} (K=13,11,13)\r\n  C. DEEP Case 5: n%1024=583 (K=16)\r\n  D. Extended batch verification: n=1..100000 (native_decide)\r\n  E. Honest gap summary: n%256∈{71,103,167,231} need n%2048+ subdivision\r\n\r\n  Together with step624 and Problem013, the proven portion covers:\r\n    - ALL n%2=0 (even)\r\n    - ALL n%4=1\r\n    - ALL n%16∈{3,11}\r\n    - n%256∈{7} (Case 5)\r\n"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP 938 — New Collatz Sub-class Theorems + GMS + σ_k fixes\n  藤本伸樹 2026-04-21\n\n  This file extends step624_COMPLETE.lean with:\n\n  A. MISSING Case 7 sub-class: n%256=151 (K=8, factor 27/32)\n  B. NEW Ca",
+    "scopeOfImpossibility": "STEP 938 — New Collatz Sub-class Theorems + GMS + σ_k fixes\r\n  藤本伸樹 2026-04-21\r\n\r\n  This file extends step624_COMPLETE.lean with:\r\n\r\n  A. MISSING Case 7 sub-class: n%256=151 (K=8, factor 27/32)\r\n  B. ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step938NewSubclasses.lean",
     "lineCount": 175,
-    "fileSize": 9221,
+    "fileSize": 9395,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 4,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

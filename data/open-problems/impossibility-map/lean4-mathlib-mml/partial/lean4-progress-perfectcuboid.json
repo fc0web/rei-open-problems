@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Perfect Cuboid — 定理 6 / sorry 0 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\n  ==============================================\n\n  Perfect cuboid: a rectangular parallelepiped with positive integer\n  side lengths a, b, c such that:\n    (1) face diagonal in ab-plane: √(a² + b²) ∈ ℤ\n    (2) face diagonal in ac-plane: √(a² + c²) ∈ ℤ\n    (3) face diagonal in bc-plane: √(b² + c²) ∈ ℤ\n    (4) space diagonal: √(a² + b² + c²) ∈ ℤ\n\n  Does a perfect cuboid exist?\n  Status: OPEN. No counter-example found; no proof of non-existence.\n  Computational search: no perfect cuboid with smallest side ≤ 10^11.\n\n  Rei breadth-first sweep 2026-04-1"
+    "headerDoc": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\r\n  ==============================================\r\n\r\n  Perfect cuboid: a rectangular parallelepiped with positive integer\r\n  side lengths a, b, c such that:\r\n    (1) face diagonal in ab-plane: √(a² + b²) ∈ ℤ\r\n    (2) face diagonal in ac-plane: √(a² + c²) ∈ ℤ\r\n    (3) face diagonal in bc-plane: √(b² + c²) ∈ ℤ\r\n    (4) space diagonal: √(a² + b² + c²) ∈ ℤ\r\n\r\n  Does a perfect cuboid exist?\r\n  Status: OPEN. No counter-example found; no proof of non-existence.\r\n  Computational search: no perfect cuboid with smallest side ≤ 10^11.\r\n\r\n  Rei breadth-first s"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\n  ==============================================\n\n  Perfect cuboid: a rectangular parallelepiped with positive integer\n  side lengths a, b, c such that:\n ",
+    "scopeOfImpossibility": "STEP 891 — Perfect Cuboid Problem (Tier S #4)\r\n  ==============================================\r\n\r\n  Perfect cuboid: a rectangular parallelepiped with positive integer\r\n  side lengths a, b, c such tha",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "PerfectCuboid.lean",
     "lineCount": 115,
-    "fileSize": 5542,
+    "fileSize": 5656,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 159 Inclosure — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\n\n  Companion to Paper 159 v0.2 (Rei-AIOS).\n  Zenodo (v0.1 OUTLINE): DOI 10.5281/zenodo.20468146\n  Stance: rational reconstruction following Priest-Garfield (2003)'s own\n          self-framing — NOT textual history.\n\n  This file machine-checks (sorry-free, decide-only):\n    1. DFUMT8.omega_upper is idempotent  (Paper 159 §3.4 main claim)\n    2. omega_upper contracts BOTH → ZERO (the 0₀ genesis layer of ZCSG)\n    3. omega_upper contracts NEITHER → ZERO\n    4. Any I"
+    "headerDoc": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\r\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\r\n\r\n  Companion to Paper 159 v0.2 (Rei-AIOS).\r\n  Zenodo (v0.1 OUTLINE): DOI 10.5281/zenodo.20468146\r\n  Stance: rational reconstruction following Priest-Garfield (2003)'s own\r\n          self-framing — NOT textual history.\r\n\r\n  This file machine-checks (sorry-free, decide-only):\r\n    1. DFUMT8.omega_upper is idempotent  (Paper 159 §3.4 main claim)\r\n    2. omega_upper contracts BOTH → ZERO (the 0₀ genesis layer of ZCSG)\r\n    3. omega_upper contracts NEITHER → ZERO\r\n"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-05-31"
     },
-    "scopeOfImpossibility": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\n\n  Companion to Paper 159 v0.2 (Rei-AIOS).\n  Zenodo (v0.1 OUTLINE):",
+    "scopeOfImpossibility": "CollatzRei.Paper159Inclosure — Two-layer D-FUMT₈ reconstruction of the\r\n  Priest-Garfield Inclosure Schema for Nāgārjuna's catuṣkoṭi.\r\n\r\n  Companion to Paper 159 v0.2 (Rei-AIOS).\r\n  Zenodo (v0.1 OUTLI",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Paper159Inclosure.lean",
     "lineCount": 241,
-    "fileSize": 10284,
+    "fileSize": 10524,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 6,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

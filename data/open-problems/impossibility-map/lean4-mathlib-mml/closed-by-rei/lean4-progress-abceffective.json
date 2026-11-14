@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: A B C Effective — 定理 8 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP ABC — Effective ABC bound: c^7 ≤ rad(abc)^11 for c ≤ N\n  ===========================================================\n\n  Conjecture (Oesterlé-Masser 1985, ABC conjecture, OPEN 41 years):\n    ∀ ε > 0, ∃ C_ε such that for all coprime (a, b, c) with a + b = c,\n      c ≤ C_ε · rad(abc)^{1+ε}.\n\n  Status: Disputed. Mochizuki (2020 PRIMS) claims IUT proof; Stix-Scholze\n  2018 identified a gap in Corollary 3.12; mainstream consensus: OPEN.\n\n  Effective instance attacked here:\n    The highest known quality q = log(c)/log(rad(abc)) ≈ 1.6299 (Reyssat 1988).\n    Rei empirical sweep (c ≤ 10^4): max q ="
+    "headerDoc": "STEP ABC — Effective ABC bound: c^7 ≤ rad(abc)^11 for c ≤ N\r\n  ===========================================================\r\n\r\n  Conjecture (Oesterlé-Masser 1985, ABC conjecture, OPEN 41 years):\r\n    ∀ ε > 0, ∃ C_ε such that for all coprime (a, b, c) with a + b = c,\r\n      c ≤ C_ε · rad(abc)^{1+ε}.\r\n\r\n  Status: Disputed. Mochizuki (2020 PRIMS) claims IUT proof; Stix-Scholze\r\n  2018 identified a gap in Corollary 3.12; mainstream consensus: OPEN.\r\n\r\n  Effective instance attacked here:\r\n    The highest known quality q = log(c)/log(rad(abc)) ≈ 1.6299 (Reyssat 1988).\r\n    Rei empirical sweep (c ≤ 10"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP ABC — Effective ABC bound: c^7 ≤ rad(abc)^11 for c ≤ N\n  ===========================================================\n\n  Conjecture (Oesterlé-Masser 1985, ABC conjecture, OPEN 41 years):\n    ∀ ε >",
+    "scopeOfImpossibility": "STEP ABC — Effective ABC bound: c^7 ≤ rad(abc)^11 for c ≤ N\r\n  ===========================================================\r\n\r\n  Conjecture (Oesterlé-Masser 1985, ABC conjecture, OPEN 41 years):\r\n    ∀",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "ABCEffective.lean",
     "lineCount": 73,
-    "fileSize": 3026,
+    "fileSize": 3098,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 2,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: D F U M T 8 Quantum — 定理 2 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "CollatzRei.DFUMT8Quantum — Lean 4 formalisation of D-FUMT₈ quantum operators.\n\n  Companion to scripts/quantum/dfumt8_unitary_phase1.py (Aer simulator) and\n  data/verilog/dfumt8_alu.v (Tang Nano 9K FPGA, 37 LUT4).\n\n  This file proves: D-FUMT₈ NOT is an involution on Fin 8.\n  Corollary: the associated 8×8 permutation matrix is its own inverse,\n  hence unitary (permutation matrices over ℝ satisfy P† = Pᵀ = P⁻¹).\n\n  Truth-table source: data/verilog/dfumt8_alu.v (case OP_NOT)\n    FALSE(0)    ↔ TRUE(1)\n    NEITHER(2)  fixed (self-dual)\n    BOTH(3)     fixed (self-dual)\n    ZERO(4)     ↔ INFINITY(7)\n"
+    "headerDoc": "CollatzRei.DFUMT8Quantum — Lean 4 formalisation of D-FUMT₈ quantum operators.\r\n\r\n  Companion to scripts/quantum/dfumt8_unitary_phase1.py (Aer simulator) and\r\n  data/verilog/dfumt8_alu.v (Tang Nano 9K FPGA, 37 LUT4).\r\n\r\n  This file proves: D-FUMT₈ NOT is an involution on Fin 8.\r\n  Corollary: the associated 8×8 permutation matrix is its own inverse,\r\n  hence unitary (permutation matrices over ℝ satisfy P† = Pᵀ = P⁻¹).\r\n\r\n  Truth-table source: data/verilog/dfumt8_alu.v (case OP_NOT)\r\n    FALSE(0)    ↔ TRUE(1)\r\n    NEITHER(2)  fixed (self-dual)\r\n    BOTH(3)     fixed (self-dual)\r\n    ZERO(4)     ↔"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-09-10"
     },
-    "scopeOfImpossibility": "CollatzRei.DFUMT8Quantum — Lean 4 formalisation of D-FUMT₈ quantum operators.\n\n  Companion to scripts/quantum/dfumt8_unitary_phase1.py (Aer simulator) and\n  data/verilog/dfumt8_alu.v (Tang Nano 9K FPG",
+    "scopeOfImpossibility": "CollatzRei.DFUMT8Quantum — Lean 4 formalisation of D-FUMT₈ quantum operators.\r\n\r\n  Companion to scripts/quantum/dfumt8_unitary_phase1.py (Aer simulator) and\r\n  data/verilog/dfumt8_alu.v (Tang Nano 9K ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "DFUMT8Quantum.lean",
     "lineCount": 73,
-    "fileSize": 2586,
+    "fileSize": 2658,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 2,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

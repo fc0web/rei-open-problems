@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Ergodic Dynamical — 定理 15 / sorry 0 / axiom 5",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 954 — Ergodic Theory and Dynamical Systems Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in ergodic theory and dynamical systems:\n\n  A. FURSTENBERG ×2 ×3 CONJECTURE (1967)\n     The only non-atomic probability measure on [0,1) invariant under\n     both x↦2x(mod 1) and x↦3x(mod 1) is the Lebesgue measure.\n     STATUS: OPEN (60 years). Partial: Rudolph 1990 (positive entropy).\n\n  B. ENTROPY AND LYAPUNOV EXPONENTS\n     For measure-preserving maps, Pesin's formula: h_μ(f) = ∫ Σ λ⁺ dμ.\n     Known for C² diffeomorphisms (Ruelle 1978).\n\n  C. FURSTENBERG-KATZNELSON (DENSITY HALES-JEWETT)\n "
+    "headerDoc": "STEP 954 — Ergodic Theory and Dynamical Systems Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in ergodic theory and dynamical systems:\r\n\r\n  A. FURSTENBERG ×2 ×3 CONJECTURE (1967)\r\n     The only non-atomic probability measure on [0,1) invariant under\r\n     both x↦2x(mod 1) and x↦3x(mod 1) is the Lebesgue measure.\r\n     STATUS: OPEN (60 years). Partial: Rudolph 1990 (positive entropy).\r\n\r\n  B. ENTROPY AND LYAPUNOV EXPONENTS\r\n     For measure-preserving maps, Pesin's formula: h_μ(f) = ∫ Σ λ⁺ dμ.\r\n     Known for C² diffeomorphisms (Ruelle 1978).\r\n\r\n  C. FURSTENBERG-KATZNELSON (DENSITY H"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 954 — Ergodic Theory and Dynamical Systems Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in ergodic theory and dynamical systems:\n\n  A. FURSTENBERG ×2 ×3 CONJECTURE (1967)\n     The only n",
+    "scopeOfImpossibility": "STEP 954 — Ergodic Theory and Dynamical Systems Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in ergodic theory and dynamical systems:\r\n\r\n  A. FURSTENBERG ×2 ×3 CONJECTURE (1967)\r\n     The ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step954ErgodicDynamical.lean",
     "lineCount": 277,
-    "fileSize": 12446,
+    "fileSize": 12722,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

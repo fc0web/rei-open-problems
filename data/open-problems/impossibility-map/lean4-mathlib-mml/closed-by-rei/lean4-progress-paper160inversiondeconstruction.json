@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 160 Inversion Deconstruction — 定理 4 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "CollatzRei.Paper160InversionDeconstruction —\n  Application note for Paper 160 §X (Rei-AIOS):\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\n  on the D-FUMT₈ value system.\n\n  Core claim (chat Claude 2026-06-01, three-instance convergence with\n  ChatGPT and Gemini, see paper-160-figA-thread-synthesis-en-2026-06-01.svg\n  for the research-log of the multi-AI thread):\n\n      \"Reversal ≠ Deconstruction\"\n\n      NOT(NOT(x)) preserves the underlying axis (involution);\n      only Ω_upper(Ω_upper(x)) folds the axis itself (idempotent collapse).\n\n  This file machine-checks (de"
+    "headerDoc": "CollatzRei.Paper160InversionDeconstruction —\r\n  Application note for Paper 160 §X (Rei-AIOS):\r\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\r\n  on the D-FUMT₈ value system.\r\n\r\n  Core claim (chat Claude 2026-06-01, three-instance convergence with\r\n  ChatGPT and Gemini, see paper-160-figA-thread-synthesis-en-2026-06-01.svg\r\n  for the research-log of the multi-AI thread):\r\n\r\n      \"Reversal ≠ Deconstruction\"\r\n\r\n      NOT(NOT(x)) preserves the underlying axis (involution);\r\n      only Ω_upper(Ω_upper(x)) folds the axis itself (idempotent collapse).\r\n\r\n  This file mach"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-05-31"
     },
-    "scopeOfImpossibility": "CollatzRei.Paper160InversionDeconstruction —\n  Application note for Paper 160 §X (Rei-AIOS):\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\n  on the D-FUMT₈ value system.\n",
+    "scopeOfImpossibility": "CollatzRei.Paper160InversionDeconstruction —\r\n  Application note for Paper 160 §X (Rei-AIOS):\r\n  Distinguishing involution (single NOT) from idempotent collapse (Ω_upper)\r\n  on the D-FUMT₈ value syste",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper160InversionDeconstruction.lean",
     "lineCount": 171,
-    "fileSize": 7427,
+    "fileSize": 7597,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 1,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

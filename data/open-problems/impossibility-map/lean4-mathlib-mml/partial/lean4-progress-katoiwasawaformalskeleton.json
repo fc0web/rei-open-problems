@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Kato Iwasawa Formal Skeleton — 定理 8 / sorry 0 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.KatoIwasawaFormalSkeleton — STEP 1312 (2026-07-23)\n\n  ★ 目的: 藤本さん指示 (Level 3 formal skeleton) の実行。\n    Level 2 (KatoIwasawaAttempt) の elementary application を type-level に\n    格上げし、 cyclotomic tower + Kato Euler system の Collatz analog を\n    Lean 4 の型構造として scaffold する。\n\n    Level 2 との差:\n      - Level 2: Terras parity vector を function として definable, elementary\n        properties (monotone, extends) を axiom-free に proof\n      - Level 3 (本 file): CollatzOrbitTower 型 + towerRestrict 型 map +\n        CollatzCompatibleFamily inverse sys"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.KatoIwasawaFormalSkeleton — STEP 1312 (2026-07-23)\r\n\r\n  ★ 目的: 藤本さん指示 (Level 3 formal skeleton) の実行。\r\n    Level 2 (KatoIwasawaAttempt) の elementary application を type-level に\r\n    格上げし、 cyclotomic tower + Kato Euler system の Collatz analog を\r\n    Lean 4 の型構造として scaffold する。\r\n\r\n    Level 2 との差:\r\n      - Level 2: Terras parity vector を function として definable, elementary\r\n        properties (monotone, extends) を axiom-free に proof\r\n      - Level 3 (本 file): CollatzOrbitTower 型 + towerRestrict 型 map +\r\n        CollatzCompatibleFamily"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -50,7 +50,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-23"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.KatoIwasawaFormalSkeleton — STEP 1312 (2026-07-23)\n\n  ★ 目的: 藤本さん指示 (Level 3 formal skeleton) の実行。\n    Level 2 (KatoIwasawaAttempt) の el",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.KatoIwasawaFormalSkeleton — STEP 1312 (2026-07-23)\r\n\r\n  ★ 目的: 藤本さん指示 (Level 3 formal skeleton) の実行。\r\n    Level 2 (KatoIwasawaAttempt) ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -62,7 +62,7 @@
   "leanProgressMeta": {
     "fileName": "KatoIwasawaFormalSkeleton.lean",
     "lineCount": 252,
-    "fileSize": 14989,
+    "fileSize": 15240,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 4,
@@ -93,6 +93,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

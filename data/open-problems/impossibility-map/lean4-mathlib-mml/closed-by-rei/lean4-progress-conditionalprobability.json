@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Conditional Probability — 定理 13 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1009 (β) — Layer 4 拡張: Conditional Probability + PMF\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 ConditionalProbability + ProbabilityMassFunction\n  primitives in the Rei-AIOS project.\n\n  Topics:\n    §1. Discrete conditional probability P(A|B) on Fin n\n    §2. Bayes' theorem (statement + concrete instance)\n    §3. Conditional independence\n    §4. Two-card draw — probability of full house\n\n  All theorems machine-checked, zero sorry / zero axiom.\n\n  Honest note: Mathlib's ConditionalProbability module uses MeasureTheory\n  Measure-style cond. For pedagogical clarity we"
+    "headerDoc": "STEP 1009 (β) — Layer 4 拡張: Conditional Probability + PMF\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 ConditionalProbability + ProbabilityMassFunction\r\n  primitives in the Rei-AIOS project.\r\n\r\n  Topics:\r\n    §1. Discrete conditional probability P(A|B) on Fin n\r\n    §2. Bayes' theorem (statement + concrete instance)\r\n    §3. Conditional independence\r\n    §4. Two-card draw — probability of full house\r\n\r\n  All theorems machine-checked, zero sorry / zero axiom.\r\n\r\n  Honest note: Mathlib's ConditionalProbability module uses MeasureTheory\r\n  Measure-style cond. For pedagog"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1009 (β) — Layer 4 拡張: Conditional Probability + PMF\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 ConditionalProbability + ProbabilityMassFunction\n  primitives in the Rei-A",
+    "scopeOfImpossibility": "STEP 1009 (β) — Layer 4 拡張: Conditional Probability + PMF\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 ConditionalProbability + ProbabilityMassFunction\r\n  primitives in the R",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "ConditionalProbability.lean",
     "lineCount": 141,
-    "fileSize": 6783,
+    "fileSize": 6923,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

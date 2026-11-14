@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Davenport Computational — 定理 15 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 969 — Davenport Constant: Exhaustive Computational Proofs\n  藤本伸樹 2026-04-22\n\n  Davenport constant D(G) of a finite abelian group G:\n    D(G) = smallest d ∈ ℕ s.t. every length-d sequence over G has\n           a non-empty subsequence summing to 0 (identity).\n    Equivalently: D(G) - 1 = longest sequence with NO non-empty zero-sum subseq.\n\n  This complements Paper 127's EGZ work via the relation (cyclic case):\n    E(ℤ_n) = D(ℤ_n) + n - 1  (Gao 1996)\n  With D(ℤ_n) = n we recover E(ℤ_n) = 2n - 1 (EGZ 1961).\n\n  Known small values:\n    D(ℤ_n) = n for all n ≥ 1 (Davenport 1966, elementary).\n    "
+    "headerDoc": "STEP 969 — Davenport Constant: Exhaustive Computational Proofs\r\n  藤本伸樹 2026-04-22\r\n\r\n  Davenport constant D(G) of a finite abelian group G:\r\n    D(G) = smallest d ∈ ℕ s.t. every length-d sequence over G has\r\n           a non-empty subsequence summing to 0 (identity).\r\n    Equivalently: D(G) - 1 = longest sequence with NO non-empty zero-sum subseq.\r\n\r\n  This complements Paper 127's EGZ work via the relation (cyclic case):\r\n    E(ℤ_n) = D(ℤ_n) + n - 1  (Gao 1996)\r\n  With D(ℤ_n) = n we recover E(ℤ_n) = 2n - 1 (EGZ 1961).\r\n\r\n  Known small values:\r\n    D(ℤ_n) = n for all n ≥ 1 (Davenport 1966, elem"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 969 — Davenport Constant: Exhaustive Computational Proofs\n  藤本伸樹 2026-04-22\n\n  Davenport constant D(G) of a finite abelian group G:\n    D(G) = smallest d ∈ ℕ s.t. every length-d sequence over G h",
+    "scopeOfImpossibility": "STEP 969 — Davenport Constant: Exhaustive Computational Proofs\r\n  藤本伸樹 2026-04-22\r\n\r\n  Davenport constant D(G) of a finite abelian group G:\r\n    D(G) = smallest d ∈ ℕ s.t. every length-d sequence over",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step969DavenportComputational.lean",
     "lineCount": 225,
-    "fileSize": 10675,
+    "fileSize": 10899,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 10,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

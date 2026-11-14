@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Richardson Peace Stability — 定理 5 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonPeaceStability — chat-Claude 2026-07-09 世界平和方程式 5 層論 の\n  Layer D「Lawvere 存在 + Banach 縮小 = 平和性選択」 の Lean 4 形式化 (Rei 環境 STEP 1261)。\n\n  ★ Origin: chat-Claude 2026-07-09 thread「世界平和の数式」 5 層 (A/B/C/D/E) 分析。\n    Rei honest filter で Rei 既存 formalization との 3 convergence 点確認:\n      - Layer B (SELF⟲ = Fix(R), Lawvere)   ↔ STEP 1220 LawvereFixedPointExperiment.lean\n      - Layer D (Banach 縮小 = 平和性選択)     ↔ STEP 1259 TransferBanach.lean\n      - Layer A (力学的不動点 = 平和均衡)     ↔ STEP 1260 ReductionGraphTransfer.lean\n\n    本 file (STEP 1"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RichardsonPeaceStability — chat-Claude 2026-07-09 世界平和方程式 5 層論 の\r\n  Layer D「Lawvere 存在 + Banach 縮小 = 平和性選択」 の Lean 4 形式化 (Rei 環境 STEP 1261)。\r\n\r\n  ★ Origin: chat-Claude 2026-07-09 thread「世界平和の数式」 5 層 (A/B/C/D/E) 分析。\r\n    Rei honest filter で Rei 既存 formalization との 3 convergence 点確認:\r\n      - Layer B (SELF⟲ = Fix(R), Lawvere)   ↔ STEP 1220 LawvereFixedPointExperiment.lean\r\n      - Layer D (Banach 縮小 = 平和性選択)     ↔ STEP 1259 TransferBanach.lean\r\n      - Layer A (力学的不動点 = 平和均衡)     ↔ STEP 1260 ReductionGraphTransfer.lean\r\n\r\n    本 fi"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-08"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonPeaceStability — chat-Claude 2026-07-09 世界平和方程式 5 層論 の\n  Layer D「Lawvere 存在 + Banach 縮小 = 平和性選択」 の Lean 4 形式化 (Rei 環境 STEP 12",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RichardsonPeaceStability — chat-Claude 2026-07-09 世界平和方程式 5 層論 の\r\n  Layer D「Lawvere 存在 + Banach 縮小 = 平和性選択」 の Lean 4 形式化 (Rei 環境 STEP ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "RichardsonPeaceStability.lean",
     "lineCount": 267,
-    "fileSize": 16931,
+    "fileSize": 17197,
     "theoremCount": 5,
     "lemmaCount": 0,
     "defCount": 3,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

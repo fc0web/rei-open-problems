@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Dual Axiom Coexistence — 定理 1 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 994 — Dual-Axiom Coexistence Cluster Lean 4 Scaffolding (Rei-AIOS)\n  =======================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery dual-axiom-coexistence:\n    \"ζ regularization 1+2+3+… = -1/12, da Costa paraconsistent logic,\n    and Birkhoff-vN quantum logic share a common Lean 4 encoding as\n    axiom-conditional polyvalent truth: F : AxiomChoice → Truth with\n    F(A₁) ≠ F(A₂) both valid.\"\n\n  This file provides:\n    - abstract structure `PolyvalentTruth`\n    - three non-trivial instantiations (ζ / paraconsistent / quantum)\n    -"
+    "headerDoc": "STEP 994 — Dual-Axiom Coexistence Cluster Lean 4 Scaffolding (Rei-AIOS)\r\n  =======================================================================\r\n\r\n  Falsifiable test of the Tier 3 claude-discovery dual-axiom-coexistence:\r\n    \"ζ regularization 1+2+3+… = -1/12, da Costa paraconsistent logic,\r\n    and Birkhoff-vN quantum logic share a common Lean 4 encoding as\r\n    axiom-conditional polyvalent truth: F : AxiomChoice → Truth with\r\n    F(A₁) ≠ F(A₂) both valid.\"\r\n\r\n  This file provides:\r\n    - abstract structure `PolyvalentTruth`\r\n    - three non-trivial instantiations (ζ / paraconsistent / qua"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 994 — Dual-Axiom Coexistence Cluster Lean 4 Scaffolding (Rei-AIOS)\n  =======================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery dua",
+    "scopeOfImpossibility": "STEP 994 — Dual-Axiom Coexistence Cluster Lean 4 Scaffolding (Rei-AIOS)\r\n  =======================================================================\r\n\r\n  Falsifiable test of the Tier 3 claude-discovery ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Step994DualAxiomCoexistence.lean",
     "lineCount": 186,
-    "fileSize": 6796,
+    "fileSize": 6981,
     "theoremCount": 1,
     "lemmaCount": 0,
     "defCount": 6,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

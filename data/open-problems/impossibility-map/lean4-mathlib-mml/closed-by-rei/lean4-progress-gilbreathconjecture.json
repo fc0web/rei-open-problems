@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Gilbreath Conjecture — 定理 24 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Gilbreath — Gilbreath's conjecture finite verification\n  ===========================================================\n\n  Conjecture (Gilbreath, 1958, OPEN 68 years):\n    Let P_0 = [2, 3, 5, 7, 11, ...] (sorted primes).\n    Define P_{k+1}[i] = |P_k[i+1] - P_k[i]|.\n    Then P_k[0] = 1 for all k ≥ 1.\n\n  Empirically verified to k ≤ 10^4 with ~3.4·10^11 starting primes (Odlyzko 2011).\n\n  ★ Rei structural finding (STEP Gilbreath, 2026-04-20) ★:\n    For N_primes = 2000, max(P_k) collapses to 2 by k ≈ 50 and remains 2 for k ≤ 500.\n    The Gilbreath iterate has a **universal attractor** on {0, 1, 2"
+    "headerDoc": "STEP Gilbreath — Gilbreath's conjecture finite verification\r\n  ===========================================================\r\n\r\n  Conjecture (Gilbreath, 1958, OPEN 68 years):\r\n    Let P_0 = [2, 3, 5, 7, 11, ...] (sorted primes).\r\n    Define P_{k+1}[i] = |P_k[i+1] - P_k[i]|.\r\n    Then P_k[0] = 1 for all k ≥ 1.\r\n\r\n  Empirically verified to k ≤ 10^4 with ~3.4·10^11 starting primes (Odlyzko 2011).\r\n\r\n  ★ Rei structural finding (STEP Gilbreath, 2026-04-20) ★:\r\n    For N_primes = 2000, max(P_k) collapses to 2 by k ≈ 50 and remains 2 for k ≤ 500.\r\n    The Gilbreath iterate has a **universal attractor**"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Gilbreath — Gilbreath's conjecture finite verification\n  ===========================================================\n\n  Conjecture (Gilbreath, 1958, OPEN 68 years):\n    Let P_0 = [2, 3, 5, 7, 11,",
+    "scopeOfImpossibility": "STEP Gilbreath — Gilbreath's conjecture finite verification\r\n  ===========================================================\r\n\r\n  Conjecture (Gilbreath, 1958, OPEN 68 years):\r\n    Let P_0 = [2, 3, 5, 7,",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "GilbreathConjecture.lean",
     "lineCount": 197,
-    "fileSize": 8409,
+    "fileSize": 8605,
     "theoremCount": 24,
     "lemmaCount": 0,
     "defCount": 5,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

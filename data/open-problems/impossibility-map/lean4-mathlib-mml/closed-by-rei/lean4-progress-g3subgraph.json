@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: G 3 Subgraph — 定理 14 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\n\n  Companion to:\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\n    - PeakMergeInvariant.lean (Büchi-25 native_decide)\n    - PeakMergeWitness.lean (1,000-witness existential closure)\n\n  This file mechanizes Paper 152 v0.3 §5d Lemma 5d.1 (G_3 edges are\n  inverse-halving only) and Lemma 5d.2 (G_3 chain decomposition) as far\n  as classical Mathlib + ThreeAdicIsolation allows.\n\n  Key theorem (Lemma 5d.1):\n    ∀ v with 3 | v, ∀ c : ℕ, collatzStep c = v → c = 2v.\n\n  In words: within the multiples"
+    "headerDoc": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\r\n\r\n  Companion to:\r\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\r\n    - PeakMergeInvariant.lean (Büchi-25 native_decide)\r\n    - PeakMergeWitness.lean (1,000-witness existential closure)\r\n\r\n  This file mechanizes Paper 152 v0.3 §5d Lemma 5d.1 (G_3 edges are\r\n  inverse-halving only) and Lemma 5d.2 (G_3 chain decomposition) as far\r\n  as classical Mathlib + ThreeAdicIsolation allows.\r\n\r\n  Key theorem (Lemma 5d.1):\r\n    ∀ v with 3 | v, ∀ c : ℕ, collatzStep c = v → c = 2v.\r\n\r\n  In words: within"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -50,7 +50,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\n\n  Companion to:\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\n    - PeakMergeInvariant.lean (",
+    "scopeOfImpossibility": "STEP 1127 (2026-05-14): G_3 subgraph structure theorems for Paper 152 v0.3 §5d.\r\n\r\n  Companion to:\r\n    - ThreeAdicIsolation.lean (Theorem 5b: no odd predecessor of 3 | v)\r\n    - PeakMergeInvariant.le",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -62,7 +62,7 @@
   "leanProgressMeta": {
     "fileName": "G3Subgraph.lean",
     "lineCount": 286,
-    "fileSize": 11039,
+    "fileSize": 11324,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 3,
@@ -93,6 +93,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

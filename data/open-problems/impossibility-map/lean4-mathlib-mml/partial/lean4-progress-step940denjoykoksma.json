@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Denjoy Koksma — 定理 22 / sorry 2 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 940 — DenjoyKoksma Integration: Deficit Sublinearity for Hard Classes\n  藤本伸樹 2026-04-21\n\n  Source: Janik (2025) — DenjoyKoksma.lean (zero sorrys, 1 axiom)\n  Repo: kaiarasanen/syracuse-confinement/lean4/CollatzLean/DenjoyKoksma.lean\n\n  WHAT JANIK PROVES (confirmed, zero sorrys):\n    deficit_sublinear_bound : |deficit(n,t)| ≤ C · t^(3/10)\n    deficit_sublinear       : ∀ε>0, ∃T₀, ∀t≥T₀: deficit(n,t) ≤ ε·t\n\n  Where deficit(n,t) = 3·ν₃(n,t) - t\n    ν₃(n,t) = number of odd-Syracuse steps in first t steps of n's orbit\n\n  WHAT IS NEEDED FOR FULL COLLATZ (and why this falls short):\n    finite_defi"
+    "headerDoc": "STEP 940 — DenjoyKoksma Integration: Deficit Sublinearity for Hard Classes\r\n  藤本伸樹 2026-04-21\r\n\r\n  Source: Janik (2025) — DenjoyKoksma.lean (zero sorrys, 1 axiom)\r\n  Repo: kaiarasanen/syracuse-confinement/lean4/CollatzLean/DenjoyKoksma.lean\r\n\r\n  WHAT JANIK PROVES (confirmed, zero sorrys):\r\n    deficit_sublinear_bound : |deficit(n,t)| ≤ C · t^(3/10)\r\n    deficit_sublinear       : ∀ε>0, ∃T₀, ∀t≥T₀: deficit(n,t) ≤ ε·t\r\n\r\n  Where deficit(n,t) = 3·ν₃(n,t) - t\r\n    ν₃(n,t) = number of odd-Syracuse steps in first t steps of n's orbit\r\n\r\n  WHAT IS NEEDED FOR FULL COLLATZ (and why this falls short):\r\n "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 940 — DenjoyKoksma Integration: Deficit Sublinearity for Hard Classes\n  藤本伸樹 2026-04-21\n\n  Source: Janik (2025) — DenjoyKoksma.lean (zero sorrys, 1 axiom)\n  Repo: kaiarasanen/syracuse-confinement",
+    "scopeOfImpossibility": "STEP 940 — DenjoyKoksma Integration: Deficit Sublinearity for Hard Classes\r\n  藤本伸樹 2026-04-21\r\n\r\n  Source: Janik (2025) — DenjoyKoksma.lean (zero sorrys, 1 axiom)\r\n  Repo: kaiarasanen/syracuse-confine",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 2 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step940DenjoyKoksma.lean",
     "lineCount": 279,
-    "fileSize": 13351,
+    "fileSize": 13629,
     "theoremCount": 22,
     "lemmaCount": 0,
     "defCount": 5,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

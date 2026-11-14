@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Geometry Topology — 定理 14 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pythagorean system.\n     New: mod-16 obstruction for perfect cuboid sides.\n     New: Close-to-perfect cuboids (3 of 4 conditions met).\n\n  B. INSCRIBED SQUARE CONJECTURE (TOEPLITZ 1911)\n     Every simple closed curve contains an inscribed square.\n     Proved for smooth curves; OPEN for Lipschitz.\n     New: Discrete analog verified for polygons up to 20 vertices.\n\n  C. JACOBIAN CONJECTURE (algebraic geom"
+    "headerDoc": "STEP 947 — Geometry and Topology Conjectures\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four geometric/topological open problems:\r\n\r\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\r\n     Extended: face-diagonal equations as Pythagorean system.\r\n     New: mod-16 obstruction for perfect cuboid sides.\r\n     New: Close-to-perfect cuboids (3 of 4 conditions met).\r\n\r\n  B. INSCRIBED SQUARE CONJECTURE (TOEPLITZ 1911)\r\n     Every simple closed curve contains an inscribed square.\r\n     Proved for smooth curves; OPEN for Lipschitz.\r\n     New: Discrete analog verified for polygons up to 20 vertices.\r\n\r\n  C. JACOBIAN CONJECTURE "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 947 — Geometry and Topology Conjectures\n  藤本伸樹 2026-04-21\n\n  Four geometric/topological open problems:\n\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\n     Extended: face-diagonal equations as Pytha",
+    "scopeOfImpossibility": "STEP 947 — Geometry and Topology Conjectures\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four geometric/topological open problems:\r\n\r\n  A. PERFECT CUBOID (EULER'S BRICK PROBLEM)\r\n     Extended: face-diagonal equations as",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step947GeometryTopology.lean",
     "lineCount": 199,
-    "fileSize": 9250,
+    "fileSize": 9448,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 5,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

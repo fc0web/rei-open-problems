@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 161 Rest Recovery Measure — 定理 4 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "RestRecoveryMeasure.lean\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\n\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\n  riddled / fat-fractal 吸引域(正測度の境界)では成り立たない。\n  よって NEITHER は「一般に(generically)」無視できるが、普遍的ではない。\n\n  Mathlib を import。呼び出し補題(IsOpen.measurableSet, isClosed_frontier,\n  ae_iff 等)は版で差があり得るため `lake build` で確認のこと(本環境では未検証)。"
+    "headerDoc": "RestRecoveryMeasure.lean\r\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\r\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\r\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\r\n\r\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\r\n  riddled / fat-fractal 吸引域(正測度の境界)では成り立たない。\r\n  よって NEITHER は「一般に(generically)」無視できるが、普遍的ではない。\r\n\r\n  Mathlib を import。呼び出し補題(IsOpen.measurableSet, isClosed_frontier,\r\n  ae_iff 等)は版で差があり得るため `lake build` で確認のこと(本環境では未検証)。"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-06-01"
     },
-    "scopeOfImpossibility": "RestRecoveryMeasure.lean\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\n\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\n  ridd",
+    "scopeOfImpossibility": "RestRecoveryMeasure.lean\r\n  測度論層:NEITHER(分離超曲面=吸引域境界)の可測性と、\r\n  「境界が零集合 ⟹ ほとんど至る所の点は判別可能(回復する/しない)」を示す。\r\n  すなわち NEITHER(不可判定)は一般には無視できる——ただし普遍的ではない(下記の注意)。\r\n\r\n  注意(正直な限界):境界が零集合という仮説は双曲的アトラクタでは成り立つが、\r\n",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper161RestRecoveryMeasure.lean",
     "lineCount": 70,
-    "fileSize": 3145,
+    "fileSize": 3214,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 1,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

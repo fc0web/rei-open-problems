@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Liar Semantics Separation — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1249 — Semantic-level Liar sentence separation:\n              LiarSentence type + strict extension from FDE to D-FUMT₈\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\n\n  Trigger: 2026-07-02 chat-Claude 6 turn arc + STEP 1246/1247/1248 完了後、\n  藤本さん 「Plan B: 具体的 Liar 文 semantics で SELF に一意安定 vs FDE で\n  不安定・複数解 の Lean 4 encoding」 判断。\n\n  ★ Honest reframe of chat-Claude's original Plan B statement:\n    chat-Claude's 2026-07-02 critique proposed proving \"Dfumt8 上で SELF に\n    一意安定\" as the load-bearing semantic separation. STEP 1247/1248 have\n    since established that this "
+    "headerDoc": "STEP 1249 — Semantic-level Liar sentence separation:\r\n              LiarSentence type + strict extension from FDE to D-FUMT₈\r\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\r\n\r\n  Trigger: 2026-07-02 chat-Claude 6 turn arc + STEP 1246/1247/1248 完了後、\r\n  藤本さん 「Plan B: 具体的 Liar 文 semantics で SELF に一意安定 vs FDE で\r\n  不安定・複数解 の Lean 4 encoding」 判断。\r\n\r\n  ★ Honest reframe of chat-Claude's original Plan B statement:\r\n    chat-Claude's 2026-07-02 critique proposed proving \"Dfumt8 上で SELF に\r\n    一意安定\" as the load-bearing semantic separation. STEP 1247/1248 have\r\n    since established"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -49,7 +49,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-02"
     },
-    "scopeOfImpossibility": "STEP 1249 — Semantic-level Liar sentence separation:\n              LiarSentence type + strict extension from FDE to D-FUMT₈\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\n\n  Tr",
+    "scopeOfImpossibility": "STEP 1249 — Semantic-level Liar sentence separation:\r\n              LiarSentence type + strict extension from FDE to D-FUMT₈\r\n              — [propext, Classical.choice, Quot.sound] tier in Lean 4\r\n\r\n",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -61,7 +61,7 @@
   "leanProgressMeta": {
     "fileName": "Step1249LiarSemanticsSeparation.lean",
     "lineCount": 308,
-    "fileSize": 14271,
+    "fileSize": 14578,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 9,
@@ -92,6 +92,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

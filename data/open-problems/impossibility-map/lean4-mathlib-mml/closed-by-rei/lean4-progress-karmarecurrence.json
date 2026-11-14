@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Karma Recurrence — 定理 2 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "!\n# KarmaRecurrence.lean\n## 阿頼耶識 ── 因果の「機構」としての累積器\n\n【証明済み】層：ここに書かれた定義と定理は、コア Lean4 のみで閉じる形式的な内容。\nmathlib 非依存。`omega`・`simp`・構造帰納のみを用いる。\n\n【解釈】層（下の註）：形式化された骨格に、思想史的な読みを対応づける。\nこれは load-bearing ではなく decorative であり、定理の外に置く。\n\n--------------------------------------------------------------------------------\n【解釈】素朴な業の法則（善因善果・悪因悪果）は「行為は一瞬、報いは後」という\n時間の空白を抱える。唯識の種子(bīja)説はこの空白を、\n  現行 →(熏習/vāsanā)→ 種子を阿頼耶識に貯蔵 →(異熟)→ 結果として現行化\nという状態を持つ再帰的更新規則で埋める。すなわち阿頼耶識は\n「業を失わない貯蔵庫（stateful accumulator）」であり、輪廻の連続性もこの\n種子の相続として説明される。以下はその累積器としての最小モデルである。\n-----------------------------------------------------------------------"
+    "headerDoc": "!\r\n# KarmaRecurrence.lean\r\n## 阿頼耶識 ── 因果の「機構」としての累積器\r\n\r\n【証明済み】層：ここに書かれた定義と定理は、コア Lean4 のみで閉じる形式的な内容。\r\nmathlib 非依存。`omega`・`simp`・構造帰納のみを用いる。\r\n\r\n【解釈】層（下の註）：形式化された骨格に、思想史的な読みを対応づける。\r\nこれは load-bearing ではなく decorative であり、定理の外に置く。\r\n\r\n--------------------------------------------------------------------------------\r\n【解釈】素朴な業の法則（善因善果・悪因悪果）は「行為は一瞬、報いは後」という\r\n時間の空白を抱える。唯識の種子(bīja)説はこの空白を、\r\n  現行 →(熏習/vāsanā)→ 種子を阿頼耶識に貯蔵 →(異熟)→ 結果として現行化\r\nという状態を持つ再帰的更新規則で埋める。すなわち阿頼耶識は\r\n「業を失わない貯蔵庫（stateful accumulator）」であり、輪廻の連続性もこの\r\n種子の相続として説明される。以下はその累積器としての最小モデルである。\r\n------------------------------------------------------"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-02"
     },
-    "scopeOfImpossibility": "!\n# KarmaRecurrence.lean\n## 阿頼耶識 ── 因果の「機構」としての累積器\n\n【証明済み】層：ここに書かれた定義と定理は、コア Lean4 のみで閉じる形式的な内容。\nmathlib 非依存。`omega`・`simp`・構造帰納のみを用いる。\n\n【解釈】層（下の註）：形式化された骨格に、思想史的な読みを対応づける。\nこれは load-bearing ではなく decor",
+    "scopeOfImpossibility": "!\r\n# KarmaRecurrence.lean\r\n## 阿頼耶識 ── 因果の「機構」としての累積器\r\n\r\n【証明済み】層：ここに書かれた定義と定理は、コア Lean4 のみで閉じる形式的な内容。\r\nmathlib 非依存。`omega`・`simp`・構造帰納のみを用いる。\r\n\r\n【解釈】層（下の註）：形式化された骨格に、思想史的な読みを対応づける。\r\nこれは load-bearing では",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "KarmaRecurrence.lean",
     "lineCount": 60,
-    "fileSize": 2719,
+    "fileSize": 2778,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 3,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

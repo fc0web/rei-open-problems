@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Transfer Banach — 定理 1 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.TransferBanach — バナッハ縮小写像エンジンを Transfer の第 2 instance\n  として据える (chat-Claude 2026-07-07 提案 → 2026-07-08 Rei env build verify)。\n\n  ★ Origin: chat-Claude 2026-07-07 thread → 藤本さん経由で 2026-07-08 実 code 受領。\n    元版 (`TransferBanach.lean` in Downloads/):\n      - Mathlib API 名 (`Function.Function.IsFixedPt`) が chat-Claude 記述で誤り\n        (v4.27.0 Mathlib では `Function.IsFixedPt` (Function namespace なし))。\n      - lean-toolchain v4.15.0 前提 → Rei env v4.27.0 で API drift。\n      - chat-Claude 自身 tier disclosure「機械検証未実施 / 補題名要ローカル確認」。\n    Rei env "
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.TransferBanach — バナッハ縮小写像エンジンを Transfer の第 2 instance\r\n  として据える (chat-Claude 2026-07-07 提案 → 2026-07-08 Rei env build verify)。\r\n\r\n  ★ Origin: chat-Claude 2026-07-07 thread → 藤本さん経由で 2026-07-08 実 code 受領。\r\n    元版 (`TransferBanach.lean` in Downloads/):\r\n      - Mathlib API 名 (`Function.Function.IsFixedPt`) が chat-Claude 記述で誤り\r\n        (v4.27.0 Mathlib では `Function.IsFixedPt` (Function namespace なし))。\r\n      - lean-toolchain v4.15.0 前提 → Rei env v4.27.0 で API drift。\r\n      - chat-Claude 自身 tier disclosure「機械検証未実施 / 補題名要ローカル確認」。\r\n  "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-08"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.TransferBanach — バナッハ縮小写像エンジンを Transfer の第 2 instance\n  として据える (chat-Claude 2026-07-07 提案 → 2026-07-08 Rei env build verify)。\n\n  ★ Orig",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.TransferBanach — バナッハ縮小写像エンジンを Transfer の第 2 instance\r\n  として据える (chat-Claude 2026-07-07 提案 → 2026-07-08 Rei env build verify)。\r\n\r\n  ★ ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "TransferBanach.lean",
     "lineCount": 85,
-    "fileSize": 4853,
+    "fileSize": 4937,
     "theoremCount": 1,
     "lemmaCount": 0,
     "defCount": 1,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

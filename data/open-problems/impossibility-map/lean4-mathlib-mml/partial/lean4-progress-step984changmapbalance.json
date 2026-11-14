@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Chang Map Balance — 定理 9 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\n  ==========================================================\n\n  Source: Edward Y. Chang (Stanford University)\n    \"A Structural Reduction of the Collatz Conjecture to One-Bit Orbit Mixing\"\n    arXiv:2603.25753v1 [math.DS], 2026-03-24\n\n  Scope of this file:\n    This is a SCAFFOLD, not a full proof. We formalize:\n      1. `compCollatz` — Chang's compressed odd-to-odd Collatz map\n         (= Rei-AIOS syrOne generalized to max halving depth).\n      2. `isBurstOne` / `v2OfCompStep` — burst-step diagnostics.\n      3. `mapBalanceAtDepth` — de"
+    "headerDoc": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\r\n  ==========================================================\r\n\r\n  Source: Edward Y. Chang (Stanford University)\r\n    \"A Structural Reduction of the Collatz Conjecture to One-Bit Orbit Mixing\"\r\n    arXiv:2603.25753v1 [math.DS], 2026-03-24\r\n\r\n  Scope of this file:\r\n    This is a SCAFFOLD, not a full proof. We formalize:\r\n      1. `compCollatz` — Chang's compressed odd-to-odd Collatz map\r\n         (= Rei-AIOS syrOne generalized to max halving depth).\r\n      2. `isBurstOne` / `v2OfCompStep` — burst-step diagnostics.\r\n      3. `mapBalanceA"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-05-26"
     },
-    "scopeOfImpossibility": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\n  ==========================================================\n\n  Source: Edward Y. Chang (Stanford University)\n    \"A Structural Reduction of ",
+    "scopeOfImpossibility": "STEP 984 — Chang 2026 Map Balance Theorem: Lean 4 scaffold\r\n  ==========================================================\r\n\r\n  Source: Edward Y. Chang (Stanford University)\r\n    \"A Structural Reduction",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step984ChangMapBalance.lean",
     "lineCount": 212,
-    "fileSize": 9283,
+    "fileSize": 9494,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 11,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

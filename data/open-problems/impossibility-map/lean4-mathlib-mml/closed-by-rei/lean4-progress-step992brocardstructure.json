@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Brocard Structure — 定理 14 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 992 — Brocard's problem: structural analysis\n  ==================================================\n\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\n  Pivots from \"extended verification range\" to \"structural understanding\":\n  why are n=4, 5, 7 the only known solutions?\n\n  ★ Brocard 1876 / Ramanujan 1913 — OPEN 150 years ★\n    The only known (n, m) with n! + 1 = m² are:\n      n=4 → m=5   (25 = 5²)\n      n=5 → m=11  (121 = 11²)\n      n=7 → m=71  (5041 = 71²)\n    Berndt–Galway 2000 verified no other solution for N ≤ 10⁹.\n\n  ★ This file provides ★:\n    Part 1: Known 3 soluti"
+    "headerDoc": "STEP 992 — Brocard's problem: structural analysis\r\n  ==================================================\r\n\r\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\r\n  Pivots from \"extended verification range\" to \"structural understanding\":\r\n  why are n=4, 5, 7 the only known solutions?\r\n\r\n  ★ Brocard 1876 / Ramanujan 1913 — OPEN 150 years ★\r\n    The only known (n, m) with n! + 1 = m² are:\r\n      n=4 → m=5   (25 = 5²)\r\n      n=5 → m=11  (121 = 11²)\r\n      n=7 → m=71  (5041 = 71²)\r\n    Berndt–Galway 2000 verified no other solution for N ≤ 10⁹.\r\n\r\n  ★ This file provides ★:\r\n    Part 1:"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 992 — Brocard's problem: structural analysis\n  ==================================================\n\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\n  Pivots from \"extended veri",
+    "scopeOfImpossibility": "STEP 992 — Brocard's problem: structural analysis\r\n  ==================================================\r\n\r\n  Follow-up to STEP 980 (n ∈ [13, 20]) and STEP 990 (n ∈ [21, 50]).\r\n  Pivots from \"extended ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step992BrocardStructure.lean",
     "lineCount": 174,
-    "fileSize": 6820,
+    "fileSize": 6993,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 2,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

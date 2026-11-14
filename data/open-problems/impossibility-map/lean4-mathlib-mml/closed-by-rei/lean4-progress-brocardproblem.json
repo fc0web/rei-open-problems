@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Brocard Problem — 定理 15 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Brocard — Brocard's problem finite verification\n  =====================================================\n\n  Conjecture (Brocard 1876, Ramanujan 1913, OPEN 150 years):\n    The only (n, m) with n! + 1 = m² are:\n      n=4: 24 + 1 = 25 = 5²\n      n=5: 120 + 1 = 121 = 11²\n      n=7: 5040 + 1 = 5041 = 71²\n\n  Verified computationally to n ≤ 10^9 (Berndt-Galway 2000).\n  Rei STEP Brocard (2026-04-21): reproduced Lean 4 finite verification for n ∈ [1, 20].\n\n  ★ Rei-lens finding (scripts/brocard-verify-rei-lens.ts) ★:\n    Small-prime quadratic-residue prefilter gives 99%+ pass rate because\n    for n "
+    "headerDoc": "STEP Brocard — Brocard's problem finite verification\r\n  =====================================================\r\n\r\n  Conjecture (Brocard 1876, Ramanujan 1913, OPEN 150 years):\r\n    The only (n, m) with n! + 1 = m² are:\r\n      n=4: 24 + 1 = 25 = 5²\r\n      n=5: 120 + 1 = 121 = 11²\r\n      n=7: 5040 + 1 = 5041 = 71²\r\n\r\n  Verified computationally to n ≤ 10^9 (Berndt-Galway 2000).\r\n  Rei STEP Brocard (2026-04-21): reproduced Lean 4 finite verification for n ∈ [1, 20].\r\n\r\n  ★ Rei-lens finding (scripts/brocard-verify-rei-lens.ts) ★:\r\n    Small-prime quadratic-residue prefilter gives 99%+ pass rate becau"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Brocard — Brocard's problem finite verification\n  =====================================================\n\n  Conjecture (Brocard 1876, Ramanujan 1913, OPEN 150 years):\n    The only (n, m) with n! +",
+    "scopeOfImpossibility": "STEP Brocard — Brocard's problem finite verification\r\n  =====================================================\r\n\r\n  Conjecture (Brocard 1876, Ramanujan 1913, OPEN 150 years):\r\n    The only (n, m) with ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "BrocardProblem.lean",
     "lineCount": 92,
-    "fileSize": 4053,
+    "fileSize": 4144,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 3,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

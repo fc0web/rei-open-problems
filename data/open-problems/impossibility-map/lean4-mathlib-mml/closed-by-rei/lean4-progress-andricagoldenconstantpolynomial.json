@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Andrica Golden Constant Polynomial — 定理 20 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Andrica-Golden Constant Minimal Polynomial (2026-07-12)\n\n## Adopted constant\nC := A_4/(φ−1) = 2(√11 − √7)/(√5 − 1) = (√55 + √11 − √35 − √7)/2\n   ≈ 1.086 (Rei adopted 2026-07-12 藤本さん明示同意)\n\n## Minimal polynomial (machine-verified via sympy 2026-07-12)\nP(x) := x^8 − 108 x^6 + 1408 x^4 − 1728 x^2 + 256\n\n## Facts (documented for future formalization)\n- P is monic, degree 8, integer coefficients (all even-degree terms only)\n- P has 8 real roots (±9.6473, ±3.6849, ±1.0855, ±0.4146)\n- All 8 roots ∈ Q(√5,"
+    "headerDoc": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\r\nLicensed under AGPL-3.0 + Commercial (Dual License).\r\n\r\n# Andrica-Golden Constant Minimal Polynomial (2026-07-12)\r\n\r\n## Adopted constant\r\nC := A_4/(φ−1) = 2(√11 − √7)/(√5 − 1) = (√55 + √11 − √35 − √7)/2\r\n   ≈ 1.086 (Rei adopted 2026-07-12 藤本さん明示同意)\r\n\r\n## Minimal polynomial (machine-verified via sympy 2026-07-12)\r\nP(x) := x^8 − 108 x^6 + 1408 x^4 − 1728 x^2 + 256\r\n\r\n## Facts (documented for future formalization)\r\n- P is monic, degree 8, integer coefficients (all even-degree terms only)\r\n- P has 8 real roots (±9.6473, ±3.6849, ±1.0855, ±0.4146)\r\n- All "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -49,7 +49,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-12"
     },
-    "scopeOfImpossibility": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\nLicensed under AGPL-3.0 + Commercial (Dual License).\n\n# Andrica-Golden Constant Minimal Polynomial (2026-07-12)\n\n## Adopted constant\nC := A_4/(φ−1) = 2(√11 −",
+    "scopeOfImpossibility": "Copyright 2026 Rei-AIOS / Nobuki Fujimoto.\r\nLicensed under AGPL-3.0 + Commercial (Dual License).\r\n\r\n# Andrica-Golden Constant Minimal Polynomial (2026-07-12)\r\n\r\n## Adopted constant\r\nC := A_4/(φ−1) = 2",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -61,7 +61,7 @@
   "leanProgressMeta": {
     "fileName": "AndricaGoldenConstantPolynomial.lean",
     "lineCount": 193,
-    "fileSize": 7270,
+    "fileSize": 7462,
     "theoremCount": 20,
     "lemmaCount": 0,
     "defCount": 2,
@@ -92,6 +92,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

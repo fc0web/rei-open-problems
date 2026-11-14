@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Minimal Overlap — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 989 — Minimal Overlap Problem M(n) for n = 1..5 (Erdős 1955)\n  ==================================================================\n\n  Source: formal-conjectures/ErdosProblems/36.lean\n    (original: `theorem M_one : M 1 = 1 := by sorry` ... M_five)\n\n  Definitions (standard Erdős 1955):\n    Overlap(A, B, k) = |{(a, b) : a ∈ A, b ∈ B, a - b = k}|\n    MaxOverlap(A, B) = max over all k of Overlap(A, B, k)\n    M(n) = min over partitions (A, B) of {1, ..., 2n} with |A| = |B| = n\n           of MaxOverlap(A, B)\n\n  Known values:\n    M(1) = 1, M(2) = 1, M(3) = 2, M(4) = 2, M(5) = 3\n\n  This STEP imple"
+    "headerDoc": "STEP 989 — Minimal Overlap Problem M(n) for n = 1..5 (Erdős 1955)\r\n  ==================================================================\r\n\r\n  Source: formal-conjectures/ErdosProblems/36.lean\r\n    (original: `theorem M_one : M 1 = 1 := by sorry` ... M_five)\r\n\r\n  Definitions (standard Erdős 1955):\r\n    Overlap(A, B, k) = |{(a, b) : a ∈ A, b ∈ B, a - b = k}|\r\n    MaxOverlap(A, B) = max over all k of Overlap(A, B, k)\r\n    M(n) = min over partitions (A, B) of {1, ..., 2n} with |A| = |B| = n\r\n           of MaxOverlap(A, B)\r\n\r\n  Known values:\r\n    M(1) = 1, M(2) = 1, M(3) = 2, M(4) = 2, M(5) = 3\r\n\r\n  "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-23"
     },
-    "scopeOfImpossibility": "STEP 989 — Minimal Overlap Problem M(n) for n = 1..5 (Erdős 1955)\n  ==================================================================\n\n  Source: formal-conjectures/ErdosProblems/36.lean\n    (original",
+    "scopeOfImpossibility": "STEP 989 — Minimal Overlap Problem M(n) for n = 1..5 (Erdős 1955)\r\n  ==================================================================\r\n\r\n  Source: formal-conjectures/ErdosProblems/36.lean\r\n    (orig",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step989MinimalOverlap.lean",
     "lineCount": 128,
-    "fileSize": 4745,
+    "fileSize": 4872,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 5,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

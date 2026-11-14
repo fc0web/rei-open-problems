@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Beal Conjecture — 定理 8 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 887 — Beal Conjecture: Lean 4 Small-Exponent Formalization\n  ================================================================\n\n  Beal's conjecture (Andrew Beal, 1993):\n    For positive integers x, y, z and exponents a, b, c ≥ 3,\n    if x^a + y^b = z^c, then gcd(x, y, z) > 1.\n\n  Equivalently: x^a + y^b = z^c with gcd(x, y, z) = 1 forces\n  min(a, b, c) ≤ 2.\n\n  Status:\n    - OPEN in full generality.\n    - Fermat's Last Theorem (Wiles 1994) ⟹ Beal for a = b = c ≥ 3.\n    - Verified computationally for z^c ≤ 10^{20} with all exponents ≥ 3.\n    - $1,000,000 prize offered by Beal (now held by AMS"
+    "headerDoc": "STEP 887 — Beal Conjecture: Lean 4 Small-Exponent Formalization\r\n  ================================================================\r\n\r\n  Beal's conjecture (Andrew Beal, 1993):\r\n    For positive integers x, y, z and exponents a, b, c ≥ 3,\r\n    if x^a + y^b = z^c, then gcd(x, y, z) > 1.\r\n\r\n  Equivalently: x^a + y^b = z^c with gcd(x, y, z) = 1 forces\r\n  min(a, b, c) ≤ 2.\r\n\r\n  Status:\r\n    - OPEN in full generality.\r\n    - Fermat's Last Theorem (Wiles 1994) ⟹ Beal for a = b = c ≥ 3.\r\n    - Verified computationally for z^c ≤ 10^{20} with all exponents ≥ 3.\r\n    - $1,000,000 prize offered by Beal (n"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 887 — Beal Conjecture: Lean 4 Small-Exponent Formalization\n  ================================================================\n\n  Beal's conjecture (Andrew Beal, 1993):\n    For positive integers x",
+    "scopeOfImpossibility": "STEP 887 — Beal Conjecture: Lean 4 Small-Exponent Formalization\r\n  ================================================================\r\n\r\n  Beal's conjecture (Andrew Beal, 1993):\r\n    For positive intege",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "BealConjecture.lean",
     "lineCount": 205,
-    "fileSize": 9346,
+    "fileSize": 9550,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 5,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

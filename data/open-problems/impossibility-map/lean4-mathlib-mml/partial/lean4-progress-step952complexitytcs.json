@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Complexity T C S — 定理 18 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 952 — Complexity Theory and TCS Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in theoretical computer science:\n\n  A. P vs NP — THE central open problem\n     Formal complexity classes; polynomial witnesses; NP-hardness.\n\n  B. GRAPH ISOMORPHISM (GI)\n     Is GI in P? In NP ∩ co-NP? Babai's algorithm: quasipolynomial (2016).\n     New: GI for small graphs verified; certificate structure.\n\n  C. BOOLEAN SATISFIABILITY PHASE TRANSITION\n     Random 3-SAT threshold α_c ≈ 4.267. Rigorously proved (Ding-Sly-Sun 2014).\n     New: Verified empirically for n=20 with sampling.\n\n  D. UNIQUE GAMES C"
+    "headerDoc": "STEP 952 — Complexity Theory and TCS Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in theoretical computer science:\r\n\r\n  A. P vs NP — THE central open problem\r\n     Formal complexity classes; polynomial witnesses; NP-hardness.\r\n\r\n  B. GRAPH ISOMORPHISM (GI)\r\n     Is GI in P? In NP ∩ co-NP? Babai's algorithm: quasipolynomial (2016).\r\n     New: GI for small graphs verified; certificate structure.\r\n\r\n  C. BOOLEAN SATISFIABILITY PHASE TRANSITION\r\n     Random 3-SAT threshold α_c ≈ 4.267. Rigorously proved (Ding-Sly-Sun 2014).\r\n     New: Verified empirically for n=20 with sampling.\r\n\r\n  D"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 952 — Complexity Theory and TCS Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in theoretical computer science:\n\n  A. P vs NP — THE central open problem\n     Formal complexity classes; pol",
+    "scopeOfImpossibility": "STEP 952 — Complexity Theory and TCS Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in theoretical computer science:\r\n\r\n  A. P vs NP — THE central open problem\r\n     Formal complexity classe",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step952ComplexityTCS.lean",
     "lineCount": 246,
-    "fileSize": 11963,
+    "fileSize": 12208,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 8,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

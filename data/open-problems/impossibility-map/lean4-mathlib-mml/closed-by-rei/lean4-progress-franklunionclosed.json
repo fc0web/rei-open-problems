@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Frankl Union Closed — 定理 18 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Frankl — Union-closed sets conjecture small-family verification\n  =====================================================================\n\n  Frankl's Conjecture (1979, OPEN 47 years):\n    If F is a finite family of finite sets with |F| ≥ 2, closed under union\n    (A, B ∈ F ⟹ A ∪ B ∈ F), then there exists an element x such that x\n    appears in at least |F|/2 sets of F.\n\n  Best known lower bound (Alweiss-Huang-Sellke, Chase-Lovett, 2022-23):\n    ≈ 0.38234. Full 0.5 is OPEN.\n\n  Rei empirical sweep (scripts/frankl-union-closed-rei-lens.ts, G=4):\n    - Enumerated 4,429 union-closed families ove"
+    "headerDoc": "STEP Frankl — Union-closed sets conjecture small-family verification\r\n  =====================================================================\r\n\r\n  Frankl's Conjecture (1979, OPEN 47 years):\r\n    If F is a finite family of finite sets with |F| ≥ 2, closed under union\r\n    (A, B ∈ F ⟹ A ∪ B ∈ F), then there exists an element x such that x\r\n    appears in at least |F|/2 sets of F.\r\n\r\n  Best known lower bound (Alweiss-Huang-Sellke, Chase-Lovett, 2022-23):\r\n    ≈ 0.38234. Full 0.5 is OPEN.\r\n\r\n  Rei empirical sweep (scripts/frankl-union-closed-rei-lens.ts, G=4):\r\n    - Enumerated 4,429 union-closed "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP Frankl — Union-closed sets conjecture small-family verification\n  =====================================================================\n\n  Frankl's Conjecture (1979, OPEN 47 years):\n    If F is a",
+    "scopeOfImpossibility": "STEP Frankl — Union-closed sets conjecture small-family verification\r\n  =====================================================================\r\n\r\n  Frankl's Conjecture (1979, OPEN 47 years):\r\n    If F ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "FranklUnionClosed.lean",
     "lineCount": 114,
-    "fileSize": 5903,
+    "fileSize": 6016,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 9,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

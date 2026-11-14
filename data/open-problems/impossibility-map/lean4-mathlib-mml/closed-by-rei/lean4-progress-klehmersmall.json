@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: K Lehmer Small — 定理 10 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP k-Lehmer — Smallest composite with φ(n) | (n-k) for k = 2..10\n  ===================================================================\n\n  Continuation of Paper 120 Q23:\n    \"For small k > 1, what is the smallest composite n with φ(n) | (n-k)?\"\n\n  Empirical (scripts/k-lehmer-search.ts):\n\n    | k | smallest composite n | n-k | φ(n) |\n    |---|----------------------|-----|------|\n    | 1 | (none found to 10^5, Lehmer OPEN) | — | — |\n    | 2 | 4                    |  2  |  2   |\n    | 3 | 9                    |  6  |  6   |\n    | 4 | 6                    |  2  |  2   |\n    | 5 | 25              "
+    "headerDoc": "STEP k-Lehmer — Smallest composite with φ(n) | (n-k) for k = 2..10\r\n  ===================================================================\r\n\r\n  Continuation of Paper 120 Q23:\r\n    \"For small k > 1, what is the smallest composite n with φ(n) | (n-k)?\"\r\n\r\n  Empirical (scripts/k-lehmer-search.ts):\r\n\r\n    | k | smallest composite n | n-k | φ(n) |\r\n    |---|----------------------|-----|------|\r\n    | 1 | (none found to 10^5, Lehmer OPEN) | — | — |\r\n    | 2 | 4                    |  2  |  2   |\r\n    | 3 | 9                    |  6  |  6   |\r\n    | 4 | 6                    |  2  |  2   |\r\n    | 5 | 25"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP k-Lehmer — Smallest composite with φ(n) | (n-k) for k = 2..10\n  ===================================================================\n\n  Continuation of Paper 120 Q23:\n    \"For small k > 1, what is",
+    "scopeOfImpossibility": "STEP k-Lehmer — Smallest composite with φ(n) | (n-k) for k = 2..10\r\n  ===================================================================\r\n\r\n  Continuation of Paper 120 Q23:\r\n    \"For small k > 1, wha",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "KLehmerSmall.lean",
     "lineCount": 66,
-    "fileSize": 2856,
+    "fileSize": 2921,
     "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 1,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

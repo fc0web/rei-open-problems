@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Power Thermodynamics — 定理 24 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\n\n  Nine theories bridging CPU/GPU power-conversion engineering with the\n  D-FUMT₈ framework. Each theory is stated formally in Lean 4 and tagged\n  with its D-FUMT₈ valuation.\n\n  Tier 1 — Information ↔ Thermodynamics (情報熱力学)\n  ─────────────────────────────────────────────────\n  T1.1  Landauer's principle (1961):\n        Erasing 1 bit dissipates at least k_B · T · ln 2 of heat.\n        D-FUMT₈ = ZERO  (information annihilation lower bound)\n  T1.2  Bennett's reversible computing (1973):\n        Any classical comput"
+    "headerDoc": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\r\n\r\n  Nine theories bridging CPU/GPU power-conversion engineering with the\r\n  D-FUMT₈ framework. Each theory is stated formally in Lean 4 and tagged\r\n  with its D-FUMT₈ valuation.\r\n\r\n  Tier 1 — Information ↔ Thermodynamics (情報熱力学)\r\n  ─────────────────────────────────────────────────\r\n  T1.1  Landauer's principle (1961):\r\n        Erasing 1 bit dissipates at least k_B · T · ln 2 of heat.\r\n        D-FUMT₈ = ZERO  (information annihilation lower bound)\r\n  T1.2  Bennett's reversible computing (1973):\r\n        Any cla"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\n\n  Nine theories bridging CPU/GPU power-conversion engineering with the\n  D-FUMT₈ framework. Each theory is stated fo",
+    "scopeOfImpossibility": "STEP 1002 — Power × Thermodynamics × D-FUMT₈\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-27\r\n\r\n  Nine theories bridging CPU/GPU power-conversion engineering with the\r\n  D-FUMT₈ framework. Each theory is state",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "PowerThermodynamics.lean",
     "lineCount": 398,
-    "fileSize": 21378,
+    "fileSize": 21775,
     "theoremCount": 24,
     "lemmaCount": 0,
     "defCount": 27,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Sierpinski Riesel — 定理 12 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 974 — Sierpinski / Riesel Numbers: Computational Scaffolding\n  藤本伸樹 2026-04-22\n\n  Pattern C gap fill (2026-04-22 research radar audit):\n\n  Sierpinski number k: odd k ≥ 1 s.t. k · 2^n + 1 is composite for all n ≥ 1.\n  Selfridge 1962: k = 78557 is Sierpinski via covering set {3,5,7,13,19,37,73}.\n  Sierpinski problem: is 78557 the smallest? As of 2024, 5 candidates remain\n  (PrimeGrid project). Literature runs under \"covering congruence\" (radar gap).\n\n  Riesel number k (dual): odd k ≥ 1 s.t. k · 2^n - 1 is composite for all n ≥ 1.\n  Riesel 1956: k = 509203 conjectured smallest. 42+ candidate"
+    "headerDoc": "STEP 974 — Sierpinski / Riesel Numbers: Computational Scaffolding\r\n  藤本伸樹 2026-04-22\r\n\r\n  Pattern C gap fill (2026-04-22 research radar audit):\r\n\r\n  Sierpinski number k: odd k ≥ 1 s.t. k · 2^n + 1 is composite for all n ≥ 1.\r\n  Selfridge 1962: k = 78557 is Sierpinski via covering set {3,5,7,13,19,37,73}.\r\n  Sierpinski problem: is 78557 the smallest? As of 2024, 5 candidates remain\r\n  (PrimeGrid project). Literature runs under \"covering congruence\" (radar gap).\r\n\r\n  Riesel number k (dual): odd k ≥ 1 s.t. k · 2^n - 1 is composite for all n ≥ 1.\r\n  Riesel 1956: k = 509203 conjectured smallest. 42"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 974 — Sierpinski / Riesel Numbers: Computational Scaffolding\n  藤本伸樹 2026-04-22\n\n  Pattern C gap fill (2026-04-22 research radar audit):\n\n  Sierpinski number k: odd k ≥ 1 s.t. k · 2^n + 1 is compo",
+    "scopeOfImpossibility": "STEP 974 — Sierpinski / Riesel Numbers: Computational Scaffolding\r\n  藤本伸樹 2026-04-22\r\n\r\n  Pattern C gap fill (2026-04-22 research radar audit):\r\n\r\n  Sierpinski number k: odd k ≥ 1 s.t. k · 2^n + 1 is ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "SierpinskiRiesel.lean",
     "lineCount": 153,
-    "fileSize": 7291,
+    "fileSize": 7443,
     "theoremCount": 12,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

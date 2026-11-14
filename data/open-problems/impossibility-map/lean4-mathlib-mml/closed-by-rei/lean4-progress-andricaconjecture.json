@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Andrica Conjecture — 定理 63 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Andrica's Conjecture — Lean 4 Formalization (Mathlib edition)\n  ==============================================================\n\n  Conjecture (Andrica 1985): For all n ≥ 1,\n      A_n = √p_{n+1} − √p_n  <  1\n  equivalently (squaring both sides of g_n = p_{n+1} − p_n < 2√p_n + 1):\n      g_n² < 4·p_n + 4·√p_n + 1\n  Sufficient (stronger) condition:\n      g_n² ≤ 4·p_n   ⟹   A_n < 1 (trivially since 4√p_n + 1 > 0)\n  (The sufficient condition fails once at n=4: g_4 = 4, p_4 = 7, g_4² = 16 > 28. Hmm, 4·7 = 28. Wait 16 < 28, so it actually holds.)\n\n  History:\n    - max A_n occurs at n=4: A_4 = √11 − √7 "
+    "headerDoc": "Andrica's Conjecture — Lean 4 Formalization (Mathlib edition)\r\n  ==============================================================\r\n\r\n  Conjecture (Andrica 1985): For all n ≥ 1,\r\n      A_n = √p_{n+1} − √p_n  <  1\r\n  equivalently (squaring both sides of g_n = p_{n+1} − p_n < 2√p_n + 1):\r\n      g_n² < 4·p_n + 4·√p_n + 1\r\n  Sufficient (stronger) condition:\r\n      g_n² ≤ 4·p_n   ⟹   A_n < 1 (trivially since 4√p_n + 1 > 0)\r\n  (The sufficient condition fails once at n=4: g_4 = 4, p_4 = 7, g_4² = 16 > 28. Hmm, 4·7 = 28. Wait 16 < 28, so it actually holds.)\r\n\r\n  History:\r\n    - max A_n occurs at n=4: A_4"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "Andrica's Conjecture — Lean 4 Formalization (Mathlib edition)\n  ==============================================================\n\n  Conjecture (Andrica 1985): For all n ≥ 1,\n      A_n = √p_{n+1} − √p_n ",
+    "scopeOfImpossibility": "Andrica's Conjecture — Lean 4 Formalization (Mathlib edition)\r\n  ==============================================================\r\n\r\n  Conjecture (Andrica 1985): For all n ≥ 1,\r\n      A_n = √p_{n+1} − √",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "AndricaConjecture.lean",
     "lineCount": 201,
-    "fileSize": 10900,
+    "fileSize": 11100,
     "theoremCount": 63,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

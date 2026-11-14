@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Layer D Nested Dot — 定理 18 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Layer D — Nested ColoredDot (NestedDot)\n  ========================================\n\n  藤本無限次元ドット理論 Layer D の Lean 4 形式化.\n\n  Layer B (Problem008FDAFIDT.lean の InfiniteDot) は DFumt8 × DimensionValue\n  の直積 \"平坦\" 表現. Layer D は以下を加える:\n\n    1. 色: RGB 24-bit (Fin 16777216) — DFumt8 と直交する別軸\n    2. 再帰: ドットは容器 — 内部に複数の座標点を持ち、各点は再び NestedDot\n    3. 座標: 2D grid (Coord = Fin 256 × Fin 256)\n\n  Bit 予算 (per leaf): DFumt8 (3) + RGB (24) + Coord (16) = 43 bits.\n\n  目標定理:\n    - depth 2 flat with 3 leaves > QR v1 L (152 bit)\n    - depth 2 flat with 37 leaves > QR v10 L (2192 bit)\n    - depth 2 flat with 401 leaves >"
+    "headerDoc": "Layer D — Nested ColoredDot (NestedDot)\r\n  ========================================\r\n\r\n  藤本無限次元ドット理論 Layer D の Lean 4 形式化.\r\n\r\n  Layer B (Problem008FDAFIDT.lean の InfiniteDot) は DFumt8 × DimensionValue\r\n  の直積 \"平坦\" 表現. Layer D は以下を加える:\r\n\r\n    1. 色: RGB 24-bit (Fin 16777216) — DFumt8 と直交する別軸\r\n    2. 再帰: ドットは容器 — 内部に複数の座標点を持ち、各点は再び NestedDot\r\n    3. 座標: 2D grid (Coord = Fin 256 × Fin 256)\r\n\r\n  Bit 予算 (per leaf): DFumt8 (3) + RGB (24) + Coord (16) = 43 bits.\r\n\r\n  目標定理:\r\n    - depth 2 flat with 3 leaves > QR v1 L (152 bit)\r\n    - depth 2 flat with 37 leaves > QR v10 L (2192 bit)\r\n    - depth 2 flat "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Layer D — Nested ColoredDot (NestedDot)\n  ========================================\n\n  藤本無限次元ドット理論 Layer D の Lean 4 形式化.\n\n  Layer B (Problem008FDAFIDT.lean の InfiniteDot) は DFumt8 × DimensionValue\n  の直",
+    "scopeOfImpossibility": "Layer D — Nested ColoredDot (NestedDot)\r\n  ========================================\r\n\r\n  藤本無限次元ドット理論 Layer D の Lean 4 形式化.\r\n\r\n  Layer B (Problem008FDAFIDT.lean の InfiniteDot) は DFumt8 × DimensionValue",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "LayerDNestedDot.lean",
     "lineCount": 289,
-    "fileSize": 13262,
+    "fileSize": 13550,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 12,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

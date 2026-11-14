@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Antihydra Bridge — 定理 7 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1338: Antihydra Bridge — 6-state Turing machine (BB(6) 現行 holdout) の\nRei Collatz STEP 622-624 machinery との structural correspondence の formalization。\n\n★ Honest scope (譲れない):\n(1) Antihydra 「halting 判定」 = 世界的 open problem (2024-2026、 bbchallenge frontier)、\n    本 file で 解いていない。 halting proof は sorry / axiom 一切使わず、 halting statement\n    そのものを Prop として定義に留める (証明を主張しない)。\n(2) chat-Claude Turn 4 (2026-08-16) 「コラッツ型」 表現は family-level accurate だが、\n    実際は Mahler Z-number problem (fractional parts of ξ·(3/2)ⁿ) の 直接類縁で\n    3n+1 Collatz proper とは異なる — 本 file で Mahler 系明示。\n(3) 本 file は Rei's descentBou"
+    "headerDoc": "STEP 1338: Antihydra Bridge — 6-state Turing machine (BB(6) 現行 holdout) の\r\nRei Collatz STEP 622-624 machinery との structural correspondence の formalization。\r\n\r\n★ Honest scope (譲れない):\r\n(1) Antihydra 「halting 判定」 = 世界的 open problem (2024-2026、 bbchallenge frontier)、\r\n    本 file で 解いていない。 halting proof は sorry / axiom 一切使わず、 halting statement\r\n    そのものを Prop として定義に留める (証明を主張しない)。\r\n(2) chat-Claude Turn 4 (2026-08-16) 「コラッツ型」 表現は family-level accurate だが、\r\n    実際は Mahler Z-number problem (fractional parts of ξ·(3/2)ⁿ) の 直接類縁で\r\n    3n+1 Collatz proper とは異なる — 本 file で Mahler 系明示。\r\n(3) 本 file は Rei's "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-08-15"
     },
-    "scopeOfImpossibility": "STEP 1338: Antihydra Bridge — 6-state Turing machine (BB(6) 現行 holdout) の\nRei Collatz STEP 622-624 machinery との structural correspondence の formalization。\n\n★ Honest scope (譲れない):\n(1) Antihydra 「haltin",
+    "scopeOfImpossibility": "STEP 1338: Antihydra Bridge — 6-state Turing machine (BB(6) 現行 holdout) の\r\nRei Collatz STEP 622-624 machinery との structural correspondence の formalization。\r\n\r\n★ Honest scope (譲れない):\r\n(1) Antihydra 「ha",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "AntihydraBridge.lean",
     "lineCount": 144,
-    "fileSize": 7858,
+    "fileSize": 8001,
     "theoremCount": 7,
     "lemmaCount": 0,
     "defCount": 9,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

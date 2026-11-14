@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Bipartite Ramsey Computational — 定理 4 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 971 — Bipartite Ramsey Numbers: First Lean 4 Formalization\n  藤本伸樹 2026-04-22\n\n  The bipartite Ramsey number b(s, t) is the smallest N such that every\n  2-coloring of the edges of K_{N,N} contains a monochromatic K_{s,s}\n  (symmetric case s = t).\n\n  Known symmetric values:\n    b(2, 2) = 5      (Beineke–Schwenk 1976)\n    b(2, 3) = 9      (Carnielli–Monte Carmelo 2000)\n    b(3, 3) = 17     (Irving 1978 lower; Hattingh–Henning 1998 upper)\n\n  This file formalizes b(2, 2) = 5 in full:\n    * lower bound by explicit 4 × 4 witness via `native_decide`;\n    * upper bound by exhaustive enumeration ov"
+    "headerDoc": "STEP 971 — Bipartite Ramsey Numbers: First Lean 4 Formalization\r\n  藤本伸樹 2026-04-22\r\n\r\n  The bipartite Ramsey number b(s, t) is the smallest N such that every\r\n  2-coloring of the edges of K_{N,N} contains a monochromatic K_{s,s}\r\n  (symmetric case s = t).\r\n\r\n  Known symmetric values:\r\n    b(2, 2) = 5      (Beineke–Schwenk 1976)\r\n    b(2, 3) = 9      (Carnielli–Monte Carmelo 2000)\r\n    b(3, 3) = 17     (Irving 1978 lower; Hattingh–Henning 1998 upper)\r\n\r\n  This file formalizes b(2, 2) = 5 in full:\r\n    * lower bound by explicit 4 × 4 witness via `native_decide`;\r\n    * upper bound by exhaustive "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 971 — Bipartite Ramsey Numbers: First Lean 4 Formalization\n  藤本伸樹 2026-04-22\n\n  The bipartite Ramsey number b(s, t) is the smallest N such that every\n  2-coloring of the edges of K_{N,N} contains",
+    "scopeOfImpossibility": "STEP 971 — Bipartite Ramsey Numbers: First Lean 4 Formalization\r\n  藤本伸樹 2026-04-22\r\n\r\n  The bipartite Ramsey number b(s, t) is the smallest N such that every\r\n  2-coloring of the edges of K_{N,N} cont",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step971BipartiteRamseyComputational.lean",
     "lineCount": 156,
-    "fileSize": 7110,
+    "fileSize": 7265,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 6,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

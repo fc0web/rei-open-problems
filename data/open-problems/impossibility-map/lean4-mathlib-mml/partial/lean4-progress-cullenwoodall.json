@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cullen Woodall — 定理 22 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 890 — Cullen & Woodall Primes: Infinitude (Tier S #3)\n  ============================================================\n\n  Cullen number:  C_n = n · 2^n + 1\n  Woodall number: W_n = n · 2^n − 1\n\n  Cullen primes: C_n prime for n ∈ {1, 141, 4713, 5795, 6611, 18496, ...}\n  Woodall primes: W_n prime for n ∈ {2, 3, 6, 30, 75, 81, 115, 123, ...}\n\n  Conjecture: **both Cullen and Woodall primes are infinite**.\n  Status: OPEN in full. Hooley 1976 showed almost all C_n are composite.\n\n  Rei breadth-first sweep 2026-04-19: Tier S Priority 56."
+    "headerDoc": "STEP 890 — Cullen & Woodall Primes: Infinitude (Tier S #3)\r\n  ============================================================\r\n\r\n  Cullen number:  C_n = n · 2^n + 1\r\n  Woodall number: W_n = n · 2^n − 1\r\n\r\n  Cullen primes: C_n prime for n ∈ {1, 141, 4713, 5795, 6611, 18496, ...}\r\n  Woodall primes: W_n prime for n ∈ {2, 3, 6, 30, 75, 81, 115, 123, ...}\r\n\r\n  Conjecture: **both Cullen and Woodall primes are infinite**.\r\n  Status: OPEN in full. Hooley 1976 showed almost all C_n are composite.\r\n\r\n  Rei breadth-first sweep 2026-04-19: Tier S Priority 56."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 890 — Cullen & Woodall Primes: Infinitude (Tier S #3)\n  ============================================================\n\n  Cullen number:  C_n = n · 2^n + 1\n  Woodall number: W_n = n · 2^n − 1\n\n  Cu",
+    "scopeOfImpossibility": "STEP 890 — Cullen & Woodall Primes: Infinitude (Tier S #3)\r\n  ============================================================\r\n\r\n  Cullen number:  C_n = n · 2^n + 1\r\n  Woodall number: W_n = n · 2^n − 1\r\n",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "CullenWoodall.lean",
     "lineCount": 159,
-    "fileSize": 7325,
+    "fileSize": 7483,
     "theoremCount": 22,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

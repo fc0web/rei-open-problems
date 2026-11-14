@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Even Perfect Infinitude — 定理 15 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 923 — Even Perfect Number Infinitude\n  ============================================\n\n  Euler-Euclid theorem (Euler 1747, Euclid 300 BC for one direction):\n    n is an even perfect number ⟺ n = 2^(p-1) · (2^p − 1) for some\n    prime p with 2^p − 1 also prime (i.e., Mersenne prime).\n\n  Consequence: **Infinite Mersenne primes ⟺ Infinite even perfect numbers.**\n\n  Rei breadth-first sweep 2026-04-19 Part E supplement (J11).\n\n  This file uses `MersennePrimes.lean` (STEP 889) `mersenne_infinitude`\n  axiom and proves that each Mersenne prime exponent p yields an even\n  perfect number, hence ∞ Mer"
+    "headerDoc": "STEP 923 — Even Perfect Number Infinitude\r\n  ============================================\r\n\r\n  Euler-Euclid theorem (Euler 1747, Euclid 300 BC for one direction):\r\n    n is an even perfect number ⟺ n = 2^(p-1) · (2^p − 1) for some\r\n    prime p with 2^p − 1 also prime (i.e., Mersenne prime).\r\n\r\n  Consequence: **Infinite Mersenne primes ⟺ Infinite even perfect numbers.**\r\n\r\n  Rei breadth-first sweep 2026-04-19 Part E supplement (J11).\r\n\r\n  This file uses `MersennePrimes.lean` (STEP 889) `mersenne_infinitude`\r\n  axiom and proves that each Mersenne prime exponent p yields an even\r\n  perfect number"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -50,7 +50,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 923 — Even Perfect Number Infinitude\n  ============================================\n\n  Euler-Euclid theorem (Euler 1747, Euclid 300 BC for one direction):\n    n is an even perfect number ⟺ n = 2^",
+    "scopeOfImpossibility": "STEP 923 — Even Perfect Number Infinitude\r\n  ============================================\r\n\r\n  Euler-Euclid theorem (Euler 1747, Euclid 300 BC for one direction):\r\n    n is an even perfect number ⟺ n ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -62,7 +62,7 @@
   "leanProgressMeta": {
     "fileName": "EvenPerfectInfinitude.lean",
     "lineCount": 166,
-    "fileSize": 8208,
+    "fileSize": 8373,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 4,
@@ -93,6 +93,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

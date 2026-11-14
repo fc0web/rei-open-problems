@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 160 Inversion Deconstruction Print Axioms — 定理 0 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\n  Companion to Paper 159 v0.2 audit (Paper159InclosurePrintAxioms.lean)."
+    "headerDoc": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\r\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\r\n  Companion to Paper 159 v0.2 audit (Paper159InclosurePrintAxioms.lean)."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "world-open",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "open",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\n  Companion to Paper 159 v0.2 audit (Paper159",
+    "scopeOfImpossibility": "Axiom audit for Paper 160 §X Application Note (Inversion vs Deconstruction).\r\n  Verifies all load-bearing theorems use only the default Lean kernel axioms.\r\n  Companion to Paper 159 v0.2 audit (Paper1",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper160InversionDeconstructionPrintAxioms.lean",
     "lineCount": 15,
-    "fileSize": 502,
+    "fileSize": 516,
     "theoremCount": 0,
     "lemmaCount": 0,
     "defCount": 0,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

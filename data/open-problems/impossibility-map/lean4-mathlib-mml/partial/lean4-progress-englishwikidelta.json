@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: English Wiki Delta — 定理 12 / sorry 0 / axiom 8",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 928 — English Wikipedia delta (6 sections, 74 new problems)\n  =================================================================\n\n  ja-Wikipedia \"数学上の未解決問題\" (146+) に en-Wikipedia\n  \"List of unsolved problems in mathematics\" で追加される ~74 項目のうち,\n  Lean 4 形式化適性の高い 8 問題を扱う:\n\n  Computational (small-n decide):\n    (A) Juggler sequence termination   — Collatz 系\n    (B) Cap set problem               — F_3^n 3-AP-free\n\n  Conjecture statement only (honest axiom):\n    (C) Vaught conjecture              — countable-model count\n    (D) Partition Principle → AC       — set theory\n    (E) Unknotting proble"
+    "headerDoc": "STEP 928 — English Wikipedia delta (6 sections, 74 new problems)\r\n  =================================================================\r\n\r\n  ja-Wikipedia \"数学上の未解決問題\" (146+) に en-Wikipedia\r\n  \"List of unsolved problems in mathematics\" で追加される ~74 項目のうち,\r\n  Lean 4 形式化適性の高い 8 問題を扱う:\r\n\r\n  Computational (small-n decide):\r\n    (A) Juggler sequence termination   — Collatz 系\r\n    (B) Cap set problem               — F_3^n 3-AP-free\r\n\r\n  Conjecture statement only (honest axiom):\r\n    (C) Vaught conjecture              — countable-model count\r\n    (D) Partition Principle → AC       — set theory\r\n    (E) Unk"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 928 — English Wikipedia delta (6 sections, 74 new problems)\n  =================================================================\n\n  ja-Wikipedia \"数学上の未解決問題\" (146+) に en-Wikipedia\n  \"List of unsolv",
+    "scopeOfImpossibility": "STEP 928 — English Wikipedia delta (6 sections, 74 new problems)\r\n  =================================================================\r\n\r\n  ja-Wikipedia \"数学上の未解決問題\" (146+) に en-Wikipedia\r\n  \"List of un",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "EnglishWikiDelta.lean",
     "lineCount": 207,
-    "fileSize": 10802,
+    "fileSize": 11008,
     "theoremCount": 12,
     "lemmaCount": 0,
     "defCount": 5,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

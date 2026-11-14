@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Ramsey Computational — 定理 14 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\n  藤本伸樹 2026-04-21\n\n  Native_decide proofs for small Ramsey-type numbers.\n\n  Schur convention used here: S(r) = largest n s.t. {1,...,n} admits a\n  sum-free r-coloring (Wikipedia/standard convention).\n  Then S(r)+1 = smallest n s.t. every r-coloring of {1,...,n}\n  has a monochromatic Schur triple.\n\n  Known values:\n     S(1) = 1, S(2) = 4, S(3) = 13, S(4) = 44, S(5) = 160.\n\n  EGZ constant: E(ℤ_n) = 2n-1 = smallest m s.t. every length-m sequence\n  in ℤ_n has a length-n subsequence summing to 0.\n\n  Peace Axiom #196: immutable: tru"
+    "headerDoc": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\r\n  藤本伸樹 2026-04-21\r\n\r\n  Native_decide proofs for small Ramsey-type numbers.\r\n\r\n  Schur convention used here: S(r) = largest n s.t. {1,...,n} admits a\r\n  sum-free r-coloring (Wikipedia/standard convention).\r\n  Then S(r)+1 = smallest n s.t. every r-coloring of {1,...,n}\r\n  has a monochromatic Schur triple.\r\n\r\n  Known values:\r\n     S(1) = 1, S(2) = 4, S(3) = 13, S(4) = 44, S(5) = 160.\r\n\r\n  EGZ constant: E(ℤ_n) = 2n-1 = smallest m s.t. every length-m sequence\r\n  in ℤ_n has a length-n subsequence summing to 0.\r\n\r\n  Peace Axiom #196"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\n  藤本伸樹 2026-04-21\n\n  Native_decide proofs for small Ramsey-type numbers.\n\n  Schur convention used here: S(r) = largest n s.t. {1,...",
+    "scopeOfImpossibility": "STEP 968 — Ramsey Theory: Exhaustive Computational Proofs (revised)\r\n  藤本伸樹 2026-04-21\r\n\r\n  Native_decide proofs for small Ramsey-type numbers.\r\n\r\n  Schur convention used here: S(r) = largest n s.t. {",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step968RamseyComputational.lean",
     "lineCount": 250,
-    "fileSize": 11455,
+    "fileSize": 11704,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 13,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

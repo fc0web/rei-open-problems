@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Problem 013 Iterate Bound — 定理 3 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\n\n  Builds on STEP 866 (Step866C8LTEOneLiner):\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\n    - v2_chain_strict_decrease\n    - syrOne_odd_of_v2_one\n\n  This file adds the two missing pieces:\n\n    (1) bridge_3n1_vs_n1  — the mod-4 characterization\n          Odd n → (v₂(3n+1) ≥ 2 ↔ v₂(n+1) = 1)\n\n    (2) v2_one_chain_terminates — the full iterate-bound theorem\n          For odd n, ∃ k ≤ v₂(n+1), v₂(3·syrOne^[k] n + 1) ≥ 2\n\n  Together these close Problem 013 (rei-unsolved-problems #013), which was\n  left as a "
+    "headerDoc": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\r\n\r\n  Builds on STEP 866 (Step866C8LTEOneLiner):\r\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\r\n    - v2_chain_strict_decrease\r\n    - syrOne_odd_of_v2_one\r\n\r\n  This file adds the two missing pieces:\r\n\r\n    (1) bridge_3n1_vs_n1  — the mod-4 characterization\r\n          Odd n → (v₂(3n+1) ≥ 2 ↔ v₂(n+1) = 1)\r\n\r\n    (2) v2_one_chain_terminates — the full iterate-bound theorem\r\n          For odd n, ∃ k ≤ v₂(n+1), v₂(3·syrOne^[k] n + 1) ≥ 2\r\n\r\n  Together these close Problem 013 (rei-unsolved-problems #013), which w"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -49,7 +49,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-17"
     },
-    "scopeOfImpossibility": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\n\n  Builds on STEP 866 (Step866C8LTEOneLiner):\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\n    - v2_chain_stric",
+    "scopeOfImpossibility": "Problem 013 — C8 Iterate-Bound Theorem (full Lean 4 closure)\r\n\r\n  Builds on STEP 866 (Step866C8LTEOneLiner):\r\n    - v2_chain_step_general  : for odd n, v₂(syrOne n + 1) = v₂(n+1) - 1\r\n    - v2_chain_s",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -61,7 +61,7 @@
   "leanProgressMeta": {
     "fileName": "Problem013IterateBound.lean",
     "lineCount": 194,
-    "fileSize": 9501,
+    "fileSize": 9694,
     "theoremCount": 2,
     "lemmaCount": 1,
     "defCount": 0,
@@ -92,6 +92,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

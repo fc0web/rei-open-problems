@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cluster 4 Wikipedia — 定理 1 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 996 — Cluster #4 Wikipedia-scaffold Exploration (Rei-AIOS)\n  ================================================================\n\n  Exploratory Lean 4 skeleton for cluster #4 from the cross-tier D-FUMT₈\n  isomorphism analysis (2026-04-24):\n    (NEITHER, I_INFINITE_SEARCH_SPACE)\n    members: wikipedia-HerzogSchonheimConjecture, wikipedia-HappyEndingProblem,\n             wikipedia-ErdosRadoSunflowerConjecture, wikipedia-BrocardProblem,\n             (and 1 more)\n\n  Unlike clusters #11 / #8 / #3 (Tier 3 claude-discoveries), this cluster\n  is weakly distinctive — NEITHER is the 2nd-most-common D-"
+    "headerDoc": "STEP 996 — Cluster #4 Wikipedia-scaffold Exploration (Rei-AIOS)\r\n  ================================================================\r\n\r\n  Exploratory Lean 4 skeleton for cluster #4 from the cross-tier D-FUMT₈\r\n  isomorphism analysis (2026-04-24):\r\n    (NEITHER, I_INFINITE_SEARCH_SPACE)\r\n    members: wikipedia-HerzogSchonheimConjecture, wikipedia-HappyEndingProblem,\r\n             wikipedia-ErdosRadoSunflowerConjecture, wikipedia-BrocardProblem,\r\n             (and 1 more)\r\n\r\n  Unlike clusters #11 / #8 / #3 (Tier 3 claude-discoveries), this cluster\r\n  is weakly distinctive — NEITHER is the 2nd-mos"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 996 — Cluster #4 Wikipedia-scaffold Exploration (Rei-AIOS)\n  ================================================================\n\n  Exploratory Lean 4 skeleton for cluster #4 from the cross-tier D-F",
+    "scopeOfImpossibility": "STEP 996 — Cluster #4 Wikipedia-scaffold Exploration (Rei-AIOS)\r\n  ================================================================\r\n\r\n  Exploratory Lean 4 skeleton for cluster #4 from the cross-tier ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Step996Cluster4Wikipedia.lean",
     "lineCount": 114,
-    "fileSize": 4369,
+    "fileSize": 4482,
     "theoremCount": 1,
     "lemmaCount": 0,
     "defCount": 4,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Batch 789 Bundles — 定理 12 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Batches 7-10 — Analysis / Graph / Topology / remaining Algebra\n  ====================================================================\n\n  Registry-focused bundled file. Most of these conjectures are abstract\n  and do not admit small decidable instances, so the Lean content is\n  minimal and the primary deliverable is the PROBLEM_TYPINGS registry."
+    "headerDoc": "STEP Batches 7-10 — Analysis / Graph / Topology / remaining Algebra\r\n  ====================================================================\r\n\r\n  Registry-focused bundled file. Most of these conjectures are abstract\r\n  and do not admit small decidable instances, so the Lean content is\r\n  minimal and the primary deliverable is the PROBLEM_TYPINGS registry."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Batches 7-10 — Analysis / Graph / Topology / remaining Algebra\n  ====================================================================\n\n  Registry-focused bundled file. Most of these conjectures a",
+    "scopeOfImpossibility": "STEP Batches 7-10 — Analysis / Graph / Topology / remaining Algebra\r\n  ====================================================================\r\n\r\n  Registry-focused bundled file. Most of these conjecture",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Batch789Bundles.lean",
     "lineCount": 114,
-    "fileSize": 5416,
+    "fileSize": 5529,
     "theoremCount": 12,
     "lemmaCount": 0,
     "defCount": 0,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

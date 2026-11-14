@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Number Fields L — 定理 20 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 964 — Number Fields, L-functions and Automorphic Forms\n  藤本伸樹 2026-04-21\n\n  Five open problems connecting number theory, L-functions and automorphic forms:\n\n  A. LANGLANDS PROGRAM (overarching framework)\n     Automorphic representations of GL_n correspond to Galois representations.\n     STATUS: Known cases: GL_2 (Wiles, Taylor-Wiles), many rank 1 results.\n     Open: functoriality conjecture for general reductive groups.\n\n  B. RAMANUJAN CONJECTURE → THEOREM (Deligne 1974)\n     |τ(p)| ≤ 2p^{11/2} for the Ramanujan τ function.\n     More generally: Satake parameters of cuspidal automorphic fo"
+    "headerDoc": "STEP 964 — Number Fields, L-functions and Automorphic Forms\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems connecting number theory, L-functions and automorphic forms:\r\n\r\n  A. LANGLANDS PROGRAM (overarching framework)\r\n     Automorphic representations of GL_n correspond to Galois representations.\r\n     STATUS: Known cases: GL_2 (Wiles, Taylor-Wiles), many rank 1 results.\r\n     Open: functoriality conjecture for general reductive groups.\r\n\r\n  B. RAMANUJAN CONJECTURE → THEOREM (Deligne 1974)\r\n     |τ(p)| ≤ 2p^{11/2} for the Ramanujan τ function.\r\n     More generally: Satake parameters of cuspidal au"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 964 — Number Fields, L-functions and Automorphic Forms\n  藤本伸樹 2026-04-21\n\n  Five open problems connecting number theory, L-functions and automorphic forms:\n\n  A. LANGLANDS PROGRAM (overarching fr",
+    "scopeOfImpossibility": "STEP 964 — Number Fields, L-functions and Automorphic Forms\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems connecting number theory, L-functions and automorphic forms:\r\n\r\n  A. LANGLANDS PROGRAM (overarchi",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step964NumberFieldsL.lean",
     "lineCount": 233,
-    "fileSize": 10738,
+    "fileSize": 10970,
     "theoremCount": 20,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

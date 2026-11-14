@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Three Adic Isolation — 定理 3 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\n\n  Companion to:\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\n    - PeakMergeInvariant.lean (companion file in same module)\n    - PeakMergeWitness.lean (1,000 explicit peak-250,504 witnesses)\n\n  Main theorem: For any value v ≡ 0 (mod 3), the inverse Collatz tree branch\n  rooted at v consists exclusively of {v · 2^k : k ≥ 0}. There are no odd-step\n  entrances into this branch.\n\n  Consequence for σ-cascade Collatz observation (Paper 152):\n    - For ANY specific value v with 3 | v, v's inverse"
+    "headerDoc": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\r\n\r\n  Companion to:\r\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\r\n    - PeakMergeInvariant.lean (companion file in same module)\r\n    - PeakMergeWitness.lean (1,000 explicit peak-250,504 witnesses)\r\n\r\n  Main theorem: For any value v ≡ 0 (mod 3), the inverse Collatz tree branch\r\n  rooted at v consists exclusively of {v · 2^k : k ≥ 0}. There are no odd-step\r\n  entrances into this branch.\r\n\r\n  Consequence for σ-cascade Collatz observation (Paper 152):\r\n    - For ANY specific value v with 3 | v,"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-05-13"
     },
-    "scopeOfImpossibility": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\n\n  Companion to:\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\n    - PeakMergeInvariant.lean (co",
+    "scopeOfImpossibility": "STEP 1120 (2026-05-13): Three-adic isolation theorem for Collatz inverse tree.\r\n\r\n  Companion to:\r\n    - Paper 152 v0.2 candidate (class 21 forbidden finding, STEP 1117)\r\n    - PeakMergeInvariant.lean",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "ThreeAdicIsolation.lean",
     "lineCount": 85,
-    "fileSize": 3581,
+    "fileSize": 3665,
     "theoremCount": 3,
     "lemmaCount": 0,
     "defCount": 1,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

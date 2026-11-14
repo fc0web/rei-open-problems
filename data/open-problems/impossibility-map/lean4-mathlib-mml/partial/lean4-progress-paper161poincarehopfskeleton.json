@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 161 Poincare Hopf Skeleton — 定理 2 / sorry 2 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Paper161PoincareHopfSkeleton.lean\n  Higher-dimensional Poincaré–Hopf generalization — formalization SKELETON + roadmap.\n\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\n  The Lean 4 Mathlib4 (as of 2026-06-02) has algebraic topology infrastructure\n  (singular homology / Euler characteristic / vector fields are partial), but the\n  full Poincaré–Hopf theorem on smooth compact manifolds is NOT yet in Mathlib.\n\n  Paper 161 §5.2 states:\n    \"The Poincaré index theorem (used in §5.1) is a PLANAR (2-dimensional\n     phase-space) result. The purest physical anchor — the harmonic-"
+    "headerDoc": "Paper161PoincareHopfSkeleton.lean\r\n  Higher-dimensional Poincaré–Hopf generalization — formalization SKELETON + roadmap.\r\n\r\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\r\n  The Lean 4 Mathlib4 (as of 2026-06-02) has algebraic topology infrastructure\r\n  (singular homology / Euler characteristic / vector fields are partial), but the\r\n  full Poincaré–Hopf theorem on smooth compact manifolds is NOT yet in Mathlib.\r\n\r\n  Paper 161 §5.2 states:\r\n    \"The Poincaré index theorem (used in §5.1) is a PLANAR (2-dimensional\r\n     phase-space) result. The purest physical anchor — the"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "Paper161PoincareHopfSkeleton.lean\n  Higher-dimensional Poincaré–Hopf generalization — formalization SKELETON + roadmap.\n\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\n  The Lea",
+    "scopeOfImpossibility": "Paper161PoincareHopfSkeleton.lean\r\n  Higher-dimensional Poincaré–Hopf generalization — formalization SKELETON + roadmap.\r\n\r\n  Status: ★ HONEST OPEN-SCOPE SKELETON, not a complete formalization.\r\n  The",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 2 sorry; integrate to Mathlib",
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper161PoincareHopfSkeleton.lean",
     "lineCount": 169,
-    "fileSize": 7598,
+    "fileSize": 7766,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 5,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

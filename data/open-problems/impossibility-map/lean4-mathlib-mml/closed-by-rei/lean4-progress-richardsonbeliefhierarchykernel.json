@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Richardson Belief Hierarchy Kernel — 定理 2 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\n\n  ★ Origin: chat-Claude 2026-07-09 `RichardsonPeace.lean` draft §3\n    \"geometric_convergence + depth_log_bound\" を Rei env で API drift 修正 + build 実測。\n    元 draft は chat-Claude 自身 disclose per「機械検証未実施 (Mathlib ビルド不可)」、\n    Mathlib v4.27.0 で 5 error (line 54/61 nlinarith / 72 le_or_lt / 178\n    fixedPoint_isFixedPt 引数、 STEP 1259 と同 drift 系譜)。\n\n    §1 (紙面 Hurwitz stability) は Rei STEP 1261 と parallel form"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\r\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\r\n\r\n  ★ Origin: chat-Claude 2026-07-09 `RichardsonPeace.lean` draft §3\r\n    \"geometric_convergence + depth_log_bound\" を Rei env で API drift 修正 + build 実測。\r\n    元 draft は chat-Claude 自身 disclose per「機械検証未実施 (Mathlib ビルド不可)」、\r\n    Mathlib v4.27.0 で 5 error (line 54/61 nlinarith / 72 le_or_lt / 178\r\n    fixedPoint_isFixedPt 引数、 STEP 1259 と同 drift 系譜)。\r\n\r\n    §1 (紙面 Hurwitz stability) は Rei STEP 1261 と par"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-08"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\n\n  ★ O",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.RichardsonBeliefHierarchyKernel — chat-Claude 世界平和方程式 Layer E\r\n  abstract kernel (幾何収束 + 共有知識深度 = log 公式) の Lean 4 化 (STEP 1267)。\r\n\r\n ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "RichardsonBeliefHierarchyKernel.lean",
     "lineCount": 164,
-    "fileSize": 10623,
+    "fileSize": 10786,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 0,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

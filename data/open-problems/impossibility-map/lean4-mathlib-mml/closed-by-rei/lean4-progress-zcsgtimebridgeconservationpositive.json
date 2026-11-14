@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Zcsg Time Bridge Conservation Positive — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeConservationPositive — STEP 1304 (2026-07-18)\n\n  ★ 目的:\n    STEP 1302 (Noether 前提否定 airtight arc) の **positive 続編**。\n    連続対称性前提が満たされる場合の energy conservation を\n    axiom-free Lean 4 で閉じ、両面 (positive + negative) airtight\n    characterization を完成させる。\n\n  ★ 藤本さん質問 (2026-07-18):\n    「時間を操る / 無からエネルギー生成の Lean 化はできますか?」\n\n  ★ Rei honest scope:\n    SF 的 naming (「時間操作」「無からエネルギー生成」) はそのままでは\n    siren-family reject。 legitimate な formal alternative として\n    Noether energy conservation の positive derivation を axiom-free に\n    閉じる。 "
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgeConservationPositive — STEP 1304 (2026-07-18)\r\n\r\n  ★ 目的:\r\n    STEP 1302 (Noether 前提否定 airtight arc) の **positive 続編**。\r\n    連続対称性前提が満たされる場合の energy conservation を\r\n    axiom-free Lean 4 で閉じ、両面 (positive + negative) airtight\r\n    characterization を完成させる。\r\n\r\n  ★ 藤本さん質問 (2026-07-18):\r\n    「時間を操る / 無からエネルギー生成の Lean 化はできますか?」\r\n\r\n  ★ Rei honest scope:\r\n    SF 的 naming (「時間操作」「無からエネルギー生成」) はそのままでは\r\n    siren-family reject。 legitimate な formal alternative として\r\n    Noether energy conservation の positive derivation を axiom-f"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-18"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.ZcsgTimeBridgeConservationPositive — STEP 1304 (2026-07-18)\n\n  ★ 目的:\n    STEP 1302 (Noether 前提否定 airtight arc) の **positive 続編**。\n    連",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.ZcsgTimeBridgeConservationPositive — STEP 1304 (2026-07-18)\r\n\r\n  ★ 目的:\r\n    STEP 1302 (Noether 前提否定 airtight arc) の **positive 続編**。\r\n",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "ZcsgTimeBridgeConservationPositive.lean",
     "lineCount": 244,
-    "fileSize": 12630,
+    "fileSize": 12873,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 5,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

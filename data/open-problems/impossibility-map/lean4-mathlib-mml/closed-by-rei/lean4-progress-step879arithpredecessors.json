@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Arith Predecessors — 定理 22 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\n  ========================================================\n\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\n  with *arithmetic* predecessors — odd numbers m with step(m) = 2^k · 911.\n\n  Since step on odd m gives 3m + 1, we need 3m + 1 = 2^k · 911, i.e.,\n  m = (2^k · 911 − 1) / 3, which is an integer ⟺ 2^k · 911 ≡ 1 (mod 3).\n\n  Since 911 ≡ 2 (mod 3) and 2^k mod 3 = 1 if k even, 2 if k odd,\n  2^k · 911 mod 3 = 2 if k even, 1 if k odd.\n  So arithmetic predecessor exists exactly when **k is odd**.\n\n  This file:\n   "
+    "headerDoc": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\r\n  ========================================================\r\n\r\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\r\n  with *arithmetic* predecessors — odd numbers m with step(m) = 2^k · 911.\r\n\r\n  Since step on odd m gives 3m + 1, we need 3m + 1 = 2^k · 911, i.e.,\r\n  m = (2^k · 911 − 1) / 3, which is an integer ⟺ 2^k · 911 ≡ 1 (mod 3).\r\n\r\n  Since 911 ≡ 2 (mod 3) and 2^k mod 3 = 1 if k even, 2 if k odd,\r\n  2^k · 911 mod 3 = 2 if k even, 1 if k odd.\r\n  So arithmetic predecessor exists exactly when **k is odd**.\r\n\r\n  T"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\n  ========================================================\n\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\n  with *",
+    "scopeOfImpossibility": "STEP 879 — n=911 Arithmetic Predecessor Chains (Lean 4)\r\n  ========================================================\r\n\r\n  Extends STEP 878 `Step878N911Subclass.lean` (powers-of-two branch of 911)\r\n  wi",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step879ArithPredecessors.lean",
     "lineCount": 172,
-    "fileSize": 8496,
+    "fileSize": 8667,
     "theoremCount": 22,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

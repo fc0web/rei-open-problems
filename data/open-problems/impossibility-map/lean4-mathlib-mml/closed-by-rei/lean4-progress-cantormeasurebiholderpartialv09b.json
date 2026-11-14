@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cantor Measure Bi Holder Partial V 09b — 定理 18 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMeasureBiHolderPartialV09b — v0.9-b partial (2026-07-30)\n\n   ★★★ 目的: v0.9-b setup file (`CantorMeasureBiHolderSetup.lean`, 07-24) の\n   real theorem 0 個 stub 状態から、 **Bernoulli 非依存の首段 real theorems**\n   を追加する partial advance。 Full MetricSpace instance + ultrametric\n   triangle は v0.9-c+ 送り (依然 substantial)。\n\n   ★ 本 file の 実 real theorems (Bernoulli 完全不要):\n     - `firstDiffExists`: x ≠ y ⇒ ∃ n, x n ≠ y n\n     - `firstDiffIndex`: Nat.find による最小差 index\n     - `firstDiffIndex_symm`: 差 index は対称\n     - `firstDiffIndex_spec`: foun"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMeasureBiHolderPartialV09b — v0.9-b partial (2026-07-30)\r\n\r\n   ★★★ 目的: v0.9-b setup file (`CantorMeasureBiHolderSetup.lean`, 07-24) の\r\n   real theorem 0 個 stub 状態から、 **Bernoulli 非依存の首段 real theorems**\r\n   を追加する partial advance。 Full MetricSpace instance + ultrametric\r\n   triangle は v0.9-c+ 送り (依然 substantial)。\r\n\r\n   ★ 本 file の 実 real theorems (Bernoulli 完全不要):\r\n     - `firstDiffExists`: x ≠ y ⇒ ∃ n, x n ≠ y n\r\n     - `firstDiffIndex`: Nat.find による最小差 index\r\n     - `firstDiffIndex_symm`: 差 index は対称\r\n     - `firstDiffIndex"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -47,7 +47,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-29"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorMeasureBiHolderPartialV09b — v0.9-b partial (2026-07-30)\n\n   ★★★ 目的: v0.9-b setup file (`CantorMeasureBiHolderSetup.lean`, 07-24",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorMeasureBiHolderPartialV09b — v0.9-b partial (2026-07-30)\r\n\r\n   ★★★ 目的: v0.9-b setup file (`CantorMeasureBiHolderSetup.lean`, 07",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "CantorMeasureBiHolderPartialV09b.lean",
     "lineCount": 227,
-    "fileSize": 10128,
+    "fileSize": 10354,
     "theoremCount": 18,
     "lemmaCount": 0,
     "defCount": 2,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

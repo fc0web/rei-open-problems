@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Additive Combinatorics — 定理 16 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 966 — Additive Combinatorics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in additive combinatorics:\n\n  A. POLYNOMIAL HALES-JEWETT (Bergelson-Leibman 1996)\n     Density version of Hales-Jewett for polynomial configurations.\n     STATUS: PROVED. Extends Szemerédi's theorem to polynomial patterns.\n\n  B. CORNERS PROBLEM (Ajtai-Szemerédi 1974, PROVED)\n     Any dense subset of ℤ_N × ℤ_N contains a corner: {(x,y),(x+d,y),(x,y+d)}.\n     STATUS: PROVED. Quantitative bounds still active (Shkredov 2006).\n\n  C. BOGOLYUBOV-RUZSA LEMMA AND FREIMAN'S THEOREM\n     If A has small doubling |A+A| "
+    "headerDoc": "STEP 966 — Additive Combinatorics Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in additive combinatorics:\r\n\r\n  A. POLYNOMIAL HALES-JEWETT (Bergelson-Leibman 1996)\r\n     Density version of Hales-Jewett for polynomial configurations.\r\n     STATUS: PROVED. Extends Szemerédi's theorem to polynomial patterns.\r\n\r\n  B. CORNERS PROBLEM (Ajtai-Szemerédi 1974, PROVED)\r\n     Any dense subset of ℤ_N × ℤ_N contains a corner: {(x,y),(x+d,y),(x,y+d)}.\r\n     STATUS: PROVED. Quantitative bounds still active (Shkredov 2006).\r\n\r\n  C. BOGOLYUBOV-RUZSA LEMMA AND FREIMAN'S THEOREM\r\n     If A has small d"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 966 — Additive Combinatorics Open Problems\n  藤本伸樹 2026-04-21\n\n  Five open problems in additive combinatorics:\n\n  A. POLYNOMIAL HALES-JEWETT (Bergelson-Leibman 1996)\n     Density version of Hales-",
+    "scopeOfImpossibility": "STEP 966 — Additive Combinatorics Open Problems\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in additive combinatorics:\r\n\r\n  A. POLYNOMIAL HALES-JEWETT (Bergelson-Leibman 1996)\r\n     Density version of ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step966AdditiveCombinatorics.lean",
     "lineCount": 286,
-    "fileSize": 11874,
+    "fileSize": 12159,
     "theoremCount": 16,
     "lemmaCount": 0,
     "defCount": 13,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

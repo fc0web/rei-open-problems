@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Bridge Dfumt To Tri — 定理 11 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1248 — Bridge between chat-Claude's Tri (阿頼耶識/阿摩羅識/SELF⟲) and\n              D-FUMT₈: All not8-fixed points are SelfClosed (BasisSink type\n              structurally excluded by Belnap involution)\n              — Axiom-Free / [propext] only in Lean 4\n\n  Trigger: 2026-07-02 chat-Claude 6 turn arc + AmalaFixpoint.lean 完了後、\n  藤本さん 「(C) STEP 1246+1247 との bridge lemma」 判断。\n\n  Setting:\n    * chat-Claude AmalaFixpoint.lean (ReiAIOS.Madhyamaka namespace):\n      - Tri = {vessel, base, selfLoop}\n      - R : Tri → Tri (NOT involution: R vessel = base, R (R vessel) = base ≠ vessel)\n      - IsBasisSink"
+    "headerDoc": "STEP 1248 — Bridge between chat-Claude's Tri (阿頼耶識/阿摩羅識/SELF⟲) and\r\n              D-FUMT₈: All not8-fixed points are SelfClosed (BasisSink type\r\n              structurally excluded by Belnap involution)\r\n              — Axiom-Free / [propext] only in Lean 4\r\n\r\n  Trigger: 2026-07-02 chat-Claude 6 turn arc + AmalaFixpoint.lean 完了後、\r\n  藤本さん 「(C) STEP 1246+1247 との bridge lemma」 判断。\r\n\r\n  Setting:\r\n    * chat-Claude AmalaFixpoint.lean (ReiAIOS.Madhyamaka namespace):\r\n      - Tri = {vessel, base, selfLoop}\r\n      - R : Tri → Tri (NOT involution: R vessel = base, R (R vessel) = base ≠ vessel)\r\n      -"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-02"
     },
-    "scopeOfImpossibility": "STEP 1248 — Bridge between chat-Claude's Tri (阿頼耶識/阿摩羅識/SELF⟲) and\n              D-FUMT₈: All not8-fixed points are SelfClosed (BasisSink type\n              structurally excluded by Belnap involution)",
+    "scopeOfImpossibility": "STEP 1248 — Bridge between chat-Claude's Tri (阿頼耶識/阿摩羅識/SELF⟲) and\r\n              D-FUMT₈: All not8-fixed points are SelfClosed (BasisSink type\r\n              structurally excluded by Belnap involutio",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step1248BridgeDfumtToTri.lean",
     "lineCount": 243,
-    "fileSize": 11103,
+    "fileSize": 11345,
     "theoremCount": 11,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

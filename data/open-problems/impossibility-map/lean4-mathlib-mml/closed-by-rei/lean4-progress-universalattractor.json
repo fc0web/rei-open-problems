@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Universal Attractor — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Q33 — Universal Attractor Framework (partial formalization of\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\n  =====================================================================\n\n  Paper 120 Q33 (hypothesis, 2026-04-20):\n    \"Every iterated integer-valued map with bounded absolute value has\n    a finite universal attractor, and folklore-open conjectures like\n    Gilbreath's (1958) and Collatz's (1937) are both statements that\n    the boundary coordinate is the attractor's anchor.\"\n\n  This file provides a MINIMAL abstract framework:\n    - `applyStep : (List Na"
+    "headerDoc": "STEP Q33 — Universal Attractor Framework (partial formalization of\r\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\r\n  =====================================================================\r\n\r\n  Paper 120 Q33 (hypothesis, 2026-04-20):\r\n    \"Every iterated integer-valued map with bounded absolute value has\r\n    a finite universal attractor, and folklore-open conjectures like\r\n    Gilbreath's (1958) and Collatz's (1937) are both statements that\r\n    the boundary coordinate is the attractor's anchor.\"\r\n\r\n  This file provides a MINIMAL abstract framework:\r\n    - `applyStep"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP Q33 — Universal Attractor Framework (partial formalization of\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\n  =========================================================",
+    "scopeOfImpossibility": "STEP Q33 — Universal Attractor Framework (partial formalization of\r\n  the Gilbreath-Collatz Structural Isomorphism hypothesis from Paper 120)\r\n  =======================================================",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "UniversalAttractor.lean",
     "lineCount": 116,
-    "fileSize": 5978,
+    "fileSize": 6093,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 7,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

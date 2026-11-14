@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Cantor Hausdorff Dimension — 定理 44 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\n\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\n     v0.7 の strong upper bound を基盤に、 full equality への lower bound path\n     を **reduction phase** として整備。 full lower bound 実装は Mathlib の\n     Frostman lemma / Cantor measure infrastructure 未収録で substantial (v0.9+\n     複数 session)、 v0.8 では 「positivity implies equality」 reduction を\n     axiom-free real theorem 化して 未来 STEP の target 明確化。\n\n     v0.8 新規 real theorems (Section 11, ★ 全 axiom-free with Mathlib 標準\n     [p"
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\r\n\r\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\r\n     v0.7 の strong upper bound を基盤に、 full equality への lower bound path\r\n     を **reduction phase** として整備。 full lower bound 実装は Mathlib の\r\n     Frostman lemma / Cantor measure infrastructure 未収録で substantial (v0.9+\r\n     複数 session)、 v0.8 では 「positivity implies equality」 reduction を\r\n     axiom-free real theorem 化して 未来 STEP の target 明確化。\r\n\r\n     v0.8 新規 real theorems (Section 11, ★ 全 axiom-free with Mathlib "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -54,7 +54,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-23"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\n\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\n     v0.7 の st",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n   CollatzRei.CantorHausdorffDimension — Path B v0.8 (2026-07-24)\r\n\r\n   ★★★ v0.7 → v0.8 差分 (2026-07-24, ★ lower bound reduction phase):\r\n     v0.7 ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -66,7 +66,7 @@
   "leanProgressMeta": {
     "fileName": "CantorHausdorffDimension.lean",
     "lineCount": 1037,
-    "fileSize": 57508,
+    "fileSize": 58544,
     "theoremCount": 44,
     "lemmaCount": 0,
     "defCount": 4,
@@ -97,6 +97,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

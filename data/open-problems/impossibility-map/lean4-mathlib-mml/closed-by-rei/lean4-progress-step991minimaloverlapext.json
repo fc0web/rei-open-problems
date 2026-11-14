@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Minimal Overlap Ext — 定理 4 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\n  =======================================================\n\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\n  Attempts extension to M(6), M(7), M(8) via same computable M function\n  and native_decide on larger partition enumeration.\n\n  Known values (OEIS-referenced, to be verified by native_decide):\n    M(6) = ?\n    M(7) = ?\n    M(8) = ?\n\n  Partition counts:\n    C(12, 6) = 924\n    C(14, 7) = 3,432\n    C(16, 8) = 12,870\n    C(18, 9) = 48,620\n    C(20, 10) = 184,756\n\n  All counts are small; dominant cost is per-partition MaxOverlap computation"
+    "headerDoc": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\r\n  =======================================================\r\n\r\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\r\n  Attempts extension to M(6), M(7), M(8) via same computable M function\r\n  and native_decide on larger partition enumeration.\r\n\r\n  Known values (OEIS-referenced, to be verified by native_decide):\r\n    M(6) = ?\r\n    M(7) = ?\r\n    M(8) = ?\r\n\r\n  Partition counts:\r\n    C(12, 6) = 924\r\n    C(14, 7) = 3,432\r\n    C(16, 8) = 12,870\r\n    C(18, 9) = 48,620\r\n    C(20, 10) = 184,756\r\n\r\n  All counts are small; dominant cost is per-partition Max"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-23"
     },
-    "scopeOfImpossibility": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\n  =======================================================\n\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\n  Attempts extension to M(6), M(7), M(8",
+    "scopeOfImpossibility": "STEP 991 — Minimal Overlap M(6), M(7), M(8) extension\r\n  =======================================================\r\n\r\n  Follow-up to STEP 989 (M(1) = 1 .. M(5) = 3).\r\n  Attempts extension to M(6), M(7),",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Step991MinimalOverlapExt.lean",
     "lineCount": 91,
-    "fileSize": 2626,
+    "fileSize": 2716,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 3,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

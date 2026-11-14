@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Hodge Basics — 定理 2 / sorry 0 / axiom 7",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 885 — Hodge Conjecture: Partial Lean 4 Formal Skeleton\n  ============================================================\n\n  Hodge conjecture (Clay Millennium Problem): on a projective complex\n  smooth algebraic variety X, every rational Hodge class in\n  H^{2k}(X, ℚ) is a rational combination of classes of algebraic cycles.\n\n  Status:\n    - OPEN in full generality.\n    - Proved for k = 1 (Lefschetz's theorem on (1,1)-classes, 1924).\n    - Proved for k = dim X − 1 (dual via Poincaré duality).\n    - Proved for abelian varieties when simple (by Deligne, et al).\n    - Open for most of middle dime"
+    "headerDoc": "STEP 885 — Hodge Conjecture: Partial Lean 4 Formal Skeleton\r\n  ============================================================\r\n\r\n  Hodge conjecture (Clay Millennium Problem): on a projective complex\r\n  smooth algebraic variety X, every rational Hodge class in\r\n  H^{2k}(X, ℚ) is a rational combination of classes of algebraic cycles.\r\n\r\n  Status:\r\n    - OPEN in full generality.\r\n    - Proved for k = 1 (Lefschetz's theorem on (1,1)-classes, 1924).\r\n    - Proved for k = dim X − 1 (dual via Poincaré duality).\r\n    - Proved for abelian varieties when simple (by Deligne, et al).\r\n    - Open for most of"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -48,7 +48,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "STEP 885 — Hodge Conjecture: Partial Lean 4 Formal Skeleton\n  ============================================================\n\n  Hodge conjecture (Clay Millennium Problem): on a projective complex\n  smoo",
+    "scopeOfImpossibility": "STEP 885 — Hodge Conjecture: Partial Lean 4 Formal Skeleton\r\n  ============================================================\r\n\r\n  Hodge conjecture (Clay Millennium Problem): on a projective complex\r\n  ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "HodgeBasics.lean",
     "lineCount": 201,
-    "fileSize": 10068,
+    "fileSize": 10268,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 2,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

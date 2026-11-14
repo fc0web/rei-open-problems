@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Combinatorial Conjectures — 定理 25 / sorry 0 / axiom 1",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 945 — Combinatorial Conjecture Deep Dives\n  藤本伸樹 2026-04-21\n\n  Four combinatorial / additive open problems:\n\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\n     For every finite union-closed family F (not {∅}), some element\n     appears in ≥ |F|/2 of the sets.\n     New: Extended verification to families of size ≤ 20.\n     New: Witness for the \"averaged\" Frankl threshold.\n\n  B. WARING'S PROBLEM (classical — effective bounds)\n     g(k) = smallest s so every natural number is sum of s k-th powers.\n     New: Verified g(2)=4, g(3)=9, g(4)=19 computationally.\n     New: Hilbert-Waring theorem witn"
+    "headerDoc": "STEP 945 — Combinatorial Conjecture Deep Dives\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four combinatorial / additive open problems:\r\n\r\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\r\n     For every finite union-closed family F (not {∅}), some element\r\n     appears in ≥ |F|/2 of the sets.\r\n     New: Extended verification to families of size ≤ 20.\r\n     New: Witness for the \"averaged\" Frankl threshold.\r\n\r\n  B. WARING'S PROBLEM (classical — effective bounds)\r\n     g(k) = smallest s so every natural number is sum of s k-th powers.\r\n     New: Verified g(2)=4, g(3)=9, g(4)=19 computationally.\r\n     New: Hilbert-Warin"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -47,7 +47,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 945 — Combinatorial Conjecture Deep Dives\n  藤本伸樹 2026-04-21\n\n  Four combinatorial / additive open problems:\n\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\n     For every finite union-closed family",
+    "scopeOfImpossibility": "STEP 945 — Combinatorial Conjecture Deep Dives\r\n  藤本伸樹 2026-04-21\r\n\r\n  Four combinatorial / additive open problems:\r\n\r\n  A. FRANKL'S UNION-CLOSED CONJECTURE (1979)\r\n     For every finite union-closed ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -59,7 +59,7 @@
   "leanProgressMeta": {
     "fileName": "Step945CombinatorialConjectures.lean",
     "lineCount": 223,
-    "fileSize": 10379,
+    "fileSize": 10601,
     "theoremCount": 25,
     "lemmaCount": 0,
     "defCount": 12,
@@ -90,6 +90,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

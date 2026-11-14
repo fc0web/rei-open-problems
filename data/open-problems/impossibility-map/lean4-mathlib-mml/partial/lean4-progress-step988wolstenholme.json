@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Wolstenholme — 定理 9 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\n  ==========================================================================\n\n  Sources:\n    - Wolstenholme (1862): C(2p-1, p-1) ≡ 1 (mod p³) for all primes p ≥ 5\n    - Linhares (arXiv:2604.16507, 2026-04-14): first Lean 4 formalization\n    - Known Wolstenholme primes (mod p^4): 16843 and 2124679 only\n\n  Definitions:\n    IsWolstenholmeTheoremInstance p ↔ p > 3 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p³)\n    IsWolstenholmePrime p         ↔ p > 7 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p⁴)\n\n  This STEP contributes:\n    1. Small-p ver"
+    "headerDoc": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\r\n  ==========================================================================\r\n\r\n  Sources:\r\n    - Wolstenholme (1862): C(2p-1, p-1) ≡ 1 (mod p³) for all primes p ≥ 5\r\n    - Linhares (arXiv:2604.16507, 2026-04-14): first Lean 4 formalization\r\n    - Known Wolstenholme primes (mod p^4): 16843 and 2124679 only\r\n\r\n  Definitions:\r\n    IsWolstenholmeTheoremInstance p ↔ p > 3 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p³)\r\n    IsWolstenholmePrime p         ↔ p > 7 ∧ p.Prime ∧ C(2p-1, p-1) ≡ 1 (mod p⁴)\r\n\r\n  This STEP contributes:\r\n    1"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -48,7 +48,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\n  ==========================================================================\n\n  Sources:\n    - Wolstenholme (1862): C(2p-1, p",
+    "scopeOfImpossibility": "STEP 988 — Wolstenholme Theorem + Wolstenholme Primes (small verification)\r\n  ==========================================================================\r\n\r\n  Sources:\r\n    - Wolstenholme (1862): C(2p-",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "Step988Wolstenholme.lean",
     "lineCount": 149,
-    "fileSize": 6501,
+    "fileSize": 6649,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 4,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

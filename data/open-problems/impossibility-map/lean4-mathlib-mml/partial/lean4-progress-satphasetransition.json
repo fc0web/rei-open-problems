@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Sat Phase Transition — 定理 10 / sorry 0 / axiom 7",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\n  ================================================================\n\n  Classical result: for random 3-SAT with n variables and m = αn clauses,\n  as n → ∞, the probability of satisfiability transitions sharply around\n  a critical ratio α_c(3) ≈ 4.267.\n\n  References:\n    - Mitchell, Selman, Levesque (1992). AAAI 92, 459-465.\n    - Monasson, Zecchina et al. (1999). Nature 400, 133-137.\n    - Mertens, Mézard, Zecchina (2006). Random Struct. Alg. 28, 340-373\n      (numerical value α_c = 4.2667...).\n    - Ding, Sly, Sun (2014). Commutativ"
+    "headerDoc": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\r\n  ================================================================\r\n\r\n  Classical result: for random 3-SAT with n variables and m = αn clauses,\r\n  as n → ∞, the probability of satisfiability transitions sharply around\r\n  a critical ratio α_c(3) ≈ 4.267.\r\n\r\n  References:\r\n    - Mitchell, Selman, Levesque (1992). AAAI 92, 459-465.\r\n    - Monasson, Zecchina et al. (1999). Nature 400, 133-137.\r\n    - Mertens, Mézard, Zecchina (2006). Random Struct. Alg. 28, 340-373\r\n      (numerical value α_c = 4.2667...).\r\n    - Ding, Sly, Sun (2014)"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-18"
     },
-    "scopeOfImpossibility": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\n  ================================================================\n\n  Classical result: for random 3-SAT with n variables and m = αn clau",
+    "scopeOfImpossibility": "Random 3-SAT Phase Transition — Lean 4 Axiomatic Formalization\r\n  ================================================================\r\n\r\n  Classical result: for random 3-SAT with n variables and m = αn c",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "SatPhaseTransition.lean",
     "lineCount": 241,
-    "fileSize": 11886,
+    "fileSize": 12126,
     "theoremCount": 10,
     "lemmaCount": 0,
     "defCount": 7,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

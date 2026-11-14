@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Auto Demo — 定理 9 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and the `auto` tactic from\n  leanprover-community/lean-auto v4.27.0-hammer (FOL bridge).\n\n  This is the Stage 2 RECOVERY path after LeanCopilot failed on Windows\n  due to MSYS2 ct2 dependency. Both Duper and lean-auto have NO native\n  C++ binding requirement.\n\n  Configuration:\n    - Duper: pure-Lean, ready to use immediately\n    - lean-auto + Duper backend: uses Duper as the Native.solverFunc\n\n  All t"
+    "headerDoc": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\r\n  (pure-Lean superposition-based ATP) and the `auto` tactic from\r\n  leanprover-community/lean-auto v4.27.0-hammer (FOL bridge).\r\n\r\n  This is the Stage 2 RECOVERY path after LeanCopilot failed on Windows\r\n  due to MSYS2 ct2 dependency. Both Duper and lean-auto have NO native\r\n  C++ binding requirement.\r\n\r\n  Configuration:\r\n    - Duper: pure-Lean, ready to use immediately\r\n    - lean-auto + Duper backend: uses Duper as the Native.solver"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\n  (pure-Lean superposition-based ATP) and ",
+    "scopeOfImpossibility": "STEP 1009 — lean-auto + Duper Hammer 統合 demo\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates the `duper` tactic from leanprover-community/duper v4.27.0\r\n  (pure-Lean superposition-based ATP) ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "AutoDemo.lean",
     "lineCount": 90,
-    "fileSize": 4853,
+    "fileSize": 4942,
     "theoremCount": 9,
     "lemmaCount": 0,
     "defCount": 0,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Dormant Problems — 定理 13 / sorry 0 / axiom 3",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 888 — Dormant Unsolved Problems: Rei Territory\n  ====================================================\n\n  Three classical unsolved problems with **no recent arXiv title hits**\n  (breadth-first sweep 2026-04-19 Pattern A):\n\n    (1) Oppermann's Conjecture (1882, Danish mathematician):\n        For every n ≥ 2, the intervals [n²−n+1, n²] and [n², n²+n]\n        each contain at least one prime.\n        Equivalently: π(n²+n) − π(n²) ≥ 1 AND π(n²) − π(n²−n) ≥ 1.\n        140+ years old, modern research ≈ 0.\n\n    (2) Köthe's Conjecture (1930):\n        Every one-sided nil ideal of a ring is contained"
+    "headerDoc": "STEP 888 — Dormant Unsolved Problems: Rei Territory\r\n  ====================================================\r\n\r\n  Three classical unsolved problems with **no recent arXiv title hits**\r\n  (breadth-first sweep 2026-04-19 Pattern A):\r\n\r\n    (1) Oppermann's Conjecture (1882, Danish mathematician):\r\n        For every n ≥ 2, the intervals [n²−n+1, n²] and [n², n²+n]\r\n        each contain at least one prime.\r\n        Equivalently: π(n²+n) − π(n²) ≥ 1 AND π(n²) − π(n²−n) ≥ 1.\r\n        140+ years old, modern research ≈ 0.\r\n\r\n    (2) Köthe's Conjecture (1930):\r\n        Every one-sided nil ideal of a ring"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 888 — Dormant Unsolved Problems: Rei Territory\n  ====================================================\n\n  Three classical unsolved problems with **no recent arXiv title hits**\n  (breadth-first swe",
+    "scopeOfImpossibility": "STEP 888 — Dormant Unsolved Problems: Rei Territory\r\n  ====================================================\r\n\r\n  Three classical unsolved problems with **no recent arXiv title hits**\r\n  (breadth-first",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "DormantProblems.lean",
     "lineCount": 164,
-    "fileSize": 7560,
+    "fileSize": 7723,
     "theoremCount": 13,
     "lemmaCount": 0,
     "defCount": 4,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

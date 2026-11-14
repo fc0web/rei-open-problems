@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Measure Theory — 定理 14 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1008 — MeasureTheory / Layer 4 統計推論基礎\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 measure-theoretic / probabilistic primitives\n  in the Rei-AIOS project. Foundation for Layer 4 (経験社会科学) of the\n  formalization stack (paper144).\n\n  Topics:\n    §1. Discrete probability over Fin n (finite enumeration)\n    §2. Concrete examples: coin flips, dice\n    §3. Independence (definition)\n    §4. Counting probability examples (sums, intersections)\n\n  Approach: We use `Finset.card` over `Finset.univ` and `decide` /\n  `native_decide` for concrete cases. Abstract Markov / Chebyshev\n"
+    "headerDoc": "STEP 1008 — MeasureTheory / Layer 4 統計推論基礎\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 measure-theoretic / probabilistic primitives\r\n  in the Rei-AIOS project. Foundation for Layer 4 (経験社会科学) of the\r\n  formalization stack (paper144).\r\n\r\n  Topics:\r\n    §1. Discrete probability over Fin n (finite enumeration)\r\n    §2. Concrete examples: coin flips, dice\r\n    §3. Independence (definition)\r\n    §4. Counting probability examples (sums, intersections)\r\n\r\n  Approach: We use `Finset.card` over `Finset.univ` and `decide` /\r\n  `native_decide` for concrete cases. Abstract Marko"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1008 — MeasureTheory / Layer 4 統計推論基礎\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\n\n  Demonstrates Mathlib v4.27 measure-theoretic / probabilistic primitives\n  in the Rei-AIOS project. Foundation for La",
+    "scopeOfImpossibility": "STEP 1008 — MeasureTheory / Layer 4 統計推論基礎\r\n  藤本伸樹 + Claude Opus 4.7 — 2026-04-28\r\n\r\n  Demonstrates Mathlib v4.27 measure-theoretic / probabilistic primitives\r\n  in the Rei-AIOS project. Foundation fo",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "MeasureTheory.lean",
     "lineCount": 150,
-    "fileSize": 6979,
+    "fileSize": 7128,
     "theoremCount": 14,
     "lemmaCount": 0,
     "defCount": 2,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

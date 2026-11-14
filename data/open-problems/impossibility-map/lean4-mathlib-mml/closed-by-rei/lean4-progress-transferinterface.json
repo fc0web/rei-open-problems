@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Transfer Interface — 定理 8 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.TransferInterface — 「独立に定理を証明できる別世界への写像」\n  Lean 4 型クラス化 + 整礎エンジン 第 1 instance + Collatz negative lemma。\n\n  ★ Origin: chat-Claude 2026-07-07 thread 提案 → 2026-07-08 藤本さん経由で\n  実 code 受領 → Rei env (Lean 4.27.0 + Mathlib v4.27.0) で build 実測 verify。\n  chat-Claude 元版 lean-toolchain: v4.15.0 / Rei env: v4.27.0 (12 minor version 差)。\n\n  構成:\n    1. Transfer            … 転送インターフェース (型クラス)\n    2. WFEngine            … エンジン #1: 整礎 (ℕ) engine\n       - reaches_base      … 独立エンジン本体 (ℕ 上有界 induction)\n       - wfTransfer        … Transfer instance "
+    "headerDoc": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.TransferInterface — 「独立に定理を証明できる別世界への写像」\r\n  Lean 4 型クラス化 + 整礎エンジン 第 1 instance + Collatz negative lemma。\r\n\r\n  ★ Origin: chat-Claude 2026-07-07 thread 提案 → 2026-07-08 藤本さん経由で\r\n  実 code 受領 → Rei env (Lean 4.27.0 + Mathlib v4.27.0) で build 実測 verify。\r\n  chat-Claude 元版 lean-toolchain: v4.15.0 / Rei env: v4.27.0 (12 minor version 差)。\r\n\r\n  構成:\r\n    1. Transfer            … 転送インターフェース (型クラス)\r\n    2. WFEngine            … エンジン #1: 整礎 (ℕ) engine\r\n       - reaches_base      … 独立エンジン本体 (ℕ 上有界 induction)\r\n       - wfTransfer        … Transf"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-07-08"
     },
-    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\n  CollatzRei.TransferInterface — 「独立に定理を証明できる別世界への写像」\n  Lean 4 型クラス化 + 整礎エンジン 第 1 instance + Collatz negative lemma。\n\n  ★ Origin: chat-Claude 2026-0",
+    "scopeOfImpossibility": "★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★\r\n  CollatzRei.TransferInterface — 「独立に定理を証明できる別世界への写像」\r\n  Lean 4 型クラス化 + 整礎エンジン 第 1 instance + Collatz negative lemma。\r\n\r\n  ★ Origin: chat-Claude 20",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "TransferInterface.lean",
     "lineCount": 204,
-    "fileSize": 11011,
+    "fileSize": 11214,
     "theoremCount": 8,
     "lemmaCount": 0,
     "defCount": 4,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Number Theory Dive — 定理 45 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 943 — Number Theory Deep Dive: Lychrel + Hall + 3-Cubes\n  藤本伸樹 2026-04-21\n\n  Three open problems with new Rei-lens findings:\n\n  A. LYCHREL NUMBERS (196 problem)\n     ★ New finding: 10 of 12 non-196 candidates in [1,1000] merge\n       into 196's orbit within exactly 1 step.\n       Remaining 2 (879, 978) are \"sub-thread\" — deeper investigation below.\n     ★ Formal: 196-thread as universal-attractor instance (Q33 connection)\n\n  B. HALL CONJECTURE (|x² − y³| > C·x^{1/2-ε})\n     Extended to x ≤ 10^6 class; ABC connection formalized.\n     New: infinitely many triples with gap = 1 (Catalan-adjac"
+    "headerDoc": "STEP 943 — Number Theory Deep Dive: Lychrel + Hall + 3-Cubes\r\n  藤本伸樹 2026-04-21\r\n\r\n  Three open problems with new Rei-lens findings:\r\n\r\n  A. LYCHREL NUMBERS (196 problem)\r\n     ★ New finding: 10 of 12 non-196 candidates in [1,1000] merge\r\n       into 196's orbit within exactly 1 step.\r\n       Remaining 2 (879, 978) are \"sub-thread\" — deeper investigation below.\r\n     ★ Formal: 196-thread as universal-attractor instance (Q33 connection)\r\n\r\n  B. HALL CONJECTURE (|x² − y³| > C·x^{1/2-ε})\r\n     Extended to x ≤ 10^6 class; ABC connection formalized.\r\n     New: infinitely many triples with gap = 1 ("
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 943 — Number Theory Deep Dive: Lychrel + Hall + 3-Cubes\n  藤本伸樹 2026-04-21\n\n  Three open problems with new Rei-lens findings:\n\n  A. LYCHREL NUMBERS (196 problem)\n     ★ New finding: 10 of 12 non-1",
+    "scopeOfImpossibility": "STEP 943 — Number Theory Deep Dive: Lychrel + Hall + 3-Cubes\r\n  藤本伸樹 2026-04-21\r\n\r\n  Three open problems with new Rei-lens findings:\r\n\r\n  A. LYCHREL NUMBERS (196 problem)\r\n     ★ New finding: 10 of 12",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step943NumberTheoryDive.lean",
     "lineCount": 301,
-    "fileSize": 14407,
+    "fileSize": 14707,
     "theoremCount": 45,
     "lemmaCount": 0,
     "defCount": 8,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

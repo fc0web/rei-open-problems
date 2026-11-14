@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Combinatorics Design — 定理 23 / sorry 0 / axiom 2",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 963 — Combinatorics: Design Theory and Extremal Set Theory\n  藤本伸樹 2026-04-21\n\n  Five open problems in combinatorial design theory and extremal set theory:\n\n  A. EXISTENCE OF PROJECTIVE PLANES\n     For which orders q does a projective plane of order q exist?\n     Known: q = prime power. Known non-existence: q = 6 (Tarry 1900), q = 10 (Lam 1989).\n     STATUS: The prime power conjecture is OPEN.\n\n  B. HADAMARD CONJECTURE\n     A Hadamard matrix of order 4k exists for every positive integer k.\n     STATUS: OPEN. Known for all k ≤ 664 (exhaustive construction).\n\n  C. STEINER TRIPLE SYSTEMS\n    "
+    "headerDoc": "STEP 963 — Combinatorics: Design Theory and Extremal Set Theory\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in combinatorial design theory and extremal set theory:\r\n\r\n  A. EXISTENCE OF PROJECTIVE PLANES\r\n     For which orders q does a projective plane of order q exist?\r\n     Known: q = prime power. Known non-existence: q = 6 (Tarry 1900), q = 10 (Lam 1989).\r\n     STATUS: The prime power conjecture is OPEN.\r\n\r\n  B. HADAMARD CONJECTURE\r\n     A Hadamard matrix of order 4k exists for every positive integer k.\r\n     STATUS: OPEN. Known for all k ≤ 664 (exhaustive construction).\r\n\r\n  C. STEINER TRIPL"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 963 — Combinatorics: Design Theory and Extremal Set Theory\n  藤本伸樹 2026-04-21\n\n  Five open problems in combinatorial design theory and extremal set theory:\n\n  A. EXISTENCE OF PROJECTIVE PLANES\n   ",
+    "scopeOfImpossibility": "STEP 963 — Combinatorics: Design Theory and Extremal Set Theory\r\n  藤本伸樹 2026-04-21\r\n\r\n  Five open problems in combinatorial design theory and extremal set theory:\r\n\r\n  A. EXISTENCE OF PROJECTIVE PLANE",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "Step963CombinatoricsDesign.lean",
     "lineCount": 258,
-    "fileSize": 11423,
+    "fileSize": 11680,
     "theoremCount": 23,
     "lemmaCount": 0,
     "defCount": 8,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

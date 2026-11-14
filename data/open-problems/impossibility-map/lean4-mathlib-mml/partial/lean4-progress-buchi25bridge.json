@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Buchi 25 Bridge — 定理 15 / sorry 3 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\n\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean 4.\n\nPhase 3 of project_collatz_oss_toolkit_survey_2026-05-12.md plan.\n\n## honest scope (永続記録)\n\n- **minimal sketch only** — full formal proof は別 turn (Mathlib contribution standard cycle 数週間-数ヶ月)\n- key lemmas は `sorry` で stub (intent + signature 確立)\n- 真の Mathlib `NumberTheory.Collatz` module への contribution は本 sketch の formal proof 完了後\n\n## Rei 既達 cross-reference\n\n- `src/axiom-os/buchi25-q33-bridge.ts"
+    "headerDoc": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\r\n\r\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean 4.\r\n\r\nPhase 3 of project_collatz_oss_toolkit_survey_2026-05-12.md plan.\r\n\r\n## honest scope (永続記録)\r\n\r\n- **minimal sketch only** — full formal proof は別 turn (Mathlib contribution standard cycle 数週間-数ヶ月)\r\n- key lemmas は `sorry` で stub (intent + signature 確立)\r\n- 真の Mathlib `NumberTheory.Collatz` module への contribution は本 sketch の formal proof 完了後\r\n\r\n## Rei 既達 cross-reference\r\n\r\n- `src/axiom-os/buchi25"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -48,7 +48,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\n\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean 4.",
+    "scopeOfImpossibility": "# CollatzRei.Buchi25Bridge — Büchi-25 × Q33 Bridge Lean 4 minimal sketch (STEP 1085 Phase 3, 2026-05-12)\r\n\r\nPort of `src/axiom-os/buchi25-q33-bridge.ts` (Rei STEP 930b, Paper 118 + Paper 120) to Lean ",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 3 sorry; integrate to Mathlib",
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "Buchi25Bridge.lean",
     "lineCount": 217,
-    "fileSize": 9267,
+    "fileSize": 9483,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 8,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

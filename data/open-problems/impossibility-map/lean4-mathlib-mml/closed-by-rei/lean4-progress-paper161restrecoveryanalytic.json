@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Paper 161 Rest Recovery Analytic — 定理 6 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "RestRecoveryAnalytic.lean\n  解析層:付録 C.6 で要補完とした「return map の |P'|<1」と「σ の実数下限」を\n  Mathlib に接続する。\n    ① 縮小写像(ContractingWith, K<1 = |P'|<1 の大域版)⟹ 一意な吸引的不動点(SELF⟲)。\n    ② Genesis Seed 量 σ を種ノルムの実数下限 (sInf) として定義し、σ≥0、\n       0 が許容なら σ=0(自己充足の片側)を示す。\n\n  注意:本ファイルは Mathlib を import する。呼び出している補題は\n    ContractingWith.fixedPoint / .fixedPoint_isFixedPt / .fixedPoint_unique\n    / .tendsto_iterate_fixedPoint, Real.sInf_nonneg, csInf_le\n  であり、版による名称・シグネチャの差は `lake build` で確認のこと(本環境では未検証)。"
+    "headerDoc": "RestRecoveryAnalytic.lean\r\n  解析層:付録 C.6 で要補完とした「return map の |P'|<1」と「σ の実数下限」を\r\n  Mathlib に接続する。\r\n    ① 縮小写像(ContractingWith, K<1 = |P'|<1 の大域版)⟹ 一意な吸引的不動点(SELF⟲)。\r\n    ② Genesis Seed 量 σ を種ノルムの実数下限 (sInf) として定義し、σ≥0、\r\n       0 が許容なら σ=0(自己充足の片側)を示す。\r\n\r\n  注意:本ファイルは Mathlib を import する。呼び出している補題は\r\n    ContractingWith.fixedPoint / .fixedPoint_isFixedPt / .fixedPoint_unique\r\n    / .tendsto_iterate_fixedPoint, Real.sInf_nonneg, csInf_le\r\n  であり、版による名称・シグネチャの差は `lake build` で確認のこと(本環境では未検証)。"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-06-01"
     },
-    "scopeOfImpossibility": "RestRecoveryAnalytic.lean\n  解析層:付録 C.6 で要補完とした「return map の |P'|<1」と「σ の実数下限」を\n  Mathlib に接続する。\n    ① 縮小写像(ContractingWith, K<1 = |P'|<1 の大域版)⟹ 一意な吸引的不動点(SELF⟲)。\n    ② Genesis Seed 量 σ を種ノルムの実数下限 (sIn",
+    "scopeOfImpossibility": "RestRecoveryAnalytic.lean\r\n  解析層:付録 C.6 で要補完とした「return map の |P'|<1」と「σ の実数下限」を\r\n  Mathlib に接続する。\r\n    ① 縮小写像(ContractingWith, K<1 = |P'|<1 の大域版)⟹ 一意な吸引的不動点(SELF⟲)。\r\n    ② Genesis Seed 量 σ を種ノルムの実数下限 ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Paper161RestRecoveryAnalytic.lean",
     "lineCount": 99,
-    "fileSize": 4337,
+    "fileSize": 4435,
     "theoremCount": 6,
     "lemmaCount": 0,
     "defCount": 2,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

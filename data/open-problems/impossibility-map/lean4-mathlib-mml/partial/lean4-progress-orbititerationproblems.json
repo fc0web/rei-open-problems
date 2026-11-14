@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Orbit Iteration Problems — 定理 15 / sorry 0 / axiom 4",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 902 + 913 + 903 + 921 — Orbit / Iteration Problems\n  ========================================================\n\n  Four iteration-style number-theoretic conjectures:\n    (a) Gilbreath's conjecture: iterated absolute prime gaps start with 1\n    (b) Happy primes:           prime and happy (digit-square iteration → 1)\n    (c) Prime triplets:         ∃∞ (p, p+2, p+6) or (p, p+4, p+6)\n    (d) Ruth-Aaron pairs:       n, n+1 have equal sum of distinct prime factors"
+    "headerDoc": "STEP 902 + 913 + 903 + 921 — Orbit / Iteration Problems\r\n  ========================================================\r\n\r\n  Four iteration-style number-theoretic conjectures:\r\n    (a) Gilbreath's conjecture: iterated absolute prime gaps start with 1\r\n    (b) Happy primes:           prime and happy (digit-square iteration → 1)\r\n    (c) Prime triplets:         ∃∞ (p, p+2, p+6) or (p, p+4, p+6)\r\n    (d) Ruth-Aaron pairs:       n, n+1 have equal sum of distinct prime factors"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -46,7 +46,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 902 + 913 + 903 + 921 — Orbit / Iteration Problems\n  ========================================================\n\n  Four iteration-style number-theoretic conjectures:\n    (a) Gilbreath's conjecture:",
+    "scopeOfImpossibility": "STEP 902 + 913 + 903 + 921 — Orbit / Iteration Problems\r\n  ========================================================\r\n\r\n  Four iteration-style number-theoretic conjectures:\r\n    (a) Gilbreath's conject",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -58,7 +58,7 @@
   "leanProgressMeta": {
     "fileName": "OrbitIterationProblems.lean",
     "lineCount": 138,
-    "fileSize": 5463,
+    "fileSize": 5600,
     "theoremCount": 15,
     "lemmaCount": 0,
     "defCount": 9,
@@ -89,6 +89,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

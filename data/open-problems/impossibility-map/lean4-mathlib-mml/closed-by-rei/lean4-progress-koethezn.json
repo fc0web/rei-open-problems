@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Koethe Zn — 定理 26 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\n  ==========================================================\n\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\n\n  ★ Key mathematical fact ★:\n  For **commutative rings**, Köthe's conjecture is trivially TRUE:\n  every (one-sided) ideal is automatically two-sided, and the nilradical\n  is the unique maximal nil ideal containing every nil ideal.\n\n  This file:\n    (a) proves Köthe for `CommRing` using Mathlib's `Ideal` API\n    (b) computes explicit nilpotent / non-nilpotent elements of Z/nZ\n    (c) characterizes Z/nZ n"
+    "headerDoc": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\r\n  ==========================================================\r\n\r\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\r\n\r\n  ★ Key mathematical fact ★:\r\n  For **commutative rings**, Köthe's conjecture is trivially TRUE:\r\n  every (one-sided) ideal is automatically two-sided, and the nilradical\r\n  is the unique maximal nil ideal containing every nil ideal.\r\n\r\n  This file:\r\n    (a) proves Köthe for `CommRing` using Mathlib's `Ideal` API\r\n    (b) computes explicit nilpotent / non-nilpotent elements of Z/nZ\r\n    (c) charact"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -51,7 +51,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-19"
     },
-    "scopeOfImpossibility": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\n  ==========================================================\n\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\n\n  ★ Ke",
+    "scopeOfImpossibility": "STEP 926 — Köthe's Conjecture for Commutative Rings & Z/nZ\r\n  ==========================================================\r\n\r\n  Builds on STEP 888 DormantProblems.Dormant.koethe_conjecture (axiom).\r\n\r\n ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -63,7 +63,7 @@
   "leanProgressMeta": {
     "fileName": "KoetheZn.lean",
     "lineCount": 166,
-    "fileSize": 8171,
+    "fileSize": 8336,
     "theoremCount": 26,
     "lemmaCount": 0,
     "defCount": 2,
@@ -94,6 +94,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Brocard Extended 250 — 定理 45 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1157 — Brocard's problem n ∈ [211, 250] Lean 4 extension\n  ==============================================================\n\n  Follow-up to STEP 1155 (n ∈ [191, 210]). Same Nat.sqrt-based O(log) approach.\n\n  Target: n ∈ [211, 250] non-square verification (40 new theorems).\n  Combined with prior STEPs (980/990/993/1015/1016/1017/1018/1044/1154/1155/Brocard base):\n    Rei-AIOS Brocard coverage n ∈ [1, 250] (~261 theorems total).\n\n  Honest positioning:\n    - Berndt-Galway 2000: N ≤ 10⁹ (Brocard's problem search limit).\n    - Rei contribution: Lean 4 mechanical verification first record continu"
+    "headerDoc": "STEP 1157 — Brocard's problem n ∈ [211, 250] Lean 4 extension\r\n  ==============================================================\r\n\r\n  Follow-up to STEP 1155 (n ∈ [191, 210]). Same Nat.sqrt-based O(log) approach.\r\n\r\n  Target: n ∈ [211, 250] non-square verification (40 new theorems).\r\n  Combined with prior STEPs (980/990/993/1015/1016/1017/1018/1044/1154/1155/Brocard base):\r\n    Rei-AIOS Brocard coverage n ∈ [1, 250] (~261 theorems total).\r\n\r\n  Honest positioning:\r\n    - Berndt-Galway 2000: N ≤ 10⁹ (Brocard's problem search limit).\r\n    - Rei contribution: Lean 4 mechanical verification first rec"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -48,7 +48,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1157 — Brocard's problem n ∈ [211, 250] Lean 4 extension\n  ==============================================================\n\n  Follow-up to STEP 1155 (n ∈ [191, 210]). Same Nat.sqrt-based O(log) ap",
+    "scopeOfImpossibility": "STEP 1157 — Brocard's problem n ∈ [211, 250] Lean 4 extension\r\n  ==============================================================\r\n\r\n  Follow-up to STEP 1155 (n ∈ [191, 210]). Same Nat.sqrt-based O(log)",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -60,7 +60,7 @@
   "leanProgressMeta": {
     "fileName": "Step1157BrocardExtended250.lean",
     "lineCount": 137,
-    "fileSize": 7787,
+    "fileSize": 7923,
     "theoremCount": 45,
     "lemmaCount": 0,
     "defCount": 0,
@@ -91,6 +91,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

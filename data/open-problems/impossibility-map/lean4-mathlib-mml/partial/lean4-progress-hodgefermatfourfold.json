@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Hodge Fermat Fourfold — 定理 2 / sorry 0 / axiom 7",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\n\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\n  Lefschetz (1,1) axiom and the Hodge predicate at the abstract level.\n  This file specializes to the Fermat fourfold family\n\n      F_d^4 := { [x_0 : … : x_5] ∈ P^5(ℂ) | x_0^d + x_1^d + … + x_5^d = 0 }\n\n  for d ≥ 2. The case d = 4 inside P^5 is the *quartic Fermat fourfold*,\n  a workhorse test family for Hodge-theoretic questions where the\n  predicate is *open in middle dimensions* (cf. Voisin 2002).\n\n  Honest scope:\n    * Mathlib v"
+    "headerDoc": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\r\n\r\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\r\n  Lefschetz (1,1) axiom and the Hodge predicate at the abstract level.\r\n  This file specializes to the Fermat fourfold family\r\n\r\n      F_d^4 := { [x_0 : … : x_5] ∈ P^5(ℂ) | x_0^d + x_1^d + … + x_5^d = 0 }\r\n\r\n  for d ≥ 2. The case d = 4 inside P^5 is the *quartic Fermat fourfold*,\r\n  a workhorse test family for Hodge-theoretic questions where the\r\n  predicate is *open in middle dimensions* (cf. Voisin 2002).\r\n\r\n  Honest scope:\r\n  "
   },
   "field": "lean4-mathlib-mml",
   "subfield": "partial",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "progressing",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": "IV_PROBLEM_UNDEFINED",
@@ -49,7 +49,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\n\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\n  Lefschetz (1,1) axiom and the Hodg",
+    "scopeOfImpossibility": "STEP 1140 (2026-05-15) — Hodge Stage 2 scaffold: Fermat hypersurfaces (smooth) of dimension 4.\r\n\r\n  Companion to HodgeBasics.lean (STEP 885), which gives the general\r\n  Lefschetz (1,1) axiom and the H",
     "bypassability": {
       "bypassPossible": true,
       "bypassMethod": "Close 0 sorry; integrate to Mathlib",
@@ -61,7 +61,7 @@
   "leanProgressMeta": {
     "fileName": "HodgeFermatFourfold.lean",
     "lineCount": 216,
-    "fileSize": 11624,
+    "fileSize": 11839,
     "theoremCount": 2,
     "lemmaCount": 0,
     "defCount": 3,
@@ -92,6 +92,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "months-to-years"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

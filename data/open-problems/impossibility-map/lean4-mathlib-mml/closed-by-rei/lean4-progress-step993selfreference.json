@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Self Reference — 定理 4 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP 993 — Self-Reference Cluster Lean 4 Scaffolding (Rei-AIOS)\n  ================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery hypothesis:\n    \"Löb's theorem, reflective PL (3-Lisp), and acausal decision theory\n    share a common Lean 4 encoding via a fixed-point operator on a\n    self-description type.\"\n\n  Approach: provide an abstract structure `SelfRef` and attempt to give\n  three instantiations. The typing-isomorphism hypothesis is CONFIRMED\n  if all three instantiations type-check; FALSIFIED (or refined) if\n  any instance requires cha"
+    "headerDoc": "STEP 993 — Self-Reference Cluster Lean 4 Scaffolding (Rei-AIOS)\r\n  ================================================================\r\n\r\n  Falsifiable test of the Tier 3 claude-discovery hypothesis:\r\n    \"Löb's theorem, reflective PL (3-Lisp), and acausal decision theory\r\n    share a common Lean 4 encoding via a fixed-point operator on a\r\n    self-description type.\"\r\n\r\n  Approach: provide an abstract structure `SelfRef` and attempt to give\r\n  three instantiations. The typing-isomorphism hypothesis is CONFIRMED\r\n  if all three instantiations type-check; FALSIFIED (or refined) if\r\n  any instance r"
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -43,7 +43,7 @@
       "oleanBuilt": false,
       "oleanDate": null
     },
-    "scopeOfImpossibility": "STEP 993 — Self-Reference Cluster Lean 4 Scaffolding (Rei-AIOS)\n  ================================================================\n\n  Falsifiable test of the Tier 3 claude-discovery hypothesis:\n    \"L",
+    "scopeOfImpossibility": "STEP 993 — Self-Reference Cluster Lean 4 Scaffolding (Rei-AIOS)\r\n  ================================================================\r\n\r\n  Falsifiable test of the Tier 3 claude-discovery hypothesis:\r\n  ",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -55,7 +55,7 @@
   "leanProgressMeta": {
     "fileName": "Step993SelfReference.lean",
     "lineCount": 270,
-    "fileSize": 11184,
+    "fileSize": 11453,
     "theoremCount": 4,
     "lemmaCount": 0,
     "defCount": 7,
@@ -86,6 +86,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }

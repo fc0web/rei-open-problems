@@ -13,14 +13,14 @@
     "ja": "Lean 4 進捗: Batch 5 Algebra Bundle — 定理 12 / sorry 0 / axiom 0",
     "latex": null,
     "preview_source": "tier8-lean4-progress-v0.1",
-    "headerDoc": "STEP Batch 5 — Perfect numbers + Algebra + Algebraic geometry\n  ==============================================================\n\n  Concise bundled Lean 4 for unsolved problems in:\n    - Perfect number families (8 sub-types)\n    - Algebra 8 conjectures (Hadamard / Jacobson / Köthe etc.)\n    - Algebraic geometry 6 conjectures (Andre-Oort / Bass / etc.)\n\n  Most statements are meta-level (existence/infinitude of families) and\n  cannot be Lean-verified beyond small concrete instances.\n  This file collects basic definitions + known small examples."
+    "headerDoc": "STEP Batch 5 — Perfect numbers + Algebra + Algebraic geometry\r\n  ==============================================================\r\n\r\n  Concise bundled Lean 4 for unsolved problems in:\r\n    - Perfect number families (8 sub-types)\r\n    - Algebra 8 conjectures (Hadamard / Jacobson / Köthe etc.)\r\n    - Algebraic geometry 6 conjectures (Andre-Oort / Bass / etc.)\r\n\r\n  Most statements are meta-level (existence/infinitude of families) and\r\n  cannot be Lean-verified beyond small concrete instances.\r\n  This file collects basic definitions + known small examples."
   },
   "field": "lean4-mathlib-mml",
   "subfield": "closed-by-rei",
   "proposer": "Rei-AIOS (藤本 + Claude)",
   "year": 2026,
   "status": "closed",
-  "lastUpdate": "2026-10-23",
+  "lastUpdate": "2026-11-13",
   "reiTyping": {
     "primaryType": "III_COMPUTATIONAL_LIMIT",
     "secondaryType": null,
@@ -45,7 +45,7 @@
       "oleanBuilt": true,
       "oleanDate": "2026-04-20"
     },
-    "scopeOfImpossibility": "STEP Batch 5 — Perfect numbers + Algebra + Algebraic geometry\n  ==============================================================\n\n  Concise bundled Lean 4 for unsolved problems in:\n    - Perfect number ",
+    "scopeOfImpossibility": "STEP Batch 5 — Perfect numbers + Algebra + Algebraic geometry\r\n  ==============================================================\r\n\r\n  Concise bundled Lean 4 for unsolved problems in:\r\n    - Perfect num",
     "bypassability": {
       "bypassPossible": false,
       "bypassMethod": null,
@@ -57,7 +57,7 @@
   "leanProgressMeta": {
     "fileName": "Batch5AlgebraBundle.lean",
     "lineCount": 82,
-    "fileSize": 3679,
+    "fileSize": 3760,
     "theoremCount": 12,
     "lemmaCount": 0,
     "defCount": 2,
@@ -88,6 +88,6 @@
     "impossibilityEvidence": "Rei-AIOS Lean 4 verification chain",
     "executabilityEffort": "completed"
   },
-  "ingested": "2026-10-23",
+  "ingested": "2026-11-13",
   "ingestMethod": "tier8-lean4-progress-auto-v0.1"
 }
